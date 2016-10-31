@@ -9,8 +9,8 @@ project:
   title: "MongoDB Compass"
   branched: true
 version:
-  release: 'master'
-  branch: 'master'
+  release: 'beta'
+  branch: 'beta'
 system:
   files:
     - 'intersphinx.yaml'
