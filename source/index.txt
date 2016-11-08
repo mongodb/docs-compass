@@ -11,7 +11,7 @@ MongoDB Compass
    - Beta Version.
 
    To download either versions, go to the `MongoDB Download Center
-   <https://www.mongodb.com/downloads#compass>`_.
+   <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
 
 Upcoming Features Available in Beta
 -----------------------------------
@@ -36,10 +36,13 @@ JIRA`_. For other feedback, contact
       /install
       /connect
       /understanding-charts
+      /databases
+      /collections
       /insert
       /query
       /update
       /delete
+      /performance
       /release-notes
       /faq
 
