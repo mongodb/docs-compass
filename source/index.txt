@@ -13,21 +13,10 @@ MongoDB Compass
    To download either versions, go to the `MongoDB Download Center
    <https://www.mongodb.com/downloads#compass>`_.
 
-Overview
---------
+Upcoming Features Available in Beta
+-----------------------------------
 
-|compass| is designed to allow
-users to easily analyze and understand the contents of
-their data collections within MongoDB and
-perform queries, without requiring knowledge of MongoDB
-:manual:`query syntax </tutorial/query-documents>`.
-
-|compass| provides users with a graphical view of their MongoDB
-schema by randomly sampling a subset of documents from the
-collection. Sampling documents minimizes
-performance impact on the database and can produce results quickly.
-See the :ref:`FAQ<compass-faq-sampling>`
-for further information on sampling.
+See :ref:`latest-beta` for features available in Beta.
 
 Contact
 -------
