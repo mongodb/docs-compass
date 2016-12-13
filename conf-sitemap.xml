@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site
-  base_url="https://docs.mongodb.com/compass/"
-  store_into="build/master/sitemap.xml.gz"
+  base_url="https://docs.mongodb.com/compass/beta/"
+  store_into="build/beta/sitemap.xml.gz"
   verbose="1"
   >
 
 <directory
-	path="build/public/"
-	url="https://docs.mongodb.com/compass/"
+	path="build/public/beta/"
+	url="https://docs.mongodb.com/compass/beta/"
 	default_file="index.html"
 	/>
 <filter  action="drop"  type="wildcard"  pattern="*~" />
