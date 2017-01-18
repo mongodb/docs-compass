@@ -12,6 +12,15 @@ Release Notes
 
 .. _latest-beta:
 
+|compass| 1.6
+-------------
+
+*Released Jan 17, 2017*
+
+- Added support for Linux: Ubuntu 14.04+ and RHEL 7+
+
+- Added ability to zoom in and zoom out of panels.
+
 |compass| 1.5
 -------------
 
