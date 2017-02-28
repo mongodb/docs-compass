@@ -12,10 +12,17 @@ Release Notes
 
 .. _latest-beta:
 
+|compass| 1.7
+-------------
+
+Released Mar 2, 2017
+
+- Added ability to include options in the query bar.
+
 |compass| 1.6
 -------------
 
-*Released Jan 17, 2017*
+*Released Mar 1, 2017*
 
 - Added support for Linux: Ubuntu 14.04+ and RHEL 7+
 
