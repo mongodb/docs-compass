@@ -33,8 +33,8 @@ Query Bar
    .. include:: /includes/extracts/query-bar-results.rst
 
 From the query bar in the :guilabel:`Schema` tab, you can specify the
-query, and if you click the :guilabel:`Options`, you can also specify
-query options.
+query filter, and if you click the :guilabel:`Options`, you can also
+specify query options.
    
 .. figure:: /images/compass/query-bar-schema-view.png
    :figwidth: 730px
