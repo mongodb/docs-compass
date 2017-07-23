@@ -13,10 +13,10 @@ MongoDB Compass
    To download either versions, go to the `MongoDB Download Center
    <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
 
-.. Upcoming Features Available in Beta
-.. -----------------------------------
+Upcoming Features Available in Beta
+-----------------------------------
 
-.. See :ref:`latest-beta` for features available in Beta.
+See :ref:`latest-beta` for features available in Beta.
 
 Contact
 -------
