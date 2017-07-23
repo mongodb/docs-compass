@@ -12,6 +12,14 @@ Release Notes
 
 .. _latest-beta:
 
+|compass| 1.8 Beta
+------------------
+
+- Added ability to specify replica set name and read preference in
+  connection screen.
+
+- Added ability to parse MongoDB URI string in the connection screen.
+
 |compass| 1.7
 -------------
 
