@@ -12,8 +12,15 @@ Release Notes
 
 .. _latest-beta:
 
-|compass| 1.8 Beta
+|compass| 1.9 Beta
 ------------------
+
+*Upcoming*
+
+|compass| 1.8
+-------------
+
+*Released Aug 2, 2017*
 
 - Added ability to specify replica set name and read preference in
   connection screen.
