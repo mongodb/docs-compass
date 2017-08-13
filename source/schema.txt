@@ -20,7 +20,7 @@ The report is based on :ref:`sampling of the documents
 <compass-faq-sampling>` in the collection.
 
 .. figure:: /images/compass/collection-schema.png
-   :figwidth: 795px
+   :figwidth: 817px
 
 To access the :guilabel:`Schema` tab for a collection, click on a
 collection on the left hand pane and select the :guilabel:`Schema` tab.
@@ -39,13 +39,12 @@ specify query options.
 .. figure:: /images/compass/query-bar-schema-view.png
    :figwidth: 730px
 
-.. include:: /includes/extracts/query-bar-type.rst
+.. include:: /includes/extracts/query-bar-type-schema.rst
 
 .. tip::
 
-   In the :guilabel:`Schema` tab, you can also use the Query Builder to
-   enter a query into the query bar. For details, see
-   :ref:`build-query`.
+   In the :guilabel:`Schema` tab, you can also use the :ref:`build-query` to
+   enter a query into the query bar.
 
 Charts
 ------
@@ -170,6 +169,7 @@ Fields that contain GeoJSON data or ``[latitude,longitude]`` arrays are
 displayed with interactive maps.
 
 .. figure:: /images/compass/geo-visualization.png
+   :figwidth: 816px
 
 View Charts of Mixed Types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~

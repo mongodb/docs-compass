@@ -31,9 +31,9 @@ query filter, and if you click the :guilabel:`Options`, you can also
 specify query options.
 
 .. figure:: /images/compass/query-bar-documents-view.png
-      :figwidth: 780px
+      :figwidth: 805px
 
-.. include:: /includes/extracts/query-bar-type.rst
+.. include:: /includes/extracts/query-bar-type-documents.rst
 
 .. _view-documents:
 
@@ -45,8 +45,8 @@ tab loads, Compass displays all documents that match your query criteria
 (or all documents within the sample if no query criteria was
 specified).
 
-.. figure:: /images/compass/doc-view.svg
-  :figwidth: 800px
+.. figure:: /images/compass/doc-view.png
+  :figwidth: 810px
 
 .. _insert-documents:
 
@@ -56,7 +56,7 @@ Insert Documents
 Click the :guilabel:`Insert Document` button to insert a new document:
 
 .. figure:: /images/compass/insert-button.png
-  :figwidth: 800px
+  :figwidth: 816px
 
 The insert dialog appears:
 
@@ -148,7 +148,7 @@ and values. You can edit any of these fields and values before
 you insert the new document.
 
 .. figure:: /images/compass/clone-doc2.png
-  :figwidth: 740px
+  :figwidth: 702px
 
 
 Modify Documents
@@ -157,7 +157,7 @@ Modify Documents
 To edit a document, hover over the document and select the pencil icon:
 
 .. figure:: /images/compass/edit-doc.png
-  :figwidth: 740px
+  :figwidth: 765px
 
 After you click the pencil icon, the document enters edit mode:
 

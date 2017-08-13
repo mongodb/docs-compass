@@ -8,36 +8,36 @@ From the various Collections tabs, you can use the query bar to specify
 MongoDB queries.  For details, see :ref:`querying`.
 
 .. figure:: /images/compass/query-bar-documents-view.png
-   :figwidth: 780px
+   :figwidth: 805px
 
-You can specify a query filter in the query bar. If you click the 
+You can specify a query filter in the query bar. If you click 
 :guilabel:`Options` to expand the query bar, you also have access to 
 the ``project``, ``sort``, ``skip``, and ``limit`` options of the query.
 
 .. list-table::
    :widths: 15 85
 
-   * - ``Filter``
+   * - Filter
 
      - Filter for the schema view.
 	 
-   * - ``Project``
+   * - `Project <https://docs.mongodb.com/manual/reference/operator/aggregation/project/>`_
 
      - The projection to determine the fields to return.  Specify the field and
        ``1`` to include a field or ``0`` to exclude a field.
 
-   * - ``Sort``
+   * - `Sort <https://docs.mongodb.com/manual/reference/operator/aggregation/sort/>`_
 
      - The sort order of the returned documents. To specify
        ascending order for a field, specify the field and ``1``.
        To specify descending order for a field, specify the field and ``-1``.
 
-   * - ``Skip``
+   * - `Skip <https://docs.mongodb.com/manual/reference/operator/aggregation/skip/>`_
 
      - The number of matching documents to skip before returning
        documents.
 
-   * - ``Limit``
+   * - `Limit <https://docs.mongodb.com/manual/reference/operator/aggregation/limit/>`_
 
      - The upper limit for the number of documents to return.
 	 
@@ -53,23 +53,19 @@ operator.
 
 .. tip:: 
 
-   In the :doc:`Schema </schema>` tab, you can also use the Query
-   Builder to enter a query into the query bar. For details, see
-   :ref:`build-query`.
+   In the :doc:`Schema </schema>` tab, you can also use the :ref:`build-query`
+   to enter a query into the query bar.
 
-As you type, the :guilabel:`Apply` button is disabled and the
+As you type, the :guilabel:`Find` button is disabled and the
 :guilabel:`Filter` label turns red until a valid query is entered.
 Filter syntax requires strict :manual:`extended JSON
-</reference/mongodb-extended-json/>` types. For instance, to specify an
-``ObjectID``, use the format ``{ "$oid": "<string>" }``
-as in the following filter example:
+</reference/mongodb-extended-json/>` types. To specify an
+`ObjectID <https://docs.mongodb.com/manual/reference/method/ObjectId/>`_,
+use the format ``{ "$oid": "<string>" }``, as in the following filter example:
 
 .. code-block:: javascript
 
    { "_id": { "$oid": "58eee4f43d1a10a4e5339aac" } }
-
-When you have entered a valid MongoDB query, the :guilabel:`Filter`
-label is no longer red and :guilabel:`Apply` button is enabled. 
 
 Project
 ~~~~~~~
@@ -82,7 +78,7 @@ To set projection, click :guilabel:`Options` and enter in the
 projection document:
 
 - To include fields, specify the field name and set to ``1`` in the
-  project document. For example:
+  project document, as in the following example:
 
   .. code-block:: javascript
 
@@ -92,7 +88,7 @@ projection document:
   field if it is not set to ``0`` in project document) are returned.
  
 - To exclude fields, specify the field name and set to ``0`` in the
-  project document:
+  project document, as in the following example:
 
   .. code-block:: javascript
 
@@ -146,12 +142,10 @@ maximum number of documents to return. To specify the limit, click
 Run the Query
 ~~~~~~~~~~~~~
 
-Click the :guilabel:`Apply` button to run the query and view the
-updated results.
+Click :guilabel:`Find` to run the query and view the updated results.
 
 .. note::
 
    .. include:: /includes/extracts/query-bar-results.rst
 
-To clear the query bar and the results of the query, click the
-:guilabel:`Reset` button.
+To clear the query bar and the results of the query, click :guilabel:`Reset`.

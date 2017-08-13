@@ -14,10 +14,10 @@ The :guilabel:`Explain Plan` tab displays the execution plan for a
 query.
 
 To view the execution plan for a query filter, click on the collection
-on the left hand pane and select the :guilabel:`Explain Plan` tab.
+on the left hand pane, then click :guilabel:`Explain Plan`.
 
-.. figure:: /images/compass/query-plan.svg
-  :figwidth: 788px
+.. figure:: /images/compass/query-plan.png
+  :figwidth: 815px
 
 Query Bar
 ---------
@@ -29,7 +29,7 @@ Query Bar
 From the query bar in the :guilabel:`Explain Plans` tab, you can
 specify a query filter.
 
-.. include:: /includes/extracts/query-bar-type.rst
+.. include:: /includes/extracts/query-bar-type-queryplan.rst
 
 Visual Tree
 -----------
@@ -39,7 +39,7 @@ pipeline appears as a node on the tree. This makes sharded cluster
 outputs easier to understand and visualize.
 
 .. figure:: /images/compass/explain-tree.png
-  :figwidth: 800px
+  :figwidth: 808px
 
 
 Raw JSON
