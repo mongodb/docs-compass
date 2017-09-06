@@ -58,14 +58,39 @@ operator.
 
 As you type, the :guilabel:`Find` button is disabled and the
 :guilabel:`Filter` label turns red until a valid query is entered.
-Filter syntax requires strict :manual:`extended JSON
-</reference/mongodb-extended-json/>` types. To specify an
-`ObjectID <https://docs.mongodb.com/manual/reference/method/ObjectId/>`_,
-use the format ``{ "$oid": "<string>" }``, as in the following filter example:
+The Compass :guilabel:`Filter` supports using the :program:`mongo`
+shell mode representation of the MongoDB Extended JSON `BSON data types
+<https://docs.mongodb.com/manual/reference/mongodb-extended-json/#bson-data-types-and-associated-representations>`_.
+
+For example, consider a field ``start_date`` that stores dates using the
+``Date`` `BSON type
+<https://docs.mongodb.com/manual/reference/bson-types/#bson-types>`_.
+
+The following filter returns documents where ``start_date`` is
+`greater than <https://docs.mongodb.com/manual/reference/operator/query/gt/>`_
+the BSON date ``2017-05-01``:
 
 .. code-block:: javascript
 
-   { "_id": { "$oid": "58eee4f43d1a10a4e5339aac" } }
+   { "start_date": {$gt: new Date ('2017-05-01')} }
+
+
+If you executed the filter without identifying the string "2017-05-01" as the
+``Date`` BSON type, Compass would return documents based on a
+`lexicographical <https://en.wikipedia.org/wiki/Lexicographical_order>`_
+comparison against the string "2017-05-01" instead of a chronological
+comparison against the date "2017-05-01"
+
+For more information on BSON comparison and sort order, see
+`BSON Comparison/Sort Order
+<https://docs.mongodb.com/manual/reference/bson-type-comparison-order>`_
+
+To specify an `ObjectID <https://docs.mongodb.com/manual/reference/method/ObjectId/>`_,
+use the format ``ObjectId('<id>')``, as in the following filter example:
+
+.. code-block:: javascript
+
+   { "_id": ObjectId('59a87101f17fcbfbc9cd4374') }
 
 Project
 ~~~~~~~
