@@ -62,23 +62,28 @@ The Compass :guilabel:`Filter` supports using the :program:`mongo`
 shell mode representation of the MongoDB Extended JSON `BSON data types
 <https://docs.mongodb.com/manual/reference/mongodb-extended-json/#bson-data-types-and-associated-representations>`_.
 
-For example, the following filter returns documents where
-``start_date`` is greater than than the BSON ``Date``
-``2017-05-01``:
+For example, consider a field ``start_date`` that stores dates using the
+``Date`` `BSON type
+<https://docs.mongodb.com/manual/reference/bson-types/#bson-types>`_.
+
+The following filter returns documents where ``start_date`` is
+`greater than <https://docs.mongodb.com/manual/reference/operator/query/gt/>`_
+the BSON date ``2017-05-01``:
 
 .. code-block:: javascript
 
    { "start_date": {$gt: new Date ('2017-05-01')} }
 
-By specifying the ``Date`` type in both ``start_date`` and the ``$gt``
-comparison operator, Compass performs the ``greater than`` comparison
-chronologically, returning documents with ``start_date`` later than
-``2017-05-01``.
 
-Without the ``Date`` type specification, Compass compares the 
-``start_dates`` as strings 
-`lexicographically <https://en.wikipedia.org/wiki/Lexicographical_order>`_,
-instead of comparing the values chronologically.
+If you executed the filter without identifying the string "2017-05-01" as the
+``Date`` BSON type, Compass would return documents based on a
+`lexicographical <https://en.wikipedia.org/wiki/Lexicographical_order>`_
+comparison against the string "2017-05-01" instead of a chronological
+comparison against the date "2017-05-01"
+
+For more information on BSON comparison and sort order, see
+`BSON Comparison/Sort Order
+<https://docs.mongodb.com/manual/reference/bson-type-comparison-order>`_
 
 To specify an `ObjectID <https://docs.mongodb.com/manual/reference/method/ObjectId/>`_,
 use the format ``ObjectId('<id>')``, as in the following filter example:
