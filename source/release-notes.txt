@@ -12,6 +12,11 @@ Release Notes
 
 .. _latest-beta:
 
+|compass| 1.9 Beta
+------------------
+
+- Added autocomplete functionality to the query bar.
+
 |compass| 1.8 Beta
 ------------------
 
