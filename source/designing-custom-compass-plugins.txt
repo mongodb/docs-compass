@@ -1,0 +1,139 @@
+================================
+Designing Custom Compass Plugins
+================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Overview
+--------
+
+Compass is comprised of a set of individually packaged Javascript
+modules which are run in a plugin framework. The plugin framework is
+accessible through an API accessible by developers to build and
+execute Compass plugins.
+
+Compass plugins are written in `ReactJS <https://reactjs.org/>`_.
+
+Getting Started
+---------------
+
+1. Install the latest version of |compass| for your operating system.
+
+   You can download Compass from the
+   `MongoDB Download Center <https://www.mongodb.com/download-center#compass>`_.
+
+2. Install :abbr:`NVM (Node Version Manager)`.
+
+   For MacOS and Linux operating systems, follow
+   `these instructions <https://github.com/creationix/nvm#install-script>`_.
+
+   For Windows operating systems: 
+
+   a. Follow
+      `this link <https://github.com/coreybutler/nvm-windows/releases>`_
+      and download the ``nvm-setup.zip`` file.
+
+   b. Decompress the downloaded .zip file and run ``nvm-setup.exe``.
+
+3. Install NodeJS 7.4.0 via NVM:
+
+   .. cssclass:: copyable-code
+   .. code-block:: none
+
+      nvm install 7.4.0
+
+4. Install the Khaos templating engine:
+
+   .. cssclass:: copyable-code
+   .. code-block:: none
+
+      npm install -g khaos
+
+5. Create the Plugins Directory
+
+   The following command creates the directory in which Compass looks
+   for plugins:
+
+   .. cssclass:: copyable-code
+   .. code-block:: none
+
+      mkdir -p ~/.mongodb/compass/plugins
+
+6. Generate a plugin template
+
+   Run the following command, replacing ``<my-plugin>`` with the name
+   of the plugin you wish to create:
+
+   .. cssclass:: copyable-code
+   .. code-block:: none
+
+      cd ~/.mongodb/compass/plugins
+      khaos create mongodb-js/compass-plugin ./<my-plugin>
+
+   When prompted, enter the following fields:
+
+   .. list-table::
+      :header-rows: 1
+ 
+      * - **Field**
+ 
+        - **Description**
+ 
+      * - Name
+ 
+        - Name of the plugin. When naming your plugin,
+          `Kebab Case <http://wiki.c2.com/?KebabCase>`_ is recommended,
+          e.g. *my-plugin*, *query-bar* or *db-stats*. Do not use
+          spaces.
+ 
+      * - Description
+ 
+        - A brief description of what your plugin does.
+ 
+      * - Role
+ 
+        - Must be one of the following: 
+ 
+          - Instance.Tab
+          - Header.Item
+          - Database.Tab
+          - Collection.Tab
+          - CollectionHUD.item
+ 
+          For details on these roles, see
+          :ref:`Plugin Roles <plugins-roles>`.
+
+Restrictions
+------------
+
+Third party plugins are currently restricted from the following actions:
+
+1. External network access over any protocol outside of the database
+   connection. This includes network access via NodeJS APIs or
+   HTML tags such as
+   `XMLHttpRequest <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>`_.
+
+2. File system access, both read and write.
+
+   .. note::
+
+      Access to browser local storage, such as
+      `IndexedDB <https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API>`_,
+      is permitted.
+
+3. Spawning child processes from the plugin.
+
+4. Access to Compass internal preferences and core models.
+
+.. class:: hidden
+
+   .. toctree::
+      :titlesonly:
+
+      /plugin-reference

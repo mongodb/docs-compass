@@ -48,6 +48,7 @@ JIRA`_. For other feedback, contact
       /connect
       /instance
       /collections
+      /designing-custom-compass-plugins
       /release-notes
       /faq
 
