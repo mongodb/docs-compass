@@ -576,15 +576,15 @@ class names to components.
          }
        }
 
-export default MyComponent;
-export { MyComponent };
+       export default MyComponent;
+       export { MyComponent };
 
 Registering Components
 ~~~~~~~~~~~~~~~~~~~~~~
 
 To allow a plugin to use a component from another plugin or register
 one of its own components for other plugins to use, the component must
-be added to the application registry in ``./src/index.js`.
+be added to the application registry in ``./src/index.js``.
 
 .. example::
 
