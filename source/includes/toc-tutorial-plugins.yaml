@@ -1,0 +1,6 @@
+file: /tutorial/hardware-tutorial
+description: |
+   Create a basic plugin which displays hardware information of the
+   machine currently running Compass in the
+   :ref:`Collection HUD <plugin-ref-collectionhud-items>`.
+...

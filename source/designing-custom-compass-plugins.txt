@@ -20,6 +20,8 @@ execute Compass plugins.
 
 Compass plugins are written in `ReactJS <https://reactjs.org/>`_.
 
+.. _plugins-getting-started:
+
 Getting Started
 ---------------
 
@@ -137,3 +139,4 @@ Third party plugins are currently restricted from the following actions:
       :titlesonly:
 
       /plugin-reference
+      /plugin-tutorials

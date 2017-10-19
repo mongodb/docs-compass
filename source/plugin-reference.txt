@@ -318,8 +318,9 @@ Compass plugins are written in ReactJS, which is comprised of
 and :ref:`components <plugins-components>`.
 
 - Stores keep track of state information and pass that information to
-  the components.
-- Components receive and render information from the store.
+  components.
+- Components receive and render information from the store to the user
+  interface.
 - Actions are how components with the store to trigger changes.
 
 The following diagram illustrates how these pieces interact with one
@@ -373,27 +374,28 @@ loaded before loading it from the application registry.
       import Reflux from 'reflux';
       import StateMixin from 'reflux-state-mixin';
       import Actions from 'actions';
-
+      
       const MyStore = Reflux.createStore({
-
+      
         mixins: [StateMixin.store],
-
+      
         listenables: Actions,
-
+      
         /**
          * return the initial store state
          */
         getInitialState: function() {
           return { connected: false };
         },
-
-       /**
+      
+        /**
          * called when all plugins are activated. Subscribe to external stores here.
          */
         onActivated: function(appRegistry) {
           appRegistry.getStore('ExternalStore').listenTo(this.handleExternalChange.bind(this));
+          appRegistry.on('data-service-connected', this.onConnected.bind(this));
         },
-
+      
         /**
          * called when a connection has been established (or failed to establish).
          */
@@ -406,12 +408,12 @@ loaded before loading it from the application registry.
             });
           }
         },
-
+      
         handleExternalChange(extState) {
           // Do something here.
         }
       });
-
+      
       export default MyStore;
       export { MyStore };
 

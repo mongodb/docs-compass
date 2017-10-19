@@ -1,0 +1,29 @@
+=======================
+Database Users Tutorial
+=======================
+
+This tutorial demonstrates how to create a basic Compass plugin which
+displays the users of a database and their roles in a new database tab.
+
+Before beginning this tutorial, make sure you have followed the steps
+in the :ref:`Getting Started <plugins-getting-started>` section of the
+:doc:`Designing Custom Compass Plugins </designing-custom-compass-plugins>`
+page.
+
+1. Generate a plugin template
+
+   a. Run the following commands to create a plugin named
+      ``database-users``:
+
+   .. cssclass:: copyable-code
+   .. code-block:: none
+
+      cd ~/.mongodb/compass/plugins
+      khaos create mongodb-js/compass-plugin ./database-users
+
+   b. When prompted, enter the following values:
+
+      - For ``name``, enter ``database-users``.
+      - For ``description``, enter a brief description of this plugin.
+      - For ``role``, enter ``Database.Tab``.
+
