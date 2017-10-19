@@ -1,0 +1,12 @@
+ref: _plugin-instantiate-base
+content: |
+  Run the following command{{suffix}}
+
+  .. cssclass:: copyable-code
+  .. code-block:: sh
+
+     cd ~/.mongodb/compass/plugins
+     khaos create mongodb-js/compass-plugin ./{{name}}
+replacement:
+  suffix: "."
+...
