@@ -1,6 +1,6 @@
-================================
-Designing Custom Compass Plugins
-================================
+========================
+Creating Compass Plugins
+========================
 
 .. default-domain:: mongodb
 
@@ -13,19 +13,19 @@ Designing Custom Compass Plugins
 Overview
 --------
 
-Compass is comprised of a set of individually packaged Javascript
+|compass| is comprised of a set of individually packaged Javascript
 modules which are run in a plugin framework. The plugin framework is
 accessible through an API accessible by developers to build and
-execute Compass plugins.
+execute |compass| plugins.
 
-Compass plugins are written in `ReactJS <https://reactjs.org/>`_.
+|compass| plugins are written in `ReactJS <https://reactjs.org/>`_.
 
 Getting Started
 ---------------
 
 1. Install the latest version of |compass| for your operating system.
 
-   You can download Compass from the
+   You can download |compass| from the
    `MongoDB Download Center <https://www.mongodb.com/download-center#compass>`_.
 
 2. Install :abbr:`NVM (Node Version Manager)`.
@@ -33,7 +33,7 @@ Getting Started
    For MacOS and Linux operating systems, follow
    `these instructions <https://github.com/creationix/nvm#install-script>`_.
 
-   For Windows operating systems: 
+   For Windows operating systems:
 
    a. Follow
       `this link <https://github.com/coreybutler/nvm-windows/releases>`_
@@ -57,7 +57,7 @@ Getting Started
 
 5. Create the Plugins Directory
 
-   The following command creates the directory in which Compass looks
+   The following command creates the directory in which |compass| looks
    for plugins:
 
    .. cssclass:: copyable-code
@@ -80,60 +80,56 @@ Getting Started
 
    .. list-table::
       :header-rows: 1
- 
+
       * - **Field**
- 
+
         - **Description**
- 
+
       * - Name
- 
+
         - Name of the plugin. When naming your plugin,
           `Kebab Case <http://wiki.c2.com/?KebabCase>`_ is recommended,
           e.g. *my-plugin*, *query-bar* or *db-stats*. Do not use
           spaces.
- 
+
       * - Description
- 
+
         - A brief description of what your plugin does.
- 
+
       * - Role
- 
-        - Must be one of the following: 
- 
-          - Instance.Tab
-          - Header.Item
-          - Database.Tab
-          - Collection.Tab
-          - CollectionHUD.item
- 
+
+        - Must be one of the following:
+
+          - :ref:`Instance.Tab <plugin-ref-instance-tabs>`
+          - :ref:`Header.Item <plugin-ref-header-items>`
+          - :ref:`Database.Tab <plugin-ref-database-tabs>`
+          - :ref:`Collection.Tab <plugin-ref-collection-tabs>`
+          - :ref:`CollectionHUD.item <plugin-ref-collectionhud-items>`
+
           For details on these roles, see
           :ref:`Plugin Roles <plugins-roles>`.
 
 Restrictions
 ------------
 
-Third party plugins are currently restricted from the following actions:
+Third-party plugins are prohibited from taking any of the following
+actions:
 
-1. External network access over any protocol outside of the database
-   connection. This includes network access via NodeJS APIs or
-   HTML tags such as
-   `XMLHttpRequest <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>`_.
+1. Accessing network resources over any protocol outside of the database
+   connection. This includes network access via NodeJS or DOM APIs such
+   as `XMLHttpRequest
+   <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>`_,
 
-2. File system access, both read and write.
+#. Accessing the filesystem outside of DOM APIs such as `IndexedDB
+   <https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API>`_,
 
-   .. note::
+#. Spawning child processes, and
 
-      Access to browser local storage, such as
-      `IndexedDB <https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API>`_,
-      is permitted.
-
-3. Spawning child processes from the plugin.
-
-4. Access to Compass internal preferences and core models.
+#. Accessing |compass| internal preferences and core models.
 
 .. class:: hidden
 
    .. toctree::
       :titlesonly:
 
-      /plugin-reference
+      /plugins/reference
