@@ -117,12 +117,12 @@ actions:
 1. Accessing network resources over any protocol outside of the database
    connection. This includes network access via NodeJS or DOM APIs such
    as `XMLHttpRequest
-   <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>`_,
+   <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>`_.
 
 #. Accessing the filesystem outside of DOM APIs such as `IndexedDB
-   <https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API>`_,
+   <https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API>`_.
 
-#. Spawning child processes, and
+#. Spawning child processes.
 
 #. Accessing |compass| internal preferences and core models.
 

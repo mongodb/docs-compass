@@ -317,11 +317,12 @@ Writing Your Plugin
 :ref:`stores <plugins-stores>`, :ref:`actions <plugins-actions>`
 and :ref:`components <plugins-components>`.
 
-- Stores keep track of state information and pass that information to
-  components.
-- Components receive and render information from the store to the user
-  interface.
-- Actions are how components with the store to trigger changes.
+- **Stores** keep track of state information and pass that information
+  to components.
+- **Components** receive and render information from the store to the
+  user interface.
+- **Actions** are how components communicate with the store to trigger
+  changes.
 
 The following diagram illustrates how these pieces interact with one
 another:
