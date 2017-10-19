@@ -1,0 +1,134 @@
+========================
+Creating Compass Plugins
+========================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Overview
+--------
+
+|compass| is comprised of a set of individually packaged Javascript
+modules which are run in a plugin framework. The plugin framework is
+accessible through an API accessible by developers to build and
+execute |compass| plugins.
+
+|compass| plugins are written in `ReactJS <https://reactjs.org/>`_.
+
+Getting Started
+---------------
+
+.. _plugins-install-dependencies:
+
+Install Dependencies
+~~~~~~~~~~~~~~~~~~~~
+
+1. Install the latest version of |compass| for your operating system.
+
+   You can download |compass| from the
+   `MongoDB Download Center <https://www.mongodb.com/download-center#compass>`_.
+
+2. Install :abbr:`NVM (Node Version Manager)`.
+
+   For MacOS and Linux operating systems, follow
+   `these instructions <https://github.com/creationix/nvm#install-script>`_.
+
+   For Windows operating systems:
+
+   a. Follow
+      `this link <https://github.com/coreybutler/nvm-windows/releases>`_
+      and download the ``nvm-setup.zip`` file.
+
+   b. Decompress the downloaded .zip file and run ``nvm-setup.exe``.
+
+3. Install NodeJS 7.4.0 via NVM:
+
+   .. cssclass:: copyable-code
+   .. code-block:: sh
+
+      nvm install 7.4.0
+
+4. Install the Khaos templating engine:
+
+   .. cssclass:: copyable-code
+   .. code-block:: sh
+
+      npm install -g khaos
+
+5. Create the Plugins Directory
+
+   The following command creates the directory in which |compass| looks
+   for plugins:
+
+   .. cssclass:: copyable-code
+   .. code-block:: sh
+
+      mkdir -p ~/.mongodb/compass/plugins
+
+Create an Empty Plugin
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: /includes/extracts/plugin-instantiate-generic.rst
+
+When prompted, enter the following fields:
+
+.. list-table::
+   :header-rows: 1
+
+   * - **Field**
+
+     - **Description**
+
+   * - Name
+
+     - Name of the plugin. When naming your plugin,
+       `Kebab Case <http://wiki.c2.com/?KebabCase>`_ is recommended,
+       e.g. *my-plugin*, *query-bar* or *db-stats*. Do not use
+       spaces.
+
+   * - Description
+
+     - A brief description of what your plugin does.
+
+   * - Role
+
+     - Must be one of the following:
+
+       - :ref:`Instance.Tab <plugin-ref-instance-tabs>`
+       - :ref:`Header.Item <plugin-ref-header-items>`
+       - :ref:`Database.Tab <plugin-ref-database-tabs>`
+       - :ref:`Collection.Tab <plugin-ref-collection-tabs>`
+       - :ref:`CollectionHUD.item <plugin-ref-collectionhud-items>`
+
+       For details on these roles, see
+       :ref:`Plugin Roles <plugins-roles>`.
+
+Restrictions
+------------
+
+Third-party plugins are prohibited from taking any of the following
+actions:
+
+1. Accessing network resources over any protocol outside of the database
+   connection. This includes network access via NodeJS or DOM APIs such
+   as `XMLHttpRequest
+   <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>`_,
+
+#. Accessing the filesystem outside of DOM APIs such as `IndexedDB
+   <https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API>`_,
+
+#. Spawning child processes, and
+
+#. Accessing |compass| internal preferences and core models.
+
+.. class:: hidden
+
+   .. toctree::
+      :titlesonly:
+
+      /plugins/reference

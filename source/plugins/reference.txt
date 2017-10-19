@@ -15,7 +15,7 @@ Compass Plugin Reference
 Plugin Roles
 ------------
 
-The role of your plugin dictates where it fits inside of Compass. Each
+The role of your plugin dictates where it fits inside of |compass|. Each
 role represents a different area of the UI within which your plugin
 exists.
 
@@ -34,8 +34,8 @@ Instance Tabs
 
 This role provides the option to add a new tab at the instance level,
 accessible by clicking the :guilabel:`Home Icon` for your cluster at
-the top-left of the Compass window. Currently, the two Instance Tabs
-in Compass are :guilabel:`Databases` and :guilabel:`Performance`.
+the top-left of the |compass| window. Currently, the two Instance Tabs
+in |compass| are :guilabel:`Databases` and :guilabel:`Performance`.
 
 .. figure:: /images/compass/instance-tab.png
 
@@ -81,7 +81,7 @@ The Instance Tabs role supports the following options:
 Header Items
 ~~~~~~~~~~~~
 
-Header items display global information shown on every page of Compass.
+Header items display global information shown on every page of |compass|.
 These items exist at the top of the application and are shown next to
 the hostname.
 
@@ -149,7 +149,7 @@ Database Tabs
 ~~~~~~~~~~~~~
 
 This role provides the option to add a new tab at the database level.
-Currently, the only database tab in Compass is :guilabel:`Collections`,
+Currently, the only database tab in |compass| is :guilabel:`Collections`,
 which displays a list of collections within the selected database.
 
 .. figure:: /images/compass/database-tab.png
@@ -191,13 +191,13 @@ The Database Tabs role supports the following options:
 
      - The order this tab appears in the tab list, from 1-n.
 
-.. _plugin-ref-collection-tabs:     
+.. _plugin-ref-collection-tabs:
 
 Collection Tabs
 ~~~~~~~~~~~~~~~
 
 This role provides the option to add a new tab at the collection level.
-Currently, the following collection tabs exist within Compass:
+Currently, the following collection tabs exist within |compass|:
 
 - Documents
 - Schema
@@ -253,7 +253,7 @@ The Collection Tabs role supports the following options:
 
      - The minimum server version required to use the component
 
-.. _plugin-ref-collectionhud-items:     
+.. _plugin-ref-collectionhud-items:
 
 CollectionHUD Items
 ~~~~~~~~~~~~~~~~~~~
@@ -261,7 +261,7 @@ CollectionHUD Items
 This role exists at the collection level, displaying information in the
 top-right corner of the collection GUI. CollectionHUD items display
 numerical information relevant to the collection currently being viewed
-by the user. Currently, Compass uses this space to show a count, total
+by the user. Currently, |compass| uses this space to show a count, total
 size, and average size of documents and indexes in a collection.
 
 .. figure:: /images/compass/collection-hud.png
@@ -313,7 +313,7 @@ The CollectionHUD Items role supports the following options:
 Writing Your Plugin
 -------------------
 
-Compass plugins are written in ReactJS, which is comprised of
+|compass| plugins are written in ReactJS, which is comprised of
 :ref:`stores <plugins-stores>`, :ref:`actions <plugins-actions>`
 and :ref:`components <plugins-components>`.
 
@@ -349,7 +349,7 @@ Defining Stores
 
 .. note::
 
-   Compass is tied to Reflux 0.4.1, so stores need to be defined
+   |compass| is tied to Reflux 0.4.1, so stores need to be defined
    using the Reflux 0.4.1 syntax. For details on creating data stores
    in Reflux 0.4.1, see
    `this page <https://github.com/reflux/refluxjs/tree/e34c2b7fb9199062cc587f883aeb1be233a3ef25#creating-data-stores>`_.
@@ -441,7 +441,7 @@ Actions
 
 Actions in a plugin are events that happen when a user performs an
 action. For example, these can be button clicks, link clicks or text
-entry to name a few. 
+entry to name a few.
 
 Actions are defined using Reflux. Stores are the objects that listen
 to the actions.
@@ -524,14 +524,14 @@ Defining Components
 Components are defined using
 `ES6 classes <http://es6-features.org/#ClassDefinition>`_ and the
 `React prop-type module <https://reactjs.org/docs/typechecking-with-proptypes.html>`_
-for property validation. 
+for property validation.
 
 User interface actions that require
 application state changes should fire Reflux actions. Component state
 changes force the component to re-render. Styles should be imported
 from a local ``.less`` file with the same filename as the component.
 
-Compass uses the Node package
+|compass| uses the Node package
 `classnames <https://www.npmjs.com/package/classnames>`_ to provide
 class names to components.
 
@@ -578,15 +578,15 @@ class names to components.
          }
        }
 
-export default MyComponent;
-export { MyComponent };
+       export default MyComponent;
+       export { MyComponent };
 
 Registering Components
 ~~~~~~~~~~~~~~~~~~~~~~
 
 To allow a plugin to use a component from another plugin or register
 one of its own components for other plugins to use, the component must
-be added to the application registry in ``./src/index.js`.
+be added to the application registry in ``./src/index.js``.
 
 .. example::
 
@@ -599,8 +599,8 @@ be added to the application registry in ``./src/index.js`.
         appRegistry.registerComponent('MyPlugin.MyComponent', MyComponent);
       };
 
-Compass Application Registry
-----------------------------
+|compass| Application Registry
+------------------------------
 
 The *application registry* is the object that holds all of the plugin's
 :ref:`stores <plugins-stores>`, :ref:`actions <plugins-actions>`,
@@ -613,13 +613,13 @@ The registry is globally available to all plugins by calling
 Lifecycle Hooks
 ---------------
 
-The following section outlines the lifecycle stages of a Compass Plugin
+The following section outlines the lifecycle stages of a |compass| Plugin
 in the context of the application registry:
 
 Activation
 ~~~~~~~~~~
 
-When a plugin first loads, Compass calls the ``activate`` method in the
+When a plugin first loads, |compass| calls the ``activate`` method in the
 plugin's root ``index.js`` file. This is where the plugin registers
 various objects with the application registry so they may be
 potentially consumed by other plugins.
@@ -667,7 +667,7 @@ and perform some action in response:
       onActivated: function(appRegistry) {
         appRegistry.getStore('Query.ChangedStore').listenTo(this.handleQueryChange.bind(this));
       },
-    
+
       handleQueryChange: function(query) {
          debug(query.filter);
          debug(query.project);
@@ -691,11 +691,11 @@ implement this method.
    .. code-block:: javascript
 
       const PingStore = Reflux.createStore({
-  
+
          onActivated(appRegistry) {
            appRegistry.on('data-service-connected', this.onConnected.bind(this));
          },
-       
+
          onConnected: function((error, dataService)) {
            if (!error) {
              dataService.command({ ping: 1 }, (err, result) {
@@ -711,7 +711,7 @@ Query Changes
 ~~~~~~~~~~~~~
 
 The ``onQueryChanged`` method is called on all registered stores when
-the Compass query has been changed and executed. The query object
+the |compass| query has been changed and executed. The query object
 passed to the method includes the following fields:
 
 - Filter
@@ -730,9 +730,9 @@ For details on these fields, see :doc:`Query Bar </query-bar>`.
       const QueryListenerStore = Reflux.createStore({
 
          onActivated(appRegistry) {
-           appRegistry.on('query-applied', this.onQueryChanged.bind(this));  
+           appRegistry.on('query-applied', this.onQueryChanged.bind(this));
          },
-         
+
          onQueryChanged: function(query) {
            const projection = query.project;
            const sort = query.sort;
@@ -767,7 +767,7 @@ to the function.
 Styling
 -------
 
-With the new web-pack enabled plugin model (v1.0.0+), Compass plugins
+With the new web-pack enabled plugin model (v1.0.0+), |compass| plugins
 implement `CSS Modules <https://github.com/css-modules/css-modules>`_
 and `Less syntax <http://lesscss.org/>`_ to add styling to components.
 
@@ -801,11 +801,11 @@ Consider the following implementation of a component called
    import React, { Component } from 'react';
    import PropTypes from 'prop-types';
    import classnames from 'classnames';
-   
+
    import styles from './my-component.less';
-   
+
    class MyComponent extends Component {
-   
+
      render() {
        return (
          <div className={classnames(styles.root)}>
@@ -814,7 +814,7 @@ Consider the following implementation of a component called
        );
      }
    }
-   
+
    export default MyComponent;
    export { MyComponent };
 
@@ -830,7 +830,7 @@ the following manner:
       height: 100vh;
       padding: 2.4rem;
     }
-    
+
     .title {
       margin-top: 0;
    }
