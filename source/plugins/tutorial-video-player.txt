@@ -1,0 +1,118 @@
+==============================
+Video Playback Plugin Tutorial
+==============================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+Introduction
+------------
+
+Using the |compass| plugin API, you can create a tool for viewing
+`WebM <https://www.webmproject.org/>`__ videos embedded within documents
+in a MongoDB collection. While these videos must fit within the
+:ref:`maximum BSON document size <limit-bson-document-size>` of 16MB,
+this is enough space to store several minutes of modest-quality video.
+
+This plugin will be implemented with the :ref:`Collection.Tab
+<plugin-ref-collection-tabs>` role, meaning it will reside in its own
+tab in the |compass| collection view.
+
+Creating the Plugin
+-------------------
+
+Getting Set Up
+~~~~~~~~~~~~~~
+
+See :ref:`plugins-install-dependencies` to install the prerequisites for
+writing |compass| plugins.
+
+.. include:: /includes/extracts/plugin-instantiate-media.rst
+
+When prompted, enter the following fields:
+
+.. list-table::
+   :header-rows: 1
+
+   * - **Field**
+     - **Description**
+
+   * - Name
+     - ``media-player``
+
+   * - Description
+     - ``Plays WebM video files embedded in a MongoDB collection.``
+
+   * - Role
+     - :ref:`Collection.Tab <plugin-ref-collection-tabs>`
+
+Creating the Store
+~~~~~~~~~~~~~~~~~~
+
+A *store* is responsible for storing and maintaining data within a
+React/Flux application architecture as used by |compass| plugins.
+The store is updated by the component view using *actions*, resulting in
+state changes which are then reflected by the view.
+
+Registering Actions
+```````````````````
+
+First you must register the actions that the store will accept. This
+plugin will accept the following two actions:
+
+.. list-table::
+   :widths: 10 60
+
+   * - ``fetchVideos``
+     - Fetch any documents associated with the query bar's current query
+       information.
+
+   * - ``reset``
+     - Clear the store's query information and any stored state.
+
+Update ``src/actions/actions.js`` to match the following:
+
+.. cssclass:: copyable-code
+.. literalinclude:: example-video-player/actions.js
+   :language: js
+   :emphasize-lines: 4,5
+   :linenos:
+
+Creating the Store
+``````````````````
+
+Update ``src/stores/store.js`` to match the following:
+
+.. cssclass:: copyable-code
+.. literalinclude:: example-video-player/store.js
+   :language: js
+   :linenos:
+
+Creating the Component
+~~~~~~~~~~~~~~~~~~~~~~
+
+Update ``src/components/media-player/media-player.jsx`` to match the
+following:
+
+.. cssclass:: copyable-code
+.. literalinclude:: example-video-player/media-player.jsx
+   :language: js
+   :linenos:
+
+Running the Plugin
+------------------
+
+.. cssclass:: copyable-code
+.. code-block:: sh
+
+   npm install
+
+.. cssclass:: copyable-code
+.. code-block:: sh
+
+   npm run compile

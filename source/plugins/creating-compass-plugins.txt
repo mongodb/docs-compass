@@ -132,3 +132,4 @@ actions:
       :titlesonly:
 
       /plugins/reference
+      /plugins/tutorial-video-player
