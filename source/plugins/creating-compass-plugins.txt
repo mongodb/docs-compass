@@ -10,6 +10,8 @@ Creating Compass Plugins
    :depth: 1
    :class: singlecol
 
+.. include:: /includes/fact-plugins-min-version.rst
+
 Overview
 --------
 
@@ -18,7 +20,7 @@ modules which are run in a plugin framework. The plugin framework is
 accessible through an API accessible by developers to build and
 execute |compass| plugins.
 
-|compass| plugins are written in `ReactJS <https://reactjs.org/>`_.
+|compass| plugins are written in `ReactJS <https://reactjs.org/>`__.
 
 Getting Started
 ---------------
@@ -31,9 +33,9 @@ Install Dependencies
 1. Install the latest version of |compass| for your operating system.
 
    You can download |compass| from the
-   `MongoDB Download Center <https://www.mongodb.com/download-center#compass>`_.
+   `MongoDB Download Center <https://www.mongodb.com/download-center#compass>`__.
 
-2. Install :abbr:`NVM (Node Version Manager)`.
+2. Install the `Node Version Manager (NVM) <https://github.com/creationix/nvm>`__:
 
    For MacOS and Linux operating systems, follow
    `these instructions <https://github.com/creationix/nvm#install-script>`_.
@@ -46,21 +48,21 @@ Install Dependencies
 
    b. Decompress the downloaded .zip file and run ``nvm-setup.exe``.
 
-3. Install NodeJS 7.4.0 via NVM:
+3. Install `NodeJS <https://nodejs.org/en/>`__ 7.4.0 via NVM:
 
    .. cssclass:: copyable-code
    .. code-block:: sh
 
       nvm install 7.4.0
 
-4. Install the Khaos templating engine:
+4. Install the `Khaos <http://khaos.io/>`__ templating engine:
 
    .. cssclass:: copyable-code
    .. code-block:: sh
 
       npm install -g khaos
 
-5. Create the Plugins Directory
+5. Create the |compass| plugins directory:
 
    The following command creates the directory in which |compass| looks
    for plugins:
@@ -75,10 +77,11 @@ Create an Empty Plugin
 
 .. include:: /includes/extracts/plugin-instantiate-generic.rst
 
-When prompted, enter the following fields:
+When prompted, enter the following values:
 
 .. list-table::
    :header-rows: 1
+   :widths: 10 60
 
    * - **Field**
 
@@ -107,6 +110,15 @@ When prompted, enter the following fields:
 
        For details on these roles, see
        :ref:`Plugin Roles <plugins-roles>`.
+
+Run the following command to install the plugin's dependencies:
+
+.. cssclass:: copyable-code
+.. code-block:: sh
+
+   cd media-player && npm install
+
+.. include:: /includes/fact-compile-plugin.rst
 
 Restrictions
 ------------
