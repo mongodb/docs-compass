@@ -12,3 +12,5 @@ source/includes/table/
 source/includes/toc
 fabfile
 giza.log
+
+/source/plugins/example-video-player/
