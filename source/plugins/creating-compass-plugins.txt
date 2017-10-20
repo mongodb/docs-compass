@@ -116,7 +116,7 @@ Run the following command to install the plugin's dependencies:
 .. cssclass:: copyable-code
 .. code-block:: sh
 
-   cd media-player && npm install
+   cd <plugin-name> && npm install
 
 .. include:: /includes/fact-compile-plugin.rst
 
