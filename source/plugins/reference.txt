@@ -10,6 +10,55 @@ Compass Plugin Reference
    :depth: 1
    :class: singlecol
 
+.. _plugins-structure:
+
+Plugin Structure
+----------------
+
+A newly initialized plugin template has the following folder structure:
+
+.. note::
+
+   Development work takes place within the ``src`` directory.
+
+.. code-block:: none
+
+   my-plugin
+   ├── README.md - Add documentation for your plugin here.
+   |
+   ├── electron
+   │   └── renderer
+   │       └── index.js - This is where the standalone app is setup to run in Electron.
+   |
+   ├── lib - Compiled sources for production get put here. Do not edit anything in this folder.
+   |
+   └── src
+       ├── index.js - Entry point for plugins to register themselves to the app registry.
+       ├── plugin.js - The root component for this plugin, connected to the store.
+       ├── plugin.spec.js - Tests for the root connected component.
+       ├── actions - Plugin actions go into this folder.
+       ├── assets - Static assets (e.g. Compass styles). Do not edit anything in this folder.
+       |
+       ├── components - Plugin React components go into this folder.
+       │   ├── my-plugin - Each component has its own directory with the following structure:
+       │   │   ├── index.js - Export the component as a default export here.
+       │   │   ├── my-plugin.jsx - React implementation of the component.
+       │   │   ├── my-plugin.less - Styles for this component.
+       │   │   ├── my-plugin.stories.js - React Storybook stories for this component.
+       │   │   └── my-plugin.spec.js - Tests for this component.
+       |   |
+       │   └── sub-component - Same structure for sub components.
+       │       ├── index.js
+       │       ├── sub-component.jsx
+       │       ├── sub-component.less
+       │       ├── sub-component.stories.js
+       │       └── sub-component.spec.js
+       |
+       └── stores - Plugin stores go in this folder.
+           ├── index.js - Entry point for stores, declares named exports.
+           ├── store.js - Implementation of the store.
+           └── store.spec.js - Unit tests for this store.
+
 .. _plugins-roles:
 
 Plugin Roles
@@ -375,20 +424,20 @@ loaded before loading it from the application registry.
       import Reflux from 'reflux';
       import StateMixin from 'reflux-state-mixin';
       import Actions from 'actions';
-      
+
       const MyStore = Reflux.createStore({
-      
+
         mixins: [StateMixin.store],
-      
+
         listenables: Actions,
-      
+
         /**
          * return the initial store state
          */
         getInitialState: function() {
           return { connected: false };
         },
-      
+
         /**
          * called when all plugins are activated. Subscribe to external stores here.
          */
@@ -396,7 +445,7 @@ loaded before loading it from the application registry.
           appRegistry.getStore('ExternalStore').listenTo(this.handleExternalChange.bind(this));
           appRegistry.on('data-service-connected', this.onConnected.bind(this));
         },
-      
+
         /**
          * called when a connection has been established (or failed to establish).
          */
@@ -409,12 +458,12 @@ loaded before loading it from the application registry.
             });
           }
         },
-      
+
         handleExternalChange(extState) {
           // Do something here.
         }
       });
-      
+
       export default MyStore;
       export { MyStore };
 
@@ -790,6 +839,11 @@ For a component with the name ``MyComponent``, the directoy is called
 ``my-component``, and the style file inside this directory is
 ``my-component.less``.
 
+.. note::
+
+   See the :ref:`structure of a plugin <plugins-structure>` to view the
+   full plugin folder structure.
+
 Example
 ~~~~~~~
 
@@ -874,3 +928,7 @@ allows elegant string construction for complex class names.
 To see how complex dynamic class names can be generated in ReactJS, see
 `this example <https://www.npmjs.com/package/classnames#usage-with-reactjs>`_.
 
+Running Your Plugin
+-------------------
+
+.. include:: /includes/fact-compile-plugin.rst

@@ -14,4 +14,11 @@ inherit:
   file: extracts-plugin-instantiate-base.yaml
 replacement:
   name: "media-player"
+---
+ref: plugin-instantiate-users
+inherit:
+  ref: _plugin-instantiate-base
+  file: extracts-plugin-instantiate-base.yaml
+replacement:
+  name: "users"
 ...

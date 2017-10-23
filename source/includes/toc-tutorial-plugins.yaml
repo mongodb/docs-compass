@@ -1,6 +1,12 @@
-file: /tutorial/hardware-tutorial
+file: /plugins/tutorial-user-view
 description: |
-   Create a basic plugin which displays hardware information of the
-   machine currently running Compass in the
-   :ref:`Collection HUD <plugin-ref-collectionhud-items>`.
+   Create a plugin which displays database
+   :manual:`users </core/security-users/>` and
+   :manual:`roles </core/authorization/>` in a
+   :ref:`database tab <plugin-ref-database-tabs>`.
+---
+file: /plugins/tutorial-video-player
+description: |
+   Create a plugin to view `WebM <https://www.webmproject.org/>`_
+   videos embedded within documents in a MongoDB collection.
 ...

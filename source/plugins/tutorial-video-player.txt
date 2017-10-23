@@ -10,10 +10,12 @@ Video Playback Plugin Tutorial
    :depth: 2
    :class: singlecol
 
+.. include:: /includes/fact-plugins-min-version.rst
+
 Introduction
 ------------
 
-Using the |compass| plugin API, you can create a tool for viewing
+This tutorial will show how to write a |compass| plugin to view
 `WebM <https://www.webmproject.org/>`__ videos embedded within documents
 in a MongoDB collection. While these videos must fit within the
 :ref:`maximum BSON document size <limit-bson-document-size>` of 16MB,
@@ -34,10 +36,11 @@ writing |compass| plugins.
 
 .. include:: /includes/extracts/plugin-instantiate-media.rst
 
-When prompted, enter the following fields:
+When prompted, enter the following values:
 
 .. list-table::
    :header-rows: 1
+   :widths: 10 60
 
    * - **Field**
      - **Description**
@@ -46,24 +49,53 @@ When prompted, enter the following fields:
      - ``media-player``
 
    * - Description
-     - ``Plays WebM video files embedded in a MongoDB collection.``
+     - Plays WebM video files embedded in a MongoDB collection.
 
    * - Role
      - :ref:`Collection.Tab <plugin-ref-collection-tabs>`
 
+Finally, run the following command to install the plugin's dependencies:
+
+.. cssclass:: copyable-code
+.. code-block:: sh
+
+   cd media-player && npm install
+
 Creating the Store
 ~~~~~~~~~~~~~~~~~~
 
-A *store* is responsible for storing and maintaining data within a
-React/Flux application architecture as used by |compass| plugins.
-The store is updated by the component view using *actions*, resulting in
-state changes which are then reflected by the view.
+.. include:: /includes/fact-tutorial-create-store.rst
+
+The media player plugin's store is called ``MediaPlayerStore``, and it
+keeps the following state variables:
+
+.. list-table::
+   :widths: 10 60
+
+   * - ``videoURLs``
+     - An array of strings where each string is a URL referring to a
+       WebM video. These URLs are created using
+       `URL.createObjectURL <https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL>`__,
+       and must be deleted using
+       `URL.revokeObjectURL <https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL>`__.
+
+   * - ``storeState``
+     - A string indicating the current state of the store. Must be one of the following:
+
+       - ``initial``
+       - ``fetching``
+       - ``done``
+       - ``outdated``
+
+   * - ``error``
+     - An :abbr:`optional (may be null)` object containing error
+       information.
 
 Registering Actions
 ```````````````````
 
-First you must register the actions that the store will accept. This
-plugin will accept the following two actions:
+First you must register the actions that the store will respond to.
+``MediaPlayerStore`` will accept the following two actions:
 
 .. list-table::
    :widths: 10 60
@@ -83,8 +115,8 @@ Update ``src/actions/actions.js`` to match the following:
    :emphasize-lines: 4,5
    :linenos:
 
-Creating the Store
-``````````````````
+Implementing the Store
+``````````````````````
 
 Update ``src/stores/store.js`` to match the following:
 
@@ -96,23 +128,18 @@ Update ``src/stores/store.js`` to match the following:
 Creating the Component
 ~~~~~~~~~~~~~~~~~~~~~~
 
+The media player contains a *component*, which is a view which renders
+based on the ``MediaPlayerStore`` store.
+
 Update ``src/components/media-player/media-player.jsx`` to match the
 following:
 
 .. cssclass:: copyable-code
 .. literalinclude:: example-video-player/media-player.jsx
-   :language: js
+   :language: jsx
    :linenos:
 
 Running the Plugin
 ------------------
 
-.. cssclass:: copyable-code
-.. code-block:: sh
-
-   npm install
-
-.. cssclass:: copyable-code
-.. code-block:: sh
-
-   npm run compile
+.. include:: /includes/fact-compile-plugin.rst
