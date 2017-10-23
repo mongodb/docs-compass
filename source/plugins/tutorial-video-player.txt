@@ -64,14 +64,7 @@ Finally, run the following command to install the plugin's dependencies:
 Creating the Store
 ~~~~~~~~~~~~~~~~~~
 
-A *store* is responsible for storing and maintaining data within the
-React/Flux application architecture used by |compass| plugins.
-The store responds to *events* and *actions*, resulting in
-state changes which are then reflected by the component *view*.
-
-This data flow is shown in the following diagram:
-
-.. figure:: /images/compass/react-diagram.png
+.. include:: /includes/fact-tutorial-create-store.rst
 
 The media player plugin's store is called ``MediaPlayerStore``, and it
 keeps the following state variables:

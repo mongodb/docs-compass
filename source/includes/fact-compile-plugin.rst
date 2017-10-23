@@ -5,4 +5,4 @@ Run the following command to build the plugin:
 
    npm run compile
 
-You may then launch Compass.
+You may then launch Compass to view your newly instantiated plugin.
