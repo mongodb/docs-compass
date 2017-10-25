@@ -15,7 +15,7 @@ Video Playback Plugin Tutorial
 Introduction
 ------------
 
-This tutorial will show how to write a |compass| plugin to view
+This tutorial shows how to write a |compass| plugin to view
 `WebM <https://www.webmproject.org/>`__ videos embedded within documents
 in a MongoDB collection. While these videos must fit within the
 :ref:`maximum BSON document size <limit-bson-document-size>` of 16MB,
@@ -28,8 +28,8 @@ tab in the |compass| collection view.
 Creating the Plugin
 -------------------
 
-Getting Set Up
-~~~~~~~~~~~~~~
+Set Up
+~~~~~~
 
 See :ref:`plugins-install-dependencies` to install the prerequisites for
 writing |compass| plugins.
