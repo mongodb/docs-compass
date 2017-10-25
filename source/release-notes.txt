@@ -12,10 +12,16 @@ Release Notes
 
 .. _latest-beta:
 
-|compass| 1.9 Beta
-------------------
+|compass| 1.10
+--------------
 
 *Upcoming*
+
+
+|compass| 1.9
+-------------
+
+*Released Oct 2017*
 
 - Added autocomplete functionality to the query bar.
 
