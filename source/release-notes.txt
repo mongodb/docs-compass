@@ -12,10 +12,16 @@ Release Notes
 
 .. _latest-beta:
 
-|compass| 1.10
+|compass| 1.11
 --------------
 
 *Upcoming*
+
+
+|compass| 1.10
+--------------
+
+*Released Oct 26, 2017*
 
 
 |compass| 1.9
