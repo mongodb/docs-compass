@@ -11,7 +11,7 @@ Release Notes
    :class: singlecol
 
 |compass| 1.10
--------------
+--------------
 
 *Released Oct 25, 2017*
 
