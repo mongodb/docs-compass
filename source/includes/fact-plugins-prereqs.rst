@@ -28,10 +28,8 @@
 
       npm install -g khaos
 
-5. Create the |compass| plugins directory:
-
-   The following command creates the directory in which |compass| looks
-   for plugins:
+5. Create the MongoDB Compass plugins directory. Compass looks for plugins in this
+   directory:
 
    .. cssclass:: copyable-code
    .. code-block:: sh
