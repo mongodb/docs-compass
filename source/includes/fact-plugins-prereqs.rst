@@ -33,7 +33,14 @@
    The following command creates the directory in which |compass| looks
    for plugins:
 
-   .. cssclass:: copyable-code
-   .. code-block:: sh
+   |compass|
+     .. cssclass:: copyable-code
+     .. code-block:: sh
 
-      mkdir -p ~/.mongodb/compass/plugins
+        mkdir -p ~/.mongodb/compass/plugins
+
+   |compass| Community Edition
+     .. cssclass:: copyable-code
+     .. code-block:: sh
+
+        mkdir -p ~/.mongodb/compass-community/plugins
