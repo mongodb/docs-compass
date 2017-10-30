@@ -9,3 +9,6 @@ coverage
 *.iml
 .nvmrc
 .nyc_output
+
+source/plugins/example-user-view/
+source/plugins/example-video-player/
