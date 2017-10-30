@@ -51,3 +51,7 @@ migrate-assets:
 	rm -r source/plugins/example-video-player
 	mkdir -p source/plugins/example-video-player
 	cp plugin-examples/media-player/src/{actions/actions.js,components/media-player/media-player.jsx,stores/store.js} source/plugins/example-video-player/
+
+	rm -r source/plugins/example-user-view
+	mkdir -p source/plugins/example-user-view
+	cp plugin-examples/users/src/{components/Users/Users.jsx,stores/store.js} source/plugins/example-user-view/
