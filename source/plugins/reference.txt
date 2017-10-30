@@ -819,6 +819,8 @@ to the function.
          }
       });
 
+.. _plugin-ref-styling:
+
 Styling
 -------
 
