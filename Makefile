@@ -54,4 +54,4 @@ migrate-assets:
 
 	rm -r source/plugins/example-user-view
 	mkdir -p source/plugins/example-user-view
-	cp plugin-examples/users/src/{components/Users/Users.jsx,stores/store.js} source/plugins/example-user-view/
+	cp plugin-examples/users/src/{components/Users/Users.jsx,stores/store.js,components/Users/Users.less} source/plugins/example-user-view/

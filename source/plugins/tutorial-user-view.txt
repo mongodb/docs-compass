@@ -146,8 +146,7 @@ Components are written in JSX, which allows HTML to be inserted and
 rendered elegantly with ReactJS. HTML is rendered by the ``render``
 method.
 
-Update ``src/components/users/users.jsx`` to match the
-following:
+Update ``src/components/users/users.jsx`` to match the following:
 
 .. cssclass:: copyable-code
 .. literalinclude:: example-user-view/users.jsx
@@ -157,6 +156,27 @@ following:
 This component displays a table showing each user whose authentication
 database is the database currently being viewed, along with all of the
 roles assigned to that user.
+
+Styling the Component
+~~~~~~~~~~~~~~~~~~~~~
+
+The ``users.jsx`` component imports its styles from the ``users.less``
+file also located in the ``src/components/users/`` directory.
+
+Update ``src/components/users/users.less`` to match the following:
+
+.. cssclass:: copyable-code
+.. literalinclude:: example-user-view/users.less
+   :language: jsx
+   :linenos:
+
+|compass| plugins implement
+`CSS Modules <https://github.com/css-modules/css-modules>`_ and
+`Less syntax <http://lesscss.org/>`_ to style components.
+
+For more information on styling your |compass| plugins, see
+:ref:`Styling <plugin-ref-styling>`.
+
 
 Running the Plugin
 ------------------
