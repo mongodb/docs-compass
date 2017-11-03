@@ -825,9 +825,8 @@ Custom Assets
 -------------
 
 To add a custom asset such as an image to your |compass| plugin, place
-the target asset into the ``src/assets/images/`` directory. You can
-display the asset in a component using the component's ``render``
-method.
+the asset into the ``src/assets/images/`` directory. You can display
+the asset in a component using the component's ``render`` method.
 
 For example, suppose you have a ``mongodb-logo.png`` image file in your
 ``src/assets/images/`` directory. The following component code displays
