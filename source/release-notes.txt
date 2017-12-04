@@ -15,8 +15,6 @@ Release Notes
 |compass| 1.11
 --------------
 
-*Upcoming*
-
 .. include:: /includes/fact-release-notes-1.11.rst
 
 |compass| 1.10
