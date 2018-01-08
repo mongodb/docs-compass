@@ -10,6 +10,14 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.12
+--------------
+
+- Added |compass| Readonly Edition which provides the
+  ability to limit certain :ref:`CRUD operations <crud>` within your
+  organization.
+
+  .. include:: /includes/fact-readonly-nonpermitted-actions.rst
 
 |compass| 1.11
 --------------
