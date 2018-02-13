@@ -6,7 +6,7 @@ content: |
     Once Compass is :doc:`running </install>`, an
     initial connection dialog appears:
 
-    .. figure:: /images/compass/connect-to-host.png
+    .. figure:: /images/compass/connect-to-host-2.png
       :figwidth: 626px
 
     .. list-table::
@@ -19,16 +19,31 @@ content: |
 
            .. tip::
 
-              Starting with version 1.8.0, MongoDB Compass can detect
-              whether you have a MongoDB
-              :manual:`URI connection string </reference/connection-string>`
-              in your system clipboard and auto-populate the connection
-              dialog from the URI. Open MongoDB Compass with a URI
-              connection string in your clipboard and click :guilabel:`Yes`
-              when prompted to auto-populate the dialog.
+             Starting in version 1.8.0, MongoDB Compass can detect
+             whether you have a MongoDB
+             :manual:`URI connection string </reference/connection-string>`
+             in your system clipboard and auto-populate the connection
+             dialog from the URI. Open MongoDB Compass with a URI
+             connection string in your clipboard and click :guilabel:`Yes`
+             when prompted to auto-populate the dialog.
+
+             Starting in version 1.12.0, Compass can detect an
+             :abbr:`SRV record (Service record)` for a MongoDB
+             connection in your system clipboard and auto-populate
+             the connection dialog from the SRV record. When
+             populating from an SRV record, Compass automatically
+             toggles the :guilabel:`SRV Record` connection option to
+             ``On``.
 
        * - :guilabel:`Port`
          - The port on which ``mongod`` is running.
+
+       * - :guilabel:`SRV Record`
+
+         - *New in version 1.12.0*
+
+           Indicates whether the specified connection is an
+           :abbr:`SRV record (Service record)`.
 
        * - :guilabel:`Authentication`
 
@@ -64,7 +79,9 @@ content: |
 
          - Specifies how Compass directs read operations. Options are
            ``Primary``, ``Primary Preferred``, ``Secondary``,
-           ``Secondary Preferred``, and ``Nearest``. See `Read Preference <https://docs.mongodb.com/manual/core/read-preference/>`_.
+           ``Secondary Preferred``, and ``Nearest``.
+           For more information on these options, see
+           `Read Preference <https://docs.mongodb.com/manual/core/read-preference/>`_.
 
        * - :guilabel:`SSL`
 
@@ -208,7 +225,7 @@ content: |
 
            .. code-block:: sh
 
-              ssh -L <local_port>:<mongodb_hostname>:<mongodb_port> \ 
+              ssh -L <local_port>:<mongodb_hostname>:<mongodb_port> \
                  <user>@<bastion_hostname> -fN
 
            .. example::
