@@ -19,6 +19,11 @@ Release Notes
 
   .. include:: /includes/fact-readonly-nonpermitted-actions.rst
 
+- Added support for :doc:`connecting to Compass </connect>` using an
+  :abbr:`SRV record (Service record)`. In the connect dialog, if
+  Compass detects an SRV record URI on the clipboard it
+  auto-completes the dialog based on the SRV record.
+
 |compass| 1.11
 --------------
 
