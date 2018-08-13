@@ -37,7 +37,7 @@ Applications folder and unmount the disk image.
 
 .. figure:: /images/compass/osx-install-dialog.png
    :figwidth: 600px
-     
+
 Launch Compass by clicking on it from within Applications. Upon launch
 you will see the following dialog:
 
@@ -60,8 +60,8 @@ prompt you to install .NET.
 
    You cannot modify the Compass installation path from within the
    installer.
-   
-Once installed, Compass launches automatically and prompts you to 
+
+Once installed, Compass launches automatically and prompts you to
 configure privacy settings and specify update preferences.
 
 Install on Ubuntu
@@ -83,13 +83,13 @@ You can also download and install via the terminal:
 
    .. code-block:: sh
 
-      wget https://downloads.mongodb.com/compass/mongodb-compass_1.6.0_amd64.deb;
+      wget https://downloads.mongodb.com/compass/beta/mongodb-compass-beta_1.15.0~beta.8_amd64.deb;
 
 #. Install Compass.
 
    .. code-block:: sh
 
-      sudo dpkg -i mongodb-compass_1.6.0_amd64.deb;
+      sudo dpkg -i mongodb-compass-beta_1.15.0~beta.8_amd64.deb
 
 #. Start Compass.
 
@@ -106,13 +106,13 @@ To download and install:
 
    .. code-block:: sh
 
-      wget https://downloads.mongodb.com/compass/mongodb-compass-1.6.0.x86_64.rpm;
+      wget https://downloads.mongodb.com/compass/beta/mongodb-compass-beta-1.15.0-beta.8.x86_64.rpm;
 
 #. Install Compass.
 
    .. code-block:: sh
 
-      sudo yum install mongodb-compass-1.6.0.x86_64.rpm;
+      sudo yum install mongodb-compass-beta-1.15.0-beta.8.x86_64.rpm
 
 #. Start Compass.
 
