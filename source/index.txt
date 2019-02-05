@@ -107,6 +107,18 @@ suit your needs.
      - |checkmark|
      - |checkmark|
 
+   * - View and interact with documents with full CRUD functionality
+     - |checkmark|
+     - |checkmark|
+     -
+     - |checkmark|
+
+   * - Build and run ad hoc queries
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
    * - View existing :ref:`indexes <indexes-tab>`
      - |checkmark|
      - |checkmark|
