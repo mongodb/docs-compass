@@ -107,7 +107,7 @@ suit your needs.
      - |checkmark|
      - |checkmark|
 
-   * - View and interact with documents with full CRUD functionality
+   * - Interact with documents with full CRUD functionality
      - |checkmark|
      - |checkmark|
      -
