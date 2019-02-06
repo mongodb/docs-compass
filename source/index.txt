@@ -35,8 +35,8 @@ Available Compass Editions
 --------------------------
 
 Compass is available in several editions, with different
-capabilities and limitations. See the :ref:`feature chart
-<compass-feature-chart>` for a comparison of the different editions.
+capabilities and limitations. See the :ref:`feature comparison table
+<compass-feature-table>` for a comparison of the different editions.
 
 Compass
 ~~~~~~~
@@ -70,7 +70,7 @@ to :abbr:`TLS (Transport Layer Security)`-encrypted
 chosen on the :ref:`Connect <connect-run-compass>` screen. All other
 outbound connections are not permitted in this edition.
 
-.. _compass-feature-chart:
+.. _compass-feature-table:
 
 What are the Capabilities of Each Compass Edition?
 --------------------------------------------------
