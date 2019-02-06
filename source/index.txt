@@ -72,8 +72,8 @@ outbound connections are not permitted in this edition.
 
 .. _compass-feature-chart:
 
-Feature Chart
--------------
+What are the Capabilities of Each Compass Edition?
+--------------------------------------------------
 
 The following feature chart can help you choose the edition to best
 suit your needs.
@@ -88,38 +88,22 @@ suit your needs.
      - Compass Readonly
      - Compass Isolated
 
-   * - View :doc:`databases </databases>` and
-       :doc:`collections </collections>`
+   * - View :doc:`documents </documents>`,
+       :doc:`collections </collections>`,
+       :doc:`databases </databases>`, and :ref:`indexes <indexes-tab>`
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
 
-   * - View, add, and delete databases and collections
-     - |checkmark|
-     - |checkmark|
-     -
-     - |checkmark|
-
-   * - View existing :doc:`documents </documents>`
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - Interact with documents with full CRUD functionality
+   * - Interact with documents, collections, and databases with full
+       CRUD functionality
      - |checkmark|
      - |checkmark|
      -
      - |checkmark|
 
    * - Build and run ad hoc queries
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - View existing :ref:`indexes <indexes-tab>`
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -143,12 +127,6 @@ suit your needs.
      -
      - |checkmark|
 
-   * - Document validation
-     - |checkmark|
-     - 
-     -
-     - |checkmark|
-
    * - View and optimize query performance with visual explain plans
      - |checkmark|
      - |checkmark|
@@ -161,19 +139,7 @@ suit your needs.
      - |checkmark|
      - |checkmark|
 
-   * - Kerberos Authentication
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
-
-   * - LDAP Authentication
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
-
-   * - x509 Authentication
+   * - Kerberos, LDAP, and x509 authentication
      - |checkmark|
      -
      - |checkmark|
@@ -208,12 +174,6 @@ suit your needs.
        party services
      - |checkmark|
      -
-     - |checkmark|
-     -
-
-   * - Intercom
-     - |checkmark|
-     - |checkmark|
      - |checkmark|
      -
 
