@@ -12,24 +12,6 @@ MongoDB Compass
    :depth: 1
    :class: singlecol
 
-Overview
---------
-
-.. admonition:: |compass| is available in the following editions
-
-   - Compass
-
-   - Compass Community Edition
-
-   - Compass Readonly Edition (*New in version 1.12.0*)
-
-   - Compass Isolated Edition (*New in version 1.14.0*)
-
-   Each |compass| edition is available in both a
-   *General Availability* and a *Beta* version. To download any
-   available version, go to the `MongoDB Download
-   Center <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
-
 |compass| allows users to easily analyze and understand the contents of
 their data collections within MongoDB and perform queries, without
 requiring knowledge of MongoDB
@@ -42,10 +24,42 @@ performance impact on the database and can produce results quickly.
 See the :ref:`FAQ<compass-faq-sampling>`
 for further information on sampling.
 
+Compass Editions
+----------------
+
+.. list-table::
+   :header-rows: 1
+   :widths: 33 34 33
+
+   * - Edition
+     - Description
+     - Free
+
+   * - Compass
+     - Full version of MongoDB Compass, with all features and
+       capabilities. Compass is available as part of our subscriptions.
+     - 
+
+   * - Compass Community
+     - This version is for developing with MongoDB and includes a
+       subset of the features of Compass.
+     - :icon:`check-circle`
+
+   * - Compass Readonly
+     - This version is limited strictly to read operations, with all
+       write and delete capabilities removed.
+     - 
+
+   * - Compass Isolated
+     - This version disables all network connections except the
+       connection to the MongoDB instance.
+     - 
+
+
 .. _compass-and-community-eds:
 
 Compass and Compass Community Editions
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Both Compass and Compass Community provide the ability to:
 
@@ -78,7 +92,7 @@ Compass provides the following features not in the Community edition:
 .. _compass-readonly:
 
 Compass Readonly Edition
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 *New in version 1.12.0*
 
@@ -108,7 +122,7 @@ For more information on user permissions and roles in MongoDB, see
 .. _compass-isolated:
 
 Compass Isolated Edition
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 *New in version 1.14.0*
 
