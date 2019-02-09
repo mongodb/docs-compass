@@ -1,63 +1,135 @@
-===============
-Install Compass
-===============
+============================
+Download and Install Compass
+============================
 
 .. default-domain:: mongodb
 
-.. contents:: On this page
-   :local:
-   :backlinks: none
-   :depth: 1
-   :class: singlecol
+.. include:: /includes/styles/corrections.rst
 
-Compatibility
--------------
+.. tabs-pillstrip:: platforms
 
-|compass| works with MongoDB Server version 3.0 and higher, both
-Enterprise and Community editions. It runs on 64-bit versions
-of Mac OS X, Windows, Ubuntu 14.04+ and RHEL 7+.
+Software Requirements
+---------------------
 
-Software requirements to run |compass-short| are listed below:
+|compass-short| requires:
 
-.. include:: /includes/fact-compass-platforms.rst
-
-Installation
-------------
-
-.. note::
-
-   As of MongoDB Server version 3.6, MongoDB packages a
-   platform-specific |compass-short| installation script with
-   `MongoDB Server downloads
-   <https://www.mongodb.com/download-center/enterprise>`_. For details,
-   see the :manual:`install_compass script
-   </reference/program/install_compass/>` documentation.
-
-.. tabs::
+.. tabs-platforms::
 
    tabs:
-     - id: osx
-       name: OS X
+     - id: macos
        content: |
 
-         Open the {+download-page+} and download the latest version of
-         |compass| for OS X. The package downloads as a ``.dmg`` disk
-         image. Once you have downloaded |compass-short|, click on the
-         ``.dmg`` file to open the disk image within the OS X Finder.
-         Drag the |compass| application to your
-         :guilabel:`Applications` folder and unmount the disk image.
+         - 64-bit version of macOS 10.10 or later.
+         - MongoDB 3.0 or later.
 
-         .. figure:: /images/compass/osx-install-dialog.png
-            :figwidth: 600px
+     - id: windows
+       content: |
 
-         Launch |compass-short| by clicking on it from within the
-         :guilabel:`Applications` folder. Upon launch you will see the
-         following dialog:
+         - 64-bit version of Microsoft Windows 7 or later.
+         - MongoDB 3.0 or later.
+         - `Microsoft .NET Framework version 4.5 or later <https://www.microsoft.com/en-us/download/details.aspx?id=30653>`__.
+           
+           The |compass-short| installer prompts you to install the
+           minimum required version of the .NET framework if it is not
+           already installed on your system.
 
-         .. figure:: /images/compass/application-downloaded-internet.png
-            :figwidth: 480px
+     - id: debian
+       content: |
 
-         Click Open to continue and launch |compass-short|.
+         - 64-bit version of Ubuntu 14.04 or later.
+         - MongoDB 3.0 or later.
+
+     - id: rhel
+       content: |
+
+         - 64-bit version of RHEL 7+ or later.
+         - MongoDB 3.0 or later.
+
+.. _macOS Terminal: https://support.apple.com/guide/terminal/welcome/mac
+.. _Windows Powershell: https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6
+.. _zsh: https://www.zsh.org/
+.. _bash: https://www.gnu.org/software/bash/
+.. _ksh: http://www.kornshell.com/
+
+Download Compass
+----------------
+
+To download |compass-short|, you can use your preferred web browser.
+
+.. tabs-platforms::
+
+   tabs:
+     - id: macos
+       content: |
+
+         1. Open the {+download-page+}.
+
+         #. Download the latest version of |compass| for
+            macOS. The |compass| installer is a ``.dmg`` disk
+            image.
+
+     - id: windows
+       content: |
+
+         1. Open the {+download-page+}.
+
+         #. Select the installer you prefer. The |compass| installer is
+            available as a ``.exe`` or ``.msi`` package or a ``.zip``
+            archive.
+
+         #. Download the latest version of |compass| for
+            Windows. 
+
+     - id: debian
+       content: |
+
+         1. Open the {+download-page+}.
+
+         #. Download the latest version of |compass| for
+            Ubuntu. The |compass| installer is a ``.deb``
+            package.
+
+     - id: rhel
+       content: |
+
+         1. Open the {+download-page+}.
+
+         #. Download the latest version of |compass| for Red Hat
+            Enterprise Linux. The |compass| installer is a ``.rpm``
+            package.
+
+Install Compass
+---------------
+
+.. tabs-platforms::
+
+   tabs:
+     - id: macos
+       content: |
+
+         1. Once you have downloaded |compass-short|, double-click on
+            the ``.dmg`` file to open the disk image within the macOS
+            Finder.
+
+         #. Drag the |compass| application to your
+            :guilabel:`Applications` folder.
+
+            .. figure:: /images/compass/osx-install-dialog.png
+               :figwidth: 600px
+
+         #. Eject the disk image.
+
+         #. From the :guilabel:`Applications` folder, double-click on
+            the |compass-short| icon to start the application.
+
+         #. After you start the application, you see the following
+            dialog:
+
+            .. figure:: /images/compass/application-downloaded-internet.png
+               :figwidth: 480px
+
+         #. Click :guilabel:`Open` to continue and launch
+            |compass-short|.
 
          .. note::
 
@@ -67,111 +139,52 @@ Installation
             system password before launching |compass-short|.
 
      - id: windows
-       name: Windows
        content: |
 
-         .. note::
+         1. Double-click the installer file to install |compass-short|.
+            By default, the installer extracts |compass-short| to the
+            following path:
 
-            The Windows installation of |compass| requires
-            **Microsoft .NET Framework version 4.5 or later.** The
-            |compass-short| installer prompts you to install the
-            minimum required version of the .NET framework if it is
-            not already installed on your system.
+            .. code-block:: ini
+               :copyable: false
 
-         The |compass| setup application is available as an
-         ``.exe`` executable file. Open the {+download-page+} and
-         download the latest version of |compass| for Windows.
+               C:\Users\<user>\AppData\Local\<MongoDB Compass Edition>\
 
-         Once you have downloaded the executable, run the file to begin
-         the setup process, which installs |compass-short|. The
-         executable file always installs |compass-short| to the
-         following path:
+         #. Once installed, |compass-short| launches and prompts you to
+            configure privacy settings and specify update preferences.
 
-         .. code-block:: none
-
-            C:\Users\<user>\AppData\Local\<MongoDB Compass Edition>\
-
-         Once installed, |compass-short| launches automatically and prompts you to
-         configure privacy settings and specify update preferences.
-
-     - id: ubuntu
-       name: Ubuntu
+     - id: debian
        content: |
 
-         Download and Install from the MongoDB Downloads Page
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         1. Double-click on the ``.deb`` package icon to start
+            installation.
 
-         To install |compass| on Ubuntu, download the latest
-         |compass-short| package for Ubuntu from the {+download-page+}.
-         Double click on the ``.deb`` package to open the package using
-         Ubuntu Software. Click :guilabel:`Install`.
+         #. Click :guilabel:`Install`.
 
-         .. figure:: /images/compass/install-ubuntu.png
-            :figwidth: 654px
+            .. figure:: /images/compass/install-ubuntu.png
+               :figwidth: 654px
 
-         Once installed, launch Compass from your
-         :guilabel:`Applications` folder.
-
-         Download and Install Using the Terminal
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-         You can also download and install |compass| via the terminal:
-
-         #. Download the package:
-
-            .. code-block:: sh
-
-               wget https://downloads.mongodb.com/compass/mongodb-compass_1.15.1_amd64.deb;
-
-         #. Install Compass:
-
-            .. code-block:: sh
-
-               sudo dpkg -i mongodb-compass_1.15.1_amd64.deb;
+         #. Once installed, launch Compass from your
+            :guilabel:`Applications` folder.
 
          #. Start Compass:
 
             .. code-block:: sh
 
-               mongodb-compass;
+               mongodb-compass
 
      - id: rhel
-       name: RHEL
        content: |
-
-         To download and install |compass| on Red Hat Enterprise Linux:
-
-         #. Download the package:
-
-            .. code-block:: sh
-
-               wget https://downloads.mongodb.com/compass/mongodb-compass-1.15.1.x86_64.rpm;
 
          #. Install Compass:
 
             .. code-block:: sh
 
-               sudo yum install mongodb-compass-1.15.1.x86_64.rpm;
+               sudo yum install mongodb-compass-{+current-version+}.x86_64.rpm
 
          #. Start Compass:
 
             .. code-block:: sh
 
-               mongodb-compass;
+               mongodb-compass
 
-Compass Firewall Requirements
------------------------------
-
-Certain features of |compass|, such as third-party mapping services and
-Intercom, require inbound connections from external sources to
-function. In some instances, users have reported issues with their
-system firewall blocking these network requests and thereby limiting
-|compass| functionalities. To fix this issue, configure your system
-firewall to allow incoming connections for |compass|.
-
-.. important::
-
-   Ensure ports ``80`` and ``443`` are open between |compass| and the
-   host for the MongoDB Instance to which Compass connects.
-
-.. include:: /includes/fact-isolated-edition-firewall.rst
