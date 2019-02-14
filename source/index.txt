@@ -33,31 +33,31 @@ What Different Editions of |compass-short| Are Available?
 
 .. list-table::
    :header-rows: 1
-   :widths: 25 70 5
+   :widths: 20 70 5
 
    * - Edition
      - Description
+     - Availability
+
+   * - Compass Community
+     - This version is for developing with MongoDB and includes a
+       subset of the features of Compass.
      - Free
 
    * - Compass
      - Full version of MongoDB Compass, with all features and
        capabilities. Compass is available as part of our subscriptions.
-     - 
-
-   * - Compass Community
-     - This version is for developing with MongoDB and includes a
-       subset of the features of Compass.
-     - :icon:`check-circle`
+     - Subscription
 
    * - Compass Readonly
      - This version is limited strictly to read operations, with all
        write and delete capabilities removed.
-     - 
+     - Subscription
 
    * - Compass Isolated
      - This version disables all network connections except the
        connection to the MongoDB instance.
-     - 
+     - Subscription
 
 .. _compass-feature-table:
 
@@ -92,12 +92,6 @@ suit your needs.
      -
      - |checkmark|
 
-   * - Build and run ad hoc queries
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
    * - Manage indexes: view stats, create, and delete
      - |checkmark|
      - |checkmark|
@@ -106,13 +100,13 @@ suit your needs.
 
    * - View existing :ref:`document validation rules <validation>`
      - |checkmark|
-     - 
+     -
      - |checkmark|
      - |checkmark|
 
    * - Create, delete and edit document validation rules
      - |checkmark|
-     - 
+     -
      -
      - |checkmark|
 
