@@ -12,8 +12,8 @@ MongoDB Compass
    :depth: 1
    :class: singlecol
 
-What is |compass-short|?
-------------------------
+What is |compass|?
+------------------
 
 |compass| is the :abbr:`GUI (Graphical User Interface)` for MongoDB.
 |compass-short| allows you to analyze and understand the contents of
@@ -33,45 +33,52 @@ What Different Editions of |compass-short| Are Available?
 
 .. list-table::
    :header-rows: 1
-   :widths: 25 70 5
+   :stub-columns: 1
+   :widths: 25 75
 
    * - Edition
      - Description
-     - Free
 
    * - Compass
      - Full version of MongoDB Compass, with all features and
        capabilities. Compass is available as part of our subscriptions.
-     - 
 
    * - Compass Community
-     - This version is for developing with MongoDB and includes a
-       subset of the features of Compass.
-     - :icon:`check-circle`
+     - Free version  for developing with MongoDB and includes a subset
+       of the features of Compass.
 
    * - Compass Readonly
      - This version is limited strictly to read operations, with all
        write and delete capabilities removed.
-     - 
 
    * - Compass Isolated
      - This version disables all network connections except the
        connection to the MongoDB instance.
-     - 
 
 .. _compass-feature-table:
 
 What are the Capabilities of Each |compass-short| Edition?
 ----------------------------------------------------------
 
-The following feature chart can help you choose the edition to best
-suit your needs.
+The following feature charts can help you choose the edition to best
+suit your needs:
+
+- :ref:`CRUD <crud-feature-chart>`
+- :ref:`Indexes and Performance <index-feature-chart>`
+- :ref:`Security <security-feature-chart>`
+- :ref:`Schema and Validation <schema-feature-chart>`
+- :ref:`Other <other-feature-chart>`
+
+.. _crud-feature-chart:
+
+CRUD
+~~~~
 
 .. list-table::
    :header-rows: 1
    :widths: 40 15 15 15 15
 
-   * -
+   * - Feature
      - Compass
      - Compass Community
      - Compass Readonly
@@ -98,11 +105,93 @@ suit your needs.
      - |checkmark|
      - |checkmark|
 
+   * - Create and execute aggregation pipelines
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+.. _index-feature-chart:
+
+Indexes and Performance
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 15 15 15 15
+
+   * - Feature
+     - Compass
+     - Compass Community
+     - Compass Readonly
+     - Compass Isolated
+
    * - Manage indexes: view stats, create, and delete
      - |checkmark|
      - |checkmark|
      -
      - |checkmark|
+
+   * - View and optimize query performance with visual explain plans
+     - |checkmark|
+     - |checkmark|
+     -
+     - |checkmark|
+
+   * - :doc:`Real Time Server Stats </performance>`
+     - |checkmark|
+     -
+     - |checkmark|
+     - |checkmark|
+
+.. _security-feature-chart:
+
+Security
+~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 15 15 15 15
+
+   * - Feature
+     - Compass
+     - Compass Community
+     - Compass Readonly
+     - Compass Isolated
+
+   * - Kerberos, LDAP, and x509 authentication
+     - |checkmark|
+     -
+     - |checkmark|
+     - |checkmark|
+
+.. _schema-feature-chart:
+
+Schema and Validation
+~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 15 15 15 15
+
+   * - Feature
+     - Compass
+     - Compass Community
+     - Compass Readonly
+     - Compass Isolated
+
+   * - :doc:`Schema Analysis </schema>`
+     - |checkmark|
+     -
+     - |checkmark|
+     - |checkmark|
+
+   * - Map rendering in the :ref:`Schema <schema-tab>` view via third
+       party services
+     - |checkmark|
+     -
+     - |checkmark|
+     -
 
    * - View existing :ref:`document validation rules <validation>`
      - |checkmark|
@@ -116,35 +205,20 @@ suit your needs.
      -
      - |checkmark|
 
-   * - View and optimize query performance with visual explain plans
-     - |checkmark|
-     - |checkmark|
-     -
-     - |checkmark|
+.. _other-feature-chart:
 
-   * - Create and execute aggregation pipelines
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
+Other
+~~~~~
 
-   * - Kerberos, LDAP, and x509 authentication
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
+.. list-table::
+   :header-rows: 1
+   :widths: 40 15 15 15 15
 
-   * - :doc:`Schema Analysis </schema>`
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
-
-   * - :doc:`Real Time Server Stats </performance>`
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
+   * - Feature
+     - Compass
+     - Compass Community
+     - Compass Readonly
+     - Compass Isolated
 
    * - Automatic updates
      - |checkmark|
@@ -156,13 +230,6 @@ suit your needs.
        `Stitch <https://www.mongodb.com/cloud/stitch>`_
      - |checkmark|
      - |checkmark|
-     - |checkmark|
-     -
-
-   * - Map rendering in the :ref:`Schema <schema-tab>` view via third
-       party services
-     - |checkmark|
-     -
      - |checkmark|
      -
 
