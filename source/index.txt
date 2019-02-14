@@ -17,12 +17,17 @@ What is |compass-short|?
 
 |compass| is the :abbr:`GUI (Graphical User Interface)` for MongoDB.
 |compass-short| allows you to analyze and understand the contents of
-your data without formal knowledge of MongoDB
-:manual:`query syntax </tutorial/query-documents>`. In addition to
-exploring your data in a visual environment, you can also use
-|compass-short| to :ref:`optimize query performance <explain-plans>`,
-:ref:`manage indexes <compass-indexes>`, and implement
-:ref:`document validation <validation>`.
+your data without formal knowledge of the MongoDB
+:manual:`query syntax </tutorial/query-documents>`. You can use
+|compass-short| to:
+
+- :doc:`Explore your data in a visual environment </documents>`
+
+- :ref:`Optimize query performance <explain-plans>`
+
+- :ref:`Manage indexes <compass-indexes>`
+
+- :ref:`Implement document validation <validation>`
 
 .. _compass-and-community-eds:
 
@@ -33,31 +38,27 @@ What Different Editions of |compass-short| Are Available?
 
 .. list-table::
    :header-rows: 1
-   :widths: 25 70 5
+   :widths: 25 75
 
    * - Edition
      - Description
-     - Free
 
    * - Compass
      - Full version of MongoDB Compass, with all features and
        capabilities. Compass is available as part of our subscriptions.
-     - 
 
-   * - Compass Community
+   * - Compass Community (free)
      - This version is for developing with MongoDB and includes a
-       subset of the features of Compass.
-     - :icon:`check-circle`
+       subset of the features of Compass. It is free to download and use.
 
    * - Compass Readonly
      - This version is limited strictly to read operations, with all
        write and delete capabilities removed.
-     - 
 
    * - Compass Isolated
      - This version disables all network connections except the
        connection to the MongoDB instance.
-     - 
+
 
 .. _compass-feature-table:
 
@@ -172,9 +173,8 @@ suit your needs.
      - |checkmark|
      -
 
-Each |compass| edition is available in both a
-*General Availability* and a *Beta* version. To download any
-available version, go to the `MongoDB Download
+To learn about installing Compass, see :doc:`Install Compass </install>`.
+You can also download Compass from the `MongoDB Download
 Center <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
 
 .. class:: hidden
