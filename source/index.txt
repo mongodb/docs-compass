@@ -26,50 +26,50 @@ exploring your data in a visual environment, you can also use
 
 .. _compass-and-community-eds:
 
-What Different Editions of |compass-short| Are Available?
--------------------------------------------------------------
+Available Editions
+-------------------
 
 |compass-short| is offered in four editions:
 
 .. list-table::
    :header-rows: 1
-   :widths: 25 70 5
+   :widths: 25 75
 
    * - Edition
      - Description
-     - Free
 
    * - Compass
      - Full version of MongoDB Compass, with all features and
        capabilities. Compass is available as part of our subscriptions.
-     - 
 
    * - Compass Community
-     - This version is for developing with MongoDB and includes a
+     - **Free**. This version is for developing with MongoDB and includes a
        subset of the features of Compass.
-     - :icon:`check-circle`
 
    * - Compass Readonly
      - This version is limited strictly to read operations, with all
        write and delete capabilities removed.
-     - 
 
    * - Compass Isolated
      - This version disables all network connections except the
        connection to the MongoDB instance.
-     - 
+
+Each |compass| edition is available in both a
+*General Availability* and a *Beta* version. To download any
+available version, go to the `MongoDB Download
+Center <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
 
 .. _compass-feature-table:
 
-What are the Capabilities of Each |compass-short| Edition?
-----------------------------------------------------------
+Feature Comparisons
+-------------------
 
 The following feature chart can help you choose the edition to best
 suit your needs.
 
 .. list-table::
    :header-rows: 1
-   :widths: 40 15 15 15 15
+   :widths: 40 30 30 30 30
 
    * -
      - Compass
@@ -77,105 +77,68 @@ suit your needs.
      - Compass Readonly
      - Compass Isolated
 
-   * - View :doc:`documents </documents>`,
-       :doc:`collections </collections>`,
-       :doc:`databases </databases>`, and :ref:`indexes <indexes-tab>`
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
+   * - **CRUD**
+     - Read/Write
+     - Read/Write
+     - Read
+     - Read/Write
 
-   * - Interact with documents, collections, and databases with full
-       CRUD functionality
-     - |checkmark|
-     - |checkmark|
-     -
-     - |checkmark|
+   * - **Aggregation Pipeline**
+     - All stages
+     - All stages
+     - ? Excludes $out
+     - All stages
 
-   * - Build and run ad hoc queries
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
+   * - **Indexes**
+     - View/Create/Delete
+     - View
+     - View/Create/Delete
+     - View/Create/Delete
 
-   * - Manage indexes: view stats, create, and delete
-     - |checkmark|
-     - |checkmark|
-     -
-     - |checkmark|
-
-   * - View existing :ref:`document validation rules <validation>`
-     - |checkmark|
+   * - **Schema Validation**
+     - View,Create/Delete/Edit
      - 
-     - |checkmark|
-     - |checkmark|
+     - View
+     - View,Create/Delete/Edit
 
-   * - Create, delete and edit document validation rules
-     - |checkmark|
+   * - **Query Plans**
+     - Visual Explain
+     - Visual Explain
+     -
+     - Visual Explain
+
+   * - **Data Introspection**
+     - Schema Analysis
+     - 
+     - Schema Analysis
+     - Schema Analysis
+
+   * - **3rd Party Integration**
+     - Mapping
+     -
+     - Mapping
+     -
+
+
+   * - **Security**
+     - CR/Kerberos/LDAP/x509
+     - CR
+     - CR/Kerberos/LDAP/x509
+     - CR/Kerberos/LDAP/ x509
+
+
+   * - **Real Time Monitoring**
+     - Performance Stats
+     -
+     - Performance Stats
+     - Performance Stats
+
+
+   * - **Privacy Settings**
+     - 
+     - 
      - 
      -
-     - |checkmark|
-
-   * - View and optimize query performance with visual explain plans
-     - |checkmark|
-     - |checkmark|
-     -
-     - |checkmark|
-
-   * - Create and execute aggregation pipelines
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - Kerberos, LDAP, and x509 authentication
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
-
-   * - :doc:`Schema Analysis </schema>`
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
-
-   * - :doc:`Real Time Server Stats </performance>`
-     - |checkmark|
-     -
-     - |checkmark|
-     - |checkmark|
-
-   * - Automatic updates
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-
-   * - Telemetry data collection via
-       `Stitch <https://www.mongodb.com/cloud/stitch>`_
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-
-   * - Map rendering in the :ref:`Schema <schema-tab>` view via third
-       party services
-     - |checkmark|
-     -
-     - |checkmark|
-     -
-
-   * - Error collection and crash reporting
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-
-Each |compass| edition is available in both a
-*General Availability* and a *Beta* version. To download any
-available version, go to the `MongoDB Download
-Center <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
 
 .. class:: hidden
 
