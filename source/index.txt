@@ -26,8 +26,8 @@ exploring your data in a visual environment, you can also use
 
 .. _compass-and-community-eds:
 
-What Different Editions of |compass-short| Are Available?
--------------------------------------------------------------
+|compass-short| Editions
+------------------------
 
 |compass-short| is offered in four editions:
 
@@ -41,16 +41,17 @@ What Different Editions of |compass-short| Are Available?
 
    * - Compass
      - Full version of MongoDB Compass, with all features and
-       capabilities. Compass is available as part of our subscriptions.
-     - 
+       capabilities. Compass is available as part of a MongoDB
+       Enterprise or Professional subscription.
+     - |checkmark|
 
    * - Compass Community
      - This version is for developing with MongoDB and includes a
        subset of the features of Compass.
-     - :icon:`check-circle`
+     - 
 
    * - Compass Readonly
-     - This version is limited strictly to read operations, with all
+     - This version is limited to read operations, with all
        write and delete capabilities removed.
      - 
 
@@ -61,8 +62,8 @@ What Different Editions of |compass-short| Are Available?
 
 .. _compass-feature-table:
 
-What are the Capabilities of Each |compass-short| Edition?
-----------------------------------------------------------
+Feature Comparison Chart
+------------------------
 
 The following feature chart can help you choose the edition to best
 suit your needs.

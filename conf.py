@@ -60,7 +60,7 @@ rst_epilog = '\n'.join([
     '.. |hardlink| replace:: http://docs.mongodb.com/compass/',
     '.. |compass| replace:: MongoDB Compass',
     '.. |compass-short| replace:: Compass',
-    '.. |checkmark| replace:: :icon:`check-circle`'
+    '.. |checkmark| unicode:: U+2713'
 ])
 
 extlinks = {
