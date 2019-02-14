@@ -12,7 +12,7 @@ MongoDB Compass
    :depth: 1
    :class: singlecol
 
-What is |compass-short|?
+What is MongoDB Compass?
 ------------------------
 
 |compass| is the :abbr:`GUI (Graphical User Interface)` for MongoDB.
@@ -24,58 +24,60 @@ exploring your data in a visual environment, you can also use
 :ref:`manage indexes <compass-indexes>`, and implement
 :ref:`document validation <validation>`.
 
-.. _compass-and-community-eds:
+.. admonition:: Get Started with Compass
+   :class: note
 
-What Different Editions of |compass-short| Are Available?
--------------------------------------------------------------
+   To get started, :ref:`determine which edition of Compass to use
+   <compass-and-community-eds>` and then download any available version,
+   from the `MongoDB Download Center
+   <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
+
+Why Should I Use Compass?
+-------------------------
+
+Donec sed pellentesque tellus. Donec convallis mi a sodales ullamcorper.
+Nulla at aliquam dui. In metus nulla, eleifend sed odio vitae, tincidunt
+egestas magna. Pellentesque a congue neque. Vestibulum ut porttitor
+odio, sit amet pellentesque nunc. Nullam dapibus mattis mi, venenatis
+vulputate tellus ullamcorper sed.
+
+.. figure:: /images/compass/database-tab.png
+   :width: 750px
+
+.. _compass-and-community-eds:
+.. _compass-feature-table:
+
+Which Edition of Compass Should I Use?
+--------------------------------------
 
 |compass-short| is offered in four editions:
 
 .. list-table::
    :header-rows: 1
-   :widths: 25 70 5
-
-   * - Edition
-     - Description
-     - Free
-
-   * - Compass
-     - Full version of MongoDB Compass, with all features and
-       capabilities. Compass is available as part of our subscriptions.
-     - 
-
-   * - Compass Community
-     - This version is for developing with MongoDB and includes a
-       subset of the features of Compass.
-     - :icon:`check-circle`
-
-   * - Compass Readonly
-     - This version is limited strictly to read operations, with all
-       write and delete capabilities removed.
-     - 
-
-   * - Compass Isolated
-     - This version disables all network connections except the
-       connection to the MongoDB instance.
-     - 
-
-.. _compass-feature-table:
-
-What are the Capabilities of Each |compass-short| Edition?
-----------------------------------------------------------
-
-The following feature chart can help you choose the edition to best
-suit your needs.
-
-.. list-table::
-   :header-rows: 1
-   :widths: 40 15 15 15 15
+   :widths: 15 15 15 15 15
 
    * -
      - Compass
      - Compass Community
      - Compass Readonly
      - Compass Isolated
+
+   * - Description
+     - Full version of MongoDB Compass, with all features and
+       capabilities. Compass is available as part of our subscriptions.
+     - This version is for developing with MongoDB and includes a
+       subset of the features of Compass.
+     - This version is limited strictly to read operations, with all
+       write and delete capabilities removed.
+     - This version disables all network connections except the
+       connection to the MongoDB instance.
+
+   * - Free to Use
+     -
+     - :icon:`check-circle`
+     -
+     -
+
 
    * - View :doc:`documents </documents>`,
        :doc:`collections </collections>`,
@@ -106,13 +108,13 @@ suit your needs.
 
    * - View existing :ref:`document validation rules <validation>`
      - |checkmark|
-     - 
+     -
      - |checkmark|
      - |checkmark|
 
    * - Create, delete and edit document validation rules
      - |checkmark|
-     - 
+     -
      -
      - |checkmark|
 
@@ -172,11 +174,6 @@ suit your needs.
      - |checkmark|
      -
 
-Each |compass| edition is available in both a
-*General Availability* and a *Beta* version. To download any
-available version, go to the `MongoDB Download
-Center <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
-
 .. class:: hidden
 
    .. toctree::
@@ -192,4 +189,3 @@ Center <https://www.mongodb.com/downloads?jmp=docs#compass>`_.
       /faq
       /release-notes
       /submit-feedback
-
