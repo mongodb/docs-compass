@@ -29,35 +29,68 @@ exploring your data in a visual environment, you can also use
 What Different Editions of |compass-short| Are Available?
 -------------------------------------------------------------
 
-|compass-short| is offered in four editions:
+|compass-short| is offered in the following four editions:
 
-.. list-table::
-   :header-rows: 1
-   :widths: 25 70 5
+.. tabs:: 
 
-   * - Edition
-     - Description
-     - Free
+   tabs:
 
-   * - Compass
-     - Full version of MongoDB Compass, with all features and
-       capabilities. Compass is available as part of our subscriptions.
-     - 
+     - id: compass-free
+       name: Compass Community
+       content: |
 
-   * - Compass Community
-     - This version is for developing with MongoDB and includes a
-       subset of the features of Compass.
-     - :icon:`check-circle`
+         Compass Community is a version of MongoDB Compass that
+         supports a subset of functionality appropriate for
+         developing with MongoDB. Compass Community is available
+         at no cost to all users.
 
-   * - Compass Readonly
-     - This version is limited strictly to read operations, with all
-       write and delete capabilities removed.
-     - 
+         Compass Community supports features such as viewing 
+         cluster data and interacting via CRUD functionality. For
+         a complete list of features, see
+         :ref:`compass-feature-table`.
 
-   * - Compass Isolated
-     - This version disables all network connections except the
-       connection to the MongoDB instance.
-     - 
+     - id: compass
+       name: Compass
+       content: |
+
+         Compass is the full version of MongoDB Compass, with 
+         complete availability to all features and capabilities. 
+         Compass is appropriate for both development and management
+         of MongoDB clusters.
+
+         Compass is only available as a subscription. For more
+         information on MongoDB Compass subscriptions, see <link>.  For
+         a complete list of features, see :ref:`compass-feature-table`.
+
+     - id: compass-readonly
+       name: Compass Readonly
+       content: |
+
+         Compass Readonly is limited to only read operations, with
+         all write or deletion capabilities disabled. Compass Readonly
+         is appropriate for supporting data analytics or data
+         scientists.
+
+         Compass Readonly is only available as a subscription. For more
+         information on MongoDB Compass subscriptions, see <link>. For
+         a complete list of features, see :ref:`compass-feature-table`.
+
+     - id: compass-isolated
+       name: Compass Isolated
+       content: |
+
+         Compass Isolated only allows TLS-encrypted outbound connections
+         to the target MongoDB cluster. All other outbound network
+         connections are restricted. Compass Isolated cannot
+         support features that require outbound connections to
+         third-party services, such as automatic updates or crash
+         reporting. Compass Isolated is appropriate for organizations
+         with high security and privacy requirements.
+
+         Compass Isolated is only available as a subscription. For more
+         information on MongoDB Compass subscriptions, see <link>. For
+         a complete list of features, see :ref:`compass-feature-table`.
+
 
 .. _compass-feature-table:
 
@@ -73,104 +106,96 @@ suit your needs.
 
    * -
      - Compass
-     - Compass Community
-     - Compass Readonly
      - Compass Isolated
+     - Compass Readonly
+     - Compass Community
 
-   * - View :doc:`documents </documents>`,
-       :doc:`collections </collections>`,
-       :doc:`databases </databases>`, and :ref:`indexes <indexes-tab>`
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - Interact with documents, collections, and databases with full
-       CRUD functionality
-     - |checkmark|
-     - |checkmark|
-     -
-     - |checkmark|
-
-   * - Build and run ad hoc queries
+   * - Read data from your MongoDB database, including visual query
+       and aggregation builders.
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
 
-   * - Manage indexes: view stats, create, and delete
+   * - Create, update, or delete data from your MongoDB database
      - |checkmark|
      - |checkmark|
-     -
+     - 
+     - |checkmark|
+
+   * - View indexes and related statistics
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - Create or Delete Indexes
+     - |checkmark|
+     - |checkmark|
+     - 
      - |checkmark|
 
    * - View existing :ref:`document validation rules <validation>`
      - |checkmark|
+     - |checkmark|
+     - |checkmark|
      - 
-     - |checkmark|
-     - |checkmark|
 
-   * - Create, delete and edit document validation rules
+   * - Modify or remove document validation rules
+     - |checkmark|
      - |checkmark|
      - 
-     -
-     - |checkmark|
+     - 
 
    * - View and optimize query performance with visual explain plans
      - |checkmark|
      - |checkmark|
-     -
+     - 
      - |checkmark|
 
-   * - Create and execute aggregation pipelines
+   * - Support for Clusters enforcing Kerberos, LDAP, or x509 authentication
      - |checkmark|
      - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - Kerberos, LDAP, and x509 authentication
      - |checkmark|
      -
-     - |checkmark|
-     - |checkmark|
 
    * - :doc:`Schema Analysis </schema>`
      - |checkmark|
+     - |checkmark|
+     - |checkmark|
      -
-     - |checkmark|
-     - |checkmark|
 
    * - :doc:`Real Time Server Stats </performance>`
      - |checkmark|
+     - |checkmark|
+     - |checkmark|
      -
-     - |checkmark|
-     - |checkmark|
 
    * - Automatic updates
      - |checkmark|
+     - 
      - |checkmark|
      - |checkmark|
-     -
 
    * - Telemetry data collection via
        `Stitch <https://www.mongodb.com/cloud/stitch>`_
      - |checkmark|
+     - 
      - |checkmark|
      - |checkmark|
-     -
 
    * - Map rendering in the :ref:`Schema <schema-tab>` view via third
        party services
      - |checkmark|
-     -
+     - 
      - |checkmark|
      -
 
    * - Error collection and crash reporting
      - |checkmark|
+     - 
      - |checkmark|
      - |checkmark|
-     -
 
 Each |compass| edition is available in both a
 *General Availability* and a *Beta* version. To download any
