@@ -17,12 +17,11 @@ What is |compass-short|?
 
 |compass| is the :abbr:`GUI (Graphical User Interface)` for MongoDB.
 |compass-short| allows you to analyze and understand the contents of
-your data without formal knowledge of MongoDB
-:manual:`query syntax </tutorial/query-documents>`. In addition to
-exploring your data in a visual environment, you can also use
-|compass-short| to :ref:`optimize query performance <explain-plans>`,
+your data without formal knowledge of MongoDB's
+:manual:`query language </tutorial/query-documents>`. |compass-short|
+also enables you to :ref:`optimize query performance <explain-plans>`,
 :ref:`manage indexes <compass-indexes>`, and implement
-:ref:`document validation <validation>`.
+:ref:`document validation <validation>` from within a convenient user interface.
 
 .. _compass-and-community-eds:
 
@@ -37,27 +36,30 @@ What Different Editions of |compass-short| Are Available?
 
    * - Edition
      - Description
-     - Free
+     - Subscription Required
 
    * - Compass
-     - Full version of MongoDB Compass, with all features and
-       capabilities. Compass is available as part of our subscriptions.
-     - 
+     - Full version of |compass|, with all features and
+       capabilities. |compass-short| is available as part of 
+       a MongoDB subscription.
+     - :icon:`check-circle`
 
    * - Compass Community
      - This version is for developing with MongoDB and includes a
        subset of the features of Compass.
-     - :icon:`check-circle`
+     -
 
    * - Compass Readonly
      - This version is limited strictly to read operations, with all
-       write and delete capabilities removed.
-     - 
+       write and delete capabilities removed. Available as part of a 
+       MongoDB subscription.
+     - :icon:`check-circle`
 
    * - Compass Isolated
      - This version disables all network connections except the
        connection to the MongoDB instance.
-     - 
+       Available as part of a MongoDB subscription.
+     - :icon:`check-circle`
 
 .. _compass-feature-table:
 
@@ -86,19 +88,20 @@ suit your needs.
      - |checkmark|
 
    * - Interact with documents, collections, and databases with full
-       CRUD functionality
+       :abbr:`CRUD (Create, Read, Update, Delete)` functionality
      - |checkmark|
      - |checkmark|
      -
      - |checkmark|
 
-   * - Build and run ad hoc queries
+   * - Build and run :doc:`ad hoc queries </query-bar>`
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
 
-   * - Manage indexes: view stats, create, and delete
+   * - Manage :doc:`indexes </indexes>`: view stats; create and delete 
+       indexes.
      - |checkmark|
      - |checkmark|
      -
@@ -116,19 +119,19 @@ suit your needs.
      -
      - |checkmark|
 
-   * - View and optimize query performance with visual explain plans
+   * - :doc:`View and optimize query performance with visual explain plans </query-plan>`
      - |checkmark|
      - |checkmark|
      -
      - |checkmark|
 
-   * - Create and execute aggregation pipelines
+   * - Create and execute :doc:`aggregation pipelines </aggregation-pipeline-builder>`
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
 
-   * - Kerberos, LDAP, and x509 authentication
+   * - :ref:`Kerberos, LDAP, and x.509 authentication <available-authentication-mechanisms>`
      - |checkmark|
      -
      - |checkmark|
@@ -146,11 +149,6 @@ suit your needs.
      - |checkmark|
      - |checkmark|
 
-   * - Automatic updates
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
 
    * - Telemetry data collection via
        `Stitch <https://www.mongodb.com/cloud/stitch>`_
@@ -163,6 +161,12 @@ suit your needs.
        party services
      - |checkmark|
      -
+     - |checkmark|
+     -
+
+   * - Automatic updates
+     - |checkmark|
+     - |checkmark|
      - |checkmark|
      -
 
