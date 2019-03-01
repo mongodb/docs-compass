@@ -306,49 +306,23 @@ as favorites. To view the list of queries saved as favorites, click on
 .. figure:: /images/compass/query-history-favorite.png
    :figwidth: 316px
 
+Limitations
+-----------
+
+- The query bar fields do not support :manual:`$near
+  </reference/operator/query/near/>` and
+  :manual:`$nearSphere </reference/operator/query/nearSphere/>` 
+  because they do not provide any additional functionality in
+  the :ref:`schema view <schema-tab>`.
+
+- The :ref:`Project <query-bar-project>` query bar option does not 
+  support the :manual:`$slice </reference/operator/projection/slice/>` 
+  operator.
+
 .. class:: hidden
 
    .. toctree::
       :titlesonly:
 
       /export-query-to-language
-
-Limitations
------------
-
-Limitations apply to the following query operators:
-
-- :manual:`$near
-  </reference/operator/query/near/>` and
-  :manual:`$nearSphere </reference/operator/query/nearSphere/>`
-  are not supported in any of the query bar
-  fields, because they do not provide any additional functionality in
-  the :ref:`schema view <schema-tab>`.
-
-- :manual:`$slice 
-  </reference/operator/projection/slice/>` is not supported for 
-  projections.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
