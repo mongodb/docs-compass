@@ -316,17 +316,6 @@ as favorites. To view the list of queries saved as favorites, click on
 Limitations
 -----------
 
-- |compass| does not support the :manual:`$near
-  </reference/operator/query/near/>` and
-  :manual:`$nearSphere </reference/operator/query/nearSphere/>`
-  geospatial query operators in any of the query bar
-  fields, because they do not provide any additional functionality in
-  the :ref:`schema view <schema-tab>`.
-
-- |compass| does not support the :manual:`$slice 
-  </reference/operator/projection/slice/>` query operator for 
-  projections.
-
 Limitations apply to the following query operators:
 
 - :manual:`$near
