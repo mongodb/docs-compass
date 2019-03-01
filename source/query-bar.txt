@@ -309,11 +309,11 @@ as favorites. To view the list of queries saved as favorites, click on
 Limitations
 -----------
 
-- The query bar fields do not support :manual:`$near
+- The query bar fields do not support the :manual:`$near
   </reference/operator/query/near/>` and
   :manual:`$nearSphere </reference/operator/query/nearSphere/>` 
-  because they do not provide any additional functionality in
-  the :ref:`schema view <schema-tab>`.
+  geospatial query operators, because they do not provide any additional 
+  functionality in the :ref:`schema view <schema-tab>`.
 
 - The :ref:`Project <query-bar-project>` query bar option does not 
   support the :manual:`$slice </reference/operator/projection/slice/>` 
