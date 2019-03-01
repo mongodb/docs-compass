@@ -327,6 +327,19 @@ Limitations
   </reference/operator/projection/slice/>` query operator for 
   projections.
 
+Limitations apply to the following query operators:
+
+- :manual:`$near
+  </reference/operator/query/near/>` and
+  :manual:`$nearSphere </reference/operator/query/nearSphere/>`
+  are not supported in any of the query bar
+  fields, because they do not provide any additional functionality in
+  the :ref:`schema view <schema-tab>`.
+
+- :manual:`$slice 
+  </reference/operator/projection/slice/>` is not supported for 
+  projections.
+
 
 
 
