@@ -50,8 +50,8 @@ to view possible solutions:
          Try these solutions if you have a self-hosted MongoDB server,
          replica set, or cluster.
 
-         Required Config File Setting bindIp
-         ```````````````````````````````````
+         Required Config File Setting: bindIp
+         ````````````````````````````````````
          
          If you recently installed the MongoDB database server and are
          unable to establish an initial connection to that server,
@@ -69,10 +69,8 @@ to view possible solutions:
  
          MongoDB Server Moved or Shutdown
          ````````````````````````````````
- 
-         It is possible that your MongoDB cluster or server has been
-         shutdown or had its hostname has changed. Contact your database
-         administrator for updates on the status of your database.
+
+         .. include:: /includes/fact-server-moved-or-shutdown.rst
  
          Firewall
          ````````
@@ -96,9 +94,7 @@ to view possible solutions:
          MongoDB Server Moved or Shutdown
          ````````````````````````````````
  
-         If your MongoDB cluster or server has been shutdown or the
-         server hostname has changed, contact your database
-         administrator for updates on the status of your database.
+         .. include:: /includes/fact-server-moved-or-shutdown.rst
 
          Firewall
          ````````
@@ -162,21 +158,7 @@ replica set name is accurate.
 If your cluster is hosted in |service|, you can obtain the correct
 replica set name using the following procedure:
 
-1. Navigate to your |service| :guilabel:`Clusters` view.
-
-#. Click :guilabel:`Connect` for your desired cluster.
-
-#. Click :guilabel:`Connect with MongoDB Compass`.
-
-#. Copy the provided connection string.
-
-#. Open |compass|.
-  
-#. Click :guilabel:`Yes` to auto-fill the connection settings.
-
-  .. figure:: /images/compass/autofill-connect.png
-      :scale: 55%
-      :alt: Image showing autofill connection dialog
+.. include:: /includes/fact-get-replica-set-name-steps.rst
 
 Connection to Cluster Shard Closed
 ----------------------------------
@@ -226,6 +208,12 @@ To configure your |service| whitelist:
 current IP address, and appends these addresses with
 :guilabel:`(includes your current IP address)`.
 
+.. seealso::
+
+   For more information on configuring whitelist entries, see
+   :atlas:`Configure Whitelist Entries </security-whitelist/>` in the
+   |service| documentation.
+
 Not Master or Secondary is Not Writable
 ---------------------------------------
 
@@ -246,21 +234,7 @@ in the |compass-short| connect dialog.
 If your cluster is hosted in |service|, you can obtain the correct
 replica set name using the following procedure:
 
-1. Navigate to your |service| :guilabel:`Clusters` view.
-
-#. Click :guilabel:`Connect` for your desired cluster.
-
-#. Click :guilabel:`Connect with MongoDB Compass`.
-
-#. Copy the provided connection string.
-
-#. Open |compass|.
-  
-#. Click :guilabel:`Yes` to auto-fill the connection settings.
-
-  .. figure:: /images/compass/autofill-connect.png
-      :scale: 55%
-      :alt: Image showing autofill connection dialog
+.. include:: /includes/fact-get-replica-set-name-steps.rst
 
 Allow Compass to Connect to the Secondary
 `````````````````````````````````````````
@@ -275,6 +249,12 @@ should allow you to bypass this error and connect.
    When you connect to a secondary cluster member, you cannot
    create or modify documents, indexes, or databases. Only use this
    solution when you do not need to perform any write operations.
+
+.. seealso::
+
+   For more information on read preferences, see
+   :manual:`Read Preference </core/read-preference/>` in the MongoDB
+   manual.
 
 Authentication Failed
 ---------------------
@@ -322,3 +302,10 @@ Solutions
 
 - Verify that your selected authentication mechanism is supported by
   your MongoDB database.
+
+Additional Resources
+--------------------
+
+- :atlas:`Connect to Atlas via Compass </compass-connection/>`
+
+- :atlas:`Troubleshoot Atlas Connections </troubleshoot-connection/>`
