@@ -172,7 +172,7 @@ Check Your Compass Edition
 You cannot perform write operations in :guilabel:`Compass Readonly`
 edition. You can check your Compass edition by opening the
 top-level Compass dropdown menu and selecting
-:guilabel:`MongoDB Compass`.
+:guilabel:`About MongoDB Compass`.
 
 To perform write operations, you must download a different edition
 of MongoDB Compass. For more information on the differences between
