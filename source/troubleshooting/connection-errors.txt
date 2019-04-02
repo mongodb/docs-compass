@@ -191,6 +191,7 @@ Possible Observations
 You may see an error in |compass| similar to the following:
 
 .. code-block:: none
+   :copyable: false
 
    connection 3 to cluster0-shard-00-00-a1b2c.mongodb.net:27017 closed
 
@@ -306,7 +307,8 @@ This error message is often the result of one of five conditions:
 
   .. note::
 
-     For |service| clusters, this value is usually ``admin``.
+     For |service| clusters, the :guilabel:`Authentication Database` is
+     usually ``admin``.
 
 Solutions
 ~~~~~~~~~
