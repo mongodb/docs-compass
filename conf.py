@@ -135,17 +135,10 @@ extlinks = {
     'source': ('https://github.com/mongodb/mongo/blob/master/%s', ''),
     'docsgithub' : ( 'http://github.com/mongodb/docs/blob/' + conf.git.branches.current + '/%s', ''),
     'manual': ('http://docs.mongodb.org/manual%s', ''),
-<<<<<<< HEAD
-<<<<<<< HEAD
     'bic': ('https://docs.mongodb.com/bi-connector/current%s',''),
     'product': ('http://www.mongodb.com/products/%s?jmp=docs',''),
-    'dl': ('http://www.mongodb.com/download-center/%s?jmp=docs','')
-=======
-    'atlas': ('http://docs.atlas.mongodb.com/%s', '')
->>>>>>> (DOCSP-4644): Connection Troubleshooting
-=======
+    'dl': ('http://www.mongodb.com/download-center/%s?jmp=docs',''),
     'atlas': ('http://docs.atlas.mongodb.com%s', '')
->>>>>>> Updates per Joy's feedback
 }
 
 intersphinx_mapping = {}
