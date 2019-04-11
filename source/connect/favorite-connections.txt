@@ -1,0 +1,71 @@
+.. _favorite-connections:
+
+====================
+Favorite Connections
+====================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+|compass| allows you to save MongoDB connection configurations to
+easily reconnect to the same MongoDB deployment using the same
+specifications.
+
+Save a Favorite Connection
+--------------------------
+
+To save a favorite connection:
+
+1. Conifuring your :guilabel:`Connect To Host` form, with a
+   connection you would like to save.
+
+#. Type a :guilabel:`Favorite Name` into the :guilabel:`Favorite Name`
+   dialog.
+
+#. Click :guilabel:`Create Favorite`.
+
+   .. figure:: /images/compass/favorite-connection.png
+      :figwidth: 500px
+      :alt: Image showing Favorite Connection in Compass
+
+Edit a Favorite Connection
+--------------------------
+
+You can edit a favorite connection by reconfiguring or
+renaming the connection.
+
+To edit a saved favorite connection:
+
+1. Click the desired connection under :guilabel:`Favorites` to
+   the left of the :guilabel:`Connect to Host` form.
+
+   .. figure:: /images/compass/favorite-connection-select.png
+      :figwidth: 500px
+      :alt: Image showing selecting Favorite Connection in Compass
+
+#. Make the desired changes to the connection configuration
+   within the form.
+
+#. Click :guilabel:`Save Favorite` at the bottom of the form.
+
+Delete a Favorite Connection
+----------------------------
+
+To delete a saved favorite connection:
+
+1. Click the desired connection under :guilabel:`Favorites` to
+   the left of the :guilabel:`Connect to Host` dialog.
+
+   .. figure:: /images/compass/favorite-connection-select.png
+      :figwidth: 500px
+      :alt: Image showing selecting Favorite Connection in Compass
+
+#. Click :guilabel:`Delete Favorite` at the bottom of the form.
+
+|compass| removes the connection from the :guilabel:`Favorites` list
+and returns the :guilabel:`Connect to Host` dialog to the default state.
