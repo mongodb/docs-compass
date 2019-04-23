@@ -10,14 +10,14 @@ include ``mongodb+srv`` in your :guilabel:`Hostname`.
 
 .. example::
 
-    If this is the SRV connection string for your MongoDB instance:
+    If the following is your SRV connection string for your MongoDB instance:
 
     .. code-block:: shell
         :copyable: false
 
         mongodb+srv://<username>:<password>@gettingstarted-7q2cs.mongodb.net/test
 
-    In |compass-short|, you would specify your
+    Then, in |compass-short|, you would specify your
     :guilabel:`Hostname` as:
 
     .. code-block:: shell

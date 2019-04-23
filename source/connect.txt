@@ -27,8 +27,7 @@ Disconnect
 
 To disconnect from a MongoDB instance in Compass:
 
-- Click :guilabel:`Connect` in the menu bar, then
-- Select :guilabel:`Disconnect` from the dropdown menu
+.. include:: /includes/steps/disconnect-compass.rst
 
 .. figure:: images/compass/disconnect.png
 
