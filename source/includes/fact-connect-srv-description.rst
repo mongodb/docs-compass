@@ -1,8 +1,7 @@
-*New in Compass version 1.12*
-     
 This toggle indicates whether the provided :guilabel:`Hostname`
-is an
-:manual:`SRV Record </reference/connection-string/#dns-seedlist-connection-format>`.
+is an :manual:`SRV Record
+</reference/connection-string/#dns-seedlist-connection-format>`.
+If this toggle is enabled, you do not need to specify a port.
 
 SRV connection strings have a prefix of ``mongodb+srv:``.
 If you are using an SRV connection string, you do not need to
@@ -24,5 +23,3 @@ include ``mongodb+srv`` in your :guilabel:`Hostname`.
         :copyable: false
 
         gettingstarted-7q2cs.mongodb.net
-
-If this toggle is enabled, you do not need to specify a :guilabel:`Port`.

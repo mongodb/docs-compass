@@ -6,27 +6,25 @@ Required Access
 
 .. default-domain:: mongodb
 
-With authentication/authorization enforced on the connected MongoDB
-instance, the user requires appropriate privileges to access various
-features. The following table lists the privileges required to access
-the features as well as the built-in roles that can provide these
-privileges:
+|compass| users require specific privileges to access various
+|compass-short| features if authentication/authorization is enforced on
+the connected MongoDB instance.
 
-.. note::
-   The built-in roles may provide more access than required. You can
-   also create a :ref:`user-defined-roles` to grant specific privileges.
+The following table lists the privileges required to access the
+features as well as the built-in roles that can provide these
+privileges:
 
 .. list-table::
    :header-rows: 1
    :widths: 25 30 25 20
 
-   * - View
-     - Feature/Action
+   * - Compass View
+     - Capability
      - Privilege(s)
      - MongoDB Built-In Role
 
    * - :guilabel:`Home/MongoDB Instance`
-     - :doc:`/performance`
+     - :doc:`View performance </performance>`
      - | :authaction:`top`
        | :authaction:`inprog`
        | :authaction:`serverStatus`
@@ -53,17 +51,17 @@ privileges:
      - :authrole:`readWrite`
 
    * - :guilabel:`Schema`
-     - :doc:`Query/View </schema>`
+     - :doc:`Query/View a Schema </schema>`
      - :authaction:`find`
      - :authrole:`read`
 
    * - :guilabel:`Documents`
-     - :doc:`Query/View </documents>`
+     - :doc:`Query/View a Document </documents>` 
      - :authaction:`find`
      - :authrole:`read`
 
    * - :guilabel:`Documents`
-     - :doc:`Clone, insert, update, delete </documents>`
+     - :doc:`Clone, insert, update, delete a document </documents>` 
      - | :authaction:`find`
        | :authaction:`insert`
        | :authaction:`update`
@@ -71,18 +69,18 @@ privileges:
      - :authrole:`readWrite`
 
    * - :guilabel:`Indexes`
-     - :doc:`View </indexes>`
+     - :doc:`View an index </indexes>`
      - :authaction:`listIndexes`
      - :authrole:`read`
 
    * - :guilabel:`Indexes`
-     - :doc:`Create, drop </indexes>`
+     - :doc:`Create, drop an index </indexes>`
      - | :authaction:`createIndex`
        | :authaction:`dropIndex`
      - :authrole:`readWrite`
 
    * - :guilabel:`Explain Plan`
-     - :doc:`Query/View </query-plan>`
+     - :doc:`Query/View a query plan </query-plan>`
      - :authaction:`find`
      - :authrole:`read`
 
@@ -95,3 +93,8 @@ privileges:
      - :ref:`Update rules <update-validation>`
      - :authaction:`collMod`
      - :authrole:`dbAdmin`
+
+.. note::
+
+   The built-in roles may provide more access than required. You can
+   also create a :ref:`user-defined-roles` to grant specific privileges.

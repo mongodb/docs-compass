@@ -41,8 +41,7 @@ method from the tabs below for specific instructions:
        name: Kerberos
        content: |
 
-         .. admonition:: Not Available in Compass Community Edition
-            :class: note
+         .. important::
 
             :guilabel:`Kerberos` Authentication is not available in
             Compass Community Edition.
@@ -68,8 +67,7 @@ method from the tabs below for specific instructions:
      - id: ldap
        name: LDAP
        content: |
-         .. admonition:: Not Available in Compass Community Edition
-            :class: note
+         .. important::
 
             :guilabel:`LDAP` Authentication is not available in
             Compass Community Edition.
@@ -83,8 +81,7 @@ method from the tabs below for specific instructions:
      - id: x509
        name: X.509
        content: |
-         .. admonition:: Not Available in Compass Community Edition
-            :class: note
+         .. important::
 
             :guilabel:`x.509` Authentication is not available in
             Compass Community Edition.

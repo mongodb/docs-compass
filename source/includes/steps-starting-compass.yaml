@@ -26,6 +26,9 @@ content: |
        Open MongoDB Compass with a URI connection string in your clipboard and click :guilabel:`Yes`
        when prompted to auto-populate the dialog.
 
+    Select the appropriate tab based on how you are connecting |compass|
+    to your database:
+
     .. tabs::
 
        tabs:
@@ -54,9 +57,12 @@ content: |
     .. note::
 
        |compass| securely stores sensitive information entered in the
-       connection form using an operating system-specific credentials API.
-       For more information on how |compass-short| handles sensitive data,
-       refer to the :ref:`FAQ page <compass-faq-confidential-data>`.
+       connection form using an API that is specific to your operating
+       system API.
+
+       For more information on how |compass-short| handles sensitive
+       data, refer to the
+       :ref:`FAQ page <compass-faq-confidential-data>`.
 
 ---
 title: Connect.
@@ -68,7 +74,7 @@ content: |
    :doc:`Home Page </instance>`.
 
    .. admonition:: Required Access
-      :class: note
+      :class: important
 
       Once you are connected to your MongoDB instance, you may
       require specific :manual:`user roles <reference/built-in-roles/>`
