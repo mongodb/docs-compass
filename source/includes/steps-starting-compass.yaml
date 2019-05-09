@@ -58,7 +58,7 @@ content: |
 
        |compass| securely stores sensitive information entered in the
        connection form using an API that is specific to your operating
-       system API.
+       system.
 
        For more information on how |compass-short| handles sensitive
        data, refer to the
