@@ -63,7 +63,7 @@ For more information about the :guilabel:`Performance` tab, see
 
 .. note::
 
-   The :guilabel:`Performance` tab is not avaible in Compass Community Edition.
+   The :guilabel:`Performance` tab is not available in Compass Community Edition.
 
 
 .. class:: hidden
