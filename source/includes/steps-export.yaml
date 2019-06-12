@@ -7,11 +7,10 @@ content: |
   left-hand pane.
 
 ---
-title: Click :guilabel:`Collection` in the top-level menu and select :guilabel:`Export Data`
+title: Click :guilabel:`Collection` in the top-level menu and select :guilabel:`Export Collection`
 level: 4
-ref: export-data
+ref: export-collection
 content: |
-  :guilabel:`Export Collection`:
 
   .. raw:: html
 
@@ -40,13 +39,11 @@ content: |
   ``undefined``.
 
 ---
-title: |
-  Use the :guilabel:`Export Full Collection` toggle to indicate 
+title: Use the :guilabel:`Export Full Collection` toggle to indicate 
   whether to export only the documents matched by the query or the
   full collection.
-
 level: 4
-ref: export-collection
+ref: export-full-collection
 content: |
   .. note::
      Having an ``undefined`` query filter and toggling the
@@ -57,8 +54,13 @@ content: |
 title: Choose the appropriate file type and the location of the export file.
 level: 4
 ref: click-file-location
-content: ""
+content: |
+  .. raw:: html
+
+     <br>
+
 ---
+
 title: Click :guilabel:`Export`. 
 level: 4
 ref: click-export

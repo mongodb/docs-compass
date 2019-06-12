@@ -90,7 +90,7 @@ Procedure
 
 To import your formatted data into a collection:
 
-.. include:: /includes/steps-import.yaml
+.. include:: /includes/steps/import.rst
 
 A progress bar displays the status of the import. If an error occurs
 during import, the progress bar turns red and an error message
@@ -121,7 +121,7 @@ Procedure
 
 To export collection data to a file:
 
-.. include:: /includes/steps-export.yaml
+.. include:: /includes/steps/export.rst
 
 A progress bar displays the status of the export. If an error occurs
 during export, the progress bar turns red and an error message
