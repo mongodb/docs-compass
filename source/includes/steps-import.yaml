@@ -1,0 +1,47 @@
+title: Navigate to the :doc:`collection </collections>` you wish to import data into.
+level: 4
+ref: select-collection
+content: |
+  You can either select the collection from the
+  :doc:`Collections </collections>` tab or click the collection in the
+  left-hand pane.
+
+---
+title: Click :guilabel:`Collection` in the top-level menu and select :guilabel:`Import Data`
+level: 4
+ref: import-data
+content: |
+  .. raw:: html
+
+     <br>
+
+  .. figure:: /images/compass/import-data-option-select.png
+     :alt: Import data select menu
+
+  .. raw:: html
+
+     <br>
+
+  |compass| displays the following dialog:
+
+  .. raw:: html
+
+     <br>
+
+  .. figure:: /images/compass/import-data-dialog.png
+     :alt: Import data dialog
+
+---
+title: Choose the appropriate file type and the location of the source data file. 
+level: 4
+ref: choose-file-type-location
+content: ""
+---
+title: Click :guilabel:`Import`. 
+level: 4
+ref: click-import
+content: ""
+...
+
+
+
