@@ -32,15 +32,23 @@ content: |
      :alt: Import data dialog
 
 ---
-title: Choose the appropriate file type and the location of the source data file. 
+title: Choose the appropriate file type of the source data file. 
 level: 4
-ref: choose-file-type-location
+ref: choose-file-type
+content: |
+    Under :guilabel:`Select Input File Type`, select either JSON or CSV. 
+
+---
+
+title: Select the location of the source data file under :guilabel:`Select File`.
+level: 4
+ref: click-file-location
 content: |
   .. raw:: html
 
      <br>
-
 ---
+
 title: Click :guilabel:`Import`. 
 level: 4
 ref: click-import

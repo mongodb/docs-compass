@@ -45,13 +45,20 @@ title: Use the :guilabel:`Export Full Collection` toggle to indicate
 level: 4
 ref: export-full-collection
 content: |
-  .. note::
-     Having an ``undefined`` query filter and toggling the
-     option to export the full collection both result in
-     |compass-short| exporting the full collection.
+    Having an ``undefined`` query filter and toggling the
+    option to export the full collection both result in
+    |compass-short| exporting the full collection.
 
 ---
-title: Choose the appropriate file type and the location of the export file.
+title: Choose the appropriate file type.
+level: 4
+ref: click-file-type
+content: |
+    Under :guilabel:`Select Output File Type`, select either JSON or CSV. 
+
+---
+
+title: Select the location of the export file under :guilabel:`Select File`.
 level: 4
 ref: click-file-location
 content: |
