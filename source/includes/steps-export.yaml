@@ -33,9 +33,8 @@ content: |
      :alt: Export data dialog
 
   The top section of the export dialog displays the query
-  entered in the query bar prior to export, if applicable. You
-  can use this query to filter which collection documents are
-  exported. If no query was specified, this section displays
+  entered in the query bar prior to export, if applicable. Use this query to filter which
+  collection documents are exported. If no query was specified, this section displays
   ``undefined``.
 
 ---
@@ -45,9 +44,9 @@ title: Use the :guilabel:`Export Full Collection` toggle to indicate
 level: 4
 ref: export-full-collection
 content: |
-    Having an ``undefined`` query filter and toggling the
-    option to export the full collection both result in
-    |compass-short| exporting the full collection.
+    .. note::
+       |compass-short| exports the full collection both when the query filter is ``undefined`` 
+       and when you enable the :guilabel:`Export Full Collection` option.
 
 ---
 title: Choose the appropriate file type.
