@@ -1,8 +1,8 @@
 .. _collection-tab:
 
-================
-Collections View
-================
+=====================
+Collections and Views
+=====================
 
 .. default-domain:: mongodb
 
@@ -17,9 +17,11 @@ Collections View
 Collections View
 ----------------
 
-The :guilabel:`Collections` view lists the existing
+The :guilabel:`Collections` tab lists the existing
 :manual:`collections </core/databases-and-collections/#collections>`
-in the selected database and general information for each collection.
+and :manual:`views </core/views/>` in the selected database and general
+information for each collection.
+
 To access the :guilabel:`Collections` view for a database, from the
 :doc:`Databases tab </databases>` either:
 
