@@ -238,25 +238,25 @@ Execute the Pipeline
 #. Run the following command to execute the pipeline created in
    |compass-short|:
 
-.. code-block:: javascript
+   .. code-block:: javascript
 
-   db.air_airlines.aggregate([{
-     $group: {
-       _id: {
-         active: '$active',
-         country: '$country'
-       },
-       flightCount: {
-         $sum: 1
-       }
-     }
-   }, {
-     $match: {
-       flightCount: {
-         $gte: 5
-       }
-     }
-   }])
+      db.air_airlines.aggregate([{
+        $group: {
+          _id: {
+            active: '$active',
+            country: '$country'
+          },
+          flightCount: {
+            $sum: 1
+          }
+        }
+      }, {
+        $match: {
+          flightCount: {
+            $gte: 5
+          }
+        }
+      }])
 
 The following is an excerpt of the documents returned by
 the pipeline:
