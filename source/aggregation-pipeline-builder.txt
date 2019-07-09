@@ -49,7 +49,7 @@ Specify Custom Collation
 
 Use :manual:`custom collation </reference/collation/>` to specify
 language-specific rules for string comparison, such as rules for
-lettercase and accent marks.
+letter case and accent marks.
 
 To specify a custom collation:
 
