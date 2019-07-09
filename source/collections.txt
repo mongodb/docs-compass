@@ -14,16 +14,16 @@ Collections and Views
 
 .. include:: /includes/extracts/readonly-not-permitted-collections.rst
 
-Collections View
-----------------
+Collections Screen
+------------------
 
-The :guilabel:`Collections` tab lists the existing
+The :guilabel:`Collections` screen lists the existing
 :manual:`collections </core/databases-and-collections/#collections>`
 and :manual:`views </core/views/>` in the selected database and general
 information for each collection.
 
-To access the :guilabel:`Collections` view for a database, from the
-:doc:`Databases tab </databases>` either:
+To access the :guilabel:`Collections` screen for a database, from the
+:doc:`Databases screen </databases>` either:
 
 - Click a :guilabel:`Database Name` in the main :guilabel:`Databases`
   view, or
@@ -33,7 +33,10 @@ To access the :guilabel:`Collections` view for a database, from the
 .. figure:: /images/compass/select-database.png
    :figwidth: 750px
 
-The :guilabel:`Collections` view displays the following
+Collections
+~~~~~~~~~~~
+
+The :guilabel:`Collections` screen displays the following
 information for each collection in the selected database:
 
 - Collection name
@@ -46,6 +49,21 @@ information for each collection in the selected database:
   collection. Hover over a :guilabel:`Collation` banner to view
   the properties for that collection.
 
+Views
+~~~~~
+
+Views are read-only results of an aggregation run against a collection. 
+The :guilabel:`Collections` screen displays the following information
+for each view in the selected database:
+
+- View name
+- Collection from which the view is created.
+- Total size of all documents in the view
+- Total size of all indexes on the collection
+
+|compass-short| explicitly marks views in the left navigation with
+a unique icon.
+
 .. figure:: /images/compass/collection-tab2.png
    :figwidth: 720px
 
@@ -57,9 +75,7 @@ You can also :ref:`create <create-collection>` or
 Create a Collection
 -------------------
 
-In addition to the initial collection created during the :ref:`database
-creation <create-database>`, you can create new collections in an
-existing database.
+You can create new collections in an existing database.
 
 .. include:: /includes/steps/create-collection.rst
 
@@ -75,12 +91,12 @@ Drop a Collection
 View Collection Details
 -----------------------
 
-The Collection Detail view shows detailed information for a
+The Collection Detail screen shows detailed information for a
 collection, including the documents the collection contains. To view
 collection details, either:
 
 - Click a :guilabel:`Collection Name` in the main
-  :guilabel:`Collections` view, or
+  :guilabel:`Collections` screen, or
 
 - Click a collection in the left-hand pane.
 
@@ -97,8 +113,8 @@ detailed view:
 - :doc:`/validation` *Not Available in Compass Community Edition*
 
 You can also import and export documents to and from the selected
-collection from this view. For more information on this process,
-see :doc:`Import and Export Data </import-export/>`.
+collection from the Collection Detail screen. For more information on
+this process, see :doc:`Import and Export Data </import-export/>`.
 
 .. class:: hidden
 
