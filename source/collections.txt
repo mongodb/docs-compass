@@ -14,13 +14,15 @@ Collections and Views
 
 .. include:: /includes/extracts/readonly-not-permitted-collections.rst
 
+.. _collections-screen:
+
 Collections Screen
 ------------------
 
 The :guilabel:`Collections` screen lists the existing
-:manual:`collections </core/databases-and-collections/#collections>`
-and :manual:`views </core/views/>` in the selected database and general
-information for each collection.
+:ref:`collections <compass-collections>` and
+:ref:`views <compass-views>` in the selected database and
+general information for each collection.
 
 To access the :guilabel:`Collections` screen for a database, from the
 :doc:`Databases screen </databases>` either:
@@ -28,10 +30,12 @@ To access the :guilabel:`Collections` screen for a database, from the
 - Click a :guilabel:`Database Name` in the main :guilabel:`Databases`
   view, or
 
-- Click a database in the left-hand pane.
+- Click a database in the left navigation.
 
 .. figure:: /images/compass/select-database.png
    :figwidth: 750px
+
+.. _compass-collections:
 
 Collections
 ~~~~~~~~~~~
@@ -49,6 +53,8 @@ information for each collection in the selected database:
   collection. Hover over a :guilabel:`Collation` banner to view
   the properties for that collection.
 
+.. _compass-views:
+
 Views
 ~~~~~
 
@@ -57,18 +63,18 @@ The :guilabel:`Collections` screen displays the following information
 for each view in the selected database:
 
 - View name
-- Collection from which the view is created.
+- Collection from which the view was created
 - Total size of all documents in the view
 - Total size of all indexes on the collection
 
 |compass-short| explicitly marks views in the left navigation with
-a unique icon.
+a unique icon:
 
-.. figure:: /images/compass/collection-tab2.png
-   :figwidth: 720px
+.. figure:: /images/compass/view-icon.png
+   :scale: 50%
+   :alt: View icon
 
-You can also :ref:`create <create-collection>` or
-:ref:`drop collections <drop-collection>` from this view.
+For more information on views, see :ref:`view-details`.
 
 .. _create-collection:
 
@@ -88,26 +94,28 @@ Drop a Collection
 
 .. _collection-details:
 
-View Collection Details
------------------------
+Collection Details
+------------------
 
 The Collection Detail screen shows detailed information for a
-collection, including the documents the collection contains. To view
+collection, including the documents the collection contains. To see
 collection details, either:
 
 - Click a :guilabel:`Collection Name` in the main
   :guilabel:`Collections` screen, or
 
-- Click a collection in the left-hand pane.
+- Click a collection in the left navigation.
 
 .. figure:: /images/compass/select-collection.png
   :figwidth: 750px
 
-|compass| provides the following collection information in the
-detailed view:
+After you select a collection, |compass-short| shows you that
+collection's :doc:`/documents` tab. |compass-short| provides the following
+collection information and functionality in the detailed view:
 
 - :doc:`/documents`
-- :doc:`/schema` *Not Available in Compass Community Edition*
+- :ref:`compass-agg-builder`
+- :doc:`Schema Analysis </schema>` *Not Available in Compass Community Edition*
 - :doc:`/query-plan`
 - :doc:`/indexes`
 - :doc:`/validation` *Not Available in Compass Community Edition*
@@ -127,5 +135,6 @@ this process, see :doc:`Import and Export Data </import-export/>`.
       /query-plan
       /indexes
       /validation
+      /views
 
 .. |home| unicode:: U+2302
