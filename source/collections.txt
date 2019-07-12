@@ -21,8 +21,9 @@ Collections Screen
 
 The :guilabel:`Collections` screen lists the existing
 :ref:`collections <compass-collections>` and
-:ref:`views <compass-views>` in the selected database and
-general information for each collection.
+:ref:`views <compass-views>` in the selected database. Each
+list item includes the name and other general information for
+the specific collection/view.
 
 To access the :guilabel:`Collections` screen for a database, from the
 :doc:`Databases screen </databases>` either:
@@ -110,19 +111,16 @@ collection details, either:
   :figwidth: 750px
 
 After you select a collection, |compass-short| shows you that
-collection's :doc:`/documents` tab. |compass-short| provides the following
+collection's :doc:`Documents tab </documents>`. |compass-short| provides the following
 collection information and functionality in the detailed view:
 
 - :doc:`/documents`
+- :doc:`Import and Export Data </import-export/>` to / from the collection
 - :ref:`compass-agg-builder`
 - :doc:`Schema Analysis </schema>` *Not Available in Compass Community Edition*
 - :doc:`/query-plan`
 - :doc:`/indexes`
 - :doc:`/validation` *Not Available in Compass Community Edition*
-
-You can also import and export documents to and from the selected
-collection from the Collection Detail screen. For more information on
-this process, see :doc:`Import and Export Data </import-export/>`.
 
 .. class:: hidden
 

@@ -14,6 +14,12 @@ Views
 
 Views are read-only results of an
 :ref:`aggregation <compass-agg-builder>` run against a collection.
+Views provide easy access to the results of an aggregation
+without requiring the reader of the view to execute the pipeline.
+Views can also help keep your data secure by only giving users
+access to a predefined result set,
+as opposed to having access to the underlying collection.
+
 |compass-short| displays views in the :ref:`Collections Screen <collection-tab>` with
 a special icon, and indicates the collection from which
 the view was created.
@@ -26,6 +32,9 @@ Create a View
 -------------
 
 To create a view, you must use the :ref:`compass-agg-builder`.
+The output of your pipeline's final stage becomes the content of
+the view.
+
 To create a view from your pipeline results:
 
 1. Create an aggregation pipeline in the pipeline builder.
@@ -53,7 +62,7 @@ To open a view, either:
 - Click the desired view in the left-hand navigation.
 
 After you open a view, |compass-short| shows you that
-view's :doc:`/documents` tab. |compass-short| provides the following
+view's :doc:`Documents Tab </documents>`. |compass-short| provides the following
 information and functionality for the view:
 
 - :doc:`/documents`

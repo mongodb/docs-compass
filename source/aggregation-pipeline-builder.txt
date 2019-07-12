@@ -69,10 +69,10 @@ The :pipeline:`$out` stage is not available if you are connected to a
 Save a Pipeline
 ---------------
 
-You can save your pipeline to reload and modify the pipeline while
-retaining the original version. You can also
-create a :ref:`view <view-details>` from the results of your
-pipeline.
+You can save a pipeline so that you can access it later. If you
+load a saved pipeline, you can modify it without
+changing the original saved copy. You can also create a :ref:`view
+<view-details>` from your pipeline results.
 
 To save your pipeline:
 
