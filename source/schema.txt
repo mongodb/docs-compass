@@ -266,7 +266,7 @@ In the :guilabel:`Schema` tab, you can use interactive maps to filter
 and analyze location data. If your field contains
 :manual:`GeoJSON data </reference/geojson/>` or
 ``[latitude,longitude]`` arrays, the :guilabel:`Schema` tab displays
-a map containing the points from the field. The field data type
+a map containing the points from the field. The data type
 for location fields is ``coordinates``.
 
 .. figure:: /images/compass/location-data-example.png
@@ -292,10 +292,14 @@ range of points. To define a location filter:
    :figwidth: 575px
    :alt: Image showing map with filter circles drawn
 
-The query bar updates as you draw location filters. You can see
+The query bar updates as you draw location filters to show
 the exact coordinates used in the
 :manual:`$geoWithin </reference/operator/query/geoWithin/>` query
 applied to the schema analysis.
+
+If you specify multiple location filters, the query becomes
+an :manual:`$or </reference/operator/query/or/>` query
+with multiple ``$geoWithin`` operators.
 
 Edit a Location Filter
 ~~~~~~~~~~~~~~~~~~~~~~
