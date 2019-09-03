@@ -12,7 +12,13 @@ Indexes Tab
    :depth: 1
    :class: singlecol
 
-.. include:: /includes/extracts/readonly-not-permitted-indexes.rst
+Limitations
+-----------
+
+- .. include:: /includes/extracts/readonly-not-permitted-indexes.rst
+
+- The :guilabel:`Indexes` tab is not available if you are connected 
+  to a `Data Lake <https://www.mongodb.com/atlas/data-lake>`__.
 
 .. _indexes-tab:
 
@@ -48,6 +54,11 @@ For each index, Compass displays the following information:
 
      - Any special properties (such as uniqueness, partial) of the
        index.
+
+Limitation
+----------
+
+
 
 .. _create-index:
 

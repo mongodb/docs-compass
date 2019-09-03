@@ -10,7 +10,14 @@ Performance
    :depth: 1
    :class: singlecol
 
-*Not Available in Compass Community Edition*
+Limitations
+-----------
+
+The :guilabel:`Performance` tab is not available:
+
+- In Compass Community Edition.
+
+- If you are connected to a `Data Lake <https://www.mongodb.com/atlas/data-lake>`__.
 
 .. _performance-tab:
 

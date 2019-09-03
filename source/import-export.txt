@@ -12,7 +12,13 @@ Import and Export Data
    :depth: 1
    :class: singlecol
 
-.. include:: /includes/extracts/readonly-not-permitted-import.rst
+Limitations
+-----------
+
+- .. include:: /includes/extracts/readonly-not-permitted-import.rst
+
+- Import data is not available if you are 
+  connected to a `Data Lake <https://www.mongodb.com/atlas/data-lake>`__. 
 
 *New in version 1.13.0*
 
