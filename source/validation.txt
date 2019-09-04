@@ -35,8 +35,7 @@ The :guilabel:`Validation` tab is not available:
 
 - In :guilabel:`Compass Community Edition`. 
 
-- If you are connected to a 
-  `Data Lake <https://www.mongodb.com/atlas/data-lake>`__.
+- If you are connected to a :atlas:`Data Lake </data-lake>`.
 
 In :guilabel:`MongoDB Compass Readonly Edition`, you can
 only view validation rules. Creating and editing validation rules

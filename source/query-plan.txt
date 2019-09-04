@@ -25,7 +25,7 @@ Limitation
 ----------
 
 The :guilabel:`Explain Plan` tab is not available if you are connected 
-to a `Data Lake <https://www.mongodb.com/atlas/data-lake>`__.
+to a :atlas:`Data Lake </data-lake>`.
 
 Query Bar
 ---------

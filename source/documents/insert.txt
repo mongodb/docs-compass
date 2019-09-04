@@ -56,7 +56,7 @@ Limitation
 ----------
 
 The :guilabel:`Insert Document` button is not available if you are connected 
-to a `Data Lake <https://www.mongodb.com/atlas/data-lake>`__.
+to a :atlas:`Data lake </data-lake>`.
 
 Add New Fields
 --------------
