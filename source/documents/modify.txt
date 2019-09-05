@@ -12,6 +12,11 @@ Modify Documents
    :depth: 1
    :class: singlecol
 
+.. important::
+
+   Modifying documents is not permitted in
+   :guilabel:`MongoDB Compass Readonly Edition`.
+
 Select the appropriate tab based on whether you are viewing your
 documents in List or Table view:
 

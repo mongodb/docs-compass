@@ -1,6 +1,6 @@
 ref: _readonly-not-permitted-base
 content: |
-  .. note::
+  .. important::
 
       {{phrase}} is not permitted in
       :guilabel:`MongoDB Compass Readonly Edition`.

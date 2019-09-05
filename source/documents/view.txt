@@ -19,14 +19,17 @@ Use the Documents tab to view the documents inside of a collection.
 Two different views are available to access documents: List View and
 Table View.
 
-List View is the default document view. To switch to Table View, click
-the :guilabel:`Table` button to the right of the :guilabel:`List`
-button to access the document Table View.
+.. figure:: /images/compass/documents-list-table-view.png
+   :figwidth: 700px
+   :alt: Table / List View Selection
 
-.. figure:: /images/compass/table-btn.png
-   :figwidth: 696px
+List View shows documents as individual members in a list
+format. With this view, you can more easily expand embedded objects
+and arrays compared to Table View.
 
-|
+Table View shows documents as rows of a table, with document fields
+shown in the table columns. With this view, you can more easily
+see which documents contain specific field values.
 
 Select the appropriate tab based on whether you are viewing your
 documents in List or Table view:
@@ -36,19 +39,15 @@ documents in List or Table view:
    .. tab:: List View
       :tabid: list-view
 
-      List View shows documents as individual members in a list
-      format.
-
-      .. figure:: /images/compass/doc-view.png
+      .. figure:: /images/compass/documents-view.png
+         :figwidth: 700px
+         :alt: Documents list view
 
    .. tab:: Table View
       :tabid: table-view
 
-      Table view shows documents as rows of a table. The document
-      fields are shown in the table columns.
-
       .. figure:: /images/compass/doc-table-view.png
-         :figwidth: 696px
+         :figwidth: 700px
 
       You can reorder the table columns by clicking and dragging the
       column headings. Reordering the columns is a strictly cosmetic
@@ -68,7 +67,7 @@ Expand Embedded Objects and Arrays
       the top-left corner.
 
       .. figure:: /images/compass/expand-doc-list-view.png
-         :figwidth: 696px
+         :figwidth: 700px
 
    .. tab:: Table View
       :tabid: table-view
@@ -82,7 +81,7 @@ Expand Embedded Objects and Arrays
       to the nested element.
 
       .. figure:: /images/compass/table-view-expand-nested-elem.png
-         :figwidth: 696px
+         :figwidth: 700px
 
       The following example displays the ``delays``
       object nested within the ``flightStats`` collection documents. The
@@ -90,7 +89,7 @@ Expand Embedded Objects and Arrays
       ``arrivalRunwayDelayMinutes`` and ``departureRunwayDelayMinutes``.
 
       .. figure:: /images/compass/doc-table-view-nested.png
-         :figwidth: 696px
+         :figwidth: 700px
 
       To return to the original table display, click on the first tab
       in the Table View which displays the name of your collection.
@@ -107,7 +106,7 @@ Encrypted Fields
       .. include:: /includes/fact-fle-description.rst
 
       .. figure:: /images/compass/encrypted-fields-list.png
-         :figwidth: 696px
+         :figwidth: 700px
          :alt: Encrypted field in list view
 
    .. tab:: Table View
@@ -116,5 +115,5 @@ Encrypted Fields
       .. include:: /includes/fact-fle-description.rst
 
       .. figure:: /images/compass/encrypted-fields-table.png
-         :figwidth: 696px
+         :figwidth: 700px
          :alt: Encrypted field in table view
