@@ -53,7 +53,7 @@ Limitations
 - .. include:: /includes/extracts/readonly-not-permitted-indexes.rst
 
 - The :guilabel:`Indexes` tab is not available if you are connected 
-  to a :atlas:`Data Lake </data-lake>`.
+  to a :atlas:`Data Lake </data-lake>`. 
 
 .. _create-index:
 

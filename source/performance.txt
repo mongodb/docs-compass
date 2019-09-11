@@ -89,9 +89,9 @@ Limitations
 
 The :guilabel:`Performance` tab is not available:
 
-- In Compass Community Edition.
+- In Compass Community Edition. 
 
-- If you are connected to a :atlas:`Data Lake </data-lake>`.
+- If you are connected to a :atlas:`Data Lake </data-lake>`. 
 
 .. _kill-long-ops:
 

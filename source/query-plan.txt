@@ -21,12 +21,6 @@ on the left hand pane, then click :guilabel:`Explain Plan`.
 .. figure:: /images/compass/query-plan.png
   :figwidth: 815px
 
-Limitation
-----------
-
-The :guilabel:`Explain Plan` tab is not available if you are connected 
-to a :atlas:`Data Lake </data-lake>`.
-
 Query Bar
 ---------
 
@@ -43,13 +37,17 @@ various options for the query.
 Visual Tree
 -----------
 
+.. note::
+
+   The visual tree is not available if you are connected 
+   to a :atlas:`Data Lake </data-lake>`.
+
 You can view the explain stages in a tree format. Each stage of the
 pipeline appears as a node on the tree. This makes sharded cluster
 outputs easier to understand and visualize.
 
 .. figure:: /images/compass/explain-tree.png
   :figwidth: 808px
-
 
 Raw JSON
 --------
