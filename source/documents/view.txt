@@ -15,9 +15,8 @@ View Documents
    :depth: 1
    :class: singlecol
 
-Use the Documents tab to view the documents inside of a collection.
-Two different views are available to access documents: List View and
-Table View.
+The Documents tab provides two views to access documents: List View
+and Table View.
 
 .. figure:: /images/compass/documents-list-table-view.png
    :figwidth: 700px

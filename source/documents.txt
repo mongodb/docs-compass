@@ -8,9 +8,6 @@ Documents Tab
 
 .. _documents-tab:
 
-Documents Tab
--------------
-
 From the :guilabel:`Documents` tab, you can
 :ref:`view <compass-view-documents>`, :ref:`insert <insert-documents>`,
 :ref:`modify <compass-modify-documents>`,

@@ -62,14 +62,15 @@ Add New Fields
 
 To add a new field in the document, hover over the row number in the
 dialog (the row number is not part of the document but the dialog
-display) and click the plus sign to add a new field after the
-selected row.
+display) and click the :icon-fa5:`plus` icon to add a new field after
+the selected row.
+
+You can also add a new field at the end of the document by pressing the
+tab key when your text cursor is in the value of the last document
+field.
 
 .. figure:: /images/compass/insert-document-new-field.png
   :figwidth: 600px
-
-You can also add a new field at the end by pressing the tab key
-when your cursor the value of the last field.
 
 Change Field Type
 -----------------
