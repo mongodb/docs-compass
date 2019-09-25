@@ -44,7 +44,7 @@ Available |compass-short| Editions
 
    * - :guilabel:`Compass`
      - Full version of MongoDB Compass, with all features and
-       capabilities. Compass is available as part of our subscriptions.
+       capabilities.
 
    * - :guilabel:`Compass Readonly`
      - Limited strictly to read operations, with all
@@ -137,7 +137,7 @@ MongoDB Compass is Source Available
 
 All versions of |compass| are source available. As such, you can
 freely use and view the source repositories of all |compass| versions.
-The |compass| GitHub repository can be found at
+The source repositories can be found on GitHub at
 https://github.com/mongodb-js/compass/.
 
 .. class:: hidden
