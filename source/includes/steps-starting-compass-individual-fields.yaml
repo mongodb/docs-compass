@@ -1,51 +1,18 @@
-title: "Open MongoDB Compass."
-level: 4
-ref: open-compass
-content: |
-  If you need to install |compass-short|, see
-  :ref:`download-install` for instructions.
 ---
-title: Paste your connection string or fill in connection fields
-  individually.
+title: Open the individual connection fields view.
 level: 4
-ref: compass-enter-connection-info
+ref: open-field-view
 content: |
-
-  When you open |compass-short|, an initial connection dialog
-  appears:
-
-  .. figure:: /images/compass/paste-connection-string.png
-    :figwidth: 690px
-
-  If you have the connection string for your deployment available,
-  you can paste the string directly into the dialog box. You can
-  use either the :manual:`Standard Connection String Format
-  </reference/connection-string/#connections-standard-connection-string-format>`
-  or the :manual:`DNS Seedlist Connection Format
-  </reference/connection-string/#connections-dns-seedlist>`.
-
-  - To obtain the connection string for an |service| cluster:
-  
-    a. Navigate to your |service| :guilabel:`Clusters` view.
-
-    #. Click :guilabel:`Connect` for your desired cluster.
-
-    #. Click :guilabel:`Connect with MongoDB Compass`.
-
-    #. Copy the provided connection string.
-
-  - To learn how to format the connection string for a deployment
-    which is not hosted on |service|, see
-    :manual:`Connection String URI Format
-    </reference/connection-string>`.
-
-  Alternatively, you can manually fill in individual connection
-  fields by clicking
+  To manually fill in individual connection fields, click
   :guilabel:`Fill in connection fields individually`:
 
   .. figure:: /images/compass/fill-connection-fields.png
-    :figwidth: 690px
+     :figwidth: 690px
 
+---
+title: Enter your connection information.
+ref: compass-enter-connection-info
+content: |
   The :guilabel:`Hostname` dialog contains the following connection
   field options:
 
@@ -60,29 +27,27 @@ content: |
        - Hostname of the machine where the deployment is
          running.
          
-         If you are running your deployment locally, this
-         value is ``localhost``. If you are connecting to an |service|
-         cluster, you can get your hostname from your cluster detail
-         view in |service|.
+         If you are running your deployment locally, this value is
+         ``localhost``. If you are connecting to an |service| cluster,
+         you can get your hostname from your cluster detail view in
+         |service|.
 
          If you are not sure of your hostname, contact your Database
          Administrator for information.
 
      * - :guilabel:`Port`
-       - Port on which the deployment is running. Not required if you
-         are using an :guilabel:`SRV Record` to connect to
+       - Port on which the deployment is running. Not required if
+         you are using an :guilabel:`SRV Record` to connect to
          your MongoDB deployment.
 
-         By default, a standalone deployment operates on port
-         ``27017``. If you are connecting to a replica set, your port
-         may also be ``27018`` or ``27019``. For more information on
-         the default ports MongoDB operates on, see
-         :manual:`Default MongoDB Port
+         By default, a standalone deployment operates on port ``27017``.
+         If you are connecting to a replica set, your port may also be
+         ``27018`` or ``27019``. For more information on the default
+         ports MongoDB operates on, see :manual:`Default MongoDB Port
          </reference/default-mongodb-port/>`.
 
-         If you are not sure of the port where your deployment
-         operates, contact your Database Administrator for
-         information.
+         If you are not sure of the port where your deployment operates,
+         contact your Database Administrator for information.
 
      * - :guilabel:`SRV Record`
        - Indicates whether the provided :guilabel:`Hostname`
@@ -95,13 +60,14 @@ content: |
            You can only use SRV connection strings to connect to
            deployments running MongoDB 3.6 and later.
 
-         SRV connection strings have a prefix of ``mongodb+srv:``.
-         If you are using an SRV connection string, you do not need to
+         SRV connection strings have a prefix of ``mongodb+srv:``. If
+         you are using an SRV connection string, you do not need to
          include ``mongodb+srv`` in your :guilabel:`Hostname`.
 
          .. example::
 
-             If the following is your SRV connection string for your MongoDB deployment:
+             If the following is your SRV connection string for your
+             MongoDB deployment:
 
              .. code-block:: shell
                  :copyable: false
@@ -118,7 +84,7 @@ content: |
 
      * - :guilabel:`Authentication`
        - Authentication to use if the deployment
-         requires authentication. |service| clusters use 
+         requires authentication. |service| clusters use
          :guilabel:`Username / Password` authentication.
          
          Select your authentication method from the tabs below for
@@ -135,28 +101,27 @@ content: |
                  :manual:`SCRAM-SHA-1 </core/security-scram/>` as its
                  authentication mechanism.
                  
-                 Provide the :guilabel:`Username`,
-                 :guilabel:`Password`, and
-                 :manual:`Authentication Database
+                 Provide the :guilabel:`Username`, :guilabel:`Password`,
+                 and :manual:`Authentication Database
                  </core/security-users/#user-authentication-database>`
                  to authenticate the user.
 
                  .. note::
 
-                    Starting in MongoDB version 4.0, MongoDB removes support
-                    for the deprecated MongoDB Challenge-Response
-                    (``MONGODB-CR``) authentication mechanism.
+                    Starting in MongoDB version 4.0, MongoDB removes
+                    support for the deprecated MongoDB
+                    Challenge-Response (``MONGODB-CR``) authentication
+                    mechanism.
 
              - id: scram-sha-256
                name: SCRAM-SHA-256
                content: |
-                 Select :guilabel:`SCRAM-SHA-256` if the deployment
-                 uses :manual:`SCRAM-SHA-256
-                 </core/security-scram/>` as its
+                 Select :guilabel:`SCRAM-SHA-256` if the deployment uses
+                 :manual:`SCRAM-SHA-256 </core/security-scram/>` as its
                  authentication mechanism (*New in MongoDB 4.0*). If
                  selected, you must provide the :guilabel:`Username`,
-                 :guilabel:`Password`, and
-                 :manual:`Authentication Database
+                 :guilabel:`Password`, and :manual:`Authentication
+                 Database
                  </core/security-users/#user-authentication-database>`
                  to authenticate the user.
 
@@ -215,11 +180,11 @@ content: |
                      :guilabel:`X.509` Authentication is not available
                      in Compass Community Edition.
 
-                 Select :guilabel:`X.509` if the deployment
-                 uses :manual:`X.509 </core/security-x.509/>` as its
+                 Select :guilabel:`X.509` if the deployment uses
+                 :manual:`X.509 </core/security-x.509/>` as its
                  authentication mechanism. If selected, you must
-                 provide the  :guilabel:`Username` to authenticate the
-                 user.
+                 provide the  :guilabel:`Username` to authenticate
+                 the user.
 
      * - :guilabel:`Favorite Name`
        - *Optional*. A name for the connection. To save the current
@@ -229,23 +194,10 @@ content: |
 
          .. tip::
 
-            Although you can save multiple connections with the same
-            :guilabel:`Favorite Name`, it is recommended to use
-            unique names for each connection to easily find your
-            saved connections.
-
-  For MongoDB permissions required to access |compass-short|,
-  see :ref:`required-access`.
-
-  .. note::
-
-     |compass| securely stores sensitive information entered in the
-     connection form using an API that is specific to your operating
-     system.
-
-     For more information on how |compass-short| handles sensitive
-     data, refer to the
-     :ref:`FAQ page <compass-faq-confidential-data>`.
+            Although you can save multiple connections with the
+            same :guilabel:`Favorite Name`, it is recommended to
+            use unique names for each connection to easily find
+            your saved connections.
 ---
 title: "(Optional) Specify replica set and security connection options."
 level: 4
@@ -422,12 +374,12 @@ content: |
              -  The password used to secure the SSH connection.
                 This is required if you are not using an identity file.
 
-        To use an SSH tunnel through a bastion host, the ssh
+        To use an SSH tunnel through a bastion host, the SSH
         configuration on the bastion host must allow TCP port
         forwarding; i.e., the ``AllowTcpForwarding`` directive in
         the :file:`/etc/ssh/sshd_config` file is set to ``yes``. If
         ``AllowTcpForwarding`` is not set to ``yes``, set to ``yes``
-        and restart the ssh daemon (``sudo service sshd restart``).
+        and restart the SSH daemon (``sudo service sshd restart``).
 
         Instead of creating the SSH tunnel through the Compass UI, you can also create
         the tunnel manually from the command line:
@@ -457,16 +409,14 @@ content: |
 
            You cannot connect to a :term:`replica set` via an SSH
            tunnel. |compass-short| cannot establish a connection
-           to multiple servers across the same SSH tunnel.       
-
+           to multiple servers across the same SSH tunnel.
 ---
 title: Connect.
 level: 4
 ref: compass-connect
 content: |
-   When you have finished filling out the connection information, click
-   the :guilabel:`Connect` button to navigate to the |compass-short|
-   :doc:`Home Page </instance>`.
+   Click the :guilabel:`Connect` button to navigate to the
+   |compass-short| :doc:`Home Page </instance>`.
 
    .. admonition:: Required Access
       :class: important
