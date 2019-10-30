@@ -289,7 +289,7 @@ range of points. To define a location filter:
    - To draw a :guilabel:`Circle`, click to place the center point and
      drag to adjust the diameter of the circle.
 
-   - To draw a :guilabel:`Polygon`, click to place a vertex. Each
+   - To draw a :guilabel:`Polygon`, click to place vertices. Each
      vertex is connected to the previous vertex by a line. To
      finish the polygon, close it by clicking on your first vertex. You
      must place at least 3 vertices to construct a polygon.
