@@ -306,13 +306,12 @@ the exact coordinates used in the
 :manual:`$geoWithin </reference/operator/query/geoWithin/>` query
 applied to the schema analysis.
 
-:guilabel:`Circle` location filters are queried using ``$geoWithin``
-with the 
+:guilabel:`Circle` filter queries use ``$geoWithin`` with the 
 :manual:`$centerSphere </reference/operator/query/centerSphere/>`
 operator.
 
-:guilabel:`Polygon` location filters are queries using ``$geoWithin``
-with the :manual:`$geometry </reference/operator/query/geometry/>`
+:guilabel:`Polygon` filter queries use ``$geoWithin`` with the
+:manual:`$geometry </reference/operator/query/geometry/>`
 operator set to ``type: "Polygon"``.
 
 If you specify multiple location filters, the query becomes
@@ -341,8 +340,8 @@ Edit a :guilabel:`Polygon`
   - To reposition a vertex of a polygon filter, click and drag the
     square on that vertex.
 
-  - To add a vertex to a polygon filter, click and drag the square on
-    the center of the line that you want to add the vertex to.
+  - To add a vertex to a polygon filter, click and drag the square at
+    the center of an existing line.
 
 After modifying your filters, click :guilabel:`Save`.
 
