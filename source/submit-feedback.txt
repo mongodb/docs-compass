@@ -31,17 +31,25 @@ To report a bug, submit a ticket to the
 Procedure
 ~~~~~~~~~
 
-1. Set the :guilabel:`Issue Type` to ``Bug``.
+1. Click :guilabel:`Create` in the top navigation bar in JIRA to open
+   the ticket creation dialog.
 
-#. Provide a :guilabel:`Summary`.
+#. Set the :guilabel:`Issue Type` to ``Bug``.
+
+#. Provide a :guilabel:`Summary` of the issue.
+
+#. Set the :guilabel:`Component` to ``Compass``.
+
+#. Use the :guilabel:`Affected Version/s` to list the version(s) of 
+   |compass-short| in which the issue occurs.
+   
+#. Use the :guilabel:`Environment` field to describe the operating
+   system(s) in which the issue occurs.
 
 #. Use the :guilabel:`Description` to list the exact steps needed to
    reproduce the issue,
 
 #. Use the :guilabel:`Attachment` to upload screenshot(s) of the issue.
-
-#. Specify the :guilabel:`Affected Version/s` and
-   :guilabel:`Environment` for your bug report.
 
 .. figure:: /images/compass/sample-bug-ticket.png
    :alt: Sample bug ticket
@@ -68,12 +76,14 @@ You can submit |compass-short| feature requests using the
 Procedure
 ~~~~~~~~~
 
-1. Log in to the Feedback Engine using your MongoDB account.
+1. Log in to the
+   `Feedback Engine <https://feedback.mongodb.com/forums/924283-compass>`__
+   using your MongoDB account.
 
 #. Use the :guilabel:`Enter your idea` search bar to see if there are
    any matching or similar feature requests which have already been
-   submitted. If there are, you can :ref:`vote on those requests
-   <feature-request-vote>`.
+   submitted. If those requests exist, you can
+   :ref:`vote on those requests <feature-request-vote>`.
 
    .. figure:: /images/compass/feature-request-search.png
       :figwidth: 650px
