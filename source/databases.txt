@@ -30,14 +30,6 @@ database collections by clicking the desired database in the left-hand navigatio
 You can also :ref:`create <create-database>` or
 :ref:`drop databases <drop-database>` from this view.
 
-Limitations
------------
-
--  .. include:: /includes/extracts/readonly-not-permitted-databases.rst
-
--  Creating databases is not permitted if you are connected to a 
-   :atlas:`Data Lake </data-lake>`.
-
 .. _create-database:
 
 Create a Database
@@ -51,3 +43,11 @@ Drop a Database
 ---------------
 
 .. include:: /includes/steps/delete-database.rst
+
+Limitations
+-----------
+
+-  .. include:: /includes/extracts/readonly-not-permitted-databases.rst
+
+-  Creating databases is not permitted if you are connected to a 
+   :atlas:`Data Lake </data-lake>`.

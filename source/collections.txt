@@ -75,14 +75,6 @@ a unique icon:
 
 For more information on views, see :ref:`view-details`.
 
-Limitations
------------
-
-- .. include:: /includes/extracts/readonly-not-permitted-collections.rst
-
-- The :guilabel:`Create Collection` button is not available if you are 
-  connected to a :atlas:`Data Lake </data-lake>`.
-
 .. _create-collection:
 
 Create a Collection
@@ -158,17 +150,19 @@ open a new tab to view collection details:
 
 .. include:: /includes/steps/open-new-tab.rst
 
+Limitations
+-----------
+
+- .. include:: /includes/extracts/readonly-not-permitted-collections.rst
+
+- The :guilabel:`Create Collection` button is not available if you are 
+  connected to a :atlas:`Data Lake </data-lake>`.
+
 .. class:: hidden
 
    .. toctree::
       :titlesonly:
 
-      /query-bar
-      /documents
-      /schema
-      /query-plan
-      /indexes
-      /validation
       /views
 
 .. |home| unicode:: U+2302
