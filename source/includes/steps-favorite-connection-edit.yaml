@@ -1,11 +1,18 @@
-title: Click the desired connection under :guilabel:`Favorites` to
-   the left of the :guilabel:`Connect to Host` form.
+title: Locate the desired connection under :guilabel:`Favorites`
+  in the left navigation.
 level: 4
-ref: click-connection
+ref: locate-connection
 content: |
-  .. figure:: /images/compass/favorite-connection-select.png
-     :figwidth: 500px
-     :alt: Image showing selecting Favorite Connection in Compass
+  .. figure:: /images/compass/saved-favorite-connection.png
+      :figwidth: 600px
+      :alt: Saved Favorite Connection
+---
+title: Click the :icon-fa5:`ellipsis-h` button for the desired
+  connection to view options.
+level: 4
+ref: click-ellipsis
+---
+title: 
 ---
 title: Make the desired changes to the connection configuration
    within the form.
