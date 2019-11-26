@@ -1,21 +1,18 @@
-title: Configure your connection form with a connection you would like
-  to save.
+title: Click :guilabel:`Connect` in the top-level menu and select :guilabel:`Save Connection to Favorites`
 level: 4
-ref: configure-host-form
----
-title: Click :guilabel:`Favorite` at the top of the form.
-level: 4
-ref: type-favorite-name
+ref: save-connection
 content: |
-   .. figure:: /images/compass/favorite-button-connect.png
-      :figwidth: 600px
-      :alt: Favorite Connection Button
+
+  .. figure:: /images/compass/save-favorite-menu.png
+     :figwidth: 600px
+     :alt: Save connection to favorites from menu
+
 ---
 title: Enter a name for this favorite connection.
 level: 4
 ref: enter-favorite-name
 content: |
-  .. figure:: /images/compass/name-favorite-connection.png
+  .. figure:: /images/compass/name-favorite-connection-menu.png
       :figwidth: 600px
       :alt: Name Favorite Connection
 ---
@@ -31,8 +28,3 @@ content: |
   Once you save your favorite connection, |compass-short| displays the
   connection in the :guilabel:`Favorites` section in the left
   navigation.
-
-  .. figure:: /images/compass/saved-favorite-connection.png
-      :figwidth: 600px
-      :alt: Saved Favorite Connection
-...
