@@ -10,6 +10,48 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.20
+--------------
+
+*Released November, 2019*
+
+- New and improved :guilabel:`New Connection` user experience with
+  support for all connection options.
+
+- Added support for:
+
+  - Cloning :guilabel:`Favorites`.
+
+  - Adding, viewing and editing documents in JSON.
+
+  - Querying UUIDs via the :guilabel:`Documents` query bar or in
+    :guilabel:`Aggregations`.
+
+- Added support for the following aggregation pipeline operators:
+
+  - :manual:`$set </reference/operator/aggregation/set/>`
+
+  - :manual:`$unset </reference/operator/aggregation/unset/>`
+
+  - :manual:`$replaceWith </manual/reference/operator/aggregation/replaceWith/>`
+
+- Improved inline documentation for aggregation pipeline arguments.
+
+- Removed ``$limit`` ahead of the ``$count`` stage in the aggregation
+  pipeline builder to get accurate counts on large collections. Prior
+  versions of |compass| placed a ``$limit`` stage before ``$count``
+  stages in the :guilabel:`Aggregations` pipeline builder for large
+  collections, even when sample mode was disabled.
+
+- Removed the old community license from Compass Community Edition.
+
+- Various bug fixes and improvements.
+
+When you update |compass| to version 1.20, you will need to allow access
+to your system storage for each item in :guilabel:`Recents` and
+:guilabel:`Favorites`. This should be the last update that requires you
+to enter your keychain password.
+
 |compass| 1.19
 --------------
 
