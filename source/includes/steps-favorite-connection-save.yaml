@@ -27,12 +27,4 @@ ref: select-favorite-color
 title: Click :guilabel:`Save`.
 level: 4
 ref: save-favorite
-content: |
-  Once you save your favorite connection, |compass-short| displays the
-  connection in the :guilabel:`Favorites` section in the left
-  navigation.
-
-  .. figure:: /images/compass/saved-favorite-connection.png
-      :figwidth: 600px
-      :alt: Saved Favorite Connection
 ...

@@ -7,27 +7,26 @@ content: |
      :figwidth: 600px
      :alt: Saved Favorite Connection
   
-  You can click the :icon-fa5:`ellipsis-h` button on a Favorite 
-  Connection for :guilabel:`Copy` and :guilabel:`Remove` options. 
-  Copying a connection creates another Favorite Connection with the 
-  same configuration. Removing a connection deletes that Favorite 
-  Connection.
+  To :guilabel:`Copy` or :guilabel:`Remove` a Favorite Connection, 
+  hover over the target collection and click the :icon-fa5:`ellipsis-h` 
+  button.
+  
+    - Copying a connection creates another Favorite Connection with the 
+      same configuration. 
+  
+    - Removing a connection deletes that Favorite Connection.
+
 ---
 title: Make the desired changes to the connection configuration
   within the form.
 level: 4
 ref: make-connection-changes
 content: |
-  You can toggle the form layout between :guilabel:`Fill in connection 
-  fields individually` and :guilabel:`Paste connection string` using 
-  the link at the top-right of the form.
-
   When you make any change to a connection, a dialog will appear at the 
-  bottom of the form with options :guilabel:`[discard]` and 
-  :guilabel:`[save changes]`.
+  bottom of the form with options :guilabel:`Discard` and 
+  :guilabel:`Save Changes`.
 ---
-title: Click :guilabel:`[save changes]` when you are finished making 
-  changes.
+title: Click :guilabel:`Save Changes`.
 level: 4
 ref: click-create-favorite
 ...
