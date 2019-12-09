@@ -12,7 +12,7 @@ Favorite Connections
    :depth: 1
    :class: singlecol
 
-|compass| allows you to save MongoDB connection configurations to
+|compass-short| allows you to save MongoDB connection configurations to
 easily reconnect to the same MongoDB deployment using the same
 specifications.
 

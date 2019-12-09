@@ -1,4 +1,4 @@
-title: Click on the desired connection under :guilabel:`Favorites`
+title: Click the desired connection under :guilabel:`Favorites`
   in the left navigation panel.
 level: 4
 ref: click-connection
@@ -18,7 +18,7 @@ title: Click :guilabel:`Remove` from the dropdown menu.
 level: 4
 ref: click-delete
 content: |
-  |compass| removes the connection from the :guilabel:`Favorites` list
-  and returns the :guilabel:`New Connection` form to the default
+  |compass-short| removes the connection from the :guilabel:`Favorites` 
+  list and returns the :guilabel:`New Connection` form to the default
   state.
 ...
