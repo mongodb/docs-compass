@@ -12,6 +12,10 @@ Databases
    :depth: 1
    :class: singlecol
 
+A database is a container for :ref:`collections <collection-tab>`.
+Each database gets its own set of files on the host file system.
+A single MongoDB server typically has multiple databases.
+
 Databases Tab
 -------------
 

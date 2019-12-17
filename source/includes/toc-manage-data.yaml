@@ -4,7 +4,13 @@ description: |
 ---
 file: /collections
 description: |
-  Learn how to manage collections and views in your databases.
+  Learn how to manage collections in your databases.
+---
+file: /views
+description: |
+  Learn how to manage views in your databases. Views are read-only
+  results of an :ref:`aggregation <compass-agg-builder>` run against
+  a collection.
 ---
 file: /documents
 description: |

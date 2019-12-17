@@ -6,6 +6,9 @@ Manage Documents
 
 .. default-domain:: mongodb
 
+Documents are individual records in a MongoDB :ref:`collection
+<collection-tab>` and are the basic unit of data in MongoDB.
+
 .. _documents-tab:
 
 From the :guilabel:`Documents` tab, you can

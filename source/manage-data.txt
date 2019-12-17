@@ -13,6 +13,7 @@ Interact with Your Data
 
       /databases
       /collections
+      /views
       /documents
       /query/filter
       /indexes
