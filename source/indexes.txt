@@ -12,6 +12,8 @@ Manage Indexes
    :depth: 1
    :class: singlecol
 
+To learn about Indexes, see :manual:`Indexes </indexes>`.
+
 .. _indexes-tab:
 
 Indexes Tab
