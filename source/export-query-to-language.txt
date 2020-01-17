@@ -49,7 +49,7 @@ Procedure
 
 #. *(Optional)*: Check the :guilabel:`Include Driver Syntax` option
    to include application code for the language selected. If you 
-   include driver syntax, the copyable code will reflect
+   include driver syntax, the copyable code reflects
    :ref:`project <query-bar-project>`, :ref:`sort <query-bar-sort>`, 
    :ref:`maxtimems <query-bar-max-time-ms>`, 
    :ref:`collation <query-bar-collation>`, :ref:`skip <query-bar-skip>` 
