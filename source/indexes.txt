@@ -12,16 +12,25 @@ Manage Indexes
    :depth: 1
    :class: singlecol
 
-Indexes are special data structures that store a small portion of a collection’s data set in an easy-to-traverse form. Indexes support the efficient execution of queries in MongoDB.
+Indexes are special data structures that store a small portion of a 
+collection’s data set in an easy-to-traverse form. Indexes support the 
+efficient execution of queries in MongoDB.
 
-To improve query performance, build indexes on fields that appear often in queries and for all operations that sort by a field. Queries on the indexed field use the index to limit the number of documents that must be scanned.
+To improve query performance, build indexes on fields that appear often 
+in queries and for all operations that sort by a field. Queries on the 
+indexed field use the index to limit the number of documents that must 
+be scanned.
 
 To learn more about indexes, see :manual:`Indexes </indexes>`.
 
-.. admonition:: Potential Tradeoff
-   :class: important
+.. admonition:: Considerations
+   :class: note
 
-   Indexes have some negative performance impact on write operations. For collections with high write-to-read ratio, indexes are expensive since each insert must also update any indexes.
+   Indexes have some negative performance impact on write operations. 
+   For collections with high write-to-read ratio, indexes are expensive 
+   since each insert must also update any indexes. For a list of 
+   considerations, see 
+   :manual:`Operational Considerations for Indexes <core/data-model-operations/#data-model-indexes>`.
 
 .. _indexes-tab:
 
