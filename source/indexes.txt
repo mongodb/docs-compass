@@ -21,7 +21,7 @@ To improve query performance, build indexes on fields that appear often
 in queries and for all operations that 
 :ref:`sort by a field <query-bar-sort>`. Queries on an indexed field 
 use the index to limit the number of documents that must be scanned or 
-to return a set of documents pre-sorted by the index.
+to return a set of documents pre-sorted by that index.
 
 To learn more about indexes, see :manual:`Indexes </indexes>`.
 
