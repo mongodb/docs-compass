@@ -21,10 +21,10 @@ To improve query performance, build indexes on fields that appear often
 in queries and for all operations that 
 :ref:`sort by a field <query-bar-sort>`.
 
-- Queries on an indexed field use the index to limit the number of 
+- Queries on an indexed field can use the index to limit the number of 
   documents that must be scanned to find matching documents.
 
-- Sort operations on an indexed field return documents pre-sorted 
+- Sort operations on an indexed field can return documents pre-sorted 
   by the index.
 
 To learn more about indexes, see :manual:`Indexes </indexes>`.
