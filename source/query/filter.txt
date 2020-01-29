@@ -223,14 +223,14 @@ Filter by Date
    :manual:`$gt operator </reference/operator/query/gt/>` and 
    :manual:`Date() method </reference/method/Date/>` to find all 
    documents where the ``dateCreated`` field value is later than June 
-   22nd, 2000 at 12:30 PM.
+   22nd, 2000.
 
    .. code-block:: shell
 
-      { dateCreated: { $gt: Date('2000-06-22T12:30:00.000+00:00') } }
+      { dateCreated: { $gt: Date('2000-06-22') } }
 
    The query returns the following document because the value of the 
-   ``dateCreated`` field is after June 22, 2000 at 12:30 PM.
+   ``dateCreated`` field is after June 22, 2000.
 
    .. code-block:: JSON
       :copyable: false
