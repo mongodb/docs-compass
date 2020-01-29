@@ -113,22 +113,10 @@ Examples
 
 .. class:: example
 
-   You can use the following two JSON documents as sample data. To 
-   import the data to your MongoDB deployment with |compass|:
+   The following examples use the JSON documents below as sample data. 
+   To import this sample data to your MongoDB deployment with |compass|:
 
    1. Copy the array of documents below by clicking :guilabel:`Copy`.
-
-   #. In |compass-short|, use the left navigation panel to select the 
-      database and the collection you want to import data to.
-   
-   #. Click the :guilabel:`Documents` tab.
-   
-   #. Click :guilabel:`Add Data` and select :guilabel:`Insert Document`.
-
-   #. Ensure that :guilabel:`View` is set to JSON, or ``{}``, and paste 
-      the copied JSON array in the field.
-
-   #. Click :guilabel:`Insert`.
 
    .. code-block:: JSON
 
@@ -151,27 +139,42 @@ Examples
          }
       ]
 
+   2. In |compass-short|, use the left navigation panel to select the 
+      database and the collection you want to import the data to.
+   
+   #. Click the :guilabel:`Documents` tab.
+   
+   #. Click :guilabel:`Add Data` and select :guilabel:`Insert Document`.
+
+   #. Ensure that :guilabel:`View` is set to JSON, or ``{}``, and paste 
+      the copied JSON documents in the field.
+
+   #. Click :guilabel:`Insert`.
+
 .. note::
 
    If you do not have a MonogDB deployment or if you would like to 
-   query a complete sample data set, see
+   query a large sample data set, see
    :atlas:`Sample Data for Atlas Clusters</sample-data/>` for 
-   instructions on creating a free-tier cluster with sample data.
+   instructions on creating a free-tier cluster with sample data. Note 
+   that the examples below are intended to filter the sample JSON 
+   documents provided on this page and may not properly filter another 
+   sample data set.
 
 Filter for a Match
 ~~~~~~~~~~~~~~~~~~
 .. example::
    
-   The following filter query finds all documents where 
-   ``name`` is "Andrea Le" using the 
-   :manual:`$eq operator </reference/operator/query/eq/>`.
+   The following :ref:`query filter <query-bar-filter>` uses the 
+   :manual:`$eq operator </reference/operator/query/eq/>` to find all 
+   documents where ``name`` is "Andrea Le" .
 
    .. code-block:: shell
 
       { name: { $eq: "Andrea Le" } }
 
-   If you query the provided sample documents, the following document 
-   is returned because it's ``name`` matches "Andrea Le" exactly.
+   The query returns the following document because the ``name`` field 
+   value in the document is an exact match.
 
    .. code-block:: JSON
       :copyable: false
@@ -189,16 +192,16 @@ Filter by Comparison
 ~~~~~~~~~~~~~~~~~~~~
 .. example::
    
-   The following filter query finds all documents where
-   ``age`` is greater than or equal to ``40`` using the 
-   :manual:`$gte operator </reference/operator/query/gte/>`.
+   The following :ref:`query filter <query-bar-filter>` uses the 
+   :manual:`$gte operator </reference/operator/query/gte/>` to find all 
+   documents where ``age`` is greater than or equal to ``40``.
 
    .. code-block:: shell
 
       { age: { $gte: 40 } }
 
-   If you query the provided sample documents, the following document 
-   is returned because it's ``age`` is greater than ``40``.
+   The query returns the following document because the value of the 
+   ``age`` field in the document is greater than ``40``.
 
    .. code-block:: JSON
       :copyable: false
@@ -216,18 +219,18 @@ Filter by Date
 ~~~~~~~~~~~~~~
 .. example::
    
-   The following filter query finds all documents where 
-   the ``dateCreated`` is later than June 22nd, 2000 at 12:30 PM using 
-   the :manual:`$gt operator </reference/operator/query/gt/>` and 
-   :manual:`Date() method </reference/method/Date/>`.
+   The following :ref:`query filter <query-bar-filter>` uses the 
+   :manual:`$gt operator </reference/operator/query/gt/>` and 
+   :manual:`Date() method </reference/method/Date/>` to find all 
+   documents where the ``dateCreated`` field value is later than June 
+   22nd, 2000 at 12:30 PM.
 
    .. code-block:: shell
 
       { dateCreated: { $gt: Date('2000-06-22T12:30:00.000+00:00') } }
 
-   If you query the provided sample documents, the following document 
-   is returned because it's ``dateCreated`` is later than June 22, 2000 
-   at 12:30 PM.
+   The query returns the following document because the value of the 
+   ``dateCreated`` field is after June 22, 2000 at 12:30 PM.
 
    .. code-block:: JSON
       :copyable: false
@@ -245,18 +248,18 @@ Filter by Elements in an Array
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. example::
    
-   The following filter query finds all documents where ``scores`` 
-   contains at least one number greater than ``80`` and less than 
-   ``90`` using the
-   :manual:`$elemMatch operator </reference/operator/query/elemMatch/>`.
+   The following :ref:`query filter <query-bar-filter>` uses the
+   :manual:`$elemMatch operator </reference/operator/query/elemMatch/>` 
+   to find all documents where at least one value in the ``scores`` 
+   array is greater than 80 and less than ``90`` 
 
    .. code-block:: shell
 
      { scores: { $elemMatch: { $gt: 80, $lt: 90 } } }
 
-   If you query the provided sample documents, the following document 
-   is returned because it's ``scores`` array contains the value ``85``, 
-   which matches all ``$elemMatch`` criteria.
+   The query returns the following document because one of the values 
+   in the scores array is ``85``, which matches the ``$elemMatch`` 
+   criteria.
 
    .. code-block:: JSON
       :copyable: false
