@@ -165,119 +165,111 @@ Examples
 
    .. tab:: Filter for a Match
       :tabid: match
-
-      .. example::
          
-         The following :ref:`query filter <query-bar-filter>` uses the 
-         :manual:`$eq operator </reference/operator/query/eq/>` to find 
-         all documents where ``name`` is "Andrea Le" .
+      The following :ref:`query filter <query-bar-filter>` uses the 
+      :manual:`$eq operator </reference/operator/query/eq/>` to find 
+      all documents where ``name`` is "Andrea Le" .
 
-         .. code-block:: shell
+      .. code-block:: shell
 
-            { name: { $eq: "Andrea Le" } }
+         { name: { $eq: "Andrea Le" } }
 
-         The query returns the following document because the ``name`` 
-         field value in the document is an exact match.
+      The query returns the following document because the ``name`` 
+      field value in the document is an exact match.
 
-         .. code-block:: JSON
-            :copyable: false
+      .. code-block:: JSON
+         :copyable: false
 
-            {
-               "_id":ObjectId("5a9427648b0beebeb69579cc"),
-               "name":"Andrea Le",
-               "email":"andrea_le@fakegmail.com",
-               "version":5,
-               "scores":[85, 95, 75],
-               "dateCreated":2003-03-26T00:00:00.000+00:00
-            }
+         {
+            "_id":ObjectId("5a9427648b0beebeb69579cc"),
+            "name":"Andrea Le",
+            "email":"andrea_le@fakegmail.com",
+            "version":5,
+            "scores":[85, 95, 75],
+            "dateCreated":2003-03-26T00:00:00.000+00:00
+         }
 
    .. tab:: Filter by Comparison
       :tabid: compare
-
-      .. example::
          
-         The following :ref:`query filter <query-bar-filter>` uses the 
-         :manual:`$lte operator </reference/operator/query/lte/>` to 
-         find all documents where ``version`` is less than or equal 
-         to ``4``.
+      The following :ref:`query filter <query-bar-filter>` uses the 
+      :manual:`$lte operator </reference/operator/query/lte/>` to 
+      find all documents where ``version`` is less than or equal 
+      to ``4``.
 
-         .. code-block:: shell
+      .. code-block:: shell
 
-            { version: { $lte: 4 } }
+         { version: { $lte: 4 } }
 
-         The query returns the following document because the value of 
-         the ``version`` field in the document is less than ``4``.
+      The query returns the following document because the value of 
+      the ``version`` field in the document is less than ``4``.
 
-         .. code-block:: JSON
-            :copyable: false
+      .. code-block:: JSON
+         :copyable: false
 
-            {
-               "_id":ObjectId("5a9427648b0beebeb69579cf"),
-               "name":"Greg Powell",
-               "email":"greg_powell@fakegmail.com",
-               "version":1,
-               "scores":[65, 75, 80],
-               "dateCreated":1999-02-10T00:00:00.000+00:00
-            }
+         {
+            "_id":ObjectId("5a9427648b0beebeb69579cf"),
+            "name":"Greg Powell",
+            "email":"greg_powell@fakegmail.com",
+            "version":1,
+            "scores":[65, 75, 80],
+            "dateCreated":1999-02-10T00:00:00.000+00:00
+         }
 
    .. tab:: Filter by Date
       :tabid: date
-
-      .. example::
          
-         The following :ref:`query filter <query-bar-filter>` uses the 
-         :manual:`$gt operator </reference/operator/query/gt/>` and 
-         :manual:`Date() method </reference/method/Date/>` to find all 
-         documents where the ``dateCreated`` field value is later than 
-         June 22nd, 2000.
+      The following :ref:`query filter <query-bar-filter>` uses the 
+      :manual:`$gt operator </reference/operator/query/gt/>` and 
+      :manual:`Date() method </reference/method/Date/>` to find all 
+      documents where the ``dateCreated`` field value is later than 
+      June 22nd, 2000.
 
-         .. code-block:: shell
+      .. code-block:: shell
 
-            { dateCreated: { $gt: Date('2000-06-22') } }
+         { dateCreated: { $gt: Date('2000-06-22') } }
 
-         The query returns the following document because the value of 
-         the ``dateCreated`` field is after June 22, 2000.
+      The query returns the following document because the value of 
+      the ``dateCreated`` field is after June 22, 2000.
 
-         .. code-block:: JSON
-            :copyable: false
+      .. code-block:: JSON
+         :copyable: false
 
-            {
-               "_id":ObjectId("5a9427648b0beebeb69579cc"),
-               "name":"Andrea Le",
-               "email":"andrea_le@fakegmail.com",
-               "version":1,
-               "scores":[85, 95, 75],
-               "dateCreated":2003-03-26T00:00:00.000+00:00
-            }
+         {
+            "_id":ObjectId("5a9427648b0beebeb69579cc"),
+            "name":"Andrea Le",
+            "email":"andrea_le@fakegmail.com",
+            "version":1,
+            "scores":[85, 95, 75],
+            "dateCreated":2003-03-26T00:00:00.000+00:00
+         }
 
    .. tab:: Filter by Elements in an Array
       :tabid: array
-
-      .. example::
          
-         The following :ref:`query filter <query-bar-filter>` uses the
-         :manual:`$elemMatch operator </reference/operator/query/elemMatch/>` to find all documents where at least one value in 
-         the ``scores`` array is greater than 80 and less than ``90`` 
+      The following :ref:`query filter <query-bar-filter>` uses the
+      :manual:`$elemMatch operator </reference/operator/query/elemMatch/>` to find all documents where at least one value in 
+      the ``scores`` array is greater than 80 and less than ``90`` 
 
-         .. code-block:: shell
+      .. code-block:: shell
 
-            { scores: { $elemMatch: { $gt: 80, $lt: 90 } } }
+         { scores: { $elemMatch: { $gt: 80, $lt: 90 } } }
 
-         The query returns the following document because one of the 
-         values in the scores array is ``85``, which matches the 
-         ``$elemMatch`` criteria.
+      The query returns the following document because one of the 
+      values in the scores array is ``85``, which matches the 
+      ``$elemMatch`` criteria.
 
-         .. code-block:: JSON
-            :copyable: false
+      .. code-block:: JSON
+         :copyable: false
 
-            {
-               "_id":ObjectId("5a9427648b0beebeb69579cc"),
-               "name":"Andrea Le",
-               "email":"andrea_le@fakegmail.com",
-               "version":1,
-               "scores":[85, 95, 75],
-               "dateCreated":2003-03-26T00:00:00.000+00:00
-            }
+         {
+            "_id":ObjectId("5a9427648b0beebeb69579cc"),
+            "name":"Andrea Le",
+            "email":"andrea_le@fakegmail.com",
+            "version":1,
+            "scores":[85, 95, 75],
+            "dateCreated":2003-03-26T00:00:00.000+00:00
+         }
 
 For more query examples, see 
 :manual:`Query Documents </tutorial/query-documents/>` 
