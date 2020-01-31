@@ -170,13 +170,12 @@ Examples
    .. tab:: Filter for a Match
       :tabid: match
          
-      The following :ref:`query filter <query-bar-filter>` uses the 
-      :manual:`$eq operator </reference/operator/query/eq/>` to find 
-      all documents where ``name`` is "Andrea Le" .
+      The following :ref:`query filter <query-bar-filter>` finds
+      all documents where the value of ``name`` is "Andrea Le".
 
       .. code-block:: shell
 
-         { name: { $eq: "Andrea Le" } }
+         { name: "Andrea Le" }
 
       The query returns the following document because the ``name`` 
       field value is an exact match.
@@ -193,7 +192,7 @@ Examples
             "dateCreated":{"$date":"2003-03-26"}
          }
 
-   .. tab:: Filter by Exclusion
+   .. tab:: Filter by Exclusion ($not)
       :tabid: not
          
       The following :ref:`query filter <query-bar-filter>` uses the 
@@ -234,6 +233,11 @@ Examples
             }
          ]
 
+      .. seealso::
+
+         For a complete list of logical query operators, see 
+         :manual:`Logical Query Operators</reference/operator/query-logical/>`.
+
    .. tab:: Filter by Comparison
       :tabid: compare
          
@@ -269,6 +273,11 @@ Examples
                "dateCreated":{"$date":"1999-02-10"}
             }
          ]
+
+      .. seealso::
+
+         For a complete list of comparison operators, see 
+         :manual:`Comparison Query Operators </reference/operator/query-comparison/>`.
 
    .. tab:: Filter by Date
       :tabid: date
