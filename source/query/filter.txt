@@ -179,7 +179,7 @@ Examples
          { name: { $eq: "Andrea Le" } }
 
       The query returns the following document because the ``name`` 
-      field value in the document is an exact match.
+      field value is an exact match.
 
       .. code-block:: JSON
          :copyable: false
@@ -246,9 +246,8 @@ Examples
 
          { version: { $lte: 4 } }
 
-      The query returns the following documents because the values of 
-      the ``version`` field in the documents are less than or equal to 
-      ``4``.
+      The query returns the following documents because 
+      the ``version`` field values are less than or equal to ``4``.
 
       .. code-block:: JSON
          :copyable: false
@@ -284,8 +283,8 @@ Examples
 
          { dateCreated: { $gt: Date('2000-06-22') } }
 
-      The query returns the following documents because the values of 
-      the ``dateCreated`` fields are after June 22, 2000.
+      The query returns the following documents because 
+      the ``dateCreated`` field values are after June 22, 2000.
 
       .. code-block:: JSON
          :copyable: false
