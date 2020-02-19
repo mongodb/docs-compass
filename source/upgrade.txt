@@ -42,6 +42,25 @@ You can enable automatic updates to the latest version of Compass on the
 Instead, |compass-short| prompts you to upgrade when a new version is
 available.
 
+Migrating to Compass from Compass Community
+-------------------------------------------
+
+For users moving to the full version of Compass from Compass Community
+and would like to retain their saved data, please copy the following
+folders from the MongoDB Compass Community data folder to the
+MongoDB Compass data folder.
+
+- ``Connections``
+- ``FavoriteQueries``
+- ``RecentQueries``
+- ``SavedPipelines``
+
+The data folder is located in:
+
+- ``%APPDATA%/Roaming`` on Windows
+- ``~/Library/Application Support`` on MacOS
+- ``$XDG_CONFIG_HOME`` or `~/.config` on Linux
+
 .. seealso::
 
    :ref:`download-install`

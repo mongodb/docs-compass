@@ -40,7 +40,9 @@ Available |compass-short| Editions
 
    * - :guilabel:`Compass Community`
      - Designed for developing with MongoDB and includes a
-       subset of the features of Compass.
+       subset of the features of Compass. Note that this
+       version is deprecated and users are recommended to
+       use the full free version of Compass.
 
    * - :guilabel:`Compass`
      - Full version of MongoDB Compass, with all features and
