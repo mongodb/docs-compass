@@ -1,8 +1,8 @@
 .. _upgrade-compass:
 
-=====================================
-Upgrade Compass to the Latest Version
-=====================================
+=======================
+Upgrade MongoDB Compass
+=======================
 
 .. default-domain:: mongodb
 
@@ -42,24 +42,44 @@ You can enable automatic updates to the latest version of Compass on the
 Instead, |compass-short| prompts you to upgrade when a new version is
 available.
 
-Migrating to Compass from Compass Community
--------------------------------------------
+.. _migrate-from-community:
 
-For users moving to the full version of Compass from Compass Community
-and would like to retain their saved data, please copy the following
-folders from the MongoDB Compass Community data folder to the
-MongoDB Compass data folder.
+Migrate to Compass from Compass Community
+-----------------------------------------
 
-- ``Connections``
-- ``FavoriteQueries``
-- ``RecentQueries``
-- ``SavedPipelines``
+To migrate from Compass Community edition to the fully-featured
+edition of Compass and retain any saved data such as saved connection
+strings and favorite queries, you must migrate that data to your
+new edition of |compass|.
 
-The data folder is located in:
+1. Download the fully-featured edition of |compass| from the
+   {+download-page+}.
 
-- ``%APPDATA%/Roaming`` on Windows
-- ``~/Library/Application Support`` on MacOS
-- ``$XDG_CONFIG_HOME`` or `~/.config` on Linux
+#. Refer to the following table to see where your |compass| data
+   is stored based on your operating system:
+
+   .. list-table::
+      :header-rows: 1
+
+      * - Operating System
+        - Data Location
+
+      * - macOS
+        - ``~/Library/Application Support``
+
+      * - Windows
+        - ``%APPDATA%/Roaming``
+
+      * - Linux
+        - ``$XDG_CONFIG_HOME`` or ``~/.config``
+
+#. Move the following folders from your Compass Community edition folder
+   to your fully-featured Compass folder:
+
+   - ``Connections``
+   - ``FavoriteQueries``
+   - ``RecentQueries``
+   - ``SavedPipelines``
 
 .. seealso::
 
