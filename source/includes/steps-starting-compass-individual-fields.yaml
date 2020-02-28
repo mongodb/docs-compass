@@ -143,7 +143,7 @@ content: |
                  its authentication mechanism. If selected, you must
                  provide the :manual:`Principal </core/kerberos/#principals>`
                  and :guilabel:`Service Name` to authenticate the user. 
-                 The :guilabel:`Password` field should be left blank. 
+                 Leave the :guilabel:`Password` field blank. 
 
                  You can also direct |compass| to
                  :guilabel:`Canonicalize the Host Name` by setting the
