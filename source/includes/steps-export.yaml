@@ -9,7 +9,7 @@ content: |
 
 ---
 title: Click :guilabel:`Collection` in the top-level menu and select 
-       :guilabel:`Export Collection`
+       :guilabel:`Export Collection`.
 level: 4
 ref: export-collection
 content: |
@@ -24,10 +24,12 @@ content: |
 
   The export dialog initially displays the query entered in the query 
   bar prior to export, if applicable. If no query was specified, this 
-  section displays a generic ``find`` operation.
+  section displays a ``find`` operation with no parameters, which 
+  returns all documents in the collection.
 
   To ignore the query filter and export your entire collection, select 
-  :guilabel:`Export Full Collection`.
+  :guilabel:`Export Full Collection` and click 
+  :guilabel:`Select Fields`.
 
 ---
 title: Select document fields to include in your exported file.
