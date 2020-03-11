@@ -120,8 +120,7 @@ Export Data from a Collection
 
 |compass| can export data from a collection as either a
 **JSON** or **CSV** file. If you specify a
-:ref:`filter <query-bar-filter>` in the
-:ref:`query bar <compass-query-bar>` prior to export, |compass-short|
+:ref:`filter <query-bar-filter>`, |compass-short|
 can optionally only export documents which match the specified query.
 
 Behavior
