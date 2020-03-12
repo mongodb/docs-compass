@@ -29,7 +29,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-filter.png
      :alt: Export data dialog
-     :width: 80%
+     :width: 70%
 
   The top section of the export dialog displays the query
   entered in the query bar. If you did not specify a query in the query 
@@ -47,7 +47,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-2.png
      :alt: Export data dialog, step 2
-     :width: 80%
+     :width: 70%
 
   .. note::
      
@@ -71,7 +71,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-3.png
      :alt: Export data dialog, step 3
-     :width: 80%
+     :width: 70%
 
 ---
 title: Click :guilabel:`Export`.
