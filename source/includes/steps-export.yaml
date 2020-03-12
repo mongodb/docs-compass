@@ -20,7 +20,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-1.png
      :alt: Export data dialog, step 1
-     :width: 60%
+     :width: 80%
 
   The export dialog initially displays the query entered in the query 
   bar prior to export, if applicable. If no query was specified, this 
@@ -43,7 +43,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-2.png
      :alt: Export data dialog, step 2
-     :width: 60%
+     :width: 80%
 
 ---
 title: Choose a file type and export location.
@@ -59,7 +59,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-3.png
      :alt: Export data dialog, step 3
-     :width: 60%
+     :width: 80%
 
 ---
 title: Click :guilabel:`Export`.
