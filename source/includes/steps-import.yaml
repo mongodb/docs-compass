@@ -40,7 +40,8 @@ content: |
   :guilabel:`JSON` or :guilabel:`CSV`. 
 
   If you are importing a CSV file, you may specify fields to import and 
-  the types of those fields under :guilabel:`Specify Fields and Types`. By default, |compass-short| imports every field as a string.
+  the types of those fields under :guilabel:`Specify Fields and Types`. 
+  The default data type for all fields is string.
 
   .. figure:: /images/compass/import-csv-options.png
      :alt: Select fields to import from a CSV file
@@ -61,7 +62,8 @@ content: |
   If you are importing a CSV file, you may select how your data 
   is delimited.
 
-  For both JSON and CSV file imports, you can toggle :guilabel:`Ignore empty strings` and :guilabel:`Stop on errors`:
+  For both JSON and CSV file imports, you can toggle 
+  :guilabel:`Ignore empty strings` and :guilabel:`Stop on errors`:
 
   - If checked, :guilabel:`Ignore empty strings` drops fields with 
     empty string values from your imported documents. The document is 

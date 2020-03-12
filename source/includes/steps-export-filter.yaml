@@ -29,7 +29,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-filter.png
      :alt: Export data dialog
-     :width: 60%
+     :width: 80%
 
   The top section of the export dialog displays the query
   entered in the query bar. If you did not specify a query in the query 
@@ -47,11 +47,13 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-2.png
      :alt: Export data dialog, step 2
-     :width: 60%
+     :width: 80%
 
   .. note::
      
-     |compass-short| samples your collection to pre-populate a list of fields. Uncommon fields may not be automatically detected.
+     |compass-short| samples your collection to pre-populate a list of 
+     fields. Fields which only appear in a small percentage of 
+     documents may not be automatically detected.
 
      For details on sampling, see the :ref:`FAQ <compass-faq-sampling>`.
 
@@ -69,7 +71,7 @@ content: |
 
   .. figure:: /images/compass/export-data-dialog-3.png
      :alt: Export data dialog, step 3
-     :width: 60%
+     :width: 80%
 
 ---
 title: Click :guilabel:`Export`.

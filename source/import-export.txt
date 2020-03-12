@@ -67,11 +67,14 @@ that it is formatted correctly.
                { "type": "cell", "number": "646-555-4567" }
                { "type": "office", "number": "202-555-0182"}
 
-            The following comma-separated ``.json`` array file is also formatted correctly:
+            The following comma-separated ``.json`` array file is also 
+            formatted correctly:
 
             .. code-block:: javascript
 
                [{ "type": "home", "number": "212-555-1234" }, { "type": "cell", "number": "646-555-4567" }, { "type": "office", "number": "202-555-0182"}]
+
+            |compass-short| ignores line breaks in JSON arrays.
 
             |compass| automatically generates :manual:`ObjectIDs
             </reference/method/ObjectId/>` for these objects on import
@@ -120,8 +123,8 @@ Export Data from a Collection
 
 |compass| can export data from a collection as either a
 **JSON** or **CSV** file. If you specify a
-:ref:`filter <query-bar-filter>`, |compass-short|
-can optionally only export documents which match the specified query.
+:ref:`filter <query-bar-filter>`, |compass-short| only exports 
+documents which match the specified query.
 
 Behavior
 ~~~~~~~~
