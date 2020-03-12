@@ -76,7 +76,7 @@ that it is formatted correctly.
 
             |compass-short| ignores line breaks in JSON arrays.
 
-            |compass| automatically generates :manual:`ObjectIDs
+            |compass-short| automatically generates :manual:`ObjectIDs
             </reference/method/ObjectId/>` for these objects on import
             since no ObjectIDs were specified in the initial JSON.
 

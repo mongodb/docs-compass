@@ -21,7 +21,7 @@ content: |
 
   .. figure:: /images/compass/import-data-dialog.png
      :alt: Import data dialog
-     :width: 60%
+     :width: 70%
 
 ---
 title: Select the location of the source data file under 
@@ -45,7 +45,7 @@ content: |
 
   .. figure:: /images/compass/import-csv-options.png
      :alt: Select fields to import from a CSV file
-     :width: 60%
+     :width: 70%
 
   To exclude a field from a CSV file you are importing, uncheck the 
   checkbox next to that field name. To select a type for a field, use 
