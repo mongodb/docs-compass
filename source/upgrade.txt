@@ -60,6 +60,7 @@ new edition of |compass|.
 
    .. list-table::
       :header-rows: 1
+      :widths: 20 40
 
       * - Operating System
         - Data Location

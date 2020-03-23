@@ -85,6 +85,31 @@ To save your pipeline:
 
 #. Click :guilabel:`Save`.
 
+Compass stores saved pipelines in the following directory depending on
+your operating system:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
+   
+   * - Operating System
+     - File Location
+
+   * - macOS
+     - ``~/Library/Application Support/<Compass Edition>/FavoriteQueries``
+
+   * - Windows
+     - ``%APPDATA%/Roaming/<Compass Edition>/FavoriteQueries``
+
+   * - Linux
+     - Either:
+     
+       - ``$XDG_CONFIG_HOME/<Compass Edition>/FavoriteQueries``
+       
+         or
+         
+       - ``~/.config/<Compass Edition>/FavoriteQueries``
+
 .. _create-a-view:
 
 Create a View from Pipeline Results 

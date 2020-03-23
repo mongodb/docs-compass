@@ -21,7 +21,31 @@ Save a Favorite Connection
 
 You can save a favorite connection from the initial
 :ref:`connect screen <connect-run-compass>`, or after you have
-successfully connected to a MongoDB deployment.
+successfully connected to a MongoDB deployment. Compass saves
+favorite connections in the following directory depending on
+your operating system:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
+   
+   * - Operating System
+     - File Location
+
+   * - macOS
+     - ``~/Library/Application Support/<Compass Edition>/Connections``
+
+   * - Windows
+     - ``%APPDATA%/Roaming/<Compass Edition>/Connections``
+
+   * - Linux
+     - Either:
+     
+       - ``$XDG_CONFIG_HOME/<Compass Edition>/Connections``
+       
+         or
+         
+       - ``~/.config/<Compass Edition>/Connections``
 
 Save from Connect Screen
 ~~~~~~~~~~~~~~~~~~~~~~~~
