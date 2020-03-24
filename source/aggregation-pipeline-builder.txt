@@ -99,7 +99,7 @@ your operating system:
      - ``~/Library/Application Support/<Compass Edition>/FavoriteQueries``
 
    * - Windows
-     - ``%APPDATA%/Roaming/<Compass Edition>/FavoriteQueries``
+     - ``%APPDATA%/<Compass Edition>/FavoriteQueries``
 
    * - Linux
      - Either:

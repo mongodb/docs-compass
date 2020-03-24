@@ -36,7 +36,7 @@ your operating system:
      - ``~/Library/Application Support/<Compass Edition>/Connections``
 
    * - Windows
-     - ``%APPDATA%/Roaming/<Compass Edition>/Connections``
+     - ``%APPDATA%/<Compass Edition>/Connections``
 
    * - Linux
      - Either:
