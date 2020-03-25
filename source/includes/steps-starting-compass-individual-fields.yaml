@@ -193,13 +193,6 @@ content: |
                     per :rfc:`2253`. For example, the username 
                     "X509User" must be provided as "CN=X509User".
 
-                 .. note::
-
-                    If you are using an 
-                    :manual:`SRV record </reference/connection-string/#dns-seedlist-connection-format>` 
-                    in your connection string, the authentication 
-                    database defaults to ``admin``.
-
      * - :guilabel:`Favorite Name`
        - *Optional*. A name for the connection. To save the current
          connection entered as a
