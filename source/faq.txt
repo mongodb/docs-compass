@@ -24,12 +24,6 @@ Testing has shown that |compass| has minimal impact in prototype
 deployments, though additional performance testing and monitoring is in
 progress.
 
-For best results, use MongoDB 3.2 or higher, which includes the
-:manual:`$sample </reference/operator/aggregation/sample/>` operator for
-efficient :ref:`sampling <sampling>` on a collection. On older versions 
-of MongoDB, |compass| falls back on a
-:ref:`less efficient sampling method <compass_fallback_sampling>`.
-
 You should only execute queries that are indexed appropriately in the
 database to avoid scanning the entire collection.
 
