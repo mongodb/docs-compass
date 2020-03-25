@@ -8,9 +8,15 @@ Sampling
 
 .. _compass-faq-sampling:
 
-Sampling in |compass| is the selection of a subset of documents from a collection for analysis. Analyzing a sample set of data is a common statistical analysis technique; the results of analyzing a sample set tend to be similar to the results of analyzing an entire data set.
+Sampling in |compass| is the selection of a subset of documents from a 
+collection for analysis. Analyzing a sample set of data is a common 
+statistical analysis technique; the results of analyzing a sample set 
+tend to be similar to the results of analyzing an entire data set.
 
-|compass-short| uses sampling for efficiency. Generally, standard sample sets can be selected and analyzed in a few seconds. Analyzing large samples or entire collections demands significantly more time and processing power.
+|compass-short| uses sampling for efficiency. Generally, standard 
+sample sets can be selected and analyzed in a few seconds. Analyzing 
+large samples or entire collections demands significantly more time and 
+processing power.
 
 .. _compass_fallback_sampling:
 
@@ -26,10 +32,12 @@ MongoDB instance version.
       :tabid: sampling-later-version
 
       In MongoDB 3.2 and later, collections are sampled with the
-      :manual:`$sample </reference/operator/aggregation/sample/>` operator via
-      the :manual:`aggregation pipeline </core/aggregation-pipeline>`. This
-      provides efficient, random sampling without replacement over an entire
-      collection, or over the subset of documents specified by a query.
+      :manual:`$sample </reference/operator/aggregation/sample/>` 
+      operator via the 
+      :manual:`aggregation pipeline </core/aggregation-pipeline>`. This 
+      provides efficient, random sampling without replacement over an 
+      entire collection, or over the subset of documents specified by a 
+      query.
 
    .. tab:: MongoDB 3.0
       :tabid: sampling-earlier-version
@@ -38,10 +46,10 @@ MongoDB instance version.
       backwards-compatible algorithm executed entirely within 
       |compass-short|. It takes place in three stages:
       
-      1. |compass-short| opens a :term:`cursor` on the desired collection, 
-         limited to 10,000 documents and sorted in descending order by 
-         ``_id``.
+      1. |compass-short| opens a :term:`cursor` on the desired 
+         collection, limited to 10,000 documents and sorted in 
+         descending order by ``_id``.
       2. 1,000 documents are randomly selected from the stream with 
          `reservoir sampling <http://en.wikipedia.org/wiki/          Reservoir_sampling>`_.
-      3. |compass-short| performs a query to retrieve the selected documents 
-         directly by ``_id``.
+      3. |compass-short| performs a query to retrieve the selected 
+         documents directly by ``_id``.
