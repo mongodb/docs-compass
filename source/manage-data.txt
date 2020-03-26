@@ -13,10 +13,10 @@ Interact with Your Data
 
       /databases
       /collections
-      /sampling
       /views
       /documents
       /query/filter
       /indexes
       /schema
       /validation
+      /sampling

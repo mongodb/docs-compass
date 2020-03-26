@@ -6,11 +6,6 @@ file: /collections
 description: |
   Learn how to manage collections in your databases.
 ---
-file: /sampling
-description: |
-  Learn how |compass-short| samples documents to provide 
-  insights about a collection.
----
 file: /views
 description: |
   Learn how to manage views in your databases. Views are read-only
@@ -39,4 +34,9 @@ file: /validation
 description: |
   Learn how to ensure that all documents in a collection
   follow a defined set of rules.
+---
+file: /sampling
+description: |
+  Learn how |compass-short| samples documents to provide 
+  insights about a collection.
 ...
