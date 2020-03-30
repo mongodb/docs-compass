@@ -338,3 +338,103 @@ To delete a location filter from the map:
 .. |query-build-ref| replace:: :ref:`build-query`
 
 .. |query-build-type| replace:: :ref:`build-query`
+
+Export Your Schema
+------------------
+
+You can export your schema after analyzing it. This is useful for 
+sharing your schema and for comparing schemas across collections.
+
+If you have not already done so, analyze your schema:
+
+1. Select your desired collection and click the :guilabel:`Schema` tab.
+
+#. Click :guilabel:`Analyze Schema`.
+
+.. note::
+   |compass-short| analyzes schemas using :ref:`sampling <sampling>`.
+
+Once your schema has been analyzed, export your schema:
+
+1. In the top menu bar, click :guilabel:`Collection`.
+
+#. From the dropdown, click :guilabel:`Share Schema as JSON`.
+
+.. figure:: /images/compass/share-schema-json.png
+   :alt: Image showing Collection dropdown
+
+Your schema is copied to your clipboard as a |json| object with 
+properties ``fields`` and ``count``:
+
+- ``fields`` is an array of metadata for each analyzed field, including 
+  the field's ``name``, ``types``, and within ``types``, an array of 
+  actual values analyzed for each type.
+
+- ``count`` is the number of documents :ref:`sampled <sampling>` from 
+  the collection.
+
+The following contrived example shows a schema for a collection 
+of 3 documents with only ``_id`` and ``user`` fields:
+
+.. code-block:: json
+   :linenos:
+   :copyable: false
+   :emphasize-lines: 2, 56
+   
+   {
+     "fields": [
+       {
+         "name": "_id",
+         "path": "_id",
+         "count": 3,
+         "types": [
+           {
+             "name": "ObjectID",
+             "bsonType": "ObjectID",
+             "path": "_id",
+             "count": 3,
+             "values": [
+               "5e823d247782b98ba98c16fa",
+               "5e823d2a7782b98ba98c16fb",
+               "5e823d307782b98ba98c16fc"
+             ],
+             "total_count": 0,
+             "probability": 1,
+             "unique": 3,
+             "has_duplicates": false
+           }
+         ],
+         "total_count": 3,
+         "type": "ObjectID",
+         "has_duplicates": false,
+         "probability": 1
+       },
+       {
+         "name": "user",
+         "path": "user",
+         "count": 3,
+         "types": [
+           {
+             "name": "String",
+             "bsonType": "String",
+             "path": "user",
+             "count": 3,
+             "values": [
+               "Zach",
+               "Nick",
+               "Anuj"
+             ],
+             "total_count": 0,
+             "probability": 1,
+             "unique": 3,
+             "has_duplicates": false
+           }
+         ],
+         "total_count": 3,
+         "type": "String",
+         "has_duplicates": false,
+         "probability": 1
+       }
+     ],
+     "count": 3
+   }
