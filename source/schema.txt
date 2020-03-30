@@ -368,7 +368,7 @@ properties ``fields`` and ``count``:
 
 - ``fields`` is an array of metadata for each analyzed field, including 
   the field's ``name``, ``types``, and within ``types``, an array of 
-  actual values analyzed for each type.
+  the actual values analyzed for each type.
 
 - ``count`` is the number of documents :ref:`sampled <sampling>` from 
   the collection.
