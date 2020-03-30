@@ -6,9 +6,35 @@ View Favorite Queries
 
 .. default-domain:: mongodb
 
-From the list of recent queries for a collection, you can save queries
-as favorites. To view the list of queries saved as favorites, click on
-:guilabel:`Favorites` in the past queries view.
+From the :ref:`list of recent queries <recent-queries>` for a
+collection, you can save queries as favorites. To view the list of
+queries saved as favorites, click on :guilabel:`Favorites` in the past
+queries view.
 
 .. figure:: /images/compass/query-history-favorite.png
    :figwidth: 316px
+
+Compass saves favorite connections in the following directory depending
+on your operating system:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
+   
+   * - Operating System
+     - File Location
+
+   * - macOS
+     - ``~/Library/Application Support/<Compass Edition>/FavoriteQueries``
+
+   * - Windows
+     - ``%APPDATA%/<Compass Edition>/FavoriteQueries``
+
+   * - Linux
+     - Either:
+     
+       - ``$XDG_CONFIG_HOME/<Compass Edition>/FavoriteQueries``
+       
+         or
+         
+       - ``~/.config/<Compass Edition>/FavoriteQueries``
