@@ -375,8 +375,9 @@ Schema objects have properties ``count`` and ``fields``:
 - ``count`` is an integer that represents the number of documents 
   :ref:`sampled <sampling>` from the collection to generate the schema.
 
-- ``fields`` is an array of metadata objects for each field in your 
-  analyzed documents. Each element in the ``fields`` array contains:
+- ``fields`` is an array of ``n`` metadata objects that represent each 
+  field in the documents analyzed during sampling. Each element in the 
+  ``fields`` array contains:
 
 .. list-table::
   :header-rows: 1
@@ -388,89 +389,91 @@ Schema objects have properties ``count`` and ``fields``:
 
   * - ``name``
     - String
-    - Name of the field, e.g. ``_id``.
+    - Name of ``fields[n]``, e.g. ``_id``.
 
   * - ``path``
     - String
-    - Path to the field within a collection document.
+    - Path to ``fields[n]`` within a document.
     
   * - ``count``
     - Integer
-    - The number of sampled documents that this field appears on.
+    - The number of documents that ``fields[n]`` appears on.
 
   * - ``types``
     - Array
-    - An array of metadata objects for each type found in this field.
+    - List of ``n`` metadata objects for each data type that 
+      appears in ``fields[n]``.
 
   * - ``types[n].name``
     - String
-    - Name of the data type found in the parent field.
+    - Data type of ``types[n]``.
   
   * - ``types[n].bsonType``
     - String
-    - |bson| type of the data type found in the parent field.
+    - |bson| type of ``types[n]``.
 
   * - ``types[n].path``
     - String
-    - Path to the parent field within a collection document.
+    - Path to ``name`` of ``fields[n]`` within a document.
 
   * - ``types[n].count``
     - Integer
-    - Number of times this data type appears in the parent field across 
-      sampled documents.
+    - Number of times ``types[n]`` appears in ``fields[n]``.
   
   * - ``types[n].values``
     - Array
-    - An array of the actual values from your sampled documents that 
-      appear under the parent field and match this type.
+    - List of the actual sampled values that 
+      appear in ``fields[n]`` and match ``types[n]``.
 
   * - ``types[n].total_count``
     - Integer
-    - The total number of items nested in the parent field.
+    - Number of items nested in ``field[n]``. 0 when 
+      ``fields[n]`` is not a nested value.
   
   * - ``types[n].probability``
     - Number
-    - The probability that the parent field's value is this type across 
-      sampled documents.
+    - Probability that the value of ``field[n]`` is ``types[n]`` in a 
+      random document.
 
   * - ``types[n].unique``
     - Integer
-    - The number of unique values of this type that appear in the 
-      parent field.
+    - Number of unique values of ``types[n]`` that appear in 
+      ``fields[n]``.
 
   * - ``types[n].has_duplicates``
     - Boolean
-    - ``true`` if a single value appears multiple times in this field 
-      across sampled documents.
+    - ``true`` if a single value of ``types[n]`` appears multiple times 
+      in ``fields[n]``. Otherwise ``false``.
 
   * - ``types[n].lengths``
     - Array
-    - If the type is an array, an array of integers representing the 
-      lengths of arrays found in this parent field.
+    - If ``types[n]`` is an array, an array of integers representing 
+      the lengths of arrays found in ``fields[n]``. Not present for 
+      other data types.
 
   * - ``types[n].average_length``
     - Number
-    - If the type is an array, the average length of arrays in this 
-      parent field across sampled documents.
+    - If ``types[n]`` is an array, the average length of arrays in 
+      ``fields[n]`` across sampled documents. Not present for 
+      other data types.
 
   * - ``total_count``
     - Integer
-    - The total number of documents sampled from the collection.
+    - Number of documents sampled from the collection.
 
   * - ``type``
     - String or Array
     - String or array of strings representing possible types for 
-      this field.
+      ``fields[n]``.
 
   * - ``has_duplicates``
     - Boolean
-    - ``true`` if a single value appears multiple times in this field 
-      across sampled documents.
+    - ``true`` if a single value appears multiple times in 
+      ``fields[n]``. Otherwise ``false``.
 
   * - ``probability``
     - Number
-    - The probability that a document has this field accross sampled 
-      documents.
+    - Probability that a random document has ``fields[n]``.
 
 Example Schema
 ~~~~~~~~~~~~~~
