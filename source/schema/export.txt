@@ -65,7 +65,7 @@ Schema objects have ``count`` and ``fields`` properties:
  
    * - ``types[n].name``
      - String
-     - Data type of this data type.
+     - Name of this data type.
    
    * - ``types[n].bsonType``
      - String
