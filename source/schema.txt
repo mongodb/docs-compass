@@ -401,7 +401,7 @@ Schema objects have properties ``count`` and ``fields``:
 
   * - ``types``
     - Array
-    - List of ``n`` metadata objects for each data type that 
+    - List of ``n`` metadata objects that represent each data type that 
       appears in ``fields[n]``.
 
   * - ``types[n].name``
