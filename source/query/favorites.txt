@@ -38,3 +38,8 @@ on your operating system:
          or
          
        - ``~/.config/<Compass Edition>/FavoriteQueries``
+
+.. seealso::
+
+   To learn how to write queries to filter your data, see
+   :ref:`query-bar`.
