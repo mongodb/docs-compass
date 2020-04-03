@@ -24,14 +24,7 @@ exploring your data in a visual environment, you can also use
 :ref:`manage indexes <compass-indexes>`, and implement
 :ref:`document validation <validation>`.
 
-.. admonition:: MongoDB Atlas
-   :class: note
-
-   `MongoDB Atlas <https://www.mongodb.com/cloud/atlas?tck=docs_compass>`__ 
-   compliments |compass-short| by providing a GUI
-   for most database administration tasks. Atlas is a cloud-hosted 
-   database-as-a-service which requires no installation and offers a 
-   free tier to get started.
+.. include:: /includes/atlas-sample-data-note.rst
 
 .. _compass-and-community-eds:
 
