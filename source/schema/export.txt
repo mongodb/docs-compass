@@ -87,9 +87,9 @@ Schema objects have ``count`` and ``fields`` properties:
  
    * - ``types[n].total_count``
      - Integer
-     - Number of items embedded in the corresponding field. When the 
-       field is not an embedded value, ``types[n].total_count`` is 0.
-   
+     - If the corresponding field is an array, the number of elements 
+       in that array.
+
    * - ``types[n].probability``
      - Number
      - Probability that the value of the corresponding field is this 
@@ -108,14 +108,14 @@ Schema objects have ``count`` and ``fields`` properties:
    * - ``types[n].lengths``
      - Array
      - If this data type is an array, an array of integers representing 
-       the lengths of arrays found in the corresponding field. Not present for 
-       other data types.
+       the lengths of arrays found in the corresponding field. Not 
+       present for other data types.
  
    * - ``types[n].average_length``
      - Number
      - If this data type is an array, the average length of arrays in 
-       the corresponding field across sampled documents. Not present for 
-       other data types.
+       the corresponding field across sampled documents. Not present 
+       for other data types.
  
    * - ``total_count``
      - Integer
@@ -133,7 +133,8 @@ Schema objects have ``count`` and ``fields`` properties:
  
    * - ``probability``
      - Number
-     - Probability that a random document contains the corresponding field.
+     - Probability that a random document contains the corresponding 
+       field.
 
 Example Schema
 ~~~~~~~~~~~~~~
@@ -147,22 +148,22 @@ with a ``sport`` field and unique information about that sport:
 
    [
      {
-       "_id":{"$oid":"5e8359ba7782b98ba98c16fd"},
-       "sport":"Baseball",
-       "equipment":["bat","baseball","glove","helmet"]
+       "_id": { "$oid":"5e8359ba7782b98ba98c16fd" },
+       "sport": "Baseball",
+       "equipment": [ "bat", "baseball", "glove", "helmet" ]
      },
      {
-       "_id":{"$oid":"5e835a727782b98ba98c16fe"},
-       "sport":"Football",
-       "variants":{
+       "_id": { "$oid":"5e835a727782b98ba98c16fe" },
+       "sport": "Football",
+       "variants": {
            "us":"Soccer",
            "eu":"Football"
        }
      },
      {
-       "_id":{"$oid":"5e835ade7782b98ba98c16ff"},
-       "sport":"Cricket",
-       "origin":"England"
+       "_id": { "$oid":"5e835ade7782b98ba98c16ff" },
+       "sport": "Cricket",
+       "origin": "England"
      }
    ]
 
