@@ -1,0 +1,22 @@
+.. _vsce-interact:
+
+=======================
+Interact with Your Data
+=======================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. class:: hidden
+
+   .. toctree::
+      :titlesonly:
+
+      /vsce/databases-collections
+      /vsce/crud-ops
+      /vsce/run-agg-pipelines

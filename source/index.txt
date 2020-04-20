@@ -159,6 +159,7 @@ suit your needs.
       /manage-data
       /aggregation-pipeline-builder
       /import-export
+      /vs-code-extension
       /troubleshooting
       /faq
       /learn-more
