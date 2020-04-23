@@ -1,8 +1,8 @@
-.. _vsce-interact:
+.. _vsce-playgrounds:
 
-=======================
-Interact with Your Data
-=======================
+==================================
+Explore Your Data with Playgrounds
+==================================
 
 .. default-domain:: mongodb
 
@@ -17,6 +17,5 @@ Interact with Your Data
    .. toctree::
       :titlesonly:
 
-      /vsce/databases-collections
       /vsce/crud-ops
       /vsce/run-agg-pipelines

@@ -1,8 +1,8 @@
 .. _vsce-install:
 
-====================================
-Install Visual Studio Code Extension
-====================================
+===========================
+Install MongoDB for VS Code
+===========================
 
 .. default-domain:: mongodb
 

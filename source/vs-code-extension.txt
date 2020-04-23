@@ -1,8 +1,8 @@
 .. _vsce-overview:
 
-========================================
-Visual Studio Code Extension for MongoDB
-========================================
+===================
+MongoDB for VS Code
+===================
 
 .. default-domain:: mongodb
 
@@ -17,24 +17,34 @@ MongoDB provides an extension for
 you work with MongoDB and your data directly within your coding
 environment.
 
-.. figure:: /images/compass/vsce-landing.png
+.. figure:: /images/compass/vsce-landing-2.png
   :figwidth: 700px
 
-You can use the Visual Studio Code extension to:
+Features
+--------
+
+You can use MongoDB for VS Code to:
 
 - :ref:`Connect to a MongoDB Cluster <vsce-connect>`.
+
+  - Once you connect to a cluster, you can launch the :binary:`~mongo`
+    shell and automatically connect the shell to your cluster.
 
 - :ref:`Navigate your databases, collections, and documents
   <vsce-databases-collections>`.
 
-- :ref:`Write queries and perform CRUD operations on your data
-  <vsce-crud>`.
+- Quickly prototype queries and run MongoDB commands with JavaScript
+  Playgrounds:
 
-- :ref:`Write and execute aggregation pipelines on your data
-  <vsce-aggregation>`.
+  - :ref:`Perform CRUD operations on your data <vsce-crud>`.
 
-To learn how to install the MongoDB Visual Studio Code Extension, see
-:ref:`vsce-install`.
+  - :ref:`Execute aggregation pipelines on your data
+    <vsce-aggregation>`.
+
+Get Started
+-----------
+
+To learn how to install MongoDB for VS Code, see :ref:`vsce-install`.
 
 .. class:: hidden
 
@@ -43,4 +53,6 @@ To learn how to install the MongoDB Visual Studio Code Extension, see
 
       /vsce/install
       /vsce/connect
-      /vsce/interact-with-your-data
+      /vsce/databases-collections
+      /vsce/playgrounds
+      /vsce/settings
