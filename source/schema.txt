@@ -339,9 +339,9 @@ Troubleshooting
 ---------------
 
 If the analysis of your schema times out, it might be because the 
-collection you are analyzing is very large and the operation is stopped 
-before the analysis is complete. Increase the value of ``maxTimeMS`` 
-to allow the operation time to complete.
+collection you are analyzing is very large, causing MongoDB to stop the 
+operation  before the analysis is complete. Increase the value of 
+``maxTimeMS`` to allow the operation time to complete.
 
 To increase the value of ``maxTimeMS``:
 
@@ -352,7 +352,8 @@ To increase the value of ``maxTimeMS``:
             next to the green Analyze button.
 
 2. Increase the value of ``maxTimeMS`` to accommodate your collection. 
-   The value you should use depends on your collection.
+   ``maxTimeMS`` defaults to 5000 milliseconds, or 5 seconds, but large 
+   collections might take tens of seconds to analyze.
 
 Once you have increased the value of ``maxTimeMS``, retry your schema 
 analysis by clicking :guilabel:`Analyze`.
