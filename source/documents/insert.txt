@@ -96,6 +96,10 @@ To insert documents into your collection:
             .. figure:: /images/compass/insert-document2.png
               :figwidth: 590px
 
+            .. note::
+              
+              If an object ID is not provided by user, Compass will automatically generate an object ID.
+
          Add New Fields
          ~~~~~~~~~~~~~~
 
