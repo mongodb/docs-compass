@@ -80,8 +80,9 @@ To insert documents into your collection:
                   ]
 
             .. note::
-
-              If an object ID is not provided by user, Compass will automatically generate an object ID.
+              
+              ..include:: /includes/fact-automatic-objectid.rst
+              
 
          4. Click :guilabel:`Insert`.
 
@@ -98,7 +99,7 @@ To insert documents into your collection:
 
             .. note::
               
-              If an object ID is not provided by user, Compass will automatically generate an object ID.
+              ..include:: /includes/fact-automatic-objectid.rst
 
          Add New Fields
          ~~~~~~~~~~~~~~

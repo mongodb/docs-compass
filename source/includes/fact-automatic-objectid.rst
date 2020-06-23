@@ -1,0 +1,1 @@
+If you do not provide an :manual:`ObjectId </reference/bson-types/#objectid>, |compass-short| automatically generates an ObjectId.
