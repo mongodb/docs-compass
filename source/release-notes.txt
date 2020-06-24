@@ -13,7 +13,7 @@ Release Notes
 |compass| 1.22
 --------------
 
-- Added an :ref:`embedded MongoDB Shell <compass-embedded-shell>`. You
+- Added an :ref:`embedded-shell`. You
   can now test queries and operations with your database. 
    
 |compass| 1.21
