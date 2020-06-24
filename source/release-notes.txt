@@ -14,7 +14,7 @@ Release Notes
 --------------
 
 - Added an :ref:`embedded MongoDB Shell <embedded-shell>`. You
-can now test queries and operations with your database. 
+  can now test queries and operations with your database. 
    
 |compass| 1.21
 --------------
