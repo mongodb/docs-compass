@@ -14,7 +14,8 @@ Release Notes
 --------------
 
 - Added an :ref:`embedded MongoDB Shell <embedded-mongodb-shell>`. You
-  can now test queries and operations with your database. 
+  can use MongoDB Shell to test queries and operations in an interactive
+  JavaScript interface. 
    
 |compass| 1.21
 --------------
