@@ -155,10 +155,10 @@ Install Compass
             permissions to run. You may be prompted to enter your
             system password before launching |compass-short|.
          
-         #. Allow macOS to trust |compass-short|. If you receive a
-         security error when starting |compass-short| indicating that the
-         developer could not be identified or verified, perform the
-         following actions:
+         7. Allow macOS to trust |compass-short|. If you receive a
+         security error when starting |compass-short| indicating that
+         the developer could not be identified or verified, perform the
+         following actions to allow |compass-short| to run:
             
             a. Open *System Preferences*.
    
