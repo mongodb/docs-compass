@@ -153,7 +153,7 @@ Install Compass
                :guilabel:`Open Anyway` or :guilabel:`Allow Anyway`
                depending on your version of macOS.
          
-         #. If necessary, re-open |compass-short|.
+            #. If necessary, re-open |compass-short|.
 
          #. When you open |compass| for the first time, you may receive
             a notice stating
