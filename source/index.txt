@@ -30,10 +30,10 @@ Prerequisites
 To use |compass-short|, you must connect to an existing MongoDB 
 database. You can connect to:
 
-- A MongoDB server that you :manual:`install </installation/>` and 
-  manage, or
+- A MongoDB server that you have 
+  :manual:`installed locally </installation/>`, or
 
-- `MongoDB Atlas <https://www.mongodb.com/cloud/atlas?tck=docs_compass>`__ database-as-a-service.
+- A MongoDB |service| cluster.
 
 .. include:: /includes/atlas-sample-data-note.rst
 
