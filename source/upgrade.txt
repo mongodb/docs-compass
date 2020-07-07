@@ -125,8 +125,7 @@ Procedure
    If you are running macOS Catalina, or later, you may have to modify
    your system settings to grant |compass-short| permission to run. For
    more information on how to grant access permission to
-   |compass-short|, see :ref:`compass-install-compass`.
-
+   |compass-short|, see :ref:`download-and-install-compass`
 .. seealso::
 
    :ref:`download-install`
