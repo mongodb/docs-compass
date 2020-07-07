@@ -99,6 +99,14 @@ Procedure
 
 #. Launch the fully-featured edition of |compass|.
 
+.. note::
+
+   If you are running macOS Catalina, or later, you may have to modify
+   your system settings to grant Compass permission to run. For more
+   information on how to grant access permission to Compass, see :ref: `install-compass`.
+
 .. seealso::
 
    :ref:`download-install`
+
+
