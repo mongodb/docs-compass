@@ -122,7 +122,7 @@ Procedure
 
 .. note::
 
-   If you are running macOS Catalina, or later, you may have to modify
+   If you are running macOS Catalina, or later versions, you may have to modify
    your system settings to grant |compass-short| permission to run. For
    more information, see :ref:`compass-install`.
 
