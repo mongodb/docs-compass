@@ -50,5 +50,6 @@ Limitations
 
 - The :guilabel:`Explain Plan` tab is not available for aggregation. As
   an alternative, you can utilize the
-  `.explain() <https://docs.mongodb.com/manual/reference/method/db.collection.explain/#db.collection.explain>`__
+  `.explain()
+  <https://docs.mongodb.com/manual/reference/method/db.collection.explain/#db.collection.explain>`
   method from MongoDB's Embedded Shell in |compass-short|.
