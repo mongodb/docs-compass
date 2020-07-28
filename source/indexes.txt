@@ -100,7 +100,7 @@ support queries against unknown or arbitrary fields.
    between documents.
 
    You can create a wildcard index on ``userMetadata`` to account for
-   all potential fields within the object. In |compass-short|, type
+   all potential fields within the object. In |compass-short|, enter
    the following for the index name:
 
    .. code-block:: javascript
