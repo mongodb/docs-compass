@@ -73,14 +73,14 @@ content: |
 
       * - Create a :abbr:`TTL (Time to Live)` index
 
-        - Automatically delete documents after a specified number of
+        - Delete documents automatically after a specified number of
           seconds since the indexed field value.
 
         - :manual:`TTL Indexes </core/index-ttl>`
 
       * - Partial filter expression
       
-        - Only index documents which match the specified filter
+        - Index only the documents which match the specified filter
           expression.
 
           .. example::
