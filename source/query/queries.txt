@@ -11,7 +11,7 @@ collection.
 
 To view these queries:
 
-#. Click the :icon:`ellipsis-h` in the query bar
+#. Click the ``…`` in the query bar.
 #. Click :guilabel:`Toggle Query History`.
 
    .. figure:: /images/compass/query-history-view.png
@@ -21,10 +21,8 @@ To view these queries:
    To learn how to write queries to filter your data, see
    :ref:`query-bar`.
 
-.. class:: hidden
+.. toctree::
+   :titlesonly:
 
-   .. toctree::
-      :titlesonly:
-
-      /query/recent
-      /query/favorites
+   /query/recent
+   /query/favorites

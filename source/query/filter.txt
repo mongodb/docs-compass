@@ -111,7 +111,7 @@ How Does the Compass Query Compare to MongoDB and SQL Queries?
 Examples
 --------
 
-.. class:: example
+.. example::
 
    The following examples use the JSON documents below as sample data. 
    To import this sample data to your MongoDB deployment with |compass|:
@@ -348,17 +348,15 @@ For more query examples, see
 :manual:`Query Documents </tutorial/query-documents/>` 
 in the MongoDB manual.
 
-.. class:: hidden
+.. toctree::
+   :titlesonly:
 
-   .. toctree::
-      :titlesonly:
-
-      /query/project
-      Sort Returned Documents </query/sort>
-      /query/maxtimems
-      /query/collation
-      Skip Through Documents </query/skip>
-      Limit Number of Returned Documents </query/limit>
-      /query-plan
-      /export-query-to-language
-      /query/queries
+   /query/project
+   Sort Returned Documents </query/sort>
+   /query/maxtimems
+   /query/collation
+   Skip Through Documents </query/skip>
+   Limit Number of Returned Documents </query/limit>
+   /query-plan
+   /export-query-to-language
+   /query/queries

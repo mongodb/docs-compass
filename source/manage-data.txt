@@ -6,19 +6,48 @@ Interact with Your Data
 
 .. include:: /includes/atlas-sample-data-note.rst
 
-.. include:: /includes/toc/dfn-list-manage-data.rst
+:doc:`/databases`
+  Learn how to create and manage databases in your deployment.
 
-.. class:: hidden
+:doc:`/collections`
+  Learn how to manage collections in your databases.
 
-   .. toctree::
-      :titlesonly:
+:doc:`/views`
+  Learn how to manage views in your databases. Views are read-only
+  results of an :ref:`aggregation <compass-agg-builder>` run against
+  a collection.
 
-      /databases
-      /collections
-      /views
-      /documents
-      /query/filter
-      /indexes
-      /schema
-      /validation
-      /sampling
+:doc:`/documents`
+  Learn how to manage documents in your collections.
+
+:doc:`/query/filter`
+  Learn how to query your data to return data that matches a specified
+  criteria.
+
+:doc:`/indexes`
+  Learn how to create indexes to improve query performance.
+
+:doc:`/schema`
+  Learn how to analyze your data schema and shape of the fields in a
+  particular collection.
+
+:doc:`/validation`
+  Learn how to ensure that all documents in a collection
+  follow a defined set of rules.
+
+:doc:`/sampling`
+  Learn how |compass-short| samples documents to provide 
+  insights about a collection.
+
+.. toctree::
+   :titlesonly:
+
+   /databases
+   /collections
+   /views
+   /documents
+   /query/filter
+   /indexes
+   /schema
+   /validation
+   /sampling
