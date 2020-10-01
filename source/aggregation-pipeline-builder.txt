@@ -55,7 +55,7 @@ letter case and accent marks.
 
 To specify a custom collation:
 
-1. Click the :guilabel:`Collation` button at the top of the pipeline
+#. Click the :guilabel:`Collation` button at the top of the pipeline
    builder.
 
 #. Enter your collation document.
@@ -63,7 +63,7 @@ To specify a custom collation:
 Limitations
 ~~~~~~~~~~~
 
-The :pipeline:`$out` stage is not available if you are connected to a
+The :pipeline:`$out` WORDS stage is not available if you are connected to a
 `Data Lake <https://www.mongodb.com/atlas/data-lake>`__. 
 
 .. _save-agg-pipeline:
@@ -267,10 +267,8 @@ the pipeline:
    { "_id" : { "active" : "Y", "country" : "Israel" }, "flightCount" : 6 }
    { "_id" : { "active" : "N", "country" : "Finland" }, "flightCount" : 7 }
 
-.. class:: hidden
-
-   .. toctree::
-      :titlesonly:
-
-      /import-pipeline-from-text
-      /export-pipeline-to-language
+.. toctree::
+   :titlesonly:
+   
+   /import-pipeline-from-text
+   /export-pipeline-to-language

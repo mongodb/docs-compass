@@ -159,20 +159,17 @@ suit your needs.
      - 
      - |checkmark|
 
-.. class:: hidden
-
-   .. toctree::
-      :titlesonly:
-
-      /install
-      /connect
-      /instance
-      /manage-data
-      /aggregation-pipeline-builder
-      /import-export
-      /embedded-shell
-      /troubleshooting
-      /faq
-      /learn-more
-      /release-notes
-      /submit-feedback
+.. toctree::
+   :titlesonly:
+ 
+   /install
+   /connect
+   /instance
+   /manage-data
+   /aggregation-pipeline-builder
+   /import-export
+   /troubleshooting
+   /faq
+   /learn-more
+   /release-notes
+   /submit-feedback
