@@ -124,7 +124,7 @@ Select your operating system:
       .. note::
 
          Alternatively, you can download |compass-short| from the
-         {+download-page+}.
+         MongoDB {+download-page+}.
 
       .. tabs::
          :hidden:
