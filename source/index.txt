@@ -64,8 +64,8 @@ Available |compass-short| Editions
        server to which |compass-short| connects. This edition is
        designed for highly secure environments.
        
-       Isolated edition can perform DNS alias lookups and leverage A
-       Records.
+       Isolated edition can perform DNS alias queries, such as looking
+       up A or SRV Records.
 
        Isolated edition does not:
 
