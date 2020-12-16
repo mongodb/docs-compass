@@ -224,6 +224,15 @@ content: |
                  :manual:`X.509 </core/security-x.509/>` as its
                  authentication mechanism. 
 
+                 If selected, you may optionally provide the 
+                 :guilabel:`Username` to authenticate the user.
+                 
+                 .. note::
+
+                    |compass-short| retrieves the username
+                    from the X.509 certificate. In most most cases, you 
+                    do not need to provide the :guilabel:`Username`.
+
      * - :guilabel:`Favorite Name`
        - *Optional*. A name for the connection. To save the current
          connection entered as a
