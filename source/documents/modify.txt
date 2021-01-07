@@ -6,10 +6,12 @@ Modify Documents
 
 .. default-domain:: mongodb
 
-You can edit existing documents in your collection. When you edit
-a document, |compass-short| performs a
-:manual:`findOneAndUpdate </reference/method/db.collection.findOneAndUpdate/>`
-operation to update the document.
+You can edit existing documents in your collection.
+
+.. include:: /includes/fact-modify-findOneAndUpdate.rst
+
+.. include:: /includes/fact-modify-findOneAndReplace.rst
+
 
 Limitations
 -----------
@@ -98,11 +100,9 @@ documents in List, JSON, or Table view:
          :figwidth: 740px
          :alt: Document Update View
 
-      If you attempt to change fields in a document that was modified outside
-      of |compass-short|, |compass-short| detects this and notifies you, preventing
-      you from accidentally overwriting the changes made outside of |compass-short|.
-      You can choose to proceed and click :guilabel:`Update` to
-      overwrite the document, or cancel the changes you've made.
+      .. include:: /includes/fact-modify-findOneAndUpdate.rst
+
+      .. include:: /includes/fact-modify-prevent-overwrites.rst
 
       Save Changes
       ~~~~~~~~~~~~
@@ -149,8 +149,9 @@ documents in List, JSON, or Table view:
          :figwidth: 696px
          :alt: Expand embedded objects in JSON view
 
-      In the JSON view, when you change any of the document's fields,
-      |compass-short| replaces it with a new document.
+      .. include:: /includes/fact-modify-findOneAndReplace.rst
+
+      .. include:: /includes/fact-modify-prevent-overwrites.rst
 
    .. tab:: Table View
       :tabid: table-view
@@ -168,12 +169,9 @@ documents in List, JSON, or Table view:
          :figwidth: 696px
          :alt: Document Edit Mode in Table View
 
-      In the table view, |compass-short| updates only those fields that you
-      have changed. If |compass-short| detects that you have changed fields
-      that were modified outside of |compass-short|, it notifies you, preventing
-      you from accidentally overwriting the changes made outside of |compass-short|.
-      You can choose to proceed and replace the document by clicking :guilabel:`Update`,
-      or cancel your changes. 
+      .. include:: /includes/fact-modify-findOneAndUpdate.rst
+      
+      .. include:: /includes/fact-modify-prevent-overwrites.rst
 
       Delete Fields
       ~~~~~~~~~~~~~
