@@ -8,7 +8,8 @@ toc_landing_pages = ["/install", "/connect", "/instance", "/query/filter", "/que
 
 [constants]
 download-page = "`downloads page <https://www.mongodb.com/download-center/compass?tck=docs_compass>`__"
-current-version = "1.24.0-beta.2"
+current-version = "1.25.0-beta.1"
+current-version-deb = "1.25.0~beta.1"
 
 
 [substitutions]
