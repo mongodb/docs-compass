@@ -135,14 +135,14 @@ Select your operating system:
 
                .. code-block:: shell
 
-                  wget https://downloads.mongodb.com/compass/mongodb-compass_{+current-version+}_amd64.deb
+                  wget https://downloads.mongodb.com/compass/beta/mongodb-compass-beta_{+current-version-deb+}_amd64.deb
                
 
             #. Install |compass|
 
                .. code-block:: shell
 
-                  sudo dpkg -i mongodb-compass_{+current-version+}_amd64.deb
+                  sudo dpkg -i mongodb-compass_{+current-version-deb+}_amd64.deb
 
             #. Start |compass|
 
@@ -157,14 +157,14 @@ Select your operating system:
 
                .. code-block:: shell
 
-                  wget https://downloads.mongodb.com/compass/mongodb-compass-{+current-version+}.x86_64.rpm
+                  wget https://downloads.mongodb.com/compass/beta/mongodb-compass-beta-{+current-version+}.x86_64.rpm
                
 
             #. Install |compass|
 
                .. code-block:: shell
 
-                  sudo yum install mongodb-compass-1.22.1.x86_64.rpm
+                  sudo yum install mongodb-compass-{+current-version+}.x86_64.rpm
 
             #. Start |compass|
 
