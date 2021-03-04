@@ -36,6 +36,9 @@ Select your operating system:
          - 64-bit version of Microsoft Windows 7 or later.
          - MongoDB 3.6 or later.
          - `Microsoft .NET Framework version 4.5 or later <https://www.microsoft.com/en-us/download/details.aspx?id=30653>`__.
+         - Starting the installation as an administrator in your Azure
+           Virtual Desktop Infrastructure (VDI) or on your machine in Microsoft
+           PowerShell.
 
            The |compass-short| installer prompts you to install the
            minimum required version of the .NET framework if it is not
@@ -218,7 +221,10 @@ Select your operating system:
       Install Compass
       ---------------
 
-      1. Double-click the installer file.
+      1. Ensure that you are running PowerShell or your Azure desktop as
+         an administrator.
+         
+      #. Double-click the installer file.
 
       #. Follow the prompts to install |compass-short|. You can
          select the destination of the |compass-short| installation.
