@@ -41,8 +41,9 @@ Select your operating system:
            minimum required version of the .NET framework if it is not
            already installed on your system.
 
-         - Starting the installation as an administrator if you are installing using
-           Azure Virtual Desktop Infrastructure (VDI) or Microsoft PowerShell.
+         - Starting the installation as an administrator if you are running a silent
+           installation using Microsoft PowerShell or installing on
+           Azure Virtual Desktop Infrastructure (VDI).
 
      - id: linux
        content: |
