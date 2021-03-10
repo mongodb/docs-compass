@@ -230,24 +230,11 @@ content: |
 
                  .. note::
 
-                    If you are using 
-                    :atlas:`Atlas-managed certificates </security-add-mongodb-users/#select-an-authentication-method>`
-                    , your username must be prefaced by "CN="
-                    per :rfc:`2253`. For example, the username 
-                    "X509User" must be provided as "CN=X509User".
-
-     * - :guilabel:`Favorite Name`
-       - *Optional*. A name for the connection. To save the current
-         connection entered as a
-         :ref:`favorite connection <favorite-connections>`, enter a name
-         in the input and click :guilabel:`Create Favorite`.
-
-         .. tip::
-
-            Although you can save multiple connections with the
-            same :guilabel:`Favorite Name`, it is recommended to
-            use unique names for each connection to easily find
-            your saved connections.
+                    If you are using :atlas:`Atlas-managed certificates
+                    </security-add-mongodb-users/#select-an-authentication-method>`,
+                    your username must be prefaced by "CN=" per
+                    :rfc:`2253`. For example, the username "X509User"
+                    must be provided as "CN=X509User".
 ---
 title: "(Optional) Specify replica set and security connection options."
 level: 4
