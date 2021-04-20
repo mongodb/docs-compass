@@ -123,24 +123,24 @@ Expand your knowledge of MongoDB by using Compass with other MongoDB products.
 
    .. card::
       :cta: Read Atlas docs
-      :url: https://docs.mongodb.com
-      :icon: /images/icon.png
+      :url: https://docs.atlas.mongodb.com/getting-started/
+      :icon: /images/icons/atlas.svg
       :icon-alt: MongoDB Atlas icon
 
       Use Compass to connect to your Atlas cluster
 
    .. card::
       :cta: Learn MongoDB Basics
-      :url: https://docs.mongodb.com
-      :icon: /images/icon.png
+      :url: https://university.mongodb.com/courses/M001/about
+      :icon: /images/icons/union.svg
       :icon-alt: MongoDB University icon
 
       Learn MongoDB Basics with MongoDB University
 
    .. card::
       :cta: Read Server docs
-      :url: https://docs.mongodb.com
-      :icon: /images/icon.png
+      :url: https://docs.mongodb.com/manual/tutorial/getting-started/
+      :icon: /images/icons/server.svg
       :icon-alt: MongoDB Server icon
 
       Access more in-depth examples of querying data
