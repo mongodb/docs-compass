@@ -132,7 +132,7 @@ Expand your knowledge of MongoDB by using Compass with other MongoDB products.
    .. card::
       :cta: Learn MongoDB Basics
       :url: https://university.mongodb.com/courses/M001/about
-      :icon: /images/icons/union.svg
+      :icon: /images/icons/university.svg
       :icon-alt: MongoDB University icon
 
       Learn MongoDB Basics with MongoDB University
