@@ -19,7 +19,7 @@ What is MongoDB Compass?
 
 .. image:: /images/hero.png
    :class: right-column
-   :alt: Alternate captioning
+   :alt: Homepage hero image
 
 .. kicker:: What You Can Do
 
@@ -48,7 +48,7 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Import and Export Data<compass-import-export>`
 
       .. image:: /images/import-your-data.png
-         :alt: Alternate captioning
+         :alt: MongoDB Compass import image
 
    .. tab:: Query your data
       :tabid: query
@@ -68,7 +68,7 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Query Your Data<query-bar-filter>`
 
       .. image:: /images/query-your-data.png
-         :alt: Alternate captioning
+         :alt: MongoDB Compass collection query image
 
    .. tab:: Create aggregation pipelines
       :tabid: create
@@ -88,7 +88,7 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Aggregation Pipeline Builder<compass-agg-builder>`
 
       .. image:: /images/create-aggregation-pipelines.png
-         :alt: Alternate captioning
+         :alt: MongoDB Compass aggregation pipeline image
 
    .. tab:: Run commands in the shell
       :tabid: run
@@ -108,7 +108,7 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Embedded MongoDB Shell<embedded-mongodb-shell>`
 
       .. image:: /images/run-commands-in-the-shell.png
-         :alt: Alternate captioning
+         :alt: MongoDB Compass embedded shell image
 
 .. kicker:: Related Products & Resources
 
