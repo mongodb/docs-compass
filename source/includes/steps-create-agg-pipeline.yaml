@@ -17,9 +17,8 @@ level: 4
 ref: fill-in-stage
 content: |
    Fill in your selected stage. If you enable :guilabel:`Auto Preview`,
-   then as you change the pipeline stage, preview documents
-   update automatically to the right of the stage to reflect
-   the results of your pipeline as it progresses. You can adjust
+   preview documents update automatically to the right of the stage to
+   reflect the results of your pipeline as it progresses. You can adjust
    the width of the pipeline stage by dragging its border to the right.
 
    .. figure:: /images/compass/agg-builder-match-stage.png
