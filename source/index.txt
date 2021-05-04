@@ -18,7 +18,6 @@ What is MongoDB Compass?
    :doc:`View installation instructions <install>`
 
 .. image:: /images/hero.png
-   :class: right-column
    :alt: Homepage hero image
 
 .. kicker:: What You Can Do
