@@ -39,8 +39,12 @@ information for each collection in the selected database:
   .. note::
 
     |compass-short| bases the document count that appears on the 
-    :guilabel:`Collections` screen on metadata. This count might differ 
-    from the actual document count in the collection.
+    :guilabel:`Collections` screen on cached metadata. This count might 
+    differ from the actual document count in the collection. For 
+    example, an :manual:`unexpected shutdown </reference/method/db.collection.count/#accuracy-after-unexpected-shutdown>` can throw 
+    off the count. Use the :manual:`db.collection.countDocuments() 
+    </reference/method/db.collection.countDocuments/>` method for the 
+    most accurate document count.
 
 - Average size of documents in the collection
 - Total size of all documents in the collection
