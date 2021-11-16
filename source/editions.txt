@@ -61,7 +61,7 @@ suit your needs.
      - 
      - |checkmark|
 
-   * - Error collection and crash reporting
+   * - Error and usage data collection and automatic updates
      - |checkmark|
      - |checkmark|
      -
