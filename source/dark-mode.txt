@@ -21,6 +21,8 @@ theme:
   .. figure:: /images/compass/compass-dark-mode-macos.png
      :figwidth: 550px
      :alt: Enable dark mode on macOS
+  
+  |
 
 - On Windows or Linux, in the :guilabel:`View` system menu, modify the
   :guilabel:`Theme` setting.
