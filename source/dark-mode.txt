@@ -17,8 +17,6 @@ theme:
 
 - On macOS, in the :guilabel:`MongoDB Compass` system menu, modify the
   :guilabel:`Theme` setting.
-  
-  |
 
   .. figure:: /images/compass/compass-dark-mode-macos.png
      :figwidth: 550px
@@ -26,8 +24,6 @@ theme:
 
 - On Windows or Linux, in the :guilabel:`View` system menu, modify the
   :guilabel:`Theme` setting.
-
-  |
 
   .. figure:: /images/compass/compass-dark-mode-windows.png
      :figwidth: 550px
