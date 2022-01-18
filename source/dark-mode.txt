@@ -1,0 +1,30 @@
+.. _dark-mode:
+
+================
+Enable Dark Mode
+================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+You can configure |compass| to use a dark theme. To choose your
+theme:
+
+- On macOS, in the :guilabel:`MongoDB Compass` system menu, modify the
+  :guilabel:`Theme` setting.
+
+  .. figure:: /images/compass/compass-dark-mode-macos.png
+     :figwidth: 550px
+     :alt: Enable dark mode on macOS
+
+- On Windows or Linux, in the :guilabel:`View` system menu, modify the
+  :guilabel:`Theme` setting.
+
+  .. figure:: /images/compass/compass-dark-mode-windows.png
+     :figwidth: 550px
+     :alt: Enable dark mode on Windows
