@@ -12,11 +12,11 @@ Enable Dark Mode
    :depth: 1
    :class: singlecol
 
-You can configure |compass| to use a dark theme. To choose your
-theme:
+You can configure |compass| to use a dark theme. To choose your theme,
+modify the :guilabel:`Theme` setting.
 
-- On macOS, in the :guilabel:`MongoDB Compass` system menu, modify the
-  :guilabel:`Theme` setting.
+- On macOS the :guilabel:`Theme` setting is in the :guilabel:`MongoDB
+  Compass` system menu:
 
   .. figure:: /images/compass/compass-dark-mode-macos.png
      :figwidth: 550px
@@ -24,8 +24,8 @@ theme:
   
   |
 
-- On Windows or Linux, in the :guilabel:`View` system menu, modify the
-  :guilabel:`Theme` setting.
+- On Windows and Linux, the :guilabel:`Theme` setting is in the
+  :guilabel:`View` menu:
 
   .. figure:: /images/compass/compass-dark-mode-windows.png
      :figwidth: 550px
