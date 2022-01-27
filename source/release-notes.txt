@@ -15,7 +15,8 @@ Release Notes
 
 Bug Fixes:
 
-- 
+- Does not automatically set ``directConnection = true``. User must explicitly
+  declare ``directConnection = true``. 
 
 
 |compass| 1.30.1
