@@ -10,6 +10,14 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.31.0
+----------------
+
+Bug Fixes:
+
+- 
+
+
 |compass| 1.30.1
 ----------------
 
