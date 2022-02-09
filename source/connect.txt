@@ -80,7 +80,7 @@ on GitHub.
 .. include:: /includes/steps/starting-compass-paste-string.rst
 
 Advanced Connection Options
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 The Advanced Connection Options provide additonal forms of connecting
 |compass-short| deployments.  

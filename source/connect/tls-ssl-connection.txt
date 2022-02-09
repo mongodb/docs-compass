@@ -1,7 +1,7 @@
 .. _tls-ssl-tab:
 
 ==================
-TLS/SSL Connedtion
+TLS/SSL Connection
 ==================
 
 .. default-domain:: mongodb
