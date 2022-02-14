@@ -58,9 +58,9 @@ You can connect your deployments by either:
 - Providing your connection string.
 
 - Specifying :guilabel:`Advanced Connection Options`. 
-   Advanced connection options allow you to specify authentication, 
-   TLS/SSL, and SSH connection options. To learn more, see 
-   :ref:`<advanced-connection-options>`.
+  Advanced connection options allow you to specify authentication, 
+  TLS/SSL, and SSH connection options. To learn more, see 
+  :ref:`<advanced-connection-options>`.
 
 Paste Connection String
 ~~~~~~~~~~~~~~~~~~~~~~~
