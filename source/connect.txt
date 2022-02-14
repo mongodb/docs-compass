@@ -53,9 +53,15 @@ When you open |compass-short|, an initial connection dialog appears:
    :figwidth: 690px
    :alt: New connection dialog for pasting your connection string
 
-|compass-short| provides multiple methods to connect to your deployment,
-either providing your deployment connection string or through Advanced 
-Connection Options. 
+You can connect your deployments by either:
+
+- Providing your connection string.
+
+- Specifying :guilabel:`Advanced Connection Options`. 
+
+Advanced connection options allow you to specify authentication, 
+TLS/SSL, and SSH connection options. To learn more, see 
+:ref:`<advanced-connection-options>`.
 
 Paste Connection String
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -71,13 +77,15 @@ value is 60000, or 60 seconds. If you are frequently experiencing
 timeouts in |compass-short|, consider setting this option to a
 higher value in your connection string.
 
-For a complete list of the connection string options which
+For a complete list of the connection string options that 
 |compass-short| supports, see the
 `Compass Connection README
 <https://github.com/mongodb-js/connection-model/blob/master/README.md#properties>`__
 on GitHub.
 
 .. include:: /includes/steps/starting-compass-paste-string.rst
+
+.. _advanced-connection-options:
 
 Advanced Connection Options
 ---------------------------
@@ -86,7 +94,7 @@ The Advanced Connection Options provide additonal forms of connecting
 |compass-short| deployments.  
 
 :doc:`/connect/general-connection`
-  Learn how to select a schema for your deployment. 
+  Learn how to select a Connection String Scheme for your deployment. 
 
 :doc:`/connect/authentication-connection`
   Learn how to connect deployments that require authentication.
