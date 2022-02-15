@@ -6,18 +6,11 @@ Disconnect Connection
 
 .. default-domain:: mongodb
 
-.. contents:: On this page
-   :local:
-   :backlinks: none
-   :depth: 1
-   :class: singlecol
-
-Disconnecting from a MongoDB instance closes the Compass connection to
-the active instance and returns the Compass view to the initial
+Disconnecting from a MongoDB deployment closes the Compass connection to
+the active deployment and returns the Compass view to the initial
 connection dialog.
 
-Disconnect Procedure
---------------------
+To disconnect from a MongoDB deployment: 
 
 .. include:: /includes/steps/disconnect-compass.rst
 
