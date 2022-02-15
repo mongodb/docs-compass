@@ -11,3 +11,13 @@ Disconnect Connection
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+Disconnecting from a MongoDB instance closes the Compass connection to
+the active instance and returns the Compass view to the initial
+connection dialog.
+
+.. include:: /includes/steps/disconnect-compass.rst
+
+.. seealso::
+
+   To create a new connection, see :ref:`connect-run-compass`. 
