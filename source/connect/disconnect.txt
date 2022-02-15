@@ -19,7 +19,7 @@ connection dialog.
 Disconnect Procedure
 --------------------
 
-.. include:: /includes/steps/starting-compass-individual-fields.rst
+.. include:: /includes/steps/disconnect-compass.rst
 
 .. seealso::
 
