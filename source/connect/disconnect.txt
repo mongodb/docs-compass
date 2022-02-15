@@ -16,7 +16,15 @@ Disconnecting from a MongoDB instance closes the Compass connection to
 the active instance and returns the Compass view to the initial
 connection dialog.
 
-.. include:: /includes/steps/disconnect-compass.rst
+.. procedure::
+
+   .. step:: Click :guilabel:`Connect` in the menu bar.
+
+   .. step:: Select :guilabel:`Disconnect` from the dropdown menu.
+
+      .. figure:: /images/compass/disconnect.png
+         :figwidth: 500px
+         :alt: Disconnect menu item
 
 .. seealso::
 
