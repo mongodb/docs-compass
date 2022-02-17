@@ -13,23 +13,23 @@
    :class: singlecol
 
 Starting in version 1.22, |compass| contains an embedded shell,
-:binary:`~bin.mongosh`. :binary:`~bin.mongosh` is a fully functional
+:binary:`mongosh`. :binary:`mongosh` is a fully functional
 JavaScript environment for interacting with MongoDB deployments. You
-can use :binary:`~bin.mongosh` to test queries and operations directly
+can use :binary:`mongosh` to test queries and operations directly
 with your database.
 
 Open the Embedded ``mongosh``
 -----------------------------
 
-To open the embedded :binary:`~bin.mongosh`, click :guilabel:`_MONGOSH`
+To open the embedded :binary:`mongosh`, click :guilabel:`_MONGOSH`
 along the bottom of |compass|.
 
 Use the Embedded ``mongosh``
 ----------------------------
 
-By default, :binary:`~bin.mongosh`, connects to the ``test`` database.
+By default, :binary:`mongosh`, connects to the ``test`` database.
 To switch to a different database, run the following command in
-:binary:`~bin.mongosh`:
+:binary:`mongosh`:
 
 .. code-block:: sh
 
