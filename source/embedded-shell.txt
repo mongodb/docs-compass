@@ -1,8 +1,8 @@
 .. _embedded-mongodb-shell:
 
-=======================================
-``mongosh``, the Embedded MongoDB Shell
-=======================================
+======================
+Embedded MongoDB Shell
+======================
 
 .. default-domain:: mongodb
 
@@ -22,7 +22,7 @@ Open the Embedded ``mongosh``
 -----------------------------
 
 To open the embedded :binary:`mongosh`, click :guilabel:`_MONGOSH`
-along the bottom of |compass|.
+at the bottom of the |compass| window.
 
 Use the Embedded ``mongosh``
 ----------------------------
@@ -38,15 +38,13 @@ To switch to a different database, run the following command in
 To run an operation in the embedded MongoDB Shell, type the operation
 into the shell and press :guilabel:`Enter`.
 
+The following example runs a :method:`db.collection.find()` operation:
+
 .. example::
 
    .. code-block:: sh
 
       db.employees.find( { "last_name": "Smith" } )
-
-   .. seealso::
-
-      :method:`db.collection.find()`
 
 Multi-Line Operations in the Embedded ``mongosh``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -58,6 +56,9 @@ To write an operation that spans multiple lines in the embedded
 When you are finished writing your operation, press :guilabel:`Enter`
 to run it.
 
+The following multi-line example runs the :pipeline:`$match` stage in
+an :ref:`aggregation pipeline <aggregation-pipeline>`: 
+
 .. example::
 
    .. code-block:: javascript
@@ -66,24 +67,20 @@ to run it.
         { $match: { "last_name": "Smith" } } // press Shift + Enter
       ] )                                    // Press Enter
 
-   .. seealso::
-
-      :pipeline:`$match`
-
 Learn More
 ~~~~~~~~~~
 
 The following links direct to the
-:ref:`MongoDB Shell Documentation <mdb-shell-overview>`, which contains
-more a complete reference for the MongoDB Shell, including syntax and
+:ref:`mongosh documentation <mdb-shell-overview>`, which contains
+more a complete reference for :binary:`mongosh`, including syntax and
 behaviors.
 
-- Learn how to :ref:`Perform CRUD Operations in the MongoDB Shell
-  <mdb-shell-crud>`.
+- Learn how to :ref:`perform CRUD operations <mdb-shell-crud>` in
+  :binary:`mongosh`.
 
-- Learn how to :ref:`Run Aggregation Pipelines in the MongoDB Shell
-  <mdb-shell-aggregation>`.
+- Learn how to :ref:`run aggregation pipelines <mdb-shell-aggregation>`
+   in :binary:`mongosh`.
 
-- See a complete list of :ref:`Available MongoDB Shell Methods
+- See a complete list of :binary:`mongosh` :ref:`methods
   <mdb-shell-methods>`.
 
