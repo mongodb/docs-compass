@@ -79,7 +79,7 @@ behaviors.
   :binary:`mongosh`.
 
 - Learn how to :ref:`run aggregation pipelines <mdb-shell-aggregation>`
-   in :binary:`mongosh`.
+  in :binary:`mongosh`.
 
 - See a complete list of :binary:`mongosh` :ref:`methods
   <mdb-shell-methods>`.
