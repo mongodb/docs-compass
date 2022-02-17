@@ -13,22 +13,21 @@ Embedded MongoDB Shell
    :class: singlecol
 
 Starting in version 1.22, |compass| contains an embedded shell,
-:binary:`mongosh`. :binary:`mongosh` is a fully functional
-JavaScript environment for interacting with MongoDB deployments. You
-can use :binary:`mongosh` to test queries and operations directly
-with your database.
+:binary:`mongosh`. :binary:`mongosh` is a JavaScript environment for
+interacting with MongoDB deployments. You can use :binary:`mongosh`
+to test queries and operations in your database.
 
-Open the Embedded ``mongosh``
------------------------------
+Open the Embedded MongoDB Shell
+-------------------------------
 
 To open the embedded :binary:`mongosh`, click :guilabel:`_MONGOSH`
 at the bottom of the |compass| window.
 
-Use the Embedded ``mongosh``
-----------------------------
+Use the Embedded MongoDB Shell
+------------------------------
 
 By default, :binary:`mongosh`, connects to the ``test`` database.
-To switch to a different database, run the following command in
+To use a different database, run the following command in
 :binary:`mongosh`:
 
 .. code-block:: sh
@@ -46,7 +45,7 @@ The following example runs a :method:`db.collection.find()` operation:
 
       db.employees.find( { "last_name": "Smith" } )
 
-Multi-Line Operations in the Embedded ``mongosh``
+Multi-Line Operations in the Embedded MongoDB Shell
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To write an operation that spans multiple lines in the embedded
