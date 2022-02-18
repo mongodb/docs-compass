@@ -19,3 +19,7 @@ Connecting
 ----------
 
 .. include:: /includes/steps/general-connection-tab.rst
+
+.. seealso::
+
+   To disconnect your deployment, see :ref:`<disconnect-tab>`. 
