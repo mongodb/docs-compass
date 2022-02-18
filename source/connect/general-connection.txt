@@ -12,9 +12,8 @@ General Connection
    :depth: 1
    :class: singlecol
 
-The General Connection tab of the Compass Advanced Connection Options allows 
-you to select a Connection String Scheme, enter your Hostname, and 
-to choose to make your connection a Direct Connection.
+The :guilabel:`General` connection tab allows you to select a 
+:guilabel:`Connection String Scheme` for your |compass-short| deployment. 
 
 Connecting
 ----------
