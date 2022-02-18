@@ -36,17 +36,17 @@ Connecting
             You can select from the following two options:
 
             .. list-table::
-                :header-rows: 1
-                :class: border-table
+               :header-rows: 1
+               :class: border-table
 
-                * - mongodb
-                  - :manual:`Standard Connection String Format 
-                    </reference/connection-string/>`. The standard format of the MongoDB 
-                    connection URI is used to connect to a MongoDB deployment: standalone, 
-                    replica set, or a sharded cluster.
+               * - mongodb
+                 - :manual:`Standard Connection String Format </reference/connection-string/>`. 
+                   The standard format of the MongoDB connection URI is used to 
+                   connect to a MongoDB deployment: standalone, replica set, or a sharded 
+                   cluster. 
 
-                * - mongodb+srv 
-                  - DNS Seed List Connection Format. The +srv indicates to the client that 
+               * - mongodb+srv 
+                 - DNS Seed List Connection Format. The +srv indicates to the client that 
                     the hostname that follows corresponds to a 
                     :manual:`DNS SRV record </reference/connection-string/>`.
 
