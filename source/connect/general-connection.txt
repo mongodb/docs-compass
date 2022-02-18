@@ -29,7 +29,7 @@ Connecting
 
    .. step:: Select :guilabel:`General`.
 
-      .. step:: Select a Connection String Scheme.
+      1. Select a Connection String Scheme.
 
          You can select from the following two options:
 
@@ -51,7 +51,7 @@ Connecting
                 the hostname that follows corresponds to a 
                 :manual:`DNS SRV record </reference/connection-string/>`.
 
-      .. step:: Enter a Hostname.
+      #. Enter a Hostname.
 
          Hostname of the machine where the deployment is running.
 
@@ -62,7 +62,7 @@ Connecting
          If you are not sure of your hostname, contact your Database 
          Administrator for information.
 
-      .. step:: Enable Direct Connection. 
+      #. Enable Direct Connection. 
 
          When you use the ``mongodb`` Connection String Scheme, you have the 
          option to enable a :guilabel:`Direct Connection`. This specifies 
@@ -70,6 +70,7 @@ Connecting
 
    .. step:: See the :ref:`Advanced <advanced-connection-tab>` tab.
 
-      You can provide additional connection configurations. 
+      You can provide additional connection configurations under the 
+      :ref:`Advanced <advanced-connection-tab>` tab. 
 
    .. step:: Click :guilabel:`Connect`.
