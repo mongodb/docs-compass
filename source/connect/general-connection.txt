@@ -12,8 +12,8 @@ General Connection
    :depth: 1
    :class: singlecol
 
-The General Connection tab of the Advanced Connection Options allows you 
-to select a Connection String Scheme, enter your Hostname, and 
+The General Connection tab of the Compass Advanced Connection Options allows 
+you to select a Connection String Scheme, enter your Hostname, and 
 to choose to make your connection a Direct Connection.
 
 Connecting
@@ -38,6 +38,9 @@ Connecting
             .. list-table::
                :header-rows: 1
                :class: border-table
+
+               * - Connection String Scheme
+                 - Definition
 
                * - mongodb
                  - :manual:`Standard Connection String Format </reference/connection-string/>`. 
@@ -67,7 +70,8 @@ Connecting
             option to enable a :guilabel:`Direct Connection`. This specifies 
             whether to force dispatch all operations to the specified host.
 
-   .. step:: For additional connection configurations, see the 
-             :ref:`Advanced <advanced-connection-tab>` tab. 
+   .. step:: See the :ref:`Advanced <advanced-connection-tab>` tab.
+
+      You can provide additional connection configurations. 
 
    .. step:: Click :guilabel:`Connect`.
