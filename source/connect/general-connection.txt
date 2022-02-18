@@ -29,46 +29,44 @@ Connecting
 
    .. step:: Select :guilabel:`General`.
 
-      .. procedure::
+      .. step:: Select a Connection String Scheme.
 
-         .. step:: Select a Connection String Scheme.
+         You can select from the following two options:
 
-            You can select from the following two options:
+         .. list-table::
+            :header-rows: 1
+            :class: border-table
 
-            .. list-table::
-               :header-rows: 1
-               :class: border-table
+            * - Connection String Scheme
+              - Definition
 
-               * - Connection String Scheme
-                 - Definition
+            * - mongodb
+              - :manual:`Standard Connection String Format </reference/connection-string/>`. 
+                The standard format of the MongoDB connection URI is used to 
+                connect to a MongoDB deployment: standalone, replica set, or a sharded 
+                cluster. 
 
-               * - mongodb
-                 - :manual:`Standard Connection String Format </reference/connection-string/>`. 
-                   The standard format of the MongoDB connection URI is used to 
-                   connect to a MongoDB deployment: standalone, replica set, or a sharded 
-                   cluster. 
+            * - mongodb+srv 
+              - DNS Seed List Connection Format. The +srv indicates to the client that 
+                the hostname that follows corresponds to a 
+                :manual:`DNS SRV record </reference/connection-string/>`.
 
-               * - mongodb+srv 
-                 - DNS Seed List Connection Format. The +srv indicates to the client that 
-                    the hostname that follows corresponds to a 
-                    :manual:`DNS SRV record </reference/connection-string/>`.
+      .. step:: Enter a Hostname.
 
-         .. step:: Enter a Hostname.
+         Hostname of the machine where the deployment is running.
 
-            Hostname of the machine where the deployment is running.
+         If you are running your deployment locally, this value is localhost. 
+         If you are connecting to an Atlas cluster, you can get your hostname 
+         from your cluster detail view in Atlas.
 
-            If you are running your deployment locally, this value is localhost. 
-            If you are connecting to an Atlas cluster, you can get your hostname 
-            from your cluster detail view in Atlas.
+         If you are not sure of your hostname, contact your Database 
+         Administrator for information.
 
-            If you are not sure of your hostname, contact your Database 
-            Administrator for information.
+      .. step:: Enable Direct Connection. 
 
-         .. step:: Enable Direct Connection. 
-
-            When you use the ``mongodb`` Connection String Scheme, you have the 
-            option to enable a :guilabel:`Direct Connection`. This specifies 
-            whether to force dispatch all operations to the specified host.
+         When you use the ``mongodb`` Connection String Scheme, you have the 
+         option to enable a :guilabel:`Direct Connection`. This specifies 
+         whether to force dispatch all operations to the specified host.
 
    .. step:: See the :ref:`Advanced <advanced-connection-tab>` tab.
 
