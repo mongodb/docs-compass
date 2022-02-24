@@ -50,9 +50,10 @@ Procedure
                    cluster. 
 
                * - mongodb+srv 
-                 - :manual:`DNS Seed List Connection Format </reference/>`. The ``+srv`` 
-                   indicates to |compass| that the hostname that follows corresponds to a 
-                   :manual:`DNS SRV record </reference/connection-string/>`.
+                 - :manual:`DNS Seed List Connection Format 
+                   </reference/connection-string/#dns-seed-list-connection-format>`. 
+                   The ``+srv`` indicates to |compass| that the hostname that follows 
+                   corresponds to a DNS SRV record.
 
          .. step:: Enter a Hostname.
 
@@ -60,10 +61,9 @@ Procedure
             deployment is running.
 
             If you are running your deployment locally, this value is ``localhost``. 
-            If you are connecting to an Atlas cluster, you can get your hostname 
-            from your :atlas:`database deployment detail view 
-            </tutorial/view-all-database-deployments/#view-database-deployment-details>` 
-            in Atlas.
+            If you are connecting to an Atlas cluster, see 
+            :atlas:`</connect-to-database-deployment>` for Atlas specific guidance 
+            on how to connect to |compass-short|.
 
             If you are not sure of your hostname, contact your Database 
             Administrator for information.
@@ -73,11 +73,13 @@ Procedure
             When you use the ``mongodb`` Connection String Scheme, you have the 
             option to enable a :driver:`Direct Connection 
             </node/current/fundamentals/connection/#direct-connection>`. When you 
-            enable this setting, Compass runs all operations on the specified host.
+            enable this setting, |compass-short| runs all operations on the specified 
+            host.
 
-            When you specify ``directConnection`` and connect to a secondary member 
-            of a replica set, your write operations fail because it is not the 
-            primary member.
+            .. important::
+               When you specify ``directConnection`` and connect to a secondary member 
+               of a replica set, your write operations fail because it is not the 
+               primary member.
 
    .. step:: For more configuration options, see the 
       :ref:`Advanced <advanced-connection-tab>` tab.
