@@ -15,11 +15,40 @@ General Connection
 The :guilabel:`General` connection tab allows you to select a 
 :guilabel:`Connection String Scheme` for your |compass-short| deployment. 
 
-Connecting
-----------
+Procedure
+---------
 
 .. include:: /includes/steps/general-connection-tab.rst
 
 .. seealso::
 
    To disconnect your deployment, see :ref:`<disconnect-tab>`. 
+
+.. procedure::
+   :style: normal
+
+   .. step:: Foo
+
+      Much foo
+
+      Oh, a banner!
+
+      .. cta-banner::
+         :url: https://www.google.com
+
+         This banner takes me to Google!
+
+      .. procedure::
+         :style: connected
+
+         .. step:: Connected
+
+            Connected
+
+         .. step:: Nested
+
+            Nested
+
+   .. step:: Bar
+
+      Much bar
