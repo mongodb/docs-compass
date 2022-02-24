@@ -18,37 +18,74 @@ The :guilabel:`General` connection tab allows you to select a
 Procedure
 ---------
 
-.. include:: /includes/steps/general-connection-tab.rst
-
-.. seealso::
-
-   To disconnect your deployment, see :ref:`<disconnect-tab>`. 
-
 .. procedure::
    :style: normal
 
-   .. step:: Foo
+   .. step:: Click :guilabel:`Advanced Connection Options`.
 
-      Much foo
+      .. figure:: /images/compass/advanced-connection-options.png
+         :figwidth: 690px
+         :alt: New Advanced Connection Options
 
-      Oh, a banner!
-
-      .. cta-banner::
-         :url: https://www.google.com
-
-         This banner takes me to Google!
+   .. step:: Click the :guilabel:`General` tab.
 
       .. procedure::
          :style: connected
 
-         .. step:: Connected
+         .. step:: Select a Connection String Scheme.
 
-            Connected
+            You can select one of the following options:
 
-         .. step:: Nested
+            .. list-table::
+               :header-rows: 1
+               :class: border-table
 
-            Nested
+               * - Connection String Scheme
+                 - Definition
 
-   .. step:: Bar
+               * - mongodb
+                 - :manual:`Standard Connection String Format </reference/connection-string/>`. 
+                   The standard format of the MongoDB connection URI is used to 
+                   connect to a MongoDB deployment: standalone, replica set, or a sharded 
+                   cluster. 
 
-      Much bar
+               * - mongodb+srv 
+                 - :manual:`DNS Seed List Connection Format </reference/>`. The ``+srv`` 
+                   indicates to |compass| that the hostname that follows corresponds to a 
+                   :manual:`DNS SRV record </reference/connection-string/>`.
+
+         .. step:: Enter a Hostname.
+
+            In the :guilabel:`Host` field, enter the hostname of the server where the 
+            deployment is running.
+
+            If you are running your deployment locally, this value is ``localhost``. 
+            If you are connecting to an Atlas cluster, you can get your hostname 
+            from your :atlas:`cluster detail view 
+            </tutorial/view-all-clusters/#view-cluster-details>` in Atlas.
+
+            If you are not sure of your hostname, contact your Database 
+            Administrator for information.
+
+         .. step:: Enable Direct Connection. 
+
+            When you use the ``mongodb`` Connection String Scheme, you have the 
+            option to enable a :driver:`Direct Connection 
+            </node/current/fundamentals/connection/#direct-connection>`. When you 
+            enable this setting, Compass runs all operations on the specified host.
+
+            When you specify directConnection and connect to a secondary member of 
+            a replica set, your write operations fail because it is not the primary 
+            member.
+
+   .. step:: For more configuration options, see the 
+             :ref:`Advanced <advanced-connection-tab>` tab.
+
+      You can specify additional connection configurations under the 
+      :ref:`Advanced <advanced-connection-tab>` tab.
+
+   .. step:: Click Connect.
+
+.. seealso::
+
+   To disconnect your deployment, see :ref:`<disconnect-tab>`. 
