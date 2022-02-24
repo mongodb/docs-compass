@@ -61,8 +61,9 @@ Procedure
 
             If you are running your deployment locally, this value is ``localhost``. 
             If you are connecting to an Atlas cluster, you can get your hostname 
-            from your :atlas:`cluster detail view 
-            </tutorial/view-all-clusters/#view-cluster-details>` in Atlas.
+            from your :atlas:`database deployment detail view 
+            </tutorial/view-all-database-deployments/#view-database-deployment-details>` 
+            in Atlas.
 
             If you are not sure of your hostname, contact your Database 
             Administrator for information.
@@ -74,12 +75,12 @@ Procedure
             </node/current/fundamentals/connection/#direct-connection>`. When you 
             enable this setting, Compass runs all operations on the specified host.
 
-            When you specify directConnection and connect to a secondary member of 
-            a replica set, your write operations fail because it is not the primary 
-            member.
+            When you specify ``directConnection`` and connect to a secondary member 
+            of a replica set, your write operations fail because it is not the 
+            primary member.
 
    .. step:: For more configuration options, see the 
-             :ref:`Advanced <advanced-connection-tab>` tab.
+      :ref:`Advanced <advanced-connection-tab>` tab.
 
       You can specify additional connection configurations under the 
       :ref:`Advanced <advanced-connection-tab>` tab.
