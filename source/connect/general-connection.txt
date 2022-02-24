@@ -62,8 +62,8 @@ Procedure
 
             If you are running your deployment locally, this value is ``localhost``. 
             If you are connecting to an Atlas cluster, see 
-            :atlas:`</connect-to-database-deployment/>` for Atlas specific guidance 
-            on how to connect to |compass-short|.
+            :atlas:`Connect to Database Deployment </connect-to-database-deployment/>` 
+            for Atlas specific guidance on how to connect to |compass-short|.
 
             If you are not sure of your hostname, contact your Database 
             Administrator for information.
