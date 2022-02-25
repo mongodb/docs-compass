@@ -63,7 +63,7 @@ Procedure
             If you are running your deployment locally, this value is ``localhost``. 
             If you are connecting to an Atlas cluster, see 
             :atlas:`Connect to Database Deployment </connect-to-database-deployment/>` 
-            for Atlas specific guidance on how to connect to |compass-short|.
+            for Atlas-specific guidance on how to connect to |compass-short|.
 
             If you are not sure of your hostname, contact your Database 
             Administrator for information.
@@ -81,11 +81,7 @@ Procedure
                of a replica set, your write operations fail because it is not the 
                primary member.
 
-   .. step:: For more configuration options, see the 
-      :ref:`Advanced <advanced-connection-tab>` tab.
-
-      You can specify additional connection configurations under the 
-      :ref:`Advanced <advanced-connection-tab>` tab.
+   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
    .. step:: Click Connect.
 
