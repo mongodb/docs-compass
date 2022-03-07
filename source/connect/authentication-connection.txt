@@ -41,92 +41,92 @@ Procedure
       
       - :ref:`AWS IAM <aws-iam-authentication>`
 
-   .. _username-password:
+      .. _username-password:
 
-   Username/Password 
-   ~~~~~~~~~~~~~~~~~
+      Username/Password 
+      ~~~~~~~~~~~~~~~~~
 
-   Provide the following information:
+      Provide the following information:
 
-   - Username
+      - Username
 
-   - Password
+      - Password
 
-   - (Optional) :manual:`Authentication Database </core/security-users/#authentication-database>`
+      - (Optional) :manual:`Authentication Database </core/security-users/#authentication-database>`
 
-   - Select an Authentication Mechancism:
+      - Select an Authentication Mechancism:
          
-     - Default
+        - Default
   
-       MongoDB uses :manual:`SCRAM </core/security-scram/>` as the default 
-       authentication mechanism.
+          MongoDB uses :manual:`SCRAM </core/security-scram/>` as the default 
+          authentication mechanism.
 
-     - :manual:`SCRAM-SHA-1 </core/security-scram/>`
+        - :manual:`SCRAM-SHA-1 </core/security-scram/>`
 
-     - :manual:`SCRAM-SHA-256 </core/security-scram/>`
+        - :manual:`SCRAM-SHA-256 </core/security-scram/>`
 
-   .. _x509:
+      .. _x509:
 
-   X.509
-   ~~~~~
+      X.509
+      ~~~~~
 
-   Select :guilabel:`X.509` if the deployment uses :manual:`X.509 
-   </core/security-x.509/>` as its authentication mechanism.
+      Select :guilabel:`X.509` if the deployment uses :manual:`X.509 
+      </core/security-x.509/>` as its authentication mechanism.
 
-   .. _kerberos-authentication:
+      .. _kerberos-authentication:
 
-   Kerberos
-   ~~~~~~~~
+      Kerberos
+      ~~~~~~~~
 
-   Select :guilabel:`Kerberos` if the deployment uses :manual:`Kerberos 
-   </core/kerberos/>` as its authentication mechanism. 
+      Select :guilabel:`Kerberos` if the deployment uses :manual:`Kerberos 
+      </core/kerberos/>` as its authentication mechanism. 
 
-   Provide the following information:
+      Provide the following information:
 
-   - :manual:`Principal </core/kerberos/#principals>`
-  
-   - Service Name
+      - :manual:`Principal </core/kerberos/#principals>`
 
-   - (Optional) Canonicalize Host Name
+      - Service Name
 
-     When you enable this setting, Kerberos uses the canonicalized form of 
-     the host name ``(cname)`` when constructing the principal for |compass|.
+      - (Optional) Canonicalize Host Name
 
-     For more information on principal name canonicalization in Kerberos, see 
-     this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
+        When you enable this setting, Kerberos uses the canonicalized form of 
+        the host name ``(cname)`` when constructing the principal for |compass|.
 
-   - Service Realm *waiting on tech clarification*
+        For more information on principal name canonicalization in Kerberos, see 
+        this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
+
+      - Service Realm *waiting on tech clarification*
       
-   .. _ldap-authentication:
+      .. _ldap-authentication:
 
-   LDAP
-   ~~~~
+      LDAP
+      ~~~~
 
-   Select :guilabel:`LDAP` if the deployment uses :manual:`LDAP 
-   </core/security-ldap-external/>` as its authentication mechanism. 
+      Select :guilabel:`LDAP` if the deployment uses :manual:`LDAP 
+      </core/security-ldap-external/>` as its authentication mechanism. 
 
-   Provide the following information:
+      Provide the following information:
 
-   - Username
+      - Username
 
-   - Password
+      - Password
 
-   .. _aws-iam-authentication:
+      .. _aws-iam-authentication:
 
-   AWS IAM  
-   ~~~~~~~
+      AWS IAM  
+      ~~~~~~~
 
-   Select :guilabel:`AWS IAM` if the deployment uses `AWS IAM 
-   <https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html>`__ as 
-   its authentication mechanism. 
+      Select :guilabel:`AWS IAM` if the deployment uses `AWS IAM 
+      <https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html>`__ as 
+      its authentication mechanism. 
       
-   Provide the following information:
+      Provide the following information:
 
-   - AWS Access Key Id
+      - AWS Access Key Id
       
-   - AWS Secret Key Access 
+      - AWS Secret Key Access 
 
-   - AWS Session Token
+      - AWS Session Token
 
 
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
