@@ -1,8 +1,8 @@
 .. _disconnect-tab:
 
-=====================
-Disconnect Connection
-=====================
+=======================
+Disconnect from MongoDB
+=======================
 
 .. default-domain:: mongodb
 
