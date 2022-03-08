@@ -13,9 +13,9 @@ Authentication Connection Tab
    :class: singlecol
 
 
-The :guilabel:`Authentication` tab allows you to connect deployments that 
+The :guilabel:`Authentication` tab allows you to connect to deployments that 
 require authentication. To learn about authentication mechanisms within MongoDB,
-see :driver:`Authentication Mechanisms </go/current/fundamentals/auth/>`
+see :manual:`Authentication Mechanisms </core/authentication/#authentication-mechanisms>`.
 
 Procedure
 ---------
@@ -33,7 +33,7 @@ Procedure
 
       Select your authentication method from the following options: 
       
-      - :ref:`Username/Password <username-password>`
+      - :ref:`Username / Password <username-password>`
       
       - :ref:`X.509 <x509>`
       
@@ -45,8 +45,8 @@ Procedure
 
       .. _username-password:
 
-      Username/Password 
-      ~~~~~~~~~~~~~~~~~
+      Username / Password 
+      ~~~~~~~~~~~~~~~~~~~
 
       Provide the following information:
 
@@ -56,7 +56,7 @@ Procedure
 
       - (Optional) :manual:`Authentication Database </core/security-users/#authentication-database>`
 
-      - Select an Authentication Mechancism:
+      - Authentication Mechancism:
          
         - Default
 
@@ -75,6 +75,12 @@ Procedure
       Select :guilabel:`X.509` if the deployment uses :manual:`X.509 
       </core/security-x.509/>` as its authentication mechanism.
 
+      .. note:: 
+
+         X.509 Authentication requires a client certificate. To enable 
+         TLS and add a client certificate, see the :ref:`TLS / SSL tab <tls-ssl-tab>`
+         in |compass-short|.
+
       .. _kerberos-authentication:
 
       Kerberos
@@ -85,14 +91,14 @@ Procedure
 
       Provide the following information:
 
-      - :manual:`Principal </core/kerberos/#principals>`
+      - Principal
 
       - Service Name
 
       - (Optional) Canonicalize Host Name
 
         When you enable this setting, Kerberos uses the canonicalized form of 
-        the host name ``(cname)`` when constructing the principal for |compass|
+        the host name ``(cname)`` when constructing the principal for |compass|.
 
         For more information on principal name canonicalization in Kerberos, see 
         this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
@@ -126,7 +132,7 @@ Procedure
 
       - AWS Access Key Id
       
-      - AWS Secret Key Access 
+      - AWS Secret Access Key 
 
       - AWS Session Token
 
