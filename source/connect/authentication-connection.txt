@@ -13,7 +13,8 @@ Authentication Connection
    :class: singlecol
 
 The :guilabel:`Authentication` tab allows you to connect deployments that 
-require authentication.
+require authentication. To learn about authentication mechanisms within MongoDB,
+see :driver:`Authentication Mechanisms </go/current/fundamentals/auth/>`
 
 Procedure
 ---------
@@ -57,9 +58,7 @@ Procedure
       - Select an Authentication Mechancism:
          
         - Default
-  
-          |
-          
+
           MongoDB uses :manual:`SCRAM </core/security-scram/>` as the default 
           authentication mechanism.
 
@@ -90,8 +89,6 @@ Procedure
       - Service Name
 
       - (Optional) Canonicalize Host Name
-
-        |
 
         When you enable this setting, Kerberos uses the canonicalized form of 
         the host name ``(cname)`` when constructing the principal for |compass|.
