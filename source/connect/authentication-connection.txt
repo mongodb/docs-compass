@@ -60,8 +60,11 @@ Procedure
          
         - Default
 
-          MongoDB uses :manual:`SCRAM </core/security-scram/>` as the default 
-          authentication mechanism.
+          The ``Default`` setting selects the first authentication mechanism 
+          supported by the server according to an order of preference. For 
+          more information on the order of preference, see :driver:`Default 
+          </node/current/fundamentals/authentication/mechanisms/#default>`
+
 
         - :manual:`SCRAM-SHA-1 </core/security-scram/>`
 
@@ -93,7 +96,7 @@ Procedure
 
       - Principal
 
-      - Service Name
+      - (Optional) Service Name
 
       - (Optional) Canonicalize Host Name
 
@@ -104,10 +107,30 @@ Procedure
 
         |
 
+        You have the following options:
+
+        .. list-table::
+           :header-rows: 1
+           :widths: 50, 50
+
+           * - Option
+             - Description 
+
+           * - Forward
+             - DNS lookup that uses domain name to find IP address.
+
+           * - Forward and Reverse
+             - *waiting on further tech clarification*
+
         For more information on principal name canonicalization in Kerberos, see 
         this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
 
-      - Service Realm *waiting on tech clarification*
+      - (Optional) Service Realm 
+  
+        The service realm is the domain over which a Kerberos authentication 
+        server has the authority to authenticate a user.
+  
+      - (Optional) Provide password directly
       
       .. _ldap-authentication:
 
@@ -134,12 +157,11 @@ Procedure
       
       Provide the following information:
 
-      - AWS Access Key Id
+      - (Optional) AWS Access Key Id
       
-      - AWS Secret Access Key 
+      - (Optional) AWS Secret Access Key 
 
-      - AWS Session Token
-
+      - (Optional) AWS Session Token
 
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
