@@ -13,6 +13,8 @@ TLS/SSL Connection Tab
    :class: singlecol
 
 The :guilabel:`TLS / SSL` tab allows you to connect deployments via TLS / SSL.
+For more information on :guilabel:`TLS / SSL`, see :manual:`TLS Options 
+</reference/connection-string/#tls-options>`
 
 Procedure
 ---------
@@ -49,7 +51,7 @@ Procedure
 
       The ``Default`` and ``On`` options allow you to specify the following:
 
-      .. .. list-table::
+      .. list-table::
          :header-rows: 1 
          :widths: 50 50
          
