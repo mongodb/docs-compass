@@ -60,14 +60,10 @@ Procedure
          
         - Default
 
-          |
-
           The ``Default`` setting selects the first authentication mechanism 
           supported by the server according to an order of preference. For 
           more information on the order of preference, see :driver:`Default 
           </node/current/fundamentals/authentication/mechanisms/#default>`
-
-          |
 
         - :manual:`SCRAM-SHA-1 </core/security-scram/>`
 
