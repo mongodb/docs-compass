@@ -11,3 +11,84 @@ TLS/SSL Connection Tab
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+The :guilabel:`TLS / SSL` tab allows you to connect deployments via TLS / SSL.
+
+Procedure
+---------
+
+.. procedure::
+   :style: normal
+
+   .. step:: Click :guilabel:`Advanced Connection Options`.
+
+      .. figure:: /images/compass/advanced-connection-options.png
+         :figwidth: 690px
+         :alt: New Advanced Connection Options
+
+   .. step:: Click the :guilabel:`TLS / SSL` tab.
+
+      You have the option to use a ``Default`` connection or to set the TLS / SSL 
+      connection ``On`` or ``Off``. 
+
+      Default
+      ~~~~~~~
+
+      The ``Default`` option does not use the ``TLS / SSL`` connection option. 
+      You can specify additional options when using ``Default``. 
+      
+      TLS / SSL
+      ~~~~~~~~~
+
+      The ``On`` option is enabled when using a :manual:`DNS seedlist (SRV) 
+      </reference/connection-string/#std-label-connections-dns-seedlist>` in 
+      the connection string. You can specify additional options when using 
+      ``On``.
+
+      |
+
+      The ``Default`` and ``On`` options allow you to specify the following:
+
+      .. .. list-table::
+         :header-rows: 1 
+         :widths: 50 50
+         
+         * - Option
+           - Description
+
+         * - Certificate Authority
+           - One or more certificate files from trusted Certificate Authorities 
+             to validate the certificate provided by the deployment. 
+
+         * - Client Certificate 
+           - Specifies the location of a local .pem file that contains either 
+             the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
+             certificate and key.    
+
+         * - Client Key Password
+           - If the *Client Private Key* is protected with a password/passphrase, 
+             you must provide the password/passphrase. 
+
+         * - tlsInsecure
+           - Disables various certificate validations.
+
+         * - tlsAllowInvalidHostnames
+           - Disables hostname validation of the certificate presented by 
+             the :binary:`mongod`/:binary:`mongos` instance. 
+
+         * - tlsAllowInvalidCertificates
+           - Disable the validation of the server certificates.
+
+      ``Off``
+      ~~~~~~~
+
+      The ``Off`` options disables the ``TLS / SSL`` connection that is the default
+      when using DNS seedlist (SRV) in a connection string. 
+
+   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
+
+   .. step:: Click Connect.
+
+.. seealso::
+
+   To disconnect from your deployment, see :ref:`<disconnect-tab>`.
