@@ -141,20 +141,18 @@ Procedure
                   - Description 
 
                 * - Forward
-                  - The driver does a ``cname`` lookup on the kerberos hostname
+                  - The driver does a ``cname`` lookup on the kerberos hostname.
 
                 * - Forward and Reverse
                   - Performs a forward DNS lookup and then a reverse lookup on that 
                     value to canonicalize the hostname.
-
+                    
+             For more information on principal name canonicalization in Kerberos, see 
+             this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
+      
          * - (Optional) Provide password directly
            - Used to verify your identity. 
 
-      |
-
-      For more information on principal name canonicalization in Kerberos, see 
-      this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
-      
       .. _ldap-authentication:
 
       LDAP
