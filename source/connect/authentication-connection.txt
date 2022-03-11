@@ -60,9 +60,13 @@ Procedure
          
         - Default
 
+          |
+
           The ``Default`` setting selects the first authentication mechanism 
           supported by the server according to an order of preference. 
           
+          |
+
           With the ``Default`` setting, MongoDB tries to authenticate using
           the following mechanisms in the order they are listed:
 
@@ -71,6 +75,8 @@ Procedure
           #. ``SCRAM-SHA-1``
 
           #. ``MONGODB-CR``
+          
+          |
 
         - :manual:`SCRAM-SHA-1 </core/security-scram/>`
 
@@ -113,42 +119,41 @@ Procedure
 
          * - (Optional) Service Name
            - Every MongoDB :binary:`mongod` and :binary:`mongos` instance 
-             (or exe or exe on Windows) must have an associated service principal. 
+             (or exe or exe on Windows) must have an associated service name. The 
+             default is ``mongodb``. 
 
          * - (Optional) Canonicalize Host Name
            - Kerberos uses the canonicalized form of the host name ``(cname)`` 
              when constructing the principal for |compass|. 
 
-      |
+         * - (Optional) Service Realm 
+           - The service realm is the domain over which a Kerberos authentication 
+             server has the authority to authenticate a user.
 
-      If you choose to :guilabel:`Canonicalize Host Name`, you have the 
-      following options:
+             If you choose to :guilabel:`Canonicalize Host Name`, you have the 
+             following options:
 
-      .. list-table::
-         :header-rows: 1
-         :widths: 50 50
+             .. list-table::
+                :header-rows: 1
+                :widths: 50 50
 
-         * - Option
-           - Description 
+                * - Option
+                  - Description 
 
-         * - Forward
-           - Performs a forward DNS lookup to canonicalize the hostname.
+                * - Forward
+                  - The driver does a ``cname`` lookup on the kerberos hostname
 
-         * - Forward and Reverse
-           - Performs a forward DNS lookup and then a reverse lookup on that 
-             value to canonicalize the hostname.
+                * - Forward and Reverse
+                  - Performs a forward DNS lookup and then a reverse lookup on that 
+                    value to canonicalize the hostname.
+
+         * - (Optional) Provide password directly
+           - Used to verify your identity. 
 
       |
 
       For more information on principal name canonicalization in Kerberos, see 
       this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
-
-      - (Optional) Service Realm 
-  
-        The service realm is the domain over which a Kerberos authentication 
-        server has the authority to authenticate a user.
-  
-      - (Optional) Provide password directly
       
       .. _ldap-authentication:
 
@@ -174,7 +179,7 @@ Procedure
       its authentication mechanism. 
       
       The following fields are optional as they are defined on your platform 
-      using their respective AWS IAM environment variables. :mongosh:`mongosh`
+      using their respective AWS IAM environment variables. :mongosh:`mongosh <>`
       will use these environment variable values to authenticate; you do not 
       need to specify them in the connection string.
 
