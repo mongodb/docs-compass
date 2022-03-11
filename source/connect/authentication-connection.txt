@@ -61,9 +61,16 @@ Procedure
         - Default
 
           The ``Default`` setting selects the first authentication mechanism 
-          supported by the server according to an order of preference. For 
-          more information on the order of preference, see :driver:`Default 
-          </node/current/fundamentals/authentication/mechanisms/#default>`
+          supported by the server according to an order of preference. 
+          
+          With the ``Default`` setting, MongoDB tries to authenticate using
+          the following mechanisms in the order they are listed:
+
+          1. ``SCRAM-SHA-256``
+          
+          #. ``SCRAM-SHA-1``
+
+          #. ``MONGODB-CR``
 
         - :manual:`SCRAM-SHA-1 </core/security-scram/>`
 
@@ -93,38 +100,48 @@ Procedure
 
       Provide the following information:
 
-      - Principal
+      .. list-table::
+         :header-rows: 1
+         :widths: 50, 50
 
-      - (Optional) Service Name
+         * - Field
+           - Description
 
-      - (Optional) Canonicalize Host Name
+         * - Principal
+           - Every participant in the authenticated communication is known as a 
+             "principal", and every principal must have a unique name. 
 
-        |
+         * - (Optional) Service Name
+           - Every MongoDB :binary:`mongod` and :binary:`mongos` instance 
+             (or exe or exe on Windows) must have an associated service principal. 
 
-        When you enable this setting, Kerberos uses the canonicalized form of 
-        the host name ``(cname)`` when constructing the principal for |compass|.
+         * - (Optional) Canonicalize Host Name
+           - Kerberos uses the canonicalized form of the host name ``(cname)`` 
+             when constructing the principal for |compass|. 
 
-        |
+      |
 
-        You have the following options: *waiting on further tech info*
+      If you choose to :guilabel:`Canonicalize Host Name`, you have the 
+      following options:
 
-        .. list-table::
-           :header-rows: 1
-           :widths: 50, 50
+      .. list-table::
+         :header-rows: 1
+         :widths: 50 50
 
-           * - Option
-             - Description 
+         * - Option
+           - Description 
 
-           * - Forward
-             - DNS lookup that uses domain name to find IP address.
+         * - Forward
+           - Performs a forward DNS lookup to canonicalize the hostname.
 
-           * - Forward and Reverse
-             - *waiting on further tech clarification*
+         * - Forward and Reverse
+           - Performs a forward DNS lookup and then a reverse lookup on that 
+             value to canonicalize the hostname.
 
-        |
+      |
 
-        For more information on principal name canonicalization in Kerberos, see 
-        this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
+      For more information on principal name canonicalization in Kerberos, see 
+      this `RFC document <https://tools.ietf.org/html/rfc6806.html>`__.
 
       - (Optional) Service Realm 
   
@@ -156,7 +173,10 @@ Procedure
       <https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html>`__ as 
       its authentication mechanism. 
       
-      Provide the following information:
+      The following fields are optional as they are defined on your platform 
+      using their respective AWS IAM environment variables. :mongosh:`mongosh`
+      will use these environment variable values to authenticate; you do not 
+      need to specify them in the connection string.
 
       - (Optional) AWS Access Key Id
       
@@ -171,4 +191,3 @@ Procedure
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`.
- 
