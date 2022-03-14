@@ -176,9 +176,9 @@ Procedure
       <https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html>`__ as 
       its authentication mechanism. 
       
-      The following fields are optional as they are defined on your platform 
-      using their respective AWS IAM environment variables. :mongosh:`mongosh <>`
-      will use these environment variable values to authenticate; you do not 
+      The following fields are optional as they can be defined on your platform 
+      using their respective AWS IAM environment variables. |compass| will 
+      use these environment variable values to authenticate; you do not 
       need to specify them in the connection string.
 
       - (Optional) AWS Access Key Id
