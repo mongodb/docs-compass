@@ -61,7 +61,7 @@ Procedure
                 to connect. 
 
          * - Off
-           - The Off options disables TLS / SSL for your connection. TLS / SSL 
+           - The ``Off`` option disables TLS / SSL for your connection. TLS / SSL 
              is enabled by default when using a DNS seedlist (SRV) in a 
              connection string. 
 
