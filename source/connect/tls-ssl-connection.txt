@@ -54,6 +54,12 @@ Procedure
              To see more on the additional certificate options available, see 
              :ref:`<additional-tls>`.
 
+             .. note::
+
+                If you try to connect a non-DNS seedlist connection string while 
+                using the ``On`` option, you will receive an error and be unable 
+                to connect. 
+
          * - Off
            - The Off options disables TLS / SSL for your connection. TLS / SSL 
              is enabled by default when using a DNS seedlist (SRV) in a 
