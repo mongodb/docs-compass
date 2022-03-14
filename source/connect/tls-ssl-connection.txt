@@ -33,7 +33,7 @@ Procedure
       You can either use a ``Default`` connection or to set the TLS / SSL 
       connection ``On`` or ``Off``. 
 
-      .. .. list-table::
+      .. list-table::
          :header-rows: 1 
          :widths: 50 50
       
