@@ -12,7 +12,7 @@ TLS / SSL Connection Tab
    :depth: 1
    :class: singlecol
 
-The :guilabel:`TLS / SSL` tab allows you to connect deployments via TLS / SSL.
+The :guilabel:`TLS / SSL` tab allows you to connect deployments using TLS / SSL.
 For more information on :guilabel:`TLS / SSL`, see :manual:`TLS Options 
 </reference/connection-string/#tls-options>`
 
@@ -30,12 +30,12 @@ Procedure
 
    .. step:: Click the :guilabel:`TLS / SSL` tab.
 
-      You can either use a ``Default`` connection or to set the TLS / SSL 
+      You can either use a ``Default`` connection or set the TLS / SSL 
       connection ``On`` or ``Off``. 
 
       .. list-table::
          :header-rows: 1 
-         :widths: 50 50
+         :widths: 50 70
       
          * - Option
            - Description
@@ -43,13 +43,13 @@ Procedure
          * - Default
            - The ``Default`` option does not use the ``TLS / SSL`` connection option. 
              When using the ``Default`` option, you can specify additional certificate 
-             options. To see more on the additional options available, see 
+             options. To learn more about the additional options available, see 
              :ref:`<additional-tls>`.
       
          * - On
-           - The ``On`` option is enabled when using a :manual:`DNS seedlist (SRV) 
-             </reference/connection-string/#std-label-connections-dns-seedlist>` in 
-             the connection string. When TLS / SSL Connection is ``On``, you can 
+           - You can choose the ``On`` option when using a :manual:`DNS seedlist 
+             (SRV) </reference/connection-string/#std-label-connections-dns-seedlist>` 
+             in the connection string. When TLS / SSL Connection is ``On``, you can 
              specify additional certificate options for your connection string. 
              To see more on the additional certificate options available, see 
              :ref:`<additional-tls>`.
@@ -62,7 +62,7 @@ Procedure
 
          * - Off
            - The ``Off`` option disables TLS / SSL for your connection. TLS / SSL 
-             is enabled by default when using a DNS seedlist (SRV) in a 
+             is enabled by default when using a DNS seedlist (SRV) in the 
              connection string. 
 
       .. _additional-tls:
@@ -90,7 +90,7 @@ Procedure
              certificate and key.    
 
          * - Client Key Password
-           - If the *Client Private Key* is protected with a password/passphrase, 
+           - If the *Client Private Key* is protected with a password, 
              you must provide the password. 
 
          * - tlsInsecure
@@ -105,7 +105,7 @@ Procedure
 
       .. warning:: 
 
-         Enabling these options may cause a security vulnerabilty. 
+         Enabling ``tlsInsecure``, ``tlsAllowInvalidHostnames``, and ``tlsAllowInvalidCertificates`` may cause a security vulnerabilty. 
 
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
