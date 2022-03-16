@@ -35,7 +35,7 @@ Procedure
 
       .. list-table::
          :header-rows: 1 
-         :widths: 70 50
+         :widths: 40 80
       
          * - Option
            - Description
