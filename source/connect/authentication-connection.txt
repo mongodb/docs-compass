@@ -130,8 +130,8 @@ Procedure
            - The service realm is the domain over which a Kerberos authentication 
              server has the authority to authenticate a user.
 
-             If you choose to :guilabel:`Canonicalize Host Name`, you have the 
-             following options:
+             If you choose to :guilabel:`Canonicalize Host Name`, you can specify 
+             one of the following options:
 
              .. list-table::
                 :header-rows: 1
