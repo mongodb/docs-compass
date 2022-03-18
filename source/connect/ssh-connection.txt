@@ -11,3 +11,131 @@ Proxy / SSH Tunnel Connection Tab
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+The :guilabel:`Proxy / SSH Tunnel` tab allows you to connect your deployment using 
+a Proxy method or SSH Tunnel. 
+
+Procedure
+---------
+
+.. procedure::
+   :style: normal
+
+   .. step:: Click :guilabel:`Advanced Connection Options`.
+
+      .. figure:: /images/compass/advanced-connection-options.png
+         :figwidth: 690px
+         :alt: New Advanced Connection Options
+
+   .. step:: Click the :guilabel:`Proxy / SSH Tunnel` tab.
+
+      You have the following connection options:
+
+      .. list-table::
+         :header-rows: 1 
+         :widths: 50 50 
+      
+         * - Option
+           - Description 
+
+         * - SSH with Password 
+           - Connects a deployment using a SSH Tunnel and has the option to secure 
+             the connection with a password. For information on the fields found 
+             under this connection option, see :ref:`<ssh-fields>`.
+
+         * - SSH with Identity File 
+           - Connects a deployment using a SSH Tunnel and uses an Identity File 
+             to secure the connection. For information on the fields found 
+             under this connection option, see :ref:`<ssh-fields>`.
+
+         * - Socks5
+           - Connects a deployment using a seperate proxy server. For more 
+             information on the fields found under this connection option, see 
+             :ref:`<socks5>`. 
+
+      .. _ssh-fields:
+ 
+      SSH Fields
+      ~~~~~~~~~~
+
+      The following fields are used when connecting a deployment using 
+      :guilabel:`SSH with Password` or :guilabel:`SSH with Identity File`:
+
+      .. list-table::
+         :header-rows: 1 
+         :widths: 50 50
+      
+         * - Field
+           - Description
+
+         * - SSH Hostname
+           - Enter the bastion (jumpbox) hostname. This is the unique identifier 
+             (Fully Qualified Domain Name, or FQDN) for the machine to be accessed. 
+
+         * - SSH Port
+           - Provide the port used for the SSH connection. This defaults to 22, 
+             the standard port for SSH.
+
+         * - SSH Username
+           - The username of the profile to log into on the remote system. This 
+             will be the user for which you want to establish the SSH connection.
+
+         * - SSH Password 
+           - (Optional) The password used to secure the SSH connection. This is 
+             required if you are not using an identity file.
+
+         * - SSH Identity File
+           - Select the file from which the identity (private key) for SSH public 
+             key authentication is read.
+
+             Unix or OS X: If using OpenSSH, identity files are found in the ~/.ssh 
+             directory. By default, the private key files have one of the following 
+             file names:
+
+             - ``id_dsa``
+             
+             - ``id_ecdsa``
+
+             - ``id_ed25519``
+ 
+             - ``id_rsa``
+
+             On Windows, the location of the identify files depends on your choice 
+             of SSH client, such as PuTTY. 
+
+         * - SSH Passphrase
+           - (Optional) If your private key is encrypted, provide the passphrase 
+             used to decrypt your private key (stored in the specified identity file). 
+             A passphrase provides an extra layer of security for an SSH connection.  
+
+      .. _socks5:
+
+      Socks5
+      ~~~~~~~
+
+      The following fields are under the :guilabel:`Socks5` tab when connecting 
+      a deployment:
+
+      .. list-table::
+         :header-rows: 1 
+         :widths: 50 50
+      
+         * - Field
+           - Description
+
+         * - Proxy Hostname
+           - Specifies a domain name, IPv4, or IPv6 address on which a socks5 
+             proxy is listening
+
+         * - Proxy Tunnel Port
+           - (Optional) Specifies a TCP port number. This defaults to 1080.  
+         
+         * - Proxy Username
+           - (Optional) The username used to authenticate the connection to the proxy 
+             server.  
+         
+         * - Proxy Password
+           - (Optional) The password used to authenticate the connection to the 
+             proxy server. 
+      
+      
