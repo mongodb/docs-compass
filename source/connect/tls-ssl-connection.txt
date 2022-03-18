@@ -105,7 +105,8 @@ Procedure
 
       .. warning:: 
 
-         Enabling ``tlsInsecure``, ``tlsAllowInvalidHostnames``, and ``tlsAllowInvalidCertificates`` may cause a security vulnerabilty. 
+         Enabling ``tlsInsecure``, ``tlsAllowInvalidHostnames``, and 
+         ``tlsAllowInvalidCertificates`` may cause a security vulnerabilty. 
 
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
