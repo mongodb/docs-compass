@@ -108,14 +108,14 @@ Procedure
              used to decrypt your private key (stored in the specified identity file). 
              A passphrase provides an extra layer of security for an SSH connection.  
 
-         Behavior
-         ````````
+      Behavior
+      ````````
 
-         - In |compass|, :guilabel:`SSH Tunnel Connections` allow users to connect 
-           to replica sets. 
+      - In |compass|, :guilabel:`SSH Tunnel Connections` allow users to connect 
+        to replica sets. 
 
-         - Users can connect to replica sets using SSH Tunnels and 
-           :ref:`TLS / SSL connections <tls-ssl-tab>`. 
+      - Users can connect to replica sets using SSH Tunnels and 
+        :ref:`TLS / SSL connections <tls-ssl-tab>`. 
 
       .. _socks5:
 
@@ -147,16 +147,16 @@ Procedure
            - (Optional) The password used to authenticate the connection to the 
              proxy server. 
 
-         Behavior
-         ````````
+      Behavior
+      ````````
 
-         - If the you specify a non-local Socks5 proxy host and provide a 
-           username and password authentication, you receive a warning notifying 
-           you that the credentials will be sent in plaintext. 
+      - If the you specify a non-local Socks5 proxy host and provide a 
+        username and password authentication, you receive a warning notifying 
+        you that the credentials will be sent in plaintext. 
 
-         - If you specify a non-local Socks5 proxy host and do not enable TLS, 
-           you receive a warning notifying you that the proxy administrator will 
-           be able to intercept data sent and received by |compass-short|.
+      - If you specify a non-local Socks5 proxy host and do not enable TLS, 
+        you receive a warning notifying you that the proxy administrator will 
+        be able to intercept data sent and received by |compass-short|.
 
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
