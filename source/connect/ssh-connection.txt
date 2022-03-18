@@ -40,13 +40,13 @@ Procedure
 
          * - SSH with Password 
            - Connects a deployment using a SSH Tunnel and has the option to secure 
-             the connection with a password. For information on the fields found 
-             under this connection option, see :ref:`<ssh-fields>`.
+             the connection with a password. For information on SSH connections and 
+             the fields found under this connection option, see :ref:`<ssh-fields>`.
 
          * - SSH with Identity File 
            - Connects a deployment using a SSH Tunnel and uses an Identity File 
-             to secure the connection. For information on the fields found 
-             under this connection option, see :ref:`<ssh-fields>`.
+             to secure the connection. For information on SSH connections and 
+             the fields found under this connection option, see :ref:`<ssh-fields>`.
 
          * - Socks5
            - Connects a deployment using a seperate proxy server. For more 
@@ -55,8 +55,8 @@ Procedure
 
       .. _ssh-fields:
  
-      SSH Fields
-      ~~~~~~~~~~
+      SSH Connection
+      ~~~~~~~~~~~~~~
 
       The following fields are used when connecting a deployment using 
       :guilabel:`SSH with Password` or :guilabel:`SSH with Identity File`:
@@ -108,6 +108,15 @@ Procedure
              used to decrypt your private key (stored in the specified identity file). 
              A passphrase provides an extra layer of security for an SSH connection.  
 
+         Behavior
+         ````````
+
+         - In |compass|, :guilabel:`SSH Tunnel Connections` allow users to connect 
+           to replica sets. 
+
+         - Users can connect to replica sets using SSH Tunnels and 
+           :ref:`TLS / SSL connections <tls-ssl-tab>`. 
+
       .. _socks5:
 
       Socks5
@@ -137,5 +146,22 @@ Procedure
          * - Proxy Password
            - (Optional) The password used to authenticate the connection to the 
              proxy server. 
-      
-      
+
+         Behavior
+         ````````
+
+         - If the you specify a non-local Socks5 proxy host and provide a 
+           username and password authentication, you receive a warning notifying 
+           you that the credentials will be sent in plaintext. 
+
+         - If you specify a non-local Socks5 proxy host and do not enable TLS, 
+           you receive a warning notifying you that the proxy administrator will 
+           be able to intercept data sent and received by |compass-short|.
+
+   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
+
+   .. step:: Click Connect.
+
+.. seealso::
+
+   To disconnect from your deployment, see :ref:`<disconnect-tab>`.
