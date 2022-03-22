@@ -12,7 +12,7 @@ Proxy / SSH Tunnel Connection Tab
    :depth: 1
    :class: singlecol
 
-The :guilabel:`Proxy / SSH Tunnel` tab allows you to connect your deployment using 
+The :guilabel:`Proxy / SSH Tunnel` tab allows you to connect to your deployment using 
 a Proxy method or SSH Tunnel. 
 
 Procedure
@@ -39,18 +39,18 @@ Procedure
            - Description 
 
          * - SSH with Password 
-           - Connects a deployment using a SSH Tunnel and has the option to secure 
+           - Connects to a deployment using a SSH Tunnel and has the option to secure 
              the connection with a password. For information on SSH connections and 
-             the fields found under this connection option, see :ref:`<ssh-fields>`.
+             the fields for this connection option, see :ref:`<ssh-fields>`.
 
          * - SSH with Identity File 
-           - Connects a deployment using a SSH Tunnel and uses an Identity File 
+           - Connects to a deployment using a SSH Tunnel and uses an Identity File 
              to secure the connection. For information on SSH connections and 
-             the fields found under this connection option, see :ref:`<ssh-fields>`.
+             the fields for this connection option, see :ref:`<ssh-fields>`.
 
          * - Socks5
-           - Connects a deployment using a seperate proxy server. For more 
-             information on the fields found under this connection option, see 
+           - Connects to a deployment using a seperate proxy server. For more 
+             information on the fields for this connection option, see 
              :ref:`<socks5>`. 
 
       .. _ssh-fields:
@@ -58,7 +58,7 @@ Procedure
       SSH Connection
       ~~~~~~~~~~~~~~
 
-      The following fields are used when connecting a deployment using 
+      Use the following fields to connect to a deployment using 
       :guilabel:`SSH with Password` or :guilabel:`SSH with Identity File`:
 
       .. list-table::
@@ -69,23 +69,23 @@ Procedure
            - Description
 
          * - SSH Hostname
-           - Enter the bastion (jumpbox) hostname. This is the unique identifier 
-             (Fully Qualified Domain Name, or FQDN) for the machine to be accessed. 
+           - Bastion (jumpbox) hostname. This is the unique identifier 
+             (Fully Qualified Domain Name, or FQDN) for the computer to access. 
 
          * - SSH Port
-           - Provide the port used for the SSH connection. This defaults to 22, 
+           - Port used for the SSH connection. This defaults to 22, 
              the standard port for SSH.
 
          * - SSH Username
-           - The username of the profile to log into on the remote system. This 
+           - User for which the profile to log into on the remote system. This 
              will be the user for which you want to establish the SSH connection.
 
          * - SSH Password 
-           - (Optional) The password used to secure the SSH connection. This is 
+           - (Optional) Password used to secure the SSH connection. This is 
              required if you are not using an identity file.
 
          * - SSH Identity File
-           - Select the file from which the identity (private key) for SSH public 
+           - File from which the identity (private key) for SSH public 
              key authentication is read.
 
              Unix or OS X: If using OpenSSH, identity files are found in the ~/.ssh 
@@ -105,7 +105,7 @@ Procedure
 
          * - SSH Passphrase
            - (Optional) If your private key is encrypted, provide the passphrase 
-             used to decrypt your private key (stored in the specified identity file). 
+             used to decrypt your private key, which is stored. 
              A passphrase provides an extra layer of security for an SSH connection.  
 
       Behavior
@@ -120,10 +120,10 @@ Procedure
       .. _socks5:
 
       Socks5
-      ~~~~~~~
+      ~~~~~~
 
-      The following fields are under the :guilabel:`Socks5` tab when connecting 
-      a deployment:
+      The following fields are in the :guilabel:`Socks5` tab, and are used 
+      to connect to a deployment:
 
       .. list-table::
          :header-rows: 1 
@@ -134,28 +134,28 @@ Procedure
 
          * - Proxy Hostname
            - Specifies a domain name, IPv4, or IPv6 address on which a socks5 
-             proxy is listening
+             proxy is listening.
 
          * - Proxy Tunnel Port
-           - (Optional) Specifies a TCP port number. This defaults to 1080.  
+           - (Optional) TCP port number. Default is 1080.  
          
          * - Proxy Username
-           - (Optional) The username used to authenticate the connection to the proxy 
+           - (Optional) Username used to authenticate the connection with the proxy 
              server.  
          
          * - Proxy Password
-           - (Optional) The password used to authenticate the connection to the 
+           - (Optional) Password used to authenticate the connection with the 
              proxy server. 
 
       Behavior
       ````````
 
       - If the you specify a non-local Socks5 proxy host and provide a 
-        username and password authentication, you receive a warning notifying 
-        you that the credentials will be sent in plaintext. 
+        username and password authentication, you receive a warning 
+        stating that the credentials will be sent in plaintext. 
 
       - If you specify a non-local Socks5 proxy host and do not enable TLS, 
-        you receive a warning notifying you that the proxy administrator will 
+        you receive a warning stating that the proxy administrator will 
         be able to intercept data sent and received by |compass-short|.
 
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
