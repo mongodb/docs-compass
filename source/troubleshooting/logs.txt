@@ -1,0 +1,85 @@
+.. _compass-logs:
+
+=====================
+Retrieve Compass Logs
+=====================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+As part of normal operation, |compass| maintains a running log of
+events. |compass-short| logs provide a history of operations and can
+help diagnose errors.
+
+.. note::
+
+   |compass| redacts credentials from the logs.
+
+View Compass Logs
+-----------------
+
+To view |compass-short| logs:
+
+.. procedure::
+   :style: normal
+
+   .. step:: In the |compass-short| top menu bar, click :guilabel:`Help`.
+
+   .. step:: Click :guilabel:`Open Log File`.
+
+      |compass-short| opens a dialog containing the location of your log file.
+
+   .. step:: Choose how to open the log file.
+
+      You can either:
+
+      - Copy the path to the log file.
+
+      - Open the folder containing your log file.
+
+      - Extract the log file and view it as a text file.
+
+Compass Log Location
+--------------------
+
+The directory where |compass-short| writes logs depends on your
+operating system.
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :widths: 10 20
+
+   * - Operating System
+     - Directory
+   * - macOS
+     - ``~/.mongodb/compass/<LogID>_log``
+   * - Linux
+     - ``~/.mongodb/compass/<LogID>_log``
+   * - Windows
+     - ``%UserProfile%/AppData/Local/mongodb/compass/<LogID>_log``
+
+Log File Format
+---------------
+
+|compass-short| outputs log messages in structured JSON format. The
+messages are output in the same format used for MongoDB server logs.
+
+|compass-short| maintains one log file per session. The corresponding
+session ID is included in the log file name.
+
+.. seealso::
+
+   To learn more about MongoDB logs and see examples, see
+   :ref:`log-messages-ref`.
+
+Log Retention
+-------------
+
+|compass-short| retains log files for 30 days. Log files older than 30
+days are automatically deleted.
