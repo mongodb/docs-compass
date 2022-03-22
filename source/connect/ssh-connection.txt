@@ -133,8 +133,7 @@ Procedure
            - Description
 
          * - Proxy Hostname
-           - Specifies a domain name, IPv4, or IPv6 address on which a socks5 
-             proxy is listening.
+           - Domain name, IPv4, or IPv6 address on which a socks5 proxy is listening.
 
          * - Proxy Tunnel Port
            - (Optional) TCP port number. Default is 1080.  
