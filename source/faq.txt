@@ -58,9 +58,7 @@ Where can I find Compass logs?
 
 As part of normal operation, |compass| maintains a running log of
 events. |compass-short| logs provide a history of operations and can
-help diagnose errors.
-
-For more information, see :ref:`compass-logs`.
+help diagnose errors. For more information, see :ref:`compass-logs`.
 
 .. _compass-faq-non-genuine:
 

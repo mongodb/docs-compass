@@ -23,14 +23,12 @@ help diagnose errors.
 View Compass Logs
 -----------------
 
-To view |compass-short| logs:
-
 .. procedure::
    :style: normal
 
    .. step:: In the |compass-short| top menu bar, click :guilabel:`Help`.
 
-   .. step:: Click :guilabel:`Open Log File`.
+   .. step:: In the :guilabel:`Help` menu, click :guilabel:`Open Log File`.
 
       |compass-short| opens a dialog containing the location of your log file.
 
@@ -38,7 +36,7 @@ To view |compass-short| logs:
 
       You can either:
 
-      - Copy the path to the log file.
+      - Copy the path to the log file to your clipboard.
 
       - Open the folder containing your log file.
 
@@ -47,8 +45,9 @@ To view |compass-short| logs:
 Compass Log Location
 --------------------
 
-The directory where |compass-short| writes logs depends on your
-operating system.
+|compass-short| maintains one log file per session. The corresponding
+session ID is included in the log file name. The directory where
+|compass-short| writes logs depends on your operating system.
 
 .. list-table::
    :header-rows: 1
@@ -68,10 +67,7 @@ Log File Format
 ---------------
 
 |compass-short| outputs log messages in structured JSON format. The
-messages are output in the same format used for MongoDB server logs.
-
-|compass-short| maintains one log file per session. The corresponding
-session ID is included in the log file name.
+messages are written in the same format used for MongoDB server logs.
 
 .. seealso::
 

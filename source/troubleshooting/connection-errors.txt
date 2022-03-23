@@ -342,9 +342,7 @@ Check the Compass Logs
 
 The |compass-short| logs can provide additional information on
 connection errors. You may find more detailed error messages to help
-diagnose your issue.
-
-To learn more, see :ref:`compass-logs`.
+diagnose your issue. For more information, see :ref:`compass-logs`.
 
 Additional Resources
 --------------------
