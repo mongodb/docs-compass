@@ -135,7 +135,7 @@ Bug Fixes:
 
 New Features:
 
-- Introduces :ref:`client-side logging <compass-logs>` for |compass|
+- Adds :ref:`client-side logging <compass-logs>` for |compass|
   operations.
 
 - Improved |compass| startup time.
