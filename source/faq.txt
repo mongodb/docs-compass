@@ -53,12 +53,13 @@ how Keytar operates and the specific APIs it accesses, refer to the
 
 .. _compass-faq-logs:
 
-Where can I find Compass logs?
-------------------------------
+Does Compass Maintain Logs?
+---------------------------
 
 As part of normal operation, |compass| maintains a running log of
 events. |compass-short| logs provide a history of operations and can
-help diagnose errors. For more information, see :ref:`compass-logs`.
+help diagnose errors. For more information on |compass-short| logs,
+including their format and location, see :ref:`compass-logs`.
 
 .. _compass-faq-non-genuine:
 

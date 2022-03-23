@@ -45,9 +45,12 @@ View Compass Logs
 Compass Log Location
 --------------------
 
-|compass-short| maintains one log file per session. The corresponding
-session ID is included in the log file name. The directory where
-|compass-short| writes logs depends on your operating system.
+|compass-short| maintains one log file per session, compressed into a
+gzip archive file. The corresponding session ID is included in the log
+file name.
+
+The directory where |compass-short| writes logs depends on your
+operating system.
 
 .. list-table::
    :header-rows: 1
@@ -57,11 +60,11 @@ session ID is included in the log file name. The directory where
    * - Operating System
      - Directory
    * - macOS
-     - ``~/.mongodb/compass/<LogID>_log``
+     - ``~/.mongodb/compass/<LogID>_log.gz``
    * - Linux
-     - ``~/.mongodb/compass/<LogID>_log``
+     - ``~/.mongodb/compass/<LogID>_log.gz``
    * - Windows
-     - ``%UserProfile%/AppData/Local/mongodb/compass/<LogID>_log``
+     - ``%UserProfile%/AppData/Local/mongodb/compass/<LogID>_log.gz``
 
 Log File Format
 ---------------
