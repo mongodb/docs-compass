@@ -12,3 +12,87 @@ Advanced Connection Tab
    :depth: 1
    :class: singlecol
 
+
+The :guilabel:`Advanced` connection tab provides additional connection options 
+for your deployment. These options can be used alongside the 
+:ref:`<general-connection-tab>`, :ref:`<authentication-connection-tab>`, 
+:ref:`<tls-ssl-tab>`, and :ref:`<ssh-connection>` connection options. 
+
+Procedure
+---------
+
+.. procedure::
+   :style: normal
+
+   .. step:: Click :guilabel:`Advanced Connection Options`.
+
+      .. figure:: /images/compass/advanced-connection-options.png
+         :figwidth: 690px
+         :alt: New Advanced Connection Options
+
+   .. step:: Click the :guilabel:`Advanced` tab.
+
+      Select a :guilabel:`Read Preference` from the following options:
+
+      .. list-table::
+         :header-rows: 1
+         :widths: 50 50 
+
+         * - Read Preference
+           - Description
+
+         * - primary
+           - Default mode. All operations read from the current replica set primary.
+
+         * - primaryPreferred
+           - In most situations, operations read from the primary but if it is 
+             unavailable, operations read from secondary members. 
+
+         * - secondary
+           - All operations read from the secondary members of the replica set.
+
+         * - secondaryPreferred
+           - In most situations, operations read from secondary members but if 
+             no secondary members are available, operations read from the primary 
+             on sharded clusters.
+
+         * - nearest
+           - Operations read from a random eligible replica set member, 
+             irrespective of whether that member is a primary or secondary, based 
+             on a specified latency threshold. The operation considers the following 
+             when calculating latency:
+
+             - The localThresholdMS connection string option
+             - The maxStalenessSeconds read preference option
+             - Any specified tag sets 
+
+      For more information, see :manual:`Read Preferrence </core/read-preference/#read-preference>`.
+
+      Additional Optional Fields
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      .. list-table::
+         :header-rows: 1
+         :widths: 50 50 
+      
+         * - Field
+           - Description
+
+         * - Replica Set Name
+           - (Optional) Name of replica set.
+
+         * - Default Authentication Database
+           - (Optional) Authentication database used when authSource is not specified.
+             For more information, see :manual:`Authentication Options 
+             </connection-string/#authentication-options>`.
+
+         * - Url Options
+           - Additional MongoDB url options to customize your connection. For more 
+             information, see :manual:`Connection String Options 
+             </connection-string/#connection-string-options>`.
+
+   .. step:: Click Connect.
+
+.. seealso::
+
+   To disconnect from your deployment, see :ref:`<disconnect-tab>`.
