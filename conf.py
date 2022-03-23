@@ -135,7 +135,7 @@ extlinks = {
     'issue': ('https://jira.mongodb.org/browse/%s', '' ),
     'source': ('https://github.com/mongodb/mongo/blob/master/%s', ''),
     'docsgithub' : ( 'http://github.com/mongodb/docs/blob/' + conf.git.branches.current + '/%s', ''),
-    'manual': ('http://docs.mongodb.org/manual%s', ''),
+    'manual': ('http://docs.mongodb.org/manual/blahblah/%s', ''),
     'manual-next': ('http://docs.mongodb.org/master%s', ''),
     'bic': ('https://docs.mongodb.com/bi-connector/current%s',''),
     'product': ('http://www.mongodb.com/products/%s?tck=docs_compass',''),
