@@ -17,9 +17,7 @@ Release Notes
 
 New Features:
 
-- Add link and descriptions for the
-  `$documents <https://docs.mongodb.com/v5.1/reference/operator/aggregation/documents/>`__
-  stage.
+- Add link and descriptions for the :pipeline:`$documents` stage.
 
 - Connect form: Add SSL/TLS option radio box group.
 
