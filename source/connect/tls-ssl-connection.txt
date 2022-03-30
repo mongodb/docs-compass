@@ -41,25 +41,27 @@ Procedure
            - Description
 
          * - Default
-           - The ``Default`` option leaves the TLS option ``unset``. The ``Default / unset`` 
-             TLS /SSL option is enabled when using a DNS seedlist (SRV) in the 
-             connection string. To learn more about the additional options available, see 
-             :ref:`<additional-tls>`.
+           - The ``Default`` option leaves the TLS option ``unset``. The 
+             ``Default / unset`` TLS /SSL option is enabled when using a 
+             :manual:`DNS seedlist 
+             (SRV) </reference/connection-string/#std-label-connections-dns-seedlist>` 
+             in the connection string. To learn more about the additional options 
+             available, see :ref:`<additional-tls>`.
       
          * - On
-           - You can choose the ``On`` option when using a :manual:`DNS seedlist 
-             (SRV) </reference/connection-string/#std-label-connections-dns-seedlist>` 
-             in the connection string. When TLS / SSL Connection is ``On``, you can 
+           - Select the ``On`` option when using a DNS seedlist (SRV) in the 
+             connection string. When TLS / SSL Connection is ``On``, you can 
              specify additional certificate options for your connection string. 
              To see more on the additional certificate options available, see 
              :ref:`<additional-tls>`. 
 
          * - Off
-           - The ``Off`` option initiates a connection without TLS / SSL. 
+           - The ``Off`` option initiates a connection :guilabel:`without` 
+             TLS / SSL. 
 
              .. note::
 
-                It is recommended that users enabled TLS / SSL to avoid security 
+                It is recommended that users enable TLS / SSL to avoid security 
                 vulnerabilities. 
 
       .. _additional-tls:
