@@ -78,7 +78,7 @@ Procedure
 
          * - SSH Username
            - This is the user for which the profile to log into on the remote 
-             system. This will be the user for which you want to establish the 
+             system. This is the user for which you want to establish the 
              SSH connection.
 
          * - SSH Password 
