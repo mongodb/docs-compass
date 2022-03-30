@@ -96,8 +96,8 @@ Procedure
              For more information, see :manual:`Authentication Options 
              </connection-string/#authentication-options>`.
 
-         * - Url Options
-           - Additional MongoDB url options to customize your connection. You 
+         * - URI Options
+           - Additional options to customize your connection. You 
              specify these options as key-value pairs, and |compass-short| 
              automatically adds the key-value pairs to the connection string. 
              For more information, see :manual:`Connection String Options 
