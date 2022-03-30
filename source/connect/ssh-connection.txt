@@ -58,8 +58,8 @@ Procedure
       SSH Connection
       ~~~~~~~~~~~~~~
 
-      Use the following fields to connect to a deployment using 
-      :guilabel:`SSH with Password` or :guilabel:`SSH with Identity File`:
+      To connect to a deployment using :guilabel:`SSH with Password` or 
+      :guilabel:`SSH with Identity File`, use the following fields:
 
       .. list-table::
          :header-rows: 1 
@@ -77,8 +77,9 @@ Procedure
              the standard port for SSH.
 
          * - SSH Username
-           - User for which the profile to log into on the remote system. This 
-             will be the user for which you want to establish the SSH connection.
+           - This is the user for which the profile to log into on the remote 
+             system. This will be the user for which you want to establish the 
+             SSH connection.
 
          * - SSH Password 
            - (Optional) Password used to secure the SSH connection. This is 
@@ -88,7 +89,7 @@ Procedure
            - File from which the identity (private key) for SSH public 
              key authentication is read.
 
-             Unix or OS X: If using OpenSSH, identity files are found in the ~/.ssh 
+             Unix or OS X: If using OpenSSH, identity files are found in the ``~/.ssh`` 
              directory. By default, the private key files have one of the following 
              file names:
 
@@ -100,13 +101,13 @@ Procedure
  
              - ``id_rsa``
 
-             On Windows, the location of the identify files depends on your choice 
+             On Windows, the location of the identity files depends on your choice 
              of SSH client, such as PuTTY. 
 
          * - SSH Passphrase
            - (Optional) If your private key is encrypted, provide the passphrase 
-             used to decrypt your private key, which is stored. 
-             A passphrase provides an extra layer of security for an SSH connection.  
+             used to decrypt your private key. A passphrase provides an extra 
+             layer of security for an SSH connection.  
 
       Behavior
       ````````
@@ -122,8 +123,8 @@ Procedure
       Socks5
       ~~~~~~
 
-      The following fields are in the :guilabel:`Socks5` tab, and are used 
-      to connect to a deployment:
+      To connect to a deployment using :guilabel:`Socks5`, use the following 
+      fields:
 
       .. list-table::
          :header-rows: 1 
@@ -149,11 +150,11 @@ Procedure
       Behavior
       ````````
 
-      - If the you specify a non-local Socks5 proxy host and provide a 
+      - If you specify a non-local Socks5 proxy host and provide a 
         username and password authentication, you receive a warning 
         stating that the credentials will be sent in plaintext. 
 
-      - If you specify a non-local Socks5 proxy host and do not enable TLS, 
+      - If you specify a remote Socks5 proxy host and do not enable TLS, 
         you receive a warning stating that the proxy administrator will 
         be able to intercept data sent and received by |compass-short|.
 
