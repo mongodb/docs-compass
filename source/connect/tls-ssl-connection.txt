@@ -30,7 +30,7 @@ Procedure
 
    .. step:: Click the :guilabel:`TLS / SSL` tab.
 
-      You can either use a ``Default`` connection or set the TLS / SSL 
+      You can leave TLS unset with the ``Default`` option or set the TLS / SSL 
       connection ``On`` or ``Off``. 
 
       .. list-table::
@@ -41,9 +41,9 @@ Procedure
            - Description
 
          * - Default
-           - The ``Default`` option does not use the ``TLS / SSL`` connection option. 
-             When using the ``Default`` option, you can specify additional certificate 
-             options. To learn more about the additional options available, see 
+           - The ``Default`` option leaves the TLS option ``unset``. The ``Default / unset`` 
+             TLS /SSL option is enabled when using a DNS seedlist (SRV) in the 
+             connection string. To learn more about the additional options available, see 
              :ref:`<additional-tls>`.
       
          * - On
@@ -52,26 +52,22 @@ Procedure
              in the connection string. When TLS / SSL Connection is ``On``, you can 
              specify additional certificate options for your connection string. 
              To see more on the additional certificate options available, see 
-             :ref:`<additional-tls>`.
+             :ref:`<additional-tls>`. 
+
+         * - Off
+           - The ``Off`` option initiates a connection without TLS / SSL. 
 
              .. note::
 
-                If you try to connect a non-DNS seedlist connection string while 
-                using the ``On`` option, you will receive an error and be unable 
-                to connect. 
-
-         * - Off
-           - The ``Off`` option disables TLS / SSL for your connection. TLS / SSL 
-             is enabled by default when using a DNS seedlist (SRV) in the 
-             connection string. 
+                It is recommended that users enabled TLS / SSL to avoid security 
+                vulnerabilities. 
 
       .. _additional-tls:
 
       Additional TLS / SSL Options
       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      The ``Default`` and ``On`` options allow you to specify the following 
-      options:
+      When TLS is ``On`` you can specify the following:
 
       .. list-table::
          :header-rows: 1 
