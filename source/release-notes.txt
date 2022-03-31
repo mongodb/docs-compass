@@ -17,12 +17,12 @@ Release Notes
 
 New Features:
 
-- New connection experience.
+- New connection experience
 
   - Add new form for Kerberos options.
   - Support loading system CA store.
   - Use new favorite connection modal in sidebar.
-  - Add support for MONGODB_AWS
+  - Add support for MONGODB_AWS.
 
 - Aggregation and Query Improvements
 
@@ -46,7 +46,7 @@ Bug Fixes:
 
 - Miscellaneous Fixes
 
-  - Add ``directConnection=true`` when converting from old model
+  - Add ``directConnection=true`` when converting from old model.
 
   - Picks only specified columns when exporting data as JSON.
 
