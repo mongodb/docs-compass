@@ -33,7 +33,8 @@ Procedure
 
    .. step:: Click the :guilabel:`Advanced` tab.
 
-      Select a :guilabel:`Read Preference` from the following options:
+      (Optional) Select a :guilabel:`Read Preference` from the following 
+      options:
 
       .. list-table::
          :header-rows: 1
@@ -94,14 +95,14 @@ Procedure
          * - Default Authentication Database
            - (Optional) Authentication database used when authSource is not specified.
              For more information, see :manual:`Authentication Options 
-             </connection-string/#authentication-options>`.
+             </reference/connection-string/#authentication-options>`.
 
          * - URI Options
            - Additional options to customize your connection. You 
              specify these options as key-value pairs, and |compass-short| 
              automatically adds the key-value pairs to the connection string. 
              For more information, see :manual:`Connection String Options 
-             </connection-string/#connection-string-options>`.
+             </reference/connection-string/#connection-string-options>`.
 
    .. step:: Click Connect.
 
