@@ -12,7 +12,7 @@ your cluster.
 
 .. figure:: /images/compass/query-my-queries-splash.png
    :figwidth: 720 px
-   :alt: Query history view
+   :alt: My queries view
 
 Compass automatically stores up to 20 most recent queries for each
 collection. To view these queries, click the history icon in the query bar.
