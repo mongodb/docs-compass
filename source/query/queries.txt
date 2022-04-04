@@ -6,9 +6,6 @@ View Saved Queries and Aggregations
 
 .. _saved-query-view:
 
-Viewing Saved Aggregations
---------------------------
-
 Starting in |compass| 1.31, you can view your favorite and saved 
 queries and aggregation pipelines on the :guilabel:`My Queries` view 
 once connected to your cluster.
