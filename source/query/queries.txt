@@ -31,24 +31,22 @@ See also :ref:`viewing a favorite query <favorite-queries>`
    :figwidth: 720 px
    :alt: My queries view
 
-You can also hover over a query and perform the following actions:
+.. note::
 
-.. list-table::
-   :widths: 10 90
-   :header-rows: 1
+   You can also hover over a query and perform the following actions:
 
-   * - Click
-     - Action
+   .. list-table::
+      :widths: 10 90
+      :header-rows: 1
 
-   * - :icon-fa5:`star`
-     - Save the query as a :ref:`favorite <favorite-queries>`. Specify
-       a name for the query and click :guilabel:`Save`.
+      * - Click
+        - Action
 
-   * - :icon-fa5:`copy`
-     - Copy the query to the clipboard.
+      * - :icon-fa5:`copy`
+        - Copy the query to the clipboard.
 
-   * - :icon-fa5:`trash-alt`
-     - Remove the query from the :guilabel:`Recent` list.
+      * - :icon-fa5:`trash-alt`
+        - Remove the query from the :guilabel:`Recent` list.
 
 .. toctree::
    :titlesonly:
