@@ -4,8 +4,8 @@ Saving Queries and Aggregations
 
 .. default-domain:: mongodb
 
-Saving a Pipeline
------------------
+Saving an Aggregation Pipeline
+------------------------------
 
 .. include:: /includes/fact-save-pipeline.rst
 
@@ -27,9 +27,7 @@ as favorites. To view the list of queries saved as favorites, click on
    :figwidth: 316px
    :alt: Favorites
 
-.. seealso::
-
-   - :ref:`Viewing recent query history <recent-queries>`
+See also : :ref:`Viewing recent query history <recent-queries>`
 
 .. _saved-query-view:
 
