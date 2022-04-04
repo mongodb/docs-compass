@@ -4,6 +4,9 @@ Saving Queries and Aggregations
 
 .. default-domain:: mongodb
 
+Saving a Pipeline
+-----------------
+
 .. include:: /includes/fact-save-pipeline.rst
 
 .. _adding-favorite-query:
@@ -14,6 +17,9 @@ Adding a Favorite Query
 .. include:: /includes/fact-favorite-query.rst
 
 .. _saved-query-view:
+
+Using the "My Queries" tab
+--------------------------
 
 Starting in |compass| 1.31, you can view your favorite and saved 
 queries and aggregation pipelines on the :guilabel:`My Queries` view 
@@ -29,7 +35,8 @@ When you click a saved or favorited pipeline tile, Compass opens the
    :figwidth: 720 px
    :alt: My queries view
 
-See :ref:`viewing a favorite query <favorite-queries>`
+See also :ref:`viewing a favorite query from the Documents tab
+<favorite-queries>`
 
 .. note:: You can also hover over a query and perform the following actions
 
