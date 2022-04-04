@@ -29,7 +29,7 @@ When you click a saved or favorited pipeline tile, Compass opens the
    :figwidth: 720 px
    :alt: My queries view
 
-See also :ref:`viewing a favorite query <favorite-queries>`
+See :ref:`viewing a favorite query <favorite-queries>`
 
 .. note:: You can also hover over a query and perform the following actions
 
