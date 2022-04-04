@@ -1,8 +1,20 @@
 ===================================
-View Saved Queries and Aggregations
+Saving Queries and Aggregations
 ===================================
 
 .. default-domain:: mongodb
+
+Saving an Aggregation Pipeline
+------------------------------
+
+.. include:: /includes/fact-save-pipeline.rst
+
+.. _adding-favorite-query:
+
+Adding a Favorite Query
+-----------------------
+
+.. include:: /includes/fact-favorite-query.rst
 
 .. _saved-query-view:
 
@@ -20,22 +32,10 @@ When you click a saved or favorited pipeline tile, Compass opens the
    :figwidth: 720 px
    :alt: My queries view
 
-.. _past-query-view:
+Viewing Favorite Queries
+------------------------
 
-Viewing Query History 
----------------------
 
-Compass automatically stores up to 20 most recent queries for each
-collection. To view these queries, click the history icon in the query bar.
-
-.. figure:: /images/compass/query-history-view.png
-   :figwidth: 720 px
-   :alt: Query history view
-
-.. seealso::
-
-   To learn how to write queries to filter your data, see
-   :ref:`query-bar`.
 
 .. toctree::
    :titlesonly:
