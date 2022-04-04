@@ -31,9 +31,7 @@ See also :ref:`viewing a favorite query <favorite-queries>`
    :figwidth: 720 px
    :alt: My queries view
 
-.. note::
-
-   You can also hover over a query and perform the following actions:
+.. note:: You can also hover over a query and perform the following actions
 
    .. list-table::
       :widths: 10 90
