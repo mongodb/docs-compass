@@ -26,8 +26,7 @@ Viewing Favorited Queries
       :figwidth: 720 px
       :alt: Query history view
 
-#. To view the list of queries saved as favorites, click on
-   :guilabel:`Favorites` in the past queries view.
+#. Click on :guilabel:`Favorites` in the past queries view.
 
    .. figure:: /images/compass/query-history-favorite.png
       :figwidth: 316px
