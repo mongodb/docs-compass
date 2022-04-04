@@ -13,6 +13,14 @@ To add a query to your favorites:
 
 #. Click the :guilabel:`Star` button.
 
+   .. figure:: /images/compass/query-add-favorite.png
+      :figwidth: 720 px
+      :alt: Favorite a query
+
 #. Enter a name for your query.
+
+   .. figure:: /images/compass/query-add-favorite-name.png
+      :figwidth: 720 px
+      :alt: Save favorite query
 
 #. Click :guilabel:`Save`.
