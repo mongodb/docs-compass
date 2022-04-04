@@ -16,8 +16,8 @@ Adding a Favorite Query
 
 .. include:: /includes/fact-favorite-query.rst
 
-Viewing a Favorite Query
-------------------------
+Viewing Favorited Queries
+-------------------------
 
 To view the list of queries saved as favorites, click on
 :guilabel:`Favorites` in the past queries view.
@@ -33,7 +33,7 @@ See also : :ref:`Viewing recent query history <recent-queries>`
 Using the :guilabel:`My Queries` View
 -------------------------------------
 
-Starting in |compass| 1.31, you can view your favorite and saved 
+Starting in |compass| 1.31, you can view your favorited and saved 
 queries and aggregation pipelines on the :guilabel:`My Queries` view 
 once connected to your cluster.
 
