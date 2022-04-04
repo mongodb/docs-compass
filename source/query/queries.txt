@@ -26,7 +26,7 @@ Viewing Favorited Queries
       :figwidth: 720 px
       :alt: Query history view
 
-#. Click on :guilabel:`Favorites` in the past queries view.
+#. Click the :guilabel:`Favorites` button in the past queries pane.
 
    .. figure:: /images/compass/query-history-favorite.png
       :figwidth: 316px
