@@ -1,6 +1,6 @@
-===================================
-Saving Queries and Aggregations
-===================================
+=================================
+Managing Queries and Aggregations
+=================================
 
 .. default-domain:: mongodb
 
