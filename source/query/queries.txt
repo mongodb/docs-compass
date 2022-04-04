@@ -9,7 +9,7 @@ Saving an Aggregation Pipeline
 
 .. include:: /includes/fact-save-pipeline.rst
 
-.. _adding-favorite-query:
+.. _favorite-queries:
 
 Adding a Favorite Query
 -----------------------
