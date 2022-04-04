@@ -4,9 +4,6 @@ Saving Queries and Aggregations
 
 .. default-domain:: mongodb
 
-Saving an Aggregation Pipeline
-------------------------------
-
 .. include:: /includes/fact-save-pipeline.rst
 
 .. _adding-favorite-query:
