@@ -25,11 +25,11 @@ When you click a saved or favorited query tile, Compass opens the
 When you click a saved or favorited pipeline tile, Compass opens the 
 :guilabel:`Aggregations` tab with the pipeline loaded.
 
-See also :ref:`viewing a favorite query <favorite-queries>`
-
 .. figure:: /images/compass/query-my-queries-splash.png
    :figwidth: 720 px
    :alt: My queries view
+
+See also :ref:`viewing a favorite query <favorite-queries>`
 
 .. note:: You can also hover over a query and perform the following actions
 
