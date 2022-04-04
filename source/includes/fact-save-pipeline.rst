@@ -6,7 +6,7 @@ changing the original saved copy. You can also create a :ref:`view
 To save your pipeline:
 
 1. Click the :guilabel:`Save` dropdown button at the top of the pipeline
-   builder. Click on ``Save pipeline as....``
+   builder. Click on ``Save pipeline as...``
 
    .. figure:: /images/compass/query-save-pipeline-as.png
       :figwidth: 316px
