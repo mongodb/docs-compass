@@ -7,8 +7,8 @@
       builder.
 
       .. figure:: /images/compass/query-history-view.png
-          :figwidth: 720 px
-          :alt: Click history button
+         :figwidth: 720 px
+         :alt: Click history button
 
    .. step:: Select favorites
 
