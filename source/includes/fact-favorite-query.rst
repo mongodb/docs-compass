@@ -20,7 +20,7 @@
 
    ..step:: Name your query
 
-      Enter a name for your query.
+   Enter a name for your query.
 
    .. figure:: /images/compass/query-add-favorite-name.png
       :figwidth: 316 px
