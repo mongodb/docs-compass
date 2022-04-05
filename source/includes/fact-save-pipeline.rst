@@ -8,19 +8,19 @@ To save your pipeline:
 .. procedure::
    :style: normal
 
-   ..step:: Open query history
+   .. step:: Open query history
 
-   Click the :guilabel:`Save` dropdown button at the top of the pipeline
-   builder. Click on ``Save pipeline as...``
+      Click the :guilabel:`Save` dropdown button at the top of the pipeline
+      builder. Click on ``Save pipeline as...``
 
-   .. figure:: /images/compass/query-save-pipeline-as.png
-      :figwidth: 316px
-      :alt: Save pipeline as
+      .. figure:: /images/compass/query-save-pipeline-as.png
+         :figwidth: 316px
+         :alt: Save pipeline as
 
-   ..step:: Enter a name for your pipeline.
+   .. step:: Enter a name for your pipeline.
 
-   .. figure:: /images/compass/query-save-pipeline-as-name.png
-      :figwidth: 316px
-      :alt: Name your pipeline
+      .. figure:: /images/compass/query-save-pipeline-as-name.png
+         :figwidth: 316px
+         :alt: Name your pipeline
 
-   ..step:: Click :guilabel:`Save`.
+   .. step:: Click :guilabel:`Save`.

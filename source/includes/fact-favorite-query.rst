@@ -1,29 +1,29 @@
 .. procedure::
    :style: normal
 
-   ..step:: Open query history
+   .. step:: Open query history
 
-   Click the :guilabel:`History` button at the top of the pipeline 
-   builder.
+      Click the :guilabel:`History` button at the top of the pipeline 
+      builder.
 
-   .. figure:: /images/compass/query-history-view.png
-      :figwidth: 720 px
-      :alt: Click history button
+      .. figure:: /images/compass/query-history-view.png
+          :figwidth: 720 px
+          :alt: Click history button
 
-   ..step:: Select favorites
+   .. step:: Select favorites
 
-   Click the :guilabel:`Star` button.
+      Click the :guilabel:`Star` button.
 
-   .. figure:: /images/compass/query-add-favorite.png
-      :figwidth: 316 px
-      :alt: Click star button
+      .. figure:: /images/compass/query-add-favorite.png
+         :figwidth: 316 px
+         :alt: Click star button
 
-   ..step:: Name your query
+   .. step:: Name your query
 
-   Enter a name for your query.
+      Enter a name for your query.
 
-   .. figure:: /images/compass/query-add-favorite-name.png
-      :figwidth: 316 px
-      :alt: Save favorite query
+      .. figure:: /images/compass/query-add-favorite-name.png
+         :figwidth: 316 px
+         :alt: Save favorite query
 
    ..step:: Click :guilabel:`Save`.
