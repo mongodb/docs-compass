@@ -8,7 +8,7 @@ To save your pipeline:
 .. procedure::
    :style: normal
 
-   .. step:: Open query history
+   .. step:: Click the save dropdown button
 
       Click the :guilabel:`Save` dropdown button at the top of the pipeline
       builder. Click on ``Save pipeline as...``
