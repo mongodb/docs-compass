@@ -4,6 +4,17 @@ Managing Saved Queries and Aggregations
 
 .. default-domain:: mongodb
 
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Starting in |compass| 1.31, you can load saved queries and aggregations from 
+the :guilabel:`My Queries` view once you are connected to your cluster.
+This page explains how to add and view favorite queries and 
+aggregations.
+
 Saving an Aggregation Pipeline
 ------------------------------
 
@@ -11,13 +22,36 @@ Saving an Aggregation Pipeline
 
 .. _favorite-queries:
 
-Adding a Favorite Query
+Saving a Favorite Query
 -----------------------
 
 .. include:: /includes/fact-favorite-query.rst
 
-Viewing Favorited Queries
--------------------------
+Viewing Favorite Queries
+------------------------
+
+Starting in |compass| 1.31, you can view your saved queries
+and aggregation pipelines on the :guilabel:`My Queries` view 
+once connected to your cluster.
+
+.. _saved-query-view:
+
+Using the :guilabel:`My Queries` View
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When you click a saved or favorite query tile, Compass opens the
+:guilabel:`Documents` tab with the filter loaded.
+
+When you click a saved or favorite pipeline tile, Compass opens the 
+:guilabel:`Aggregations` tab with the pipeline loaded.
+
+.. figure:: /images/compass/query-my-queries-splash.png
+   :figwidth: 720 px
+   :alt: My queries view
+
+You can also view favorite queries from the :guilabel:`Favorites` tab 
+from in the :guilabel:`Documents` view. To open the 
+:guilabel:`Favorites` tab:
 
 1. Click the :guilabel:`History` button at the top of the 
    :guilabel:`Documents` tab.
@@ -32,26 +66,9 @@ Viewing Favorited Queries
       :figwidth: 316px
       :alt: Favorites
 
+   .. include:: /includes/steps/open-query-history.rst
+
    See also : :ref:`Viewing recent query history <recent-queries>`
-
-.. _saved-query-view:
-
-Using the :guilabel:`My Queries` View
--------------------------------------
-
-Starting in |compass| 1.31, you can view your favorited and saved 
-queries and aggregation pipelines on the :guilabel:`My Queries` view 
-once connected to your cluster.
-
-When you click a saved or favorited query tile, Compass opens the
-:guilabel:`Documents` tab with the filter loaded.
-
-When you click a saved or favorited pipeline tile, Compass opens the 
-:guilabel:`Aggregations` tab with the pipeline loaded.
-
-.. figure:: /images/compass/query-my-queries-splash.png
-   :figwidth: 720 px
-   :alt: My queries view
 
 .. toctree::
    :titlesonly:

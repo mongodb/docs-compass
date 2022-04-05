@@ -1,6 +1,6 @@
 You can favorite a query so that you can find it later. If you
-load a favorited query, you can change it without
-changing the original.
+load a favorite query, you can change it without
+changing the original saved copy.
 
 To add a query to your favorites:
 

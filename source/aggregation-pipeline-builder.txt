@@ -82,11 +82,12 @@ Open a Saved Pipeline
 
 .. note::
 
-   Starting in |compass| 1.31, you can view your favorite and saved 
-   queries and aggregation pipelines on the :guilabel:`My Queries` view 
+   Starting in |compass| 1.31, you can view your saved queries
+   and aggregation pipelines on the :guilabel:`My Queries` view 
    once connected to your cluster.
 
-   See :ref:`viewing saved aggregations<saved-query-view>` for details.
+   To learn more, see 
+   :ref:`viewing saved aggregations<saved-query-view>`.
 
 .. _use-sample-mode-or-auto-preview:
 
