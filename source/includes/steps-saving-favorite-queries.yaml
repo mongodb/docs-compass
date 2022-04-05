@@ -1,17 +1,6 @@
-title: Saving favorite queries
-level: 4
-ref: saving-favorite-queries
-content: |
-  You can favorite a query so that you can find it later. If you
-  load a favorite query, you can change it without
-  changing the original saved copy.
-
-  To add a query to your favorites:
-
----
 title: Open query history
 level: 4
-ref: click-history-button
+ref: saving-favorite-queries
 content: |
   Click the :guilabel:`History` button at the top of the pipeline 
   builder.
@@ -30,12 +19,11 @@ content: |
      :figwidth: 316 px
      :alt: Click star button
 ---
-title: Enter a name for your query
+title: Name your query
 level: 4
 ref: name-your-query
 content: |
-  Click the :guilabel:`History` button at the top of the pipeline
-  builder.
+  Enter a name for your query.
 
   .. figure:: /images/compass/query-add-favorite-name.png
      :figwidth: 316 px
