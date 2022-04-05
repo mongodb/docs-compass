@@ -25,7 +25,7 @@ Saving an Aggregation Pipeline
 Saving a Favorite Query
 -----------------------
 
-.. include:: /includes/fact-favorite-query.rst
+.. include:: /includes/steps/saving-favorite-queries.rst
 
 Viewing Favorite Queries
 ------------------------
@@ -53,22 +53,9 @@ You can also view favorite queries from the :guilabel:`Favorites` tab
 from in the :guilabel:`Documents` view. To open the 
 :guilabel:`Favorites` tab:
 
-1. Click the :guilabel:`History` button at the top of the 
-   :guilabel:`Documents` tab.
+.. include:: /includes/steps/viewing-favorite-queries.rst
 
-   .. figure:: /images/compass/query-history-view.png
-      :figwidth: 720 px
-      :alt: Query history view
-
-#. Click the :guilabel:`Favorites` button in the past queries pane.
-
-   .. figure:: /images/compass/query-history-favorite.png
-      :figwidth: 316px
-      :alt: Favorites
-
-   .. include:: /includes/steps/viewing-favorite-queries.rst
-
-   See also : :ref:`Viewing recent query history <recent-queries>`
+See also : :ref:`Viewing recent query history <recent-queries>`
 
 .. toctree::
    :titlesonly:
