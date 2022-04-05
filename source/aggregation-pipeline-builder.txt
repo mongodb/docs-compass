@@ -87,7 +87,7 @@ Open a Saved Pipeline
    once connected to your cluster.
 
    To learn more, see 
-   :ref:`viewing saved aggregations<saved-query-view>`.
+   :ref:`viewing saved aggregations<saved-query-view>` for details.
 
 .. _use-sample-mode-or-auto-preview:
 
