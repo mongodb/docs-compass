@@ -66,7 +66,7 @@ from in the :guilabel:`Documents` view. To open the
       :figwidth: 316px
       :alt: Favorites
 
-   .. include:: /includes/steps/open-query-history.rst
+   .. include:: /includes/steps/steps-viewing-favorite-queries.rst
 
    See also : :ref:`Viewing recent query history <recent-queries>`
 
