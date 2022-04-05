@@ -26,6 +26,4 @@
       :figwidth: 316 px
       :alt: Save favorite query
 
-   ..step:: Save
-
-      Click :guilabel:`Save`.
+   ..step:: Click :guilabel:`Save`.

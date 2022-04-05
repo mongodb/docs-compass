@@ -23,6 +23,4 @@ To save your pipeline:
       :figwidth: 316px
       :alt: Name your pipeline
 
-   ..step:: Save
-
-   Click :guilabel:`Save`.
+   ..step:: Click :guilabel:`Save`.
