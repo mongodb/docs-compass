@@ -17,10 +17,10 @@ To save your pipeline:
          :figwidth: 316px
          :alt: Save pipeline as
 
-   .. step:: Enter a name for your pipeline.
+   .. step:: Enter a name for your pipeline
 
       .. figure:: /images/compass/query-save-pipeline-as-name.png
          :figwidth: 316px
          :alt: Name your pipeline
 
-   .. step:: Click :guilabel:`Save`.
+   .. step:: Click :guilabel:`Save`

@@ -64,8 +64,8 @@ from in the :guilabel:`Documents` view. To open the
 
 .. include:: /includes/fact-viewing-favorite-queries.rst
 
-Saving Query History
---------------------
+Viewing Query History
+---------------------
 
 For details on how to view query history see
 :ref:`viewing recent query history <recent-queries>`.
