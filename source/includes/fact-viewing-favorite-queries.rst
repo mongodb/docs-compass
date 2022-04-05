@@ -1,22 +1,19 @@
-title: Open query history
-level: 4
-ref: viewing-favorite-queries
-content: |
+.. procedure::
+   :style: normal
+
+.. step:: Open query history
+
   Click the :guilabel:`History` button at the top of the 
   :guilabel:`Documents` tab.
 
   .. figure:: /images/compass/query-history-view.png
-     :figwidth: 720 px
-     :alt: Query history view
----
-title: Select favorites
-level: 4
-ref: click-favorites-button
-content: |
+      :figwidth: 720 px
+      :alt: Query history view
+
+.. step:: Select favorites
+
   Click the :guilabel:`Favorites` button in the past queries pane.
 
   .. figure:: /images/compass/query-history-favorite.png
-     :figwidth: 316px
-     :alt: Favorites
----
-...
+      :figwidth: 316px
+      :alt: Favorites

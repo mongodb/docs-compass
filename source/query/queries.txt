@@ -31,7 +31,7 @@ changing the original saved copy.
 
 To add a query to your favorites:
 
-.. include:: /includes/steps/saving-favorite-queries.rst
+.. include:: /includes/fact-saving-favorite-queries.rst
 
 Viewing Favorite Queries
 ------------------------
@@ -59,7 +59,7 @@ You can also view favorite queries from the :guilabel:`Favorites` tab
 from in the :guilabel:`Documents` view. To open the 
 :guilabel:`Favorites` tab:
 
-.. include:: /includes/steps/viewing-favorite-queries.rst
+.. include:: /includes/fact-viewing-favorite-queries.rst
 
 See also : :ref:`Viewing recent query history <recent-queries>`
 
