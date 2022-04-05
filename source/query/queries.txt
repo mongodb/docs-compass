@@ -31,7 +31,7 @@ changing the original saved copy.
 
 To add a query to your favorites:
 
-.. include:: /includes/fact-saving-favorite-queries.rst
+.. include:: /includes/fact-favorite-query.rst
 
 Viewing Favorite Queries
 ------------------------
@@ -61,7 +61,11 @@ from in the :guilabel:`Documents` view. To open the
 
 .. include:: /includes/fact-viewing-favorite-queries.rst
 
-See also : :ref:`Viewing recent query history <recent-queries>`
+Saving Query History
+--------------------
+
+For details on how to view query history see: 
+:ref:`viewing recent query history <recent-queries>`.
 
 .. toctree::
    :titlesonly:

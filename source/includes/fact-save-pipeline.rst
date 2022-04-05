@@ -5,17 +5,24 @@ changing the original saved copy. You can also create a :ref:`view
 
 To save your pipeline:
 
-1. Click the :guilabel:`Save` dropdown button at the top of the pipeline
+.. procedure::
+   :style: normal
+
+   ..step:: Open query history
+
+   Click the :guilabel:`Save` dropdown button at the top of the pipeline
    builder. Click on ``Save pipeline as...``
 
    .. figure:: /images/compass/query-save-pipeline-as.png
       :figwidth: 316px
       :alt: Save pipeline as
 
-#. Enter a name for your pipeline.
+   ..step:: Enter a name for your pipeline.
 
    .. figure:: /images/compass/query-save-pipeline-as-name.png
       :figwidth: 316px
       :alt: Name your pipeline
 
-#. Click :guilabel:`Save`.
+   ..step:: Save
+
+   Click :guilabel:`Save`.
