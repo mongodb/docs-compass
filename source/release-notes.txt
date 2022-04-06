@@ -22,7 +22,7 @@ Bug Fixes:
 - CRUD Fixes
 
   - Fixed a bug that updated a documents data type to String when 
-    editing a field of Date type in CRUD Document view.
+    editing a field of data type Date in CRUD Document view.
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/releases/tag/v1.31.1>`__.
