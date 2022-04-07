@@ -12,7 +12,8 @@ content: |
      :alt: Image showing selecting Favorite Connection dropdown
 
   |compass-short| displays a dropdown menu with options 
-  :guilabel:`Copy` and :guilabel:`Remove`.
+  :guilabel:`Copy Connection String`, :guilabel:`Duplicate`, and 
+  :guilabel:`Remove`.
 ---
 title: Click :guilabel:`Remove` from the dropdown menu.
 level: 4
