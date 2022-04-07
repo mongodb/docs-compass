@@ -13,7 +13,7 @@ content: |
   - To obtain the connection string from a recently used |compass-short| 
     deployment:
 
-    a. Open |compass-short| and view list of :guilabel:`Recent` connections 
+    a. Open |compass-short| and view the list of :guilabel:`Recent` connections 
        on the left panel.
     
     #. Click the :icon-fa5:`ellipsis-h` next to the desired connection.
