@@ -10,6 +10,16 @@ content: |
   or the :manual:`DNS Seedlist Connection Format
   </reference/connection-string/#connections-dns-seedlist>`.
 
+  - To obtain the connection string from a recently used |compass-short| 
+    deployment:
+
+    a. Open |compass-short| and view list of :guilabel:`Recent` connections 
+       on the left panel.
+    
+    #. Click the :icon-fa5:`ellipsis-h` next to the desired connection.
+
+    #. Click :guilabel:`Copy Connection String`.
+
   - To obtain the connection string for an |service| cluster:
   
     a. Navigate to your |service| :guilabel:`Clusters` view.
