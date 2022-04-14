@@ -46,6 +46,11 @@ Edit a Favorite Connection
 
 .. include:: /includes/steps/favorite-connection-edit.rst
 
+Rename a Favorite Connection
+----------------------------
+
+.. include:: /includes/steps/favorite-rename-connection.rst 
+
 Delete a Favorite Connection
 ----------------------------
 

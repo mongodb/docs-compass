@@ -1,0 +1,29 @@
+title: Click the desired connection under :guilabel:`Favorites`
+  in the left navigation panel.
+level: 4
+ref: locate-connection
+content: |
+  .. figure:: /images/compass/saved-favorite-connection.png
+     :figwidth: 600px
+     :alt: Saved Favorite Connection
+---
+title: Click :guilabel:`Favorite` at the top of the form.
+level: 4
+ref: favorite-button
+content: |
+  .. figure:: /images/compass/favorite-button-rename.png
+     :figwidth: 600px
+     :alt: Favorite Button
+---
+title: Enter new name for :guilabel:`Favorite` connection.
+level: 4
+ref: new-favorite-name
+content: |
+  .. figure:: /images/compass/new-favorite-name.png
+     :figwidth: 600px
+     :alt: New Favorite Name
+---
+title: Click :guilabel:`Save`.
+level: 4
+ref: save-favorite
+...
