@@ -10,6 +10,37 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.31.3
+----------------
+
+*Released May 17, 2022*
+
+New Features:
+
+- Export pipelines to Go.
+
+- Bump Node driver to version 4.6.0 and embedded shell to version 1.4.1.
+
+- Support columnstore indexes and clustered collections.
+
+- Add ``srvMaxHosts`` to advanced connection options.
+
+- Disable aggregation toolbar options when pipeline is invalid.
+
+- Style improvements.
+
+Bug fixes:
+
+- In connection form, allow empty hosts.
+
+- In aggregation pipeline builder, update default document preview
+  amount from 10 to 20.
+
+- Resize elements for improved visibility.
+
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/releases/tag/v1.31.3>`__.
+
 |compass| 1.31.2
 ----------------
 
