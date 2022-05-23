@@ -19,11 +19,14 @@ New Features:
 
 - Export pipelines to Go.
 
-- Bump Node driver to version 4.6.0 and embedded shell to version 1.4.1.
+- Bump Node driver to version 4.6.0 and embedded shell to version 1.4.1
+  (:issue:`COMPASS-5619`).
 
-- Support columnstore indexes and clustered collections.
+- Support columnstore indexes and clustered collections
+  (:issue:`COMPASS-5665`, :issue:`COMPASS-5666`).
 
-- Add ``srvMaxHosts`` to advanced connection options.
+- Add ``srvMaxHosts`` to advanced connection options
+  (:issue:`COMPASS-561`).
 
 - Disable aggregation toolbar options when pipeline is invalid.
 
