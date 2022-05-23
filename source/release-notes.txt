@@ -25,8 +25,7 @@ New Features:
 - Support columnstore indexes and clustered collections
   (:issue:`COMPASS-5665`, :issue:`COMPASS-5666`).
 
-- Add ``srvMaxHosts`` to advanced connection options
-  (:issue:`COMPASS-561`).
+- Add ``srvMaxHosts`` to advanced connection options.
 
 - Disable aggregation toolbar options when pipeline is invalid.
 
