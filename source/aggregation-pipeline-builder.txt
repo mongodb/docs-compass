@@ -73,10 +73,18 @@ Save a Pipeline
 Open a Saved Pipeline
 ---------------------
 
-1. Click the :guilabel:`Folder` icon at the top left of the
+1. Click :guilabel:`Pipeline` at the top left of the
    pipeline builder.
 
+   .. figure:: /images/compass/saved-pipeline-icon.png
+         :figwidth: 316px
+         :alt: Saved Pipeline Icon
+
 #. Hover over the pipeline you want to open and click :guilabel:`Open`.
+
+   .. figure:: /images/compass/saved-pipelines.png
+         :figwidth: 316px
+         :alt: Saved Pipelines List 
 
 #. In the modal, click :guilabel:`Open Pipeline`.
 
@@ -165,8 +173,12 @@ letter case and accent marks.
 
 To specify a custom collation:
 
-#. Click the :guilabel:`Collation` button at the top of the pipeline
-   builder.
+#. Click :guilabel:`More Options` in the top right corner of the pipeline 
+   builder. 
+
+   .. figure:: /images/compass/options-collation.png
+        :figwidth: 316px
+        :alt: Collation Option
 
 #. Enter your collation document.
 
