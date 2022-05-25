@@ -51,19 +51,17 @@ content: |
          .. figure:: /images/compass/agg-builder-exclude-stage-example.png
             :alt: Aggregation Builder exclude stage example
 ---
-title: Run Pipeline
+title: Run Pipeline.
 level: 4
 ref: run-aggregation
 content: |
   Click :guilabel:`Run` at the top right of the pipeline builder. 
-
-  |compass-short| returns the documents found in the provided aggregation
-  pipeline. 
+  |compass-short| returns your results in the document view.
 
   .. figure:: /images/compass/run-results.png
        :alt: Results after Running Aggregation
 ---
-title: Edit Pipeline
+title: Edit Pipeline.
 level: 4
 ref: edit-after-run
 content: |
