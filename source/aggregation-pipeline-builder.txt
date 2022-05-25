@@ -77,11 +77,13 @@ Open a Saved Pipeline
    pipeline builder.
 
    .. figure:: /images/compass/saved-pipeline-icon.png
+         :figwidth: 316px
          :alt: Saved Pipeline Icon
 
 #. Hover over the pipeline you want to open and click :guilabel:`Open`.
 
    .. figure:: /images/compass/saved-pipelines.png
+         :figwidth: 316px
          :alt: Saved Pipelines List 
 
 #. In the modal, click :guilabel:`Open Pipeline`.
