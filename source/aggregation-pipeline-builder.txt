@@ -77,13 +77,11 @@ Open a Saved Pipeline
    pipeline builder.
 
    .. figure:: /images/compass/saved-pipeline-icon.png
-         :figwidth: 316px
          :alt: Saved Pipeline Icon
 
 #. Hover over the pipeline you want to open and click :guilabel:`Open`.
 
    .. figure:: /images/compass/saved-pipelines.png
-         :figwidth: 316px
          :alt: Saved Pipelines List 
 
 #. In the modal, click :guilabel:`Open Pipeline`.
@@ -147,11 +145,6 @@ To view and change pipeline settings:
       * - .. data:: Number of Preview Documents
         - Number of documents to show in the preview.
         - 20
-      * - .. data:: Max Time
-        - Cumulative time limit in milliseconds for processing
-          the pipeline. Use this option to limit the waiting time if
-          the pipeline stops responding.
-        - 5000
       * - .. data:: Limit
         - When :guilabel:`Sample Mode` is enabled, specifies the number of
           documents passed to :pipeline:`$group`, :pipeline:`$bucket`, and
@@ -177,7 +170,6 @@ To specify a custom collation:
    builder. 
 
    .. figure:: /images/compass/options-collation.png
-        :figwidth: 316px
         :alt: Collation Option
 
 #. Enter your collation document.
