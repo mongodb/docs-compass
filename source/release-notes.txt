@@ -16,7 +16,8 @@ Release Notes
 *Released June 7, 2022*
 
 Fixes an issue where ``$out`` and ``$merge`` aggregation stages would
-not appear when connected to a :atlas:`Data Lake </data-lake>`.
+not appear in the pipeline builder when connected to a :atlas:`Data Lake
+</data-lake>`.
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/releases/tag/v1.32.2>`__.
