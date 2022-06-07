@@ -15,7 +15,7 @@ Release Notes
 
 *Released June 7, 2022*
 
-Fixes an issue where ``$out`` and ``$merge`` aggregation stages would
+Fixes an issue where ``$merge`` and ``$out`` aggregation stages would
 not appear in the pipeline builder when connected to a :atlas:`Data Lake
 </data-lake>`.
 
