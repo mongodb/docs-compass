@@ -162,9 +162,9 @@ To view and change pipeline settings:
 Explain Plan for Pipelines
 --------------------------
 
-The :guilabel:`Explain Plan` for aggregation pipelines allows you to 
-understand the performance of your pipelines. You can view your 
-:guilabel:`Explain Plan` at any point while creating or editing your pipeline. 
+Use the :guilabel:`Explain Plan` to help you understand the performance of 
+your pipelines. You can view your :guilabel:`Explain Plan` at any point while 
+creating or editing your pipeline. 
 
 To view your pipeline :guilabel:`Explain Plan`, click :guilabel:`Explain` in the 
 right corner of your pipeline toolbar.
@@ -175,7 +175,7 @@ right corner of your pipeline toolbar.
 Your results are presented in the following format: 
 
 .. figure:: /images/compass/agg-explain-results.png
-    :figwidth: 316px
+    :figwidth: 450px
     :alt: Aggregation Pipeline Builder Explain Results
 
 Specify Custom Collation
