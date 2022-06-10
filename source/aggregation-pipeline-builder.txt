@@ -162,7 +162,7 @@ To view and change pipeline settings:
 Explain Plan for Pipelines
 --------------------------
 
-Use the :guilabel:`Explain` button to view your explain plan that helps you 
+Use the :guilabel:`Explain` button to view the explain plan that helps you 
 understand the performance of your pipelines. You can view the explain plan 
 at any point while creating or editing your pipeline. 
 
