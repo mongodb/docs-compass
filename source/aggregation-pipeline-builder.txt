@@ -40,6 +40,8 @@ You can:
 
 - :ref:`View or change pipeline settings <change-pipeline-settings>`
 
+- :ref:`Explain Plan for Pipelines <explain-plan-pipeline>` 
+
 - :ref:`Specify custom collation <pipeline-custom-collation>`
 
 - :ref:`Create a view from pipeline results <create-a-view>`
@@ -156,6 +158,27 @@ To view and change pipeline settings:
 
 #. Click :guilabel:`Apply` to save changes and close the
    :guilabel:`Settings` panel.
+
+.. _explain-plan-pipeline:
+
+Explain Plan for Pipelines
+--------------------------
+
+Use the :guilabel:`Explain` button to view the explain plan that helps you 
+understand the performance of your pipelines. You can view the explain plan 
+at any point while creating or editing your pipeline. 
+
+To view your pipeline explain plan, click :guilabel:`Explain` in the 
+right corner of your pipeline toolbar.
+
+.. figure:: /images/compass/agg-explain-plan.png
+    :alt: Aggregation Pipeline Builder Explain Plan
+
+Your results are presented in this format: 
+
+.. figure:: /images/compass/agg-explain-results.png
+    :figwidth: 450px
+    :alt: Aggregation Pipeline Builder Explain Results
 
 .. _pipeline-custom-collation:
 
