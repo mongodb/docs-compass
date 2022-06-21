@@ -1,0 +1,213 @@
+.. _in-use-encryption-tab:
+
+=================
+In-Use Encryption 
+=================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. note::
+
+   In-Use Encryption is an Enterprise/Atlas only feature. 
+
+The :guilabel:`In-Use Encryption` connection tab allows you to connect your 
+deployments using :manual:`Queryable Encryption
+</core/queryable-encryption/>`. 
+
+Procedure
+---------
+
+.. procedure::
+   :style: normal
+
+   .. step:: Click :guilabel:`Advanced Connection Options`.
+
+      .. figure:: /images/compass/advanced-connection-options.png
+         :figwidth: 690px
+         :alt: New Advanced Connection Options
+
+   .. step:: Click the :guilabel:`In-Use Encryption` tab.
+
+      .. procedure::
+         :style: connected
+
+         .. step:: Provide a :guilabel:`Key Vault Namespace`.
+
+            A :guilabel:`Key Vault Namespace` refers to a collection that 
+            contains all the data keys used for encryption and decryption. 
+
+         .. step:: Select a :guilabel:`KMS Provider`.
+
+            You can select from the following Key Management Systems: 
+
+            - :ref:`Local KMS <local-kms>`
+            
+            - :ref:`AWS <aws-compass-encryption>`
+            
+            - :ref:`GCP <gcp-compass-encryption>`
+            
+            - :ref:`Azure <azure-compass-encryption>`
+            
+            - :ref:`KMIP <kmip-compass-encryption>`
+
+            .. _local-kms:
+
+            Local KMS
+            ~~~~~~~~~
+
+            You can locally manage your key as a KMS using the :guilabel:`Local KMS`
+            option.  
+
+            Click :guilabel:`Generate Random Key` to generate a 96-byte long 
+            base64-encoded string. You need this key to access encrypted data.
+
+            .. warning::
+
+               |compass-short| does not save KMS credentials by default. Copy 
+               and save the key in an external location.
+
+            .. _aws-compass-encryption:
+
+            AWS
+            ~~~
+
+            You can use :atlas:`AWS </security-aws-kms/>` to manage your keys.
+
+            Specify the following fields:
+
+            .. list-table::
+               :header-rows: 1 
+               :widths: 50 50
+
+               * - Access Key Id 
+                 - Value of your AWS access key Id
+
+               * - Secret Access Key
+                 - Value of your AWS secret key.
+
+               * - Session Token
+                 - (Optional) Value of your AWS session token. 
+               
+               * - Certificate Authority
+                 - (Optional) One or more certificate files from trusted Certificate 
+                   Authorities to validate the certificate provided by the deployment.
+               
+               * - Client Certificate and Key
+                 - (Optional) Specifies the location of a local .pem file that contains 
+                   either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
+                   certificate and key.
+                
+               * - Client Key Password
+                 - (Optional) If the *Client Private Key* is protected with a password, 
+                   you must provide the password.
+
+            .. _gcp-compass-encryption:
+
+            GCP
+            ~~~
+
+            You can use :atlas:`Google Cloud Services </security-gcp-kms/>` to 
+            manage your keys.
+
+            Specify the following fields:
+
+            .. list-table::
+               :header-rows: 1 
+               :widths: 50 50
+
+               * - Service Account Email
+                 - The service account email to authenticate.
+
+               * - Private Key
+                 - A base64-encoded private key.
+
+               * - Endpoint
+                 - (Optional) A host with an optional port.
+
+               * - Certificate Authority
+                 - (Optional) One or more certificate files from trusted Certificate 
+                   Authorities to validate the certificate provided by the deployment.
+               
+               * - Client Certificate and Key
+                 - (Optional) Specifies the location of a local .pem file that contains 
+                   either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
+                   certificate and key.
+                
+               * - Client Key Password
+                 - (Optional) If the *Client Private Key* is protected with a password, 
+                   you must provide the password.
+
+            .. _azure-compass-encryption:
+
+            Azure
+            ~~~~~
+
+            You can use :manual:`Azure Key Vault </core/security-client-side-encryption-key-management/#std-label-field-level-encryption-azure-keyvault/>` to manage your 
+            keys.
+
+            Specify the following fields:
+
+            .. list-table::
+               :header-rows: 1 
+               :widths: 50 50
+
+               * - Tenant Id 
+                 - Identifies the organization for the account.
+
+               * - Client Id 
+                 - Authenticates a registered application.
+
+               * - Client Secret
+                 - The client secret to authenticate a registered application.
+
+               * - Identity Platform Endpoint
+                 - A host with an optional port. 
+
+               * - Certificate Authority
+                 - (Optional) One or more certificate files from trusted Certificate 
+                   Authorities to validate the certificate provided by the deployment.
+               
+               * - Client Certificate and Key
+                 - (Optional) Specifies the location of a local .pem file that contains 
+                   either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
+                   certificate and key.
+                
+               * - Client Key Password
+                 - (Optional) If the *Client Private Key* is protected with a password, 
+                   you must provide the password.  
+
+
+            .. _kmip-compass-encryption:
+
+            KMIP
+            ~~~~
+
+            .. list-table::
+               :header-rows: 1 
+               :widths: 50 50
+
+               * - Endpoint
+                 - The endpoint consists of a hostname and port separated by a colon.
+
+               * - Certificate Authority
+                 - (Optional) One or more certificate files from trusted Certificate 
+                   Authorities to validate the certificate provided by the deployment.
+
+               * - Client Certificate and Key
+                 - (Optional) Specifies the location of a local .pem file that contains 
+                   either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
+                   certificate and key.
+
+               * - Client Key Password
+                 - (Optional) If the *Client Private Key* is protected with a password, 
+                   you must provide the password. 
+
+        .. step:: (Optional) EncryptedFieldsMap
+
+            Add an optional client-side EncryptedFieldsMap for enhanced security.
