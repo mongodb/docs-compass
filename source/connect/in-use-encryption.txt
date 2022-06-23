@@ -231,3 +231,5 @@ Procedure
             Add an optional client-side EncryptedFieldsMap for enhanced security.
 
             For more information, see :manual:`Fields for Encryption </core/queryable-encryption/>`.
+
+   .. step::  Click Connect.
