@@ -42,6 +42,9 @@ Procedure
             A :guilabel:`Key Vault Namespace` refers to a collection that 
             contains all the data keys used for encryption and decryption. 
 
+            Specify a collection in which data encryption keys are stored in 
+            the format ``<db>.<collection>``.
+
          .. step:: Select a :guilabel:`KMS Provider`.
 
             You can select from the following Key Management Systems: 
@@ -85,6 +88,9 @@ Procedure
                :header-rows: 1 
                :widths: 50 50
 
+               * - Field
+                 - Description 
+
                * - Access Key Id 
                  - Value of your AWS access key Id
 
@@ -120,6 +126,9 @@ Procedure
             .. list-table::
                :header-rows: 1 
                :widths: 50 50
+
+               * - Field
+                 - Description 
 
                * - Service Account Email
                  - The service account email to authenticate.
@@ -157,6 +166,9 @@ Procedure
                :header-rows: 1 
                :widths: 50 50
 
+               * - Field
+                 - Description 
+
                * - Tenant Id 
                  - Identifies the organization for the account.
 
@@ -188,9 +200,15 @@ Procedure
             KMIP
             ~~~~
 
+            You can use :manual:`KMIP </core/csfle/tutorials/kmip/kmip-automatic/>` 
+            to manage your keys. 
+
             .. list-table::
                :header-rows: 1 
                :widths: 50 50
+
+               * - Field
+                 - Description 
 
                * - Endpoint
                  - The endpoint consists of a hostname and port separated by a colon.
@@ -208,6 +226,8 @@ Procedure
                  - (Optional) If the *Client Private Key* is protected with a password, 
                    you must provide the password. 
 
-        .. step:: (Optional) EncryptedFieldsMap
+        .. step:: (Optional) Specify an EncryptedFieldsMap
 
             Add an optional client-side EncryptedFieldsMap for enhanced security.
+
+            For more information, see :manual:`Fields for Encryption </core/queryable-encryption/fundamentals/encrypt-and-query/#specify-fields-for-encryption/>`.
