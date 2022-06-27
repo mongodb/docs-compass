@@ -18,7 +18,7 @@ In-Use Encryption
    replica set to use this connection option. 
 
 The :guilabel:`In-Use Encryption` connection tab allows you to connect your
-deployments using :v6.0:`Queryable Encryption </core/queryable-encryption/>`. 
+deployments using :manual:`Queryable Encryption </core/queryable-encryption/>`. 
 
 Procedure
 ---------
@@ -228,7 +228,7 @@ Procedure
             KMIP
             ~~~~
 
-            You can use :v6.0:`KMIP </core/csfle/tutorials/kmip/kmip-automatic/>` 
+            You can use :manual:`KMIP </core/csfle/tutorials/kmip/kmip-automatic/>` 
             to manage your keys. 
 
             .. list-table::
