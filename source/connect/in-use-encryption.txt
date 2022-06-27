@@ -14,11 +14,11 @@ In-Use Encryption
 
 .. note::
 
-   In-Use Encryption is an Enterprise/Atlas only feature. 
+   In-Use Encryption is an Enterprise/Atlas only feature. You need a 3-node 
+   replica set to use this connection option. 
 
-The :guilabel:`In-Use Encryption` connection tab allows you to connect your 
-deployments using :manual:`Queryable Encryption
-</core/queryable-encryption/>`. 
+The :guilabel:`In-Use Encryption` connection tab allows you to connect your
+deployments using :v6.0:`Queryable Encryption </core/queryable-encryption/>`. 
 
 Procedure
 ---------
@@ -45,6 +45,11 @@ Procedure
             Specify a collection in which data encryption keys are stored in 
             the format ``<db>.<collection>``.
 
+            .. note::
+            
+               The non-official default database/collection for keyVault is 
+               ``encryption._keyVault``.
+
          .. step:: Select a :guilabel:`KMS Provider`.
 
             You can select from the following Key Management Systems: 
@@ -68,7 +73,8 @@ Procedure
             option.  
 
             Click :guilabel:`Generate Random Key` to generate a 96-byte long 
-            base64-encoded string. You need this key to access encrypted data.
+            base64-encoded string. You need this key to access encrypted and 
+            decrypted data.
 
             .. warning::
 
@@ -86,32 +92,39 @@ Procedure
 
             .. list-table::
                :header-rows: 1 
-               :widths: 50 50
+               :widths: 50 50 50
 
                * - Field
                  - Description 
+                 - Required
 
                * - Access Key Id 
-                 - Value of your AWS access key Id
+                 - Value of your AWS access key Id.
+                 - Yes.
 
                * - Secret Access Key
                  - Value of your AWS secret key.
+                 - Yes.
 
                * - Session Token
-                 - (Optional) Value of your AWS session token. 
+                 - Value of your AWS session token. 
+                 - No.
                
                * - Certificate Authority
-                 - (Optional) One or more certificate files from trusted Certificate 
+                 - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
+                 - No.
                
                * - Client Certificate and Key
-                 - (Optional) Specifies the location of a local .pem file that contains 
+                 - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
+                 - No. 
                 
                * - Client Key Password
-                 - (Optional) If the *Client Private Key* is protected with a password, 
+                 - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
+                 - No. 
 
             .. _gcp-compass-encryption:
 
@@ -125,32 +138,39 @@ Procedure
 
             .. list-table::
                :header-rows: 1 
-               :widths: 50 50
+               :widths: 50 50 50
 
                * - Field
                  - Description 
+                 - Required
 
                * - Service Account Email
                  - The service account email to authenticate.
+                 - Yes.
 
                * - Private Key
                  - A base64-encoded private key.
+                 - Yes.
 
                * - Endpoint
                  - (Optional) A host with an optional port.
+                 - No.
 
                * - Certificate Authority
-                 - (Optional) One or more certificate files from trusted Certificate 
+                 - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
+                 - No.
                
                * - Client Certificate and Key
-                 - (Optional) Specifies the location of a local .pem file that contains 
+                 - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
+                 - No.
                 
                * - Client Key Password
-                 - (Optional) If the *Client Private Key* is protected with a password, 
+                 - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
+                 - No.
 
             .. _azure-compass-encryption:
 
@@ -164,35 +184,43 @@ Procedure
 
             .. list-table::
                :header-rows: 1 
-               :widths: 50 50
+               :widths: 50 50 50
 
                * - Field
                  - Description 
+                 - Required
 
                * - Tenant Id 
                  - Identifies the organization for the account.
+                 - Yes.
 
                * - Client Id 
                  - Authenticates a registered application.
+                 - Yes.
 
                * - Client Secret
                  - The client secret to authenticate a registered application.
+                 - Yes.
 
                * - Identity Platform Endpoint
                  - A host with an optional port. 
+                 - Yes.
 
                * - Certificate Authority
-                 - (Optional) One or more certificate files from trusted Certificate 
+                 - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
+                 - No.
                
                * - Client Certificate and Key
-                 - (Optional) Specifies the location of a local .pem file that contains 
+                 - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                
+                 - No.
+
                * - Client Key Password
-                 - (Optional) If the *Client Private Key* is protected with a password, 
+                 - If the *Client Private Key* is protected with a password, 
                    you must provide the password.  
+                 - No. 
 
 
             .. _kmip-compass-encryption:
@@ -200,31 +228,36 @@ Procedure
             KMIP
             ~~~~
 
-            You can use :manual:`KMIP </core/csfle/tutorials/kmip/kmip-automatic/>` 
+            You can use :v6.0:`KMIP </core/csfle/tutorials/kmip/kmip-automatic/>` 
             to manage your keys. 
 
             .. list-table::
                :header-rows: 1 
-               :widths: 50 50
+               :widths: 50 50 50
 
                * - Field
                  - Description 
+                 - Required
 
                * - Endpoint
                  - The endpoint consists of a hostname and port separated by a colon.
+                 - Yes.
 
                * - Certificate Authority
-                 - (Optional) One or more certificate files from trusted Certificate 
+                 - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
+                 - No.
 
                * - Client Certificate and Key
-                 - (Optional) Specifies the location of a local .pem file that contains 
+                 - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
+                 - No.
 
                * - Client Key Password
-                 - (Optional) If the *Client Private Key* is protected with a password, 
-                   you must provide the password. 
+                 - If the *Client Private Key* is protected with a password, 
+                   you must provide the password.
+                 - No. 
 
         .. step:: (Optional) Specify an EncryptedFieldsMap
 
