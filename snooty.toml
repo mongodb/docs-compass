@@ -14,7 +14,7 @@ toc_landing_pages = ["/install", "/connect", "/instance", "/query/filter", "/que
 download-page = "`downloads page <https://www.mongodb.com/download-center/compass?tck=docs_compass>`__"
 current-version = "1.31.1"
 
-[banners]]
+[[banners]]
 targets = [
     "connect/in-use-encryption.txt",
 ]
