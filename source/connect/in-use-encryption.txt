@@ -12,13 +12,11 @@ In-Use Encryption
    :depth: 1
    :class: singlecol
 
-.. note::
-
-   In-Use Encryption is an Enterprise/Atlas only feature. You need a 3-node 
-   replica set to use this connection option. 
-
 The :guilabel:`In-Use Encryption` connection tab allows you to connect your
-deployments using :v6.0:`Queryable Encryption </core/queryable-encryption/>`. 
+deployments using :v6.0:`Queryable Encryption </core/queryable-encryption/>`.
+
+In-Use Encryption is an Enterprise/Atlas only feature. You need a replica set 
+to use this connection option. 
 
 Procedure
 ---------
