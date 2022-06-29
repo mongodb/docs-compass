@@ -58,6 +58,11 @@ content: |
   Click :guilabel:`Run` at the top right of the pipeline builder. 
   |compass-short| returns your results in the document view.
 
+  .. warning::
+
+     When you click :guilabel:`Run`, the aggregation runs against the entire 
+     collection.
+
   .. figure:: /images/compass/run-results.png
        :alt: Results after Running Aggregation
 ---

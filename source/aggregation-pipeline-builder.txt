@@ -199,6 +199,49 @@ To specify a custom collation:
 
 #. Enter your collation document.
 
+Export Aggregation Results
+--------------------------
+
+To export results from your aggregation pipeline:
+
+.. procedure::
+   :style: normal
+
+   .. step:: Connect to the deployment containing the
+      :doc:`collection </collections>` you wish to export data from.
+
+      To learn how to connect to a deployment, see
+      :ref:`connect-run-compass`.
+
+   .. step:: Navigate to your desired collection.
+
+      You can either select the collection from the
+      :doc:`Collections </collections>` tab or click the collection 
+      in the left-hand pane. 
+
+   .. step:: Create an aggregation pipeline and run for results.
+
+      To learn how to create an aggregation pipeline, see :ref:`Create an 
+      Aggregation Pipeline <create-agg-pipeline>`. 
+
+   .. step:: Click :guilabel:`Export`.
+
+   .. step:: Choose the appropriate file type.
+
+      Under :guilabel:`Select Export File Type`, select either 
+      :guilabel:`JSON` or :guilabel:`CSV`. If you select :guilabel:`JSON`,
+      your data is exported to the target file as a comma-separated 
+      array of JSON objects.
+
+      Then, under :guilabel:`Output`, choose where to export the file to.
+
+      .. figure:: /images/compass/aggregation-export.png
+         :alt: Export Aggregation Data
+         :width: 70%
+
+   .. step:: Click :guilabel:`Export`. 
+
+
 .. _create-a-view:
 
 Create a View from Pipeline Results
