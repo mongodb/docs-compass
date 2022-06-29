@@ -18,7 +18,7 @@ In-Use Encryption
    replica set to use this connection option. 
 
 The :guilabel:`In-Use Encryption` connection tab allows you to connect your
-deployments using :manual:`Queryable Encryption </core/queryable-encryption/>`. 
+deployments using :v6.0:`Queryable Encryption </core/queryable-encryption/>`. 
 
 Procedure
 ---------
@@ -69,7 +69,8 @@ Procedure
             Local KMS
             ~~~~~~~~~
 
-            You can locally manage your key as a KMS using the :guilabel:`Local KMS`
+            You can locally manage your key as a KMS using the 
+            :v6.0:`Local KMS </core/queryable-encryption/fundamentals/kms-providers/#local-key-provider>`
             option.  
 
             Click :guilabel:`Generate Random Key` to generate a 96-byte long 
@@ -86,7 +87,8 @@ Procedure
             AWS
             ~~~
 
-            You can use :atlas:`AWS </security-aws-kms/>` to manage your keys.
+            You can use :v6.0:`AWS </core/queryable-encryption/fundamentals/kms-providers/#amazon-web-services-kms>` 
+            to manage your keys.
 
             Specify the following fields:
 
@@ -100,39 +102,38 @@ Procedure
 
                * - Access Key Id 
                  - Value of your AWS access key Id.
-                 - Yes.
+                 - Yes
 
                * - Secret Access Key
                  - Value of your AWS secret key.
-                 - Yes.
+                 - Yes
 
                * - Session Token
                  - Value of your AWS session token. 
-                 - No.
+                 - No
                
                * - Certificate Authority
                  - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
-                 - No.
+                 - No
                
                * - Client Certificate and Key
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No. 
+                 - No
                 
                * - Client Key Password
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
-                 - No. 
+                 - No
 
             .. _gcp-compass-encryption:
 
             GCP
             ~~~
 
-            You can use :atlas:`Google Cloud Services </security-gcp-kms/>` to 
-            manage your keys.
+            You can use :v6.0:`Google Cloud Services </core/queryable-encryption/fundamentals/kms-providers/#google-cloud-platform-kms>` to manage your keys.
 
             Specify the following fields:
 
@@ -146,38 +147,38 @@ Procedure
 
                * - Service Account Email
                  - The service account email to authenticate.
-                 - Yes.
+                 - Yes
 
                * - Private Key
                  - A base64-encoded private key.
-                 - Yes.
+                 - Yes
 
                * - Endpoint
-                 - (Optional) A host with an optional port.
-                 - No.
+                 - A host with an optional port.
+                 - No
 
                * - Certificate Authority
                  - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
-                 - No.
+                 - No
                
                * - Client Certificate and Key
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No.
+                 - No
                 
                * - Client Key Password
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
-                 - No.
+                 - No
 
             .. _azure-compass-encryption:
 
             Azure
             ~~~~~
 
-            You can use :manual:`Azure Key Vault </core/security-client-side-encryption-key-management/#std-label-field-level-encryption-azure-keyvault/>` to manage your 
+            You can use :v6.0:`Azure Key Vault </core/queryable-encryption/fundamentals/kms-providers/#azure-key-vault>` to manage your 
             keys.
 
             Specify the following fields:
@@ -192,35 +193,35 @@ Procedure
 
                * - Tenant Id 
                  - Identifies the organization for the account.
-                 - Yes.
+                 - Yes
 
                * - Client Id 
                  - Authenticates a registered application.
-                 - Yes.
+                 - Yes
 
                * - Client Secret
                  - The client secret to authenticate a registered application.
-                 - Yes.
+                 - Yes
 
                * - Identity Platform Endpoint
                  - A host with an optional port. 
-                 - Yes.
+                 - Yes
 
                * - Certificate Authority
                  - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
-                 - No.
+                 - No
                
                * - Client Certificate and Key
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No.
+                 - No
 
                * - Client Key Password
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.  
-                 - No. 
+                 - No
 
 
             .. _kmip-compass-encryption:
@@ -228,7 +229,7 @@ Procedure
             KMIP
             ~~~~
 
-            You can use :manual:`KMIP </core/csfle/tutorials/kmip/kmip-automatic/>` 
+            You can use :v6.0:`KMIP </core/queryable-encryption/fundamentals/kms-providers/#kmip>` 
             to manage your keys. 
 
             .. list-table::
@@ -241,28 +242,28 @@ Procedure
 
                * - Endpoint
                  - The endpoint consists of a hostname and port separated by a colon.
-                 - Yes.
+                 - Yes
 
                * - Certificate Authority
                  - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
-                 - No.
+                 - No
 
                * - Client Certificate and Key
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No.
+                 - No
 
                * - Client Key Password
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
-                 - No. 
+                 - No 
 
         .. step:: (Optional) Specify an EncryptedFieldsMap
 
             Add an optional client-side EncryptedFieldsMap for enhanced security.
 
-            For more information, see :manual:`Fields for Encryption </core/queryable-encryption/>`.
+            For more information, see :v6.0:`Fields for Encryption </core/queryable-encryption/fundamentals/encrypt-and-query/#std-label-qe-fundamentals-encrypt-query>`.
 
    .. step::  Click Connect.
