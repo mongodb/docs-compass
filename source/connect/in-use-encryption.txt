@@ -43,12 +43,8 @@ Procedure
             contains all the data keys used for encryption and decryption. 
 
             Specify a collection in which data encryption keys are stored in 
-            the format ``<db>.<collection>``.
-
-            .. note::
-            
-               The non-official default database/collection for keyVault is 
-               ``encryption._keyVault``.
+            the format ``<db>.<collection>``. The non-official default 
+            database/collection for keyVault is ``encryption._keyVault``.
 
          .. step:: Select a :guilabel:`KMS Provider`.
 
