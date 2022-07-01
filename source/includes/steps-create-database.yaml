@@ -23,6 +23,18 @@ content: |
    </reference/collation/#collation-document>` on the newly created
    collection, select the :guilabel:`Use Custom Collation` checkbox
    and select the desired collation settings.
+
+   If your deployment is connected using :guilabel:`In-Use Encryption`, you can 
+   use :v6.0:`Queryable Encryption </core/queryable-encryption/>` on the newly 
+   created collection. Select the :guilabel:`Queryable Encryption` checkbox
+   and indicate the following:
+
+   - :v6.0:`Encrypted Fields </core/queryable-encryption/fundamentals/encrypt-and-query/>`.
+
+   - (Optional) :v6.0:`KMS Provider </core/queryable-encryption/fundamentals/kms-providers/>`.
+
+   - (Optional) :v6.0:`Key Encryption Key </core/queryable-encryption/fundamentals/keys-key-vaults/>`. 
+   
 ---
 title: Click :guilabel:`Create Database` to create the database and its first collection.
 level: 4
