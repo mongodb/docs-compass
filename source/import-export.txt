@@ -23,6 +23,8 @@ or from a collection, navigate to the detailed collection view by either
 selecting the collection from the :doc:`Databases </databases>` tab or
 clicking the collection in the left-side navigation.
 
+.. _import-data:
+
 Import Data into a Collection
 -----------------------------
 
@@ -192,8 +194,7 @@ Procedure
 
             Under :guilabel:`Select Export File Type`, select either 
             :guilabel:`JSON` or :guilabel:`CSV`. If you select :guilabel:`JSON`,
-            your data is exported to the target file as a comma-separated 
-            array of JSON objects.
+            your data is exported to the target file as an array of JSON objects.
 
             Then, under :guilabel:`Output`, choose where to export the file to.
 

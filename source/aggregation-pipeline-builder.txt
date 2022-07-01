@@ -42,6 +42,8 @@ You can:
 
 - :ref:`Explain Plan for Pipelines <explain-plan-pipeline>` 
 
+- :ref:`Export Aggregation Results <export-agg-builder-results>`
+
 - :ref:`Specify custom collation <pipeline-custom-collation>`
 
 - :ref:`Create a view from pipeline results <create-a-view>`
@@ -199,47 +201,46 @@ To specify a custom collation:
 
 #. Enter your collation document.
 
+.. _export-agg-builder-results:
+
 Export Aggregation Results
 --------------------------
 
 To export results from your aggregation pipeline:
 
-.. procedure::
-   :style: normal
+#. Connect to the deployment containing the
+   :doc:`collection </collections>` you wish to export data from.
 
-   .. step:: Connect to the deployment containing the
-      :doc:`collection </collections>` you wish to export data from.
+   To learn how to connect to a deployment, see
+   :ref:`connect-run-compass`.
 
-      To learn how to connect to a deployment, see
-      :ref:`connect-run-compass`.
+#. Navigate to your desired collection.
 
-   .. step:: Navigate to your desired collection.
+   You can either select the collection from the
+   :doc:`Collections </collections>` tab or click the collection 
+   in the left-hand pane. 
 
-      You can either select the collection from the
-      :doc:`Collections </collections>` tab or click the collection 
-      in the left-hand pane. 
+#. Create an aggregation pipeline and run for results.
 
-   .. step:: Create an aggregation pipeline and run for results.
+   To learn how to create an aggregation pipeline, see :ref:`Create an 
+   Aggregation Pipeline <create-agg-pipeline>`. 
 
-      To learn how to create an aggregation pipeline, see :ref:`Create an 
-      Aggregation Pipeline <create-agg-pipeline>`. 
+#. Click :guilabel:`Export`.
 
-   .. step:: Click :guilabel:`Export`.
+#. Choose the appropriate file type.
 
-   .. step:: Choose the appropriate file type.
+   Under :guilabel:`Select Export File Type`, select either 
+   :guilabel:`JSON` or :guilabel:`CSV`. If you select :guilabel:`JSON`,
+   your data is exported to the target file as a comma-separated 
+   array of JSON objects.
 
-      Under :guilabel:`Select Export File Type`, select either 
-      :guilabel:`JSON` or :guilabel:`CSV`. If you select :guilabel:`JSON`,
-      your data is exported to the target file as a comma-separated 
-      array of JSON objects.
+   Then, under :guilabel:`Output`, choose where to export the file to.
 
-      Then, under :guilabel:`Output`, choose where to export the file to.
+   .. figure:: /images/compass/aggregation-export.png
+      :alt: Export Aggregation Data
+      :width: 70%
 
-      .. figure:: /images/compass/aggregation-export.png
-         :alt: Export Aggregation Data
-         :width: 70%
-
-   .. step:: Click :guilabel:`Export`. 
+#. Click :guilabel:`Export`. 
 
 
 .. _create-a-view:
@@ -264,91 +265,43 @@ for a collection with airline data. You can download this
 dataset from the following link:
 `air_airlines.json <https://raw.githubusercontent.com/mongodb/docs-assets/compass/air_airlines.json>`__.
 
-For instructions on importing JSON data into your cluster, see
-:manual:`mongoimport </reference/program/mongoimport/>`. This
-example assumes you have the data in the
+For instructions on importing JSON data into your cluster, see :ref:`Import Data 
+into a Collection <import-data>`. This example assumes you have the data in the
 ``example.air_airlines`` namespace.
 
+Procedure
+~~~~~~~~~
 
-Create the Pipeline
-~~~~~~~~~~~~~~~~~~~
+1. Connect to a database deployment. For information on how to connect to a 
+   database deployment, see :atlas:`Connect via Compass </compass-connection/>`.
 
-The following pipeline has two aggregation stages:
-:pipeline:`$group` and :pipeline:`$match`.
+#. Select the ``example`` database where the ``air_airlines`` collection 
+   exists. 
 
-- The ``$group`` stage groups documents by their
-  ``active`` status and ``country``. The stage also adds
-  a new ``flightCount`` field containing the number
-  of documents in each group.
+#. Create the Pipeline
 
-- The ``$match`` stage filters documents to return documents
-  with a ``flightCount`` value greater than or equal to ``5``.
+   The following pipeline has two aggregation stages:
+   :pipeline:`$group` and :pipeline:`$match`.
 
-.. figure:: /images/compass/agg-builder-full-example.png
-   :alt: Aggregation Builder Full Example
+   - The ``$group`` stage groups documents by their
+     ``active`` status and ``country``. The stage also adds
+     a new ``flightCount`` field containing the number
+     of documents in each group.
 
-Copy the Pipeline to the Clipboard
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   - The ``$match`` stage filters documents to return documents
+     with a ``flightCount`` value greater than or equal to ``5``.
 
-1. Click the :guilabel:`Export to Language` button at the top
-   of the pipeline builder. The following page displays:
+     .. figure:: /images/compass/agg-builder-full-example.png
+        :alt: Aggregation Builder Full Example
 
-   .. figure:: /images/compass/agg-builder-example-export-to-node.png
-      :alt: Aggregation Builder Full Example
+#. Run the Pipeline.
 
-#. Click the :guilabel:`Copy` button in the :guilabel:`My Pipeline`
-   panel on the left. |compass-short| copies the pipeline to your
-   clipboard in :binary:`~mongo` shell syntax. You will use the
-   pipeline in the following section.
-
-Run the Pipeline
-~~~~~~~~~~~~~~~~
-
-1. Launch and connect to a
-   :manual:`mongod </reference/program/mongod/>` instance which contains the imported ``air_airlines.json`` dataset.
-   
-#. Switch to the ``example`` database where the ``air_airlines``
-   collection exists:
-
-   .. code-block:: javascript
-
-      use example
-
-#. Run the following command to run the pipeline created in
-   |compass-short|:
-
-   .. code-block:: javascript
-
-      db.air_airlines.aggregate([{
-        $group: {
-          _id: {
-            active: '$active',
-            country: '$country'
-          },
-          flightCount: {
-            $sum: 1
-          }
-        }
-      }, {
-        $match: {
-          flightCount: {
-            $gte: 5
-          }
-        }
-      }])
+   Click :guilabel:`Run` in the top right of the pipeline builder.
 
 The pipeline returns documents, as shown in the following abbreviated example:
 
-.. code-block:: javascript
-
-   { "_id" : { "active" : "Y", "country" : "Nigeria" }, "flightCount" : 5 }
-   { "_id" : { "active" : "N", "country" : "Switzerland" }, "flightCount" : 46 }
-   { "_id" : { "active" : "N", "country" : "Bahrain" }, "flightCount" : 8 }
-   { "_id" : { "active" : "N", "country" : "Guinea-Bissau" }, "flightCount" : 8 }
-   { "_id" : { "active" : "N", "country" : "Argentina" }, "flightCount" : 14 }
-   { "_id" : { "active" : "N", "country" : "Moldova" }, "flightCount" : 17 }
-   { "_id" : { "active" : "Y", "country" : "Israel" }, "flightCount" : 6 }
-   { "_id" : { "active" : "N", "country" : "Finland" }, "flightCount" : 7 }
+.. figure:: /images/compass/airline-example-results.png
+   :alt: Airline Pipeline Results
 
 .. toctree::
    :titlesonly:
