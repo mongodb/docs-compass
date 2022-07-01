@@ -77,8 +77,8 @@ Save a Pipeline
 Open a Saved Pipeline
 ---------------------
 
-1. Click :guilabel:`Pipeline` at the top left of the
-   pipeline builder.
+1. Click the :guilabel:`Folder` icon at the top left of the
+   pipeline builder. 
 
    .. figure:: /images/compass/saved-pipeline-icon.png
          :figwidth: 316px
@@ -279,6 +279,8 @@ Procedure
    exists. 
 
 #. Create the Pipeline
+
+   |
 
    The following pipeline has two aggregation stages:
    :pipeline:`$group` and :pipeline:`$match`.
