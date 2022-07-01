@@ -298,7 +298,7 @@ Procedure
 
 #. Run the Pipeline.
 
-   Click :guilabel:`Run` in the top right of the pipeline builder.
+   Click :guilabel:`Run` at the top right of the pipeline builder.
 
 The pipeline returns documents, as shown in the following abbreviated example:
 
