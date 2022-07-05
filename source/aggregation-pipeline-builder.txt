@@ -233,7 +233,7 @@ To export results from your aggregation pipeline:
    :guilabel:`JSON` or :guilabel:`CSV`. If you select :guilabel:`JSON`,
    your data is exported to the target file as an array of JSON objects.
 
-#. Then, under :guilabel:`Output`, choose where to export the file to.
+#. Under :guilabel:`Output`, choose where to export the file to.
 
    .. figure:: /images/compass/aggregation-export.png
       :alt: Export Aggregation Data
