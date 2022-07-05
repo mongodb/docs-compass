@@ -40,7 +40,7 @@ You can:
 
 - :ref:`View or change pipeline settings <change-pipeline-settings>`
 
-- :ref:`Explain Plan for Pipelines <explain-plan-pipeline>` 
+- :ref:`View the explain plan for pipelines <explain-plan-pipeline>` 
 
 - :ref:`Export Aggregation Results <export-agg-builder-results>`
 
@@ -214,7 +214,7 @@ To export results from your aggregation pipeline:
    To learn how to connect to a deployment, see
    :ref:`connect-run-compass`.
 
-#. Navigate to your desired collection.
+#. Navigate to your target collection.
 
    You can either select the collection from the
    :doc:`Collections </collections>` tab or click the collection 
@@ -231,10 +231,9 @@ To export results from your aggregation pipeline:
 
    Under :guilabel:`Select Export File Type`, select either 
    :guilabel:`JSON` or :guilabel:`CSV`. If you select :guilabel:`JSON`,
-   your data is exported to the target file as a comma-separated 
-   array of JSON objects.
+   your data is exported to the target file as an array of JSON objects.
 
-   Then, under :guilabel:`Output`, choose where to export the file to.
+#. Then, under :guilabel:`Output`, choose where to export the file to.
 
    .. figure:: /images/compass/aggregation-export.png
       :alt: Export Aggregation Data

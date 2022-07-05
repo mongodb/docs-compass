@@ -51,7 +51,7 @@ content: |
          .. figure:: /images/compass/agg-builder-exclude-stage-example.png
             :alt: Aggregation Builder exclude stage example
 ---
-title: Run Pipeline.
+title: Run the pipeline.
 level: 4
 ref: run-aggregation
 content: |
@@ -66,7 +66,7 @@ content: |
   .. figure:: /images/compass/run-results.png
        :alt: Results after Running Aggregation
 ---
-title: Edit Pipeline.
+title: Edit the pipeline.
 level: 4
 ref: edit-after-run
 content: |

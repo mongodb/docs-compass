@@ -171,13 +171,12 @@ Procedure
       .. procedure::
          :style: normal
 
-         .. step:: Connect to the deployment containing the
-            :doc:`collection </collections>` you wish to export data from.
+         .. step:: Connect to the deployment containing the :doc:`collection </collections>` you wish to export data from.
 
             To learn how to connect to a deployment, see
             :ref:`connect-run-compass`.
 
-         .. step:: Navigate to your desired collection.
+         .. step:: Navigate to your target collection.
 
             You can either select the collection from the
             :doc:`Collections </collections>` tab or click the collection 
