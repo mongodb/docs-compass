@@ -13,7 +13,7 @@ In-Use Encryption
    :class: singlecol
 
 :guilabel:`In-Use Encryption` is an Enterprise/Atlas only feature. You need a replica set 
-to use this connection option
+to use this connection option.
 
 The :guilabel:`In-Use Encryption` connection tab allows you to connect your
 deployments using :v6.0:`Queryable Encryption </core/queryable-encryption/>`.
@@ -91,36 +91,36 @@ Procedure
                :widths: 30 70 30
 
                * - Field
+                 - Required 
                  - Description 
-                 - Required
 
                * - Access Key Id 
+                 - Yes 
                  - Value of your AWS access key Id.
-                 - Yes
 
                * - Secret Access Key
+                 - Yes 
                  - Value of your AWS secret key.
-                 - Yes
 
                * - Session Token
+                 - No 
                  - Value of your AWS session token. 
-                 - No
                
                * - Certificate Authority
+                 - No 
                  - One or more certificate files from trusted Certificate 
-                   Authorities to validate the certificate provided by the deployment.
-                 - No
+                   Authorities to validate the certificate provided by the deployment. 
                
                * - Client Certificate and Key
+                 - No 
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No
                 
                * - Client Key Password
+                 - No 
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
-                 - No
 
             .. _gcp-compass-encryption:
 
@@ -136,36 +136,37 @@ Procedure
                :widths: 30 70 30
 
                * - Field
+                 - Required 
                  - Description 
-                 - Required
 
                * - Service Account Email
+                 - Yes 
                  - The service account email to authenticate.
-                 - Yes
 
                * - Private Key
+                 - Yes 
                  - A base64-encoded private key.
-                 - Yes
 
                * - Endpoint
+                 - No 
                  - A host with an optional port.
-                 - No
 
                * - Certificate Authority
+                 - No 
                  - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
-                 - No
                
                * - Client Certificate and Key
+                 - No 
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No
                 
                * - Client Key Password
+                 - No 
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
-                 - No
+
 
             .. _azure-compass-encryption:
 
@@ -182,41 +183,40 @@ Procedure
                :widths: 30 70 30
 
                * - Field
+                 - Required 
                  - Description 
-                 - Required
 
                * - Tenant Id 
+                 - Yes 
                  - Identifies the organization for the account.
-                 - Yes
 
                * - Client Id 
+                 - Yes 
                  - Authenticates a registered application.
-                 - Yes
 
                * - Client Secret
-                 - The client secret to authenticate a registered application.
                  - Yes
+                 - The client secret to authenticate a registered application.
 
                * - Identity Platform Endpoint
-                 - A host with an optional port. 
                  - Yes
+                 - A host with an optional port. 
 
                * - Certificate Authority
+                 - No 
                  - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
-                 - No
                
                * - Client Certificate and Key
+                 - No 
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No
 
                * - Client Key Password
+                 - No 
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.  
-                 - No
-
 
             .. _kmip-compass-encryption:
 
@@ -231,28 +231,28 @@ Procedure
                :widths: 30 70 30
 
                * - Field
+                 - Required 
                  - Description 
-                 - Required
 
                * - Endpoint
+                 - Yes 
                  - The endpoint consists of a hostname and port separated by a colon.
-                 - Yes
 
                * - Certificate Authority
+                 - No 
                  - One or more certificate files from trusted Certificate 
                    Authorities to validate the certificate provided by the deployment.
-                 - No
 
                * - Client Certificate and Key
+                 - No 
                  - Specifies the location of a local .pem file that contains 
                    either the client's TLS/SSL X.509 certificate or the client's TLS/SSL 
                    certificate and key.
-                 - No
 
                * - Client Key Password
+                 - No 
                  - If the *Client Private Key* is protected with a password, 
                    you must provide the password.
-                 - No 
 
         .. step:: (Optional) Specify an EncryptedFieldsMap
 
