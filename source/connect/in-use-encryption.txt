@@ -88,7 +88,7 @@ Procedure
 
             .. list-table::
                :header-rows: 1 
-               :widths: 30 70 30
+               :widths: 30 30 70
 
                * - Field
                  - Required 
@@ -133,7 +133,7 @@ Procedure
 
             .. list-table::
                :header-rows: 1 
-               :widths: 30 70 30
+               :widths: 30 30 70
 
                * - Field
                  - Required 
@@ -173,14 +173,14 @@ Procedure
             Azure
             ~~~~~
 
-            You can use :v6.0:`Azure Key Vault </core/queryable-encryption/fundamentals/kms-providers/#azure-key-vault>` to manage your 
-            keys.
+            You can use :v6.0:`Azure Key Vault </core/queryable-encryption/fundamentals/kms-providers/#azure-key-vault>` 
+            to manage your keys.
 
             Specify the following fields:
 
             .. list-table::
                :header-rows: 1 
-               :widths: 30 70 30
+               :widths: 30 30 70
 
                * - Field
                  - Required 
@@ -228,7 +228,7 @@ Procedure
 
             .. list-table::
                :header-rows: 1 
-               :widths: 30 70 30
+               :widths: 30 30 70
 
                * - Field
                  - Required 
