@@ -23,7 +23,8 @@ This guide shows you how to connect your deployment and collections using
 Queryable Encryption. 
 
 This guide uses the `air_airlines.json <https://raw.githubusercontent.com/mongodb/docs-assets/compass/air_airlines.json>`__
-data set in the guided examples.
+data set in the guided examples. The guide covers the process of importing 
+your data set. 
 
 Requirements and Limitations
 ----------------------------
@@ -57,12 +58,12 @@ Procedure
 
    .. step:: Click the :guilabel:`Advanced Collection Options` drop down. 
 
-   .. step:: Check :guilabel:`Queryable Encryption` box.
+   .. step:: Check the :guilabel:`Queryable Encryption` box.
 
    .. step:: Specify your :guilabel:`Encrypted Fields`. 
 
       Change the ``path`` field value from ``encryptedField`` to the 
-      name of the field in your collection you wish to encrypt. 
+      name of the field you want encrypted. 
 
       .. figure:: /images/compass/example-encrypted-field.png
          :figwidth: 450px
@@ -71,8 +72,7 @@ Procedure
       Here, the encrypted field is the ``base`` field of the ``air_airlines`` 
       data set.  
 
-      For more information, see :v6.0:`Encrypted Fields 
-      </core/queryable-encryption/fundamentals/encrypt-and-query/>`.
+      For more information, see :v6.0:`Encrypted Fields </core/queryable-encryption/fundamentals/encrypt-and-query/>`.
 
    .. step:: (Optional) Specfiy :v6.0:`KMS Provider </core/queryable-encryption/fundamentals/kms-providers/>`.  
 
@@ -110,7 +110,7 @@ Import Your Data
          :figwidth: 450 px
          :alt: Encrypted Field 
 
-      Here, the ``base`` field marked with the key symbol.
+      Here, the ``base`` field is marked with the key symbol.
 
 Enable and Disable In-Use Encryption
 ------------------------------------
@@ -141,10 +141,11 @@ To disable In-Use Encryption:
    .. step:: Click on :guilabel:`In-Use Encryption` on left-hand navigation bar.
 
      .. figure:: /images/compass/qe-connection-button.png
-        :figwidth: 650 px
+        :figwidth: 450 px
         :alt: In-Use Encryption Connection button
 
-   .. step:: Click on :guilabel:`Enable In-Use Encryption for this connection`.
+   .. step:: Click the :guilabel:`Enable In-Use Encryption for this connection` 
+      toggle.
 
       Disabling In-Use Encryption only affects how |compass-short| accesses your 
       data.
