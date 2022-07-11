@@ -48,7 +48,7 @@ Procedure
 ~~~~~~~~~
 
 .. procedure::
-   :style: connected
+   :style: normal
 
    .. step:: Click the :guilabel:`Create a Database` button or the 
       :guilabel:`Create a Collection` button. 
@@ -65,7 +65,7 @@ Procedure
       name of the field in your collection you wish to encrypt. 
 
       .. figure:: /images/compass/example-encrypted-field.png
-         :figwidth: 690px
+         :figwidth: 450px
          :alt: Encrypted Field Name 
 
       Here, the encrypted field is the ``base`` field of the ``air_airlines`` 
@@ -84,7 +84,7 @@ Import Your Data
 ----------------
 
 .. procedure::
-   :style: connected
+   :style: normal
 
    .. step:: Click on your collection on the left-hand navigation banner.
 
@@ -92,7 +92,7 @@ Import Your Data
       its name to indicate that fields in that collection are encrypted.
 
       .. figure:: /images/compass/qe-badge.png
-         :figwidth: 640 px
+         :figwidth: 450 px
          :alt: Queryable Encryption Badge 
 
    .. step:: Click :guilabel:`Add Data`.
@@ -106,8 +106,8 @@ Import Your Data
       Your imported collection is displayed in the document view with the specified 
       encrypted field marked by a key symbol next to the value.
 
-      .. figure:: /images/compass/example-encrypted-field.png
-         :figwidth: 650 px
+      .. figure:: /images/compass/encrypted-field.png
+         :figwidth: 450 px
          :alt: Encrypted Field 
 
       Here, the ``base`` field marked with the key symbol.
@@ -136,7 +136,7 @@ Disable In-Use Encryption
 To disable In-Use Encryption:
 
 .. procedure::
-   :style: connected
+   :style: normal
 
    .. step:: Click on :guilabel:`In-Use Encryption` on left-hand navigation bar.
 
@@ -150,6 +150,5 @@ To disable In-Use Encryption:
       data.
 
       .. figure:: /images/compass/enable-qe.png
-         :figwidth: 650 px
+         :figwidth: 450 px
          :alt: Disable In-Use Encryption
-    
