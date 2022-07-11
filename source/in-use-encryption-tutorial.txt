@@ -103,7 +103,7 @@ Import Your Data
 
    .. step:: Click :guilabel:`Import`.
 
-      Your imported collection is displayed in the document view with the specified 
+      Your imported collection is displayed in the document view. The specified 
       encrypted field is marked by a key symbol next to the value.
 
       .. figure:: /images/compass/encrypted-field.png
