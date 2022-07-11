@@ -40,7 +40,7 @@ Interact with Your Data
   insights about a collection.
 
 :doc:`/in-use-encryption-tutorial`
-  Learn how to use In-Use Encryption for your collections.
+  Learn how to use In-Use Encryption for your collections. 
 
 .. toctree::
    :titlesonly:
@@ -54,4 +54,4 @@ Interact with Your Data
    /schema
    /validation
    /sampling
-   /in-use-encryption-tutorial
+   /in-use-encryption-tutorial 
