@@ -13,8 +13,8 @@ In-Use Encryption Tutorial
    :class: singlecol
 
 In-Use Encryption allows you to connect your deployments using :v6.0:`Queryable 
-Encryption </core/queryable-encryption/>`. This method of encryption allows you 
-to use all |compass-short| features with your encrypted data. 
+Encryption </core/queryable-encryption/>`. This connection method allows you to 
+encrypt a subset of fields in your collections. 
 
 Overview
 --------
@@ -35,8 +35,8 @@ Requirements and Limitations
   a single node or larger.
 
 - You need to connect your deployment on Compass using In-Use Encryption. For 
-  more information on how to connect your deployment, see In-Use Encryption 
-  Connection tab.
+  more information on how to connect your deployment, see :ref:`In-Use Encryption 
+  Connection tab <in-use-encryption-tab>`.
 
 Create Your Encrypted Collection
 --------------------------------
@@ -76,7 +76,7 @@ Procedure
 
    .. step:: (Optional) Specfiy :v6.0:`KMS Provider </core/queryable-encryption/fundamentals/kms-providers/>`.  
 
-   .. step:: (Optional) Specify :v6.0:`Key Encryption Key </core/queryable-encryption/fundamentals/keys-key-vaults/>.
+   .. step:: (Optional) Specify :v6.0:`Key Encryption Key </core/queryable-encryption/fundamentals/keys-key-vaults/>`.
 
    .. step:: Click :guilabel:`Create Database` or :guilabel:`Create Collection`.
 
@@ -104,7 +104,7 @@ Import Your Data
    .. step:: Click :guilabel:`Import`.
 
       Your imported collection is displayed in the document view with the specified 
-      encrypted field marked by a key symbol next to the value.
+      encrypted field is marked by a key symbol next to the value.
 
       .. figure:: /images/compass/encrypted-field.png
          :figwidth: 450 px
@@ -117,13 +117,13 @@ Enable and Disable In-Use Encryption
 
 You can enable and disable In-Use Encryption in your deployment. 
 
-When In-Use Encryption is enabled:
+When In-Use Encryption is **enabled**:
 
 - You can modify encrypted values.
 
 - You can insert documents and specified fields will be encrypted.
 
-When In-Use Encryption is disabled:
+When In-Use Encryption is **disabled**:
 
 - You can no longer modify encrypted values. |compass-short| displays the values 
   of these fields as a series of asterisks.
