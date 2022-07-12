@@ -35,7 +35,7 @@ Requirements and Limitations
   a single node or larger.
 
 - You need to connect to your deployment on Compass using In-Use Encryption. For 
-  more information on how to connect your deployment, see :ref:`In-Use Encryption 
+  more information on how to connect to your deployment, see :ref:`In-Use Encryption 
   Connection tab <in-use-encryption-tab>`.
 
 Create Your Encrypted Collection
