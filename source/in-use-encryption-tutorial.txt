@@ -12,14 +12,14 @@ In-Use Encryption Tutorial
    :depth: 1
    :class: singlecol
 
-In-Use Encryption allows you to connect your deployments using :v6.0:`Queryable 
+In-Use Encryption allows you to connect to your deployments using :v6.0:`Queryable 
 Encryption </core/queryable-encryption/>`. This connection method allows you to 
 encrypt a subset of fields in your collections. 
 
 Overview
 --------
 
-This guide shows you how to connect your deployment and collections using 
+This guide shows you how to connect to your deployment and collections using 
 Queryable Encryption. 
 
 This guide uses the `air_airlines.json <https://raw.githubusercontent.com/mongodb/docs-assets/compass/air_airlines.json>`__
@@ -34,7 +34,7 @@ Requirements and Limitations
 - You need a replica set to use this connection option. Your replica set can be 
   a single node or larger.
 
-- You need to connect your deployment on Compass using In-Use Encryption. For 
+- You need to connect to your deployment on Compass using In-Use Encryption. For 
   more information on how to connect your deployment, see :ref:`In-Use Encryption 
   Connection tab <in-use-encryption-tab>`.
 
@@ -125,10 +125,10 @@ When In-Use Encryption is **enabled**:
 
 When In-Use Encryption is **disabled**:
 
-- You can no longer modify encrypted values. |compass-short| displays the values 
+- You cannot modify encrypted values. |compass-short| displays the values 
   of these fields as a series of asterisks.
 
-- Inserted documents will no longer encrypt fields. 
+- Inserted documents can not encrypt fields. 
 
 Disable In-Use Encryption
 ~~~~~~~~~~~~~~~~~~~~~~~~~
