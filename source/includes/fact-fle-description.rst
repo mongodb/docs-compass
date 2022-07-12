@@ -4,7 +4,7 @@ as a series of asterisks.
 
 If your deployment is connected using :guilabel:`In-Use Encryption` and your
 collection is configured with :v6.0:`Queryable Encryption </core/queryable-encryption/>`, 
-you can enable and disable the :guilabel:`Queryable Encryption` connection 
+you can toggle the :guilabel:`In-Use Encryption` connection 
 option. 
 
 - When :guilabel:`Queryable Encryption` is enabled, you can modify and view 
