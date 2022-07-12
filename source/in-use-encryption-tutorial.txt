@@ -16,6 +16,11 @@ In-Use Encryption allows you to connect to your deployments using :v6.0:`Queryab
 Encryption </core/queryable-encryption/>`. This connection method allows you to 
 encrypt a subset of fields in your collections. 
 
+.. note::
+
+   You can also use :manual:`CSFLE </core/csfle/>` to encrypt a subset of fields 
+   in your collection. CSFLE encryption is enabled through the schema editor.
+
 Overview
 --------
 
