@@ -3,8 +3,8 @@ collection is configured with :v6.0:`Queryable Encryption </core/queryable-encry
 you can toggle the :guilabel:`In-Use Encryption` connection 
 option. 
 
-- When :guilabel:`Queryable Encryption` is enabled, you can modify and view 
+- When :guilabel:`In-Use Encryption` is enabled, you can modify and view 
   the encrypted values and fields.
 
-- When :guilabel:`Queryable Encryption` is disabled, |compass-short| displays the 
+- When :guilabel:`In-Use Encryption` is disabled, |compass-short| displays the 
   values of these fields as a series of asterisks.
