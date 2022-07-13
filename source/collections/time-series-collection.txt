@@ -70,4 +70,11 @@ Procedure
 Restrictions and Limitations
 ----------------------------
 
+The following restrictions and limitations apply when creating a time series 
+collection:
 
+- You can only use :guilabel:`custom collation` along side your capped 
+  collection from the :guilabel:`Advanced Collection Options`. 
+
+- See :manual:`Time Series Collection Limitations </core/timeseries/timeseries-limitations/>` 
+  for all time series collection limitations.
