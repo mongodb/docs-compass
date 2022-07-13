@@ -12,9 +12,9 @@ Create a Capped Collection
    :depth: 1
    :class: singlecol
 
-Capped Collections are fixed sized collections that support high-throughput 
-operations that insert and retrieve documents based on insertion order. For 
-more information, see :manual:`Capped Collections </core/capped-collections/>`.
+:manual:`Capped Collections </core/capped-collections/>` are fixed sized 
+collections that support high-throughput operations that insert and retrieve 
+documents based on insertion order. 
 
 Procedure
 ---------
