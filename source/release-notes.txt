@@ -18,7 +18,7 @@ Release Notes
 
 New Features:
 
-- bson-transpilers: Export to PHP from Compass PHPLIB-719
+- bson-transpilers: Export to PHP from Compass (:issue:`PHPLIB-719`)
 - compass-components: Enable ACE code formatter (:issue:`COMPASS-5923`)
 - compass-indexes: Update toolbar to leafygreen components (:issue:`COMPASS-5676`)
 - connect: Add Save & Connect button (:issue:`COMPASS-5776`)
@@ -33,7 +33,7 @@ Bug Fixes:
 - import: Pre-create an empty object before creating its properties (:issue:`COMPASS-5076`)
 - ace-autocompleter: Provide a special snippet for $merge stage in ADL
 - connect-form: Connect to the newly created favourite (:issue:`COMPASS-5776`)
-- documents: Fixes to recent queries (#3185)
+- documents: Fixes to recent queries
 - queries: Ignore duplicate recent queries (:issue:`COMPASS-2237`)
 - aggregation-explain: Show indexes (:issue:`COMPASS-5879`)
 - explain-plan-helper: Use execution time of cursor stage (:issue:`COMPASS-5858`)
