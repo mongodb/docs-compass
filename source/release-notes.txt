@@ -38,6 +38,9 @@ Bug Fixes:
 - aggregation-explain: Show indexes (:issue:`COMPASS-5879`)
 - explain-plan-helper: Use execution time of cursor stage (:issue:`COMPASS-5858`)
 
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/releases/tag/v1.32.3>`__.
+
 |compass| 1.32.2
 ----------------
 
