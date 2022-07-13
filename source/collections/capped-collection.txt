@@ -29,13 +29,13 @@ capped collection:
   |compass-short| will only load the part of the data set that is within the 
   size range. 
 
-- Once the collection is created, you can adjust the maximum number of bytes.  
+- Once the collection is created, you cannot adjust the maximum number of bytes.  
 
 Procedure
 ---------
 
 .. procedure::
-   :style: connnected
+   :style: connected
 
    .. step:: Click the :guilabel:`Create Collection` button.
 
