@@ -11,3 +11,54 @@ Create a Collection with Collation
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+Collation allows users to specify language-specific rules for string 
+comparison, such as rules for lettercase and accent marks. For more information,
+see :manual:`Collation </reference/collation/>`.
+
+Procedure
+---------
+
+.. procedure::
+   :style: connected
+
+   .. step:: Click the :guilabel:`Create Collection` button.
+
+      From the :guilabel:`Collections` screen, click the 
+      :guilabel:`Create Collection` button.
+
+   .. step:: Enter the collection name.
+
+   .. step:: Click the :guilabel:`Advanced Collection Options` dropdown.
+
+      Check the :guilabel:`Use Custom Collaton` option.
+
+   .. step:: Select a value for :guilabel:`locale`.
+
+      You are required to select a :guilabel:`locale` from the :manual:`MongoDB 
+      supported languages </reference/collation-locales-defaults/#supported-languages-and-locales>`.
+      
+      All other collation options parameters are optional. For descriptions of 
+      the fields, see :manual:`Collation </reference/collation/>`.
+
+   .. step:: Click :guilabel:`Create Collection` to create the collection.
+
+Restrictions and Limitations
+----------------------------
+
+- The following restrictions apply when the parameter ``numericOrdering`` 
+  is set to ``true``:
+
+  - Only contiguous non-negative integer substrings of digits are 
+    considered in the comparisons. ``numericOrdering`` does not support:
+
+    - ``+``
+    - ``-``
+    - decimal separators, like decimal points and decimal commas
+    - exponents
+
+  - Only Unicode code points in the Number or Decimal Digit (Nd) category 
+    are treated as digits.
+
+  - If a digit length exceeds 254 characters, the excess characters are 
+    treated as a separate number. 
