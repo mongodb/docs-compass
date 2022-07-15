@@ -8,7 +8,7 @@ intersphinx = [
 ]
 
 toc_landing_pages = ["/install", "/connect", "/instance", "/query/filter", "/query/queries",
-                     "/documents", "/schema", "/aggregation-pipeline-builder"]
+                     "/documents", "/schema", "/aggregation-pipeline-builder", "collections"]
 
 [constants]
 download-page = "`downloads page <https://www.mongodb.com/download-center/compass?tck=docs_compass>`__"
