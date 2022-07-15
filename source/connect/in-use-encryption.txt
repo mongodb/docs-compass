@@ -1,8 +1,8 @@
 .. _in-use-encryption-tab:
 
-=================
-In-Use Encryption 
-=================
+================================
+In-Use Encryption Connection Tab
+================================
 
 .. default-domain:: mongodb
 
