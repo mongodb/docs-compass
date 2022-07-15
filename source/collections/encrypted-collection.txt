@@ -1,8 +1,8 @@
 .. _encrypted-collection:
 
-==============================
-Create an Encrypted Collection
-==============================
+=============================================
+Create a Collection with Queryable Encryption
+=============================================
 
 .. default-domain:: mongodb
 
@@ -11,3 +11,27 @@ Create an Encrypted Collection
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+:v6.0:`Queryable Encryption </core/queryable-encryption/>` allows you to 
+encrypt a subset of fields in your collection.
+
+Procedure
+---------
+
+.. procedure::
+   :style: connected
+
+   .. step:: Click the :guilabel:`Create Collection` button.
+
+      From the :guilabel:`Collections` screen, click the 
+      :guilabel:`Create Collection` button.
+
+   .. step:: Enter the collection name.
+
+   .. step:: Click the :guilabel:`Advanced Collection Options` dropdown.
+
+      Check the :guilabel:`Queryable Encryption` option.
+
+   .. step:: Specify an :guilabel:`Encrypted Field`. 
+
+      
