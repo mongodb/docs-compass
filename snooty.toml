@@ -17,7 +17,6 @@ current-version = "1.31.1"
 [[banners]]
 targets = [
     "connect/in-use-encryption.txt",
-    "in-use-encryption-tutorial.txt",
 ]
 
 variant = "danger"
