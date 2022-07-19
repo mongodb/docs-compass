@@ -55,4 +55,4 @@ Restrictions and Limitations
   collection using Queryable Encryption.
 
 - You can only use :guilabel:`custom collation`  with Queryable Encryption from 
-  the :guilabel:`Advanced Collection Options`
+  the :guilabel:`Advanced Collection Options`.
