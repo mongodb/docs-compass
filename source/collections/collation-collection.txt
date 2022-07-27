@@ -12,9 +12,9 @@ Create a Collection with Collation
    :depth: 1
    :class: singlecol
 
-Collation allows users to specify language-specific rules for string 
-comparison, such as rules for lettercase and accent marks. For more information,
-see :manual:`Collation </reference/collation/>`.
+:manual:`Collation </reference/collation/>` allows you to specify 
+language-specific rules for string comparison, such as rules for lettercase 
+and accent marks.
 
 Procedure
 ---------
@@ -54,11 +54,71 @@ Restrictions and Limitations
 
     - ``+``
     - ``-``
-    - decimal separators, like decimal points and decimal commas
     - exponents
 
   - Only Unicode code points in the Number or Decimal Digit (Nd) category 
     are treated as digits.
 
   - If a digit length exceeds 254 characters, the excess characters are 
-    treated as a separate number. 
+    treated as a separate number.
+
+Example 
+~~~~~~~
+
+Consider a collection with the following string number and decimal values:
+
+.. code-block:: javascript
+
+  [
+    { "n": "1" },
+    { "n": "2" },
+    { "n": "-2.1" },
+    { "n": "2.0" },
+    { "n": "2.20" },
+    { "n": "10"},
+    { "n": "20" },
+    { "n": "20.1" },
+    { "n": "-10" },
+    { "n": "3" }
+  ]
+
+The following find query uses a collation document containing the 
+``numericOrdering`` parameter:
+
+.. code-block:: javascript
+
+   db.c.find(
+    { }, { _id: 0 }
+   ).sort(
+     { n: 1 }
+    ).collation( {
+     locale: 'en_US',
+     numericOrdering: true
+  } )
+
+For more information how querying documents in |compass-short|, see 
+:ref:`Query Your Data <compass-query-bar>`.
+
+The operations returns the following results:
+
+.. code-block:: javascript
+   :emphasize-lines: 2, 3
+
+   [
+      { "n": "-2.1" },
+      { "n": "-10" },
+      { "n": "1" },
+      { "n": "2" },
+      { "n": "2.0" }
+      { "n": "2.20" },
+      { "n": "3" },
+      { "n": "10" },
+      { "n": "20" },
+      {"n": "20.1" }
+   ]
+
+- ``numericOrdering: true`` sorts the string values in ascending order as if 
+  they were numeric values.
+
+- The two negative values ``-2.1`` and ``-10`` are not sorted in the 
+  expected sort order because they have unsupported ``-`` characters. 

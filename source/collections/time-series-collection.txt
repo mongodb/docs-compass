@@ -68,7 +68,7 @@ Procedure
    .. step:: Click :guilabel:`Create Collection` to create the collection.
 
       Your collection will be marked by a :guilabel:`time series` badge. On the 
-      left-hand navigation bar your time series collection will be have the 
+      left-hand navigation bar your time series collection will have the 
       following icon: 
 
       .. figure:: /images/compass/time-series-badge.png
@@ -81,7 +81,7 @@ Restrictions and Limitations
 The following restrictions and limitations apply when creating a time series 
 collection:
 
-- You can only use :guilabel:`custom collation` along side your capped 
+- You can only use :guilabel:`custom collation` alongside your capped 
   collection from the :guilabel:`Advanced Collection Options`. 
 
 - See :manual:`Time Series Collection Limitations </core/timeseries/timeseries-limitations/>` 

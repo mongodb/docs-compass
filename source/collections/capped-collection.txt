@@ -12,7 +12,7 @@ Create a Capped Collection
    :depth: 1
    :class: singlecol
 
-:manual:`Capped Collections </core/capped-collections/>` are fixed sized 
+:manual:`Capped Collections </core/capped-collections/>` are fixed-sized 
 collections that support high-throughput operations that insert and retrieve 
 documents based on insertion order. 
 
@@ -45,7 +45,7 @@ Restrictions and Limitations
 The following restrictions and limitations apply when creating a 
 capped collection:
 
-- You can only use :guilabel:`custom collation` along side your capped 
+- You can only use :guilabel:`custom collation` alongside your capped 
   collection from the :guilabel:`Advanced Collection Options`. 
 
 - If you import a data set larger than the maximum size of the capped collection,
