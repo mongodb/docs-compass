@@ -46,21 +46,21 @@ Procedure
 Restrictions and Limitations
 ----------------------------
 
-- The following restrictions apply when the parameter ``numericOrdering`` 
-  is set to ``true``:
+The following restrictions apply when the parameter ``numericOrdering`` 
+is set to ``true``:
 
-  - Only contiguous non-negative integer substrings of digits are 
-    considered in the comparisons. ``numericOrdering`` does not support:
+- Only contiguous non-negative integer substrings of digits are 
+  considered in the comparisons. ``numericOrdering`` does not support:
 
-    - ``+``
-    - ``-``
-    - exponents
+  - ``+``
+  - ``-``
+  - exponents
 
-  - Only Unicode code points in the Number or Decimal Digit (Nd) category 
-    are treated as digits.
+- Only Unicode code points in the Number or Decimal Digit (Nd) category 
+  are treated as digits.
 
-  - If a digit length exceeds 254 characters, the excess characters are 
-    treated as a separate number.
+- If a digit length exceeds 254 characters, the excess characters are 
+  treated as a separate number.
 
 Example 
 ~~~~~~~
@@ -96,7 +96,7 @@ The following find query uses a collation document containing the
      numericOrdering: true
   } )
 
-For more information how querying documents in |compass-short|, see 
+For more information on querying documents in |compass-short|, see 
 :ref:`Query Your Data <compass-query-bar>`.
 
 The operations returns the following results:
