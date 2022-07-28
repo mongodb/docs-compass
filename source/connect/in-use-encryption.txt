@@ -12,8 +12,9 @@ In-Use Encryption Connection Tab
    :depth: 1
    :class: singlecol
 
-:guilabel:`In-Use Encryption` is an Enterprise/Atlas only feature. You need a replica set 
-to use this connection option. Your replica set can be a single node or larger. 
+:guilabel:`In-Use Encryption` is an Enterprise/Atlas only feature. You need a 
+replica set or sharded cluster to use this connection option. Your replica set 
+can be a single node or larger. 
 
 The :guilabel:`In-Use Encryption` connection tab allows you to connect your
 deployments using :v6.0:`Queryable Encryption </core/queryable-encryption/>`.
@@ -42,7 +43,7 @@ Procedure
 
             Specify a collection in which data encryption keys are stored in 
             the format ``<db>.<collection>``. The non-official default 
-            database/collection for keyVault is ``encryption._keyVault``.
+            database/collection for keyVault is ``encryption.__keyVault``.
 
          .. step:: Select a :guilabel:`KMS Provider`.
 
