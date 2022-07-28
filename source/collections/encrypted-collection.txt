@@ -54,5 +54,5 @@ Restrictions and Limitations
 - Your deployment must be connected using In-Use Encryption to encrypt your 
   collection using Queryable Encryption.
 
-- You can only use :guilabel:`custom collation`  with Queryable Encryption from 
+- You can only use :guilabel:`custom collation` with Queryable Encryption from 
   the :guilabel:`Advanced Collection Options`.
