@@ -34,7 +34,6 @@ The :guilabel:`Collections` screen displays the following
 information for each collection in the selected database:
 
 - Collection name
-- 
 - Number of :doc:`documents </documents>` in the collection
  
   .. note::

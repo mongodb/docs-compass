@@ -99,13 +99,13 @@ The Advanced Connection Options provide additonal forms of connecting
   Learn how to connect deployments that require authentication.
 
 :doc:`/connect/tls-ssl-connection`
-  Learn how to connect deployments via TLS/SSL. 
+  Learn how to connect deployments using TLS/SSL. 
 
 :doc:`/connect/ssh-connection`
-  Learn how to connect deployments via an SSH tunnel.
+  Learn how to connect deployments using an SSH tunnel.
 
 :doc:`/connect/in-use-encryption`
-  Learn how to connect deployments via In-Use Encryption.
+  Learn how to connect deployments using In-Use Encryption.
 
 :doc:`/connect/advanced-connection`
   Learn about additional advanced connection options for your deployments. 
