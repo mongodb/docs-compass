@@ -81,8 +81,8 @@ Restrictions and Limitations
 The following restrictions and limitations apply when creating a time series 
 collection:
 
-- You can only use :guilabel:`custom collation` alongside your capped 
-  collection from the :guilabel:`Advanced Collection Options`. 
+- :guilabel:`Custom collation` is the only :guilabel:`Advanced Collection Option` 
+  that can be used alongside your time series collation.  
 
 - See :manual:`Time Series Collection Limitations </core/timeseries/timeseries-limitations/>` 
   for all time series collection limitations.

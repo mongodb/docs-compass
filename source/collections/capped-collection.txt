@@ -45,8 +45,8 @@ Restrictions and Limitations
 The following restrictions and limitations apply when creating a 
 capped collection:
 
-- You can only use :guilabel:`custom collation` alongside your capped 
-  collection from the :guilabel:`Advanced Collection Options`. 
+- :guilabel:`Custom collation` is the only :guilabel:`Advanced Collection Option` 
+  that can be used alongside your capped collection.  
 
 - If you import a data set larger than the maximum size of the capped collection,
   |compass-short| will only load the part of the data set that is within the 

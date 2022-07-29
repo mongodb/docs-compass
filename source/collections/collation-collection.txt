@@ -121,4 +121,4 @@ The operations returns the following results:
   they were numeric values.
 
 - The two negative values ``-2.1`` and ``-10`` are not sorted in the 
-  expected sort order because they have unsupported ``-`` characters. 
+  expected sort order because they have unsupported ``-`` characters.
