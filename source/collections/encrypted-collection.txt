@@ -12,7 +12,7 @@ Create a Collection with Queryable Encryption
    :depth: 1
    :class: singlecol
 
-:v6.0:`Queryable Encryption </core/queryable-encryption/>` allows you to 
+:manual:`Queryable Encryption </core/queryable-encryption/>` allows you to 
 encrypt a subset of fields in your collection.
 
 Procedure
@@ -37,11 +37,12 @@ Procedure
       Specify which fields should be encrypted and whether they should 
       be queryable.
 
-      The following fields are optional:
+      The following fields must be used if no existing keyId was specified for 
+      at least one encrypted field, and have no effect otherwise:
 
-      - :v6.0:`KMS Provider </core/queryable-encryption/fundamentals/kms-providers/>`.  
+      - :manual:`KMS Provider </core/queryable-encryption/fundamentals/kms-providers/>`.  
 
-      - :v6.0:`Key Encryption Key </core/queryable-encryption/fundamentals/keys-key-vaults/>`.
+      - :manual:`Key Encryption Key </core/queryable-encryption/fundamentals/keys-key-vaults/>`.
 
    .. step:: Click :guilabel:`Create Collection` to create the collection.
 
@@ -54,5 +55,5 @@ Restrictions and Limitations
 - Your deployment must be connected using In-Use Encryption to encrypt your 
   collection using Queryable Encryption.
 
-- You can only use :guilabel:`custom collation` with Queryable Encryption from 
-  the :guilabel:`Advanced Collection Options`.
+- :guilabel:`Custom collation` is the only :guilabel:`Advanced Collection Option` 
+  that can be used alongside Queryable Encrypted. 
