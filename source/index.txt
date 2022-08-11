@@ -20,7 +20,7 @@ What is MongoDB Compass?
    :doc:`View installation instructions <install>`
 
 .. image:: /images/hero.png
-   :scale: 80%
+   :scale: 90%
    :alt: Homepage hero image
 
 .. kicker:: What You Can Do
