@@ -16,12 +16,9 @@ current-version = "1.32.3"
 
 [[banners]]
 targets = [
-<<<<<<< HEAD
     "connect/in-use-encryption.txt",
     "in-use-encryption-tutorial.txt",
-=======
     "collections/encrypted-collection.txt",
->>>>>>> 830f5ff (DOCSP-23735 add banner)
 ]
 
 variant = "danger"

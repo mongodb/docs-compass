@@ -49,7 +49,7 @@ capped collection:
   that can be used alongside your capped collection.  
 
 - If you import a data set larger than the maximum size of the capped collection,
-  |compass-short| will only load the part of the data set that is within the 
-  size range. 
+  |compass-short| only loads the last documents of the data set and drops the oldest
+  documents.
 
 - Once the collection is created, you cannot adjust the maximum number of bytes.

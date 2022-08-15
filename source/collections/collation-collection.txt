@@ -59,7 +59,7 @@ is set to ``true``:
 - Only Unicode code points in the Number or Decimal Digit (Nd) category 
   are treated as digits.
 
-- If a digit length exceeds 254 characters, the excess characters are 
+- If the number length exceeds 254 characters, the excess characters are 
   treated as a separate number.
 
 Example 
