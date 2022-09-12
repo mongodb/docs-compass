@@ -1,0 +1,59 @@
+.. _clustered-collection:
+
+=============================
+Create a Clustered Collection
+=============================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+:manual:`Clustered collections </core/clustered-collections/>` are collections 
+with a clustered index. Clustered collections store documents ordered by :manual:`clustered index </reference/method/db.createCollection/#std-label-db.createCollection.clusteredIndex>` 
+key value.
+
+Procedure
+---------
+
+.. procedure::
+   :style: connected
+
+   .. step:: Click the :guilabel:`Create Collection` button.
+
+      From the :guilabel:`Collections` screen, click the 
+      :guilabel:`Create Collection` button.
+
+   .. step:: Enter the collection name.
+
+   .. step:: Click the :guilabel:`Advanced Collection Options` dropdown.
+
+      Check the :guilabel:`Clustered Collection` option.
+
+   .. step:: (Optional) Specify :guilabel:`name` field.
+
+      You can enter a name for the clustered index or use the automatic 
+      generated name.
+
+   .. step:: (Optional) Specify :guilabel:`expireAfterSeconds` field.
+
+      The :guilabel:`expireAfterSeconds` field enables automatic deletion of 
+      documents older than the specified number of seconds.
+
+   .. step:: Click :guilabel:`Create Collection` to create the collection.
+
+      Your collection will be marked by a :guilabel:`Clustered` badge.  
+
+
+Restrictions and Limitations
+----------------------------
+
+Clustered collection limitations:
+
+- The clustered index key must be on the ``_id`` field.
+
+- Clustered collections may not be :ref:`capped collections
+  <manual-capped-collection>`.
