@@ -30,7 +30,7 @@ Select your operating system:
          - 64-bit version of macOS 10.12 or later.
          - MongoDB 3.6 or later.
 
-         |compass-short| supports both x64 and ARM64 architectures.
+         |compass-short| supports x64 and ARM64 architectures.
          
          M1 Support
          ~~~~~~~~~~
