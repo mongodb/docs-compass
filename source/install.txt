@@ -25,6 +25,21 @@ Select your operating system:
          - 64-bit version of macOS 10.12 or later.
          - MongoDB 3.6 or later.
 
+         |compass-short| supports both x64 and ARM64 architectures.
+         
+         M1 Support
+         ~~~~~~~~~~
+
+         You can run |compass| on M1 platforms.
+         
+         - If you run an operating system prior to macOS Big Sur, to run
+           |compass-short| on an M1 platform, you must also `install
+           Rosetta 2 <https://support.apple.com/en-us/HT211861>`__.
+
+         - If you run macOS Big Sur or a more recent operating system,
+           Rosetta 2 is pre-installed and does not require manual
+           installation.
+
      - id: windows
        content: |
 
