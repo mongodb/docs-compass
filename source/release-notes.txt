@@ -378,7 +378,7 @@ New Features:
 Supported Platforms:
 
 - |compass| for macOS now runs on M1 platforms. For more information,
-  see :ref:`software-reqs`.
+  see :ref:`Software Requirements <software-reqs>`.
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/releases/tag/v1.29.4>`__.
