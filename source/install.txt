@@ -29,15 +29,18 @@ Select your operating system:
          M1 Support
          ~~~~~~~~~~
 
-         You can run |compass| on M1 platforms.
+         You can run |compass| on M1 platforms. To run |compass-short|
+         on an M1 platform, you must also have Rosetta 2 installed.
          
-         - If you run an operating system prior to macOS Big Sur, to run
-           |compass-short| on an M1 platform, you must also `install
-           Rosetta 2 <https://support.apple.com/en-us/HT211861>`__.
-
          - If you run macOS Big Sur or a more recent operating system,
            Rosetta 2 is pre-installed and does not require manual
            installation.
+         
+         - If you run an operating system prior to macOS Big Sur, you
+           must manually `install Rosetta 2
+           <https://support.apple.com/en-us/HT211861>`__.
+
+         
 
      - id: windows
        content: |
