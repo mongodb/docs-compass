@@ -29,8 +29,8 @@ Select your operating system:
          M1 Support
          ~~~~~~~~~~
 
-         |compass| for macOS runs on M1 platforms that have Rosetta or
-         Rosetta 2 installed.
+         |compass| for macOS can run on M1 platforms that have Rosetta
+         or Rosetta 2 installed.
          
          - If you run macOS Big Sur or a more recent operating system,
            Rosetta (2) is pre-installed and does not require manual
@@ -44,8 +44,6 @@ Select your operating system:
 
             Rosetta is not a MongoDB product. Rosetta is developed and
             maintained by Apple Inc.
-
-         
 
      - id: windows
        content: |
