@@ -41,6 +41,11 @@ Select your operating system:
            must manually `install Rosetta 2
            <https://support.apple.com/en-us/HT211861>`__.
 
+         .. note::
+
+            Rosetta is not a MongoDB product. Rosetta is developed and
+            maintained by Apple Inc.
+
          
 
      - id: windows
