@@ -1,0 +1,13 @@
+===================================================
+Import and Export Favorite Connections with the CLI
+===================================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+TODO: Write
