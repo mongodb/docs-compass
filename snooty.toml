@@ -10,14 +10,14 @@ intersphinx = [
 toc_landing_pages = [
     "/install", 
     "/connect", 
-    "/connect/favorite-connections"
+    "/connect/favorite-connections",
     "/instance", 
     "/query/filter", 
     "/query/queries",
     "/documents", 
     "/schema", 
     "/aggregation-pipeline-builder", 
-    "/collections",
+    "/collections"
 ]
 
 [constants]
