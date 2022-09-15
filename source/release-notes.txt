@@ -23,7 +23,7 @@ New Features:
 - Add sparse option for indexes (:issue:`COMPASS-1963`)
 - Only show columnstore index option for mongodb server >= 7 (:issue:`COMPASS-5970`)
 - Add progress badge to the indexes table (:issue:`COMPASS-5944`)
-- Fixed table header for indexes (:issue:`COMPASS-6042`)
+- Fix table header for indexes (:issue:`COMPASS-6042`)
 
 Bug Fixes:
 
