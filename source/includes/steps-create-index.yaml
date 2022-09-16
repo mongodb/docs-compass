@@ -58,13 +58,6 @@ content: |
        - Description
        - More Information
 
-     * - Build index in the background
-
-       - Ensure that the MongoDB deployment remains available during
-          the index build operation.
-
-       - :manual:`Background Construction </core/index-creation/index.html#background-construction>`
-
      * - Create unique index
 
        - Ensure that the indexed fields do not store duplicate values.
