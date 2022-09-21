@@ -1,5 +1,7 @@
+.. _compass-export-import-cli-landing:
+
 ===================================================
-Import and Export Favorite Connections with the CLI
+Export and Import Favorite Connections with the CLI
 ===================================================
 
 .. default-domain:: mongodb
@@ -7,7 +9,35 @@ Import and Export Favorite Connections with the CLI
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 1
+   :depth: 2
    :class: singlecol
 
-TODO: Write
+You can use the |compass-short| :abbr:`CLI (Command-Line Interface)` to
+export and import favorite connections. This lets you share saved
+connections between workspaces and with colleagues to quickly connect to
+shared deployments.
+
+By default, |compass-short| does not hide sensitive connection
+information (such as usernames and passwords) from the exported
+connection file. You can optionally encrypt the exported file with a
+passphrase. When you do, users must specify the passphrase to view the
+file contents.
+
+Tasks
+-----
+
+To learn how to export and import connections, see these pages:
+
+- :ref:`compass-export-connections-cli`
+
+- :ref:`compass-import-connections-cli`
+
+- :ref:`compass-encrypt-connections-cli`
+
+.. toctree::
+   :titlesonly:
+
+   /connect/favorite-connections/import-export-cli/export
+   /connect/favorite-connections/import-export-cli/import
+   /connect/favorite-connections/import-export-cli/encrypt
+   

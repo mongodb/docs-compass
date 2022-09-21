@@ -1,0 +1,102 @@
+.. _compass-export-connections-cli:
+
+========================================
+Export Favorite Connections with the CLI
+========================================
+
+You can use the |compass-short| :abbr:`CLI (Command-Line Interface)` to
+export favorite connections. This lets you share saved connections
+between workspaces and with colleagues to connect to shared deployments.
+
+About This Task
+---------------
+
+When you export favorite connections, |compass-short| exports the list
+of connections as a JSON file.
+
+By default, |compass-short| does not hide sensitive connection
+information (such as usernames and passwords) from the exported
+connection file. To learn how to protect sensitive information in
+exported connections, see :ref:`compass-encrypt-connections-cli`.
+
+Procedure
+---------
+
+To export **unencrypted** favorite connections using the |compass-short|
+:abbr:`CLI (Command-Line Interface)`, specify:
+
+- The path to the |compass| executable. The path to the executable
+  depends on your operating system.
+
+- The ``--export-connections`` flag with the value set to the
+  destination of the output file.
+
+Your operation should resemble the following prototype:
+
+.. code-block:: sh
+
+   <path-to-Compass-executable> --export-connections=<filename>
+
+Example
+-------
+
+This example exports favorite |compass-short| connections to a file with
+the path ``/tmp/compass-connections/favorites.json``:
+
+.. code-block:: sh
+
+   ./MongoDB\ Compass --export-connections=/tmp/compass-connections/favorites.json
+
+Results
+~~~~~~~
+
+After the export completes, the
+``/tmp/compass-connections/favorites.json`` file resembles the
+following:
+
+.. code-block:: json
+
+   {
+     "type": "Compass Connections",
+     "version": {
+       "$numberInt": "1"
+     },
+     "connections": [
+       {
+         "id": "5a92e195-3ef5-49ae-aff6-720af362770d",
+         "connectionOptions": {
+           "connectionString": "<connection string>"
+         },
+         "favorite": {
+           "name": "QA Cluster",
+           "color": "color7"
+         },
+         "lastUsed": {
+           "$date": {
+             "$numberLong": "1663785601002"
+           }
+         }
+       },
+       {
+         "id": "655f3e6e-b13b-4813-8578-50d896bd9240",
+         "connectionOptions": {
+           "connectionString": "mongodb://localhost:27017/"
+         },
+         "favorite": {
+           "name": "Local Host",
+           "color": "color7"
+         },
+         "lastUsed": {
+           "$date": {
+             "$numberLong": "1663790327679"
+           }
+         }
+       }
+     ]
+   }
+
+Next Steps
+----------
+
+To learn how to import exported connections, see
+:ref:`compass-import-connections-cli`.
