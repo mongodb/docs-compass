@@ -11,6 +11,7 @@ toc_landing_pages = [
     "/install", 
     "/connect", 
     "/connect/favorite-connections",
+    "/connect/favorite-connections/import-export-cli/"
     "/instance", 
     "/query/filter", 
     "/query/queries",
