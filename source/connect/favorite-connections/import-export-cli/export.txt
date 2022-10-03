@@ -4,6 +4,14 @@
 Export Favorite Connections with the CLI
 ========================================
 
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
 You can use the |compass-short| :abbr:`CLI (Command-Line Interface)` to
 export favorite connections. This lets you share saved connections
 between workspaces and with colleagues to connect to shared deployments.
