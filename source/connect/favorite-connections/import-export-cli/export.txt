@@ -103,6 +103,13 @@ following:
      ]
    }
 
+.. important:: Output Contains Sensitive Information
+
+   The connection string in the example output is replaced with a
+   placeholder variable. When you export favorite connections, the
+   database username and password are included in plaintext, unless you
+   :ref:`encrypt the export file <compass-encrypt-connections-cli>`. 
+
 Next Steps
 ----------
 
