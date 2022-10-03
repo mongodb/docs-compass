@@ -26,7 +26,7 @@ file contents.
 Tasks
 -----
 
-To learn how to export and import connections, see these pages:
+To learn how to export and import favorite connections, see:
 
 - :ref:`compass-export-connections-cli`
 

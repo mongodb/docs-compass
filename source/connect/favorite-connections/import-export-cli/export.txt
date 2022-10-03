@@ -55,6 +55,19 @@ command in the folder containing your MongoDB Compass binary:
 .. code-block:: sh
 
    ./MongoDB\ Compass --export-connections=/tmp/compass-connections/favorites.json
+   
+You will see this output:
+
+.. code-block:: sh
+   :copyable: false
+
+   Exporting connections to "/tmp/compass-connections/favorites.json" (without passphrase)
+   
+.. important:: Output Contains Sensitive Information
+
+   When you export favorite connections, the database username and
+   password are included in plaintext, unless you :ref:`encrypt the
+   export file <compass-encrypt-connections-cli>`.
 
 Results
 ~~~~~~~
@@ -103,13 +116,6 @@ following:
        }
      ]
    }
-
-.. important:: Output Contains Sensitive Information
-
-   The connection string in the example output is replaced with a
-   placeholder variable. When you export favorite connections, the
-   database username and password are included in plaintext, unless you
-   :ref:`encrypt the export file <compass-encrypt-connections-cli>`. 
 
 Next Steps
 ----------
