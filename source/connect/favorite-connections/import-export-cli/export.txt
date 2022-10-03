@@ -49,7 +49,8 @@ Example
 -------
 
 This example exports favorite |compass-short| connections to a file with
-the path ``/tmp/compass-connections/favorites.json``:
+the path ``/tmp/compass-connections/favorites.json``. Run the following
+command in the folder containing your MongoDB Compass binary:
 
 .. code-block:: sh
 
