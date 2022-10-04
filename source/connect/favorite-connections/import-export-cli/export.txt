@@ -13,8 +13,8 @@ Export Favorite Connections with the CLI
    :class: singlecol
 
 You can use the |compass-short| :abbr:`CLI (Command-Line Interface)` to
-export favorite connections. This lets you share saved connections
-between workspaces and with colleagues to connect to shared deployments.
+export favorite connections. Colleagues can import your favorites, or
+you can use them yourself in your other workspaces.
 
 About This Task
 ---------------
@@ -22,19 +22,18 @@ About This Task
 When you export favorite connections, |compass-short| exports the list
 of connections as a JSON file.
 
-By default, |compass-short| does not hide sensitive connection
-information (such as usernames and passwords) from the exported
-connection file. To learn how to protect sensitive information in
-exported connections, see :ref:`compass-encrypt-connections-cli`.
+.. important:: Export Contains Sensitive Information
+
+   .. include:: /includes/export-connection-warning.rst
 
 Procedure
 ---------
 
-To export **unencrypted** favorite connections using the |compass-short|
+To export **unencrypted** favorite connections with the |compass-short|
 :abbr:`CLI (Command-Line Interface)`, specify:
 
-- The path to the |compass| executable. The path to the executable
-  depends on your operating system.
+- The path to the |compass| executable. The path and executable name
+  depend on your operating system.
 
 - The ``--export-connections`` flag with the value set to the
   destination of the output file.
@@ -49,8 +48,10 @@ Example
 -------
 
 This example exports favorite |compass-short| connections to a file with
-the path ``/tmp/compass-connections/favorites.json``. Run the following
-command in the folder containing your MongoDB Compass binary:
+the path ``/tmp/compass-connections/favorites.json``.
+
+The path to the |compass-short| executable differs by operating system.
+On macOS, the command looks like the following:
 
 .. code-block:: sh
 
@@ -62,12 +63,6 @@ You will see this output:
    :copyable: false
 
    Exporting connections to "/tmp/compass-connections/favorites.json" (without passphrase)
-   
-.. important:: Output Contains Sensitive Information
-
-   When you export favorite connections, the database username and
-   password are included in plaintext unless you :ref:`encrypt the
-   export file <compass-encrypt-connections-cli>`.
 
 Results
 ~~~~~~~
