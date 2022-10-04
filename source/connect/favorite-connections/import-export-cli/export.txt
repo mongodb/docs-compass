@@ -18,9 +18,7 @@ you can use them yourself in your other workspaces.
 
 .. important:: Export Contains Sensitive Information
 
-   When you export favorite connections, database usernames and
-   passwords are included in plaintext unless you :ref:`encrypt the
-   export file <compass-encrypt-connections-cli>`.
+   .. include:: /includes/export-connection-warning.rst
 
 About This Task
 ---------------

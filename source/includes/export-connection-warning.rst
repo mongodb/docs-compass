@@ -1,5 +1,3 @@
-By default, |compass-short| does not hide sensitive connection
-information (such as usernames and passwords) from the exported
-connection file. You can optionally encrypt the exported file with a
-passphrase. When you do, users must specify the passphrase to view the
-file contents.
+When you export favorite connections, database usernames and
+passwords are included in plaintext unless you :ref:`encrypt the
+export file <compass-encrypt-connections-cli>`.

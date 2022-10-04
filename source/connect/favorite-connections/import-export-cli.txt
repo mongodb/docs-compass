@@ -16,10 +16,9 @@ To quickly connect to a shared deployment, export and share your
 favorite connections. Colleagues can import your favorites, or you can
 use them yourself in your other workspaces.
 
-By default, |compass-short| does not hide sensitive connection
-information (such as usernames and passwords) from the exported
-connection file. You can encrypt the exported file with a passphrase. If
-you do, users must specify the passphrase to view the file contents.
+.. important:: Export Contains Sensitive Information
+
+   .. include:: /includes/export-connection-warning.rst
 
 Tasks
 -----
