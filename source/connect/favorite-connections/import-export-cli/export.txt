@@ -47,16 +47,22 @@ Your operation should resemble the following prototype:
 Example
 -------
 
+.. note::
+
+   The name and filepath of the |compass-short| executable differs by
+   operating system. This example is for macOS.
+
 This example exports favorite |compass-short| connections to a file with
 the path ``/tmp/compass-connections/favorites.json``.
 
-The path to the |compass-short| executable differs by operating system.
-On macOS, the command looks like the following:
+Run the following command in the folder containing your MongoDB Compass
+binary:
 
 .. code-block:: sh
 
-   ./MongoDB\ Compass --export-connections=/tmp/compass-connections/favorites.json
-   
+   ./MongoDB\ Compass
+   --export-connections=/tmp/compass-connections/favorites.json
+
 You will see this output:
 
 .. code-block:: sh
