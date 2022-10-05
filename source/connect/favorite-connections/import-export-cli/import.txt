@@ -81,7 +81,7 @@ Import Encrypted Favorite Connections
 -------------------------------------
 
 Use this procedure to import a list of favorite connections that is
-encrypted with a passphrase.
+:ref:`encrypted with a passphrase <compass-encrypt-connections-cli>`.
 
 Procedure
 ~~~~~~~~~
@@ -92,11 +92,11 @@ To import unencrypted favorite connections with the |compass-short|
 - The path to the |compass| executable. The name and filepath of the
   executable depend on your operating system.
 
-- The ``--import-connections`` flag with the value set to the
-  destination of the file containing favorite connections.
+- The ``--import-connections`` flag set to the destination of the file
+  containing favorite connections.
 
-- The ``--passphrase`` flag with the value set to the passphrase
-  used to encrypt the exported file.
+- The ``--passphrase`` flag set to the passphrase used to encrypt the
+  exported file.
 
 Your operation should resemble the following prototype:
 
