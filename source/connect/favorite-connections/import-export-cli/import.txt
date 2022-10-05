@@ -14,7 +14,7 @@ Import Favorite Connections with the CLI
 
 You can use the |compass-short| :abbr:`CLI (Command-Line Interface)` to
 import favorite connections. This lets you use saved connections from
-other workspaces or import connections used by other team members.
+other workspaces or connections used by other team members.
 
 Prerequisite
 ------------
@@ -135,13 +135,13 @@ After you run the import command, you will see this output in the terminal:
 .. code-block:: sh
    :copyable: false
 
-   Importing connections from "/tmp/compass-connections/favorites.json" (with passphrase)
+   Importing connections from "/tmp/compass-connections/favorites-encrypted.json" (with passphrase)
    
 MongoDB Compass starts and you will see the imported connections under
 :guilabel:`Saved Connections` on the Connect screen.
 
 Errors
-``````
+~~~~~~
 
 You may encounter the following errors when attempting to import
 encrypted favorite connections:
