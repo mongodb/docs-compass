@@ -32,11 +32,11 @@ Procedure
 To export **unencrypted** favorite connections with the |compass-short|
 :abbr:`CLI (Command-Line Interface)`, specify:
 
-- The path to the |compass| executable. The name and filepath of the
+- The path to the |compass| executable. The name and file path of the
   executable depend on your operating system.
 
-- The ``--export-connections`` flag with the value set to the
-  destination of the output file.
+- The ``--export-connections`` option set to the destination of the
+  output file.
 
 Your operation should resemble the following prototype:
 
@@ -47,11 +47,6 @@ Your operation should resemble the following prototype:
 Example
 -------
 
-.. note::
-
-   The name and filepath of the executable depend on your operating
-   system. This example is for macOS.
-
 This example exports favorite |compass-short| connections to a file with
 the path ``/tmp/compass-connections/favorites.json``.
 
@@ -61,6 +56,11 @@ executable:
 .. code-block:: sh
 
    ./MongoDB\ Compass --export-connections=/tmp/compass-connections/favorites.json
+   
+.. note::
+
+   The name and file path of the executable depend on your operating
+   system. The preceding command is for macOS.
 
 You will see this output:
 
