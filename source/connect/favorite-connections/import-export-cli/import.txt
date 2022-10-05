@@ -143,7 +143,7 @@ MongoDB Compass starts and you will see the imported connections under
 Errors
 ~~~~~~
 
-When you attempt to import encrypted favorite connections, you may
+When you try to import encrypted favorite connections, you may
 encounter these errors:
 
 - If do not specify a passphrase, you will see this error:
