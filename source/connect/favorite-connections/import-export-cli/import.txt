@@ -34,11 +34,11 @@ Procedure
 To import unencrypted favorite connections with the |compass-short|
 :abbr:`CLI (Command-Line Interface)`, specify:
 
-- The path to the |compass| executable. The name and filepath of the
+- The path to the |compass| executable. The name and file path of the
   executable depend on your operating system.
 
-- The ``--import-connections`` flag with the value set to the
-  destination of the file containing favorite connections.
+- The ``--import-connections`` option set to the destination of the file
+  containing favorite connections.
 
 Your operation should resemble the following prototype:
 
@@ -49,13 +49,8 @@ Your operation should resemble the following prototype:
 Example
 ~~~~~~~
 
-.. note::
-
-   The name and filepath of the executable depend on your operating
-   system. This example is for macOS.
-
-This example imports favorite |compass-short| connections from a file
-with the path ``/tmp/compass-connections/favorites.json``.
+The following example imports favorite |compass-short| connections from
+a file with the path ``/tmp/compass-connections/favorites.json``.
 
 Run the following command in the folder containing your MongoDB Compass
 executable:
@@ -64,10 +59,15 @@ executable:
 
    ./MongoDB\ Compass --import-connections=/tmp/compass-connections/favorites.json
    
+.. note::
+
+   The name and file path of the executable depend on your operating
+   system. The preceding command is for macOS.
+   
 Results
 ```````
 
-After you run the import command, you will see this output in the terminal:
+After you run the import command, you will see this output:
 
 .. code-block:: sh
    :copyable: false
@@ -92,10 +92,10 @@ To import unencrypted favorite connections with the |compass-short|
 - The path to the |compass| executable. The name and filepath of the
   executable depend on your operating system.
 
-- The ``--import-connections`` flag set to the destination of the file
+- The ``--import-connections`` option set to the destination of the file
   containing favorite connections.
 
-- The ``--passphrase`` flag set to the passphrase used to encrypt the
+- The ``--passphrase`` option set to the passphrase used to encrypt the
   exported file.
 
 Your operation should resemble the following prototype:
@@ -109,14 +109,10 @@ Your operation should resemble the following prototype:
 Example
 ~~~~~~~
 
-.. note::
-
-   The name and filepath of the executable depend on your operating
-   system. This example is for macOS.
-
-This example imports favorite |compass-short| connections from a file
-with the path ``/tmp/compass-connections/favorites-encrypted.json`` that is
-encrypted with the passphrase ``abc123``.
+The following example imports favorite |compass-short| connections from
+a file with the path
+``/tmp/compass-connections/favorites-encrypted.json`` that is encrypted
+with the passphrase ``abc123``.
 
 Run the following command in the folder containing your MongoDB Compass
 executable:
@@ -127,10 +123,15 @@ executable:
    --import-connections=/tmp/compass-connections/favorites-encrypted.json \
    --passphrase=abc123
 
+.. note::
+
+   The name and file path of the executable depend on your operating
+   system. The preceding command is for macOS.
+
 Results
 ```````
 
-After you run the import command, you will see this output in the terminal:
+After you run the import command, you will see this output:
 
 .. code-block:: sh
    :copyable: false
@@ -144,7 +145,7 @@ Errors
 ~~~~~~
 
 When you try to import encrypted favorite connections, you may
-encounter these errors:
+see these errors:
 
 - If do not specify a passphrase, you will see this error:
 
