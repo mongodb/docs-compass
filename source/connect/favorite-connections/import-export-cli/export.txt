@@ -16,20 +16,21 @@ You can use the |compass-short| :abbr:`CLI (Command-Line Interface)` to
 export favorite connections. Colleagues can import your favorites, or
 you can use them yourself in your other workspaces.
 
-.. important:: Export Contains Sensitive Information
-
-   .. include:: /includes/export-connection-warning.rst
-
 About This Task
 ---------------
 
 When you export favorite connections, |compass-short| exports the list
 of connections as a JSON file.
 
+By default, when you export favorite connections, database usernames and
+passwords are included in plaintext. You may encrypt the exported file
+with a passphrase. If you do, a user must specify the matching
+passphrase to import the connections.
+
 Procedure
 ---------
 
-To export **unencrypted** favorite connections with the |compass-short|
+To export encrypted favorite connections with the |compass-short|
 :abbr:`CLI (Command-Line Interface)`, specify:
 
 - The path to the |compass| executable. The name and file path of the
