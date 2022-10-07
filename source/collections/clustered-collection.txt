@@ -17,16 +17,28 @@ with a clustered index. Clustered collections store documents ordered by :manual
 key value. You can use clustered collections when only one clustered index is 
 necessary.
 
-Procedure
----------
+Restrictions 
+------------
+
+Clustered collection limitations:
+
+- The clustered index key must be on the ``_id`` field.
+
+- Clustered collections may not be :manual:`capped collections <capped-collection>`.
+
+Steps
+-----
 
 .. procedure::
    :style: connected
 
-   .. step:: Click the :guilabel:`Create Collection` button.
+   .. step:: Open the :guilabel:`Create Collection` dialog box. 
 
       Select a database and from the :guilabel:`Collections` screen, click the 
       :guilabel:`Create Collection` button.
+
+      You can also click the ``+`` next to the name of the database you select 
+      to open the :guilabel:`Create Collection` dialog box. 
 
       .. figure:: /images/compass/new-collection.png
          :figwidth: 550px
@@ -34,37 +46,24 @@ Procedure
 
    .. step:: Enter the collection name.
 
-      .. figure:: /images/compass/create-collection.png
-         :figwidth: 550px
-         :alt: Enter Collection Name
-
-   .. step:: Specify the type of collection you want to create.
+   .. step:: Select the type of collection you want to create.
 
       From the :guilabel:`Advanced Collection Options` drop-down, select 
       :guilabel:`Clustered Collections`.
 
-   .. step:: (Optional) Specify the :guilabel:`name` field.
+   .. step:: (Optional) Name your clustered index.
 
       You can enter a name for the clustered index or use the automatically 
       generated name.
 
-   .. step:: (Optional) Specify :guilabel:`expireAfterSeconds` field.
+   .. step:: (Optional) Enter the number of seconds for the :guilabel:`expireAfterSeconds` field.
 
-      The :guilabel:`expireAfterSeconds` field is a :manual:`TTL index </tutorial/expire-data/>` that enables automatic deletion of documents older than the specified 
-      number of seconds. The :guilabel:`expireAfterSeconds` must be a positive 
+      The :guilabel:`expireAfterSeconds` field is a :manual:`TTL index </tutorial/expire-data/>` 
+      that enables automatic deletion of documents older than the specified 
+      number of seconds. The :guilabel:`expireAfterSeconds` field must be a positive, 
       non-zero value.
 
-   .. step:: Click :guilabel:`Create Collection` to create the collection.
+   .. step:: Click :guilabel:`Create Collection` to create your new collection.
 
-      Your new collection is marked by a :guilabel:`Clustered` badge.  
-
-
-Restrictions and Limitations
-----------------------------
-
-Clustered collection limitations:
-
-- The clustered index key must be on the ``_id`` field.
-
-- Clustered collections may not be :ref:`capped collections
-  <manual-capped-collection>`.
+      In the :guilabel:`Collections` screen, your new collection is marked by a 
+      :guilabel:`Clustered` badge next to the collection name.   
