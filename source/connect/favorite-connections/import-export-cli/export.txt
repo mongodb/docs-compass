@@ -30,7 +30,7 @@ Export Encrypted Favorite Connections
 -------------------------------------
 
 This section explains to export encrypted favorite connections. When you
-encrypt the export file, a user must specify the matching passphrase to
+encrypt the export file, users must specify the matching passphrase to
 import the connections.
 
 Procedure

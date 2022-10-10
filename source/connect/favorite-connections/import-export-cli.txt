@@ -18,7 +18,11 @@ use them yourself in your other workspaces.
 
 .. important:: Export Contains Sensitive Information
 
-   .. include:: /includes/export-connection-warning.rst
+   By default, when you export favorite connections, database usernames
+   and passwords are included in plaintext. To protect sensitive
+   connection information, you may encrypt the exported file with a
+   passphrase. When you do, users must specify the matching passphrase
+   to import the connections.
 
 Tasks
 -----
@@ -29,12 +33,9 @@ To learn how to export and import favorite connections, see:
 
 - :ref:`compass-import-connections-cli`
 
-- :ref:`compass-encrypt-connections-cli`
-
 .. toctree::
    :titlesonly:
 
    /connect/favorite-connections/import-export-cli/export
    /connect/favorite-connections/import-export-cli/import
-   /connect/favorite-connections/import-export-cli/encrypt
    
