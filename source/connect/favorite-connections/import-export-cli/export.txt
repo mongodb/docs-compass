@@ -26,6 +26,8 @@ By default, when you export favorite connections, database usernames and
 passwords are included in plaintext. To protect sensitive connection
 information, you may encrypt the exported file with a passphrase.
 
+.. _compass-export-connections-cli-encrypted:
+
 Export Encrypted Favorite Connections
 -------------------------------------
 

@@ -20,9 +20,10 @@ use them yourself in your other workspaces.
 
    By default, when you export favorite connections, database usernames
    and passwords are included in plaintext. To protect sensitive
-   connection information, you may encrypt the exported file with a
-   passphrase. When you do, users must specify the matching passphrase
-   to import the connections.
+   connection information, you may :ref:`encrypt the exported file with
+   a passphrase <compass-export-connections-cli-encrypted>`. When you
+   do, users must specify the matching passphrase to import the
+   connections.
 
 Tasks
 -----
