@@ -26,7 +26,8 @@ Import Encrypted Favorite Connections
 -------------------------------------
 
 Use this procedure to import a list of favorite connections that is
-:ref:`encrypted with a passphrase <compass-encrypt-connections-cli>`.
+:ref:`encrypted with a passphrase
+<compass-export-connections-cli-encrypted>`.
 
 Procedure
 ~~~~~~~~~
