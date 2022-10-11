@@ -22,61 +22,6 @@ Prerequisite
 To import favorite connections, you must first :ref:`export the
 connections <compass-export-connections-cli>`.
 
-Import Unencrypted Favorite Connections
----------------------------------------
-
-Use this procedure to import a list of favorite connections that is not
-encrypted with a passphrase.
-
-Procedure
-~~~~~~~~~
-
-To import unencrypted favorite connections with the |compass-short|
-:abbr:`CLI (Command-Line Interface)`, specify:
-
-- The path to the |compass| executable. The name and file path of the
-  executable depend on your operating system.
-
-- The ``--import-connections`` option set to the destination of the file
-  containing favorite connections.
-
-Your operation should resemble the following prototype:
-
-.. code-block:: sh
-
-   <path-to-Compass-executable> --import-connections=<filename>
-
-Example
-~~~~~~~
-
-The following example imports favorite |compass-short| connections from
-a file with the path ``/tmp/compass-connections/favorites.json``.
-
-Run the following command in the folder containing your MongoDB Compass
-executable:
-
-.. code-block:: sh
-
-   ./MongoDB\ Compass --import-connections=/tmp/compass-connections/favorites.json
-   
-.. note::
-
-   The name and file path of the executable depend on your operating
-   system. The preceding command is for macOS.
-   
-Results
-```````
-
-After you run the import command, you will see this output:
-
-.. code-block:: sh
-   :copyable: false
-
-   Importing connections from "/tmp/compass-connections/favorites.json" (without passphrase)
-   
-MongoDB Compass starts and you will see the imported connections under
-:guilabel:`Saved Connections` on the Connect screen.
-
 Import Encrypted Favorite Connections
 -------------------------------------
 
@@ -162,3 +107,58 @@ see these errors:
   
      Failed to perform operation Be [Error]: Cannot decrypt due to corrupt
      data or wrong passphrase
+
+Import Unencrypted Favorite Connections
+---------------------------------------
+
+Use this procedure to import a list of favorite connections that is not
+encrypted with a passphrase.
+
+Procedure
+~~~~~~~~~
+
+To import unencrypted favorite connections with the |compass-short|
+:abbr:`CLI (Command-Line Interface)`, specify:
+
+- The path to the |compass| executable. The name and file path of the
+  executable depend on your operating system.
+
+- The ``--import-connections`` option set to the destination of the file
+  containing favorite connections.
+
+Your operation should resemble the following prototype:
+
+.. code-block:: sh
+
+   <path-to-Compass-executable> --import-connections=<filename>
+
+Example
+~~~~~~~
+
+The following example imports favorite |compass-short| connections from
+a file with the path ``/tmp/compass-connections/favorites.json``.
+
+Run the following command in the folder containing your MongoDB Compass
+executable:
+
+.. code-block:: sh
+
+   ./MongoDB\ Compass --import-connections=/tmp/compass-connections/favorites.json
+   
+.. note::
+
+   The name and file path of the executable depend on your operating
+   system. The preceding command is for macOS.
+   
+Results
+```````
+
+After you run the import command, you will see this output:
+
+.. code-block:: sh
+   :copyable: false
+
+   Importing connections from "/tmp/compass-connections/favorites.json" (without passphrase)
+   
+MongoDB Compass starts and you will see the imported connections under
+:guilabel:`Saved Connections` on the Connect screen.
