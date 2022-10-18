@@ -164,7 +164,6 @@ Procedure
 
       To authenticate as a different Kerberos user, run |compass| as the
       chosen user and specify the :guilabel:`Principal` for that user.
-
       To run |compass| as a different user, you can either:
       
       - Hold :guilabel:`Shift` and right-click the
