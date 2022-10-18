@@ -164,7 +164,7 @@ Procedure
 
       To authenticate as a different Kerberos user, run |compass| as the
       chosen user and specify the :guilabel:`Principal` for that user.
-      To run |compass| as a different user, you can either:
+      To run |compass| as a different user, either:
       
       - Hold :guilabel:`Shift` and right-click the
         |compass| program icon to select :guilabel:`Run as a different user`.
@@ -176,16 +176,9 @@ Procedure
               
            runas /profile /user:mymachine\admin <path to MongoDB Compass>
 
-      After you run |compass| as the chosen user, to
-      authenticate against your Kerberos-enabled MongoDB
-      deployment, specify the :guilabel:`Principal` for the
-      corresponding user.
-
-      .. important::
-
-         You must run |compass| as the user you wish to authenticate
-         with. If you specify the desired user :guilabel:`Principal`
-         without running |compass| as that user, authentication fails.
+      After you start |compass| as the chosen user, to authenticate
+      against your Kerberos-enabled MongoDB deployment, specify the
+      :guilabel:`Principal` for the corresponding user.
 
       .. _ldap-authentication:
 
