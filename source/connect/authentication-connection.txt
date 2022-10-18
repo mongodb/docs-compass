@@ -157,17 +157,16 @@ Procedure
       ````````````````````````````````````````````````````
 
       When you authenticate with Kerberos on Windows, the
-      :guilabel:`Principal` must be the same as the
-      principal of the security context that
-      |compass-short| is running. Normally, this is the
-      logged-in user who is running |compass-short|.
+      :guilabel:`Principal` must be the same as the principal of the
+      security context that |compass-short| is running. Normally, this
+      is the logged-in user who is running |compass-short|.
 
       To authenticate as a different Kerberos user, run |compass| as the
       chosen user and specify the :guilabel:`Principal` for that user.
       To run |compass| as a different user, either:
       
-      - Hold :guilabel:`Shift` and right-click the
-        |compass| program icon to select :guilabel:`Run as a different user`.
+      - Hold :guilabel:`Shift` and right-click the |compass| program
+        icon to select :guilabel:`Run as a different user`.
       
       - Use the ``runas`` command-line tool. For example, the following
         command runs |compass| as a user named ``admin``:
