@@ -67,3 +67,12 @@ Steps
 
       In the :guilabel:`Collections` screen, your new collection is marked by a 
       :guilabel:`Clustered` badge next to the collection name.   
+
+Next Steps
+----------
+
+- :ref:`Manage Documents <compass-documents>`
+
+- :ref:`Query Your Data<compass-query-bar>`
+
+- :ref:`Analyze Your Data Scheme <schema-tab>`
