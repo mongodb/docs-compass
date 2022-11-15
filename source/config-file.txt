@@ -1,0 +1,34 @@
+.. _config-file:
+
+==========================================
+Configure settings with Configuration File
+==========================================
+
+You can configure |compass-short| settings using a configuration file. 
+By configuring settings through the configuration file, settings are not mutable 
+in the |compass-short| UI.
+
+About this Task 
+---------------
+
+Be aware of the following information when configuring settings with 
+configuration files:
+
+- |compass-short| accepts a EJSON or YAML configuration file.
+
+- To view configuration options, use ``<path/to/compass> --help`` in the command 
+  line.
+
+- For macOS and Linux, the global configuration file is located at 
+  ``/etc/mongodb-compass.conf``.
+
+- For Windows, the global configuration file is located at 
+  ``<path\to\compass>\..\mongodb-compass.cfg``.
+
+Procedure
+---------
+
+To configure settings with a configuration file:
+
+1. Create your own configuration file.
+
