@@ -66,3 +66,9 @@ YAML
 .. code-block:: yaml
 
    networkTraffic: false
+
+Learn More
+----------
+
+To learn more about the |compass| configuration file, see
+:ref:`config-file`.
