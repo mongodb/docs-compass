@@ -55,3 +55,8 @@ Learn More
 - :manual:`Configuration File </reference/configuration-options>`
 
 - :manual:`Configure the Database </administration/configuration/#configure-the-database>`
+
+.. toctree::
+   :titlesonly:
+
+   /connect/config-settings/config-file-options
