@@ -28,16 +28,15 @@ third-party mapping services in :ref:`schema visualizations
 Procedure
 ---------
 
-You can modify outgoing connection behavior in either a command line
-option or :ref:`configuration file <config-file>` option. To block
-outgoing network operations, set the ``networkTraffic`` option to
-``false``.
+To block outgoing network operations, disable the ``networkTraffic``
+configuration option. You can set configuration options in either a
+command line option or :ref:`configuration file <config-file>` option. 
 
 Command Line Example
 ~~~~~~~~~~~~~~~~~~~~
 
-The following command starts |compass| from the command line and
-sets the ``networkTraffic`` option to ``false``:
+The following command starts |compass| from the command line and sets
+the ``--no-networkTraffic`` option:
 
 .. code-block:: sh
 
@@ -63,3 +62,7 @@ EJSON
 
 YAML
 ````
+
+.. code-block:: yaml
+
+   networkTraffic: false
