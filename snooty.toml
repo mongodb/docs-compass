@@ -9,7 +9,8 @@ intersphinx = [
 
 toc_landing_pages = [
     "/install", 
-    "/connect", 
+    "/connect",
+    "/connect/config-file",
     "/connect/favorite-connections",
     "/connect/favorite-connections/import-export-cli/",
     "/instance", 
