@@ -1,0 +1,46 @@
+.. _config-file-options:
+
+----------------------------------
+Compass Configuration File Options
+----------------------------------
+
+The following page provides an overview on how to configure settings using the 
+configuration file. For more detailed guidance on how to configure a setting, 
+see the task page for the specific setting.
+
+Definition
+----------
+
+You can configure |compass| using a configuration file. The configuration file 
+configures settings at startup. Settings configured using the configuration file 
+cannot be modified on the |compass-short| interface. 
+
+Syntax
+------
+
+You can configure |compass-short| configuration file settings in either EJSON or 
+YAML formal.
+
+**EJSON**
+
+.. code-block:: json
+
+    { "setting": value}
+
+**YAML**
+
+.. code-block:: yaml
+
+    setting: value
+
+Settings
+--------
+
+You can configure the following settings in a configuration file:
+
+- networkTraffic
+
+Learn More
+----------
+
+For more information, see :ref:`Compass Configuration File <config-file>`.

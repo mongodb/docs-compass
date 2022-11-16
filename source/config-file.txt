@@ -1,34 +1,57 @@
 .. _config-file:
 
-==========================================
-Configure settings with Configuration File
-==========================================
+==========================
+Compass Configuration File 
+==========================
 
-You can configure |compass-short| settings using a configuration file. 
-By configuring settings through the configuration file, settings are not mutable 
-in the |compass-short| UI.
+You can configure |compass-short| settings using a :manual:`configuration file 
+</reference/configuration-options>`. Configure settings with a configuration 
+file to help manage the command line options for your large-scale deployments. 
 
-About this Task 
----------------
+Use Cases
+---------
 
-Be aware of the following information when configuring settings with 
-configuration files:
+If you do not want your settings modified after startup, the configuration file 
+allows you to configure settings for large deployments at startup and does 
+not allow them to be modified afterwards on the |compass-short| interface. 
+
+Behavior
+--------
+
+Be aware of the following information when configuring settings with a 
+configuration file:
+
+- You must create your own configuration file. |compass-short| does not provide 
+  a default configuration file. For guidance on how to create a configuration 
+  file, see :manual:`Configure the Database </administration/configuration/#configure-the-database>`.
 
 - |compass-short| accepts a EJSON or YAML configuration file.
 
-- To view configuration options, use ``<path/to/compass> --help`` in the command 
-  line.
+- For macOS and Linux, the configuration file is located at ``/etc/mongodb-compass.conf``.
 
-- For macOS and Linux, the global configuration file is located at 
-  ``/etc/mongodb-compass.conf``.
+- For Windows, the configuration file is located at ``<path\to\compass>\..\mongodb-compass.cfg``.
 
-- For Windows, the global configuration file is located at 
-  ``<path\to\compass>\..\mongodb-compass.cfg``.
+- To view configuration options, run the following command in the folder 
+  containing your |compass| executable:
+  
+  .. code-block:: sh
 
-Procedure
----------
+     <path-to-Compass-executable> --help
 
-To configure settings with a configuration file:
+  .. note::
 
-1. Create your own configuration file.
+     The name and file path of the executable depend on your operating
+     system. The preceding command is for macOS.
 
+Tasks
+-----
+
+To see how to configure specific settings, see :ref:`Compass Configuration File Options 
+<config-file-options>`.
+
+Learn More
+----------
+
+- :manual:`Configuration File </reference/configuration-options>`
+
+- :manual:`Configure the Database </administration/configuration/#configure-the-database>`
