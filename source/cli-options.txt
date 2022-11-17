@@ -4,15 +4,7 @@
 Compass Command Line Options
 ----------------------------
 
-<<<<<<< HEAD
 The following page provides an overview on how to set command line options for 
-=======
-<<<<<<< HEAD
-The following page provides an overview on how to set command line options for 
-=======
-The following page provides an overview on how set command line options for 
->>>>>>> 1735d3d (DOCSP-25363 cli options)
->>>>>>> a838314 (DOCSP-25363 cli options)
 |compass|. For more detailed guidance on how to set a specific command line 
 option, see the task page for the specific option.
 
@@ -24,6 +16,11 @@ When you use the command line to set configuration options, the options are
 set at startup. Settings configured using command line options cannot be 
 modified on the |compass-short| interface.
 
+Compass Executable Location
+---------------------------
+
+.. include:: /includes/compass-executable.rst
+
 Syntax
 ------
 
@@ -33,17 +30,6 @@ Use the following syntax to start |compass| and set a configuration option:
 
     <path-to-Compass-executable> --<option>
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-.. note::
-
-   The name and file path of the executable depend on your operating system. The 
-   preceding command is for macOS.
-
->>>>>>> 1735d3d (DOCSP-25363 cli options)
->>>>>>> a838314 (DOCSP-25363 cli options)
 Options
 -------
 
@@ -56,27 +42,11 @@ You can set the following configuration options using the command line:
    * - Option
      - Definition
 
-<<<<<<< HEAD
    * - :ref:`networkTraffic <compass-configure-network-traffic>`
-=======
-<<<<<<< HEAD
-   * - :ref:`networkTraffic <compass-configure-network-traffic>`
-=======
-   * - ref:`networkTraffic <compass-configure-network-traffic>`
->>>>>>> 1735d3d (DOCSP-25363 cli options)
->>>>>>> a838314 (DOCSP-25363 cli options)
      - Configure |compass| to not perform outgoing network operations other 
        than those to the database.
 
 Learn More
 ----------
 
-<<<<<<< HEAD
 - :ref:`<config-file>` 
-=======
-<<<<<<< HEAD
-- :ref:`<config-file>` 
-=======
-- :ref:`<config-file>`
->>>>>>> 1735d3d (DOCSP-25363 cli options)
->>>>>>> a838314 (DOCSP-25363 cli options)
