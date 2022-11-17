@@ -50,8 +50,9 @@ the ``--no-networkTraffic`` option:
 Configuration File Example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can specify the |compass-short| configuration file in either EJSON or
-YAML format.
+You can specify the |compass-short| configuration file in either EJSON
+or YAML format. The following configurations set the ``networkTraffic``
+option to ``false``:
 
 EJSON
 `````
