@@ -57,6 +57,7 @@ You can set the following configuration options using the command line:
      - Definition
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    * - :ref:`networkTraffic <compass-configure-network-traffic>`
 =======
 <<<<<<< HEAD
@@ -64,7 +65,13 @@ You can set the following configuration options using the command line:
 =======
    * - ref:`networkTraffic <compass-configure-network-traffic>`
 >>>>>>> 1735d3d (DOCSP-25363 cli options)
+<<<<<<< HEAD
 >>>>>>> a838314 (DOCSP-25363 cli options)
+=======
+=======
+   * - :ref:`networkTraffic <compass-configure-network-traffic>`
+>>>>>>> 362b57e (DOCSP-25363 fixed ref)
+>>>>>>> 01d7b12 (DOCSP-25363 fixed ref)
      - Configure |compass| to not perform outgoing network operations other 
        than those to the database.
 
