@@ -19,15 +19,17 @@ Syntax
 ------
 
 You can configure |compass-short| configuration file settings in either EJSON or 
-YAML formal.
+YAML format.
 
-**EJSON**
+EJSON
+`````
 
 .. code-block:: json
 
     { "setting": value}
 
-**YAML**
+YAML
+````
 
 .. code-block:: yaml
 
@@ -38,7 +40,9 @@ Settings
 
 You can configure the following settings in a configuration file:
 
-- networkTraffic
+TODO: Idea is to create a table here that links to the task pages for each setting
+
+- networkTraffic 
 
 Learn More
 ----------

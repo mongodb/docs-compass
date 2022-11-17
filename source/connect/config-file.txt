@@ -4,7 +4,7 @@
 Compass Configuration File 
 ==========================
 
-You can configure |compass-short| settings using a :manual:`configuration file 
+You can configure |compass| settings using a :manual:`configuration file 
 </reference/configuration-options>`. Configure settings with a configuration 
 file to help manage the command line options for your large-scale deployments. 
 
@@ -25,7 +25,7 @@ configuration file:
   a default configuration file. For guidance on how to create a configuration 
   file, see :manual:`Configure the Database </administration/configuration/#configure-the-database>`.
 
-- |compass-short| accepts a EJSON or YAML configuration file.
+- |compass-short| accepts EJSON or YAML configuration files.
 
 - For macOS and Linux, the configuration file is located at ``/etc/mongodb-compass.conf``.
 
