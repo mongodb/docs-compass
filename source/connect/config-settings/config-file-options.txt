@@ -40,7 +40,14 @@ Settings
 
 You can configure the following settings in a configuration file:
 
-TODO: Idea is to create a table here that links to the task pages for each setting
+.. list-table::
+
+    * - Setting 
+      - Definition
+
+    * - :ref:`networkTraffic <compass-configure-network-traffic>`
+      - Configure |compass| to not perform outgoing network operations other 
+        than those to the database.
 
 - networkTraffic 
 
