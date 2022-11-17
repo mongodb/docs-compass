@@ -139,3 +139,4 @@ The Advanced Connection Options provide additional forms of connecting
    /connect/favorite-connections
    /connect/connect-from-the-command-line
    /connect/disconnect
+   /connect/cli-options
