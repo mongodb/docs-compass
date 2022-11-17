@@ -64,7 +64,7 @@ percentage of each data type represented.
      shows the minimum, maximum, and average array lengths.
 
    .. figure:: /images/compass/collection-schema.png
-      :figwidth: 750px
+      :figwidth: 700px
       :alt: Example of a collection's schema
 
 Query Bar
