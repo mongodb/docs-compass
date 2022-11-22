@@ -10,6 +10,58 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.34.0
+----------------
+
+New Features:
+
+- Add CLI connection import/export (:issue:`COMPASS-6073` and 
+  :issue:`COMPASS-6074`)
+
+- Flip the new toolbars feature flag, always show new toolbars 
+  (:issue:`COMPASS-5679`)
+
+- Show icons in the sidebar menus (:issue:`COMPASS-6081`)
+
+- Update pipeline options to Leafy Green components (:issue:`COMPASS-6048`)
+
+- Update to rebranded Leafygreen components (:issue:`COMPASS-6100`)
+
+- Make ``mongodb-client-encryption`` optional (:issue:`VSCODE-342`)
+  
+- Add support for CLI arguments/global config file (:issue:`COMPASS-6070` 
+  and :issue:`COMPASS-6071`)
+ 
+- Remove feature tour (:issue:`COMPASS-6099`)
+
+- Implement ``HADRON_ISOLATED`` through preferences (:issue:`COMPASS-6065`)
+- Use rebranded combobox (:issue:`COMPASS-6101`)
+
+- Uniform scroll behavior and simplify layout layers
+
+- Welcome modal (:issue:`COMPASS-6150`)
+
+- Align backgrounds and uniform spacings (:issue:`COMPASS-6148`)
+
+- Align all the colors with rebranded colors (:issue:`COMPASS-6121`)
+
+- Add support for automatically connecting based on CLI arguments 
+  (:issue:`COMPASS-6069`)
+
+- Update error styles in crud, remove unused status row component
+
+- Use rebranded monospace fonts everywhere and remove Akzidenz 
+  (:issue:`COMPASS-6187`)
+
+- Add autocompleter for aggregation, use autocompleter in import pipeline 
+  modal (:issue:`COMPASS-6175`)
+
+- Update empty state graphics (:issue:`COMPASS-5582`)
+
+- Add theme as regular setting (:issue:`COMPASS-6067` and :issue:`COMPASS-5284`)
+
+- Add protectConnectionStrings option (:issue:`COMPASS-6066`)
+
 |compass| 1.33.1
 ----------------
 
