@@ -13,6 +13,8 @@ Release Notes
 |compass| 1.34.0
 ----------------
 
+*Released November 21, 2022*
+
 New Features:
 
 - Add command-line interface and global configuration (:issue:`COMPASS-6069`, 
@@ -27,7 +29,8 @@ New Features:
 
 - Add ``protectConnectionStrings`` option (:issue:`COMPASS-6066`)
 
-- Implement ``HADRON_ISOLATED`` through preferences (:issue:`COMPASS-6065`)
+- Adds the ``networkTraffic`` configuration option to block outgoing network
+  connections (:issue:`COMPASS-6065`)
 
 - Show icons in the sidebar menus (:issue:`COMPASS-6081`)
 
@@ -47,8 +50,6 @@ Bug Fixes:
 
 - Improve selection area for insert document editor
 
-- Tell yargs about types for kebab case options
-
 - Add map for collection stats for tab namespace isolation 
   (:issue:`COMPASS-6146`)
 
@@ -56,8 +57,6 @@ Bug Fixes:
 
 - Menu not fully showing for field actions, remove old backgrounds 
   (:issue:`COMPASS-6186`)
-
-- Remove margins from ace brackets
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.33.1...v1.34.0>`__.
