@@ -41,9 +41,9 @@ New Features:
 
 Bug Fixes 
 
-- Fix map rendering + add e2e tests (:issue:`COMPASS-6131`)
+- Fix map rendering and add e2e tests (:issue:`COMPASS-6131`)
 
-- Reconnect csfle client after collMod (:issue:`COMPASS-5989`)
+- Reconnect CSFLE client after :dbcommand:`collMod` (:issue:`COMPASS-5989`)
 
 - Improve selection area for insert document editor
 
