@@ -59,6 +59,8 @@ Bug Fixes:
 
 - Remove margins from ace brackets
 
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.33.1...v1.34.0>`__.
 
 |compass| 1.33.1
 ----------------
