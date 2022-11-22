@@ -15,52 +15,49 @@ Release Notes
 
 New Features:
 
-- Add CLI connection import/export (:issue:`COMPASS-6073` and 
-  :issue:`COMPASS-6074`)
+- Add command-line interface and global configuration (:issue:`COMPASS-6069`, 
+  :issue:`COMPASS-6070`, :issue:`COMPASS-6071`, :issue:`COMPASS-6073`, 
+  and :issue:`COMPASS-6074`)
 
 - Flip the new toolbars feature flag, always show new toolbars 
   (:issue:`COMPASS-5679`)
 
-- Show icons in the sidebar menus (:issue:`COMPASS-6081`)
-
-- Update pipeline options to Leafy Green components (:issue:`COMPASS-6048`)
-
-- Update to rebranded Leafygreen components (:issue:`COMPASS-6100`)
-
-- Make ``mongodb-client-encryption`` optional (:issue:`VSCODE-342`)
-  
-- Add support for CLI arguments/global config file (:issue:`COMPASS-6070` 
-  and :issue:`COMPASS-6071`)
- 
-- Remove feature tour (:issue:`COMPASS-6099`)
-
-- Implement ``HADRON_ISOLATED`` through preferences (:issue:`COMPASS-6065`)
-- Use rebranded combobox (:issue:`COMPASS-6101`)
-
-- Uniform scroll behavior and simplify layout layers
-
-- Welcome modal (:issue:`COMPASS-6150`)
-
-- Align backgrounds and uniform spacings (:issue:`COMPASS-6148`)
-
-- Align all the colors with rebranded colors (:issue:`COMPASS-6121`)
-
-- Add support for automatically connecting based on CLI arguments 
-  (:issue:`COMPASS-6069`)
-
-- Update error styles in crud, remove unused status row component
-
-- Use rebranded monospace fonts everywhere and remove Akzidenz 
-  (:issue:`COMPASS-6187`)
-
 - Add autocompleter for aggregation, use autocompleter in import pipeline 
   modal (:issue:`COMPASS-6175`)
 
-- Update empty state graphics (:issue:`COMPASS-5582`)
+- Add ``protectConnectionStrings`` option (:issue:`COMPASS-6066`)
+
+- Implement ``HADRON_ISOLATED`` through preferences (:issue:`COMPASS-6065`)
+
+- Show icons in the sidebar menus (:issue:`COMPASS-6081`)
+
+- Rebranding components (:issue:`COMPASS-6100`, :issue:`COMPASS-6101`,
+  :issue:`COMPASS-6121`, :issue:`COMPASS-6048`, and :issue:`COMPASS-6187`)
+
+- Layout improvements (:issue:`COMPASS-6148`, :issue:`COMPASS-6150`, and
+  :issue:`COMPASS-5582`)
 
 - Add theme as regular setting (:issue:`COMPASS-6067` and :issue:`COMPASS-5284`)
 
-- Add protectConnectionStrings option (:issue:`COMPASS-6066`)
+Bug Fixes 
+
+- Fix map rendering + add e2e tests (:issue:`COMPASS-6131`)
+
+- Reconnect csfle client after collMod (:issue:`COMPASS-5989`)
+
+- Improve selection area for insert document editor
+
+- Tell yargs about types for kebab case options
+
+- Add map for collection stats for tab namespace isolation 
+  (:issue:`COMPASS-6146`)
+
+- Open info links in browser (:issue:`COMPASS-6193`)
+
+- Menu not fully showing for field actions, remove old backgrounds 
+  (:issue:`COMPASS-6186`)
+
+- Remove margins from ace brackets
 
 
 |compass| 1.33.1
