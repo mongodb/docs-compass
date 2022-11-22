@@ -30,7 +30,7 @@ EJSON
 
     { 
       "setting": value,
-      "setting": value,
+      "setting": value
     }
 
 YAML
