@@ -63,13 +63,6 @@ Tasks
 To see how to configure specific settings, see :ref:`Compass Configuration File Options 
 <config-file-options>`.
 
-Learn More
-----------
-
-- :manual:`Configuration File </reference/configuration-options>`
-
-- :manual:`Configure the Database </administration/configuration/#configure-the-database>`
-
 .. toctree::
    :titlesonly:
 
