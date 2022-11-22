@@ -39,7 +39,7 @@ New Features:
 
 - Add theme as regular setting (:issue:`COMPASS-6067` and :issue:`COMPASS-5284`)
 
-Bug Fixes 
+Bug Fixes:
 
 - Fix map rendering and add e2e tests (:issue:`COMPASS-6131`)
 
