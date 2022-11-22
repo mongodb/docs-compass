@@ -62,6 +62,7 @@ New Features:
 
 - Add protectConnectionStrings option (:issue:`COMPASS-6066`)
 
+
 |compass| 1.33.1
 ----------------
 
