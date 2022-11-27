@@ -45,8 +45,6 @@ When you configure settings with a configuration file:
 
 - You can not modify settings set in the configuration file after startup.
 
-- |compass-short| does not provide a default configuration file.
-
 - You can specify the configuration file in either EJSON or YAML format.
 
 - To view all available |compass-short| configuration options, run the following
