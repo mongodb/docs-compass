@@ -5,6 +5,7 @@ Compass Command Line Options
 ----------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The following page provides an overview on how to set command line options for 
 =======
 <<<<<<< HEAD
@@ -12,7 +13,13 @@ The following page provides an overview on how to set command line options for
 =======
 The following page provides an overview on how set command line options for 
 >>>>>>> 1735d3d (DOCSP-25363 cli options)
+<<<<<<< HEAD
 >>>>>>> a838314 (DOCSP-25363 cli options)
+=======
+=======
+The following page provides an overview on how to set command line options for 
+>>>>>>> b0e6c24 (DOCSP-25363 internal feedback)
+>>>>>>> 3ff696e (DOCSP-25363 internal feedback)
 |compass|. For more detailed guidance on how to set a specific command line 
 option, see the task page for the specific option.
 
@@ -34,6 +41,7 @@ Use the following syntax to start |compass| and set a configuration option:
     <path-to-Compass-executable> --<option>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -43,7 +51,12 @@ Use the following syntax to start |compass| and set a configuration option:
    preceding command is for macOS.
 
 >>>>>>> 1735d3d (DOCSP-25363 cli options)
+<<<<<<< HEAD
 >>>>>>> a838314 (DOCSP-25363 cli options)
+=======
+=======
+>>>>>>> b0e6c24 (DOCSP-25363 internal feedback)
+>>>>>>> 3ff696e (DOCSP-25363 internal feedback)
 Options
 -------
 
