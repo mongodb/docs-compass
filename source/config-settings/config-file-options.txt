@@ -62,4 +62,4 @@ You can configure the following settings in a configuration file:
 Learn More
 ----------
 
-For more information, see :ref:`Compass Configuration File <config-file>`.
+For more information, see :ref:`Compass Configuration File <config-file>`. 
