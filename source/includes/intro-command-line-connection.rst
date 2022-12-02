@@ -1,5 +1,6 @@
-You can start a |compass-short| session from the command line. A command
-line start can be scripted which makes it easier to deploy
-|compass-short| in enterprise environments. For example, you can
-configure |compass-short| to run on a jump host to limit access to
-sensitive systems.
+You can start a |compass-short| session from the command line. 
+
+In enterprise environments, a scripted start can make it easier to
+deploy |compass-short|. For example, to limit access to sensitive
+systems, you can configure a command line start so that |compass-short|
+can run on a jump host.
