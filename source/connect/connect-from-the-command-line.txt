@@ -121,7 +121,7 @@ command line like:
    mongodb-compass --file=learningConnectionFile \
                    --passphrase=superSecret
 
-If you have multiple favorites, include the connection from the
+If you have multiple favorites, include the connection id from the
 configuration file to specify which connection to use: 
 
 .. code-block::
