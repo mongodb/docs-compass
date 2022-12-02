@@ -82,8 +82,8 @@ connection details to connect to your MongoDB installation:
 Configuration File Connection Specification
 -------------------------------------------
 
-The command line invocation for |compass-short| can include a reference
-to a configuration file. 
+The command line invocation for |compass-short| can specify a
+configuration file. 
 
 The format is:
 
