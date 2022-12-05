@@ -1,8 +1,8 @@
 .. _comp-command-line-connect:
 
-=============================================
-Connecting from the Command Line with Compass
-=============================================
+===================================
+Start Compass from the Command Line
+===================================
 
 .. default-domain:: mongodb
 
@@ -17,7 +17,7 @@ Connecting from the Command Line with Compass
 There are two ways to start |compass-short| from the command line:
 
 - :ref:`Specify a connection string on the command line
-  <compass-connect-cmd-line>`.
+  <compass-connect-cmd-line>`
 - :ref:`Specify connection details in a file
   <compass-connect-file-based>`
 
