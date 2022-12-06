@@ -21,7 +21,7 @@ Syntax
 ------
 
 You can configure |compass-short| configuration file settings in either EJSON or 
-YAML format.
+YAML format. 
 
 EJSON
 `````
