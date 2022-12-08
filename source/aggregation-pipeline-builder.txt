@@ -17,8 +17,12 @@ Aggregation Pipeline Builder
 The Aggregation Pipeline Builder in |compass| lets you create
 :manual:`aggregation pipelines </core/aggregation-pipeline/>` to process
 data. In aggregation pipelines, documents in a collection or view pass
-through stages where |compass| processes them into a set of aggregated
-results. You can change the stages and results to suit your needs.
+through stages which compute or modify document fields. For example,
+aggregation stages can:
+
+- Add new document fields.
+- Perform mathematical operations on existing fields.
+- Modify field values based on other documents.
 
 To start building an aggregation pipeline for a :doc:`collection or view
 </collections>`, choose the collection and click the
@@ -27,7 +31,10 @@ A blank aggregation pipeline displays. The :guilabel:`Preview of
 Documents in the Collection` section of the :guilabel:`Aggregations`
 view displays 20 documents sampled from the current collection.
 
-You can:
+Tasks
+-----
+
+You can use |compass| to:
 
 - :ref:`Create a new aggregation pipeline <create-agg-pipeline>`
 
