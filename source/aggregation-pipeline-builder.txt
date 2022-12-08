@@ -14,12 +14,11 @@ Aggregation Pipeline Builder
 
 *New in version 1.14.0*
 
-The Aggregation Pipeline Builder in |compass| provides the ability to
-create :manual:`aggregation pipelines </core/aggregation-pipeline/>` to
-process data. In aggregation pipelines, documents in a collection
-or view pass through stages where |compass| processes them into a
-set of aggregated results. You can change the stages and results to
-suit your needs.
+The Aggregation Pipeline Builder in |compass| lets you create
+:manual:`aggregation pipelines </core/aggregation-pipeline/>` to process
+data. In aggregation pipelines, documents in a collection or view pass
+through stages where |compass| processes them into a set of aggregated
+results. You can change the stages and results to suit your needs.
 
 To start building an aggregation pipeline for a :doc:`collection or view
 </collections>`, choose the collection and click the
@@ -58,8 +57,8 @@ Limitations
 - The :pipeline:`$out` stage is not available if you are connected to a
   `Data Lake <https://www.mongodb.com/atlas/data-lake>`__.
 
-- You cannot run the :pipeline:`$search` stage on a :ref:`time series
-  collection <manual-timeseries-landing>`.
+- You cannot run the :atlas:`$search </atlas-search/query-syntax>` stage
+  on a :ref:`time series collection <manual-timeseries-landing>`.
 
 .. _create-agg-pipeline:
 
