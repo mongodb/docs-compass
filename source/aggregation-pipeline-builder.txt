@@ -55,7 +55,7 @@ Limitations
 -----------
 
 - The :pipeline:`$out` stage is not available if you are connected to a
-  `Data Lake <https://www.mongodb.com/atlas/data-lake>`__.
+  :atlas:`Data Lake </data-lake>`.
 
 - You cannot run the :atlas:`$search </atlas-search/query-syntax>` stage
   on a :ref:`time series collection <manual-timeseries-landing>`.
