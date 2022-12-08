@@ -10,14 +10,6 @@ Release Notes
    :depth: 1
    :class: twocols
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> b25d255 (DOCSP-25363 updates from Joe and Dave meeting)
-=======
->>>>>>> e8f3cb2 (DOCSP-25363 rebase updates)
 |compass| 1.34.1
 ----------------
 
