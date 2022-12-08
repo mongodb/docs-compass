@@ -36,7 +36,7 @@ view displays 20 documents sampled from the current collection.
 Tasks
 -----
 
-You can use |compass| to:
+You can use the |compass-short| Aggregation Pipeline Builder to:
 
 - :ref:`Create a new aggregation pipeline <create-agg-pipeline>`
 
