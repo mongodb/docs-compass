@@ -26,12 +26,10 @@ can use aggregation stages to:
 
 - Analyze data changes over time.
 
-To start building an aggregation pipeline for a :doc:`collection or view
-</collections>`, choose the collection and click the
-:guilabel:`Aggregations` tab.
-A blank aggregation pipeline displays. The :guilabel:`Preview of
-Documents in the Collection` section of the :guilabel:`Aggregations`
-view displays 20 documents sampled from the current collection.
+To build an aggregation pipeline, choose a collection and click the
+:guilabel:`Aggregations` tab. A blank aggregation pipeline displays. The
+:guilabel:`Preview of Documents in the Collection` section displays 20
+documents sampled from the chosen collection.
 
 Tasks
 -----
