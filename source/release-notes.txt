@@ -63,13 +63,6 @@ Bug Fixes:
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.33.1...v1.34.0>`__.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 725acb4 (DOCSP-25363 updates from Joe and Dave meeting)
->>>>>>> b25d255 (DOCSP-25363 updates from Joe and Dave meeting)
-=======
->>>>>>> e8f3cb2 (DOCSP-25363 rebase updates)
 |compass| 1.33.1
 ----------------
 
