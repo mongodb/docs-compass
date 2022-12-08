@@ -27,9 +27,10 @@ can use aggregation stages to:
 - Analyze data changes over time.
 
 To build an aggregation pipeline, choose a collection and click the
-:guilabel:`Aggregations` tab. A blank aggregation pipeline displays. The
-:guilabel:`Preview of Documents in the Collection` section displays 20
-documents sampled from the chosen collection.
+:guilabel:`Aggregations` tab. |compass-short| displays a blank
+aggregation pipeline. The :guilabel:`Preview of Documents in the
+Collection` section shows 20 documents randomly sampled from the chosen
+collection.
 
 Tasks
 -----
