@@ -65,8 +65,8 @@ Limitations
 - The :pipeline:`$out` stage is not available if you are connected to a
   :atlas:`Data Lake </data-lake>`.
 
-- You cannot run the Atlas Search :atlas:`$search
-  </atlas-search/query-syntax>` stage on a :ref:`time series collection
+- You cannot run the :atlas:`Atlas Search </atlas-search>` ``$search``
+  or ``$searchMeta`` stages on a :ref:`time series collection
   <manual-timeseries-landing>`.
 
 .. _create-agg-pipeline:
