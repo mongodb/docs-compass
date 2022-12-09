@@ -14,7 +14,7 @@ it in a folder you pick during the installation process.
 
 MacOS
 ~~~~~
-The executable is called ``Compass``. The installer installs
+The executable is called ``MongoDB Compass``. The installer installs
 it under the Applications folder: 
 
 .. code-block:: shell
