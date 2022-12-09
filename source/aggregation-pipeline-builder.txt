@@ -16,10 +16,8 @@ Aggregation Pipeline Builder
 
 The Aggregation Pipeline Builder in |compass| lets you create
 :manual:`aggregation pipelines </core/aggregation-pipeline/>` to process
-data. Aggregation pipelines are made up of :ref:`stages
-</reference/operator/aggregation-pipeline/>` which process documents
-from a collection of view. For example, you can use aggregation stages
-to:
+documents from a collection or view and return computed results. For
+example, you can use aggregation pipelines to:
 
 - Group values from multiple documents together.
 
