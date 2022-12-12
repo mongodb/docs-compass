@@ -1,5 +1,7 @@
 .. _cli-options:
 
+.. program:: compass
+
 ----------------------------
 Compass Command Line Options
 ----------------------------
@@ -33,18 +35,77 @@ Use the following syntax to start |compass| and set a configuration option:
 Options
 -------
 
-You can set the following configuration options using the command line:
+You can set these options when using the command line:
 
-.. list-table::
-   :header-rows: 1
-   :widths: 15 60
+.. option:: --autoUpdates
+  
+   Enable automatic updates.
+  
+.. option:: --enableFeedbackPanel
+  
+   Enable the feedback panel.
+   
+.. option:: --enableMaps
+ 
+   Enable geographic visualizations.
 
-   * - Option
-     - Definition
+.. option:: --exportConnections
+    
+   Export :ref:`favorite connections 
+   <compass-export-import-cli-landing>`.
 
-   * - :ref:`networkTraffic <compass-configure-network-traffic>`
-     - Configure |compass| to not perform outgoing network operations other 
-       than those to the database.
+.. option:: --file <file>
+  
+   Specify a file containing a list of connections. These connections
+   are automatically available once |compass| starts.
+
+.. option:: --help
+   
+   Show |compass| options.
+
+.. option:: --importConnections
+
+   Import :ref:`favorite connections 
+   <compass-export-import-cli-landing>`.
+
+.. option:: --lgDarkmode
+
+   Use leafygreen dark mode instead of darkreader.
+
+.. option:: --networkTraffic
+
+   Configure |compass| to not perform outgoing 
+   :ref:`network operations <compass-configure-network-traffic>`
+   other than those to the database.
+
+.. option:: --passphrase
+ 
+   Connection export/import passphrase.
+
+.. option:: --positionalArguments
+
+   Specify a connection string or connection ID to automatically 
+   connect.
+
+.. option:: --protectConnectionStrings
+
+   Protect connection string secrets.
+
+.. option:: --theme
+
+   Specify the |compass| UI theme.
+
+.. option:: --trackErrors
+
+   Enable crash reports.
+
+.. option:: --trackUsageStatistics
+
+   Enable usage statistics.
+
+.. option:: --version
+
+   Show |compass| version.
 
 Learn More
 ----------
