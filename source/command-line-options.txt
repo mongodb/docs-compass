@@ -39,7 +39,7 @@ You can set these options when using the command line:
 
 .. option:: --autoUpdates
   
-   Enable automatic updates.
+   Enable :ref:`automatic updates <enable-automatic-updates>`.
   
 .. option:: --enableFeedbackPanel
   
@@ -51,8 +51,7 @@ You can set these options when using the command line:
 
 .. option:: --exportConnections
     
-   Export :ref:`favorite connections 
-   <compass-export-import-cli-landing>`.
+   :ref:`Export <compass-export-connections-cli>` favorite connections.
 
 .. option:: --file <file>
   
@@ -65,8 +64,7 @@ You can set these options when using the command line:
 
 .. option:: --importConnections
 
-   Import :ref:`favorite connections 
-   <compass-export-import-cli-landing>`.
+   :ref:`Import <compass-import-connections-cli>` favorite connections.
 
 .. option:: --lgDarkmode
 
@@ -74,18 +72,16 @@ You can set these options when using the command line:
 
 .. option:: --networkTraffic
 
-   Configure |compass| to not perform outgoing 
-   :ref:`network operations <compass-configure-network-traffic>`
-   other than those to the database.
+   Configure |compass| to only allow outgoing :ref:`network operations 
+   <compass-configure-network-traffic>` to connect to the database.
 
 .. option:: --passphrase
  
-   Connection export/import passphrase.
+   Specify a passphrase to encrypt the :ref:`exported favorite 
+   connections <compass-export-connections-cli-encrypted>` output file.
 
-.. option:: --positionalArguments
-
-   Specify a connection string or connection ID to automatically 
-   connect.
+   Specify a passphrase to decrypt the :ref:`imported favorite
+   connections <compass-import-connections-cli-encrypted>` file. 
 
 .. option:: --protectConnectionStrings
 
@@ -93,7 +89,8 @@ You can set these options when using the command line:
 
 .. option:: --theme
 
-   Specify the |compass| UI theme.
+   Specify the |compass| UI theme. The supported themes are ``DARK``,
+   ``LIGHT``, and ``OS_THEME``.
 
 .. option:: --trackErrors
 
