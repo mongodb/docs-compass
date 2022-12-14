@@ -55,8 +55,9 @@ You can set these options when using the command line:
 
 .. option:: --file <file>
   
-   Specify a file containing a list of connections. These connections
-   are automatically available once |compass| starts.
+   Specify a file containing a :ref:`list of connections 
+   <compass-export-connections-cli>`. These connections are 
+   automatically available once |compass| starts.
 
 .. option:: --help
    
