@@ -39,15 +39,27 @@ You can set these options when using the command line:
 
 .. option:: --autoUpdates
   
-   Enable :ref:`automatic updates <enable-automatic-updates>`.
+   Enable :ref:`automatic updates <enable-automatic-updates>`. Use 
+   ``--no-autoUpdates`` to disable automatic updates. 
+
+   Setting this option overrides the value in the :guilabel:`Settings` 
+   panel.
   
 .. option:: --enableFeedbackPanel
   
-   Enable the feedback panel.
+   Enable the feedback panel. Use ``--no-enableFeedbackPanel`` to 
+   disable automatic updates. 
+
+   Setting this option overrides the value in the :guilabel:`Settings` 
+   panel.
    
 .. option:: --enableMaps
  
-   Enable geographic visualizations.
+   Allow |compass| to make requests to a 3rd party mapping service. Use
+   ``--no-enableMaps`` to disable mapping requests.
+
+   Setting this option overrides the value in the :guilabel:`Settings` 
+   panel.
 
 .. option:: --exportConnections
     
@@ -74,7 +86,7 @@ You can set these options when using the command line:
 .. option:: --networkTraffic
 
    Configure |compass| to only allow outgoing :ref:`network operations 
-   <compass-configure-network-traffic>` to connect to the database.
+   <compass-configure-network-traffic>` to connect to the database. 
 
 .. option:: --passphrase
  
@@ -86,22 +98,35 @@ You can set these options when using the command line:
 
 .. option:: --protectConnectionStrings
 
-   Protect connection string secrets. Passwords in connection strings
-   are displayed as `*****`. Toggle :guilabel:`Edit Connection
-   String` to display the full, unprotected connection string.
+   Hide credentials in connection strings. Passwords in connection 
+   strings are displayed as `*****`. 
+
+   Setting this option overrides the value in the :guilabel:`Settings` 
+   panel.
 
 .. option:: --theme
 
    Specify the |compass| UI theme. The supported themes are ``DARK``,
    ``LIGHT``, and ``OS_THEME``.
+   
+   Setting this option overrides the value in the :guilabel:`Settings` 
+   panel.
 
 .. option:: --trackErrors
 
-   Enable crash reports.
+   Enable sending crash reports. Use ``--no-trackErrors`` to disable
+   sending crash reports.
+   
+   Setting this option overrides the value in the :guilabel:`Settings` 
+   panel.
 
 .. option:: --trackUsageStatistics
 
-   Enable sending usage statistics.
+   Enable sending usage statistics. Use ``--no-trackUsageStatistics``
+   to disable sending usage statistics.
+
+   Setting this option overrides the value in the :guilabel:`Settings` 
+   panel.
 
 .. option:: --version
 
