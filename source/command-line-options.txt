@@ -86,7 +86,9 @@ You can set these options when using the command line:
 
 .. option:: --protectConnectionStrings
 
-   Protect connection string secrets.
+   Protect connection string secrets. Passwords in connection strings
+   are displayed as `*****`. Toggle :guilabel:`Edit Connection
+   String` to display the full, unprotected connection string.
 
 .. option:: --theme
 
@@ -99,7 +101,7 @@ You can set these options when using the command line:
 
 .. option:: --trackUsageStatistics
 
-   Enable usage statistics.
+   Enable sending usage statistics.
 
 .. option:: --version
 
