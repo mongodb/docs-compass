@@ -68,12 +68,47 @@ Limitations
   or ``$searchMeta`` stages on a :ref:`time series collection
   <manual-timeseries-landing>`.
 
+
 .. _create-agg-pipeline:
 
-Create an Aggregation Pipeline
-------------------------------
+Create an Aggregation Pipeline Stage View Mode
+----------------------------------------------
 
 .. include:: /includes/steps/create-agg-pipeline.rst
+
+.. _create-agg-pipeline-textview:
+
+Create an Aggregation Pipeline Text View Mode
+---------------------------------------------
+
+Starting in Compass 1.35, the text view edit mode can be used to build
+and edit aggregation pipelines.
+
+.. procedure::
+   :style: normal
+
+   .. step:: In the aggregation pipeline pane, click the 
+      :guilabel:`</> TEXT` toggle switch to enable text mode for 
+      pipeline editing.
+
+      .. figure:: /images/compass/agg-builder-textview-toggle-on.png
+         :figwidth: 316px
+         :alt: Toggle textmode on
+
+   .. step:: Enter valid aggregation syntax in the newly prompted 
+      text editor. The results from the aggregation syntax is parsed and 
+      displayed in realtime. 
+
+      .. figure:: /images/compass/agg-builder-textview-edit.png
+         :figwidth: 316px
+         :alt: Edit the text aggregation pipeline
+
+      .. step:: Click output options for the ability to collapse and expand
+         all fields within the document query results.
+
+      .. figure:: /images/compass/agg-builder-textview-expand-results.png
+         :figwidth: 316px
+         :alt: Expand the aggregation pipeline results
 
 .. _save-agg-pipeline:
 
