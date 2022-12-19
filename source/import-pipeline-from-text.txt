@@ -12,7 +12,10 @@ Import Pipeline from Text
    :depth: 1
    :class: singlecol
 
-*New in version 1.15.0*
+Starting in Compass 1.35, the import pipeline button has been removed
+from the Compass GUI. The full functionality of importing pipelines 
+from text is still fully supported as part of the View Pipeline as 
+Text edit mode.
 
 You can import aggregation pipelines from plain text into
 the :ref:`Aggregation Pipeline Builder <compass-agg-builder>` to
@@ -24,7 +27,7 @@ pipeline stages using the Pipeline Builder's :guilabel:`Output` panes.
 Syntax
 ------
 
-The imported pipeline must be in the
+The text pipeline must be in the
 :manual:`MongoDB query language </tutorial/query-documents/>`
 (i.e. the same syntax used as the ``pipeline`` parameter of the
 :manual:`db.collection.aggregate()
@@ -35,7 +38,20 @@ pipeline.
 Procedure
 ---------
 
-.. include:: /includes/steps/import-pipeline-from-text.rst
+.. procedure::
+   :style: normal
+
+   .. step:: In the aggregation pipeline pane, click the 
+      :guilabel:`</> TEXT` toggle switch to enable text mode for 
+      pipeline editing.
+
+   .. step:: Type or paste aggregation pipeline syntax text into the 
+      text editor. The text editor provides real time linting 
+      for correct syntax.
+
+      .. code-block:: javascript
+
+         [ { "$limit" : 4 } ]
 
 Once you import your pipeline, you can add and modify individual stages
 and see the results reflected in the :guilabel:`Output` of each respective stage.
