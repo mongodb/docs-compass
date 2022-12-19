@@ -109,9 +109,9 @@ Create an Aggregation Pipeline : Text View Mode
          
          :alt: Results after Running Aggregation
 
-   .. step:: **(Optional)** Click :guilabel:`OUTPUT OPTIONS` dropdown 
-      select :guilabel:`Expand all fields` to expand all nested fields 
-      within the document query results.
+   .. step:: **(Optional)** Click the :guilabel:`OUTPUT OPTIONS` dropdown 
+      and select :guilabel:`Expand all fields` to expand all nested 
+      fields and documents within the document query results.
 
       .. figure:: /images/compass/agg-builder-textview-expand-results.png
          :alt: Expand the aggregation pipeline results
