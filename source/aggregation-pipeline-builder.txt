@@ -97,7 +97,7 @@ and edit aggregation pipelines.
 
    .. step:: Enter valid aggregation syntax in the newly prompted 
       text editor. If auto preview is enabled, the results from the 
-      aggregation syntax is parsed and displayed in realtime. 
+      aggregation syntax are parsed and displayed in realtime. 
 
       .. figure:: /images/compass/agg-builder-textview-edit.png
          :figwidth: 316px
@@ -111,7 +111,7 @@ and edit aggregation pipelines.
          When you click :guilabel:`Run`, the aggregation runs against the entire 
          collection.
 
-      .. figure:: /images/compass/run-results.png
+      .. figure:: /images/compass/agg-builder-textview-agg-results.png
             :alt: Results after Running Aggregation
 
    .. step:: (Optional) Click output options for the ability to collapse and expand
