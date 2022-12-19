@@ -27,7 +27,7 @@ pipeline stages using the Pipeline Builder's :guilabel:`Output` panes.
 Syntax
 ------
 
-The text pipeline must be in the
+The imported pipeline must be in the
 :manual:`MongoDB query language </tutorial/query-documents/>`
 (i.e. the same syntax used as the ``pipeline`` parameter of the
 :manual:`db.collection.aggregate()
