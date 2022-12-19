@@ -95,9 +95,9 @@ Create an Aggregation Pipeline : Text View Mode
       text editor. The following syntax will limit the query results 
       to ``4`` documents.
 
-         .. code-block:: javascript
+      .. code-block:: javascript
 
-            [ { "$limit" : 4 } ]
+         [ { "$limit" : 4 } ]
 
       .. figure:: /images/compass/agg-builder-textview-edit.png
          :alt: Edit the text aggregation pipeline
