@@ -6,7 +6,7 @@ content: |
    In the aggregation pipeline pane, ensure the  
    :guilabel:`{} STAGES` toggle switch is selected.
 
-   .. figure:: /images/compass/agg-builder-stageview-toggle-on
+   .. figure:: /images/compass/agg-builder-stageview-toggle-on.png
       :alt: Toggle on stage view mode 
 ---
 title: Add an aggregation pipeline stage.
