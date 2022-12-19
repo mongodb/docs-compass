@@ -96,19 +96,30 @@ and edit aggregation pipelines.
          :alt: Toggle textmode on
 
    .. step:: Enter valid aggregation syntax in the newly prompted 
-      text editor. The results from the aggregation syntax is parsed and 
-      displayed in realtime. 
+      text editor. If auto preview is enabled, the results from the 
+      aggregation syntax is parsed and displayed in realtime. 
 
       .. figure:: /images/compass/agg-builder-textview-edit.png
          :figwidth: 316px
          :alt: Edit the text aggregation pipeline
 
-      .. step:: Click output options for the ability to collapse and expand
-         all fields within the document query results.
+   .. step:: Click :guilabel:`Run` at the top right of the pipeline builder. 
+      |compass-short| returns your results in the document view.
 
-      .. figure:: /images/compass/agg-builder-textview-expand-results.png
-         :figwidth: 316px
-         :alt: Expand the aggregation pipeline results
+      .. warning::
+
+         When you click :guilabel:`Run`, the aggregation runs against the entire 
+         collection.
+
+      .. figure:: /images/compass/run-results.png
+            :alt: Results after Running Aggregation
+
+   .. step:: (Optional) Click output options for the ability to collapse and expand
+      all fields within the document query results.
+
+   .. figure:: /images/compass/agg-builder-textview-expand-results.png
+      :figwidth: 316px
+      :alt: Expand the aggregation pipeline results
 
 .. _save-agg-pipeline:
 
