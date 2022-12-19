@@ -97,7 +97,7 @@ Create an Aggregation Pipeline : Text View Mode
 
          .. code-block:: javascript
 
-               [ { "$limit" : 4 } ]
+            [ { "$limit" : 4 } ]
 
       .. figure:: /images/compass/agg-builder-textview-edit.png
          :alt: Edit the text aggregation pipeline
@@ -106,7 +106,6 @@ Create an Aggregation Pipeline : Text View Mode
       |compass-short| returns your results in the document view.
 
       .. figure:: /images/compass/agg-builder-textview-agg-results.png
-         
          :alt: Results after Running Aggregation
 
    .. step:: **(Optional)** Click the :guilabel:`OUTPUT OPTIONS` dropdown 

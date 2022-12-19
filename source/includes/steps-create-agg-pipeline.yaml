@@ -1,6 +1,6 @@
 title: Toggle Stage View Mode
 level: 4
-ref: add-pipeline-stage
+ref: select-stage-view-mode
 content: |
 
    In the aggregation pipeline pane, ensure the  
