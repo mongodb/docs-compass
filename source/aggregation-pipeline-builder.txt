@@ -81,9 +81,6 @@ Create an Aggregation Pipeline Stage View Mode
 Create an Aggregation Pipeline Text View Mode
 ---------------------------------------------
 
-Starting in Compass 1.35, the text view edit mode can be used to build
-and edit aggregation pipelines.
-
 .. procedure::
    :style: normal
 
@@ -92,7 +89,6 @@ and edit aggregation pipelines.
       pipeline editing.
 
       .. figure:: /images/compass/agg-builder-textview-toggle-on.png
-         :figwidth: 316px
          :alt: Toggle textmode on
 
    .. step:: Enter valid aggregation syntax in the newly prompted 
