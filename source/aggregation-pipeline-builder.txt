@@ -117,9 +117,9 @@ and edit aggregation pipelines.
    .. step:: (Optional) Click output options for the ability to collapse and expand
       all fields within the document query results.
 
-   .. figure:: /images/compass/agg-builder-textview-expand-results.png
-      :figwidth: 316px
-      :alt: Expand the aggregation pipeline results
+      .. figure:: /images/compass/agg-builder-textview-expand-results.png
+         :figwidth: 316px
+         :alt: Expand the aggregation pipeline results
 
 .. _save-agg-pipeline:
 
