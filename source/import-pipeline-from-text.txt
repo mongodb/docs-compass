@@ -60,6 +60,6 @@ Procedure
          :alt: Edit aggregation pipeline
 
 Once you import your pipeline, you can click the :guilabel:`{} STAGES` 
-switch to return to stage view mode and modify individual stages and 
+switch to return to stage view mode and modify individual stages to 
 see the results reflected in the :guilabel:`Output` of each respective 
 stage.
