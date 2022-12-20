@@ -27,13 +27,13 @@ pipeline stages using the Pipeline Builder's :guilabel:`Output` panes.
 Syntax
 ------
 
-The imported pipeline must be in the
-:manual:`MongoDB query language </tutorial/query-documents/>`
+The imported pipeline must be:
+
+- In the :manual:`MongoDB query language </tutorial/query-documents/>`
 (i.e. the same syntax used as the ``pipeline`` parameter of the
 :manual:`db.collection.aggregate()
-</reference/method/db.collection.aggregate/>` method). The imported
-pipeline must be an array, even if there is only one stage in the
-pipeline.
+</reference/method/db.collection.aggregate/>` method).
+- Must be an array, even if there is only one stage in the pipeline.
 
 Procedure
 ---------
@@ -45,13 +45,21 @@ Procedure
       :guilabel:`</> TEXT` toggle switch to enable text mode for 
       pipeline editing.
 
+      .. figure:: /images/compass/agg-builder-textview-toggle-on.png
+         :alt: Toggle Textview Mode on
+
    .. step:: Type or paste aggregation pipeline syntax text into the 
       text editor. The text editor provides real time linting 
-      for correct syntax.
+      for correct syntax and debugging information.
 
       .. code-block:: javascript
 
          [ { "$limit" : 4 } ]
 
-Once you import your pipeline, you can add and modify individual stages
-and see the results reflected in the :guilabel:`Output` of each respective stage.
+      .. figure:: /images/compass/agg-builder-textview-edit.png
+         :alt: Edit aggregation pipeline
+
+Once you import your pipeline, you can click the :guilabel:`{} STAGES` 
+switch to return to stage view mode and modify individual stages and 
+see the results reflected in the :guilabel:`Output` of each respective 
+stage.
