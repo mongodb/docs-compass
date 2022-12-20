@@ -30,9 +30,9 @@ Syntax
 The imported pipeline must be:
 
 - In the :manual:`MongoDB query language </tutorial/query-documents/>`
-(i.e. the same syntax used as the ``pipeline`` parameter of the
-:manual:`db.collection.aggregate()
-</reference/method/db.collection.aggregate/>` method).
+  (i.e. the same syntax used as the ``pipeline`` parameter of the
+  :manual:`db.collection.aggregate()
+  </reference/method/db.collection.aggregate/>` method).
 - Must be an array, even if there is only one stage in the pipeline.
 
 Procedure
