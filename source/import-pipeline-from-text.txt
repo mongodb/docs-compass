@@ -34,7 +34,7 @@ The imported pipeline must be:
   this is the same syntax used as the ``pipeline`` parameter of the
   :manual:`db.collection.aggregate()
   </reference/method/db.collection.aggregate/>` method.
-- Be an array, even if there is only one stage in the pipeline.
+- An array, even if there is only one stage in the pipeline.
 
 Procedure
 ---------
