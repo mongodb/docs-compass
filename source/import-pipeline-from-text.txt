@@ -34,8 +34,6 @@ The imported pipeline must be:
 
 - In the :manual:`MongoDB query language </tutorial/query-documents/>`,
   this is the same syntax used in the ``pipeline`` parameter of the
-  :manual:`db.collection.aggregate()
-  </reference/method/db.collection.aggregate/>` | 
   :method:`aggregate() <db.collection.aggregate()>` method.
 - An array, even if there is only one stage in the pipeline.
 
