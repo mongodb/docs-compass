@@ -68,11 +68,20 @@ Limitations
   or ``$searchMeta`` stages on a :ref:`time series collection
   <manual-timeseries-landing>`.
 
-
 .. _create-agg-pipeline:
 
 Create an Aggregation Pipeline
 ------------------------------
+
+Aggregation pipelines can be created in 2 seperate modes:
+
+- Stage View Mode, a visual click based pipeline editor which 
+  preloads pipeline syntax based on user selections.
+
+- Text View Mode, a text based pipeline editor which accepts raw
+  pipeline syntax. 
+
+.. _create-agg-pipeline-stageview:
 
 Stage View Mode
 ~~~~~~~~~~~~~~~
