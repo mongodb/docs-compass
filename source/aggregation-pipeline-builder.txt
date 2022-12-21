@@ -116,6 +116,14 @@ Text View Mode
       .. figure:: /images/compass/agg-builder-textview-edit.png
          :alt: Edit the text aggregation pipeline
 
+   .. step:: **(Optional)** If preview mode is enabled, you can 
+      click :guilabel:`Output Options` in the Pipeline Output pane to 
+      expand all nested fields and documents within the 
+      preview results.
+
+      .. figure:: /images/compass/agg-builder-textview-edit.png
+         :alt: Edit the text aggregation pipeline
+
    .. step:: Click :guilabel:`Run` at the top right of the pipeline builder. 
       |compass-short| returns your results in the document view.
 
