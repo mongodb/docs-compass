@@ -35,31 +35,13 @@ Use the following syntax to start |compass| and set a configuration option:
 Options
 -------
 
-You can set these options when using the command line:
+You can set these options when using the command line. 
 
-.. option:: --autoUpdates
-  
-   Enable :ref:`automatic updates <enable-automatic-updates>`. Use 
-   ``--no-autoUpdates`` to disable automatic updates. 
+Command Line Only
+~~~~~~~~~~~~~~~~~
 
-   Setting this option overrides the value in the :guilabel:`Settings` 
-   panel.
-  
-.. option:: --enableFeedbackPanel
-  
-   Enable the feedback panel. Use ``--no-enableFeedbackPanel`` to 
-   disable automatic updates. 
-
-   Setting this option overrides the value in the :guilabel:`Settings` 
-   panel.
-   
-.. option:: --enableMaps
- 
-   Allow |compass| to make requests to a 3rd party mapping service. Use
-   ``--no-enableMaps`` to disable mapping requests.
-
-   Setting this option overrides the value in the :guilabel:`Settings` 
-   panel.
+These options can only be set on the command line. These options
+cannot be set in the :guilabel:`Settings` panel.
 
 .. option:: --exportConnections
     
@@ -79,6 +61,40 @@ You can set these options when using the command line:
 
    :ref:`Import <compass-import-connections-cli>` favorite connections.
 
+.. option:: --passphrase
+ 
+   Specify a passphrase to encrypt the :ref:`exported favorite 
+   connections <compass-export-connections-cli-encrypted>` output file.
+
+   Specify a passphrase to decrypt the :ref:`imported favorite
+   connections <compass-import-connections-cli-encrypted>` file. 
+
+.. option:: --version
+
+   Show |compass| version.
+
+Command Line or Settings Panel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These options can be set on the command line **or** in the 
+:guilabel:`Settings` panel. Setting an option on the command line 
+overrides the value in the :guilabel:`Settings` panel.        
+
+.. option:: --autoUpdates
+  
+   Enable :ref:`automatic updates <enable-automatic-updates>`. Use 
+   ``--no-autoUpdates`` to disable automatic updates. 
+
+.. option:: --enableFeedbackPanel
+  
+   Enable the feedback panel. Use ``--no-enableFeedbackPanel`` to 
+   disable automatic updates. 
+
+.. option:: --enableMaps
+ 
+   Allow |compass| to make requests to a 3rd party mapping service. Use
+   ``--no-enableMaps`` to disable mapping requests.
+
 .. option:: --lgDarkmode
 
    Use leafygreen dark mode instead of darkreader.
@@ -88,49 +104,26 @@ You can set these options when using the command line:
    Configure |compass| to only allow outgoing :ref:`network operations 
    <compass-configure-network-traffic>` to connect to the database. 
 
-.. option:: --passphrase
- 
-   Specify a passphrase to encrypt the :ref:`exported favorite 
-   connections <compass-export-connections-cli-encrypted>` output file.
-
-   Specify a passphrase to decrypt the :ref:`imported favorite
-   connections <compass-import-connections-cli-encrypted>` file. 
-
 .. option:: --protectConnectionStrings
 
    Hide credentials in connection strings. Passwords in connection 
    strings are displayed as `*****`. 
-
-   Setting this option overrides the value in the :guilabel:`Settings` 
-   panel.
 
 .. option:: --theme
 
    Specify the |compass| UI theme. The supported themes are ``DARK``,
    ``LIGHT``, and ``OS_THEME``.
    
-   Setting this option overrides the value in the :guilabel:`Settings` 
-   panel.
-
 .. option:: --trackErrors
 
    Enable sending crash reports. Use ``--no-trackErrors`` to disable
    sending crash reports.
    
-   Setting this option overrides the value in the :guilabel:`Settings` 
-   panel.
-
 .. option:: --trackUsageStatistics
 
    Enable sending usage statistics. Use ``--no-trackUsageStatistics``
    to disable sending usage statistics.
 
-   Setting this option overrides the value in the :guilabel:`Settings` 
-   panel.
-
-.. option:: --version
-
-   Show |compass| version.
 
 Learn More
 ----------
