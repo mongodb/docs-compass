@@ -71,29 +71,32 @@ Limitations
 
 .. _create-agg-pipeline:
 
-Create an Aggregation Pipeline : Stage View Mode
-------------------------------------------------
+Create an Aggregation Pipeline
+------------------------------
+
+Stage View Mode
+~~~~~~~~~~~~~~~
 
 .. include:: /includes/steps/create-agg-pipeline.rst
 
 .. _create-agg-pipeline-textview:
 
-Create an Aggregation Pipeline : Text View Mode
------------------------------------------------
+Text View Mode
+~~~~~~~~~~~~~~
 
 .. procedure::
    :style: normal
 
    .. step:: In the aggregation pipeline pane, click the 
-      :guilabel:`</> TEXT` toggle switch to enable text mode for 
+      :guilabel:`</> Text` toggle switch to enable text mode for 
       pipeline editing.
 
       .. figure:: /images/compass/agg-builder-textview-toggle-on.png
          :alt: Toggle textmode on
 
    .. step:: Enter valid aggregation syntax in the newly prompted 
-      text editor. The following syntax will limit the query results 
-      to ``4`` documents.
+      text editor. The following example pipeline limits the query 
+      results to ``4`` documents.
 
       .. code-block:: javascript
 
@@ -108,7 +111,7 @@ Create an Aggregation Pipeline : Text View Mode
       .. figure:: /images/compass/agg-builder-textview-agg-results.png
          :alt: Results after Running Aggregation
 
-   .. step:: **(Optional)** Click the :guilabel:`OUTPUT OPTIONS` dropdown 
+   .. step:: **(Optional)** Click the :guilabel:`Output Options` dropdown 
       and select :guilabel:`Expand all fields` to expand all nested 
       fields and documents within the query results.
 
