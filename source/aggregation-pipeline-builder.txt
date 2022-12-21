@@ -76,6 +76,7 @@ Create an Aggregation Pipeline
 
 Stage View Mode
 ~~~~~~~~~~~~~~~
+|
 
 .. include:: /includes/steps/create-agg-pipeline.rst
 
@@ -83,6 +84,7 @@ Stage View Mode
 
 Text View Mode
 ~~~~~~~~~~~~~~
+|
 
 .. procedure::
    :style: normal
