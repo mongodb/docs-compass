@@ -95,10 +95,6 @@ overrides the value in the :guilabel:`Settings` panel.
    Allow |compass| to make requests to a 3rd party mapping service. Use
    ``--no-enableMaps`` to disable mapping requests.
 
-.. option:: --lgDarkmode
-
-   Use leafygreen dark mode instead of darkreader.
-
 .. option:: --networkTraffic
 
    Configure |compass| to only allow outgoing :ref:`network operations 
