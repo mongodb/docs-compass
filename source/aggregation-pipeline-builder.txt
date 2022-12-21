@@ -73,12 +73,12 @@ Limitations
 Create an Aggregation Pipeline
 ------------------------------
 
-Aggregation pipelines can be created in 2 seperate modes:
+Aggregation pipelines can be created in two seperate modes:
 
-- Stage View Mode, a visual click based pipeline editor which 
-  preloads pipeline syntax based on user selections.
+- Stage View Mode, a visual click-based pipeline editor that 
+  preloads pipeline syntax based on your selected stages.
 
-- Text View Mode, a text based pipeline editor which accepts raw
+- Text View Mode, a text-based pipeline editor that accepts raw
   pipeline syntax. 
 
 .. _create-agg-pipeline-stageview:
@@ -105,9 +105,9 @@ Text View Mode
       .. figure:: /images/compass/agg-builder-textview-toggle-on.png
          :alt: Toggle textmode on
 
-   .. step:: Enter valid aggregation syntax in the newly prompted 
-      text editor. The following example pipeline limits the query 
-      results to ``4`` documents.
+   .. step:: Enter valid aggregation syntax in the text editor. 
+      The following example pipeline limits the query results to ``4`` 
+      documents.
 
       .. code-block:: javascript
 
