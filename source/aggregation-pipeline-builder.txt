@@ -35,7 +35,7 @@ collection.
 
    When you connect Compass to MongoDB instances hosted on 
    `Atlas <https://www.mongodb.com/cloud/atlas?tck=docs_compass>`_
-   Atlas only stages ``$search`` and ``$searchMeta`` are 
+   additional Atlas only stages ``$search`` and ``$searchMeta`` are 
    available in the Pipeline editor. 
 
 Tasks
