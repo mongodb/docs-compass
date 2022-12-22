@@ -38,7 +38,10 @@ collection.
    additional Atlas-only stages 
    :atlas:`$search </reference/atlas-search/query-syntax/#-search>` and
    :atlas:`$searchMeta </reference/atlas-search/query-syntax/#-searchmeta>`
-   are available in the Aggregation Pipeline Builder.
+   are available in the Aggregation Pipeline Builder. Use these stages 
+   to perform 
+   :atlas:`full-text search</atlas/atlas-search/atlas-search-overview/>` 
+   on Atlas collections.
 
 Tasks
 -----
