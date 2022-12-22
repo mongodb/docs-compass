@@ -34,7 +34,7 @@ collection.
 .. note:: 
 
    When you connect Compass to MongoDB instances hosted on 
-   `Atlas <https://www.mongodb.com/cloud/atlas?tck=docs_compass>`_
+   `Atlas <https://www.mongodb.com/cloud/atlas?tck=docs_compass>`_,
    additional Atlas only stages ``$search`` and ``$searchMeta`` are 
    available in the Aggregation Pipeline Builder. 
 
