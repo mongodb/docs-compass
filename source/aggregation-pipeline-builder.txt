@@ -40,7 +40,7 @@ collection.
    :atlas:`$searchMeta </reference/atlas-search/query-syntax/#-searchmeta>`
    are available in the Aggregation Pipeline Builder. Use these stages 
    to perform 
-   :atlas:`full-text search</atlas/atlas-search/atlas-search-overview/>` 
+   :atlas:`full-text search</reference/atlas/atlas-search/atlas-search-overview/>` 
    on Atlas collections.
 
 Tasks
