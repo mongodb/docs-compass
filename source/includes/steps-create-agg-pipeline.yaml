@@ -10,6 +10,7 @@ content: |
    stage of the pipeline:
 
    .. figure:: /images/compass/agg-builder-select-stage.png
+      :figwidth: 2340px
       :alt: Aggregation Builder select stage
 ---
 title: Fill in the pipeline stage.
