@@ -41,16 +41,14 @@ content: |
       a pipeline stage also updates the pipeline preview, which reflects
       whether or not that stage is included.
 
-      .. example::
+      The following pipeline excludes the first
+      :manual:`$match </reference/operator/aggregation/match/>` stage
+      and only includes the
+      :manual:`$project </reference/operator/aggregation/project/>`
+      stage:
 
-         The following pipeline excludes the first
-         :manual:`$match </reference/operator/aggregation/match/>` stage
-         and only includes the
-         :manual:`$project </reference/operator/aggregation/project/>`
-         stage:
-
-         .. figure:: /images/compass/agg-builder-exclude-stage-example.png
-            :alt: Aggregation Builder exclude stage example
+      .. figure:: /images/compass/agg-builder-exclude-stage-example.png
+         :alt: Aggregation Builder exclude stage example
 ---
 title: Run the pipeline.
 level: 4
