@@ -31,6 +31,18 @@ aggregation pipeline. The :guilabel:`Preview of Documents in the
 Collection` section shows 20 documents randomly sampled from the chosen
 collection.
 
+.. note:: Atlas Search Stages
+
+   When you connect |compass-short| to a MongoDB deployment hosted on 
+   `Atlas <https://www.mongodb.com/cloud/atlas?tck=docs_compass>`_,
+   additional Atlas-only stages 
+   :atlas:`$search </reference/atlas-search/query-syntax/#-search>` and
+   :atlas:`$searchMeta </reference/atlas-search/query-syntax/#-searchmeta>`
+   are available in the Aggregation Pipeline Builder. Use these stages 
+   to perform 
+   :atlas:`full-text search</atlas-search/atlas-search-overview>` 
+   on Atlas collections.
+
 Tasks
 -----
 
@@ -91,13 +103,13 @@ Open a Saved Pipeline
    pipeline builder. 
 
    .. figure:: /images/compass/saved-pipeline-icon.png
-         :figwidth: 600px
+         :figwidth: 316px
          :alt: Saved Pipeline Icon
 
 #. Hover over the pipeline you want to open and click :guilabel:`Open`.
 
    .. figure:: /images/compass/saved-pipelines.png
-         :figwidth: 600px
+         :figwidth: 316px
          :alt: Saved Pipelines List 
 
 #. In the modal, click :guilabel:`Open Pipeline`.
