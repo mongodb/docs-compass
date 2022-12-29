@@ -131,8 +131,8 @@ How do I view and modify my Privacy Settings?
 ---------------------------------------------
 
 To view and modify your |compass| privacy settings, from the top-level
-menu click :guilabel:`Help` then click :guilabel:`Settings` on the prompted
-module click :guilabel:`Privacy Settings`.
+menu click :guilabel:`Help` then click :guilabel:`Settings`, then on the 
+settings module click :guilabel:`Privacy`.
 
 The privacy settings dialog allows you to toggle various
 |compass| settings such as enabling crash reports and automatic updates.
