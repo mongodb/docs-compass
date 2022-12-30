@@ -68,7 +68,8 @@ connection string:
 .. code-block:: shell
    :copyable: false
 
-   mongodb-compass mongodb+srv://cluster0.cpxklfq.mongodb.net/library --username user1 --password password1
+   mongodb-compass mongodb+srv://cluster0.cpxklfq.mongodb.net/library 
+   --username user1 --password password1
 
 .. _compass-connect-file-based:
 
