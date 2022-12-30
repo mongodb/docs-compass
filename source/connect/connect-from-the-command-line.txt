@@ -44,13 +44,14 @@ format is:
 .. code-block:: shell
    :copyable: false
 
-    <path/to/compass/executable> <connection string> --username <username> --password <password>
+    <path/to/compass/executable> <connection string> 
+    --username <username> --password <password>
 
 
 .. note:: 
 
    If the username and password arguments are not provided, Compass will
-   attempt to use the credentials in the URL.
+   attempt to use the credentials in the connection string.
 
 This example is like the basic connection string for a `MongoDB
 University <https://learn.mongodb.com/>`__ training cluster. Modify the
