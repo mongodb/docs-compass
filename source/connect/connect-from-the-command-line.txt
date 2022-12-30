@@ -53,12 +53,12 @@ format is:
    If the username and password arguments are not provided, Compass will
    attempt to use the credentials in the connection string.
 
-This example is like the basic connection string for a `MongoDB
+The following example uses a basic connection string for a `MongoDB
 University <https://learn.mongodb.com/>`__ training cluster. Modify the
 connection details to connect to your MongoDB installation:  
 
 .. code-block:: shell
-   :copyable: false
+   :copyable: true
  
    mongodb-compass mongodb+srv://cluster0.cpxklfq.mongodb.net/library
 
@@ -67,7 +67,7 @@ authenticate Compass to the MongoDB deployment provided in the
 connection string:
 
 .. code-block:: shell
-   :copyable: false
+   :copyable: true
 
    mongodb-compass mongodb+srv://cluster0.cpxklfq.mongodb.net/library 
    --username user1 --password password1
