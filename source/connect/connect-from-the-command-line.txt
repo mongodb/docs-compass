@@ -38,7 +38,8 @@ Command Line Connection Specification
 -------------------------------------
 
 The command line invocation for |compass-short| has two components, the 
-path to the |compass-short| executable and a connection string. The
+path to the |compass-short| executable and a connection string, you can
+optionally pass in the username and password parameters. The
 format is:
 
 .. code-block:: shell
