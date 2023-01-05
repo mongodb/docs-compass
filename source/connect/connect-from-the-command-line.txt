@@ -65,7 +65,7 @@ connection details to connect to your MongoDB installation:
 .. code-block:: shell
    :copyable: true
  
-   mongodb-compass mongodb+srv://cluster0.cpxklfq.mongodb.net/library
+   mongodb-compass mongodb+srv://xxxxxxx.yyyyyy.mongodb.net/library
 
 Username and Password Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -77,7 +77,7 @@ connection string:
 .. code-block:: shell
    :copyable: true
 
-   mongodb-compass mongodb+srv://cluster0.cpxklfq.mongodb.net/library 
+   mongodb-compass mongodb+srv://xxxxxxx.yyyyyy.mongodb.net/library 
    --username user1 --password password1
 
 .. _compass-connect-file-based:
