@@ -16,7 +16,7 @@ Release Notes
 
 *Released January 11, 2023*
 
-New Features
+New Features:
 
 - Update export modal to LeafyGreen components (:issue:`COMPASS-6220`)
 - Replace types dropdown with LG select
@@ -55,7 +55,7 @@ New Features
 - Add refresh document count in aggregation results (:issue:`COMPASS-6156`)
 - Confirm when deleting pipeline (:issue:`COMPASS-4137`)
 
-Bug Fixes
+Bug Fixes:
 
 - Improve table view interactions
 - Do not save auto-connection in recents (:issue:`COMPASS-6290`)
