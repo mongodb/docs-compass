@@ -28,7 +28,7 @@ Server Stats
 
 The :guilabel:`Performance` tab displays various stats:
 
-.. figure:: /images/compass/performance-view-full.svg
+.. figure:: /images/compass/performance-view-full.png
   :figwidth: 720px
   :alt: Performance statistics example
 

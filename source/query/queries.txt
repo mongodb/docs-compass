@@ -33,6 +33,8 @@ To add a query to your favorites:
 
 .. include:: /includes/fact-favorite-query.rst
 
+.. _view-favorite-queries:
+
 Viewing Saved Queries
 ---------------------
 

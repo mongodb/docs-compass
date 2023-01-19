@@ -16,12 +16,7 @@ MongoDB instance to which Compass is connected, including:
 - The connection name if the connection is a favorite connection,
   or "My Cluster" otherwise.
 
-- The deployment type (standalone, replica set, sharded cluster). If
-  the deployment is a replica set and the replica set name is specified
-  in the connection window, the number of replica set members will also
-  be displayed.
-
-- The hostname and port, as well as the version of MongoDB.
+- Your :ref:`saved queries and aggregation pipelines <view-favorite-queries>`. 
 
 - A list of the instance's :doc:`databases </databases>`.
 
