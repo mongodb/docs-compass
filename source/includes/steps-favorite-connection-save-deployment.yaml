@@ -4,7 +4,7 @@ ref: save-connection
 content: |
 
   .. figure:: /images/compass/save-favorite-menu.png
-     :figwidth: 600px
+     :figwidth: 400px
      :alt: Save connection to favorites from menu
 
 ---
