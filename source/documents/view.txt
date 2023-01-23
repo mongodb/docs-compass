@@ -119,9 +119,9 @@ Expand Embedded Objects and Arrays
          :alt: View nested elements in Table view
 
       The following example displays the ``delays``
-      object nested within the ``flightStats`` collection documents. The
-      new tab displays the two properties of the ``delay`` object:
-      ``arrivalRunwayDelayMinutes`` and ``departureRunwayDelayMinutes``.
+      object nested within the ``airlines`` collection documents. The
+      new tab displays the two properties of the ``delays`` object:
+      ``international`` and ``domestic``.
 
       .. figure:: /images/compass/doc-table-view-nested.png
          :figwidth: 696px
