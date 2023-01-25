@@ -185,19 +185,19 @@ Open a Saved Pipeline
 
 .. _set-maxtime-ms-agg:
 
-Set ``maxTimeMS`` for Aggregations Queries
-------------------------------------------
+Set ``maxTimeMS`` for Aggregation Queries
+-----------------------------------------
 
 Use the ``maxTimeMS`` parameter on the aggregation tab to specify an 
 upper time limit in milliseconds on the aggregation pipelines that 
 run in |compass-short|.
 
-To enable ``maxTimeMS`` on the aggregation tab:
+To enable ``maxTimeMS`` on the :guilabel:`Aggregations` tab:
 
 .. procedure::
    :style: normal
 
-   .. step:: In the aggregation pipeline pane, click the 
+   .. step:: On the :guilabel:`Aggregations` tab, click 
       :guilabel:`More Options`.
 
       .. figure:: /images/compass/agg-builder-click-more-options.png
