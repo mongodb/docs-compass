@@ -190,7 +190,7 @@ Set ``maxTimeMS`` for Aggregations Queries
 
 Use the ``maxTimeMS`` parameter on the aggregation tab to specify an 
 upper time limit in milliseconds on the aggregation pipelines that 
-run in Compass.
+run in |compass-short|.
 
 To enable ``maxTimeMS`` on the aggregation tab:
 
@@ -210,11 +210,11 @@ To enable ``maxTimeMS`` on the aggregation tab:
       .. figure:: /images/compass/agg-builder-enter-maxtime-ms.png
          :alt: Enter a maximum timeout value 
 
-Any aggregation operation that goes over the time limit 
-produces an error message.
+      If your aggregation operation goes over the time limit, 
+      |compass-short| raises the following error:
 
-.. figure:: /images/compass/agg-builder-operation-time-limit-error.png
-   :alt: Operation timeout error
+      .. figure:: /images/compass/agg-builder-operation-time-limit-error.png
+         :alt: Operation timeout error
 
 .. _use-sample-mode-or-auto-preview:
 
