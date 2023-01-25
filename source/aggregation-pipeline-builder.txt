@@ -183,6 +183,7 @@ Open a Saved Pipeline
    To learn more, see 
    :ref:`viewing saved aggregations<saved-query-view>` for details.
 
+.. _set-maxtime-ms-agg:
 
 Set ``maxTimeMS`` for Aggregations Queries
 ------------------------------------------
@@ -203,14 +204,14 @@ To enable ``maxTimeMS`` on the aggregation tab:
          :alt: Toggle more options
 
    .. step:: Enter a value next to :guilabel:`Max Time MS` to set a 
-      maximum of time in milliseconds that an aggregation pipeline can 
-      run in Compass. For a ``5`` second limit enter ``5000``.
+      maximum amount of time in milliseconds that an aggregation 
+      pipeline can run. For a ``5`` second limit enter ``5000``.
 
       .. figure:: /images/compass/agg-builder-enter-maxtime-ms.png
          :alt: Enter a maximum timeout value 
-   
-   .. step:: Any operation that goes over the time limit produces an 
-      error message:
+
+   .. step:: Any aggregation pipeline that goes over the time limit 
+      produces an error message:
 
       .. figure:: /images/compass/agg-builder-operation-time-limit-error.png
          :alt: Operation timeout error
