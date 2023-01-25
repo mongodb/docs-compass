@@ -211,7 +211,7 @@ To enable ``maxTimeMS`` on the aggregation tab:
          :alt: Enter a maximum timeout value 
 
    .. step:: Any aggregation pipeline that goes over the time limit 
-      produces an error message:
+      produces an error message.
 
       .. figure:: /images/compass/agg-builder-operation-time-limit-error.png
          :alt: Operation timeout error
