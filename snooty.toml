@@ -12,6 +12,7 @@ toc_landing_pages = [
     "/connect",
     "/connect/favorite-connections",
     "/connect/favorite-connections/import-export-cli/",
+    "/settings",
     "/instance", 
     "/config-file",
     "/command-line-options", 
