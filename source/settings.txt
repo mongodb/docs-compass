@@ -14,7 +14,7 @@ Compass Settings
 your user experience. 
 
 To view the |Compass-short| :guilabel:`Settings`, on the top menu bar
-of |Compass-short|:
+of |Compass-short| :
 
 .. procedure::
    :style: normal
