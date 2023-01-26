@@ -11,3 +11,32 @@ General Settings
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+The general pane has the following setting options:
+
+Set ``maxTimeMS`` for Database Operations
+-----------------------------------------
+
+Use the ``maxTimeMS`` parameter on the :guilabel:`General` pane to 
+specify an upper time limit in milliseconds on all database operations
+that run in |compass-short|.
+
+To enable ``maxTimeMS`` for database operations:
+
+.. procedure::
+   :style: normal
+
+   .. step:: On the :guilabel:`General` pane, enter a value in the 
+      :guilabel:`Upper Limit for maxTimeMS for Compass Database Operations`
+      value box. For a ``5`` second limit, enter ``5000``.
+
+      .. figure:: /images/settings/settings-general-set-maxtime-ms.png
+         :alt: Set maxtime ms
+
+   .. step:: Click :guilabel:`Save`.
+
+      If your database operation goes over the time limit, 
+      |compass-short| raises the following error:
+
+      .. figure:: /images/settings/settings-general-set-maxtime-ms.png
+         :alt: Operation timeout error
