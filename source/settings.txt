@@ -13,6 +13,9 @@ Compass Settings
 |Compass-short| has various settings that can be set to help improve
 your user experience. 
 
+How to Open the Setting Menu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 To view the |Compass-short| :guilabel:`Settings`, on the top menu bar
 of |Compass-short| :
 
