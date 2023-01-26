@@ -10,14 +10,14 @@ Compass Settings
    :depth: 1
    :class: singlecol
 
-|Compass-short| has various settings that can be set to help improve
+|compass-short| has various settings that can be set to help improve
 your user experience. 
 
 How to Open the Setting Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To view the |Compass-short| :guilabel:`Settings`, on the top menu bar
-of |Compass-short| :
+To view the |compass-short| :guilabel:`Settings`, on the top menu bar
+of |compass-short| :
 
 .. procedure::
    :style: normal
@@ -32,7 +32,7 @@ of |Compass-short| :
       .. figure:: /images/settings/settings-click-settings.png
          :alt: Click Settings
 
-      The settings menu appears.
+      The settings menu appears:
 
       .. figure:: /images/settings/settings-menu.png
          :alt: Settings menu
@@ -43,7 +43,12 @@ The :guilabel:`Settings` menu has three types of settings:
 - Theme, used to enable or disable dark mode.
 - Privacy, used to enable or disable external network requests.
 
+.. toctree::
+   :titlesonly:
 
+   /settings/general
+   /settings/privacy
+   /settings/theme
 
 
 
