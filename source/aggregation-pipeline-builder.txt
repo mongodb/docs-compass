@@ -192,7 +192,7 @@ Use the ``maxTimeMS`` parameter on the :guilabel:`Aggregations` tab to
 specify an upper time limit in milliseconds on the aggregation pipelines
 that run in |compass-short|.
 
-To enable ``maxTimeMS`` on the :guilabel:`Aggregations` tab:
+To enable ``maxTimeMS`` for aggregation operations:
 
 .. procedure::
    :style: normal
