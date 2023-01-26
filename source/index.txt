@@ -152,6 +152,7 @@ Expand your knowledge of MongoDB by using Compass with other MongoDB products.
    Overview </index>
    /install
    /connect
+   /settings
    /instance
    /manage-data
    /config-file
