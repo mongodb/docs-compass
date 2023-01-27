@@ -17,7 +17,7 @@ How to Open the Setting Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To view the |compass-short| :guilabel:`Settings`, on the top menu bar
-of |compass-short| :
+of |compass-short|:
 
 .. procedure::
    :style: normal

@@ -14,6 +14,28 @@ General Settings
 
 The general pane has the following setting options:
 
+Set ``readOnlyMode``
+--------------------
+
+Limit Compass strictly to read operations, with all write and delete 
+capabilities removed.
+
+Enable MongoDB Shell
+--------------------
+
+Allow Compass to interacting with MongoDB deployments via the embedded shell.
+
+Protect Connection String Secrets
+---------------------------------
+
+Hide credentials in connection strings from users.
+
+Show Kerberos Password Field
+----------------------------
+
+Show a password field for Kerberos authentication. Typically only useful
+when attempting to authenticate as another user than the current system user.
+
 Set ``maxTimeMS`` for Database Operations
 -----------------------------------------
 
@@ -43,3 +65,13 @@ To enable ``maxTimeMS`` for database operations:
 
       .. figure:: /images/settings/settings-general-time-limit-error.png
          :alt: Operation timeout error
+
+Enable DevTools
+---------------
+
+Enable the Chromium Developer Tools that can be used to debug Electron's process.
+
+Enable DevTools
+---------------
+
+Install Compass as URL Protocol Handler

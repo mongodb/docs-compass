@@ -11,3 +11,34 @@ Privacy Settings
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+The :guilabel:`Privacy` pane allows you to enable or disable various
+|compass-short| outbound network processes.
+
+.. note:: Disabling Privacy Settings
+
+   You can disable any of these settings by clicking the checkbox next
+   to the setting name.
+
+The :guilabel:`Privacy` pane has the following setting options:
+
+Enable Automatic Updates
+------------------------
+
+Allows Compass to periodically check for new updates.
+
+Enable Geographic Visualizations
+--------------------------------
+
+Allow Compass to make requests to a 3rd party mapping service.
+
+Enable Usage Statistics
+-----------------------
+
+Allow Compass to send anonymous usage statistics.
+
+Give Product Feedback
+---------------------
+
+Enables a tool that our Product team can use to occasionally reach 
+out for feedback about Compass.

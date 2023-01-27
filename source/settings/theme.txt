@@ -20,15 +20,17 @@ To enable dark theme mode:
 .. procedure::
    :style: normal
 
-   .. step:: Click :guilabel:`Dark theme`.
+   .. step:: Click :guilabel:`Dark Theme (Preview)`.
 
       .. figure:: /images/settings/settings-theme-click-dark-mode.png
-         :alt: Click :guilabel:`Dark Theme (Preview)`
+         :alt: Click Dark Theme (Preview)
 
    .. step:: Click :guilabel:`Save`.
 
       .. figure:: /images/settings/settings-theme-click-save.png
          :alt: Click Save
 
-      You can also :ref:`enable dark mode from the application theme menu
-      <dark-mode>`.
+      .. note::
+
+         You can also :ref:`enable dark mode from the application theme menu
+         <dark-mode>`.
