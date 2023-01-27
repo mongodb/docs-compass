@@ -11,3 +11,21 @@ Theme Settings
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+The :guilabel:`Theme` pane allows you to enable or disable dark theme 
+mode.
+
+To enable dark theme mode:
+
+.. procedure::
+   :style: normal
+
+   .. step:: Click :guilabel:`Dark theme`.
+
+      .. figure:: /images/settings/settings-theme-click-darkmode.png
+         :alt: Click dark mode
+
+   .. step:: Click :guilabel:`Save`.
+
+      .. figure:: /images/settings/theme-click-save.png
+         :alt: Click Save
