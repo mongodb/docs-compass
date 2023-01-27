@@ -35,11 +35,11 @@ To enable ``maxTimeMS`` for database operations:
 
    .. step:: Click :guilabel:`Save`.
 
-      .. figure:: /images/settings/settings-click-save.png
+      .. figure:: /images/settings/settings-general-click-save.png
          :alt: Click save
 
       If your database operation goes over the time limit, 
       |compass-short| raises the following error:
 
-      .. figure:: /images/settings/settings-general-set-maxtime-ms.png
+      .. figure:: /images/settings/settings-general-time-limit-error.png
          :alt: Operation timeout error
