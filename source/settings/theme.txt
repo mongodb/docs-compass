@@ -15,7 +15,10 @@ Theme Settings
 The :guilabel:`Theme` pane allows you to enable or disable dark theme 
 mode.
 
-To enable dark theme mode:
+Enable Dark Theme Mode
+----------------------
+
+To enable dark theme mode from the :guilabel:`Theme` pane:
 
 .. procedure::
    :style: normal
