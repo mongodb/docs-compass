@@ -407,9 +407,6 @@ accurate count of a collections documents after a delete has processed:
       .. figure:: /images/compass/agg-builder-click-count-results.png
          :alt: Show current document counts
 
-Create a View from Pipeline Results
------------------------------------
-
 Example
 -------
 
