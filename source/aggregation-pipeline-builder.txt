@@ -404,7 +404,7 @@ accurate count of a collections documents after a delete has processed:
       |compass-short| updates the document count in the aggregation pane 
       with the number of documents currently in the collection.
 
-      .. figure:: /images/compass/agg-builder-click-count-results.png
+      .. figure:: /images/compass/agg-builder-show-document-count.png
          :alt: Show current document counts
 
 Example
