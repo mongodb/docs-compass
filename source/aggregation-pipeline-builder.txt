@@ -54,7 +54,7 @@ You can use the |compass-short| Aggregation Pipeline Builder to:
 
 - :ref:`Open a saved pipeline <open-saved-pipeline>`
 
-- :ref:`Set maxTimeMS for Aggregation Queries set-maxtime-ms-agg`
+- :ref:`Set maxTimeMS for Aggregation Queries <set-maxtime-ms-agg>`
 
 - :ref:`Set the documents limit or auto preview documents <use-sample-mode-or-auto-preview>`
 
