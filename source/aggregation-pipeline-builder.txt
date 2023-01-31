@@ -380,8 +380,8 @@ Refreshing Document Counts after Delete Operations
 --------------------------------------------------
 
 After a delete operation the :guilabel:`count results` value needs to 
-be refreshed on the :guilabel:`Aggregations` tab. To update the document
-count after a delete:
+be refreshed on the :guilabel:`Aggregations` tab. To update the 
+:guilabel:`count results` after a delete:
 
 .. procedure::
    :style: normal
