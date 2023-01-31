@@ -401,8 +401,9 @@ accurate count of a collections documents after a delete has processed:
       .. figure:: /images/compass/agg-builder-click-count-results.png
          :alt: Click the count results link
 
-      |compass-short| updates the document count in the aggregation pane 
-      with the number of documents currently in the collection.
+      |compass-short| updates the :guilabel:`count results` number in the 
+      aggregation pane with the correct number of documents in the 
+      collection.
 
       .. figure:: /images/compass/agg-builder-show-document-count.png
          :alt: Show current document counts
