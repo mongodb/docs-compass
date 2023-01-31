@@ -72,7 +72,7 @@ You can use the |compass-short| Aggregation Pipeline Builder to:
 
 - :ref:`Export a pipeline to Java, Node, C#, and Python 3 <compass-export-pipeline>`
 
-- :ref:`Getting Accurate Document Counts after Delete Operations <refresh-document-counts-after-deletes>`
+- :ref:`Refreshing Document Counts after Delete Operations <refresh-document-counts-after-deletes>`
 
 Limitations
 -----------
