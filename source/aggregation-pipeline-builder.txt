@@ -379,9 +379,9 @@ To create a view from your pipeline results:
 Refreshing Document Counts after Delete Operations
 --------------------------------------------------
 
-When running an aggregation pipeline, the :guilabel:`count results` 
-number may not be accurate after a deletion operation. To see an 
-accurate count of a collections documents after a delete has processed:
+After a delete operation the :guilabel:`count results` value needs to 
+be refreshed on the :guilabel:`Aggregations` tab. To update the document
+count after a delete:
 
 .. procedure::
    :style: normal
@@ -391,7 +391,7 @@ accurate count of a collections documents after a delete has processed:
       .. figure:: /images/compass/agg-builder-click-edit-button.png
          :alt: Click the edit button
 
-   .. step:: Click :guilabel:`Run` button.
+   .. step:: Click the :guilabel:`Run` button.
 
       .. figure:: /images/compass/agg-builder-click-run-button.png
          :alt: Click the run button
@@ -401,9 +401,8 @@ accurate count of a collections documents after a delete has processed:
       .. figure:: /images/compass/agg-builder-click-count-results.png
          :alt: Click the count results link
 
-      |compass-short| updates the :guilabel:`count results` number in the 
-      aggregation pane with the correct number of documents in the 
-      collection.
+      |compass-short| updates the :guilabel:`count results` and displays 
+      the updated number of documents in the collection.
 
       .. figure:: /images/compass/agg-builder-show-document-count.png
          :alt: Show current document counts
