@@ -383,6 +383,8 @@ When you delete or add a document, the :guilabel:`count results` value
 on the :guilabel:`Aggregations` tab does not automatically update to 
 reflect the new document count.
 
+To update the :guilabel:`count results`:
+
 .. procedure::
    :style: normal
 
