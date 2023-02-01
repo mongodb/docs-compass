@@ -386,16 +386,6 @@ update the :guilabel:`count results`:
 .. procedure::
    :style: normal
 
-   .. step:: Click the :guilabel:`Edit` button.
-
-      .. figure:: /images/compass/agg-builder-click-edit-button.png
-         :alt: Click the edit button
-
-   .. step:: Click the :guilabel:`Run` button.
-
-      .. figure:: /images/compass/agg-builder-click-run-button.png
-         :alt: Click the run button
-
    .. step:: Click the :guilabel:`count results` link. 
 
       .. figure:: /images/compass/agg-builder-click-count-results.png
