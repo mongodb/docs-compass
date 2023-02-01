@@ -376,12 +376,12 @@ To create a view from your pipeline results:
 
 .. _refresh-document-counts-after-deletes:
 
-Refreshing Document Counts after Delete Operations
---------------------------------------------------
+Refreshing Document Counts
+--------------------------
 
-After a delete operation the :guilabel:`count results` value needs to 
-be refreshed on the :guilabel:`Aggregations` tab. To update the 
-:guilabel:`count results` after a delete:
+After a document delete or add operation the :guilabel:`count results` 
+value needs to be refreshed on the :guilabel:`Aggregations` tab. To 
+update the :guilabel:`count results`:
 
 .. procedure::
    :style: normal
@@ -400,6 +400,11 @@ be refreshed on the :guilabel:`Aggregations` tab. To update the
 
       .. figure:: /images/compass/agg-builder-click-count-results.png
          :alt: Click the count results link
+
+   .. step:: Click the refresh button. 
+
+      .. figure:: /images/compass/agg-builder-click-refresh-button.png
+         :alt: Click the refresh button
 
       |compass-short| updates the :guilabel:`count results` and displays 
       the updated number of documents in the collection.
