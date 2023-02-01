@@ -72,7 +72,7 @@ You can use the |compass-short| Aggregation Pipeline Builder to:
 
 - :ref:`Export a pipeline to Java, Node, C#, and Python 3 <compass-export-pipeline>`
 
-- :ref:`Refreshing Document Counts after Delete Operations <refresh-document-counts-after-deletes>`
+- :ref:`Refresh Document Counts <refresh-document-counts>`
 
 Limitations
 -----------
@@ -374,14 +374,14 @@ To create a view from your pipeline results:
 
 .. include:: /includes/fact-create-view-from-pipeline.rst
 
-.. _refresh-document-counts-after-deletes:
+.. _refresh-document-counts:
 
-Refreshing Document Counts
---------------------------
+Refresh Document Counts
+-----------------------
 
-After a document delete or add operation the :guilabel:`count results` 
-value needs to be refreshed on the :guilabel:`Aggregations` tab. To 
-update the :guilabel:`count results`:
+When you delete or add a document, the :guilabel:`count results` value 
+on the :guilabel:`Aggregations` tab does not automatically update to 
+reflect the new document count.
 
 .. procedure::
    :style: normal
