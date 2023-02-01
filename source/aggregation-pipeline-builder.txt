@@ -386,7 +386,8 @@ update the :guilabel:`count results`:
 .. procedure::
    :style: normal
 
-   .. step:: Click the :guilabel:`count results` link. 
+   .. step:: *Optional* If the results have not been counted, click 
+            the :guilabel:`count results` link.
 
       .. figure:: /images/compass/agg-builder-click-count-results.png
          :alt: Click the count results link
