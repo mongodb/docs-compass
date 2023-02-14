@@ -66,6 +66,32 @@ an :ref:`aggregation pipeline <aggregation-pipeline>`:
         { $match: { "last_name": "Smith" } } // press Shift + Enter
       ] )                                    // Press Enter
 
+Disable the Embedded MongoDB Shell
+----------------------------------
+
+You can disable the embedded MongoDB shell in |compass-short| to restrict 
+users from running unauthorized commands on :binary:`mongosh`. 
+
+To disable the embedded MongoDB shell: 
+
+.. procedure::
+   :style: normal
+
+   .. step:: In the |compass-short| top menu bar, click :guilabel:`Help`.
+
+   .. step:: In the :guilabel:`Help` menu, click :guilabel:`Settings`.
+
+      |compass-short| opens a dialog box where configure your |compass| 
+      settings.
+
+   .. step:: Toggle :guilabel:`Enable MongoDB Shell` to disable
+      :binary:`mongosh` on |compass-short|
+
+      If you select :guilabel:`Set Read-Only Mode`, |compass-short| 
+      automatically disables the :guilabel:`Enable MongoDB Shell` setting.
+   
+   .. step:: Click :guilable:`Save`. 
+
 Learn More
 ~~~~~~~~~~
 
