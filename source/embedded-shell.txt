@@ -72,6 +72,8 @@ Disable the Embedded MongoDB Shell
 You can disable the embedded MongoDB shell in |compass-short| to restrict 
 users from running unauthorized commands on :binary:`mongosh`. 
 
+To disable the embedded MongoDB shell: 
+
 .. procedure::
    :style: normal
 
