@@ -80,7 +80,7 @@ To disable the embedded MongoDB shell:
    .. step:: In the |compass-short| top menu bar, click :guilabel:`Help`.
 
    .. step:: In the :guilabel:`Help` menu, click :guilabel:`Settings`.
-
+      
       |compass-short| opens a dialog box where configure your |compass| 
       settings.
 
