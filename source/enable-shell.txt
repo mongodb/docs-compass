@@ -1,0 +1,27 @@
+.. _enable-shell:
+
+==========================
+Disable the Embedded Shell
+==========================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+You can disable the embedded shell to restrict what actions users can 
+perform in |compass|. 
+
+About This Task
+---------------
+
+To specify the number of documents to skip:
+
+Steps
+-----
+
+Learn More
+----------
