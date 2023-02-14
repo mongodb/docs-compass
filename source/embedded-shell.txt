@@ -85,12 +85,12 @@ To disable the embedded MongoDB shell:
       settings.
 
    .. step:: Toggle :guilabel:`Enable MongoDB Shell` to disable
-      :binary:`mongosh` on |compass-short|
+      :binary:`mongosh` on |compass-short|.
 
       If you select :guilabel:`Set Read-Only Mode`, |compass-short| 
       automatically disables the :guilabel:`Enable MongoDB Shell` setting.
 
-   .. step:: Click :guilable:`Save`. 
+   .. step:: Click :guilabel:`Save`. 
 
 Learn More
 ~~~~~~~~~~
