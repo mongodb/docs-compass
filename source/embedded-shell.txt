@@ -92,7 +92,6 @@ To disable the embedded MongoDB shell:
    
    .. step:: Click :guilable:`Save`. 
 
-
 Learn More
 ~~~~~~~~~~
 
