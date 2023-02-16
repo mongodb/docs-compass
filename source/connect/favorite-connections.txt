@@ -56,4 +56,5 @@ Considerations
 .. toctree::
    :titlesonly:
 
+   /connect/favorite-connections/import-export-ui
    /connect/favorite-connections/import-export-cli
