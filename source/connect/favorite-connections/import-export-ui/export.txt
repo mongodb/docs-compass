@@ -29,16 +29,12 @@ with a passphrase.
 Procedure
 ---------
 
-This section shows how to export favorite connections on |compass-short|. If you 
-choose to encrypt the export file, users must specify the matching passphrase to 
-import the connections.
-
 To export encrypted favorite connections with |compass-short|:
 
 .. procedure::
     :style: normal
     
-    .. step:: Hover over :guilabel:`Saved Connections` in the left-side navigation and click the appearing :guilabel:`Ellipses (...)` button.
+    .. step:: Hover over :guilabel:`Saved Connections` in the left-side navigation and click the :guilabel:`Ellipses (...)` button.
 
     .. step:: Select :guilabel:`Export saved connections`. 
 

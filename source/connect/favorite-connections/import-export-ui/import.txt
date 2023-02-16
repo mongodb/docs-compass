@@ -28,7 +28,7 @@ To import favorite connections from a JSON file into |compass-short|:
 .. procedure::
     :style: normal
     
-    .. step:: Hover over :guilabel:`Saved Connections` in the left-side navigation. 
+    .. step:: Hover over :guilabel:`Saved Connections` in the left-side navigation and click the :guilabel:`Ellipses (...)` button.
 
     .. step:: Select :guilabel:`Import saved connections`. 
 
