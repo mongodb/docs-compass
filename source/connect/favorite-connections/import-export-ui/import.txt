@@ -28,16 +28,19 @@ To import favorite connections from a JSON file into |compass-short|:
 .. procedure::
     :style: normal
     
-    .. step:: Hover over :guilabel:`Saved Connections` in the left-side navigation and click the :guilabel:`Ellipses (...)` button.
+    .. step:: Hover over :guilabel:`Saved Connections` in the left-side 
+        navigation and click the :guilabel:`Ellipses (...)` button.
 
     .. step:: Select :guilabel:`Import saved connections`. 
 
         Once you select :guilabel:`Import saved connections`, a dialog box 
         appears on |compass-short|.
 
-    .. step:: Under :guilabel:`Source File`, click :guilabel:`Select a file...` to select the exported JSON file you want to import.
+    .. step:: Under :guilabel:`Source File`, click :guilabel:`Select a file...` 
+        to select the exported JSON file you want to import.
 
-    .. step:: If your file is encrypted with a password, enter the passphrase under :guilabel:`Decryption Password`.
+    .. step:: If your file is encrypted with a password, enter the passphrase 
+        under :guilabel:`Decryption Password`.
     
     .. step:: Select the connection names you want to import.
 
@@ -46,5 +49,6 @@ To import favorite connections from a JSON file into |compass-short|:
 
     .. step:: Click :guilabel:`Import`. 
 
-Once the connections are imported, you will see them under
-:guilabel:`Saved Connections` on the left-side navigation of the Connect screen.
+        Once the connections are imported, you will see them under 
+        :guilabel:`Saved Connections` on the left-side navigation of the Connect 
+        screen.

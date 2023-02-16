@@ -34,29 +34,33 @@ To export encrypted favorite connections with |compass-short|:
 .. procedure::
     :style: normal
     
-    .. step:: Hover over :guilabel:`Saved Connections` in the left-side navigation and click the :guilabel:`Ellipses (...)` button.
+    .. step:: Hover over :guilabel:`Saved Connections` in the left-side 
+        navigation and click the :guilabel:`Ellipses (...)` button.
 
-    .. step:: Select :guilabel:`Export saved connections`. 
+    .. step:: Select :guilabel:`Export saved connections` to open a dialog 
+        box. 
 
-        Once you select :guilabel:`Export saved connections`, a dialog box 
-        appears on |compass-short|.
+    .. step:: In the :guilabel:`Export saved connections` dialog box, select the 
+        connection names you want to export. 
 
-    .. step:: In the :guilabel:`Export saved connections` dialog box, select the connection names you want to export. 
+    .. step:: Under :guilabel:`Target File`, click :guilabel:`Select a file...` 
+        to specify the output file destination.
 
-    .. step:: Under :guilabel:`Target File`, click :guilabel:`Select a file...` to specify the output file destination.
-
-    .. step:: *Optional*. Toggle :guilabel:`Remove secrets` to omit passwords, access tokens, and other sensitive information from the exported file.
+    .. step:: *Optional*. Toggle :guilabel:`Remove secrets` to omit passwords, 
+        access tokens, and other sensitive information from the exported file.
 
         If you select :guilabel:`Remove secrets`, you cannot specify an 
         encryption password.
     
-    .. step:: *Optional*. Specify an :guilabel:`Encryption Password` to encrypt passwords, access tokens, and other sensitive information.
+    .. step:: *Optional*. Specify an :guilabel:`Encryption Password` to encrypt 
+        passwords, access tokens, and other sensitive information.
         
         If you do not encrypt the export file, database usernames and passwords 
         are exported in plaintext. Only export unencrypted connections if no 
         other users will have access to the exported file.
 
-    .. step:: Click :guilabel:`Export`.
+    .. step:: Click :guilabel:`Export` to export your favorite connections to 
+        a JSON file.
 
 Example
 -------
