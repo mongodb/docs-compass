@@ -37,8 +37,8 @@ To export encrypted favorite connections with |compass-short|:
     .. step:: Hover over :guilabel:`Saved Connections` in the left-side 
         navigation and click the :guilabel:`Ellipses (...)` button.
 
-    .. step:: Select :guilabel:`Export saved connections` to open a dialog 
-        box. 
+    .. step:: Select :guilabel:`Export saved connections` to open the export 
+        dialog box. 
 
     .. step:: In the :guilabel:`Export saved connections` dialog box, select the 
         connection names you want to export. 
