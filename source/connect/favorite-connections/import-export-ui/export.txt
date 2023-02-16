@@ -1,8 +1,8 @@
 .. _compass-export-connections-ui:
 
-============================================================
-Export Favorite Connections on the |compass-short| Interface
-============================================================
+==============================================
+Export Favorite Connections on |compass-short|
+==============================================
 
 .. default-domain:: mongodb
 
@@ -38,30 +38,23 @@ To export encrypted favorite connections with |compass-short|:
 .. procedure::
     :style: normal
     
-    .. step:: Hover over :guilabel:`Saved Connections` in the left-side 
-        navigation. 
-    
-    .. step:: Click the appearing :guilabel:`Ellipses (...)` button.
+    .. step:: Hover over :guilabel:`Saved Connections` in the left-side navigation and click the appearing :guilabel:`Ellipses (...)` button.
 
     .. step:: Select :guilabel:`Export saved connections`. 
 
         Once you select :guilabel:`Export saved connections`, a dialog box 
         appears on |compass-short|.
 
-    .. step:: In the :guilabel:`Export saved connections` dialog box, select  
-        the connection names you want to export. 
+    .. step:: In the :guilabel:`Export saved connections` dialog box, select the connection names you want to export. 
 
-    .. step:: Under :guilabel:`Target File`, click :guilabel:`Select a file...` 
-        to specify the output file destination.
+    .. step:: Under :guilabel:`Target File`, click :guilabel:`Select a file...` to specify the output file destination.
 
-    .. step:: *Optional*. Toggle :guilabel:`Remove secrets` to omit passwords, 
-        access tokens, and other sensitive information from the exported file.
+    .. step:: *Optional*. Toggle :guilabel:`Remove secrets` to omit passwords, access tokens, and other sensitive information from the exported file.
 
         If you select :guilabel:`Remove secrets`, you cannot specify an 
         encryption password.
     
-    .. step:: *Optional*. Specify an :guilabel:`Encryption Password` to encrypt 
-        passwords, access tokens, and other sensitive information.
+    .. step:: *Optional*. Specify an :guilabel:`Encryption Password` to encrypt passwords, access tokens, and other sensitive information.
         
         If you do not encrypt the export file, database usernames and passwords 
         are exported in plaintext. Only export unencrypted connections if no 
@@ -72,7 +65,7 @@ To export encrypted favorite connections with |compass-short|:
 Example
 -------
 
-The following export file includes two favorite connections and encrypts 
+The following sample export file includes two favorite connections and encrypts 
 sensitive connection information in the ``connectionSecrets`` field:
 
 .. code-block:: json
