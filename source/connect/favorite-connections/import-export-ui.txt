@@ -1,0 +1,42 @@
+.. _compass-export-import-ui-landing:
+
+=======================================================================
+Export and Import Favorite Connections on the |compass-short| Interface
+=======================================================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+To quickly connect to a shared deployment, you can export and share your
+favorite connections. Colleagues can import your favorites, or you can
+use them yourself in your other workspaces.
+
+.. important:: Export Contains Sensitive Information
+
+   By default, when you export favorite connections, database usernames
+   and passwords are included in plaintext. To protect sensitive
+   connection information, you may :ref:`encrypt the exported file with
+   a passphrase <compass-export-connections-cli-encrypted>`. When you
+   do, users must specify the matching passphrase to import the
+   connections.
+
+Tasks
+-----
+
+To learn how to export and import favorite connections, see:
+
+- :ref:`compass-export-connections-ui`
+
+- :ref:`compass-import-connections-ui`
+
+.. toctree::
+   :titlesonly:
+
+   /connect/favorite-connections/import-export-ui/export
+   /connect/favorite-connections/import-export-ui/import
+   

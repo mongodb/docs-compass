@@ -1,0 +1,126 @@
+.. _compass-export-connections-ui:
+
+============================================================
+Export Favorite Connections on the |compass-short| Interface
+============================================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+You can export favorite connections on |compass|. Colleagues can import your 
+favorite connections, or you can use them in your other workspaces.
+
+About This Task
+---------------
+
+When you export favorite connections, |compass-short| exports the list
+of connections as a JSON file.
+
+By default, when you export favorite connections, database usernames and
+passwords are included in plaintext. To protect sensitive connection
+information, you can omit secrets from the file or encrypt the exported file 
+with a passphrase.
+
+Procedure
+---------
+
+This section shows how to export favorite connections on |compass-short|. If you 
+choose to encrypt the export file, users must specify the matching passphrase to 
+import the connections.
+
+To export encrypted favorite connections with |compass-short|:
+
+.. procedure::
+    :style: normal
+    
+    .. step:: Hover over :guilabel:`Saved Connections` in the left-side 
+        navigation. 
+    
+    .. step:: Click the appearing :guilabel:`Ellipses (...)` button.
+
+    .. step:: Select :guilabel:`Export saved connections`. 
+
+        Once you select :guilabel:`Export saved connections`, a dialog box 
+        appears on |compass-short|.
+
+    .. step:: In the :guilabel:`Export saved connections` dialog box, select  
+        the connection names you want to export. 
+
+    .. step:: Under :guilabel:`Target File`, click :guilabel:`Select a file...` 
+        to specify the output file destination.
+
+    .. step:: *Optional*. Toggle :guilabel:`Remove secrets` to omit passwords, 
+        access tokens, and other sensitive information from the exported file.
+
+        If you select :guilabel:`Remove secrets`, you cannot specify an 
+        encryption password.
+    
+    .. step:: *Optional*. Specify an :guilabel:`Encryption Password` to encrypt 
+        passwords, access tokens, and other sensitive information.
+        
+        If you do not encrypt the export file, database usernames and passwords 
+        are exported in plaintext. Only export unencrypted connections if no 
+        other users will have access to the exported file.
+
+    .. step:: Click :guilabel:`Export`.
+
+Example
+-------
+
+The following export file includes two favorite connections and encrypts 
+sensitive connection information in the ``connectionSecrets`` field:
+
+.. code-block:: json
+
+   {
+     "type": "Compass Connections",
+     "version": {
+       "$numberInt": "1"
+     },
+     "connections": [
+       {
+         "id": "5a92e195-3ef5-49ae-aff6-720af362770d",
+         "connectionOptions": {
+           "connectionString": "<connection string>"
+         },
+         "favorite": {
+           "name": "Dochub",
+           "color": "color7"
+         },
+         "lastUsed": {
+           "$date": {
+             "$numberLong": "1663785601002"
+           }
+         },
+         "connectionSecrets": "AAGRWyDUI+Jbc9GkvSpEZeFtbvSzqtcOpA+1zLi5fma3AISOOVVBJBPqqh/a6VeNyEcf9TdX6aCqSpagXgMAOmmN0XgkJ4wxwBuSZwZH/h1dlgEFYqEG9Oh88e5z"
+       },
+       {
+         "id": "655f3e6e-b13b-4813-8578-50d896bd9240",
+         "connectionOptions": {
+           "connectionString": "mongodb://localhost:27017/"
+         },
+         "favorite": {
+           "name": "Local Host",
+           "color": "color7"
+         },
+         "lastUsed": {
+           "$date": {
+             "$numberLong": "1663790327679"
+           }
+         },
+         "connectionSecrets": "AAG63lys6oVtPmCGVs7wYkTCjFU0yXi9rYUYCKuWGNMSNBy4rAZlu06b/qDblON4OBXDJzhPNQ/WKs79veewNw=="
+       }
+     ]
+   }
+
+
+Next Steps
+----------
+
+To learn how to import favorite connections, see
+:ref:`compass-import-connections-ui`.
