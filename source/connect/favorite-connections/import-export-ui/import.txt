@@ -15,13 +15,13 @@ You can import favorite connections on |compass|. This lets you use saved
 connections from other workspaces or connections used by other team members.
 
 Prerequisite
-------------
+~~~~~~~~~~~~
 
 To import favorite connections, you must first :ref:`export the
 connections <compass-export-connections-ui>`.
 
 Procedure
----------
+~~~~~~~~~
 
 To import favorite connections from a JSON file into |compass-short|:
 
