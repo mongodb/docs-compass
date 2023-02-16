@@ -17,7 +17,7 @@ connections from other workspaces or connections used by other team members.
 Prerequisite
 ~~~~~~~~~~~~
 
-To import favorite connections, you must first :ref:`export the
+Before you import favorite connections, you must :ref:`export the
 connections <compass-export-connections-ui>`.
 
 Procedure
