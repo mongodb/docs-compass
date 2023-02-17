@@ -1,7 +1,7 @@
 .. _compass-export-connections-ui:
 
 ==============================================
-Export Favorite Connections on |compass-short|
+Export Favorite Connections in |compass-short|
 ==============================================
 
 .. default-domain:: mongodb
@@ -12,7 +12,7 @@ Export Favorite Connections on |compass-short|
    :depth: 2
    :class: singlecol
 
-You can export favorite connections on |compass|. Colleagues can import your 
+You can export favorite connections in |compass|. Colleagues can import your 
 favorite connections, or you can use them in your other workspaces.
 
 About This Task

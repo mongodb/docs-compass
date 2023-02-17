@@ -1,7 +1,7 @@
 .. _compass-import-connections-ui:
 
 ==============================================
-Import Favorite Connections on |compass-short|
+Import Favorite Connections in |compass-short|
 ==============================================
 .. default-domain:: mongodb
 
@@ -11,7 +11,7 @@ Import Favorite Connections on |compass-short|
    :depth: 2
    :class: singlecol
 
-You can import favorite connections on |compass|. This lets you use saved 
+You can import favorite connections in |compass|. This lets you use saved 
 connections from other workspaces or connections used by other team members.
 
 Prerequisite
