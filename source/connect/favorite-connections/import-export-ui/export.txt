@@ -16,15 +16,9 @@ You can export favorite connections on |compass|. Colleagues can import your
 favorite connections, or you can use them in your other workspaces.
 
 About This Task
-~~~~~~~~~~~~~~~
+---------------
 
-When you export favorite connections, |compass-short| exports the list
-of connections as a JSON file.
-
-By default, when you export favorite connections, database usernames and
-passwords are included in plaintext. To protect sensitive connection
-information, you can omit secrets from the file or encrypt the exported file 
-with a passphrase.
+.. include:: /includes/fact-export-favorite-connection.rst
 
 Procedure
 ~~~~~~~~~
@@ -34,11 +28,11 @@ To export encrypted favorite connections with |compass-short|:
 .. procedure::
     :style: normal
     
-    .. step:: Hover over :guilabel:`Saved Connections` in the left-side 
-        navigation and click the :guilabel:`Ellipses (...)` button.
+    .. step:: On the Connect screen, hover over :guilabel:`Saved Connections` 
+        in the left-side navigation and click the :guilabel:`Ellipses (...)` 
+        button.
 
-    .. step:: Select :guilabel:`Export saved connections` to open the export 
-        dialog box. 
+    .. step:: Select :guilabel:`Export saved connections`. 
 
     .. step:: In the :guilabel:`Export saved connections` dialog box, select the 
         connection names you want to export. 

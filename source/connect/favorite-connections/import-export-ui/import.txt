@@ -15,7 +15,7 @@ You can import favorite connections on |compass|. This lets you use saved
 connections from other workspaces or connections used by other team members.
 
 Prerequisite
-~~~~~~~~~~~~
+------------
 
 Before you import favorite connections, you must :ref:`export the
 connections <compass-export-connections-ui>`.
@@ -28,14 +28,15 @@ To import favorite connections from a JSON file into |compass-short|:
 .. procedure::
     :style: normal
     
-    .. step:: Hover over :guilabel:`Saved Connections` in the left-side 
-        navigation and click the :guilabel:`Ellipses (...)` button.
+    .. step:: On the Connect screen, hover over :guilabel:`Saved Connections` 
+        in the left-side navigation and click the :guilabel:`Ellipses (...)` 
+        button.
 
-    .. step:: Select :guilabel:`Import saved connections` to open the import 
-        dialog box.
+    .. step:: Select :guilabel:`Import saved connections`.
 
-    .. step:: Under :guilabel:`Source File`, click :guilabel:`Select a file...` 
-        to select the exported JSON file you want to import.
+    .. step:: Under :guilabel:`Source File`, click :guilabel:`Select a file`. 
+        
+    .. step:: Select the exported JSON file you want to import.
 
     .. step:: If your file is encrypted with a password, enter the passphrase 
         under :guilabel:`Decryption Password`.
@@ -46,11 +47,10 @@ To import favorite connections from a JSON file into |compass-short|:
         If the connection is already saved, |compass-short| overwrites the 
         existing connection with the imported connection.
 
-    .. step:: Click 
-        :guilabel:`Import`
+    .. step:: Click :guilabel:`Import`.
         
 Results
 ~~~~~~~
 
-Once the connections are imported, you will see them on the left-side navigation 
-under :guilabel:`Saved Connections`. 
+After the connections are imported, you will see them on the left-side 
+navigation of the Connect screen under :guilabel:`Saved Connections`. 
