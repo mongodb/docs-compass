@@ -44,8 +44,9 @@ To import favorite connections from a JSON file into |compass-short|:
     .. step:: Select the connection names you want to 
         import. 
         
-        If the connection is already saved, |compass-short| overwrites the 
-        existing connection with the imported connection.
+        If the connection name already exists under your saved connections, 
+        |compass-short| overwrites the existing connection with the imported 
+        connection.
 
     .. step:: Click :guilabel:`Import`.
         
