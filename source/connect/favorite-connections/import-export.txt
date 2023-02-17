@@ -43,7 +43,7 @@ To learn how to export and import favorite connections with the
    :titlesonly:
 
    /connect/favorite-connections/import-export-ui/export 
-   /connect/favorite-connections/import-export-cli/export
    /connect/favorite-connections/import-export-ui/import 
+   /connect/favorite-connections/import-export-cli/export
    /connect/favorite-connections/import-export-cli/import
    
