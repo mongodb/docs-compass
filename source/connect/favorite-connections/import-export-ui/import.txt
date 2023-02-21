@@ -3,6 +3,7 @@
 ==============================================
 Import Favorite Connections in |compass-short|
 ==============================================
+
 .. default-domain:: mongodb
 
 .. contents:: On this page
