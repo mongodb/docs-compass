@@ -14,7 +14,9 @@ Export and Import Favorite Connections
 
 To quickly connect to a shared deployment, export and share your
 favorite connections. Colleagues can import your favorites, or you can
-use them yourself in your other workspaces.
+use them yourself in your other workspaces. You can manage favorite connections 
+in the |compass-short| :abbr:`UI (User Interface)` or with the |compass-short| 
+:abbr:`CLI (Command-Line Interface)`.
 
 .. important:: Export Contains Sensitive Information
 
@@ -26,7 +28,8 @@ use them yourself in your other workspaces.
 Tasks
 -----
 
-To learn how to export and import favorite connections in |compass-short|, see:
+To learn how to export and import favorite connections in the |compass-short| 
+:abbr:`UI (User Interface)`, see:
 
 - :ref:`compass-export-connections-ui`
 

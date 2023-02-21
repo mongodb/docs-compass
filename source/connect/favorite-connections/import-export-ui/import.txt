@@ -21,7 +21,7 @@ Before you import favorite connections, you must :ref:`export the
 connections <compass-export-connections-ui>`.
 
 Procedure
-~~~~~~~~~
+---------
 
 To import favorite connections from a JSON file into |compass-short|:
 
@@ -51,7 +51,7 @@ To import favorite connections from a JSON file into |compass-short|:
     .. step:: Click :guilabel:`Import`.
         
 Results
-~~~~~~~
+-------
 
-After the connections are imported, you will see them on the left-side 
+After the connections are imported, they appear on the left-side 
 navigation of the Connect screen under :guilabel:`Saved Connections`. 

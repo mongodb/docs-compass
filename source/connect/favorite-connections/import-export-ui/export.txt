@@ -21,7 +21,7 @@ About This Task
 .. include:: /includes/fact-export-favorite-connection.rst
 
 Procedure
-~~~~~~~~~
+---------
 
 To export encrypted favorite connections with |compass-short|:
 
@@ -57,7 +57,7 @@ To export encrypted favorite connections with |compass-short|:
         a JSON file.
 
 Example
-~~~~~~~
+-------
 
 The following sample export file includes two favorite connections and encrypts 
 sensitive connection information in the ``connectionSecrets`` field:
@@ -107,7 +107,7 @@ sensitive connection information in the ``connectionSecrets`` field:
 
 
 Next Steps
-~~~~~~~~~~
+----------
 
 To learn how to import favorite connections, see
 :ref:`compass-import-connections-ui`.
