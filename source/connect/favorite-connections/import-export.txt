@@ -20,10 +20,10 @@ in the |compass-short| :abbr:`UI (User Interface)` or with the |compass-short|
 
 .. important:: Export Contains Sensitive Information
 
-   By default, when you export favorite connections, database usernames
-   and passwords are included in plaintext. To protect sensitive
-   connection information, encrypt the exported file with a passphrase. When 
-   you do, users must specify the matching passphrase to import the connections.
+   By default, when you export favorite connections, passwords are included in 
+   plaintext. To protect sensitive connection information, encrypt the exported 
+   file with a passphrase. When you do, users must specify the matching 
+   passphrase to import the connections.
 
 Tasks
 -----

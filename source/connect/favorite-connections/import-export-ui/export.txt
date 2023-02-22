@@ -26,85 +26,34 @@ Procedure
 To export encrypted favorite connections with |compass-short|:
 
 .. procedure::
-    :style: normal
+   :style: normal
+   
+   .. step:: On the Connect screen, hover over :guilabel:`Saved Connections` in 
+      the left-side navigation and click the :guilabel:`Ellipses (...)` button.
+
+   .. step:: Select :guilabel:`Export saved connections`. 
     
-    .. step:: On the Connect screen, hover over :guilabel:`Saved Connections` 
-        in the left-side navigation and click the :guilabel:`Ellipses (...)` 
-        button.
-
-    .. step:: Select :guilabel:`Export saved connections`. 
-
-    .. step:: In the :guilabel:`Export saved connections` dialog box, select the 
-        connection names you want to export. 
-
-    .. step:: Under :guilabel:`Target File`, click :guilabel:`Select a file...` 
-        to specify the output file destination.
-
-    .. step:: *Optional*. Toggle :guilabel:`Remove secrets` to omit passwords, 
-        access tokens, and other sensitive information from the exported file.
-
-        If you select :guilabel:`Remove secrets`, you cannot specify an 
-        encryption password.
-    
-    .. step:: *Optional*. Specify an :guilabel:`Encryption Password` to encrypt 
-        passwords, access tokens, and other sensitive information.
+   .. step:: In the :guilabel:`Export saved connections` dialog box, select the 
+      connection names you want to export. 
         
-        If you do not encrypt the export file, database usernames and passwords 
-        are exported in plaintext. Only export unencrypted connections if no 
-        other users will have access to the exported file.
+   .. step:: Under :guilabel:`Target File`, click :guilabel:`Select a file...` 
+      to specify the output file destination.
 
-    .. step:: Click :guilabel:`Export` to export your favorite connections to 
-        a JSON file.
+   .. step:: *Optional*. Toggle :guilabel:`Remove secrets` to omit passwords, 
+      access tokens, and other sensitive information from the exported file.
 
-Example
--------
+      If you select :guilabel:`Remove secrets`, you cannot specify an encryption 
+      password.
+    
+   .. step:: *Optional*. Specify an :guilabel:`Encryption Password` to encrypt 
+      passwords, access tokens, and other sensitive information.
+        
+      If you do not encrypt the export file, passwords are exported in 
+      plaintext. Only export unencrypted connections if no other users will have 
+      access to the exported file.
 
-The following sample export file includes two favorite connections and encrypts 
-sensitive connection information in the ``connectionSecrets`` field:
-
-.. code-block:: json
-
-   {
-     "type": "Compass Connections",
-     "version": {
-       "$numberInt": "1"
-     },
-     "connections": [
-       {
-         "id": "5a92e195-3ef5-49ae-aff6-720af362770d",
-         "connectionOptions": {
-           "connectionString": "<connection string>"
-         },
-         "favorite": {
-           "name": "Dochub",
-           "color": "color7"
-         },
-         "lastUsed": {
-           "$date": {
-             "$numberLong": "1663785601002"
-           }
-         },
-         "connectionSecrets": "AAGRWyDUI+Jbc9GkvSpEZeFtbvSzqtcOpA+1zLi5fma3AISOOVVBJBPqqh/a6VeNyEcf9TdX6aCqSpagXgMAOmmN0XgkJ4wxwBuSZwZH/h1dlgEFYqEG9Oh88e5z"
-       },
-       {
-         "id": "655f3e6e-b13b-4813-8578-50d896bd9240",
-         "connectionOptions": {
-           "connectionString": "mongodb://localhost:27017/"
-         },
-         "favorite": {
-           "name": "Local Host",
-           "color": "color7"
-         },
-         "lastUsed": {
-           "$date": {
-             "$numberLong": "1663790327679"
-           }
-         },
-         "connectionSecrets": "AAG63lys6oVtPmCGVs7wYkTCjFU0yXi9rYUYCKuWGNMSNBy4rAZlu06b/qDblON4OBXDJzhPNQ/WKs79veewNw=="
-       }
-     ]
-   }
-
+   .. step:: Click :guilabel:`Export` to export your favorite connections to 
+      a JSON file.
 
 Next Steps
 ----------
