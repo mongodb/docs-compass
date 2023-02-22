@@ -1,8 +1,8 @@
 .. _compass-export-connections-ui:
 
-==============================================
-Export Favorite Connections in |compass-short|
-==============================================
+===========================================
+Export Saved Connections in |compass-short|
+===========================================
 
 .. default-domain:: mongodb
 
@@ -12,18 +12,18 @@ Export Favorite Connections in |compass-short|
    :depth: 2
    :class: singlecol
 
-You can export favorite connections in |compass|. Colleagues can import your 
-favorite connections, or you can use them in your other workspaces.
+You can export saved connections in |compass|. Colleagues can import your 
+saved connections, or you can use them in your other workspaces.
 
 About This Task
 ---------------
 
-.. include:: /includes/fact-export-favorite-connection.rst
+.. include:: /includes/fact-export-saved-connection.rst
 
 Procedure
 ---------
 
-To export encrypted favorite connections with |compass-short|:
+To export encrypted saved connections with |compass-short|:
 
 .. procedure::
    :style: normal
@@ -52,11 +52,11 @@ To export encrypted favorite connections with |compass-short|:
       plaintext. Only export unencrypted connections if no other users will have 
       access to the exported file.
 
-   .. step:: Click :guilabel:`Export` to export your favorite connections to 
+   .. step:: Click :guilabel:`Export` to export your saved connections to 
       a JSON file.
 
 Next Steps
 ----------
 
-To learn how to import favorite connections, see
+To learn how to import saved connections, see
 :ref:`compass-import-connections-ui`.
