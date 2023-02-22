@@ -13,7 +13,7 @@ Export Saved Connections with the CLI
    :class: singlecol
 
 You can use the |compass-short| :abbr:`CLI (Command-Line Interface)` to
-export saved connections. Colleagues can import your saveds, or
+export saved connections. Colleagues can import your saved connections, or
 you can use them yourself in your other workspaces.
 
 About This Task
@@ -23,7 +23,7 @@ About This Task
 
 .. _compass-export-connections-cli-encrypted:
 
-Export Encrypted saved Connections
+Export Encrypted Saved Connections
 -------------------------------------
 
 This section shows how to export encrypted saved connections. When
