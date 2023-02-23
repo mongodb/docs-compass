@@ -47,35 +47,33 @@ Procedure
            - Description 
 
          * - ``metaField``
-           - The name of the field which contains metadata in each time series 
+           - The name of the field that contains metadata in each time series 
              document. The metadata in the specified field should be data that 
              is used to label a unique series of documents. 
 
          * - ``granularity``
-           - The ``granularity`` field allows you to specify a coarser 
-             granularity so measurements over a longer time span can be more 
-             efficiently stored and queried.
+           - Lets you specify a coarser granularity so measurements over a 
+             longer time span can be more efficiently stored and queried.
 
-             The default value is set to ``seconds``.
+             The default value is set to ``"seconds"``.
 
              If you set the ``granularity`` parameter, you can't set the 
              ``bucketMaxSpanSeconds`` and ``bucketRoundingSeconds`` parameters.
 
          * - ``expireAfterSeconds``
-           -  The ``expireAfterSeconds`` field enables automatic deletion of 
-              documents older than the specified number of seconds.  
+           -  Enables the automatic deletion of documents that are older than 
+              the specified number of seconds.  
          
          * - ``bucketMaxSpanSeconds``
-           -  The ``bucketMaxSpanSeconds`` field specifies the maximum time span 
-              between measurements in a bucket. 
+           -  Specifies the maximum time span between measurements in a bucket. 
 
               The value of ``bucketMaxSpanSeconds`` must be the same as 
               ``bucketRoundingSeconds``. If you set the ``bucketMaxSpanSeconds``, 
               parameter, you can't set the ``granularity`` parameter.
 
          * - ``bucketRoundingSeconds``
-           -  The ``bucketRoundingSeconds`` field specifies the time interval 
-              that determines the starting timestamp for a new bucket. 
+           -  Specifies the time interval that determines the starting timestamp 
+              for a new bucket. 
 
               The value of ``bucketRoundingSeconds`` must be the same as 
               ``bucketMaxSpanSeconds``. If you set the ``bucketRoundingSeconds``, 
