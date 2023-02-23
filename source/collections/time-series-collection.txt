@@ -52,18 +52,39 @@ Procedure
              is used to label a unique series of documents. 
 
          * - ``granularity``
-           - The ``granularity`` field allows specifying a coarser granularity so 
-             measurements over a longer time span can be more efficiently stored 
-             and queried.
+           - The ``granularity`` field allows you to specify a coarser 
+             granularity so measurements over a longer time span can be more 
+             efficiently stored and queried.
 
              The default value is set to ``seconds``.
+
+             If you set the ``granularity`` parameter, you can't set the 
+             ``bucketMaxSpanSeconds`` and ``bucketRoundingSeconds`` parameters.
 
          * - ``expireAfterSeconds``
            -  The ``expireAfterSeconds`` field enables automatic deletion of 
               documents older than the specified number of seconds.  
+         
+         * - ``bucketMaxSpanSeconds``
+           -  The ``bucketMaxSpanSeconds`` field specifies the maximum time span 
+              between measurements in a :manual:`bucket 
+              </core/timeseries/timeseries-granularity/#flexible-bucketing>`. 
+
+              The value of ``bucketMaxSpanSeconds`` must be the same as 
+              ``bucketRoundingSeconds``. If you set the ``bucketMaxSpanSeconds``, 
+              parameter, you can't set the ``granularity`` parameter.
+
+         * - ``bucketRoundingSeconds``
+           -  The ``bucketRoundingSeconds`` field specifies the time interval 
+              that determines the starting timestamp for a new :manual:`bucket 
+              </core/timeseries/timeseries-granularity/#flexible-bucketing>`. 
+
+              The value of ``bucketRoundingSeconds`` must be the same as 
+              ``bucketMaxSpanSeconds``. If you set the ``bucketRoundingSeconds``, 
+              parameter, you can't set the ``granularity`` parameter.
 
       For more information on time series fields, see 
-      :manual:`Time Series Collections </core/timeseries-collections/>`.
+      :manual:`</core/timeseries/timeseries-procedures/#timeseries-object-fields>`.
 
    .. step:: Click :guilabel:`Create Collection` to create the collection.
 
