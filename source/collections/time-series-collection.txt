@@ -67,8 +67,7 @@ Procedure
          
          * - ``bucketMaxSpanSeconds``
            -  The ``bucketMaxSpanSeconds`` field specifies the maximum time span 
-              between measurements in a :manual:`bucket 
-              </core/timeseries/timeseries-granularity/#flexible-bucketing>`. 
+              between measurements in a bucket. 
 
               The value of ``bucketMaxSpanSeconds`` must be the same as 
               ``bucketRoundingSeconds``. If you set the ``bucketMaxSpanSeconds``, 
@@ -76,15 +75,15 @@ Procedure
 
          * - ``bucketRoundingSeconds``
            -  The ``bucketRoundingSeconds`` field specifies the time interval 
-              that determines the starting timestamp for a new :manual:`bucket 
-              </core/timeseries/timeseries-granularity/#flexible-bucketing>`. 
+              that determines the starting timestamp for a new bucket. 
 
               The value of ``bucketRoundingSeconds`` must be the same as 
               ``bucketMaxSpanSeconds``. If you set the ``bucketRoundingSeconds``, 
               parameter, you can't set the ``granularity`` parameter.
 
       For more information on time series fields, see 
-      :manual:`</core/timeseries/timeseries-procedures/#timeseries-object-fields>`.
+      :manual:`Time Series Object Fields 
+      </core/timeseries/timeseries-procedures/#timeseries-object-fields>`.
 
    .. step:: Click :guilabel:`Create Collection` to create the collection.
 
