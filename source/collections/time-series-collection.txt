@@ -52,10 +52,10 @@ Procedure
              is used to label a unique series of documents. 
 
          * - ``granularity``
-           - Lets you specify a coarser granularity so measurements over a 
+           - Specifies a coarser granularity so measurements over a 
              longer time span can be more efficiently stored and queried.
 
-             The default value is set to ``"seconds"``.
+             The default value is ``"seconds"``.
 
              If you set the ``granularity`` parameter, you can't set the 
              ``bucketMaxSpanSeconds`` and ``bucketRoundingSeconds`` parameters.
