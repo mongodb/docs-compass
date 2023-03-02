@@ -57,9 +57,9 @@ When you configure settings with a configuration file:
 Tasks
 -----
 
-- :ref:`force-read-preference`
-
 - :ref:`compass-configure-network-traffic`
+
+- :ref:`compass-specify-connection-options`
 
 .. seealso::
    
@@ -68,5 +68,6 @@ Tasks
 .. toctree::
    :titlesonly:
 
-   /config-file/config-file-tasks
    /config-file/config-file-options
+   /config-file/restrict-outgoing-connections
+   /config-file/specify-connection-options

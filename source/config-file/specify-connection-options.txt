@@ -1,8 +1,8 @@
-.. _compass-force-connection-options:
+.. _compass-specify-connection-options:
 
-==================================
+================================
 Specify Read Preference and Tags
-==================================
+================================
 
 .. default-domain:: mongodb
 
