@@ -55,10 +55,10 @@ You can configure the following settings in a configuration file:
    * - Setting 
      - Definition
 
-   * - :ref:`forceConnectionOptions <compass-force-connection-options>`
+   * - :ref:`forceConnectionOptions <compass-specify-connection-options>`
      - .. include:: /includes/fact-force-connection-options.rst
 
-   * - :ref:`networkTraffic <compass-specify-connection-options>`
+   * - :ref:`networkTraffic <compass-configure-network-traffic>`
      - Configure |compass| to not perform outgoing network operations other 
        than those to the database.
 
