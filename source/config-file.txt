@@ -60,8 +60,12 @@ Tasks
 To see how to configure specific settings, see :ref:`Compass Configuration File Options 
 <config-file-options>`.
 
+.. seealso::
+   
+   :ref:`<config-file-options>`
+
 .. toctree::
    :titlesonly:
 
-   /config-file/restrict-outgoing-connections
+   /config-file/config-file-tasks
    /config-file/config-file-options
