@@ -1,0 +1,75 @@
+.. _compass-force-connection-options:
+
+==================================
+Specify Read Preference and Tags
+==================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+.. include:: /includes/fact-force-connection-options.rst 
+
+Procedure
+---------
+
+In this example, you set the read preference to ``SECONDARY`` and target members 
+with the ``ANALYTICS`` and ``READ_ONLY`` tags.  You can specify these options in 
+either a command line option or :ref:`configuration file <config-file>` option. 
+
+Command Line Example
+~~~~~~~~~~~~~~~~~~~~
+
+The following command starts |compass| from the command line and uses
+``--forceConnectionOptions`` to set the ``readPreference`` and 
+``readPreferenceTags`` options:
+
+.. code-block:: sh
+
+   <path-to-Compass-executable> --forceConnectionOptions.readPreference=secondary --forceConnectionOptions.readPreferenceTags=nodeType:ANALYTICS --forceConnectionOptions.readPreferenceTags=nodeType:READ_ONLY
+
+.. note::
+
+  The name and filepath of the |compass-short| executable depend on your
+  operating system.
+
+Configuration File Example
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can specify the |compass-short| configuration file in either EJSON
+or YAML format. The following configurations set the
+``--forceConnectionOptions`` option with ``readPreference`` and 
+``readPreferenceTags``:
+
+EJSON
+`````
+
+.. code-block:: json
+
+   { 
+     "forceConnectionOptions": [
+       ["readPreference", "secondary"],
+       ["readPreferenceTags", "nodeType:ANALYTICS"],
+       ["readPreferenceTags", "nodeType:READ_ONLY"]
+     ] 
+   }
+
+YAML
+````
+
+.. code-block:: yaml
+
+   forceConnectionOptions:
+     - readPreference: secondary
+     - readPreferenceTags: nodeType:ANALYTICS
+     - readPreferenceTags: nodeType:READ_ONLY
+
+Learn More
+----------
+
+To learn more about the |compass| configuration file, see
+:ref:`config-file`.
