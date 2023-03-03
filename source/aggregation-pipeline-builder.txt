@@ -218,7 +218,8 @@ your view mode of choice:
 
               - Mac: :guilabel:`⌘ + Shift + B` 
 
-            .. note::
+         .. step::  **(Optional)** Toggle the previews for each stage to include 
+            or exclude them from the pipeline.
                
                .. include:: /includes/fact-agg-pipeline-preview-toggle.rst
 
