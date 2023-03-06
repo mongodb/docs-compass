@@ -184,10 +184,10 @@ your view mode of choice:
             modal.
 
          .. step:: On the upper-right corner of the stage modal, select the 
-            Focus Mode icon to open Focus mode.
+            Focus Mode icon to open Focus Mode.
 
             .. figure:: /images/compass/focus-mode-button.png 
-               :alt: Select the focus mode button
+               :alt: Select the Focus Mode button
          
          .. step:: Click the :guilabel:`Select` dropdown and select the 
             :manual:`aggregation pipeline stage 
@@ -221,7 +221,7 @@ your view mode of choice:
          .. step::  **(Optional)** Toggle the previews for each stage to include 
             or exclude them from the pipeline.
                
-               .. include:: /includes/fact-agg-pipeline-preview-toggle.rst
+            .. include:: /includes/fact-agg-pipeline-preview-toggle.rst
 
          .. step:: To navigate between different stages, select the stage you 
             want to edit from the :guilabel:`Stage` dropdown in the upper-right 
