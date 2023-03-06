@@ -59,6 +59,22 @@ You can configure the following settings in a configuration file:
      - Configure |compass| to not perform outgoing network operations other 
        than those to the database.
 
+Example 
+-------
+To view a sample |compass-short| configuration file, run the following command 
+in the folder containing your |compass| executable: 
+
+.. code-block:: sh
+
+     <path-to-Compass-executable> --show-example-config
+
+If you do not already have a configuration file, you can run the following 
+command to use the sample configuration file: 
+
+.. code-block:: sh 
+
+     <path-to-Compass-executable> --show-example-config > /etc/mongodb-compass.conf
+
 Learn More
 ----------
 
