@@ -12,17 +12,18 @@ Specify Read Preference and Tags
    :depth: 2
    :class: singlecol
 
-You can pre-assign connection option values for when you connect to your MongoDB 
-deployment through |compass-short| with the ``forceConnectionOptions`` option. 
-This lets you restrict the ways that users can connect to your deployment so
-their read operations do not impact the availability of replica set primaries.
+You can set required connection option values for when you connect to your 
+MongoDB deployment through |compass-short| with the ``forceConnectionOptions`` 
+option. You can restrict how users can connect to your deployment so their read 
+operations do not impact the availability of replica set primaries.
 
 Procedure
 ---------
 
-In this example, you set the read preference to ``SECONDARY`` and target members 
-with the ``ANALYTICS`` and ``READ_ONLY`` tags.  You can specify these options in 
-either a command line option or :ref:`configuration file <config-file>` option. 
+In this example, you limit read operations to read only from ``SECONDARY`` 
+replica set members with the ``ANALYTICS`` and ``READ_ONLY`` tags. You can 
+specify these options on the command line or in a :ref:`configuration 
+file <config-file>`. 
 
 Command Line Example
 ~~~~~~~~~~~~~~~~~~~~
@@ -33,7 +34,10 @@ The following command starts |compass| from the command line and uses
 
 .. code-block:: sh
 
-   <path-to-Compass-executable> --forceConnectionOptions.readPreference=secondary --forceConnectionOptions.readPreferenceTags=nodeType:ANALYTICS --forceConnectionOptions.readPreferenceTags=nodeType:READ_ONLY
+   <path-to-Compass-executable> \
+   --forceConnectionOptions.readPreference=secondary \
+   --forceConnectionOptions.readPreferenceTags=nodeType:ANALYTICS \
+   --forceConnectionOptions.readPreferenceTags=nodeType:READ_ONLY
 
 .. note::
 
