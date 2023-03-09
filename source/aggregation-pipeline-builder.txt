@@ -102,7 +102,7 @@ Create an Aggregation Pipeline
   pipeline syntax. 
 
 To see how to create an aggregation pipeline, select the tab corresponding to 
-your view mode of choice:
+your chosen view mode:
 
 .. tabs:: 
 
