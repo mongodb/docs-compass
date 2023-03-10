@@ -67,9 +67,8 @@ To view a sample |compass-short| configuration file, run the following command:
 
      <path-to-Compass-executable> --show-example-config
 
-If you do not already have a configuration file, you can use the following 
-command to create a configuration file that uses the sample configuration 
-settings:
+If you do not already have a configuration file, you can create a configuration 
+file that uses the sample configuration settings:
 
 .. code-block:: sh 
 
