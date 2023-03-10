@@ -74,11 +74,6 @@ file that uses the sample configuration settings:
 
      <path-to-Compass-executable> --show-example-config > /etc/mongodb-compass.conf
 
-.. seealso:: 
-
-  To run |compass-short| with a configuration file, see 
-  :ref:`compass-connect-file-based`.
-
 Learn More
 ----------
 
