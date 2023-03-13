@@ -13,11 +13,11 @@ Specify Read Preference and Tags
    :depth: 2
    :class: singlecol
 
-You can use the ``forceConnectionOptions`` option to specify required connection 
-option values for when users connect to your MongoDB deployment through 
-|compass-short|. By setting required connection options such as read preference, 
-you can restrict how users connect to your deployment and ensure that their read 
-operations don't impact the availability of replica set primaries.
+You can use the ``forceConnectionOptions`` option to set required connection 
+option values on |compass-short|. By setting required connection options such as 
+read preference, you can restrict how users connect to your MongoDB deployment 
+and ensure that their read operations don't impact the availability of replica 
+set primaries.
 
 Procedure
 ---------
