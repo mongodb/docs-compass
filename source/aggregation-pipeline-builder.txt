@@ -181,14 +181,15 @@ your chosen view mode:
             .. figure:: /images/compass/agg-builder-stageview-toggle-on.png
                :alt: Toggle on stage view mode 
 
-         .. step:: Open the aggregation stage modal.
+         .. step:: Add an aggregation stage.
             
-            At the bottom of the aggregation pipeline pane, click the 
-            :guilabel:`+ Add Stage` button.
+            If you have not already created an aggregation stage, click the 
+            :guilabel:`+ Add Stage` button at the bottom of the aggregation 
+            pipeline pane.
 
          .. step:: Open Focus Mode. 
             
-            On the upper-right corner of the stage modal, click the 
+            On the upper-right corner of the stage card, click the 
             Focus Mode icon.
 
             .. figure:: /images/compass/focus-mode-button.png 
