@@ -59,7 +59,7 @@ Tasks
 
 - :ref:`compass-configure-network-traffic`
 
-- :ref:`compass-specify-connection-options`
+- :ref:`specify-read-preference-tags`
 
 .. seealso::
    
@@ -70,4 +70,4 @@ Tasks
 
    /config-file/config-file-options
    /config-file/restrict-outgoing-connections
-   /config-file/specify-connection-options
+   /config-file/specify-read-preference-tags
