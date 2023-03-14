@@ -14,8 +14,8 @@ Advanced Connection Options
 
 .. include:: /includes/intro-advanced-connection-options.rst
 
-Options
--------
+Tasks
+-----
 
 :ref:`general-connection-tab`
   Learn how to select a Connection String Scheme for your deployment. 
