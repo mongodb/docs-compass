@@ -84,8 +84,8 @@ on GitHub.
 
 .. include:: /includes/steps/starting-compass-paste-string.rst
 
-Connect to Compass from the Command Line
-----------------------------------------
+Connecting with Compass from the Command Line
+---------------------------------------------
 
 .. include:: /includes/intro-command-line-connection.rst
 
