@@ -114,8 +114,7 @@ value in the :guilabel:`Settings` panel.
 
 .. option:: --protectConnectionStrings
 
-   Hide credentials in connection strings. Passwords in connection 
-   strings are displayed as ``*****``. 
+   .. include:: /includes/fact-protect-connection-strings.rst  
 
 .. option:: --theme
 
