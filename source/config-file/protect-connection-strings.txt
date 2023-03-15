@@ -1,4 +1,5 @@
 .. _compass-protect-connection-strings:
+.. _hide-connection-string-credentials:
 
 ==========================================
 Hide Credentials in Your Connection String 
