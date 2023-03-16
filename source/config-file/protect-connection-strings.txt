@@ -27,7 +27,7 @@ actions:
 
 - Copy the connection string in the |compass-short| interface 
 
-- See the credentials when :ref:`exporting a query <compass-export-query>`. 
+- See the credentials when :ref:`exporting a query <compass-export-query>`
 
 Procedure
 ---------
