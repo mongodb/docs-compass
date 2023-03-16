@@ -54,15 +54,6 @@ When you configure settings with a configuration file:
 
      <path-to-Compass-executable> --help
 
-Tasks
------
-
-- :ref:`compass-protect-connection-strings`
-
-- :ref:`compass-configure-network-traffic`
-
-- :ref:`specify-read-preference-tags`
-
 .. seealso::
    
    :ref:`<config-file-options>`
@@ -70,4 +61,4 @@ Tasks
 .. toctree::
    :titlesonly:
 
-   /config-settings/config-file/config-file-options
+   /settings/config-file/config-file-options

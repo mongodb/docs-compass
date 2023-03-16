@@ -13,11 +13,15 @@ Compass Settings
    :class: singlecol
 
 This section provides tutorials and reference material for configuring |compass| 
-settings through the following methods: 
+settings.
 
-- :ref:`cli-options`
+You can modify your |compass-short| settings in: 
 
-- :ref:`config-file`
+- The :guilabel:`Settings` dialog box
+
+- The :ref:`command line <cli-options>`
+
+- A :ref:`configuration file <config-file>`
 
 
 Tasks
