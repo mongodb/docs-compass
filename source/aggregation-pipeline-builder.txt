@@ -174,7 +174,7 @@ your chosen view mode:
             
             To edit the pipeline after running it, click :guilabel:`Edit` at 
             the top of your pipeline toolbar to return to the Aggregation 
-            Pipeline Builder and make changes to your pipeline. 
+            Pipeline Builder. 
 
    .. tab:: Focus Mode 
       :tabid: focus 
