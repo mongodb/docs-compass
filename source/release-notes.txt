@@ -10,6 +10,19 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.36.1
+----------------
+
+*Released March 15, 2023*
+
+New Features:
+
+- Enable focus mode (:issue:`COMPASS-6474`)
+
+`Full Changelog is available on GitHub 
+<https://github.com/mongodb-js/compass/compare/v1.36.0...v1.36.1>`__
+
+
 |compass| 1.36.0
 ----------------
 
