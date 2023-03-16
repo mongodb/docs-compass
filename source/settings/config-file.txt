@@ -70,7 +70,4 @@ Tasks
 .. toctree::
    :titlesonly:
 
-   /config-file/config-file-options
-   /config-file/protect-connection-strings
-   /config-file/restrict-outgoing-connections
-   /config-file/specify-read-preference-tags
+   /config-settings/config-file/config-file-options

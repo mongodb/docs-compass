@@ -1,0 +1,39 @@
+.. _compass-settings:
+
+================
+Compass Settings
+================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+This section provides tutorials and reference material for configuring |compass| 
+settings through the following methods: 
+
+- :ref:`cli-options`
+
+- :ref:`config-file`
+
+
+Tasks
+-----
+
+- :ref:`compass-protect-connection-strings`
+
+- :ref:`compass-configure-network-traffic`
+
+- :ref:`compass-force-connection-options`
+
+.. toctree::
+   :titlesonly:
+
+   /settings/command-line-options
+   /settings/config-file
+   /settings/protect-connection-strings
+   /settings/restrict-outgoing-connections
+   /settings/specify-read-preference-tags
