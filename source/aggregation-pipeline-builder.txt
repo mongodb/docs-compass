@@ -162,7 +162,7 @@ your chosen view mode:
 
             .. note:: 
 
-               You can also change the order of pipeline stages by dragging 
+               You can change the order of pipeline stages by dragging 
                the header of each stage card.
 
          .. step:: Run the pipeline. 
