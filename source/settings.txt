@@ -12,32 +12,49 @@ Compass Settings
    :depth: 1
    :class: singlecol
 
-This section provides tutorials and reference material for configuring |compass| 
-settings.
+To customize user access and privacy in |compass|, you can configure your 
+|compass-short| settings in the :guilabel:`Settings` dialog box, 
+the :ref:`command line <cli-options>`, or a :ref:`configuration file 
+<config-file>`.
 
-You can modify your |compass-short| settings in: 
+Use Cases 
+---------
 
-- The :guilabel:`Settings` dialog box
+Administrators can specify |compass-short| settings and behaviors. For example:
 
-- The :ref:`command line <cli-options>`
+- If you need to restrict what actions users can perform in |compass-short|, you 
+  can disable the embedded shell and make |compass-short| read-only.
 
-- A :ref:`configuration file <config-file>`
+- If you need to prevent users from seeing credentials in their |compass-short| 
+  connection string, you can run Compass with the credentials redacted from 
+  their connection string.
 
+- If you have multiple team members using |compass-short|, you can use a common 
+  configuration file to ensure a consistent user experience.
 
 Tasks
 -----
 
-- :ref:`compass-protect-connection-strings`
-
 - :ref:`compass-configure-network-traffic`
 
+- :ref:`compass-protect-connection-strings`
+
 - :ref:`compass-force-connection-options`
+
+Learn more 
+----------
+
+To learn how to configure your |compass-short| settings through the command
+line, see :ref:`cli-options`.
+
+To learn how to configure your |compass-short| settings through a configuration 
+file, see :ref:`config-file`.
 
 .. toctree::
    :titlesonly:
 
    /settings/command-line-options
    /settings/config-file
-   /settings/protect-connection-strings
    /settings/restrict-outgoing-connections
+   /settings/protect-connection-strings
    /settings/specify-read-preference-tags
