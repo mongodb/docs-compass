@@ -154,10 +154,9 @@ your chosen view mode:
          .. step:: Add additional pipeline stages.
             
             To add an additional pipeline stage after your last aggregation 
-            stage, click :guilabel:`Add Stage`. 
-            
-            To add an aggregation stage before your most recently added stage, 
-            click the :guilabel:`+` icon above the stage card. 
+            stage, click :guilabel:`Add Stage`. To add an aggregation stage 
+            before your most recently added stage, click the :guilabel:`+` icon 
+            above the stage card. 
             
             Repeat steps 3 and 4 for each additional stage.
 
