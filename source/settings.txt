@@ -20,14 +20,19 @@ the :ref:`command line <cli-options>`, or a :ref:`configuration file
 Use Cases 
 ---------
 
-Administrators can specify |compass-short| settings and behaviors. For example:
+You can specify |compass-short| settings and behaviors to customize your 
+|compass-short| experience. For administrators, you can modify the 
+|compass-short| settings to restrict what actions users can take.
 
-- If you need to restrict what actions users can perform in |compass-short|, you 
-  can disable the embedded shell and make |compass-short| read-only.
+For example:
 
-- If you need to prevent users from seeing credentials in their |compass-short| 
-  connection string, you can run Compass with the credentials redacted from 
-  their connection string.
+- If you need to limit users from viewing sensitive information when 
+  connecting to MongoDB, you can run Compass with credentials hidden
+  from their connection string.
+
+- If you want to automate the launch of |compass-short| without any input 
+  required from users, you can use the command line to launch |compass-short| 
+  with specified configuration options. 
 
 - If you have multiple team members using |compass-short|, you can use a common 
   configuration file to ensure a consistent user experience.
