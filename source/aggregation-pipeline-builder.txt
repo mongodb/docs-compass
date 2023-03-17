@@ -128,7 +128,7 @@ your chosen view mode:
          .. step:: Select an aggregation pipeline stage.
             
             On the upper-left corner of the aggregation stage card, 
-            click the :guilabel:`Select...` dropdown and select the 
+            click the :guilabel:`Select` drop-down menu and select the 
             :manual:`aggregation pipeline stage 
             </reference/operator/aggregation-pipeline/>` to use for the first 
             stage of the pipeline. 
@@ -167,14 +167,10 @@ your chosen view mode:
 
          .. step:: Run the pipeline. 
             
-            Click :guilabel:`Run` at the top right of the pipeline 
-            builder. |compass-short| returns your results in the document view. 
-
-         .. step:: Edit your pipeline. 
+            At the top-right corner of the pipeline builder, click 
+            :guilabel:`Run`. 
             
-            To edit the pipeline after running it, click :guilabel:`Edit` at 
-            the top of your pipeline toolbar to return to the Aggregation 
-            Pipeline Builder. 
+            |compass-short| returns your results in the document view. 
 
    .. tab:: Focus Mode 
       :tabid: focus 
@@ -206,7 +202,7 @@ your chosen view mode:
          
          .. step:: Select an aggregation pipeline stage.
             
-            Click the :guilabel:`Select` dropdown and select the 
+            Click the :guilabel:`Select` drop-down menu and select the 
             :manual:`aggregation pipeline stage 
             </reference/operator/aggregation-pipeline/>` to use for the first 
             stage of the pipeline. 
