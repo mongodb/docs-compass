@@ -70,7 +70,7 @@ Bug Fixes:
   (:issue:`COMPASS-6051`)
 - Do not reset stage value if it was already changed (:issue:`COMPASS-6584`)
 
-`Full Changelog available on Github: v1.35.0...v1.36.0 
+`Full Changelog available on Github:
 <https://github.com/mongodb-js/compass/compare/v1.35.0...v1.36.0>`__
 
 |compass| 1.35.0
