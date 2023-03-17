@@ -1,7 +1,5 @@
 .. _cli-options:
 
-.. program:: compass
-
 ----------------------------
 Compass Command Line Options
 ----------------------------
