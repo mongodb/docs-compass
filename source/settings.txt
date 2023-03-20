@@ -50,7 +50,7 @@ Learn more
 ----------
 
 To learn how to configure your |compass| settings through the |compass-short| 
-interface, see :ref:`compass-settings-reference`.
+interface, see :ref:`compass-interface-settings`.
 
 To learn how to configure your |compass-short| settings through the command
 line, see :ref:`cli-options`.
@@ -61,6 +61,7 @@ file, see :ref:`config-file`.
 .. toctree::
    :titlesonly:
 
+   /settings/settings-reference
    /settings/command-line-options
    /settings/config-file
    /settings/restrict-outgoing-connections

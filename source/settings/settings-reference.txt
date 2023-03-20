@@ -1,7 +1,8 @@
-.. compass-settings-reference:
+.. _compass-interface-settings:
+.. _compass-settings-reference:
 
 --------------------------
-Compass Settings Reference
+Compass Interface Settings
 --------------------------
 
 .. default-domain:: mongodb
