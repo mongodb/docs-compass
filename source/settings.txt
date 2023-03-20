@@ -49,6 +49,9 @@ Tasks
 Learn more 
 ----------
 
+To learn how to configure your |compass| settings through the |compass-short| 
+interface, see :ref:`compass-settings-reference`.
+
 To learn how to configure your |compass-short| settings through the command
 line, see :ref:`cli-options`.
 

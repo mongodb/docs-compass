@@ -1,0 +1,100 @@
+.. compass-settings-reference:
+
+--------------------------
+Compass Settings Reference
+--------------------------
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+The following page provides an overview on options that you can set on the 
+|compass| interface. For more detailed guidance on how to set a specific option, 
+see the task page for the specific option.
+
+General Settings
+----------------
+
+You can configure the following settings on the |compass| interface:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 30 40
+
+   * - Setting 
+     - Category
+     - Definition
+
+   * - Set Read-Only Mode
+     - General
+     - Remove all write and delete capabilities on |compass-short|. 
+
+   * - Enable MongoDB Shell
+     - General
+     - Enable or disable the embedded MongoDB shell on |compass-short|. 
+     
+       If you select :guilabel:`Set Read-Only Mode`, |compass-short| 
+       automatically unchecks the :guilabel:`Enable MongoDB Shell` setting.
+    
+   * - Protect Connection String Secrets
+     - General
+     - .. include:: /includes/fact-protect-connection-strings.rst 
+      
+       To learn more, see :ref:`compass-protect-connection-strings`.
+
+   * - Show Kerberos Password Field 
+     - General
+     - Show or hide the Kerberos password field on the |compass-short| 
+       connection form.
+
+   * - Upper Limit for maxTimeMS for |compass-short| Database Operations 
+     - General
+     - Specify an upper time limit for all |compass-short| database operations.
+
+   * - Enable Devtools
+     - General
+     - Enable the Chromium Developer Tools  that can be used to debug Electron's 
+       process.
+
+   * - Sync with OS
+     - Theme 
+     - Automatically switch between light and dark themes based on your OS 
+       settings. 
+
+   * - Light Mode 
+     - Theme 
+     - Use a light theme.
+
+   * - Dark Mode 
+     - Theme 
+     - Use a dark theme.
+
+   * - Enable Automatic Updates 
+     - Privacy 
+     - Allow |compass-short| to periodically check for new updates.
+
+   * - Enable Geographic Visualizations
+     - Privacy 
+     - Allow |compass-short| to make requests to third-party mapping services.
+
+   * - Enable Usage Statistics
+     - Privacy
+     - Allow |compass-short| to send anonymous usage statistics.
+
+   * - Give Product Feedback 
+     - Privacy
+     - Allow our Product team to occasionally reach out for feedback about 
+       |compass-short|.
+
+Learn More
+----------
+
+To learn how to configure your |compass-short| settings through the command
+line, see :ref:`cli-options`.
+
+To learn how to configure your |compass-short| settings through a configuration 
+file, see :ref:`config-file`.
