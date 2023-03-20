@@ -17,14 +17,14 @@ The following page provides an overview on options that you can set on the
 |compass| interface. For more detailed guidance on how to set a specific option, 
 see the task page for the specific option.
 
-General Settings
-----------------
+Settings
+--------
 
 You can configure the following settings on the |compass| interface:
 
 .. list-table::
    :header-rows: 1
-   :widths: 30 10 60
+   :widths: 30 20 50
 
    * - Setting 
      - Category
