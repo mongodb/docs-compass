@@ -13,9 +13,9 @@ Compass Settings
    :class: singlecol
 
 To customize user access and privacy in |compass|, you can configure your 
-|compass-short| settings in the :guilabel:`Settings` dialog box, 
-the :ref:`command line <cli-options>`, or a :ref:`configuration file 
-<config-file>`.
+|compass-short| settings in the :ref:`Settings dialog box 
+<compass-settings-reference>`, the :ref:`command line <cli-options>`, or a 
+:ref:`configuration file <config-file>`.
 
 Use Cases 
 ---------
