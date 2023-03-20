@@ -13,7 +13,7 @@ Compass Settings
    :class: singlecol
 
 To customize user access and privacy in |compass|, you can configure your 
-|compass-short| settings in the :ref:`Settings dialog box 
+|compass-short| settings in the :ref:`settings dialog box 
 <compass-settings-reference>`, the :ref:`command line <cli-options>`, or a 
 :ref:`configuration file <config-file>`.
 
