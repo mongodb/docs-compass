@@ -54,9 +54,10 @@ When you configure settings with a configuration file:
 
      <path-to-Compass-executable> --help
 
-.. seealso::
+Learn More
+----------
    
-   :ref:`<config-file-options>`
+:ref:`<config-file-options>`
 
 .. toctree::
    :titlesonly:

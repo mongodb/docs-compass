@@ -13,9 +13,8 @@ Compass Interface Settings
    :depth: 1
    :class: singlecol
 
-The following page provides an overview on options that you can set on the 
-|compass| interface. For more detailed guidance on how to set a specific option, 
-see the task page for the specific option.
+You can customize |compass| to meet your specific needs. Some options are only 
+available in the :guilabel:`Settings` panel.
 
 Settings
 --------
@@ -36,10 +35,10 @@ You can configure the following settings on the |compass| interface:
 
    * - Enable MongoDB Shell
      - General
-     - Enable or disable the embedded MongoDB shell on |compass-short|. 
+     - Enable or disable the embedded MongoDB Shell on |compass-short|. 
      
        If you select :guilabel:`Set Read-Only Mode`, |compass-short| 
-       automatically unchecks the :guilabel:`Enable MongoDB Shell` setting.
+       automatically disables the :guilabel:`Enable MongoDB Shell` setting.
 
        To learn more, see :ref:`disable-shell`.
     
@@ -96,8 +95,8 @@ You can configure the following settings on the |compass| interface:
 Learn More
 ----------
 
-To learn how to configure your |compass-short| settings through the command
-line, see :ref:`cli-options`.
+- :ref:`compass-settings`
 
-To learn how to configure your |compass-short| settings through a configuration 
-file, see :ref:`config-file`.
+- :ref:`cli-options`
+
+- :ref:`config-file`
