@@ -13,8 +13,12 @@ Compass Interface Settings
    :depth: 1
    :class: singlecol
 
-You can customize |compass| to meet your specific needs. Some options are only 
-available in the :guilabel:`Settings` panel.
+You can customize |compass| to meet your specific needs. Some 
+options are only available in the :guilabel:`Settings` panel.
+
+If you have already configured |compass-short| settings on the command line or 
+in a configuration file, you cannot modify those settings in the |compass-short| 
+interface.
 
 Settings
 --------
