@@ -10,7 +10,7 @@ Release Notes
    :depth: 1
    :class: twocols
 
-|compass| 1.36.1
+|compass| 1.36.0
 ----------------
 
 *Released March 15, 2023*
@@ -18,18 +18,6 @@ Release Notes
 New Features:
 
 - Enable focus mode (:issue:`COMPASS-6474`)
-
-`Full Changelog is available on GitHub 
-<https://github.com/mongodb-js/compass/compare/v1.36.0...v1.36.1>`__
-
-
-|compass| 1.36.0
-----------------
-
-*Released March 14, 2023*
-
-New Features:
-
 - Add stage button between stages (:issue:`COMPASS-6382`)
 - Use type from last array element when inserting new element to array 
   (:issue:`COMPASS-6432`)
