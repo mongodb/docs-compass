@@ -48,11 +48,11 @@ Tasks
 Learn more 
 ----------
 
-- :ref:`compass-interface-settings`.
+- :ref:`compass-interface-settings`
 
-- :ref:`cli-options`.
+- :ref:`cli-options`
 
-- :ref:`config-file`.
+- :ref:`config-file`
 
 .. toctree::
    :titlesonly:
