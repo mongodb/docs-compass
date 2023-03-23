@@ -20,6 +20,19 @@ If you have already configured |compass-short| settings on the command line or
 in a configuration file, you cannot modify those settings in the |compass-short| 
 interface.
 
+Settings Panel Location
+-----------------------
+
+To open the |compass-short| :guilabel:`Settings` panel, navigate to the 
+:guilabel:`MongoDB Compass` system menu and select :guilabel:`Settings`.
+
+Alternatively, you can open the :guilabel:`Settings` panel with keyboard 
+shortcuts: 
+
+- Windows / Linux: ``Ctrl`` + ``,``
+
+- Mac: ``⌘`` + ``,``
+
 Settings
 --------
 
