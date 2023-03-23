@@ -23,18 +23,19 @@ interface.
 Settings Panel Location
 -----------------------
 
-To open the |compass-short| :guilabel:`Settings` panel, navigate to the 
+To find the |compass-short| :guilabel:`Settings` panel, open the 
 :guilabel:`MongoDB Compass` system menu and select :guilabel:`Settings`.
 
 .. figure:: /images/compass/settings-panel-location.png
+  :scale: 80%
   :alt: Settings panel location under the MongoDB Compass system menu
 
 Alternatively, you can use keyboard shortcuts to open the :guilabel:`Settings` 
 panel: 
 
-- Windows / Linux: :guilabel:`Ctrl + ,`
+- Windows / Linux: ``Ctrl`` + ``,``
 
-- Mac: :guilabel:`⌘ + ,`
+- Mac: ``⌘`` + ``,``
 
 Settings
 --------
