@@ -1,7 +1,7 @@
 .. _compass-enable-dev-tools:
 
 ======================
-Enable Chrome DevTools
+Toggle Chrome DevTools
 ======================
 
 .. default-domain:: mongodb
@@ -12,14 +12,17 @@ Enable Chrome DevTools
    :depth: 2
    :class: singlecol
 
-Description.
+You can toggle the ``enableDevTools`` option to control user access to Chrome 
+DevTools on |compass|. 
 
 About This Task
 ---------------
 
 If you set :guilabel:`Set Read-Only Mode`, :guilabel:`Enable MongoDB Shell`, 
 :guilabel:`maxTimeMS`, or :guilabel:`Protect Connection String Secrets`, 
-|compass-short| automatically disables the :guilabel:`Enable Devtools` setting.
+|compass-short| automatically disables the :guilabel:`Enable DevTools` setting.
+
+By default, :guilabel:`Enable DevTools` is enabled.
 
 Procedure
 ---------

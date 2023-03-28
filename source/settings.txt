@@ -63,5 +63,6 @@ Learn more
    /settings/command-line-options
    /settings/config-file
    /settings/restrict-outgoing-connections
+   /settings/enable-dev-tools
    /settings/protect-connection-strings
    /settings/specify-read-preference-tags
