@@ -18,11 +18,11 @@ DevTools on |compass|.
 About This Task
 ---------------
 
+By default, :guilabel:`Enable DevTools` is enabled.
+
 If you set :guilabel:`Set Read-Only Mode`, :guilabel:`Enable MongoDB Shell`, 
 :guilabel:`maxTimeMS`, or :guilabel:`Protect Connection String Secrets`, 
 |compass-short| automatically disables the :guilabel:`Enable DevTools` setting.
-
-By default, :guilabel:`Enable DevTools` is enabled.
 
 Procedure
 ---------
