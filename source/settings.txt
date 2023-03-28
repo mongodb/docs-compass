@@ -41,6 +41,8 @@ Tasks
 
 - :ref:`compass-configure-network-traffic`
 
+- :ref:`compass-enable-dev-tools`
+
 - :ref:`compass-protect-connection-strings`
 
 - :ref:`compass-force-connection-options`
