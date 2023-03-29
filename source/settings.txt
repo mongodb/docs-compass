@@ -41,11 +41,11 @@ Tasks
 
 - :ref:`compass-configure-network-traffic`
 
-- :ref:`compass-enable-dev-tools`
-
 - :ref:`compass-protect-connection-strings`
 
 - :ref:`compass-force-connection-options`
+
+- :ref:`compass-enable-dev-tools`
 
 Learn more 
 ----------
@@ -63,6 +63,6 @@ Learn more
    /settings/command-line-options
    /settings/config-file
    /settings/restrict-outgoing-connections
-   /settings/enable-dev-tools
    /settings/protect-connection-strings
    /settings/specify-read-preference-tags
+   /settings/enable-dev-tools
