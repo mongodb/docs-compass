@@ -20,8 +20,10 @@ rules.
 About This Task 
 ---------------
 
-If ``readOnly`` is enabled, |compass-short| automatically disables the 
-following options: 
+By default, |compass-short| disables :guilabel:`Set Read-Only Mode`.
+
+If :guilabel:`Set Read-Only Mode` is enabled, |compass-short| automatically 
+disables the following options: 
 
 - :guilabel:`Enable MongoDB Shell`
 - :guilabel:`Enable DevTools`
