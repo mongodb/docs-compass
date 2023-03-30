@@ -13,16 +13,21 @@ Toggle Chrome DevTools
    :class: singlecol
 
 You can toggle the ``enableDevTools`` option to control user access to Chrome 
-DevTools on |compass|. 
+DevTools on |compass|. When you enable Chrome Devtools, you can view additional 
+diagnostic or debugging information from the |compass-short| interface. 
 
 About This Task
 ---------------
 
-By default, :guilabel:`Enable DevTools` is enabled.
+By default, :guilabel:`Chrome DevTools` is enabled.
 
-If you set :guilabel:`Set Read-Only Mode`, :guilabel:`Enable MongoDB Shell`, 
-:guilabel:`maxTimeMS`, or :guilabel:`Protect Connection String Secrets`, 
-|compass-short| automatically disables the :guilabel:`Enable DevTools` setting.
+Compass automatically disables the :guilabel:`Enable DevTools` setting if 
+you enable any of the following options: 
+
+- :guilabel:`Set Read-Only Mode`
+- :guilabel:`Enable MongoDB Shell`
+- :guilabel:`maxTimeMS`
+- :guilabel:`Protect Connection String Secrets`
 
 Procedure
 ---------
@@ -63,8 +68,8 @@ You can set the ``enableDevTools`` option in either:
 
    .. step:: Click :guilabel:`Save`.
 
-Command Line Example
-~~~~~~~~~~~~~~~~~~~~
+Command Line
+~~~~~~~~~~~~
 
 The following command starts |compass-short| from the command line and sets
 the ``--enableDevTools`` option:
@@ -78,8 +83,8 @@ the ``--enableDevTools`` option:
   The name and filepath of the |compass-short| executable depend on your
   operating system.
 
-Configuration File Example
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Configuration File
+~~~~~~~~~~~~~~~~~~
 
 You can specify the |compass-short| configuration file in either EJSON
 or YAML format. The following configurations set the 
