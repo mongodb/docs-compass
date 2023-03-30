@@ -43,6 +43,8 @@ Tasks
 
 - :ref:`compass-protect-connection-strings`
 
+- :ref:`compass-read-only`
+
 - :ref:`compass-force-connection-options`
 
 - :ref:`compass-enable-dev-tools`
