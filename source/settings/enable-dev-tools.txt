@@ -19,10 +19,10 @@ diagnostic or debugging information from the |compass-short| interface.
 About This Task
 ---------------
 
-By default, :guilabel:`Chrome DevTools` is enabled.
+By default, |compass-short| enables :guilabel:`Chrome DevTools`.
 
-Compass automatically disables the :guilabel:`Enable DevTools` setting if 
-you enable any of the following options: 
+If you enable any of the following options, |compass-short| automatically 
+disables the :guilabel:`Enable DevTools` setting: 
 
 - :guilabel:`Set Read-Only Mode`
 - :guilabel:`Enable MongoDB Shell`
