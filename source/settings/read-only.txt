@@ -22,8 +22,7 @@ About This Task
 
 By default, |compass-short| disables the ``readOnly`` option.
 
-If the ``readOnly`` option is enabled, |compass-short| you cannot enable the 
-following options: 
+If the ``readOnly`` option is enabled, you cannot enable the following options: 
 
 - :ref:`enableShell <embedded-mongodb-shell>`
 - ``enableDevtools``
