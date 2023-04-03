@@ -13,25 +13,25 @@ Restrict Write Operations to MongoDB
    :class: singlecol
 
 You can use the ``readOnly`` option to prevent users from performing write 
-operations to MongoDB thorugh |compass-short|. If you set the ``readOnly`` 
-option, users cannot modify documents, create indexes, or specify validation 
-rules.
+operations to your MongoDB deployment through |compass-short|. If you enable the 
+``readOnly`` option, users cannot modify documents, create indexes, or specify 
+validation rules.
 
 About This Task 
 ---------------
 
-By default, |compass-short| disables :guilabel:`Set Read-Only Mode`.
+By default, |compass-short| disables the ``readOnly`` option.
 
-If :guilabel:`Set Read-Only Mode` is enabled, |compass-short| automatically 
-disables the following options: 
+If the ``readOnly`` option is enabled, |compass-short| you cannot enable the 
+following options: 
 
-- :guilabel:`Enable MongoDB Shell`
-- :guilabel:`Enable DevTools`
+- :ref:`enableShell <embedded-mongodb-shell>`
+- ``enableDevtools``
 
 Procedure
 ---------
 
-You can set the ``readOnly`` option in either: 
+You can enable the ``readOnly`` option in either: 
 
 - The |compass-short| :ref:`Settings panel <compass-settings-reference>`
 
