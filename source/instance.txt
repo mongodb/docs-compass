@@ -23,9 +23,6 @@ MongoDB instance to which Compass is connected, including:
 - :doc:`Performance statistics </performance>`, including memory
   usage, operation counts, and slowest operations.
 
-.. figure:: /images/compass/instance-view.png
-   :alt: Compass Home View
-
 Once connected to a MongoDB instance, you can reach the Compass
 Home screen by clicking the cluster name in the upper left
 corner.
