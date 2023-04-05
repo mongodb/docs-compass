@@ -1,0 +1,110 @@
+.. _compass-kerberos-password:
+
+==================================
+Enable the Kerberos Password Field
+==================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+If you use :manual:`Kerberos authentication </core/kerberos/>` to connect to 
+your MongoDB deployment, you can enable the ``showKerberosPasswordField`` 
+option on |compass|. 
+
+About This Task 
+---------------
+
+By default, |compass-short| disables the ``showKerberosPassowrdField`` option.
+
+If you enable the ``showKerberosPasswordField``, |compass| displays the 
+:guilabel:`Provide password directly` option, which contains the 
+:guilabel:`Password` field when selected, under the 
+:guilabel:`Advanced Connection Options > Authentication` tab on the 
+|compass-short| connection form. 
+
+Procedure
+---------
+
+You can enable the ``showKerberosPasswordField`` option in either: 
+
+- The |compass-short| :ref:`Settings panel <compass-settings-reference>`
+
+- The :ref:`command line <cli-options>`
+
+- A :ref:`configuration file <config-file>`
+
+|compass-short| Settings Panel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. procedure:: 
+   :style: normal
+   
+   .. step:: In the |compass-short| top menu bar, click :guilabel:`MongoDB Compass`. 
+
+      .. figure:: /images/compass/settings-panel-location.png
+         :scale: 60% 
+         :alt: Settings panel location under the MongoDB Compass system menu
+      
+      Alternatively, you can use keyboard shortcuts to open the 
+      :guilabel:`Settings` panel: 
+      
+      - Windows / Linux: ``Ctrl`` + ``,``
+      
+      - Mac: ``⌘`` + ``,``
+
+   .. step:: In the :guilabel:`MongoDB Compass` menu, click :guilabel:`Settings`.
+
+      |compass-short| opens a dialog box where you can configure your |compass| 
+      settings.
+
+   .. step:: Toggle :guilabel:`Show Kerberos Password Field`.
+
+   .. step:: Click :guilabel:`Save`.
+
+Command Line
+~~~~~~~~~~~~
+
+The following command starts |compass-short| from the command line and sets
+the ``--showKerberosPasswordField`` option:
+
+.. code-block:: sh
+
+   <path-to-Compass-executable> --readOnly
+
+.. note::
+
+  The name and filepath of the |compass-short| executable depend on your
+  operating system.
+
+Configuration File
+~~~~~~~~~~~~~~~~~~
+
+You can specify the |compass-short| configuration file in either EJSON
+or YAML format. The following configurations set the 
+``showKerberosPasswordField`` option to ``true``:
+
+EJSON
+`````
+
+.. code-block:: json
+
+   { "showKerberosPasswordField": true }
+
+YAML
+````
+
+.. code-block:: yaml
+
+   showKerberosPasswordField: true
+
+Learn More
+----------
+
+To learn more about the |compass| configuration file, see
+:ref:`config-file`.
+
