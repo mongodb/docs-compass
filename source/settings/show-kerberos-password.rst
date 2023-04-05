@@ -1,8 +1,8 @@
 .. _compass-kerberos-password:
 
-==================================
-Enable the Kerberos Password Field
-==================================
+===================================
+Display the Kerberos Password Field
+===================================
 
 .. default-domain:: mongodb
 
