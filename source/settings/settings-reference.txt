@@ -95,6 +95,8 @@ You can configure the following settings on the |compass| interface:
        you can open |compass-short| by navigating to a mongodb:// or 
        mongodb+srv:// URL.
 
+        *Available on macOS and Windows.*
+
    * - Sync with OS
      - Theme 
      - Automatically switch between light and dark themes based on your OS 
