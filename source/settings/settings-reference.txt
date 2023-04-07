@@ -93,7 +93,7 @@ You can configure the following settings on the |compass| interface:
 
        If :guilabel:`Install Compass as URL Protocol Handler` is enabled, 
        you can open |compass-short| by navigating to a mongodb:// or 
-       mongodb+srv:// URL.
+       mongodb+srv:// URL in your browser.
 
         *Available on macOS and Windows.*
 
