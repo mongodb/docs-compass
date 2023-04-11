@@ -96,7 +96,7 @@ You can configure the following settings on the |compass| interface:
        mongodb+srv:// URL in your browser.
 
        By default, :guilabel:`Install Compass as URL Protocol Handler` is 
-       enabled, but you can toggle this setting only on Windows or macOS.
+       enabled. You can toggle this setting only on Windows or macOS.
 
    * - Sync with OS
      - Theme 
