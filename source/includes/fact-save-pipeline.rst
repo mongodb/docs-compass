@@ -11,7 +11,14 @@ To save your pipeline:
    .. step:: Click the :guilabel:`Save` dropdown button.
 
       Click on ``Save pipeline as...``.
+<<<<<<< HEAD
 
    .. step:: Enter a name for your pipeline.
 
    .. step:: Click :guilabel:`Save`. 
+=======
+
+   .. step:: Enter a name for your pipeline
+
+   .. step:: Click :guilabel:`Save`
+>>>>>>> c8da2b7 (DOCSP-27356 final screenshot updates)
