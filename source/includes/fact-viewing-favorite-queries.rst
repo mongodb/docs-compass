@@ -1,7 +1,7 @@
 .. procedure::
    :style: normal
 
-   .. step:: Open query history
+   .. step:: Open your query history.
 
       Click the :guilabel:`History` button at the top of the 
       :guilabel:`Documents` tab.
@@ -10,10 +10,6 @@
          :figwidth: 720 px
          :alt: Query history view
 
-   .. step:: Select favorites
+   .. step:: Click the :guilabel:`Favorites` button in the past queries pane.
 
-      Click the :guilabel:`Favorites` button in the past queries pane.
-
-      .. figure:: /images/compass/query-history-favorite.png
-         :figwidth: 316px
-         :alt: Favorites
+      Select favorite queries.
