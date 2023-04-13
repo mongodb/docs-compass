@@ -13,6 +13,8 @@ Release Notes
 |compass| 1.36.3
 ----------------
 
+*Released April 13, 2023*
+
 New Features:
 
 - Add links to the documentation to the agg and stage 
