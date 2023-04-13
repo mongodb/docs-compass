@@ -54,7 +54,7 @@ When you click a saved or favorite pipeline tile, Compass opens the
 :guilabel:`Aggregations` tab with the pipeline loaded.
 
 .. figure:: /images/compass/query-my-queries-splash.png
-   :figwidth: 650 px
+   :figwidth: 720 px
    :alt: My queries view
 
 Using the :guilabel:`Favorites` Tab 
