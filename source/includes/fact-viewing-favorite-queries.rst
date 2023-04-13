@@ -7,7 +7,7 @@
       :guilabel:`Documents` tab.
 
       .. figure:: /images/compass/query-history-view.png
-         :figwidth: 720 px
+         :figwidth: 600 px
          :alt: Query history view
 
    .. step:: Click the :guilabel:`Favorites` button in the past queries pane.
