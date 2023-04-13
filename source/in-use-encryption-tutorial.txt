@@ -140,11 +140,7 @@ To disable In-Use Encryption:
    .. step:: Click on :guilabel:`In-Use Encryption` on left-hand navigation bar.
 
      .. figure:: /images/compass/qe-connection-button.png
-<<<<<<< HEAD
-        :figwidth: 300 px
-=======
         :figwidth: 400 px
->>>>>>> c8da2b7 (DOCSP-27356 final screenshot updates)
         :alt: In-Use Encryption Connection button
 
    .. step:: Click the :guilabel:`Enable In-Use Encryption for this connection` 
