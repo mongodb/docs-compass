@@ -217,10 +217,6 @@ Fields that contain GeoJSON data or ``[longitude,latitude]`` arrays are
 displayed with interactive maps. For more information on interacting
 with location data in |compass-short|, see :ref:`analyze-location-data`.
 
-.. figure:: /images/compass/geo-visualization.png
-   :figwidth: 816px
-   :alt: Example of GeoJSON data types
-
 .. include:: /includes/fact-isolated-ver-third-party-mapping.rst
 
 View Charts of Mixed Types
