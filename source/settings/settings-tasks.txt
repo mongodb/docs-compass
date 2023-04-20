@@ -24,3 +24,13 @@ Tasks
 
 :ref:`compass-enable-dev-tools`
   Control user access to Chrome DevTools on |compass|.
+
+.. toctree::
+   :titlesonly:
+
+   /settings/settings-tasks/restrict-outgoing-connections
+   /settings/settings-tasks/show-kerberos-password
+   /settings/settings-tasks/protect-connection-strings
+   /settings/settings-tasks/read-only
+   /settings/settings-tasks/specify-read-preference-tags
+   /settings/settings-tasks/enable-dev-tools
