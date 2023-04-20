@@ -66,9 +66,4 @@ Learn more
    /settings/settings-reference
    /settings/command-line-options
    /settings/config-file
-   /settings/restrict-outgoing-connections
-   /settings/show-kerberos-password
-   /settings/protect-connection-strings
-   /settings/read-only
-   /settings/specify-read-preference-tags
-   /settings/enable-dev-tools
+   /settings/settings-tasks

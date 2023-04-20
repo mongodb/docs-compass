@@ -1,0 +1,26 @@
+=====
+Tasks
+=====
+
+.. default-domain:: mongodb
+
+:ref:`compass-configure-network-traffic`
+  Configure |compass| to not perform outgoing network operations other than 
+  those to the database.
+
+:ref:`compass-kerberos-password`
+  Show or hide the Kerberos password field on the |compass-short| connection 
+  form. 
+
+:ref:`compass-protect-connection-strings`
+  Hide credentials in your |compass-short| connection string.
+
+:ref:`compass-read-only`
+  Prevent users from performing write operations to your MongoDB deployment 
+  through |compass-short|.
+
+:ref:`compass-force-connection-options`
+  Set required connection option values on |compass-short|.
+
+:ref:`compass-enable-dev-tools`
+  Control user access to Chrome DevTools on |compass|.
