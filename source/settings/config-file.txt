@@ -1,9 +1,9 @@
 .. _config-file-options:
 .. _config-file:
 
------------------------------------
-Compass Configuration File Settings
------------------------------------
+---------------------------
+Configuration File Settings
+---------------------------
 
 .. default-domain:: mongodb
 
@@ -13,10 +13,10 @@ Compass Configuration File Settings
    :depth: 1
    :class: singlecol
 
-You can configure |compass| using a configuration file. The configuration file 
-configures settings at startup. Settings configured using the configuration file 
-cannot be modified on the |compass-short| interface. For more detailed guidance 
-on how to configure a setting, see the task page for the specific setting.
+You can use a configuration file to customize |compass| settings at startup. 
+You cannot override any settings that have been set with a configuration file on 
+the |compass-short| interface. For more detailed guidance on how to configure a 
+setting, see the task page for the specific setting.
 
 Configuration File Location
 ---------------------------
@@ -55,8 +55,6 @@ YAML
 
 Settings
 --------
-
-You can configure the following settings in a configuration file:
 
 .. list-table::
    :header-rows: 1
@@ -97,7 +95,7 @@ You can configure the following settings in a configuration file:
      - Specify an upper time limit for all |compass-short| database operations.
 
    * - :ref:`networkTraffic <compass-configure-network-traffic>`
-     - Configure |compass| to not perform outgoing network operations other 
+     - Prevent |compass| from performing outgoing network operations other 
        than those to the database.
    
    * - :ref:`protectConnectionStrings <compass-protect-connection-strings>`
@@ -143,8 +141,8 @@ To view a sample |compass-short| configuration file, run the following command:
 
      <path-to-Compass-executable> --show-example-config
 
-If you do not already have a configuration file, you can create a configuration 
-file that uses the sample configuration settings:
+If you do not already have a configuration file, run the following command to 
+create a configuration file that uses the sample configuration settings:
 
 .. code-block:: sh 
 

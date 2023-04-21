@@ -1,9 +1,9 @@
 .. program:: compass
 .. _cli-options:
 
-----------------------------
-Compass Command Line Options
-----------------------------
+--------------------
+Command Line Options
+--------------------
 
 .. default-domain:: mongodb
 
