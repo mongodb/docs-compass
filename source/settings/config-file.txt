@@ -69,11 +69,15 @@ Settings
    * - :ref:`enableDevtools <compass-enable-dev-tools>`
      - Enable Chrome DevTools in |compass-short|.
 
+       To learn more, see :ref:`compass-enable-dev-tools`.
+
    * - enableMaps
      - Allow |compass-short| to make requests to third-party mapping services.
 
    * - :ref:`enableShell <disable-shell>`
      - Enable or disable the embedded MongoDB Shell on |compass-short|.
+
+       To learn more, see :ref:`disable-shell`.
 
    * - :ref:`forceConnectionOptions <compass-force-connection-options>`
      - .. include:: /includes/fact-force-connection-options.rst
@@ -105,9 +109,13 @@ Settings
      - Prevent users from performing write operations to your MongoDB deployment 
        through |compass-short|.
 
+       To learn more, see :ref:`compass-read-only`.
+
    * - :ref:`showKerberosPasswordField <compass-kerberos-password>`
      - Show or hide the Kerberos password field on the |compass-short| 
        connection form.
+
+       To learn more, see :ref:`compass-kerberos-password`.
     
    * - theme
      - Specify the |compass| UI theme. The supported themes are ``DARK``,
