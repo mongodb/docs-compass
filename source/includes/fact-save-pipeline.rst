@@ -12,6 +12,6 @@ To save your pipeline:
 
       Click on ``Save pipeline as...``.
 
-   .. step:: Enter a name for your pipeline
+   .. step:: Enter a name for your pipeline.
 
-   .. step:: Click :guilabel:`Save`
+   .. step:: Click :guilabel:`Save`. 

@@ -3,8 +3,7 @@
 
    .. step:: Open query history.
 
-      Click the :guilabel:`History` button at the top of the pipeline 
-      builder.
+      Click the :guilabel:`History` button on the query bar. 
 
    .. step:: Select :guilabel:`Favorites`.
 
