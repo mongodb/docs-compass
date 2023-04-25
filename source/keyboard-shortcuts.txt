@@ -1,6 +1,6 @@
-==================================
-MongoDB Compass Keyboard Shortcuts
-==================================
+==================
+Keyboard Shortcuts
+==================
 
 .. default-domain:: mongodb
 
@@ -31,5 +31,153 @@ Compass.
      - `Shift + Tab`
 
    * - Menu
-     - Navigate to next tab
-     - `Tab`
+     - Quit application.
+     - `CmdOrCtrl + Q`
+
+   * - Menu
+     - Show settings.
+     - `CmdOrCtrl + ,`
+
+   * - Menu
+     - Hide window.
+     - `Command + H`
+
+   * - Menu
+     - Hide other windows.
+     - `Command + Shift + H`
+
+   * - Menu
+     - New connection.
+     - `CmdOrCtrl + N`
+
+   * - Menu
+     - Undo.
+     - `Command + Z`
+
+   * - Menu
+     - Redo.
+     - `Shift + Command + Z`
+
+   * - Menu
+     - Cut.
+     - `Command + X`
+
+   * - Menu
+     - Copy.
+     - `Command + C`
+
+   * - Menu
+     - Paste.
+     - `Command + V`
+
+   * - Menu
+     - Select all.
+     - `Command + A`
+
+   * - Menu
+     - Find.
+     - `CmdOrCtrl + F`
+
+   * - Menu
+     - Online help.
+     - `F1`
+
+   * - Menu
+     - Share schema as JSON.
+     - `Alt + CmdOrCtrl + S`
+
+   * - Menu
+     - Reload screen.
+     - `CmdOrCtrl + Shift + R`
+
+   * - Menu
+     - Reload data.
+     - `CmdOrCtrl + R`
+
+   * - Menu
+     - Toggle sidebar.
+     - `CmdOrCtrl + Shift + D`
+
+   * - Menu
+     - Actual size.
+     - `CmdOrCtrl + 0`
+
+   * - Menu
+     - Zoom in.
+     - `CmdOrCtrl + =`
+
+   * - Menu
+     - Zoom out.
+     - `CmdOrCtrl + -`
+
+   * - Menu
+     - Toggle DevTools.
+     - `Alt + CmdOrCtrl + I`
+
+   * - Menu
+     - Minimize.
+     - `Command + M`
+
+   * - Workspace
+     - Navigate to next tab.
+     - `CmdOrCtrl + Shift + ]`
+
+   * - Workspace
+     - Navigate to previous tab.
+     - `CmdOrCtrl + Shift + [`
+
+   * - Workspace
+     - Close current tab.
+     - `CmdOrCtrl + W`
+
+   * - Workspace
+     - Open new tab.
+     - `CmdOrCtrl + T`
+
+   * - Workspace
+     - Toggle shell.
+     - `CmdOrCtrl + ```
+
+   * - Aggregation Focus Mode
+     - Add a new stage after current one.
+     - `CmdOrCtrl + Shift + B`
+
+   * - Aggregation Focus Mode
+     - Add a new stage before current one.
+     - `CmdOrCtrl + Q`
+
+   * - Aggregation Focus Mode
+     - Navigate to next stage.
+     - `CmdOrCtrl + Shift + 9`
+
+   * - Aggregation Focus Mode
+     - Navigate to previous stage.
+     - `CmdOrCtrl + Shift + 0`
+
+   * - Editors
+     - Copy Paste Cut.
+     - `CmdOrCtrl + C CmdOrCtrl + P CmdOrCtrl + V`
+
+   * - Editors
+     - Comment out code.
+     - `CmdOrCtrl + /`
+
+   * - Editors
+     - Prettify code.
+     - `Ctrl + Shift + B`
+
+   * - Editors
+     - Copy all.
+     - `Ctrl + Shift + C`
+
+   * - Editors
+     - Undo.
+     - `CmdOrCtrl + Z`
+
+   * - Editors
+     - Redo.
+     - `CmdOrCtrl + Shift + Z`
+
+   * - Query bar
+     - Submit query.
+     - `Enter (from the query bar)`
