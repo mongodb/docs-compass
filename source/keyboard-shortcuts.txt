@@ -1,0 +1,35 @@
+==================================
+MongoDB Compass Keyboard Shortcuts
+==================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+The following sections outline keyboard shortcuts for navigating MongoDB
+Compass.
+
+
+.. list-table::
+   :widths: 20 50 30
+   :header-rows: 1
+
+   * - Category
+     - Description
+     - Command
+   
+   * - General
+     - Navigate to next tab.
+     - `Tab`
+
+   * - General
+     - Navigate to previous tab.
+     - `Shift + Tab`
+
+   * - Menu
+     - Navigate to next tab
+     - `Tab`
