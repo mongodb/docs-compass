@@ -13,8 +13,7 @@ Command Line Options
    :depth: 1
    :class: singlecol
 
-The following page provides an overview on how to set command line options for 
-|compass|. 
+You can customize |compass| using command line options.
 
 Definition
 ----------

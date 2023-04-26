@@ -3,22 +3,24 @@ operating system.
 
 .. list-table::
    :header-rows: 1
-   :widths: 30 70
+   :widths: 20 30 50
 
    * - Operating System
+     - Executable Name
      - Location
 
    * - Linux
-     - The executable is called ``mongodb-compass``. The installer installs it 
-       in the ``/usr/bin`` directory. 
+     - ``mongodb-compass`` 
+     - The installer installs it in the ``/usr/bin`` directory. 
 
    * - Windows 
-     - The executable is called ``MongoDBCompass.exe``. The installer installs 
-       it in a folder you pick during the installation process.
+     - ``MongoDBCompass.exe`` 
+     - The installer installs it in a folder you pick during the installation 
+       process.
        
    * - MacOS
-     - The executable is called ``MongoDB Compass``. The installer installs 
-       it under the Applications folder: 
+     - ``MongoDB Compass`` 
+     - The installer installs it under the Applications folder: 
       
        .. code-block:: shell
          
