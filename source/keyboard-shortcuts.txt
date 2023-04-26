@@ -62,38 +62,38 @@ These keys vary based on your operating system,
 
    * - Menu
      - Undo.
-     - ``Cmd + Z``
-     - ``Cmd + Z``
+     - ``Ctrl`` + ``Z``
+     - ``Cmd`` + ``Z``
 
    * - Menu
      - Redo.
-     - ``Shift + Cmd + Z``
-     - ``Shift + Cmd + Z``
+     - ``Shift`` + ``Cmd`` + ``Z``
+     - ``Shift`` + ``Cmd`` + ``Z``
 
    * - Menu
      - Cut.
-     - ``Cmd + X``
-     - ``Cmd + X``
+     - ``Ctrl`` + ``X``
+     - ``Cmd`` + ``X``
 
    * - Menu
      - Copy.
-     - ``Cmd + C``
-     - ``Cmd + C``
+     - ``Ctrl`` + C``
+     - ``Cmd`` + C``
 
    * - Menu
      - Paste.
-     - ``Cmd + V``
+     - ``Ctrl + V``
      - ``Cmd + V``
 
    * - Menu
      - Select all.
-     - ``Cmd + A``
-     - ``Cmd + A``
+     - ``Ctrl`` + ``A``
+     - ``Cmd`` + ``A``
 
    * - Menu
      - Find.
-     - ``CmdOrCtrl + F``
-     - ``CmdOrCtrl + F``
+     - ``Ctrl`` + ``F``
+     - ``Cmd`` + ``F``
 
    * - Menu
      - Online help.
@@ -102,8 +102,8 @@ These keys vary based on your operating system,
 
    * - Menu
      - Share schema as JSON.
-     - ``Alt + ``Ctrl`` + ``S``
-     - ``Alt + ``Cmd`` + ``S``
+     - ``Alt`` + ``Ctrl`` + ``S``
+     - ``Alt`` + ``Cmd`` + ``S``
 
    * - Menu
      - Reload screen.
@@ -232,8 +232,8 @@ These keys vary based on your operating system,
 
    * - Web Shell
      - Toggle shell.
-     - `Ctrl + `````
-     - `Ctrl + `````
+     - ``Ctrl`` + `````
+     - ``Ctrl``+ `````
 
    * - Web Shell
      - Deletes the next character.
@@ -279,5 +279,3 @@ These keys vary based on your operating system,
      - Cycle forwards through Cmd history.
      - ``↓``
      - ``↓``
-
-
