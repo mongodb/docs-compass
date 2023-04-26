@@ -10,9 +10,8 @@ Keyboard Shortcuts
    :depth: 1
    :class: singlecol
 
-The following sections outline keyboard shortcuts for navigating MongoDB
+The following table outlines keyboard shortcuts for navigating MongoDB
 Compass.
-
 
 .. list-table::
    :widths: 20 50 30
@@ -134,10 +133,6 @@ Compass.
      - Open new tab.
      - `CmdOrCtrl + T`
 
-   * - Workspace
-     - Toggle shell.
-     - `CmdOrCtrl + ```
-
    * - Aggregation Focus Mode
      - Add a new stage after current one.
      - `CmdOrCtrl + Shift + B`
@@ -155,8 +150,16 @@ Compass.
      - `CmdOrCtrl + Shift + 0`
 
    * - Editors
-     - Copy Paste Cut.
-     - `CmdOrCtrl + C CmdOrCtrl + P CmdOrCtrl + V`
+     - Copy.
+     - `CmdOrCtrl + C`
+
+   * - Editors
+     - Paste.
+     - `CmdOrCtrl + P`
+
+   * - Editors
+     - Cut.
+     - `CmdOrCtrl + V`
 
    * - Editors
      - Comment out code.
@@ -181,3 +184,49 @@ Compass.
    * - Query bar
      - Submit query.
      - `Enter (from the query bar)`
+
+   * - Web Shell
+     - Toggle shell.
+     - `Ctrl + `````
+
+   * - Web Shell
+     - Submit query.
+     - `Enter (from the query bar)`
+
+   * - Web Shell
+     - Deletes the next character.
+     - `Ctrl` + `D`
+
+   * - Web Shell
+     - Moves the cursor to the end of the line.
+     - `Ctrl` + `E`
+
+   * - Web Shell
+     - Moves the cursor Forward one character.
+     - `Ctrl` + `F`
+
+   * - Web Shell
+     - Erases one character, similar to hitting backspace.
+     - `Ctrl` + `H`
+
+   * - Web Shell
+     - Clears the screen, similar to the clear command.
+     - `⌘` + `L`
+
+   * - Web Shell
+     - Swap the last two characters before the cursor.
+     - `Ctrl` + `T`
+
+   * - Web Shell
+     - Changes the line to Uppercase.
+     - `Ctrl` + `U`
+
+   * - Web Shell
+     - Cycle backwards through command history.
+     - `↑`
+
+   * - Web Shell
+     - Cycle forwards through command history.
+     - `↓`
+
+
