@@ -13,245 +13,212 @@ Keyboard Shortcuts
 The following table outlines keyboard shortcuts for navigating MongoDB
 Compass.
 
-``CmdOrCtrl`` refers to the ``Cmd`` key on mac and the ``Ctrl`` key on windows.
-These keys vary based on your operating system, 
-
 .. list-table::
    :widths: 20 30 25 25
    :header-rows: 1
 
    * - Category
      - Description
-     - Windows Cmd
-     - Mac Cmd
+     - Windows
+     - Mac
 
    * - Menu
-     - Online help.
+     - Online help
      - ``F1``
      - ``F1``
 
    * - General
-     - Navigate to next tab.
+     - Navigate to next tab
      - ``Tab``
      - ``Tab``
 
    * - General
-     - Navigate to previous tab.
+     - Navigate to previous tab
      - ``Shift`` + ``Tab``
      - ``Shift`` + ``Tab``
 
    * - Menu
-     - Quit application.
+     - Quit application
      - ``Ctrl`` + ``Q``
      - ``Cmd`` + ``Q``
 
    * - Menu
-     - Show settings.
+     - Show settings
      - ``Ctrl`` + ``,``
      - ``Cmd`` + ``,``
 
    * - Menu
-     - Hide window.
+     - Hide window
      - ``Ctrl`` + ``H``
      - ``Cmd`` + ``H``
 
    * - Menu
-     - Hide other windows.
+     - Hide other windows
      - ``Ctrl`` + ``Shift`` + ``H``
      - ``Cmd`` + ``Shift`` + ``H``
 
    * - Menu
-     - New connection.
-     - ``CmdOrCtrl + N``
-     - ``CmdOrCtrl + N``
+     - Opens a new Compass window
+     - ``Ctrl`` + N``
+     - ``Cmd`` + N``
 
-   * - Menu
-     - Undo.
+   * - General
+     - Undo
      - ``Ctrl`` + ``Z``
      - ``Cmd`` + ``Z``
 
-   * - Menu
-     - Redo.
+   * - General
+     - Redo
      - ``Shift`` + ``Cmd`` + ``Z``
      - ``Shift`` + ``Cmd`` + ``Z``
 
-   * - Menu
-     - Cut.
+   * - General
+     - Cut
      - ``Ctrl`` + ``X``
      - ``Cmd`` + ``X``
 
-   * - Menu
-     - Copy.
+   * - General
+     - Copy
      - ``Ctrl`` + ``C``
      - ``Cmd`` + ``C``
 
-   * - Menu
-     - Paste.
+   * - General
+     - Paste
      - ``Ctrl + V``
      - ``Cmd + V``
 
-   * - Menu
-     - Select all.
+   * - General
+     - Select all
      - ``Ctrl`` + ``A``
      - ``Cmd`` + ``A``
 
-   * - Menu
-     - Find.
+   * - General
+     - Find
      - ``Ctrl`` + ``F``
      - ``Cmd`` + ``F``
 
    * - Menu
-     - Share schema as JSON.
+     - Share schema as JSON
      - ``Alt`` + ``Ctrl`` + ``S``
      - ``Alt`` + ``Cmd`` + ``S``
 
    * - Menu
-     - Reload screen.
+     - Reload screen
      - ``Ctrl`` + ``Shift`` + ``R``
      - ``Cmd`` + ``Shift`` + ``R``
 
    * - Menu
-     - Reload data.
+     - Reload data
      - ``Ctrl`` + ``R``
      - ``Cmd`` + ``R``
 
    * - Menu
-     - Toggle sidebar.
+     - Toggle sidebar
      - ``Ctrl`` + ``Shift`` + ``D``
      - ``Cmd`` + ``Shift`` + ``D``
 
    * - Menu
-     - Actual size.
+     - Actual size
      - ``Ctrl`` + ``0``
      - ``Cmd`` + ``0``
 
    * - Menu
-     - Zoom in.
+     - Zoom in
      - ``Ctrl`` + ``=``
      - ``Cmd`` + ``=``
 
    * - Menu
-     - Zoom out.
+     - Zoom out
      - ``Ctrl`` + ``-``
      - ``Cmd`` + ``-``
 
    * - Menu
-     - Toggle DevTools.
+     - Toggle DevTools
      - ``Alt`` + ``Ctrl`` + ``I``
      - ``Alt`` + ``Cmd`` + ``I``
 
    * - Menu
-     - Minimize.
+     - Minimize
      - ``Ctrl`` + ``M``
      - ``Cmd`` + ``M``
 
    * - Workspace
-     - Navigate to next tab.
+     - Navigate to next tab
      - ``Ctrl`` + ``Shift`` + ``]``
      - ``Cmd`` + ``Shift`` + ``]``
 
    * - Workspace
-     - Navigate to previous tab.
+     - Navigate to previous tab
      - ``Ctrl`` + ``Shift`` + ``[``
      - ``Cmd`` + ``Shift`` + ``[``
 
    * - Workspace
-     - Close current tab.
+     - Close current tab
      - ``Ctrl`` + ``W``
      - ``Cmd`` + ``W``
 
    * - Workspace
-     - Open new tab.
+     - Open new tab
      - ``Ctrl`` + ``T``
      - ``Cmd`` + ``T``
 
    * - Aggregation Focus Mode
-     - Add a new stage after current one.
+     - Add a new stage after current one
      - ``Ctrl`` + ``Shift`` + ``B``
      - ``Cmd`` + ``Shift`` + ``B``
 
    * - Aggregation Focus Mode
-     - Add a new stage before current one.
+     - Add a new stage before current one
      - ``Ctrl`` + ``Q``
      - ``Cmd`` + ``Q``
 
    * - Aggregation Focus Mode
-     - Navigate to next stage.
+     - Navigate to next stage
      - ``Ctrl`` + ``Shift`` + ``9``
      - ``Cmd`` + ``Shift`` + ``9``
 
    * - Aggregation Focus Mode
-     - Navigate to previous stage.
+     - Navigate to previous stage
      - ``Ctrl`` + ``Shift`` + ``0``
      - ``Cmd`` + ``Shift`` + ``0``
 
    * - Editors
-     - Copy.
-     - ``Ctrl`` + ``C``
-     - ``Cmd`` + ``C``
-
-   * - Editors
-     - Paste.
-     - ``Ctrl`` + ``P``
-     - ``Cmd`` + ``P``
-
-   * - Editors
-     - Cut.
-     - ``Ctrl`` + ``V``
-     - ``Cmd`` + ``V``
-
-   * - Editors
-     - Comment out code.
+     - Comment out code
      - ``Ctrl`` + ``/``
      - ``Cmd`` + ``/``
 
    * - Editors
-     - Prettify code.
+     - Prettify code
      - ``Ctrl`` + ``Shift`` + ``B``
      - ``Cmd`` + ``Shift`` + ``B``
 
-   * - Editors
-     - Copy all.
-     - ``Ctrl`` + ``Shift`` + ``C``
-     - ``Cmd`` + ``Shift`` + ``C``
-
-   * - Editors
-     - Undo.
-     - ``Ctrl`` + ``Z``
-     - ``Cmd`` + ``Z``
-
-   * - Editors
-     - Redo.
-     - ``Ctrl`` + ``Shift`` + ``Z``
-     - ``Cmd`` + ``Shift`` + ``Z``
-
    * - Query bar
-     - Submit query.
+     - Submit query
      - ``Enter (from the query bar)``
      - ``Enter (from the query bar)``
 
    * - Web Shell
-     - Toggle shell.
+     - Toggle shell
      - ``Ctrl`` + `````
      - ``Ctrl`` + `````
 
    * - Web Shell
-     - Deletes the next character.
+     - Deletes the next character
      - ``Ctrl`` + ``D``
      - ``Cmd`` + ``D``
 
    * - Web Shell
-     - Moves the cursor to the end of the line.
+     - Moves the cursor to the end of the line
      - ``Ctrl`` + ``E``
      - ``Cmd`` + ``E``
 
    * - Web Shell
-     - Moves the cursor forward one character.
+     - Moves the cursor forward one character
      - ``Ctrl`` + ``F``
      - ``Cmd`` + ``F``
 
    * - Web Shell
-     - Erases one character, similar to hitting backspace.
+     - Erases one character, similar to hitting backspace
      - ``Ctrl`` + ``H``
      - ``Cmd`` + ``H``
 
