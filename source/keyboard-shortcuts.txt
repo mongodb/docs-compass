@@ -37,31 +37,6 @@ Compass.
      - ``Shift`` + ``Tab``
      - ``Shift`` + ``Tab``
 
-   * - Menu
-     - Quit application
-     - ``Ctrl`` + ``Q``
-     - ``Cmd`` + ``Q``
-
-   * - Menu
-     - Show settings
-     - ``Ctrl`` + ``,``
-     - ``Cmd`` + ``,``
-
-   * - Menu
-     - Hide window
-     - ``Ctrl`` + ``H``
-     - ``Cmd`` + ``H``
-
-   * - Menu
-     - Hide other windows
-     - ``Ctrl`` + ``Shift`` + ``H``
-     - ``Cmd`` + ``Shift`` + ``H``
-
-   * - Menu
-     - Opens a new Compass window
-     - ``Ctrl`` + N``
-     - ``Cmd`` + N``
-
    * - General
      - Undo
      - ``Ctrl`` + ``Z``
@@ -96,6 +71,31 @@ Compass.
      - Find
      - ``Ctrl`` + ``F``
      - ``Cmd`` + ``F``
+
+   * - Menu
+     - Quit application
+     - ``Ctrl`` + ``Q``
+     - ``Cmd`` + ``Q``
+
+   * - Menu
+     - Show settings
+     - ``Ctrl`` + ``,``
+     - ``Cmd`` + ``,``
+
+   * - Menu
+     - Hide window
+     - ``Ctrl`` + ``H``
+     - ``Cmd`` + ``H``
+
+   * - Menu
+     - Hide other windows
+     - ``Ctrl`` + ``Shift`` + ``H``
+     - ``Cmd`` + ``Shift`` + ``H``
+
+   * - Menu
+     - Opens a new Compass window
+     - ``Ctrl`` + N``
+     - ``Cmd`` + N``
 
    * - Menu
      - Share schema as JSON
