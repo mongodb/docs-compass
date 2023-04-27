@@ -12,4 +12,4 @@
 
    .. step:: Click the :guilabel:`Favorites` button in the past queries pane.
 
-      Select favorite queries. 
+      Select favorite queries.
