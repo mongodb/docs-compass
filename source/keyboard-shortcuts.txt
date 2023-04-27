@@ -104,8 +104,8 @@ Compass.
 
    * - General
      - Redo
-     - ``Shift`` + ``Cmd`` + ``Z``
-     - ``Shift`` + ``Cmd`` + ``Z``
+     - ``Ctrl`` + ``Z``
+     - ``Cmd`` + ``Z``
 
    * - General
      - Cut
@@ -182,12 +182,12 @@ Compass.
      - ``Ctrl`` + ``Shift`` + ``0``
      - ``Cmd`` + ``Shift`` + ``0``
 
-   * - Editors
+   * - Pipeline text  editor
      - Comment out code
      - ``Ctrl`` + ``/``
      - ``Cmd`` + ``/``
 
-   * - Editors
+   * - Pipeline text editor
      - Prettify code
      - ``Ctrl`` + ``Shift`` + ``B``
      - ``Cmd`` + ``Shift`` + ``B``
