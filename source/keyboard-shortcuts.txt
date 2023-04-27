@@ -27,51 +27,6 @@ Compass.
      - ``F1``
      - ``F1``
 
-   * - General
-     - Undo
-     - ``Ctrl`` + ``Z``
-     - ``Cmd`` + ``Z``
-
-   * - General
-     - Redo
-     - ``Shift`` + ``Cmd`` + ``Z``
-     - ``Shift`` + ``Cmd`` + ``Z``
-
-   * - General
-     - Cut
-     - ``Ctrl`` + ``X``
-     - ``Cmd`` + ``X``
-
-   * - General
-     - Copy
-     - ``Ctrl`` + ``C``
-     - ``Cmd`` + ``C``
-
-   * - General
-     - Paste
-     - ``Ctrl + V``
-     - ``Cmd + V``
-
-   * - General
-     - Select all
-     - ``Ctrl`` + ``A``
-     - ``Cmd`` + ``A``
-
-   * - General
-     - Find
-     - ``Ctrl`` + ``F``
-     - ``Cmd`` + ``F``
-
-   * - General
-     - Navigate to next tab
-     - ``Tab``
-     - ``Tab``
-
-   * - General
-     - Navigate to previous tab
-     - ``Shift`` + ``Tab``
-     - ``Shift`` + ``Tab``
-
    * - Menu
      - Quit application
      - ``Ctrl`` + ``Q``
@@ -141,6 +96,51 @@ Compass.
      - Minimize
      - ``Ctrl`` + ``M``
      - ``Cmd`` + ``M``
+
+   * - General
+     - Undo
+     - ``Ctrl`` + ``Z``
+     - ``Cmd`` + ``Z``
+
+   * - General
+     - Redo
+     - ``Shift`` + ``Cmd`` + ``Z``
+     - ``Shift`` + ``Cmd`` + ``Z``
+
+   * - General
+     - Cut
+     - ``Ctrl`` + ``X``
+     - ``Cmd`` + ``X``
+
+   * - General
+     - Copy
+     - ``Ctrl`` + ``C``
+     - ``Cmd`` + ``C``
+
+   * - General
+     - Paste
+     - ``Ctrl + V``
+     - ``Cmd + V``
+
+   * - General
+     - Select all
+     - ``Ctrl`` + ``A``
+     - ``Cmd`` + ``A``
+
+   * - General
+     - Find
+     - ``Ctrl`` + ``F``
+     - ``Cmd`` + ``F``
+
+   * - General
+     - Navigate to next tab
+     - ``Tab``
+     - ``Tab``
+
+   * - General
+     - Navigate to previous tab
+     - ``Shift`` + ``Tab``
+     - ``Shift`` + ``Tab``
 
    * - Workspace
      - Navigate to next tab
