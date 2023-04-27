@@ -1,7 +1,7 @@
 .. procedure::
    :style: normal
 
-   .. step:: Open your query history.
+   .. step:: Open query history
 
       Click the :guilabel:`History` button at the top of the 
       :guilabel:`Documents` tab.
