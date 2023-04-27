@@ -238,11 +238,11 @@ Compass.
      - ``Cmd`` + ``U``
 
    * - Web Shell
-     - Cycle backwards through command history.
+     - Cycle backwards through command history
      - ``↑``
      - ``↑``
 
    * - Web Shell
-     - Cycle forwards through command history.
+     - Cycle forwards through command history
      - ``↓``
      - ``↓``
