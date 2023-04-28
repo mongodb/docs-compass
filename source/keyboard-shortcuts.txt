@@ -10,8 +10,7 @@ Keyboard Shortcuts
    :depth: 1
    :class: singlecol
 
-The following table outlines keyboard shortcuts for navigating MongoDB
-Compass.
+Keyboard shortcuts enable you to easily navigate |compass-short|.
 
 .. list-table::
    :widths: 20 30 25 25
