@@ -47,7 +47,7 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - ``Cmd`` + ``Shift`` + ``H``
 
    * - Menu
-     - Opens a new Compass window
+     - Open a new Compass window
      - ``Ctrl`` + ``N``
      - ``Cmd`` + ``N``
 
@@ -130,16 +130,6 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - Find
      - ``Ctrl`` + ``F``
      - ``Cmd`` + ``F``
-
-   * - General
-     - Navigate to next tab
-     - ``Tab``
-     - ``Tab``
-
-   * - General
-     - Navigate to previous tab
-     - ``Shift`` + ``Tab``
-     - ``Shift`` + ``Tab``
 
    * - Workspace
      - Navigate to next tab
