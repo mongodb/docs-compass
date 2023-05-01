@@ -17,8 +17,6 @@ You can use a configuration file to customize |compass| settings at startup.
 You cannot override any settings that have been set with a configuration file on 
 the |compass-short| interface.
 
-To learn more about configuration file behavior, see :ref:`config-file-behavior`.
-
 Configuration File Location
 ---------------------------
 
