@@ -163,6 +163,7 @@ value in the :guilabel:`Settings` panel.
      - Enable sending usage statistics. Use ``--no-trackUsageStatistics``
        to disable sending usage statistics.
 
+.. include:: /includes/fact-configuration-options-executable.rst
 
 Learn More
 ----------

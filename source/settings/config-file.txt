@@ -17,6 +17,8 @@ You can use a configuration file to customize |compass| settings at startup.
 You cannot override any settings that have been set with a configuration file on 
 the |compass-short| interface.
 
+To learn more about configuration file behavior, see :ref:`config-file-behavior`.
+
 Configuration File Location
 ---------------------------
 
@@ -123,21 +125,7 @@ Settings
    * - trackUsageStatistics
      - Allow |compass-short| to send anonymous usage statistics.
 
-Behavior
---------
-
-When you configure settings with a configuration file:
-
-- You can not modify settings set in the configuration file after startup.
-
-- You can specify the configuration file in either EJSON or YAML format.
-
-- To view all available |compass-short| configuration options, run the following
-  command in the folder containing your |compass| executable:
-  
-  .. code-block:: sh
-
-     <path-to-Compass-executable> --help
+.. include:: /includes/fact-configuration-options-executable.rst
 
 Example 
 -------
