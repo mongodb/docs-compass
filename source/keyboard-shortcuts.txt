@@ -158,8 +158,8 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
 
    * - Aggregation Focus Mode
      - Add a new stage before current one
-     - ``Ctrl`` + ``Q``
-     - ``Cmd`` + ``Q``
+     - ``Ctrl`` + ``Shift`` + ``A``
+     - ``Cmd`` + ``Shift`` + ``A``
 
    * - Aggregation Focus Mode
      - Navigate to next stage
