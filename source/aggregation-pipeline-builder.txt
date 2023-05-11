@@ -188,6 +188,7 @@ your chosen view mode:
             :guilabel:`{} Stages` toggle switch is selected.
 
             .. figure:: /images/compass/agg-builder-stageview-toggle-on.png
+               :figwidth: 300 px
                :alt: Toggle on stage view mode 
 
          .. step:: Open the :guilabel:`Stage Wizard` card. 
@@ -196,6 +197,7 @@ your chosen view mode:
             the :guilabel:`Stage Wizard` card.
 
             .. figure:: /images/compass/agg-builder-stage-wizard.png
+               :figwidth: 300 px
                :alt: Click the icon to the right of the view mode toggle.
 
          .. step:: Select an aggregation pipeline stage use case.
