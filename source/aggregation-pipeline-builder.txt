@@ -195,6 +195,9 @@ your chosen view mode:
             To the right of the view mode toggle, click the funnel icon to open 
             the :guilabel:`Stage Wizard` card.
 
+            .. figure:: /images/compass/agg-builder-stage-wizard.png
+               :alt: Click the icon to the right of the view mode toggle.
+
          .. step:: Select an aggregation pipeline stage use case.
 
             On the :guilabel:`Stage Wizard` card, select the aggregation 
