@@ -26,6 +26,8 @@ Select your operating system:
 
          |compass-short| supports x64 and ARM64 architectures.
 
+         - Apple M1 Silicon is a supported ARM64 architecture and has a separate binary in the download center.
+
      - id: windows
        content: |
 
