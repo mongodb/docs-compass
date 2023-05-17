@@ -14,24 +14,18 @@ content: |
   :doc:`Collections </collections>` tab or click the collection in the
   left-hand pane.
 ---
-title: "Specify a filter in the Query Bar"
+title: Specify a filter in the :guilabel:`query bar`.
 level: 4
 ref: export-specify-filter
 content: |
   Specify a :ref:`filter <query-bar-filter>` in the 
   :ref:`query bar <compass-query-bar>` to export only the documents 
   which match the filter.
-
 ---
 title: Click the :guilabel:`Export Data` dropdown and select :guilabel:`Export query results`.
 level: 4
 ref: export-collection
 content: |
-
-  .. figure:: /images/compass/export-data-option-select.png
-     :figwidth: 450px
-     :alt: Export data select menu
-     
   The top section of the export dialog displays the query
   entered in the query bar. 
 ---

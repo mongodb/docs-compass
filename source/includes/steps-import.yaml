@@ -18,12 +18,6 @@ title: Click the :guilabel:`Add Data` dropdown and select
        :guilabel:`Import JSON or CSV file`.
 level: 4
 ref: import-data
-content: |
-
-  .. figure:: /images/compass/add-data-button.png
-     :figwidth: 450px
-     :alt: Add data button
-
 ---
 title: Select the appropriate file type.
 level: 4

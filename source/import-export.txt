@@ -119,10 +119,6 @@ A progress bar displays the status of the import. If an error occurs
 during import, the progress bar turns red and an error message
 appears in the dialog. You can click :guilabel:`View Log` to see all errors. 
 
-.. figure:: /images/compass/import-log-file.png
-   :figwidth: 450px
-   :alt: Import Log File
-
 After successful import, the dialog closes and
 Compass displays the collection page containing the newly imported
 documents.
