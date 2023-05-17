@@ -120,7 +120,7 @@ during import, the progress bar turns red and an error message
 appears in the dialog. You can click :guilabel:`View Log` to see all errors. 
 
 .. figure:: /images/compass/import-log-file.png
-   :figwidth: 650px
+   :figwidth: 450px
    :alt: Import Log File
 
 After successful import, the dialog closes and
@@ -196,17 +196,38 @@ Procedure
 
          .. step:: Click :guilabel:`Export`.
 
-         .. step:: Choose the appropriate file type.
+         .. step:: Select the appropriate file type.
 
-            Under :guilabel:`Select Export File Type`, select either 
-            :guilabel:`JSON` or :guilabel:`CSV`. If you select :guilabel:`JSON`,
-            your data is exported to the target file as an array of JSON objects.
+            Under :guilabel:`Export File Type`, select either :guilabel:`JSON` 
+            or :guilabel:`CSV`. If you select :guilabel:`JSON`, you can expand 
+            the :guilabel:`Advanced JSON Format` dropdown and select from the 
+            following extended JSON formats`:`
 
-            Then, under :guilabel:`Output`, choose where to export the file to.
+            .. list-table::
+               :header-rows: 1
+               :widths: 50, 50
 
-            .. figure:: /images/compass/aggregation-export.png
-               :alt: Export Aggregation Data
-               :width: 70%
+               * - JSON Format
+                 - Description
+
+               * - Default Extended JSON
+                 - A string format that avoids any loss of BSON type information. This 
+                   is the default |compass-short| setting.  
+
+               * - Relaxed Extended JSON
+                 - A string format that emphasizes readability and interoperability at 
+                   the expense of type preservation. That is, conversion from relaxed 
+                   format to BSON can lose type information.
+
+                   .. warning::
+                
+                     This format is not recommended for data integrity. 
+
+               * - Canonical Extended JSON
+                 - A string format that emphasizes type preservation at the expense of 
+                   readability and interoperability. That is, conversion from canonical 
+                   to BSON will generally preserve type information except in certain 
+                   specific cases.
 
          .. step:: Click :guilabel:`Export`. 
 

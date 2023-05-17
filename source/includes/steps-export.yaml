@@ -20,7 +20,7 @@ ref: export-collection
 content: |
   
   .. figure:: /images/compass/export-data-option-select.png
-     :figwidth: 650px
+     :figwidth: 450px
      :alt: Export data select menu
 ---
 title: Select your file type.
@@ -30,8 +30,8 @@ content: |
 
   You can select either :guilabel:`JSON` or :guilabel:`CSV`. If you select 
   :guilabel:`JSON`, you can expand the :guilabel:`Advanced JSON Format` dropdown 
-  and select from the following extended JSON formats`:`
-
+  and select from the following extended JSON formats: 
+  
   .. list-table::
          :header-rows: 1
          :widths: 50, 50

@@ -25,7 +25,7 @@ content: |
      :alt: Add data button
 
 ---
-title: Select a file.
+title: Select the appropriate file type.
 level: 4
 ref: click-file-location
 content: |
@@ -36,7 +36,7 @@ content: |
   the types of those fields under :guilabel:`Specify Fields and Types`. 
 
   .. figure:: /images/compass/import-csv-options.png
-     :figwidth: 650px
+     :figwidth: 450px
      :alt: Select fields to import from a CSV file
 
   To exclude a field from a CSV file you are importing, uncheck the 
