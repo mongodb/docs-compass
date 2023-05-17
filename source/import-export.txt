@@ -141,11 +141,13 @@ pipeline results.
 Behavior
 ~~~~~~~~
 
-While it is possible to exclude documents by using a query filter,
-it is not possible to re-shape exported documents with a
-:ref:`project <query-bar-project>` document. Even when you specify a
-``project`` option in the query, |compass-short| still exports the
-entire document.
+- Avoid exporting to :guilabel:`CSV` files when possible. :guilabel:`CSV` files 
+  may lose type information and are not suitable for backing up your data.
+
+- You can use a query filter to export only the documents which match the filter.
+
+- You can use the :ref:`Project <query-bar-project>` field in the query bar to 
+  specify which fields to return or export. 
 
 Procedure
 ~~~~~~~~~

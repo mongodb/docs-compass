@@ -21,7 +21,7 @@ ref: import-data
 content: |
 
   .. figure:: /images/compass/add-data-button.png
-     :figwidth: 720px
+     :figwidth: 450px
      :alt: Add data button
 
 ---

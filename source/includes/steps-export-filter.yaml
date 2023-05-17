@@ -28,13 +28,12 @@ level: 4
 ref: export-collection
 content: |
 
- .. figure:: /images/compass/export-data-option-select.png
+  .. figure:: /images/compass/export-data-option-select.png
      :figwidth: 450px
      :alt: Export data select menu
      
   The top section of the export dialog displays the query
   entered in the query bar. 
-
 ---
 title: Select document fields to include in your exported file.
 level: 4
@@ -51,7 +50,7 @@ content: |
   button if the field you want to include is not automatically detected.
 
   .. figure:: /images/compass/export-data-dialog-2.png
-     :figwidth: 650px
+     :figwidth: 450px
      :alt: Export data dialog, step 2
 
   .. note::
