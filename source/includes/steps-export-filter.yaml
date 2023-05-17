@@ -96,5 +96,5 @@ level: 4
 ref: click-export
 content: |
 
-  Choose where to export the file and click :guilabel:`Select`
+  Choose where to export the file and click :guilabel:`Select`.
 ...
