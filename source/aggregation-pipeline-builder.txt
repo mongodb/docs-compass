@@ -193,8 +193,8 @@ your chosen view mode:
 
          .. step:: Open the :guilabel:`Stage Wizard` card. 
             
-            To the right of the view mode toggle, click the funnel icon to open 
-            the :guilabel:`Stage Wizard` card.
+            To the right of the view mode toggle, click the :guilabel:`Wizard` 
+            icon to open the :guilabel:`Stage Wizard` card.
 
             .. figure:: /images/compass/agg-builder-stage-wizard.png
                :figwidth: 300 px
@@ -203,7 +203,7 @@ your chosen view mode:
          .. step:: Select an aggregation pipeline stage use case.
 
             On the :guilabel:`Stage Wizard` card, select the stage use case for 
-            the first stage of the pipeline.|compass-short| populates the the 
+            the first stage of the pipeline. |compass-short| populates the the 
             stage card with a form that corresponds with the selected 
             aggregation pipeline stage.
 
@@ -211,7 +211,7 @@ your chosen view mode:
 
             Fill in the form for your selected stage and click 
             :guilabel:`Apply`. After you click :guilabel:`Apply`, the form will 
-            turns into a stage card that you can edit in Stage View Mode, Focus 
+            turn into a stage card that you can edit in Stage View Mode, Focus 
             Mode, or Text View Mode. 
 
             |compass-short| populates the Stage Output with up to ten sample 
