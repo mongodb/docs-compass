@@ -94,6 +94,10 @@ Create an Aggregation Pipeline
 - Stage View Mode, a visual pipeline editor that preloads pipeline syntax based 
   on your selected stages.
 
+- Stage Wizard, a feature of Stage View Mode that provides a set of templates 
+  for simple aggregation stage use cases. The Stage Wizard acts as a starting 
+  point to gradually build complexity into your pipeline.
+
 - Focus Mode, a feature of Stage View Mode where you edit one pipeline stage at 
   a time. Focus Mode helps you manage complex or deeply nested aggregation 
   pipeline stages.
@@ -171,6 +175,70 @@ your chosen view mode:
             :guilabel:`Run`. 
             
             |compass-short| returns your results in the document view. 
+
+   .. tab:: Stage Wizard 
+      :tabid: wizard 
+
+      .. procedure::
+         :style: normal
+         
+         .. step:: Select the :guilabel:`Stages` view.
+            
+            In the aggregation pipeline pane, ensure the 
+            :guilabel:`{} Stages` toggle switch is selected.
+
+            .. figure:: /images/compass/agg-builder-stageview-toggle-on.png
+               :figwidth: 300 px
+               :alt: Toggle on stage view mode 
+
+         .. step:: Open the :guilabel:`Stage Wizard` card. 
+            
+            To the right of the view mode toggle, click the :guilabel:`Wizard` 
+            icon to open the :guilabel:`Stage Wizard` card.
+
+            .. figure:: /images/compass/agg-builder-stage-wizard.png
+               :figwidth: 300 px
+               :alt: Click the icon to the right of the view mode toggle.
+
+         .. step:: Select an aggregation pipeline stage use case.
+
+            On the :guilabel:`Stage Wizard` card, select the stage use case for 
+            the first stage of the pipeline. |compass-short| populates the the 
+            stage card with a form that corresponds with the selected 
+            aggregation pipeline stage.
+
+         .. step:: Fill in your pipeline stage. 
+
+            Fill in the form for your selected stage and click 
+            :guilabel:`Apply`. After you click :guilabel:`Apply`, the form will 
+            turn into a stage card that you can edit in Stage View Mode, Focus 
+            Mode, or Text View Mode. 
+
+            |compass-short| populates the Stage Output with up to ten sample 
+            output documents.
+
+            .. note:: 
+
+               You cannot edit an existing stage through the Stage Wizard. The 
+               Stage Wizard can only add new stages. To edit an existing stage, 
+               use Stage View Mode, Focus Mode, or Text View Mode.
+
+         .. step:: Add additional pipeline stages. 
+
+            To add more aggregation stages to your pipeline, repeat steps 3 
+            and 4 for each additional stage. 
+            
+            .. note:: 
+               
+               By default, the Stage Wizard adds each new stage to the end of 
+               your pipeline. You can change the order of pipeline stages by 
+               dragging the header of each stage card. 
+
+         .. step:: Run the pipeline. 
+
+            At the top-right corner of the pipeline builder, click 
+            :guilabel:`Run`. |compass-short| returns your results in the 
+            document view.
 
    .. tab:: Focus Mode 
       :tabid: focus 
