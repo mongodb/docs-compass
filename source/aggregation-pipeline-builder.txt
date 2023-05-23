@@ -209,15 +209,15 @@ your chosen view mode:
 
             You can use the following aggregation stages in the Stage Wizard:
 
-            - :pipeline:`$sort`
-
-            - :pipeline:`$project`
+            - :pipeline:`$group`
 
             - :pipeline:`$lookup`
 
             - :pipeline:`$match`
-
-            - :pipeline:`$group`
+            
+            - :pipeline:`$project`
+            
+            - :pipeline:`$sort`
 
          .. step:: Fill in your pipeline stage. 
 
