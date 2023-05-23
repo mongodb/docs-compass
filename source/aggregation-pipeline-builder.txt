@@ -219,6 +219,13 @@ your chosen view mode:
             
             - :pipeline:`$sort`
 
+            .. note:: 
+
+               The Stage Wizard provides only simple use cases for each 
+               aggregation stage to help you get started with your aggregation 
+               pipeline. To create more complex pipelines, use Stage View Mode, 
+               Focus Mode, or Text View Mode.
+
          .. step:: Fill in your pipeline stage. 
 
             Fill in the form for your selected stage and click 
