@@ -12,7 +12,7 @@ Aggregation Pipeline Builder
    :depth: 1
    :class: singlecol
 
-*New in version 1.14.0*
+*New in version 1.14.0.*
 
 The Aggregation Pipeline Builder in |compass| lets you create
 :manual:`aggregation pipelines </core/aggregation-pipeline/>` to process
