@@ -207,6 +207,18 @@ your chosen view mode:
             stage card with a form that corresponds with the selected 
             aggregation pipeline stage.
 
+            You can use the following aggregation stages in the Stage Wizard:
+
+            - :pipeline:`$sort`
+
+            - :pipeline:`$project`
+
+            - :pipeline:`$lookup`
+
+            - :pipeline:`$match`
+
+            - :pipeline:`$group`
+
          .. step:: Fill in your pipeline stage. 
 
             Fill in the form for your selected stage and click 
