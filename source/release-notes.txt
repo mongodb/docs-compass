@@ -10,6 +10,37 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.37.0
+----------------
+
+*Released May 25, 2023*
+
+New Features:
+
+- Enable "Modern Dark Mode" by default
+- Surface type warnings (:issue:`COMPASS-6543`)
+- Combine array fields into one in the import CSV preview (:issue:`COMPASS-6766`)
+- Remove export feature flag, use new export, remove old code (:issue:`COMPASS-6582`)
+- Add settings to sidebar menus (:issue:`COMPASS-6796`)
+- Show password only when user focuses on input (:issue:`COMPASS-6161`)
+- Add autocomplete support for $percentile, $median ans $$USER_ROLES (:issue:`COMPASS-6780`) (:issue:`COMPASS-6781`)
+- Toggle state of "Edit connection string" in connection form is now judged also based on the new global preference
+- Update libmongocrypt and driver, re-enable QE tests in 7.0, add test to ensure 6.0 QE data can be read 6601 (:issue:`COMPASS-6602`)
+- Add export aggregation code preview to export modal (:issue:`COMPASS-6725`)
+
+Bug Fixes:
+
+- Differentiate between new Date() and Date() (:issue:`COMPASS-6755`)
+- Fix guessFileType() when JSON fails and CSV lines are huge
+- Flush import progress throttle on import error
+- Feature flag default values (:issue:`COMPASS-6525`)
+- Allow updates on a sharded collection (:issue:`COMPASS-6058`)
+- Detect line breaks, pass it on to papaparse (:issue:`COMPASS-6819`)
+- Update reset on query bar to reset results and emit query-changed (:issue:`COMPASS-6805`)
+
+`Full Changelog avaialble on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.36.3...v1.36.4>`__
+
 |compass| 1.36.4
 ----------------
 
@@ -36,7 +67,7 @@ Bug Fixes:
   in the modal (:issue:`COMPASS-6737`)
 
 `Full Changelog avaialble on GitHub
-<https://github.com/mongodb-js/compass/compare/v1.36.3...v1.36.4>`__
+<https://github.com/mongodb-js/compass/compare/v1.36.4...v1.37.0>`__
 
 |compass| 1.36.3
 ----------------
