@@ -39,7 +39,7 @@ Bug Fixes:
 - Update reset on query bar to reset results and emit query-changed (:issue:`COMPASS-6805`)
 
 `Full Changelog avaialble on GitHub
-<https://github.com/mongodb-js/compass/compare/v1.36.3...v1.36.4>`__
+<https://github.com/mongodb-js/compass/compare/v1.36.4...v1.37.0>`__
 
 |compass| 1.36.4
 ----------------
