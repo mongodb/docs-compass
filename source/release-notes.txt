@@ -17,15 +17,17 @@ Release Notes
 
 New Features:
 
-- Enable "Modern Dark Mode" by default
-- Surface type warnings (:issue:`COMPASS-6543`)
+- Dark mode has been updated with a modern theme. If the modern theme 
+  is enabled in ``Settings>Feature Preview``, Compass defaults to 
+  the modern dark mode theme.
+- When Compass detects a potential error importing a CSV file. The  
+  warning banner now shows the value, type, and issue associated with the error.(:issue:`COMPASS-6543`)
 - Combine array fields into one in the import CSV preview (:issue:`COMPASS-6766`)
-- Remove export feature flag, use new export, remove old code (:issue:`COMPASS-6582`)
 - Add settings to sidebar menus (:issue:`COMPASS-6796`)
 - Show password only when user focuses on input (:issue:`COMPASS-6161`)
 - Add autocomplete support for $percentile, $median ans $$USER_ROLES (:issue:`COMPASS-6780`) (:issue:`COMPASS-6781`)
 - Toggle state of "Edit connection string" in connection form is now judged also based on the new global preference
-- Update libmongocrypt and driver, re-enable QE tests in 7.0, add test to ensure 6.0 QE data can be read 6601 (:issue:`COMPASS-6602`)
+- Update libmongocrypt and driver, re-enable QE tests in 7.0, add test to ensure 6.0 QE data can be read. (:issue:`COMPASS-6602`)
 - Add export aggregation code preview to export modal (:issue:`COMPASS-6725`)
 
 Bug Fixes:
