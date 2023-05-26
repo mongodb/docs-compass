@@ -25,7 +25,7 @@ New Features:
 - Add settings to sidebar menus (:issue:`COMPASS-6796`)
 - Show password only when user focuses on input (:issue:`COMPASS-6161`)
 - Add autocomplete support for $percentile, $median and $$USER_ROLES (:issue:`COMPASS-6780`) (:issue:`COMPASS-6781`)
-- Toggle state of "Edit connection string" in connection form is now judged also based on the new global preference
+- Toggle state of **Edit connection string** is based on the new global preference. This setting controls whether a password is visible when creating a new connection.
 - Compass supports the new Queryable Encryption protocol. Starting
   in v1.37.0, Compass is not compatible with MongoDB server versions
   **earlier than 7.0** when using Queryable Encryption (:issue:`COMPASS-6601`) (:issue:`COMPASS-6602`)
