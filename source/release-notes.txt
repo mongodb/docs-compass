@@ -26,14 +26,12 @@ New Features:
 - Show password only when user focuses on input (:issue:`COMPASS-6161`)
 - Add autocomplete support for $percentile, $median and $$USER_ROLES (:issue:`COMPASS-6780`) (:issue:`COMPASS-6781`)
 - Toggle state of "Edit connection string" in connection form is now judged also based on the new global preference
-- Update libmongocrypt and driver, re-enable QE tests in 7.0, add test to ensure 6.0 QE data can be read (:issue:`COMPASS-6601`) (:issue:`COMPASS-6602`)
-
 - Compass supports the new Queryable Encryption protocol. Starting
   in v1.37.0, Compass is not compatible with MongoDB server versions
-  **earlier than 7.0** when using Queryable Encryption.
-  
+  **earlier than 7.0** when using Queryable Encryption (:issue:`COMPASS-6601`) (:issue:`COMPASS-6602`)
+
   - When using queryable encryption on pre-7.0 servers, you can decrypt
-    encrypted data, but you cannot insert or query data. 
+    encrypted data, but you cannot insert or query data 
 
 - Add export aggregation code preview to export modal (:issue:`COMPASS-6725`)
 
