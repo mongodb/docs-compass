@@ -21,7 +21,7 @@ New Features:
   is enabled in ``Settings>Feature Preview``, Compass defaults to 
   the modern dark mode theme.
 - Various user experience improvements when using the Import and Export functionality in Compass (:issue:`COMPASS-6543`).
-- Combine array fields into one in the import CSV preview (:issue:`COMPASS-6766`).
+- Combine array fields into one in the import CSV preview (:issue:`COMPASS-6766`) (:issue:`COMPASS-5576`)
 - Add settings to sidebar menus (:issue:`COMPASS-6796`).
 - Show password only when user focuses on input (:issue:`COMPASS-6161`).
 - Add autocomplete support for $percentile, $median and $$USER_ROLES (:issue:`COMPASS-6780`) (:issue:`COMPASS-6781`).
@@ -45,7 +45,7 @@ Bug Fixes:
 - Detect line breaks, pass it on to papaparse (:issue:`COMPASS-6819`).
 - Update reset on query bar to reset results and emit query-changed (:issue:`COMPASS-6805`).
 
-`Full Changelog avaialble on GitHub
+`Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.36.4...v1.37.0>`__
 
 |compass| 1.36.4
@@ -73,7 +73,7 @@ Bug Fixes:
 - If listCSVFields() or analyzeCSVFields() fails it will display the error 
   in the modal (:issue:`COMPASS-6737`)
 
-`Full Changelog avaialble on GitHub
+`Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.36.3...v1.36.4>`__
 
 |compass| 1.36.3
