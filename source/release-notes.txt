@@ -20,8 +20,8 @@ New Features:
 - Dark mode has been updated with a modern theme. If the modern theme 
   is enabled in ``Settings>Feature Preview``, Compass defaults to 
   the modern dark mode theme.
-- Various user experience improvements when using the Import and Export functionality in Compass (:issue:`COMPASS-6543`).
-- Combine array fields into one in the import CSV preview (:issue:`COMPASS-6766`) (:issue:`COMPASS-5576`)
+- Various user experience improvements when using the Import and Export functionality in Compass (:issue:`COMPASS-6543`, :issue:`COMPASS-5576`).
+- Combine array fields into one in the import CSV preview (:issue:`COMPASS-6766`).
 - Add settings to sidebar menus (:issue:`COMPASS-6796`).
 - Show password only when user focuses on input (:issue:`COMPASS-6161`).
 - Add autocomplete support for $percentile, $median and $$USER_ROLES (:issue:`COMPASS-6780`) (:issue:`COMPASS-6781`).
