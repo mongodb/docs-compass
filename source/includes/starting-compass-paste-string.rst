@@ -12,16 +12,13 @@
       
       To obtain the connection string for an |service| cluster: 
       
-      .. procedure::
-         :style: connected 
-
-         .. step:: Navigate to your |service| :guilabel:`Clusters` view.
+      a. Navigate to your |service| :guilabel:`Clusters` view.
             
-         .. step:: Click :guilabel:`Connect` for your desired cluster.
+      #. Click :guilabel:`Connect` for your desired cluster.
             
-         .. step:: Click :guilabel:`Connect with MongoDB Compass`.
+      #. Click :guilabel:`Connect with MongoDB Compass`.
             
-         .. step:: Copy the provided connection string.
+      #. Copy the provided connection string.
 
       .. include:: /includes/fact-hide-connection-string-password.rst
             
