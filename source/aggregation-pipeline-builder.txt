@@ -95,8 +95,8 @@ Create an Aggregation Pipeline
   on your selected stages.
 
 - Stage Wizard, a feature of Stage View Mode that provides a set of templates 
-  for simple aggregation stage use cases. The Stage Wizard acts as a
-  starting point to gradually build complexity into your pipeline.
+  for simple aggregation stage use cases. The Stage Wizard only includes simple 
+  use cases to help you get started with your aggregation pipeline.
 
 - Focus Mode, a feature of Stage View Mode where you edit one pipeline stage at 
   a time. Focus Mode helps you manage complex or deeply nested aggregation 
