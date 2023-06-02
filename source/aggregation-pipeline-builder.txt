@@ -202,10 +202,11 @@ your chosen view mode:
 
          .. step:: Select an aggregation pipeline stage use case.
 
-            On the :guilabel:`Stage Wizard` card, click or drag the stage use 
-            case for the first stage of the pipeline. |compass-short| populates 
-            the stage card with a form that corresponds with the selected 
-            aggregation pipeline stage.
+            On the :guilabel:`Stage Wizard` card, select a stage use 
+            case for the first stage of the pipeline. You can click the card to 
+            add it to the end of your pipeline or drag it to your preferred 
+            position. |compass-short| populates the stage card with a form that 
+            corresponds with the selected aggregation pipeline stage.
 
             The Stage Wizard use cases include the following aggregation stages:
 
