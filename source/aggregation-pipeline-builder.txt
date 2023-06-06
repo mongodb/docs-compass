@@ -204,8 +204,7 @@ your chosen view mode:
 
             On the :guilabel:`Stage Wizard` card, select a stage use 
             case for the first stage of the pipeline. You can also filter 
-            through stage cards by searching for the use case or the aggregation 
-            stage.
+            the stage cards by searching for the associated aggregation stage.
             
             You can click the stage card to add it to the end of your pipeline 
             or drag it to your preferred position. After you select a stage 
