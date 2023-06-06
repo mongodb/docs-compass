@@ -214,7 +214,6 @@ your chosen view mode:
 
             The Stage Wizard use cases include the following aggregation stages:
 
-
             - :pipeline:`$group`
 
             - :pipeline:`$lookup`
