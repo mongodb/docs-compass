@@ -200,17 +200,22 @@ your chosen view mode:
                :figwidth: 300 px
                :alt: Click the icon to the right of the view mode toggle.
 
+         .. step:: (Optional) Search for an aggregation use case. 
+
+            On the :guilabel:`Stage Wizard` card, you can filter the
+            use cases by searching for keywords associated with the use case or
+            aggregation stage. 
+
          .. step:: Select an aggregation pipeline stage use case.
 
             On the :guilabel:`Stage Wizard` card, select a stage use 
-            case for the first stage of the pipeline. You can click the stage 
+            case for the first stage of your pipeline. You can click the stage 
             card to add it to the end of your pipeline or drag it to your 
             preferred position. 
             
-            You can also filter the use cases by searching for the associated 
-            aggregation stage. After you select a use case, |compass-short| 
-            populates the stage card with a form that corresponds with the 
-            selected aggregation pipeline stage.
+            After you select a use case, |compass-short| populates the stage 
+            card with a form that corresponds to the selected aggregation 
+            pipeline stage.
 
             The Stage Wizard use cases include the following aggregation stages:
 
@@ -633,7 +638,7 @@ To update the :guilabel:`count results`:
 .. procedure::
    :style: normal
 
-   .. step:: **(Optional)** If the results have not been counted, click 
+   .. step:: (Optional) If the results have not been counted, click 
       the :guilabel:`count results` link.
 
       .. figure:: /images/compass/agg-builder-click-count-results.png
