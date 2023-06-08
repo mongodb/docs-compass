@@ -26,8 +26,8 @@ toc_landing_pages = [
 ]
 
 [constants]
-download-page = "`downloads page <https://www.mongodb.com/download-center/compass?tck=docs_compass>`__"
-current-version = "1.35.0"
+download-page = "`downloads page <https://www.mongodb.com/try/download/compass>`__"
+current-version = "1.37.0"
 
 [[banners]]
 targets = [
