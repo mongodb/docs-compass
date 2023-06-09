@@ -7,6 +7,7 @@ raw: docs/compass/index.html -> ${base}/current/
 raw: docs/compass/ -> ${base}/current/
 raw: docs/compass/manual/aggregation-pipeline-builder -> ${base}/current/aggregation-pipeline-builder/
 raw: docs/compass/current/query/favorite/ -> ${base}/current/query/queries/
-raw: doc/compass/current/dark-mode/ -> ${base}/current/settings/settings-reference/#settings
+raw: docs/compass/current/dark-mode/ -> ${base}/current/settings/settings-reference/#settings
+raw: docs/compass/current/aggregation-pipeline-builder/ -> ${base}/current/create-agg-pipeline/
 
 [master-beta]: docs/compass/${version}/query-bar -> ${base}/${version}/query/filter/
