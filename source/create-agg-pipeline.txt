@@ -13,7 +13,7 @@ Create an Aggregation Pipeline
    :depth: 1
    :class: singlecol
 
-The Aggregation Pipeline Builder in |compass| lets you create
+The Aggregation Pipeline Builder in |compass| helps you create
 :manual:`aggregation pipelines </core/aggregation-pipeline/>` to process
 documents from a collection or view and return computed results.
 
@@ -25,13 +25,13 @@ About This Task
 - Stage View Mode, a visual pipeline editor that preloads pipeline syntax based 
   on your selected stages.
 
-- Stage Wizard, a feature of Stage View Mode that provides a set of templates 
-  for simple aggregation stage use cases. The Stage Wizard only includes simple 
-  use cases to help you get started with your aggregation pipeline.
+  - Stage Wizard, a feature of Stage View Mode that provides a set of templates 
+    for simple aggregation stage use cases. The Stage Wizard only includes 
+    simple use cases to help you get started with your aggregation pipeline.
 
-- Focus Mode, a feature of Stage View Mode where you edit one pipeline stage at 
-  a time. Focus Mode helps you manage complex or deeply nested aggregation 
-  pipeline stages.
+  - Focus Mode, a feature of Stage View Mode where you edit one pipeline stage 
+    at a time. Focus Mode helps you manage complex or deeply nested aggregation 
+    pipeline stages.
 
 - Text View Mode, a text-based pipeline editor that accepts raw
   pipeline syntax. 
@@ -361,17 +361,14 @@ your chosen view mode:
                .. figure:: /images/compass/agg-builder-textview-expand-results.png
                   :alt: Expand the aggregation pipeline results
 
-Next Steps
-----------
-
-- :ref:`save-agg-pipeline`
-
 Learn More 
 ----------
 
 - :manual:`Aggregation Pipeline </core/aggregation-pipeline/>`
 
 - :manual:`Aggregation Pipeline Stages </reference/operator/aggregation-pipeline/>`
+
+- :ref:`save-agg-pipeline`
 
 .. toctree::
    :titlesonly:
