@@ -369,7 +369,7 @@ Next Steps
 Learn More 
 ----------
 
-:manual:`</reference/operator/aggregation-pipeline/>`
+:manual:`Aggregation Pipeline Stages </reference/operator/aggregation-pipeline/>`
 
 .. toctree::
    :titlesonly:
