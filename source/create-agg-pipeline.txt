@@ -228,6 +228,7 @@ your chosen view mode:
             :guilabel:`{} Stages` toggle switch is selected.
 
             .. figure:: /images/compass/agg-builder-stageview-toggle-on.png
+               :figwidth: 300 px
                :alt: Toggle on stage view mode 
 
          .. step:: Add an aggregation stage.
@@ -324,6 +325,7 @@ your chosen view mode:
             editing.
             
             .. figure:: /images/compass/agg-builder-textview-toggle-on.png
+               :figwidth: 300 px
                :alt: Toggle textmode on
          
          .. step:: Enter your aggregation pipeline.
