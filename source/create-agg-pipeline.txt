@@ -10,7 +10,7 @@ Create an Aggregation Pipeline
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 2
+   :depth: 1
    :class: singlecol
 
 The Aggregation Pipeline Builder in |compass| lets you create
