@@ -364,7 +364,7 @@ your chosen view mode:
 Next Steps
 ----------
 
-:ref:`save-agg-pipeline`
+- :ref:`save-agg-pipeline`
 
 Learn More 
 ----------
