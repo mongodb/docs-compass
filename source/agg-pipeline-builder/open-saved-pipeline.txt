@@ -1,4 +1,4 @@
-.. open-saved-pipeline:
+.. _open-saved-pipeline:
 
 =====================
 Open a Saved Pipeline
