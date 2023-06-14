@@ -1,0 +1,15 @@
+.. open-saved-pipeline:
+
+=====================
+Open a Saved Pipeline
+=====================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+TODO:
