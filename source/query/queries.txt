@@ -1,3 +1,5 @@
+.. _saved-queries-agg:
+
 =======================================
 Managing Saved Queries and Aggregations
 =======================================

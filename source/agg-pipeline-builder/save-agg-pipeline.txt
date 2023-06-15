@@ -12,9 +12,9 @@ Save a Pipeline
    :depth: 1
    :class: singlecol
 
-You can save an aggregation pipeline so that you can find it later. If you
-load a saved pipeline, you can edits changes to the pipeline stages without 
-changing the original saved copy. You can also create a :ref:`view 
+You can save your aggregation pipelines to find and use them again later. If 
+you load a saved pipeline, you can make edits to the pipeline stages without 
+changing the original saved pipeline. You can also create a :ref:`view 
 <view-details>` from your pipeline results.
 
 Before You Begin 
@@ -28,7 +28,9 @@ Procedure
 
 .. include:: /includes/fact-save-pipeline.rst
 
-Next Steps
+Learn More
 ----------
 
-:ref:`open-saved-pipeline`
+- :ref:`open-saved-pipeline`
+
+- :ref:`saved-queries-agg`
