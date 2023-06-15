@@ -87,6 +87,7 @@ Procedure
       .. _oidc:
 
       OIDC
+      ~~~~
 
       Select :guilabel:`OIDC` if the deployment uses :manual:`OpenID Connect </core/security-oidc/>` 
       as its authentication mechanism.
@@ -104,7 +105,7 @@ Procedure
            - Optional. OpenID Connect username.
 
          * - Auth Code Flow Redirect URI
-           - Optional. Specifies a URI where the identity provider redirects you after authentication.
+           - Optional. Specify a URI where the identity provider redirects you after authentication.
              The URI must match the configuration of the Identity Provider used by the server.
              The default is ``http://localhost:27097/redirect``.
 
@@ -114,8 +115,8 @@ Procedure
              this option when connecting to servers that you trust.
 
          * - Enable Device Authentication Flow
-           - Optional. When the :ref:`Show Device Auth Flow Checkbox <compass-settings>` 
-             setting is enabled, |compass-short| provides you with a URL and code 
+           - Optional. When the :ref:`Show Device Auth Flow Checkbox <compass-settings-reference>` 
+             setting is enabled, |compass-short| can provide you with a URL and code 
              to finish authentication. 
              
              This is a less secure authentication flow that can be used as a 
