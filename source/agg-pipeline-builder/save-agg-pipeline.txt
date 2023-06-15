@@ -33,4 +33,6 @@ Learn More
 
 - :ref:`open-saved-pipeline`
 
+- :ref: `create-a-view`
+
 - :ref:`saved-queries-agg`
