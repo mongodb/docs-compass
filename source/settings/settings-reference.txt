@@ -138,7 +138,7 @@ You can configure the following settings on the |compass| interface:
 
    * - Show Device Auth Flow Checkbox
      - OIDC 
-     - Show a checkbox on the connection form to enable the device authentication flow. 
+     - Show a check box on the connection form to enable the device authentication flow. 
        This provides the option to enable a less secure authentication flow as a 
        fallback when browser-based authentication is unavailable.
 
