@@ -106,7 +106,7 @@ Procedure
 
          * - Auth Code Flow Redirect URI
            - Optional. Specify a URI where the identity provider redirects you after authentication.
-             The URI must match the configuration of the Identity Provider used by the server.
+             The URI must match the configuration of the Identity Provider.
              The default is ``http://localhost:27097/redirect``.
 
          * - Consider Target Endpoint Trusted
