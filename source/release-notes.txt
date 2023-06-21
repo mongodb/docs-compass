@@ -42,18 +42,13 @@ Bug Fixes:
 - Support Dark Mode on ``TypeEditor`` drop down (:issue:`COMPASS-6893`).
 - Do not sum execution time for aggregation explain plan
   (:issue:`COMPASS-6496`).
-- Fix SNYK-JS-FASTXMLPARSER-5668858 (:issue:`COMPASS-6905`).
+- Fix fast XML parser issue (:issue:`COMPASS-6905`).
 - Let ``enableShell`` setting control runtime start and stop.
 - Track ``has_sort`` in telemetry.
-- Remove jquery, fixes SNYK-JS-JQUERY-567880, SNYK-JS-JQUERY-565129,
-  SNYK-JS-JQUERY-174006, npm-jquery-20150627 (:issue:`COMPASS-6885`,
-  :issue:`COMPASS-6884`, :issue:`COMPASS-6883`, and
-  :issue:`COMPASS-6882`).
-- Replace ``got`` with ``fetch`` fixes SNYK-JS-GOT-2932019
-  (:issue:`COMPASS-6881`).
-- Fix SNYK-JS-FOLLOWREDIRECTS-2396346 and
-  SNYK-JS-FOLLOWREDIRECTS-2332181 (:issue:`COMPASS-6880` and
-  :issue:`COMPASS-6879`).
+- Various jQuery fixes (:issue:`COMPASS-6885`, :issue:`COMPASS-6884`,
+  :issue:`COMPASS-6883`, and :issue:`COMPASS-6882`).
+- Replace ``got`` with ``fetch`` in redirect (:issue:`COMPASS-6881`).
+- Fix redirects (:issue:`COMPASS-6880` and :issue:`COMPASS-6879`).
 - Show 1 as the page number even if in a collection and no entries are
   present.
 - Select combo box option ``onBlur`` (:issue:`COMPASS-6511`).
