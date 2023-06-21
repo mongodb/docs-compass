@@ -51,7 +51,7 @@ Bug Fixes:
 - Fix redirects (:issue:`COMPASS-6880` and :issue:`COMPASS-6879`).
 - Show 1 as the page number for collections where no entries are
   present.
-- Select combo box option ``onBlur`` (:issue:`COMPASS-6511`).
+- Select combo box option ``onBlur`` issue (:issue:`COMPASS-6511`).
 - Use ``mongodb-cloud-info`` v2 for ipv6 support in cloud metrics
   (:issue:`COMPASS-6795`).
 - Editor dark mode background selection color (:issue:`COMPASS-6910`).
