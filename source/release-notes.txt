@@ -32,7 +32,7 @@ New Features:
 - Show insight when number of collections is too high
   (:issue:`COMPASS-6835`).
 - Add unindexed aggregation insight (:issue:`COMPASS-6833`).
-- Guide Cue domponent (:issue:`COMPASS-6334`).
+- Guide Cue component (:issue:`COMPASS-6334`).
 - Add support for hiding and unhiding indexes in the Index tab.
 
 Bug Fixes:
