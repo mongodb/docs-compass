@@ -48,14 +48,14 @@ Bug Fixes:
 - Track has_sort.
 - Remove jquery, fixes SNYK-JS-JQUERY-567880, SNYK-JS-JQUERY-565129,
   SNYK-JS-JQUERY-174006, npm-jquery-20150627 (:issue:`COMPASS-6885`,
-  :issue:`COMPASS-6884`, :issue:`COMPASS-6883`, and
+  :issue:`COMPASS-6884`, :issue:`COMPASS-6883`, and 
   :issue:`COMPASS-6882`).
 - Replace got with fetch fixes SNYK-JS-GOT-2932019
   (:issue:`COMPASS-6881`).
 - Fix SNYK-JS-FOLLOWREDIRECTS-2396346 and
   SNYK-JS-FOLLOWREDIRECTS-2332181 (:issue:`COMPASS-6880` and
   :issue:`COMPASS-6879`).
-- Show 1 as the page number even if in a collection, no entries are
+- Show 1 as the page number even if in a collection and no entries are
   present.
 - Select combobox option onBlur (:issue:`COMPASS-6511`).
 - Use mongodb-cloud-info v2 for ipv6 support in cloud metrics
