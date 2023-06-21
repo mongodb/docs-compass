@@ -48,7 +48,7 @@ Bug Fixes:
 - Track has_sort.
 - Remove jquery, fixes SNYK-JS-JQUERY-567880, SNYK-JS-JQUERY-565129,
   SNYK-JS-JQUERY-174006, npm-jquery-20150627 (:issue:`COMPASS-6885`,
-  :issue:`COMPASS-6884`, :issue:`COMPASS-6883`, and 
+  :issue:`COMPASS-6884`, :issue:`COMPASS-6883`, and
   :issue:`COMPASS-6882`).
 - Replace got with fetch fixes SNYK-JS-GOT-2932019
   (:issue:`COMPASS-6881`).
