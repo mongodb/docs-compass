@@ -18,7 +18,7 @@ Release Notes
 New Features:
 
 - OIDC authentication (:issue:`COMPASS-6803`).
-- Stage wizard feature (:issue:`COMPASS-6814`).
+- Stage wizard (:issue:`COMPASS-6814`).
 - Add visual tree and update summary for the aggregation explain plan
   (:issue:`COMPASS-6821` and :issue:`COMPASS-6888`).
 - Add types docs link to import preview (:issue:`COMPASS-6632`).
@@ -33,18 +33,18 @@ New Features:
   (:issue:`COMPASS-6835`).
 - Add unindexed aggregation insight (:issue:`COMPASS-6833`).
 - Component implementation (:issue:`COMPASS-6334`).
-- Add support for hiding and unhiding indexes in Index tab.
+- Add support for hiding and unhiding indexes in the Index tab.
 
 Bug Fixes:
 
 - Add file type filters when exporting (:issue:`COMPASS-6890`).
 - Rename "Less Options" to "Fewer Options" (:issue:`COMPASS-6774`).
-- Support Dark Mode on ``TypeEditor`` dropdown (:issue:`COMPASS-6893`).
+- Support Dark Mode on ``TypeEditor`` drop down (:issue:`COMPASS-6893`).
 - Do not sum execution time for aggregation explain plan
   (:issue:`COMPASS-6496`).
 - Fix SNYK-JS-FASTXMLPARSER-5668858 (:issue:`COMPASS-6905`).
-- Let ``enableShell`` setting control runtime start/stop.
-- Track ``has_sort``.
+- Let ``enableShell`` setting control runtime start and stop.
+- Track ``has_sort`` in telemetry.
 - Remove jquery, fixes SNYK-JS-JQUERY-567880, SNYK-JS-JQUERY-565129,
   SNYK-JS-JQUERY-174006, npm-jquery-20150627 (:issue:`COMPASS-6885`,
   :issue:`COMPASS-6884`, :issue:`COMPASS-6883`, and
@@ -62,7 +62,7 @@ Bug Fixes:
 - Editor dark mode background selection color (:issue:`COMPASS-6910`).
 - Disable the autoupdater for MSI installs (windows without squirrel)
   (:issue:`COMPASS-6857`).
-- Use ``bulkWrite`` correctly (:issue:`COMPASS-6928`).
+- Use ``bulkWrite`` correctly in import (:issue:`COMPASS-6928`).
 
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.37.0...v1.38.0>`__
