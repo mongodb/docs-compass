@@ -22,11 +22,9 @@ New Features:
   (:issue:`COMPASS-6814`).
 - Add visual tree and update summary for aggregation explain plans
   (:issue:`COMPASS-6821` and :issue:`COMPASS-6888`).
-- Add types docs link to import preview (:issue:`COMPASS-6632`).
 - Open a collection in a new tab shortcut.
 - Add performance tab indicator to state that information about certain
   collections is missing (:issue:`COMPASS-6593`).
-- Add zoom control to the modal tree view (:issue:`COMPASS-6843`).
 - Add Atlas error message when connection fails because of IP access
   issue (:issue:`COMPASS-6842`).
 - Show insight when query is unindexed (:issue:`COMPASS-6832`).
