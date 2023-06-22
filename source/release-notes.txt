@@ -20,7 +20,7 @@ New Features:
 - OpenID Connect (OIDC) authentication (:issue:`COMPASS-6803`).
 - Stage wizard, which helps build aggregation pipelines
   (:issue:`COMPASS-6814`).
-- Add visual tree and update summary for the aggregation explain plan
+- Add visual tree and update summary for aggregation explain plans
   (:issue:`COMPASS-6821` and :issue:`COMPASS-6888`).
 - Add types docs link to import preview (:issue:`COMPASS-6632`).
 - Open a collection in a new tab shortcut.
@@ -51,8 +51,7 @@ Bug Fixes:
   :issue:`COMPASS-6883`, and :issue:`COMPASS-6882`).
 - Replace ``got`` with ``fetch`` in redirect (:issue:`COMPASS-6881`).
 - Fix redirects (:issue:`COMPASS-6880` and :issue:`COMPASS-6879`).
-- Show 1 as the page number for collections where no entries are
-  present.
+- Show 1 as the page number for collections when no entries are present.
 - Select combo box option ``onBlur`` issue (:issue:`COMPASS-6511`).
 - Use ``mongodb-cloud-info`` v2 for IPv6 support in cloud metrics
   (:issue:`COMPASS-6795`).
