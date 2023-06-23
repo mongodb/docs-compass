@@ -26,9 +26,41 @@ To save a pipeline, you must first :ref:`create an aggregation pipeline
 Procedure
 ---------
 
-.. include:: /includes/fact-save-pipeline.rst
+.. procedure:: 
+   :style: normal
+
+   .. step:: Click the folder icon.
+
+      In the top-left corner of the pipeline builder, click the folder icon to 
+      open the drop-down menu of saved pipelines.
+      
+      .. figure:: /images/compass/saved-pipeline-icon.png
+         :alt: Saved Pipeline Icon
+         
+   .. step:: Select an aggregation pipeline.
+      
+      In the drop-down menu, hover over the pipeline you want to open and 
+      click :guilabel:`Open`.  
+      
+      .. figure:: /images/compass/saved-pipelines.png
+         :alt: Saved Pipelines List 
+         
+   .. step:: Confirm your selection. 
+      
+      In the pop-up modal, click :guilabel:`Open Pipeline`.
+
+.. note::
+
+   Starting in |compass| 1.31, you can view your saved queries
+   and aggregation pipelines on the :guilabel:`My Queries` view 
+   once connected to your cluster.
+
+   To learn more, see 
+   :ref:`viewing saved aggregations <saved-query-view>` for details.
 
 Learn More
 ----------
 
 - :ref:`save-agg-pipeline`
+
+- :ref:`saved-query-view`
