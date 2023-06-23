@@ -20,9 +20,9 @@ Before You Begin
 
 To open a saved pipeline, you must first: 
 
-- :ref:`create an aggregation pipeline <create-agg-pipeline>`.
+- :ref:`Create an aggregation pipeline <create-agg-pipeline>`.
 
-- :ref:`save your aggregation pipeline <save-agg-pipeline>`
+- :ref:`Save your aggregation pipeline <save-agg-pipeline>`.
 
 Procedure
 ---------
