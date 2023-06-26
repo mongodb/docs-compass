@@ -53,7 +53,7 @@ Procedure
 .. note::
 
    Starting in |compass| 1.31, you can view your saved queries
-   and aggregation pipelines on the :guilabel:`My Queries` view 
+   and aggregation pipelines on the :guilabel:`My Queries` tab 
    after you connect to your cluster.
 
    To learn more, see 
