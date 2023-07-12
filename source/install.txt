@@ -8,7 +8,7 @@ Download and Install Compass
 
 .. important:: 
 
-   |compass| does not support virtual desktop environments.
+   |compass| doesn't support virtual desktop environments.
 
 Select your operating system:
 
