@@ -69,6 +69,6 @@ Procedure
 Learn More
 ----------
 
-- :ref:`explain-plans`
+- :manual:`Analyze Query Performance </tutorial/analyze-query-plan/>`
 
-- :manual:`</tutorial/analyze-query-plan/>`
+- :ref:`explain-plans`
