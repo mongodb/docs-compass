@@ -63,8 +63,8 @@ Procedure
          
    .. step:: (Optional) Select the :guilabel:`Raw Output` view. 
       
-      To view your explain plan as raw JSON, select the :guilabel:`Raw Output` 
-      view. 
+      To view your full explain plan as raw JSON, select the 
+      :guilabel:`Raw Output` view. 
 
 Learn More
 ----------
