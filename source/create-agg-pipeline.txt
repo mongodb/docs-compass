@@ -370,6 +370,8 @@ Learn More
 
 - :ref:`save-agg-pipeline`
 
+- :ref:`view-pipeline-explain-plans`
+
 .. toctree::
    :titlesonly:
    
