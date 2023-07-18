@@ -21,18 +21,19 @@ About this Task
 
 On the :guilabel:`Explain` modal, you can view the explain stages as a 
 :guilabel:`Visual Tree`, where each stage of the pipeline appears as a node on 
-the tree. Alternatively, you can view the explain details in raw JSON format. 
+the tree. Alternatively, you can view the explain details in raw JSON format by selecting 
+the :guilabel:`Raw Output` view. 
 
 The explain plan includes a :guilabel:`Query Performance Summary` with 
 information on the execution of your aggregation pipeline such as: 
 
-- Execution time. 
+- Execution time
 
-- The number of returned documents.
+- The number of returned documents
 
-- The number of examined documents.
+- The number of examined documents
 
-- The number of examined index keys.
+- The number of examined index keys
 
 Procedure
 ---------
@@ -40,7 +41,7 @@ Procedure
 .. procedure:: 
    :style: normal
 
-   .. step:: Click the :guilabel:`Explain` button.
+   .. step:: Click the Explain button.
 
       In the top right of the aggregation pipeline builder, click the 
       :guilabel:`Explain` button to open the :guilabel:`Explain Plan` modal.
