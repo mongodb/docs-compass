@@ -10,7 +10,7 @@ Release Notes
    :depth: 1
    :class: twocols
 
-|compass| 1.38.2
+|compass| 1.39.0
 ----------------
 
 *Released July 14, 2023*
