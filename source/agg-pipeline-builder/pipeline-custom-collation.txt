@@ -1,0 +1,43 @@
+.. _pipeline-custom-collation:
+
+========================
+Specify Custom Collation
+========================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Use custom collation to specify language-specific rules for string comparison, 
+such as rules for letter case and accent marks.
+
+Procedure
+---------
+
+.. procedure:: 
+   :style: normal
+   
+   .. step:: Click :guilabel:`More Options`.
+    
+      In the top right corner of the pipeline builder, click 
+      :guilabel:`More Options`.
+      
+      .. figure:: /images/compass/options-collation.png
+         :alt: More Options
+         
+   .. step:: Enter your collation document.
+
+      Next to the :guilabel:`Collation` field, enter your 
+      :manual:`collation document </reference/collation/>`.
+
+      After you enter your collation document, the aggregation pipeline builder 
+      considers the language-specific rules that you specified in your document.
+
+Learn More
+----------
+
+- :manual:`Collation </reference/collation/>`
