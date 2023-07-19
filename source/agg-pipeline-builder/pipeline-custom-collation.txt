@@ -15,6 +15,15 @@ Specify Custom Collation
 Use custom collation to specify language-specific rules for string comparison, 
 such as rules for letter case and accent marks.
 
+About This Task 
+---------------
+
+When entering a collation document, the ``locale`` field is mandatory. Default 
+collation parameter values vary depending on which locale you specify. To learn 
+more about supported languages and locales, see 
+:manual:`</reference/collation-locales-defaults>`.
+
+
 Procedure
 ---------
 
@@ -41,3 +50,5 @@ Learn More
 ----------
 
 - :manual:`Collation </reference/collation/>`
+
+- :manual:`Collation Locales and Default Parameters <reference/collation-locales-defaults>`
