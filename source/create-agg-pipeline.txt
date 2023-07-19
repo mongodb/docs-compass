@@ -370,11 +370,13 @@ Learn More
 
 - :ref:`save-agg-pipeline`
 
+- :ref:`view-pipeline-explain-plans`
+
 .. toctree::
    :titlesonly:
    
    /agg-pipeline-builder/save-agg-pipeline
    /agg-pipeline-builder/open-saved-pipeline
+   /agg-pipeline-builder/view-pipeline-explain-plan
    /agg-pipeline-builder/export-pipeline-to-language
    /agg-pipeline-builder/create-a-view
-   
