@@ -116,6 +116,32 @@ input.
    |compass-short| shows the type of your new index as
    :guilabel:`Wildcard`.
 
+.. _hide-index:
+
+Hide an Index
+-------------
+
+You can :manual:`hide an index <index-type-hidden>` from the query planner to 
+evaluate the potential impact of dropping an index without actually dropping the 
+index.
+
+.. procedure:: 
+   :style: normal 
+   
+   .. step:: Hover over the index. 
+
+      From the :guilabel:`Indexes` tab, hover over the index you want to delete.
+
+   .. step:: Click the :guilabel:`Hide Index` button.
+
+      Click the closed-eye icon on the right that appears when you hover over 
+      your selected index.
+
+   .. step:: Click :guilabel:`Confirm`.
+      
+      In the dialog box, confirm the index you want to hide. After you confirm 
+      your selection, a :guilabel:`Hidden`
+
 .. _drop-index:
 
 Drop an Index
