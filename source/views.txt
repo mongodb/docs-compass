@@ -103,7 +103,7 @@ To duplicate a view:
 
 #. Click the appearing :guilabel:`Ellipses (...)` button.
 
-#. In the dropdown, click :guilabel:`Duplicate View`.
+#. In the drop-down menu, click :guilabel:`Duplicate View`.
 
 #. Enter a name for the new view.
 
