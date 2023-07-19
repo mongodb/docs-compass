@@ -25,8 +25,9 @@ Bug Fixes:
 
 - Fix an issue where Compass would create an incorrect index.
   (:issue:`COMPASS-6981`)
+- Ensure that Compass displays indexes in the correct case.
+  (:issue:`COMPASS-6510`)
 - Cap number of log files to 100. (:issue:`MONGOSH-1449`)
-- Ensure that Compass displays indexes in the correct case. (:issue:`COMPASS-6510`)
 - Map project to projection before emitting open-explain-plan event
   (:issue:`COMPASS-6995`)
 - Use mod for hotkey so windows uses ``ctrl`` instead of Windows key.
