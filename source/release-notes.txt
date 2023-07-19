@@ -33,7 +33,6 @@ Bug Fixes:
 - Fix issue with Windows hotkeys. (:issue:`COMPASS-6777`)
 - Handle missing execution stats in raw explain.
 
-
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.38.2...v1.39.0>`__
 
