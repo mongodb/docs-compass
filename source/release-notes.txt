@@ -23,7 +23,7 @@ New features:
 
 Bug Fixes:
 
-- Fix an issue where Compass would create an incorrect index.
+- Fix issue where Compass would create an incorrect index.
   (:issue:`COMPASS-6981`)
 - Ensure that Compass displays indexes in the correct case.
   (:issue:`COMPASS-6510`)
