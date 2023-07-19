@@ -121,7 +121,7 @@ input.
 Hide an Index
 -------------
 
-You can :manual:`hide an index <index-type-hidden>` from the query planner to 
+You can :manual:`hide an index </core/index-hidden>` from the query planner to 
 evaluate the potential impact of dropping an index without actually dropping the 
 index.
 
