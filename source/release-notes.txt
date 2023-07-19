@@ -44,8 +44,8 @@ Bug Fixes:
 
 Bug Fix:
 
-- Fix issue with projecting document size (Reverts
-  :issue:`COMPASS-6837`).
+- Fix issue with projecting document size. (Reverts
+  :issue:`COMPASS-6837`)
 
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.38.1...v1.38.2>`__
