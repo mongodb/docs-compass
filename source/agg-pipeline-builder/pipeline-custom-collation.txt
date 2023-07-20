@@ -21,7 +21,7 @@ About This Task
 When entering a collation document, the ``locale`` field is mandatory. Default 
 collation parameter values vary depending on which locale you specify. To learn 
 more about supported languages and locales, see 
-:manual:`</reference/collation-locales-defaults>`.
+:manual:`Collation Locales and Default Parameters </reference/collation-locales-defaults>`.
 
 
 Procedure
