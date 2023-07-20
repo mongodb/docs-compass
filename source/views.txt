@@ -86,7 +86,6 @@ information and functionality for the view:
 
 - :ref:`Document management <compass-documents>`
 - :ref:`Aggregation Pipeline Builder <compass-agg-builder>`
-- :ref:`Explain plans <explain-plans>`
 - :ref:`Indexes <compass-indexes>`
 - :ref:`Data schema <schema-tab>`
 - :ref:`Validation rules <validation>`
