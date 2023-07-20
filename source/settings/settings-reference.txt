@@ -145,7 +145,7 @@ You can configure the following settings on the |compass| interface:
    * - Stay logged in with OIDC
      - OIDC
      - Remain logged in when using the :manual:`MONGODB-OIDC </core/security-oidc/>` 
-       authentication mechanism. 
+       authentication mechanism.
 
 Learn More
 ----------
