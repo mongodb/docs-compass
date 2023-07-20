@@ -130,7 +130,7 @@ index.
    
    .. step:: Hover over the index. 
 
-      From the :guilabel:`Indexes` tab, hover over the index you want to delete.
+      From the :guilabel:`Indexes` tab, hover over the index you want to hide.
 
    .. step:: Click the :guilabel:`Hide Index` button.
 
@@ -140,7 +140,12 @@ index.
    .. step:: Click :guilabel:`Confirm`.
       
       In the dialog box, confirm the index you want to hide. After you confirm 
-      your selection, a :guilabel:`Hidden`
+      your selection, a :guilabel:`Hidden` badge appears under the 
+      :guilabel:`Properties` column.
+
+   .. step:: (Optional) Unhide your index. 
+
+      To unhide your index, repeat steps 1-3. 
 
 .. _drop-index:
 
