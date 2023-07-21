@@ -14,14 +14,15 @@ Proactive Performance Insights
 
 |compass| provides proactive performance insights, which are suggestions
 to improve your schema and data modeling practices. Following these
-suggestions can improve application performance. 
+suggestions can improve your schema design and application performance. 
 
 Use Cases
 ---------
 
 Proactive performance insights are best followed early in your
-application development process. Using best data modeling practices
-early helps prevent performance issues as your application grows.
+application development process. Starting your application with good
+data modeling practices helps prevent schema and performance issues as
+your application grows.
 
 While |compass-short| can suggest schema improvements at any stage of
 development, it can be difficult to make schema modifications in
@@ -46,7 +47,7 @@ database, collection, or index names specific to your schema.
      - Add an index to support the operation.
 
    * - You run a pipeline that uses a :pipeline:`$lookup` stage.
-     - Embed related data and avoid the need for a ``$lookup`` operation.
+     - Embed related data to avoid the need for a ``$lookup`` operation.
 
    * - You run a :query:`$text` or :query:`$regex` query.
      - If possible, use :atlas:`Atlas Search </atlas-search>` to improve
@@ -70,3 +71,6 @@ Learn More
 
 - To learn more about data modeling in MongoDB, see
   :ref:`manual-data-modeling-intro`.
+
+- To learn how to enforce validation for your schema, see
+  :ref:`schema-validation-overview`.
