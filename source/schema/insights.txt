@@ -36,6 +36,8 @@ supports queries that are run frequently.
 Behavior
 --------
 
+Proactive performance insights are enabled automatically.
+
 The suggestions made by |compass-short| are generic, and do not use
 database, collection, or index names specific to your schema.
 
