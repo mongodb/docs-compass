@@ -1,0 +1,72 @@
+.. _compass-performance-insights:
+
+==============================
+Proactive Performance Insights
+==============================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+|compass| provides proactive performance insights, which are suggestions
+to improve your schema and data modeling practices. Following these
+suggestions can improve application performance. 
+
+Use Cases
+---------
+
+Proactive performance insights are best followed early in your
+application development process. Using best data modeling practices
+early helps prevent performance issues as your application grows.
+
+While |compass-short| can suggest schema improvements at any stage of
+development, it can be difficult to make schema modifications in
+large-scale schemas that are used in production.
+
+Behavior
+--------
+
+The suggestions made by |compass-short| are generic, and do not use
+database, collection, or index names specific to your schema.
+
+|compass-short| suggests schema improvements in the following scenarios:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 10 10
+
+   * - Scenario
+     - |compass-short| Suggestion
+   
+   * - You run a query or aggregation without an index.
+     - Add an index to support the operation.
+
+   * - You run a pipeline that uses a :pipeline:`$lookup` stage.
+     - Embed related data and avoid the need for a ``$lookup`` operation.
+
+   * - You run a :query:`$text` or :query:`$regex` query.
+     - If possible, use :atlas:`Atlas Search </atlas-search>` to improve
+       performance for text search queries.
+
+   * - Your database contains more than 10,000 collections.
+     - Reduce the number of collections.
+
+   * - Your documents contain an array field with more than 250
+       elements.
+     - Avoid unbounded arrays.
+
+   * - You have a document with a size greater than 10 MB.
+     - Break up large documents into separate collections.
+
+   * - Your collection contains more than 10 indexes.
+     - Review your indexes and remove any that are unnecessary.
+
+Learn More
+----------
+
+- To learn more about data modeling in MongoDB, see
+  :ref:`manual-data-modeling-intro`.
