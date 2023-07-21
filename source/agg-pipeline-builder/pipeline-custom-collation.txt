@@ -19,7 +19,7 @@ About This Task
 ---------------
 
 When entering a collation document, the ``locale`` field is mandatory. Default 
-collation parameter values vary depending on which locale you specify. To learn 
+collation field values vary depending on which locale you specify. To learn 
 more about supported languages and locales, see 
 :manual:`Collation Locales and Default Parameters </reference/collation-locales-defaults>`.
 
@@ -32,7 +32,7 @@ Steps
    
    .. step:: Click :guilabel:`More Options`.
     
-      In the top right corner of the pipeline builder, click 
+      In the top-right corner of the pipeline builder, click 
       :guilabel:`More Options`.
       
       .. figure:: /images/compass/options-collation.png
