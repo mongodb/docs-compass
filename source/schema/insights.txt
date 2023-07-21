@@ -48,7 +48,7 @@ database, collection, or index names specific to your schema.
    :widths: 10 10
 
    * - Scenario
-     - |compass-short| Suggestion
+     - Suggested Improvement
    
    * - You run a query or aggregation without an index.
      - Add an index to support the operation.
