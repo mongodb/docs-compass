@@ -78,4 +78,4 @@ Learn More
   :ref:`manual-data-modeling-intro`.
 
 - To learn how to create effective queries for your application, see
-  :ref:`indexing-strategies`.
+  :manual:`/applications/indexes`.
