@@ -1,8 +1,8 @@
 .. _pipeline-custom-collation:
 
-========================
-Specify Custom Collation
-========================
+==========================================
+Specify Custom Collation For Your Pipeline
+==========================================
 
 .. default-domain:: mongodb
 
@@ -13,7 +13,7 @@ Specify Custom Collation
    :class: singlecol
 
 Use custom collation to specify language-specific rules for string comparison, 
-such as rules for letter case and accent marks.
+such as rules for letter case and accent marks, within your aggregation pipeline.
 
 About This Task 
 ---------------
@@ -24,8 +24,8 @@ more about supported languages and locales, see
 :manual:`Collation Locales and Default Parameters </reference/collation-locales-defaults>`.
 
 
-Procedure
----------
+Steps
+-----
 
 .. procedure:: 
    :style: normal
@@ -45,6 +45,20 @@ Procedure
 
       After you enter your collation document, the aggregation pipeline builder 
       considers the language-specific rules that you specified in your document.
+
+Example 
+-------
+
+The following sample collation document specifies French as the chosen 
+``locale`` and sorts uppercase letter before lowercase letters with the 
+``caseFirst`` field:
+
+.. code-block:: javascript
+   
+   {
+     locale: "fr", 
+     caseFirst: "upper"
+   } 
 
 Learn More
 ----------
