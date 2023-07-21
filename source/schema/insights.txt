@@ -28,6 +28,11 @@ While |compass-short| can suggest schema improvements at any stage of
 development, it can be difficult to make schema modifications in
 large-scale schemas that are used in production.
 
+Before you implement a schema suggestion from |compass-short|, ensure
+that the suggestion makes sense for your application. For example, if
+|compass-short| suggests creating an index, make sure that index
+supports queries that are run frequently.
+
 Behavior
 --------
 
@@ -72,5 +77,5 @@ Learn More
 - To learn more about data modeling in MongoDB, see
   :ref:`manual-data-modeling-intro`.
 
-- To learn how to enforce validation for your schema, see
-  :ref:`schema-validation-overview`.
+- To learn how to create effective queries for your application, see
+  :ref:`indexing-strategies`.
