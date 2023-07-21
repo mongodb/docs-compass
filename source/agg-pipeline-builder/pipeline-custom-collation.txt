@@ -50,7 +50,7 @@ Example
 -------
 
 The following sample collation document specifies French as the chosen 
-``locale`` and sorts uppercase letter before lowercase letters with the 
+``locale`` and sorts uppercase letters before lowercase letters with the 
 ``caseFirst`` field:
 
 .. code-block:: javascript
