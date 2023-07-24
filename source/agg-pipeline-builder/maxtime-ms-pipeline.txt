@@ -21,9 +21,9 @@ About This Task
 
 If you already specified a ``maxTimeMS`` value in the :ref:`Compass Settings 
 panel <compass-interface-settings>`, the :ref:`command line <cli-options>`, or 
-a :ref:`configuration file <config-file-options>` you must enter a 
-:guilabel:`Max Time MS` value for your pipeline that is lower than the limit 
-you previously specified.
+a :ref:`configuration file <config-file-options>`, the value you enter for 
+:guilabel:`Max Time MS` value must be lower than the limit you previously 
+specified.
 
 Steps 
 -----
