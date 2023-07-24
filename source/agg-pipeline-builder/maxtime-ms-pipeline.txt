@@ -16,6 +16,15 @@ Use the ``maxTimeMS`` parameter on the :guilabel:`Aggregations` tab to
 specify an upper time limit in milliseconds for aggregation pipelines
 that run in |compass-short|.
 
+About This Task 
+---------------
+
+If you already specified a ``maxTimeMS`` value in the :ref:`Compass Settings 
+panel <compass-interface-settings>`, the :ref:`command line <cli-options>`, or 
+a :ref:`configuration file <config-file-options>` you must enter a 
+:guilabel:`Max Time MS` value for your pipeline that is lower than the limit 
+you previously specified.
+
 Steps 
 -----
 
@@ -45,14 +54,6 @@ Steps
 
       .. figure:: /images/compass/agg-builder-operation-time-limit-error.png
          :alt: Operation timeout error
-
-      .. note:: 
-
-        If you already specified a ``maxTimeMS`` value in the :ref:`Compass 
-        Settings panel <compass-interface-settings>`, the :ref:`command line 
-        <cli-options>`, or a :ref:`configuration file <config-file-options>` you 
-        must enter a :guilabel:`Max Time MS` value for your pipeline that is 
-        lower than the limit you previously specified.
 
 Learn More 
 ----------
