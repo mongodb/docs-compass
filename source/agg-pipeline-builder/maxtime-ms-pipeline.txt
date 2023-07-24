@@ -1,0 +1,64 @@
+.. _set-maxtime-ms-agg:
+
+=====================================
+Set maxTimeMS for Aggregation Queries
+=====================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Use the ``maxTimeMS`` parameter on the :guilabel:`Aggregations` tab to 
+specify an upper time limit in milliseconds for aggregation pipelines
+that run in |compass-short|.
+
+Steps 
+-----
+
+.. procedure::
+   :style: normal
+
+   .. step:: Click :guilabel:`More Options`.
+      
+      On the :guilabel:`Aggregations` tab, click :guilabel:`More Options`
+
+      .. figure:: /images/compass/agg-builder-click-more-options.png
+         :alt: More Options dropdown.
+
+   .. step:: Specify a Max Time MS value.
+
+      Next to the :guilabel:`Max Time MS` field, enter a numeric value to set as 
+      the maximum amount of time in milliseconds that an aggregation 
+      pipeline can run.  
+      
+      For a ``5`` second limit, enter ``5000``.
+
+      .. figure:: /images/compass/agg-builder-enter-maxtime-ms.png
+         :alt: Enter a maximum timeout value 
+
+      If your aggregation operation goes over the time limit, 
+      |compass-short| raises the following error:
+
+      .. figure:: /images/compass/agg-builder-operation-time-limit-error.png
+         :alt: Operation timeout error
+
+      .. note:: 
+
+        If you already specified a ``maxTimeMS`` value in the :ref:`Compass 
+        Settings panel <compass-interface-settings>`, the :ref:`command line 
+        <cli-options>`, or a :ref:`configuration file <config-file-options>` you 
+        must enter a :guilabel:`Max Time MS` value for your pipeline that is 
+        lower than the limit you previously specified.
+
+Learn More 
+----------
+
+- :ref:`cli-options`
+
+- :ref:`config-file-options`
+
+- :ref:`compass-interface-settings`

@@ -35,7 +35,7 @@ Steps
       In the top-right corner of the pipeline builder, click 
       :guilabel:`More Options`.
       
-      .. figure:: /images/compass/options-collation.png
+      .. figure:: /images/compass/agg-builder-click-more-options.png
          :alt: More Options
          
    .. step:: Enter your collation document.
