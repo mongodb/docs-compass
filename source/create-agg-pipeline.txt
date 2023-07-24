@@ -380,3 +380,4 @@ Learn More
    /agg-pipeline-builder/view-pipeline-explain-plan
    /agg-pipeline-builder/export-pipeline-to-language
    /agg-pipeline-builder/create-a-view
+   /agg-pipeline-builder/pipeline-custom-collation
