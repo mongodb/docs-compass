@@ -28,10 +28,10 @@ While |compass-short| can suggest data model improvements at any stage
 of development, it can be difficult to make schema modifications in
 large-scale schemas that are used in production.
 
-Before you implement a data model suggestion from |compass-short|,
-ensure that the suggestion makes sense for your application. For
-example, if |compass-short| suggests creating an index, make sure that
-index supports queries that are run frequently.
+Before you implement a data model suggestion, ensure that the suggestion
+makes sense for your application. For example, if |compass-short|
+suggests creating an index, make sure that index supports queries that
+are run frequently.
 
 Behavior
 --------
