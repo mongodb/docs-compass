@@ -21,8 +21,7 @@ About This Task
 
 By default, :guilabel:`Max Time MS` is set to 60000 milliseconds, or 60 seconds. Consider 
 raising this value if you have a large collection or your operations frequently 
-time out. You can also consider creating :ref:`indexes <compass-indexes>` to 
-improve query performance.
+time out.
 
 If you already specified a ``maxTimeMS`` value in the :ref:`Compass Settings 
 panel <compass-interface-settings>`, the :ref:`command line <cli-options>`, or 
