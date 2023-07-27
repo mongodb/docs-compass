@@ -370,5 +370,5 @@ analysis by clicking :guilabel:`Analyze`.
 .. toctree::
    :titlesonly:
 
-   /schema/insights
+   /schema/data-model-suggestions
    /schema/export
