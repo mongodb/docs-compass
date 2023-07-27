@@ -1,8 +1,8 @@
 .. _set-maxtime-ms-agg:
 
-=====================================
-Set maxTimeMS for Aggregation Queries
-=====================================
+=======================================
+Set Max Time MS for Aggregation Queries
+=======================================
 
 .. default-domain:: mongodb
 
@@ -12,18 +12,26 @@ Set maxTimeMS for Aggregation Queries
    :depth: 1
    :class: singlecol
 
-Use the ``maxTimeMS`` parameter on the :guilabel:`Aggregations` tab to 
+Use the :guilabel:`Max Time MS` option on the :guilabel:`Aggregations` tab to 
 specify an upper time limit in milliseconds for aggregation pipelines
-that run in |compass|.
+that run in |compass|. 
 
 About This Task 
 ---------------
+
+By default, :guilabel:`Max Time MS` is set to 60000 milliseconds, or 60 seconds. Consider 
+raising this value if you have a large collection or your operations frequently 
+time out. You can also consider creating :ref:`indexes <compass-indexes>` to 
+improve query performance.
 
 If you already specified a ``maxTimeMS`` value in the :ref:`Compass Settings 
 panel <compass-interface-settings>`, the :ref:`command line <cli-options>`, or 
 a :ref:`configuration file <config-file-options>`, the value you enter for 
 :guilabel:`Max Time MS` value must be lower than the limit you previously 
 specified.
+
+If your aggregation operation goes over the time limit, |compass-short| raises 
+a timeout error.
 
 Steps 
 -----
@@ -44,16 +52,7 @@ Steps
       the maximum amount of time in milliseconds that an aggregation 
       pipeline can run.  
       
-      For a ``5`` second limit, enter ``5000``.
-
-      .. figure:: /images/compass/agg-builder-enter-maxtime-ms.png
-         :alt: Enter a maximum timeout value 
-
-      If your aggregation operation goes over the time limit, 
-      |compass-short| raises the following error:
-
-      .. figure:: /images/compass/agg-builder-operation-time-limit-error.png
-         :alt: Operation timeout error
+      For example, to set a ``5`` second limit, enter ``5000``.
 
 Learn More 
 ----------
@@ -63,3 +62,5 @@ Learn More
 - :ref:`config-file-options`
 
 - :ref:`compass-interface-settings`
+
+- :ref:`query-bar-max-time-ms`
