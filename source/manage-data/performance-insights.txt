@@ -26,7 +26,7 @@ development process. Starting your application with good data modeling
 practices helps prevent schema and performance issues as your
 application grows.
 
-While |compass-short| provides performance insights at any stage of
+Although |compass-short| provides performance insights at any stage of
 development, it can be difficult to make schema modifications in
 large-scale schemas that are used in production.
 
