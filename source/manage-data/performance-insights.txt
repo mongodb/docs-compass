@@ -1,8 +1,8 @@
 .. _compass-performance-insights:
 
-======================
-Data Model Suggestions
-======================
+====================
+Performance Insights
+====================
 
 .. default-domain:: mongodb
 
@@ -12,43 +12,43 @@ Data Model Suggestions
    :depth: 2
    :class: singlecol
 
-|compass| provides suggestions to improve your schema and data modeling
-practices. Following these suggestions can improve your schema design
-and application performance. 
+Performance insights show ways to improve your schema and data modeling
+practices. Use performance insights to learn best schema design
+practices and improve application performance.
 
 Use Cases
 ---------
 
-|compass-short|' data model suggestions are best followed early in your
-application development process. Starting your application with good
-data modeling practices helps prevent schema and performance issues as
-your application grows.
+Performance insights are best followed early in your application
+development process. Starting your application with good data modeling
+practices helps prevent schema and performance issues as your
+application grows.
 
-While |compass-short| can suggest data model improvements at any stage
-of development, it can be difficult to make schema modifications in
+While |compass-short| provides performance insights at any stage of
+development, it can be difficult to make schema modifications in
 large-scale schemas that are used in production.
 
-Before you implement a data model suggestion, ensure that the suggestion
-makes sense for your application. For example, if |compass-short|
-suggests creating an index, make sure that index supports queries that
-are run frequently.
+Before you modify your schema based on performance insights, ensure that
+the suggestion makes sense for your application. For example, if
+|compass-short| suggests creating an index, make sure that index
+supports queries that are run frequently.
 
 Behavior
 --------
 
-Data model suggestions are enabled automatically.
+Performance insights are enabled automatically.
 
-The suggestions made by |compass-short| are generic, and do not use
-properties specific to your schema such as database or collection names.
+Performance insights are generic, and do not use properties specific to
+your schema such as database or collection names.
 
-|compass-short| suggests schema improvements in the following scenarios:
+|compass-short| shows performance insights in the following scenarios:
 
 .. list-table::
    :header-rows: 1
    :widths: 10 10
 
    * - Scenario
-     - Suggested Improvement
+     - Performance insight
    
    * - You run a query or aggregation without an index.
      - Add an index to support the operation.
