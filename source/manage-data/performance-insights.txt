@@ -80,5 +80,5 @@ Learn More
 - To learn more about data modeling in MongoDB, see
   :ref:`manual-data-modeling-intro`.
 
-- To learn how to create effective queries for your application, see
+- To learn how to create effective indexes for your application, see
   :manual:`Indexing Strategies </applications/indexes>`.
