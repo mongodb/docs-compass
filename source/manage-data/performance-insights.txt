@@ -12,9 +12,11 @@ Performance Insights
    :depth: 2
    :class: singlecol
 
-Performance insights show ways to improve your schema and data modeling
-practices. Use performance insights to learn best schema design
-practices and improve application performance.
+When |compass| determines that your schema or queries can be improved,
+it displays a performance insight. Performance insights show ways to
+improve your schema and data modeling practices. Use performance
+insights to learn best schema design practices and improve application
+performance.
 
 Use Cases
 ---------
