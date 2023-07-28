@@ -19,14 +19,16 @@ that run in |compass|.
 About This Task 
 ---------------
 
-By default, :guilabel:`Max Time MS` is set to 60000 milliseconds, or 60 seconds. Consider 
-raising this value if you have a large collection or your operations frequently 
-time out.
+By default, :guilabel:`Max Time MS` is set to 60000 milliseconds, or 60 seconds. 
+Consider raising this value if you have a large collection or your operations 
+frequently time out. Alternatively, consider lowering the 
+:guilabel:`Max Time MS` value to quickly identify inefficient or 
+resource-intensive pipeline operations.
 
 If you already specified a ``maxTimeMS`` value in the :ref:`Compass Settings 
 panel <compass-interface-settings>`, the :ref:`command line <cli-options>`, or 
-a :ref:`configuration file <config-file-options>`, the value you enter for 
-:guilabel:`Max Time MS` value must be lower than the limit you previously 
+a :ref:`configuration file <config-file-options>`, the :guilabel:`Max Time MS` 
+that you specify for your pipeline must be lower than the limit you previously 
 specified.
 
 If your aggregation operation goes over the time limit, |compass-short| raises 
