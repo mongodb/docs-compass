@@ -64,7 +64,7 @@ Steps
       
       .. figure:: /images/compass/explain-tree.png
          :alt: Detailed Visual Tree view
-         :width: 400px
+         :width: 200px
          
    .. step:: (Optional) Select the :guilabel:`Raw Output` view. 
       
