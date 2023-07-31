@@ -24,7 +24,7 @@ tree. You can also view the explain details in raw JSON format by selecting
 the :guilabel:`Raw Output` view.
 
 The explain plan includes a :guilabel:`Query Performance Summary` with 
-information on the execution of your aggregation pipeline such as: 
+information on the execution of your query such as: 
 
 - Execution time 
 
@@ -70,3 +70,8 @@ Steps
       
       To view your full explain plan as raw JSON, select the 
       :guilabel:`Raw Output` view. 
+
+Learn More
+----------
+
+- :manual:`Analyze Query Performance </tutorial/analyze-query-plan/>`
