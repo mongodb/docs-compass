@@ -55,7 +55,7 @@ your schema such as database or collection names.
    * - You run a query or aggregation without an index.
      - Add an index to support the operation.
 
-   * - You run a pipeline that uses a :pipeline:`$lookup` pipeline
+   * - You run an aggregation pipeline that uses a :pipeline:`$lookup`
        stage.
      - Embed related data to avoid the need for a ``$lookup`` operation.
 
