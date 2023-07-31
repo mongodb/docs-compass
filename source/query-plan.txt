@@ -18,7 +18,7 @@ your query's explain plan.
 About This Task 
 ---------------
 
-On the :guilabel:`Explain` modal, you can view the explain stages as a 
+On the :guilabel:`Explain Plan` modal, you can view the explain stages as a 
 :guilabel:`Visual Tree`, where each query operation appears as a node on the 
 tree. You can also view the explain details in raw JSON format by selecting 
 the :guilabel:`Raw Output` view.
