@@ -36,7 +36,7 @@ information on the execution of your aggregation pipeline such as:
 
 .. note:: 
   
-  The :guilabel:`Explain Plan` tab is not available if you are connected
+  The :guilabel:`Explain Plan` is not available if you are connected
   to :atlas:`Data Lake </data-lake>`.
 
 Steps 
