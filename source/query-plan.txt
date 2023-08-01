@@ -48,7 +48,7 @@ Steps
    .. step:: Click the Explain button
 
       In the query bar, click the :guilabel:`Explain` button to open the 
-      :guilabel:`Explain Plan` modal.
+      modal.
       
       .. figure:: /images/compass/query-plan.png
          :figwidth: 696px
@@ -60,11 +60,14 @@ Steps
       Each query operation appears as a node on the tree.
 
       For more detailed execution information about the query operation, click 
-      the corresponding node. 
+      the corresponding node.
+
+      For example, the following explain plan provides detailed information on 
+      a query that filters for ``{ title : "Jurassic Park" }``:
       
       .. figure:: /images/compass/explain-tree.png
          :alt: Detailed Visual Tree view
-         :figwidth: 350px
+         :figwidth: 696px
          
    .. step:: (Optional) Select the :guilabel:`Raw Output` view. 
       
