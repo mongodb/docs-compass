@@ -12,7 +12,7 @@ Export Aggregation Pipeline Results
    :depth: 1
    :class: singlecol
 
-To work with or visualize your aggregation data with other external tools, you 
+To work with or visualize your aggregation data in other external tools, you 
 can export your pipeline results as a JSON or CSV file from |compass|. You can 
 export your pipeline results at any point while creating or editing your 
 pipeline.
