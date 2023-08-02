@@ -381,3 +381,4 @@ Learn More
    /agg-pipeline-builder/export-pipeline-to-language
    /agg-pipeline-builder/create-a-view
    /agg-pipeline-builder/pipeline-custom-collation
+   /agg-pipeline-builder/maxtime-ms-pipeline
