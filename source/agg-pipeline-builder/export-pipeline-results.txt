@@ -1,0 +1,64 @@
+.. _export-agg-builder-results:
+
+===================================
+Export Aggregation Pipeline Results
+===================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+To work with or visualize your aggregation data with other external tools, you 
+can export your pipeline results as a JSON or CSV file from |compass|. You can 
+export your pipeline results at any point while creating or editing your 
+pipeline.
+
+Steps 
+-----
+
+.. procedure::
+   :style: normal
+
+   .. step:: Click the Export button
+      In the top right of the aggregation pipeline builder, click the 
+      :guilabel:`Export` button to open the modal.
+      
+      .. figure:: /images/compass/agg-export.png
+         :alt: Export button on aggregation pipeline
+         :width: 696px
+
+   .. step:: Choose the appropriate file type
+      
+      Under :guilabel:`Export File Type`, select either :guilabel:`JSON` or 
+      :guilabel:`CSV`. If you select :guilabel:`JSON`, your data is exported 
+      to the target file as an array of JSON objects. 
+
+   .. step:: (Optional) Choose an advanced JSON format option 
+
+      If choose to export your data as a :guilabel:`JSON` file, you can expand 
+      the :guilabel:`Advanced JSON Format` drop-down menu and select from the 
+      following extended JSON formats: 
+
+      - Default Extended JSON 
+
+      - Relaxed Extended JSON 
+
+      - Canonical Extended JSON 
+
+      To learn more about JSON formats, see :ref:`export-data-collection`.
+
+   .. step:: Click Export
+
+      In the pop-up modal, enter a name for your export file, specify the file 
+      destination, and click :guilabel:`Select` to save your pipeline results.
+
+Learn More 
+----------
+
+- :ref:`export-data-collection`
+
+- :ref:`compass-export-pipeline`

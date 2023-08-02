@@ -123,6 +123,7 @@ After successful import, the dialog closes and
 Compass displays the collection page containing the newly imported
 documents.
 
+.. _export-data-collection:
 
 Export Data from a Collection
 -----------------------------
