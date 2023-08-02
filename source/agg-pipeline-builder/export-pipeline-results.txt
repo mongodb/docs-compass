@@ -13,7 +13,7 @@ Export Aggregation Pipeline Results
    :class: singlecol
 
 To work with or visualize your aggregation data in other external tools, you 
-can export your pipeline results as a JSON or CSV file from |compass|. You can 
+can export your pipeline results from |compass| as a JSON or CSV file. You can 
 export your pipeline results at any point while creating or editing your 
 pipeline.
 
@@ -24,6 +24,7 @@ Steps
    :style: normal
 
    .. step:: Click the Export button
+
       In the top right of the aggregation pipeline builder, click the 
       :guilabel:`Export` button to open the modal.
       
@@ -54,7 +55,7 @@ Steps
    .. step:: Click Export
 
       In the pop-up modal, enter a name for your export file, specify the file 
-      destination, and click :guilabel:`Select` to save your pipeline results.
+      destination, and click :guilabel:`Select` to export your pipeline results.
 
 Learn More 
 ----------
