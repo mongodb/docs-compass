@@ -12,9 +12,14 @@ Export Aggregation Pipeline Results
    :depth: 1
    :class: singlecol
 
-To use your aggregation data in other external tools, you can export your 
-pipeline results from |compass| as a JSON or CSV file. You can export your 
-pipeline results at any point while creating or editing your pipeline.
+To use your aggregated data in other external tools, you can export your 
+pipeline results from |compass| as a JSON or CSV file. 
+
+About This Task 
+---------------
+
+Avoid exporting to CSV files when possible. CSV files may lose type information 
+and are not suitable for backing up your data.
 
 Steps 
 -----
@@ -31,7 +36,7 @@ Steps
          :alt: Export button on aggregation pipeline
          :width: 696px
 
-   .. step:: Choose the appropriate file type
+   .. step:: Choose the file type for your export
       
       Under :guilabel:`Export File Type`, select either :guilabel:`JSON` or 
       :guilabel:`CSV`. If you select :guilabel:`JSON`, your data is exported 
@@ -43,17 +48,13 @@ Steps
       the :guilabel:`Advanced JSON Format` drop-down menu and select from the 
       following extended JSON formats: 
 
-      - Default Extended JSON 
-
-      - Relaxed Extended JSON 
-
-      - Canonical Extended JSON 
-
-      To learn more about JSON formats, see :ref:`export-data-collection`.
+      .. include:: /includes/extended-json-table.rst
 
    .. step:: Click Export
 
-      In the pop-up modal, enter a name for your export file, specify the file 
+   .. step:: Specify export destination
+
+      In the new pop-up modal, enter a name for your export file, specify the file 
       destination, and click :guilabel:`Select` to export your pipeline results.
 
 Learn More 
