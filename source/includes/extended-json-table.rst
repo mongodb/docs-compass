@@ -1,6 +1,6 @@
 .. list-table::
    :header-rows: 1
-   :widths: 30, 30, 40
+   :widths: 20, 40, 40
 
    * - JSON Format
      - Description
