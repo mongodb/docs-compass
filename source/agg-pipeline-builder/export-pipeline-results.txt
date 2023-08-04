@@ -18,8 +18,8 @@ pipeline results from |compass| as a JSON or CSV file.
 About This Task 
 ---------------
 
-Avoid exporting to CSV files when possible. CSV files may lose type information 
-and are not suitable for backing up your data.
+Avoid using CSV files exports to back up your data. CSV files may lose type 
+information and are not suitable for backing up your data.
 
 Steps 
 -----
