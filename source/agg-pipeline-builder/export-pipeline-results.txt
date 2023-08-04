@@ -15,7 +15,7 @@ Export Aggregation Pipeline Results
 To use your aggregated data in other external tools, you can export your 
 pipeline results from |compass| as a JSON or CSV file. 
 
-About This Task 
+About this Task 
 ---------------
 
 Avoid using CSV files exports to back up your data. CSV files may lose type 
