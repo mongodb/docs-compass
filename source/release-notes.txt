@@ -10,6 +10,23 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.39.1
+----------------
+
+*Released August 9, 2023*
+
+New Features:
+
+* Show insight for unbound array (:issue:`COMPASS-6836`)
+* Use modal to highlight legacy connections (:issue:`COMPASS-7072`)
+
+Bug Fixes:
+
+* Split connection storage between processes (:issue:`COMPASS-7078`)
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.39.1-beta.2...v1.39.2-beta.0;>`
+
 
 |compass| 1.39.0
 ----------------
