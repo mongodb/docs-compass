@@ -25,7 +25,7 @@ Bug Fixes:
 * Split connection storage between processes (:issue:`COMPASS-7078`)
 
 `Full Changelog available on GitHub
-<https://github.com/mongodb-js/compass/compare/v1.39.0...v1.39.01`__
+<https://github.com/mongodb-js/compass/compare/v1.39.0...v1.39.01>`__
 
 |compass| 1.39.0
 ----------------
