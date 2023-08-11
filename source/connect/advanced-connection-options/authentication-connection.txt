@@ -90,7 +90,7 @@ Procedure
       ~~~~
 
       Select :guilabel:`OIDC` if the deployment uses :manual:`OpenID Connect </core/security-oidc/>` 
-      as its authentication mechanism. 
+      as its authentication mechanism.
       
       Provide the following information:
 
