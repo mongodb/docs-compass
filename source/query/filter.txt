@@ -104,8 +104,8 @@ sample data into your MongoDB deployment, perform the following steps:
 Match Documents by a Single Condition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
          
-The following :ref:`query filter <query-bar-filter>` finds
-all documents where the value of ``name`` is "Andrea Le":
+The following query filter finds all documents where the value of
+``name`` is "Andrea Le":
 
 .. code-block:: shell
 
