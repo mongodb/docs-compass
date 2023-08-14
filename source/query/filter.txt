@@ -29,8 +29,8 @@ Set Query Filter
 
    .. example::
 
-      The following filter only returns documents which have a ``title``
-      value of ``Jurassic Park``:
+      The following filter returns documents that have a ``title`` value
+      of ``Jurassic Park``:
       
       .. code-block:: json
       
@@ -60,20 +60,20 @@ sample data to your MongoDB deployment, perform the following steps:
       [
          {
             "name": "Andrea Le",
-            "email": "andrea_le@fakegmail.com",
+            "email": "andrea_le@fake-mail.com",
             "version": 5,
             "scores": [ 85, 95, 75 ],
             "dateCreated": { "$date": "2003-03-26" }
          },
          {
-            "email": "no_name@fakegmail.com",
+            "email": "no_name@fake-mail.com",
             "version": 4,
             "scores": [ 90, 90, 70 ],
             "dateCreated": { "$date": "2001-04-15" }
          },
          {
             "name": "Greg Powell",
-            "email": "greg_powell@fakegmail.com",
+            "email": "greg_powell@fake-mail.com",
             "version": 1,
             "scores": [ 65, 75, 80 ],
             "dateCreated": { "$date": "1999-02-10" }
@@ -119,7 +119,7 @@ The query returns the following document:
    {
       "_id": { "$oid": "5e349915cebae490877d561d" },
       "name": "Andrea Le",
-      "email": "andrea_le@fakegmail.com",
+      "email": "andrea_le@fake-mail.com",
       "version": 5,
       "scores": [ 85, 95, 75 ],
       "dateCreated": { "$date": "2003-03-26" }
@@ -143,7 +143,7 @@ The query returns the following document:
    {
       "_id": { "$oid":"5a9427648b0beebeb69579cf" },
       "name": "Greg Powell",
-      "email": "greg_powell@fakegmail.com",
+      "email": "greg_powell@fake-mail.com",
       "version": 1,
       "scores": [ 65, 75, 80 ],
       "dateCreated": { "$date": "1999-02-10" }
@@ -168,7 +168,7 @@ The query returns the following documents:
    [
       {
          "_id": { "$oid":"5e349915cebae490877d561e" },
-         "email": "no_name@fakegmail.com",
+         "email": "no_name@fake-mail.com",
          "version": 4,
          "scores": [ 90, 90, 75 ],
          "dateCreated": { "$date": "2001-04-15" }
@@ -176,7 +176,7 @@ The query returns the following documents:
       {
          "_id": { "$oid":"5a9427648b0beebeb69579cf" },
          "name": "Greg Powell",
-         "email": "greg_powell@fakegmail.com",
+         "email": "greg_powell@fake-mail.com",
          "version": 1,
          "scores": [ 65, 75, 80 ],
          "dateCreated": { "$date": "1999-02-10" }
@@ -207,7 +207,7 @@ The query returns the following documents:
    [
       {
          "_id": { "$oid":"5e349915cebae490877d561e" },
-         "email": "no_name@fakegmail.com",
+         "email": "no_name@fake-mail.com",
          "version": 4,
          "scores": [ 90, 90, 75 ],
          "dateCreated": { "$date": "2001-04-15" }
@@ -215,7 +215,7 @@ The query returns the following documents:
       {
          "_id": { "$oid":"5a9427648b0beebeb69579cf" },
          "name": "Greg Powell",
-         "email": "greg_powell@fakegmail.com",
+         "email": "greg_powell@fake-mail.com",
          "version": 1,
          "scores": [ 65, 75, 80 ],
          "dateCreated": { "$date": "1999-02-10" }
@@ -248,14 +248,14 @@ the ``dateCreated`` field values are after June 22, 2000.
       {
          "_id": { "$oid": "5e349915cebae490877d561d" },
          "name": "Andrea Le",
-         "email": "andrea_le@fakegmail.com",
+         "email": "andrea_le@fake-mail.com",
          "version": 5,
          "scores": [ 85, 95, 75 ],
          "dateCreated": { "$date": "2003-03-26" }
       },
       {
          "_id": { "$oid": "5e349915cebae490877d561e" },
-         "email": "no_name@fakegmail.com",
+         "email": "no_name@fake-mail.com",
          "version": 4,
          "scores": [ 90, 90, 75 ],
          "dateCreated": { "$date": "2001-04-15" }
@@ -267,7 +267,7 @@ Match Documents by Array Conditions
          
 The following query filter uses the :query:`$elemMatch` operator
 to find all documents where at least one value in the ``scores``
-array is greater than 80 and less than ``90``:
+array is greater than ``80`` and less than ``90``:
 
 .. code-block:: shell
 
@@ -282,35 +282,10 @@ in the ``scores`` array is ``85``:
    {
       "_id": { "$oid": "5e349915cebae490877d561d" },
       "name": "Andrea Le",
-      "email": "andrea_le@fakegmail.com",
+      "email": "andrea_le@fake-mail.com",
       "version": 5,
       "scores": [ 85, 95, 75 ],
       "dateCreated": { "$date": "2003-03-26" }
-   }
-   
-Match Documents by UUID
-~~~~~~~~~~~~~~~~~~~~~~~
-            
-The following query filter finds documents where the UUID is
-"002636e1-10cd-4c8b-a9a7-01b7bfd3899c". 
-
-.. code-block:: shell
-
-   {_id: UUID('002636e1-10cd-4c8b-a9a7-01b7bfd3899c')}
-
-The query returns the following document:
-
-.. code-block:: JSON
-   :copyable: false
-
-   {
-      "_id": UUID('002636e1-10cd-4c8b-a9a7-01b7bfd3899c'),
-      "name": "Mr. Florencio Breitenberg",
-      "email": "Florencio.Breitenberg",
-      "phone": "876.349.6791 x616"
-      "website": "nelle.name",
-      "country": "Zimbabwe",
-      "age": 31
    }
 
 For more query examples, see 
