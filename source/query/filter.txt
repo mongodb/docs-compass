@@ -101,7 +101,7 @@ sample data into your MongoDB deployment, perform the following steps:
    cluster with sample data. The following example queries filter the
    sample JSON documents provided on this page, and do not work with 
 
-Match Documents on a Single Condition
+Match Documents by a Single Condition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
          
 The following :ref:`query filter <query-bar-filter>` finds
@@ -125,7 +125,7 @@ The query returns the following document:
       "dateCreated": { "$date": "2003-03-26" }
    }
 
-Match Documents on Multiple Conditions
+Match Documents by Multiple Conditions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following query filter finds all documents where ``scores`` array
