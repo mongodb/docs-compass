@@ -51,7 +51,7 @@ Examples
 --------
 
 The examples on this page use a small example dataset. To import the
-sample data to your MongoDB deployment, perform the following steps:
+sample data into your MongoDB deployment, perform the following steps:
 
 1. Copy the following documents to your clipboard:
 
@@ -87,7 +87,7 @@ sample data to your MongoDB deployment, perform the following steps:
 
 #. Click :guilabel:`Add Data` and select :guilabel:`Insert Document`.
 
-#. Set the :guilabel:`View` is set to JSON (``{}``)
+#. Set the :guilabel:`View` to JSON (``{}``).
 
 #. Paste the JSON documents from your clipboard into the modal.
 
