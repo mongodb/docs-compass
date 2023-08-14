@@ -125,8 +125,8 @@ The query returns the following document:
       "dateCreated": { "$date": "2003-03-26" }
    }
 
-Match Documents by Multiple Conditions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Match Documents by Multiple Conditions ($and)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following query filter finds all documents where ``scores`` array
 contains the value ``75``, and the ``name`` is ``Greg Powell``:
@@ -148,6 +148,39 @@ The query returns the following document:
       "scores": [ 65, 75, 80 ],
       "dateCreated": { "$date": "1999-02-10" }
    }
+
+Match Documents by Multiple Possible Conditions ($or)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following query filter uses the :query:`$or` operator to find
+documents where ``version`` is ``4``, or ``name`` is ``Andrea Le``:
+
+.. code-block:: shell
+
+   { $or: [ { version: 4 }, { name: "Andrea Le" } ] }
+
+The query returns the following documents:
+
+.. code-block:: JSON
+   :copyable: false
+
+   [
+      {
+         "_id": { "$oid": "5e349915cebae490877d561d" },
+         "name": "Andrea Le",
+         "email": "andrea_le@fake-mail.com",
+         "version": 5,
+         "scores": [ 85, 95, 75 ],
+         "dateCreated": { "$date": "2003-03-26" }
+      },
+      {
+         "_id": { "$oid":"5e349915cebae490877d561e" },
+         "email": "no_name@fake-mail.com",
+         "version": 4,
+         "scores": [ 90, 90, 75 ],
+         "dateCreated": { "$date": "2001-04-15" }
+      }
+   ]
 
 Match Documents by Exclusion
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
