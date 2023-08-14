@@ -59,24 +59,24 @@ sample data to your MongoDB deployment, perform the following steps:
 
       [
          {
-            "name":"Andrea Le",
-            "email":"andrea_le@fakegmail.com",
-            "version":5,
-            "scores":[85, 95, 75],
-            "dateCreated":{"$date":"2003-03-26"}
+            "name": "Andrea Le",
+            "email": "andrea_le@fakegmail.com",
+            "version": 5,
+            "scores": [ 85, 95, 75 ],
+            "dateCreated": { "$date": "2003-03-26" }
          },
          {
-            "email":"no_name@fakegmail.com",
-            "version":4,
-            "scores":[90, 90, 70],
-            "dateCreated":{"$date":"2001-04-15"}
+            "email": "no_name@fakegmail.com",
+            "version": 4,
+            "scores": [ 90, 90, 70 ],
+            "dateCreated": { "$date": "2001-04-15" }
          },
          {
-            "name":"Greg Powell",
-            "email":"greg_powell@fakegmail.com",
-            "version":1,
-            "scores":[65, 75, 80],
-            "dateCreated":{"$date":"1999-02-10"}
+            "name": "Greg Powell",
+            "email": "greg_powell@fakegmail.com",
+            "version": 1,
+            "scores": [ 65, 75, 80 ],
+            "dateCreated": { "$date": "1999-02-10" }
          }
       ]
 
@@ -87,8 +87,9 @@ sample data to your MongoDB deployment, perform the following steps:
 
 #. Click :guilabel:`Add Data` and select :guilabel:`Insert Document`.
 
-#. Set the :guilabel:`View` is set to JSON, or ``{}``, and paste the
-   copied JSON documents in the field.
+#. Set the :guilabel:`View` is set to JSON (``{}``)
+
+#. Paste the JSON documents from your clipboard into the modal.
 
 #. Click :guilabel:`Insert`.
 
@@ -116,16 +117,37 @@ The query returns the following document:
    :copyable: false
 
    {
-      "_id": {"$oid": "5e349915cebae490877d561d"},
-      "name":"Andrea Le",
-      "email":"andrea_le@fakegmail.com",
-      "version":5,
-      "scores":[85, 95, 75],
-      "dateCreated":{"$date":"2003-03-26"}
+      "_id": { "$oid": "5e349915cebae490877d561d" },
+      "name": "Andrea Le",
+      "email": "andrea_le@fakegmail.com",
+      "version": 5,
+      "scores": [ 85, 95, 75 ],
+      "dateCreated": { "$date": "2003-03-26" }
    }
 
 Match Documents on Multiple Conditions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following query filter finds all documents where ``scores`` array
+contains the value ``75``, and the ``name`` is ``Greg Powell``:
+
+.. code-block:: shell
+
+   { scores: 75, name: "Greg Powell" }
+
+The query returns the following document:
+
+.. code-block:: JSON
+   :copyable: false
+
+   {
+      "_id": { "$oid":"5a9427648b0beebeb69579cf" },
+      "name": "Greg Powell",
+      "email": "greg_powell@fakegmail.com",
+      "version": 1,
+      "scores": [ 65, 75, 80 ],
+      "dateCreated": { "$date": "1999-02-10" }
+   }
 
 Match Documents by Exclusion
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -145,26 +167,26 @@ The query returns the following documents:
 
    [
       {
-         "_id":{"$oid":"5e349915cebae490877d561e"},
-         "email":"no_name@fakegmail.com",
-         "version":4,
-         "scores":[90, 90, 75],
-         "dateCreated":{"$date":"2001-04-15"}
+         "_id": { "$oid":"5e349915cebae490877d561e" },
+         "email": "no_name@fakegmail.com",
+         "version": 4,
+         "scores": [ 90, 90, 75 ],
+         "dateCreated": { "$date": "2001-04-15" }
       },
       {
-         "_id":{"$oid":"5a9427648b0beebeb69579cf"},
-         "name":"Greg Powell",
-         "email":"greg_powell@fakegmail.com",
-         "version":1,
-         "scores":[65, 75, 80],
-         "dateCreated":{"$date":"1999-02-10"}
+         "_id": { "$oid":"5a9427648b0beebeb69579cf" },
+         "name": "Greg Powell",
+         "email": "greg_powell@fakegmail.com",
+         "version": 1,
+         "scores": [ 65, 75, 80 ],
+         "dateCreated": { "$date": "1999-02-10" }
       }
    ]
 
-      .. seealso::
+.. seealso::
 
-         For a complete list of logical query operators, see 
-         :manual:`Logical Query Operators</reference/operator/query-logical/>`.
+   For a complete list of logical query operators, see 
+   :manual:`Logical Query Operators</reference/operator/query-logical/>`.
 
 
 Match Documents with Comparison Operators
@@ -184,19 +206,19 @@ The query returns the following documents:
 
    [
       {
-         "_id":{"$oid":"5e349915cebae490877d561e"},
-         "email":"no_name@fakegmail.com",
-         "version":4,
-         "scores":[90, 90, 75],
-         "dateCreated":{"$date":"2001-04-15"}
+         "_id": { "$oid":"5e349915cebae490877d561e" },
+         "email": "no_name@fakegmail.com",
+         "version": 4,
+         "scores": [ 90, 90, 75 ],
+         "dateCreated": { "$date": "2001-04-15" }
       },
       {
-         "_id":{"$oid":"5a9427648b0beebeb69579cf"},
-         "name":"Greg Powell",
-         "email":"greg_powell@fakegmail.com",
-         "version":1,
-         "scores":[65, 75, 80],
-         "dateCreated":{"$date":"1999-02-10"}
+         "_id": { "$oid":"5a9427648b0beebeb69579cf" },
+         "name": "Greg Powell",
+         "email": "greg_powell@fakegmail.com",
+         "version": 1,
+         "scores": [ 65, 75, 80 ],
+         "dateCreated": { "$date": "1999-02-10" }
       }
    ]
 
@@ -224,19 +246,19 @@ the ``dateCreated`` field values are after June 22, 2000.
 
    [
       {
-         "_id": {"$oid": "5e349915cebae490877d561d"},
-         "name":"Andrea Le",
-         "email":"andrea_le@fakegmail.com",
-         "version":5,
-         "scores":[85, 95, 75],
-         "dateCreated":{"$date":"2003-03-26"}
+         "_id": { "$oid": "5e349915cebae490877d561d" },
+         "name": "Andrea Le",
+         "email": "andrea_le@fakegmail.com",
+         "version": 5,
+         "scores": [ 85, 95, 75 ],
+         "dateCreated": { "$date": "2003-03-26" }
       },
       {
-         "_id":{"$oid":"5e349915cebae490877d561e"},
-         "email":"no_name@fakegmail.com",
-         "version":4,
-         "scores":[90, 90, 75],
-         "dateCreated":{"$date":"2001-04-15"}
+         "_id": { "$oid": "5e349915cebae490877d561e" },
+         "email": "no_name@fakegmail.com",
+         "version": 4,
+         "scores": [ 90, 90, 75 ],
+         "dateCreated": { "$date": "2001-04-15" }
       }
    ]
          
@@ -258,12 +280,12 @@ in the ``scores`` array is ``85``:
    :copyable: false
 
    {
-      "_id": {"$oid": "5e349915cebae490877d561d"},
-      "name":"Andrea Le",
-      "email":"andrea_le@fakegmail.com",
-      "version":5,
-      "scores":[85, 95, 75],
-      "dateCreated":{"$date":"2003-03-26"}
+      "_id": { "$oid": "5e349915cebae490877d561d" },
+      "name": "Andrea Le",
+      "email": "andrea_le@fakegmail.com",
+      "version": 5,
+      "scores": [ 85, 95, 75 ],
+      "dateCreated": { "$date": "2003-03-26" }
    }
    
 Match Documents by UUID
@@ -283,12 +305,12 @@ The query returns the following document:
 
    {
       "_id": UUID('002636e1-10cd-4c8b-a9a7-01b7bfd3899c'),
-      "name":"Mr. Florencio Breitenberg",
-      "email":"Florencio.Breitenberg",
-      "phone":"876.349.6791 x616"
-      "website":"nelle.name",
+      "name": "Mr. Florencio Breitenberg",
+      "email": "Florencio.Breitenberg",
+      "phone": "876.349.6791 x616"
+      "website": "nelle.name",
       "country": "Zimbabwe",
-      "age":31
+      "age": 31
    }
 
 For more query examples, see 
