@@ -53,52 +53,45 @@ Examples
 The examples on this page use a small example dataset. To import the
 sample data into your MongoDB deployment, perform the following steps:
 
-.. procedure::
-   :style: normal
+1. Copy the following documents to your clipboard:
 
-   .. step:: Copy the sample documents
-      
-      Copy the following documents to your clipboard:
+   .. code-block:: JSON
 
-      .. code-block:: JSON
+      [
+         {
+            "name": "Andrea Le",
+            "email": "andrea_le@fake-mail.com",
+            "version": 5,
+            "scores": [ 85, 95, 75 ],
+            "dateCreated": { "$date": "2003-03-26" }
+         },
+         {
+            "email": "no_name@fake-mail.com",
+            "version": 4,
+            "scores": [ 90, 90, 70 ],
+            "dateCreated": { "$date": "2001-04-15" }
+         },
+         {
+            "name": "Greg Powell",
+            "email": "greg_powell@fake-mail.com",
+            "version": 1,
+            "scores": [ 65, 75, 80 ],
+            "dateCreated": { "$date": "1999-02-10" }
+         }
+      ]
 
-         [
-            {
-               "name": "Andrea Le",
-               "email": "andrea_le@fake-mail.com",
-               "version": 5,
-               "scores": [ 85, 95, 75 ],
-               "dateCreated": { "$date": "2003-03-26" }
-            },
-            {
-               "email": "no_name@fake-mail.com",
-               "version": 4,
-               "scores": [ 90, 90, 70 ],
-               "dateCreated": { "$date": "2001-04-15" }
-            },
-            {
-               "name": "Greg Powell",
-               "email": "greg_powell@fake-mail.com",
-               "version": 1,
-               "scores": [ 65, 75, 80 ],
-               "dateCreated": { "$date": "1999-02-10" }
-            }
-         ]
+#. In |compass-short|, use the left navigation panel to select the 
+   database and the collection you want to import the data to.
 
-   .. step:: Select your database and collection
-   
-      In |compass-short|, use the left navigation panel to select the 
-      database and the collection you want to import the data to.
+#. Click the :guilabel:`Documents` tab.
 
-   .. step:: Click the Documents tab
+#. Click :guilabel:`Add Data` and select :guilabel:`Insert Document`.
 
-   .. step:: Click :guilabel:`Add Data` and select :guilabel:`Insert Document`
+#. Set the :guilabel:`View` to JSON (``{}``).
 
-   .. step:: Set the :guilabel:`View` to JSON (``{}``)
+#. Paste the JSON documents from your clipboard into the modal.
 
-   .. step:: Paste the JSON documents from your clipboard into the modal
-
-   .. step:: Click :guilabel:`Insert`
+#. Click :guilabel:`Insert`.
 
 .. note::
 
