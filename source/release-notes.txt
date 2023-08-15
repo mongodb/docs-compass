@@ -17,12 +17,12 @@ Release Notes
 
 New Features:
 
-* Show insight for unbound array (:issue:`COMPASS-6836`)
-* Use modal to highlight legacy connections (:issue:`COMPASS-7072`)
+- Show insight for unbound array (:issue:`COMPASS-6836`).
+- Use modal to highlight legacy connections (:issue:`COMPASS-7072`).
 
 Bug Fixes:
 
-* Split connection storage between processes (:issue:`COMPASS-7078`)
+- Split connection storage between processes (:issue:`COMPASS-7078`).
 
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.39.0...v1.39.1>`__
