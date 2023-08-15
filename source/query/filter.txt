@@ -90,15 +90,15 @@ sample data into your MongoDB deployment, perform the following steps:
       In |compass-short|, use the left navigation panel to select the 
       database and the collection you want to import the data to.
 
-   .. step:: Click the Documents tab.
+   .. step:: Click the Documents tab
 
-   .. step:: Click :guilabel:`Add Data` and select :guilabel:`Insert Document`.
+   .. step:: Click :guilabel:`Add Data` and select :guilabel:`Insert Document`
 
-   .. step:: Set the :guilabel:`View` to JSON (``{}``).
+   .. step:: Set the :guilabel:`View` to JSON (``{}``)
 
-   .. step:: Paste the JSON documents from your clipboard into the modal.
+   .. step:: Paste the JSON documents from your clipboard into the modal
 
-   .. step:: Click :guilabel:`Insert`.
+   .. step:: Click :guilabel:`Insert`
 
 .. note::
 
