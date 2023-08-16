@@ -45,6 +45,7 @@ Procedure
       pipeline was created and displays saved views with the eye icon.
 
       .. figure:: /images/compass/view-icon.png
+         :figwidth: 450px
          :alt: View icon
 
 Learn More 
