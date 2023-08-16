@@ -12,5 +12,43 @@ Create a View from Pipeline Results
    :depth: 1
    :class: singlecol
 
-TODO: 
+To quickly access the results of an aggregation pipeline without having to 
+execute an aggregation pipeline, you can create a :ref:`view <compass-views>` 
+on |compass|. Views are read-only, so they can help keep your data secure by 
+limiting user access to a predefined set of results. 
+
+About This Task 
+---------------
+
+Creating a view does not save the aggregation pipeline itself. 
+
+Procedure
+---------
+
+.. procedure:: 
+   :style: normal
+
+   .. step:: Click the Save dropdown button
+
+      In the aggregation pipeline pane, click the :guilabel:`Save` drop-down 
+      menu and select :guilabel:`Create view`.
+
+      .. figure:: /images/compass/query-save-pipeline-as.png
+         :alt: Save drop-down menu
+
+   .. step:: Enter a name for your view
+
+   .. step:: Confirm your view creation 
+
+      Click the :guilabel:`Create` button to create your view. |compass-short| 
+      creates a view from your pipeline results in the same database where the 
+      pipeline was created and displays saved views with the eye icon.
+
+      .. figure:: /images/compass/view-icon.png
+         :alt: View icon
+
+Learn More 
+----------
+
+- :ref:`compass-views`
    
