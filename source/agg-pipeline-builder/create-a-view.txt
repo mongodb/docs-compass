@@ -44,7 +44,8 @@ Steps
 
       Click the :guilabel:`Create` button to create your view. |compass-short| 
       creates a view from your pipeline results in the same database where the 
-      pipeline was created and displays saved views with the eye icon.
+      pipeline was created and displays saved views with the :icon-fa5:`eye` 
+      icon.
 
 Learn More 
 ----------
