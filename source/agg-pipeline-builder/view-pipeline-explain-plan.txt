@@ -35,8 +35,8 @@ information on the execution of your aggregation pipeline such as:
 
 - The number of examined index keys
 
-Procedure
----------
+Steps
+-----
 
 .. procedure:: 
    :style: normal

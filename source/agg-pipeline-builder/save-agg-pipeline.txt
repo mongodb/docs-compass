@@ -23,8 +23,8 @@ Before You Begin
 To save a pipeline, you must first :ref:`create an aggregation pipeline 
 <create-agg-pipeline>`.
 
-Procedure
----------
+Steps
+-----
 
 .. include:: /includes/fact-save-pipeline.rst
 

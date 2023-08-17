@@ -24,8 +24,8 @@ If you don't already have a saved pipeline, you must first:
 
 - :ref:`Save your aggregation pipeline <save-agg-pipeline>`.
 
-Procedure
----------
+Steps
+-----
 
 .. procedure:: 
    :style: normal
