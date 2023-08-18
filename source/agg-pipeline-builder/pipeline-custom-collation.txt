@@ -15,7 +15,7 @@ Specify Custom Collation For Your Pipeline
 Use custom collation to specify language-specific rules for string comparison, 
 such as rules for letter case and accent marks, within your aggregation pipeline.
 
-About This Task 
+About this Task 
 ---------------
 
 When entering a collation document, the ``locale`` field is mandatory. Default 

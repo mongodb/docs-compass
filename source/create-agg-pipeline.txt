@@ -17,7 +17,7 @@ The Aggregation Pipeline Builder in |compass| helps you create
 :manual:`aggregation pipelines </core/aggregation-pipeline/>` to process
 documents from a collection or view and return computed results.
 
-About This Task 
+About this Task 
 ---------------
 
 |compass| provides different modes to create aggregation pipelines:
@@ -57,8 +57,8 @@ collection.
    :atlas:`full-text search</atlas-search/atlas-search-overview>` 
    on Atlas collections.
 
-Procedure
----------
+Steps
+-----
 
 To see how to create an aggregation pipeline, select the tab corresponding to 
 your chosen view mode:
@@ -371,6 +371,8 @@ Learn More
 - :ref:`save-agg-pipeline`
 
 - :ref:`view-pipeline-explain-plans`
+
+- :ref:`create-a-view`
 
 .. toctree::
    :titlesonly:
