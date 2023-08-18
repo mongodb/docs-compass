@@ -17,7 +17,7 @@ Release Notes
 
 New Features:
 
-- Show insight for unbound array (:issue:`COMPASS-6836`).
+- Adds performance insights for avoiding unbound arrays (:issue:`COMPASS-6836`).
 - Use modal to highlight legacy connections (:issue:`COMPASS-7072`).
 
 Bug Fixes:
