@@ -48,7 +48,7 @@ Steps
 
    .. step:: (Optional) Click the refresh button 
 
-      If you edit your pipeline, you must press the :icon-fa5:`repeat` button to 
+      If you edit your pipeline, you must press the :icon-fa5:`redo` button to 
       update your document count.  
 
 Learn More 
