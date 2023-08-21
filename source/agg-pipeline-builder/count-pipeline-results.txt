@@ -39,8 +39,8 @@ Steps
 
    .. step:: Click the count results button
 
-      After you run your pipeline, click :guilabel:`count results`, appears 
-      under the :guilabel:`Run` button. The button will update with the current
+      After you run your pipeline, click :guilabel:`count results`, which 
+      appears under the :guilabel:`Run` button. The button will update with the 
       count of resulting documents.
 
       .. figure:: /images/compass/agg-builder-click-count-results.png
@@ -48,8 +48,8 @@ Steps
 
    .. step:: (Optional) Click the refresh icon 
 
-      If you edit your pipeline, you must press the :icon-fa4:`refresh` button to 
-      update your document count.  
+      If you edit your pipeline, you must press the :icon-fa4:`refresh` button 
+      to update your document count.  
 
 Learn More 
 ----------
