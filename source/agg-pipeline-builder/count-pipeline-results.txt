@@ -27,9 +27,8 @@ Before You Begin
 ----------------
 
 To count result documents, you must first :ref:`create and run 
-<create-agg-pipeline>` your aggregation pipeline.
-
-You cannot count result documents while editing your pipeline.
+<create-agg-pipeline>` your aggregation pipeline. You can't count result 
+documents while editing your pipeline.
 
 Steps
 -----
