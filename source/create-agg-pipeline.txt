@@ -374,6 +374,8 @@ Learn More
 
 - :ref:`create-a-view`
 
+- :ref:`count-pipeline-results`
+
 .. toctree::
    :titlesonly:
    
@@ -382,6 +384,7 @@ Learn More
    /agg-pipeline-builder/view-pipeline-explain-plan
    /agg-pipeline-builder/export-pipeline-to-language
    /agg-pipeline-builder/create-a-view
+   /agg-pipeline-builder/count-pipeline-results
    /agg-pipeline-builder/pipeline-custom-collation
    /agg-pipeline-builder/maxtime-ms-pipeline
    /agg-pipeline-builder/export-pipeline-results
