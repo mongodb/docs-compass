@@ -46,9 +46,9 @@ Steps
       .. figure:: /images/compass/agg-builder-click-count-results.png
          :alt: Click the count results link
 
-   .. step:: (Optional) Click the refresh button 
+   .. step:: (Optional) Click the refresh icon 
 
-      If you edit your pipeline, you must press the :icon-fa5:`redo` button to 
+      If you edit your pipeline, you must press the :icon-fa4:`refresh` button to 
       update your document count.  
 
 Learn More 
