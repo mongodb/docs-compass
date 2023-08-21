@@ -19,9 +19,9 @@ You can view the number of documents outputted by your pipeline with the
 About this Task 
 ---------------
 
-When you delete or add a document, the :guilabel:`count results` value on the 
-:guilabel:`Aggregations` tab doesn't automatically update to reflect the new 
-document.
+When you delete or add a document, you must manually refresh the 
+:guilabel:`count results` value on the :guilabel:`Aggregations` tab to reflect 
+the new document count.
 
 Before You Begin 
 ----------------
@@ -40,8 +40,8 @@ Steps
    .. step:: Click the count results button
 
       After you run your pipeline, click :guilabel:`count results`, which 
-      appears under the :guilabel:`Run` button. The button will update with the 
-      count of resulting documents.
+      appears under the :guilabel:`Run` button. The :guilabel:`count results` 
+      button will update with the count of resulting documents.
 
       .. figure:: /images/compass/agg-builder-click-count-results.png
          :alt: Click the count results link
