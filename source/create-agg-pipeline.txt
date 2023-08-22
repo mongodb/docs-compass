@@ -42,7 +42,7 @@ Before You Begin
 To build an aggregation pipeline, choose a collection and click the
 :guilabel:`Aggregations` tab. |compass-short| displays a blank
 aggregation pipeline. The :guilabel:`Preview of Documents in the
-Collection` section shows 20 documents randomly sampled from the chosen
+Collection` section shows 10 documents randomly sampled from the chosen
 collection.
 
 .. note:: Atlas Search Stages
