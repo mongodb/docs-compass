@@ -14,7 +14,8 @@ Aggregation Pipeline Builder Settings
    :depth: 1
    :class: singlecol
    
-You can customize your |compass| Aggregation Pipeline Builder settings 
+You can adjust your |compass| Aggregation Pipeline Builder settings to customize 
+your aggregation experience and improve pipeline performance. 
 
 Settings
 --------
