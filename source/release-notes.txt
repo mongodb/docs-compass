@@ -13,16 +13,13 @@ Release Notes
 |compass| 1.39.1
 ----------------
 
-*Released August 9, 2023*
+*Released August 8, 2023*
 
 New Features:
 
-- Adds performance insights for avoiding unbound arrays (:issue:`COMPASS-6836`).
-- Use modal to highlight legacy connections (:issue:`COMPASS-7072`).
-
-Bug Fixes:
-
-- Split connection storage between processes (:issue:`COMPASS-7078`).
+* Updates Electron to v23.3.12 to address security vulnerabilities. The 
+  specific CVEs addressed in this update are CVE-2023-3730, CVE-2023-3732, 
+  and CVE-2023-3728.
 
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.39.0...v1.39.1>`__
