@@ -20,7 +20,7 @@ New features:
 - Show insights for unbound arrays (:issue:`COMPASS-6836`).
 - Use modal to highlight legacy connections (:issue:`COMPASS-7072`).
 - Automatically add ``{ }`` to Find queries (:issue:`COMPASS-6530`).
-- Show list of legacy connections. Legacy connections refer to connections with 
+- Show list of legacy connections. Legacy connections refer to connection 
   formats that are no longer supported beyond |compass| v1.39.0 
   (:issue:`COMPASS-7081`).
 
