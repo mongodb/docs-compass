@@ -15,6 +15,14 @@ Release Notes
 
 *Released August 22, 2023*
 
+.. important:: 
+
+    Starting in |compass| version 1.39.2, |compass-short| no longer supports  
+    migration from legacy connection files that pre-date Compass 1.31.0. If you 
+    have legacy connections in your favorites, export the connections with 
+    version 1.39.0 and convert them into the new format before 
+    updating to version 1.39.2.
+
 New features: 
 
 - Show insights for unbound arrays (:issue:`COMPASS-6836`).
