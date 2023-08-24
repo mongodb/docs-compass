@@ -18,8 +18,12 @@ Release Notes
 .. important:: 
 
     Starting in |compass| version 1.39.2, |compass-short| no longer supports  
-    migration from legacy connection files that pre-date Compass 1.31.0. If you 
-    have legacy connections in your favorites, export the connections with 
+    migration from legacy connection files that pre-date Compass 1.31.0. 
+    Legacy connections refer to an internal |compass-short| connection options 
+    format that is stored on disk and no longer supported beyond |compass| 
+    v1.39.0. 
+    
+    If you have legacy connections in your favorites, export the connections with 
     version 1.39.0 and convert them into the new format before 
     updating to version 1.39.2.
 
@@ -28,9 +32,7 @@ New features:
 - Show insights for unbound arrays (:issue:`COMPASS-6836`).
 - Use modal to highlight legacy connections (:issue:`COMPASS-7072`).
 - Automatically add ``{ }`` to Find queries (:issue:`COMPASS-6530`).
-- Show list of legacy connections. Legacy connections refer to a internal 
-  |compass-short| connection options format stored on disk that is no longer 
-  supported beyond |compass| v1.39.0 (:issue:`COMPASS-7081`).
+- Show list of legacy connections. (:issue:`COMPASS-7081`).
 
 Bug Fixes: 
 
