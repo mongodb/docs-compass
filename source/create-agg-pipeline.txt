@@ -149,8 +149,8 @@ your chosen view mode:
 
          .. step:: Open the :guilabel:`Stage Wizard` card. 
             
-            To the right of the view mode toggle, click the :guilabel:`Wizard` 
-            icon to open the :guilabel:`Stage Wizard` card.
+            To the right of the view mode toggle, click the wand icon to open 
+            the :guilabel:`Stage Wizard` card.
 
             .. figure:: /images/compass/agg-builder-stage-wizard.png
                :figwidth: 300 px
@@ -372,9 +372,17 @@ Learn More
 
 - :ref:`view-pipeline-explain-plans`
 
+- :ref:`compass-export-pipeline`
+
 - :ref:`create-a-view`
 
 - :ref:`count-pipeline-results`
+
+- :ref:`pipeline-custom-collation` 
+
+- :ref:`set-maxtime-ms-agg`
+
+- :ref:`export-agg-builder-results`
 
 - :ref:`pipeline-builder-settings`
 

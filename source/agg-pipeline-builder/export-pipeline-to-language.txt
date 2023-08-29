@@ -9,15 +9,73 @@ Export Pipeline to Specific Language
 *New in version 1.15.0*
 
 You can use the :ref:`Aggregation Pipeline Builder
-<compass-agg-builder>` to export your finished pipeline to one of the
-supported languages; Java, Node, C#, and Python 3. This feature
-facilitates formatting and exporting pipelines created in |compass| for
-use in your applications.
+<compass-agg-builder>` to export your finished pipeline to a language of your 
+choice to use in your application. |compass-short| facilitates the formatting 
+and exporting of pipelines created with Aggregation Pipeline Builder.
 
-Procedure
----------
+About this Task 
+---------------
 
-.. include:: /includes/steps/export-pipeline-to-language.rst
+You can export your pipeline to the following languages: 
+
+- Java
+- Node 
+- C#
+- Python
+- Ruby 
+- Go
+- Rust 
+- PHP
+
+Steps
+-----
+
+.. procedure::
+   :style: normal
+   
+   .. step:: Click the Export to Language button 
+
+      In the aggregation pipeline pane, click the :guilabel:`Export to Language` 
+      button to open the pipeline export card. 
+
+      .. figure:: /images/compass/agg-builder-export-dropdown.png
+         :figwidth: 720px
+         :alt: Aggregation Builder export button
+
+   .. step:: Select your desired export language 
+
+      On the right side of the card, click the drop-down menu under 
+      :guilabel:`Exported Pipeline` and select your desired programming 
+      language.
+
+      The :guilabel:`My Pipeline` pane on the left of the export card displays 
+      your pipeline in :binary:`mongosh` syntax. The 
+      :guilabel:`Exported Pipeline` pane to the right displays your pipeline in 
+      the selected programming language.
+
+      .. figure:: /images/compass/agg-builder-export-lang-select.png
+         :figwidth: 720px
+         :alt: Aggregation Builder language select
+   
+   .. step:: (Optional) Include import statements 
+
+      Click the :guilabel:`Include Import Statements` checkbox to include the 
+      required import statements for the selected programming language.
+
+   .. step:: (Optional) Include driver syntax 
+
+      Click the :guilabel:`Include Driver Syntax` checkbox to include 
+      application code for the selected programming language. If you include 
+      driver syntax, the copyable code reflects :ref:`project 
+      <query-bar-project>`, :ref:`sort <query-bar-sort>`, :ref:`maxtimems 
+      <query-bar-max-time-ms>`, :ref:`collation <query-bar-collation>`, 
+      :ref:`skip <query-bar-skip>` and :ref:`limit <query-bar-limit>` options. 
+
+   .. step:: Click :icon-fa4:`files-o`
+
+      Click the :icon-fa4:`files-o` icon at the top-right of the pipeline to 
+      copy your pipeline for the selected programming language. You can now 
+      integrate and execute your created pipeline in your application.
 
 .. seealso::
 
