@@ -40,7 +40,7 @@ Steps
 .. procedure::
    :style: normal
 
-   .. step:: Click :guilabel:`More Options`
+   .. step:: Click More Options
       
       On the :guilabel:`Aggregations` tab, click :guilabel:`More Options`
 
