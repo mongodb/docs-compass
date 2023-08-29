@@ -71,7 +71,7 @@ your chosen view mode:
       .. procedure:: 
          :style: normal
 
-         .. step:: Select the :guilabel:`Stage` view.
+         .. step:: Select the :guilabel:`Stage` view
             
             In the aggregation pipeline pane, ensure the 
             :guilabel:`{} Stages` toggle switch is selected.
@@ -80,12 +80,12 @@ your chosen view mode:
                :figwidth: 300 px
                :alt: Toggle on stage view mode 
 
-         .. step:: Add an aggregation stage. 
+         .. step:: Add an aggregation stage
             
             At the bottom of the aggregation pipeline pane, click the 
             :guilabel:`+ Add Stage` button.
             
-         .. step:: Select an aggregation pipeline stage.
+         .. step:: Select an aggregation pipeline stage
             
             On the upper-left corner of the aggregation stage card, 
             click the :guilabel:`Select` drop-down menu and select the 
@@ -93,7 +93,7 @@ your chosen view mode:
             </reference/operator/aggregation-pipeline/>` to use for the first 
             stage of the pipeline. 
 
-         .. step:: Fill in your pipeline stage. 
+         .. step:: Fill in your pipeline stage
             
             Fill in your selected stage. You can adjust the width of the 
             pipeline stage by dragging its border to the right.
@@ -111,7 +111,7 @@ your chosen view mode:
                .. figure:: /images/compass/agg-builder-exclude-stage-example.png 
                   :alt: Aggregation Builder exclude stage example
          
-         .. step:: Add additional pipeline stages.
+         .. step:: Add additional pipeline stages
             
             To add an additional pipeline stage after your last aggregation 
             stage, click :guilabel:`Add Stage`. To add an aggregation stage 
@@ -125,7 +125,7 @@ your chosen view mode:
                You can change the order of pipeline stages by dragging 
                the header of each stage card.
 
-         .. step:: Run the pipeline. 
+         .. step:: Run the pipeline
             
             At the top-right corner of the pipeline builder, click 
             :guilabel:`Run`. 
@@ -138,7 +138,7 @@ your chosen view mode:
       .. procedure::
          :style: normal
          
-         .. step:: Select the :guilabel:`Stages` view.
+         .. step:: Select the :guilabel:`Stages` view
             
             In the aggregation pipeline pane, ensure the 
             :guilabel:`{} Stages` toggle switch is selected.
@@ -147,7 +147,7 @@ your chosen view mode:
                :figwidth: 300 px
                :alt: Toggle on stage view mode 
 
-         .. step:: Open the :guilabel:`Stage Wizard` card. 
+         .. step:: Open the :guilabel:`Stage Wizard` card
             
             To the right of the view mode toggle, click the wand icon to open 
             the :guilabel:`Stage Wizard` card.
@@ -156,13 +156,13 @@ your chosen view mode:
                :figwidth: 300 px
                :alt: Click the icon to the right of the view mode toggle.
 
-         .. step:: (Optional) Search for an aggregation use case. 
+         .. step:: (Optional) Search for an aggregation use case
 
             On the :guilabel:`Stage Wizard` card, you can filter the
             use cases by searching for keywords associated with the use case or
             aggregation stage. 
 
-         .. step:: Select an aggregation pipeline stage use case.
+         .. step:: Select an aggregation pipeline stage use case
 
             On the :guilabel:`Stage Wizard` card, select a stage use 
             case for the first stage of your pipeline. You can click the stage 
@@ -185,7 +185,7 @@ your chosen view mode:
             
             - :pipeline:`$sort`
 
-         .. step:: Fill in your pipeline stage. 
+         .. step:: Fill in your pipeline stage
 
             Fill in the form for your selected stage and click 
             :guilabel:`Apply`. After you click :guilabel:`Apply`, the form will 
@@ -201,7 +201,7 @@ your chosen view mode:
                Stage Wizard can only add new stages. To edit an existing stage, 
                use Stage View Mode, Focus Mode, or Text View Mode.
 
-         .. step:: Add additional pipeline stages. 
+         .. step:: Add additional pipeline stages
 
             To add more aggregation stages to your pipeline, repeat steps 3 
             and 4 for each additional stage. 
@@ -210,7 +210,7 @@ your chosen view mode:
                You can change the order of pipeline stages by dragging the 
                header of each stage card. 
 
-         .. step:: Run the pipeline. 
+         .. step:: Run the pipeline
 
             At the top-right corner of the pipeline builder, click 
             :guilabel:`Run`. |compass-short| returns your results in the 
@@ -222,7 +222,7 @@ your chosen view mode:
       .. procedure::
          :style: normal
          
-         .. step:: Select the :guilabel:`Stages` view.
+         .. step:: Select the :guilabel:`Stages` view
             
             In the aggregation pipeline pane, ensure the 
             :guilabel:`{} Stages` toggle switch is selected.
@@ -231,13 +231,13 @@ your chosen view mode:
                :figwidth: 300 px
                :alt: Toggle on stage view mode 
 
-         .. step:: Add an aggregation stage.
+         .. step:: Add an aggregation stage
             
             If you have not already created an aggregation stage, click the 
             :guilabel:`+ Add Stage` button at the bottom of the aggregation 
             pipeline pane.
 
-         .. step:: Open Focus Mode. 
+         .. step:: Open Focus Mode
             
             On the upper-right corner of the stage card, click the 
             Focus Mode icon.
@@ -245,14 +245,14 @@ your chosen view mode:
             .. figure:: /images/compass/focus-mode-button.png 
                :alt: Select the Focus Mode button
          
-         .. step:: Select an aggregation pipeline stage.
+         .. step:: Select an aggregation pipeline stage
             
             Click the :guilabel:`Select` drop-down menu and select the 
             :manual:`aggregation pipeline stage 
             </reference/operator/aggregation-pipeline/>` to use for the first 
             stage of the pipeline. 
 
-         .. step:: Fill in your pipeline stage. 
+         .. step:: Fill in your pipeline stage 
 
             Fill in your selected  stage. |compass-short| populates the 
             :guilabel:`Stage Output` with up to ten sample output documents. 
@@ -265,7 +265,7 @@ your chosen view mode:
 
                .. include:: /includes/fact-agg-pipeline-preview-toggle.rst
 
-         .. step:: Add additional pipeline stages.
+         .. step:: Add additional pipeline stages
             
             Click the :guilabel:`Add Stage` dropdown to add additional 
             aggregation stages before or after your last aggregation stage. 
@@ -285,7 +285,7 @@ your chosen view mode:
 
               - Mac: :guilabel:`⌘ + Shift + B` 
 
-         .. step:: Navigate between stages. 
+         .. step:: Navigate between stages
             
             To navigate between different stages, select the stage you 
             want to edit from the :guilabel:`Stage` dropdown in the upper-left 
@@ -306,7 +306,7 @@ your chosen view mode:
 
               - Mac: :guilabel:`⌘ + Shift + 0` 
 
-         .. step:: Run the pipeline.
+         .. step:: Run the pipeline
             
             Click :guilabel:`x` to exit Focus Mode and select 
             :guilabel:`Run` at the top right of the pipeline builder. 
@@ -318,7 +318,7 @@ your chosen view mode:
       .. procedure::
          :style: normal
          
-         .. step:: Select the :guilabel:`Text` view.
+         .. step:: Select the :guilabel:`Text` view
             
             In the aggregation pipeline pane, click the 
             :guilabel:`</> Text` toggle switch to enable text mode for pipeline 
@@ -328,7 +328,7 @@ your chosen view mode:
                :figwidth: 300 px
                :alt: Toggle textmode on
          
-         .. step:: Enter your aggregation pipeline.
+         .. step:: Enter your aggregation pipeline
             
             Enter valid aggregation syntax in the text editor. The 
             following example pipeline limits the query results to ``4`` 
@@ -347,7 +347,7 @@ your chosen view mode:
                .. figure:: /images/compass/agg-builder-textview-expand-pipeline-preview.png
                   :alt: Pipeline Output preview
                
-         .. step:: Run the pipeline.
+         .. step:: Run the pipeline
             
             Click :guilabel:`Run` at the top right of the pipeline 
             builder. |compass-short| returns your results in the document view. 
