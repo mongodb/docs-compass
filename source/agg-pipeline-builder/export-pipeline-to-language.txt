@@ -6,8 +6,6 @@ Export Pipeline to Specific Language
 
 .. default-domain:: mongodb
 
-*New in version 1.15.0*
-
 You can use the :ref:`Aggregation Pipeline Builder
 <compass-agg-builder>` to export your finished pipeline to a language of your 
 choice to use in your application. |compass-short| facilitates the formatting 
