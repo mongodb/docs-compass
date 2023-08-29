@@ -128,9 +128,8 @@ your chosen view mode:
          .. step:: Run the pipeline
             
             At the top-right corner of the pipeline builder, click 
-            :guilabel:`Run`. 
-            
-            |compass-short| returns your results in the document view. 
+            :guilabel:`Run`. |compass-short| returns your results in the 
+            document view. 
 
    .. tab:: Stage Wizard 
       :tabid: wizard 
