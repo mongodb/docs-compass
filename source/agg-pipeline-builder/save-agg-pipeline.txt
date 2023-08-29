@@ -17,12 +17,6 @@ you load a saved pipeline, you can make edits to the pipeline stages without
 changing the original saved pipeline. You can also create a :ref:`view 
 <view-details>` from your pipeline results.
 
-Before You Begin 
-----------------
-
-To save a pipeline, you must first :ref:`create an aggregation pipeline 
-<create-agg-pipeline>`.
-
 Steps
 -----
 
