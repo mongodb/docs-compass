@@ -15,7 +15,10 @@ Release Notes
 
 *Released August 28, 2023*
 
-No user-facing changes.
+Bug Fix:
+
+- Fix compatibility issue for saved connections in older versions of
+  |compass|. (:issue:`COMPASS-7141`).
 
 
 |compass| 1.39.2
