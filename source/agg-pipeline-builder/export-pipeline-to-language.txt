@@ -77,4 +77,4 @@ Steps
 Learn More
 ----------
 
-   - :ref:`Aggregation Pipeline Builder <compass-agg-builder>`
+- :ref:`Aggregation Pipeline Builder <compass-agg-builder>`
