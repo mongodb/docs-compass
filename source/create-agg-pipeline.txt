@@ -367,23 +367,9 @@ Learn More
 
 - :manual:`Aggregation Pipeline Stages </reference/operator/aggregation-pipeline/>`
 
-- :ref:`save-agg-pipeline`
-
-- :ref:`view-pipeline-explain-plans`
+- :ref:`pipeline-builder-settings`
 
 - :ref:`compass-export-pipeline`
-
-- :ref:`create-a-view`
-
-- :ref:`count-pipeline-results`
-
-- :ref:`pipeline-custom-collation` 
-
-- :ref:`set-maxtime-ms-agg`
-
-- :ref:`export-agg-builder-results`
-
-- :ref:`pipeline-builder-settings`
 
 .. toctree::
    :titlesonly:

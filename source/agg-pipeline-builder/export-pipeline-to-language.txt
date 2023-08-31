@@ -7,23 +7,22 @@ Export Pipeline to Specific Language
 .. default-domain:: mongodb
 
 You can use the :ref:`Aggregation Pipeline Builder
-<compass-agg-builder>` to export your finished pipeline to a language of your 
-choice to use in your application. |compass-short| facilitates the formatting 
-and exporting of pipelines created with Aggregation Pipeline Builder.
+<compass-agg-builder>` to format and export finished pipelines. You can export 
+pipelines to a chosen language to use in your application.
 
 About this Task 
 ---------------
 
 You can export your pipeline to the following languages: 
 
-- Java
-- Node 
 - C#
+- Go
+- Java
+- Node
+- PHP 
 - Python
 - Ruby 
-- Go
 - Rust 
-- PHP
 
 Steps
 -----
@@ -40,7 +39,7 @@ Steps
          :figwidth: 720px
          :alt: Aggregation Builder export button
 
-   .. step:: Select your desired export language 
+   .. step:: Select your export language 
 
       On the right side of the card, click the drop-down menu under 
       :guilabel:`Exported Pipeline` and select your desired programming 
@@ -75,6 +74,7 @@ Steps
       copy your pipeline for the selected programming language. You can now 
       integrate and execute your created pipeline in your application.
 
-.. seealso::
+Learn More
+----------
 
    - :ref:`Aggregation Pipeline Builder <compass-agg-builder>`
