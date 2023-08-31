@@ -329,8 +329,11 @@ your chosen view mode:
          
          .. step:: Enter your aggregation pipeline
             
-            Enter valid aggregation syntax in the text editor. The 
-            following example pipeline limits the query results to ``4`` 
+            Type or paste an aggregation pipeline into the text editor. The text 
+            editor provides real-time linting for correct syntax and debugging 
+            information.
+            
+            For example, following pipeline limits the query results to ``4`` 
             documents.
             
             .. code-block:: javascript
