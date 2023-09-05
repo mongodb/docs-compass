@@ -1,0 +1,14 @@
+.. _prompt-natural-language-agg:
+
+==============================================
+Prompt your First Natural Language Aggregation
+==============================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+
+Prompt your First Natural Language Aggregation

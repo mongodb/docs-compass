@@ -1,0 +1,14 @@
+.. _prompt-natural-language-query:
+
+========================================
+Prompt your First Natural Language Query
+========================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+
+Prompt your First Natural Language Query
