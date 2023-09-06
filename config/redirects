@@ -8,6 +8,8 @@ raw: docs/compass/ -> ${base}/current/
 raw: docs/compass/manual/aggregation-pipeline-builder -> ${base}/current/aggregation-pipeline-builder/
 raw: docs/compass/current/query/favorite/ -> ${base}/current/query/queries/
 raw: docs/compass/current/dark-mode/ -> ${base}/current/settings/settings-reference/#settings
+raw: docs/compass/master/dark-mode/ -> ${base}/current/settings/settings-reference/#settings
 raw: docs/compass/current/config-file/config-file-options/ -> ${base}/current/settings/config-file/
+raw: docs/compass/master/config-file/config-file-options/ -> ${base}/current/settings/config-file/
 
 [master-beta]: docs/compass/${version}/query-bar -> ${base}/${version}/query/filter/
