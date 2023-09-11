@@ -4,7 +4,8 @@ title = "MongoDB Compass"
 intersphinx = [
     "https://www.mongodb.com/docs/manual/objects.inv",
     "https://www.mongodb.com/docs/database-tools/objects.inv",
-    "https://www.mongodb.com/docs/mongodb-shell/objects.inv"
+    "https://www.mongodb.com/docs/mongodb-shell/objects.inv",
+    "https://www.mongodb.com/docs/atlas/objects.inv"
 ]
 
 toc_landing_pages = [
@@ -47,6 +48,7 @@ value = """
     """
 
 [substitutions]
+atlas = "MongoDB Atlas"
 compass = "MongoDB Compass"
 compass-short = "Compass"
 sql = ":abbr:`SQL (Structured Query Language)`"

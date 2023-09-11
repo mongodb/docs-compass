@@ -10,7 +10,9 @@ Download and Install Compass
 
    |compass| doesn't support virtual desktop environments.
 
-Select your operating system:
+You can connect to your {+atlas+} deployment with |compass|.
+
+To download and install |compass|, select your operating system:
 
 .. _software-reqs:
 
