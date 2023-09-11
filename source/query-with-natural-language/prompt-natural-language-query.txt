@@ -9,7 +9,7 @@ Prompt your First Natural Language Query
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 2
+   :depth: 1
 
 You can use MongoDB Compass to generate filter documents by using the 
 natural language querying feature. Natural language querying can be used
@@ -35,14 +35,12 @@ Steps
    :style:  connected
 
    .. step:: Navigate to the Documents tab.
-     
-      Say a little more or provide additional substeps or examples.
 
       .. note:: 
      
-         Use admonitions sparingly. This note gives critical context or a tip 
-         for step completion. It could also include a link to more 
-         context or important information.
+         The MongoDB AI engine can return both filter documents and 
+         aggregations. If your prompt results in an aggregation, a popup
+         appears directing you to the :guilabel:`Aggregations` tab.
 
    .. step:: Click :guilabel:`Ask AI` button.
      
