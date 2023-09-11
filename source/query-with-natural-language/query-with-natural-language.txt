@@ -1,0 +1,23 @@
+.. _query-natural-language:
+
+===========================
+Query with Natural Language
+===========================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+
+Query with Natural Language
+
+.. toctree::
+   :titlesonly:
+
+   /query-with-natural-language/enable-natural-language-querying
+   /query-with-natural-language/prompt-natural-language-query
+   /query-with-natural-language/prompt-natural-language-aggregation
+   /query-with-natural-language/natural-language-querying-best-practices
+   /query-with-natural-language/limitations-and-considerations
