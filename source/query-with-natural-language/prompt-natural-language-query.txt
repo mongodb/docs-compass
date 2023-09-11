@@ -11,4 +11,85 @@ Prompt your First Natural Language Query
    :backlinks: none
    :depth: 2
 
-Prompt your First Natural Language Query
+You can use MongoDB Compass to generate filter documents by using the 
+natural language querying feature. Natural language querying can be used
+to generate filter documents automatically based on prompts you provide 
+to the MongoDB AI engine. Natural language querying is useful as a 
+initial starting point help write MongoDB queries. 
+
+For full details on Natural Language Querying, see 
+:ref:`query-natural-language`.
+
+About this Task
+---------------
+
+Before you Begin
+----------------
+
+You must :ref:`enable the natural language querying feature<enable-natural-language-querying>`.
+
+Steps
+-----
+
+.. procedure::
+   :style:  connected
+
+   .. step:: Navigate to the Documents tab.
+     
+      Say a little more or provide additional substeps or examples.
+
+      .. note:: 
+     
+         Use admonitions sparingly. This note gives critical context or a tip 
+         for step completion. It could also include a link to more 
+         context or important information.
+
+   .. step:: Click :guilabel:`Ask AI` button.
+     
+      The :guilabel:`Natural Language Query Bar` appears.
+
+   .. step:: Type a natural language query for your collection.
+     
+      For example using the ``movies`` collection in the sample Mflix 
+      data set, a natural language question could be:
+      ``Which movies were released in 2000?``.
+
+   .. step:: Press enter.
+     
+      A filter document is populated in the :guilabel:`Filter` bar.
+
+   .. step:: Carefully examine the filter document.
+     
+      A filter document is populated in the :guilabel:`Filter` bar.
+
+   .. step:: Click the :guilabel:`Find` button to execute the query.
+     
+      The results are populated in the documents view.
+
+Example
+-------
+
+Below are examples of prompts to help you better understand results when 
+using Natural Language Querying. For more examples and best practices, see
+:ref:`natural-language-best-practices`.
+
+
+Simple Find
+~~~~~~~~~~~
+
+Placeholder 1.
+
+Array Find
+~~~~~~~~~~
+
+Placeholder 2.
+
+Next Steps
+----------
+
+:ref:`prompt-natural-language-agg`
+
+Learn More
+----------
+
+:ref:`query-natural-language`
