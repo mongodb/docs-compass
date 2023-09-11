@@ -15,13 +15,17 @@ You can use MongoDB Compass to generate filter documents by using the
 natural language querying feature. Natural language querying can be used
 to generate filter documents automatically based on prompts you provide 
 to the MongoDB AI engine. Natural language querying is useful as a 
-initial starting point help write MongoDB queries. 
+initial starting point and can help write MongoDB queries. 
 
 For full details on Natural Language Querying, see 
 :ref:`query-natural-language`.
 
 About this Task
 ---------------
+
+The MongoDB AI engine can return both filter documents and 
+aggregations. If your prompt results in an aggregation, a popup
+appears directing you to the :guilabel:`Aggregations` tab.
 
 Before you Begin
 ----------------
@@ -36,29 +40,25 @@ Steps
 
    .. step:: Navigate to the Documents tab.
 
-      .. note:: 
-     
-         The MongoDB AI engine can return both filter documents and 
-         aggregations. If your prompt results in an aggregation, a popup
-         appears directing you to the :guilabel:`Aggregations` tab.
+   .. step:: Click the :guilabel:`Ask AI` button.
 
-   .. step:: Click :guilabel:`Ask AI` button.
-     
       The :guilabel:`Natural Language Query Bar` appears.
 
-   .. step:: Type a natural language query for your collection.
-     
+   .. step:: Type a natural language prompt for your collection.
+   
       For example using the ``movies`` collection in the sample Mflix 
-      data set, a natural language question could be:
+      data set, a natural language prompt could be:
       ``Which movies were released in 2000?``.
 
    .. step:: Press enter.
-     
+
       A filter document is populated in the :guilabel:`Filter` bar.
 
    .. step:: Carefully examine the filter document.
      
-      A filter document is populated in the :guilabel:`Filter` bar.
+      The query provided by the MongoDB AI engine is not automatically 
+      run once generated. Carefully review the syntax before you run 
+      the query.
 
    .. step:: Click the :guilabel:`Find` button to execute the query.
      
