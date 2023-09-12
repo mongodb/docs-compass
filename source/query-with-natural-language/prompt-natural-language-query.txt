@@ -17,8 +17,7 @@ filter documents based on prompts you provide to the MongoDB AI engine.
 Natural language querying serves as a helpful starting point and assists
 you in writing MongoDB queries.
 
-For more details on Natural Language Querying, see 
-:ref:`query-natural-language`.
+For more details, see :ref:`query-natural-language`.
 
 About this Task
 ---------------
@@ -50,7 +49,7 @@ Steps
    .. step:: Type a natural language prompt for your collection
 
       Enter a prompt in the :guilabel:`Natural Language Query Bar`.
-      For example, ``Which movies were released in 2000?``.
+      For example: ``Which movies were released in 2000?``.
 
    .. step:: Press enter or click :guilabel:`Generate`
 
