@@ -329,9 +329,12 @@ your chosen view mode:
          
          .. step:: Enter your aggregation pipeline
             
-            Type or paste an aggregation pipeline into the text editor. The text 
+            Enter valid aggregation syntax into the text editor. The text 
             editor provides real-time linting for correct syntax and debugging 
             information.
+
+            You can also use Text View Mode to import aggregation pipelines from 
+            plain text by typing or pasting your pipeline into the text editor.
             
             For example, following pipeline limits the query results to ``4`` 
             documents.
