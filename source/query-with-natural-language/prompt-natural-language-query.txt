@@ -49,12 +49,12 @@ Steps
 
    .. step:: Type a natural language prompt for your collection
 
-      In the :guilabel:`Natural Language Query Bar` enter a prompt
+      In the :guilabel:`Natural Language Query Bar` enter a prompt.
       For example, ``Which movies were released in 2000?``.
 
    .. step:: Press enter or click :guilabel:`Generate`
 
-      A filter document is populated in the :guilabel:`Filter` bar
+      A filter document is populated in the :guilabel:`Filter` bar.
 
    .. step:: Carefully examine the filter document
 
@@ -92,11 +92,11 @@ see :ref:`natural-language-best-practices`.
 
           {"writers": "David Mamet"}
 
-   * - ``How many movies start with the letter "G"?``
+   * - ``Which movies start with the letter "G"?``
      - .. code-block:: json
           :copyable: false
 
-          {"title": /^G/i}
+          {"title": {"$regex": "^G", "$options": "i"}}
 
 Next Steps
 ----------
