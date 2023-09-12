@@ -14,7 +14,7 @@ Compatibility
 
 .. |page-topic| replace:: sort the returned documents
 .. |link-topic-ing| replace:: sorting returned documents
-.. |atlas-url| replace:: :atlas:`Sort Query Results <https://www.mongodb.com/docs/atlas/atlas-ui/documents/#sort-query-results>`
+.. |atlas-url| replace:: :atlas:`Sort Query Results </atlas-ui/documents/#sort-query-results>`
 
 .. include:: /includes/fact-atlas-compatible.rst
 .. include:: /includes/fact-atlas-link.rst

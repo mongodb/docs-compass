@@ -1,5 +1,5 @@
 - `{+atlas+} 
-  <https://www.mongodb.com/docs/atlas?tck=docs_server>`__: The fully
+  <https://www.mongodb.com/docs/atlas>`__: The fully
   managed service for MongoDB deployments in the cloud
 - :ref:`MongoDB Enterprise <install-mdb-enterprise>`: The
   subscription-based, self-managed version of MongoDB
