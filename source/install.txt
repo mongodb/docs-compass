@@ -10,7 +10,7 @@ Download and Install Compass
 
    |compass| doesn't support virtual desktop environments.
 
-You can connect to your `{+atlas+} <https://www.mongodb.com/docs/atlas>`
+You can connect to your `{+atlas+} <https://www.mongodb.com/docs/atlas>`__
 deployment with |compass|. {+atlas+} is the fully managed service for
 MongoDB deployments in the cloud.
 
