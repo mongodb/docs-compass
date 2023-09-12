@@ -17,7 +17,7 @@ to generate filter documents automatically based on prompts you provide
 to the MongoDB AI engine. Natural language querying is useful as an 
 initial starting point and can help write MongoDB queries. 
 
-For full details on Natural Language Querying, see 
+For more details on Natural Language Querying, see 
 :ref:`query-natural-language`.
 
 About this Task
@@ -26,6 +26,9 @@ About this Task
 The MongoDB AI engine can return both filter documents and 
 aggregations. If your prompt results in an aggregation, a popup
 appears directing you to the :guilabel:`Aggregations` tab.
+
+This page uses collections from the Atlas sample dataset 
+:ref:`sample_mflix.movies <sample-mflix>`.
 
 Before you Begin
 ----------------
@@ -36,7 +39,7 @@ Steps
 -----
 
 .. procedure::
-   :style:  connected
+   :style: connected
 
    .. step:: Navigate to the Documents tab.
 
@@ -46,9 +49,8 @@ Steps
 
    .. step:: Type a natural language prompt for your collection.
    
-      For example using the ``movies`` collection in the sample Mflix 
-      data set, a natural language prompt could be:
-      ``Which movies were released in 2000?``.
+      In the :guilabel:`Natural Language Query Bar` enter a natural language
+      prompt. For example, ``Which movies were released in 2000?``.
 
    .. step:: Press enter or click :guilabel:`Generate`.
 
