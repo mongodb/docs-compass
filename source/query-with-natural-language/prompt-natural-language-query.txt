@@ -29,6 +29,8 @@ appears directing you to the :guilabel:`Aggregations` tab.
 This page uses the :ref:`sample_mflix.movies <sample-mflix>` 
 collection from the Atlas sample dataset.
 
+.. include:: /includes/fact-natural-language-query.rst
+
 Before you Begin
 ----------------
 

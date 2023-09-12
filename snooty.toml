@@ -48,6 +48,18 @@ value = """
     blog post.
     """
 
+[[banners]]
+targets = [
+    "source/query-with-natural-language/prompt-natural-language-query.txt",
+    "source/query-with-natural-language/prompt-natural-language-aggregation.txt"
+]
+variant = "tip"
+value = """
+The MongoDB Compass natural language querying feature is on a rolling 
+release schedule, with additional functionality and improvements planned 
+for release in the coming months.
+    """
+
 [substitutions]
 compass = "MongoDB Compass"
 compass-short = "Compass"
