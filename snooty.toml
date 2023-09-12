@@ -50,8 +50,8 @@ value = """
 
 [[banners]]
 targets = [
-    "source/query-with-natural-language/prompt-natural-language-query.txt",
-    "source/query-with-natural-language/prompt-natural-language-aggregation.txt"
+    "query-with-natural-language/prompt-natural-language-query.txt",
+    "query-with-natural-language/prompt-natural-language-aggregation.txt"
 ]
 variant = "tip"
 value = """
