@@ -206,14 +206,14 @@ To download and install |compass|, select your operating system:
 
 .. _compass-install:
 
+Install Compass
+---------------
+
 .. tabs-platforms::
    :hidden:
 
    .. tab::
       :tabid: macos
-
-      Install Compass
-      ---------------
 
       1. Once you have downloaded |compass-short|, double-click on
          the ``.dmg`` file to open the disk image within the macOS
@@ -246,9 +246,6 @@ To download and install |compass|, select your operating system:
 
    .. tab::
       :tabid: windows
-
-      Install Compass
-      ---------------
 
       1. Double-click the installer file.
 
