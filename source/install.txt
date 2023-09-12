@@ -6,7 +6,15 @@ Download and Install Compass
 
 .. default-domain:: mongodb
 
-Select your operating system:
+.. important:: 
+
+   |compass| doesn't support virtual desktop environments.
+
+You can connect to your `{+atlas+} <https://www.mongodb.com/docs/atlas>`__
+deployment with |compass|. {+atlas+} is the fully managed service for
+MongoDB deployments in the cloud.
+
+To download and install |compass|, select your operating system:
 
 .. _software-reqs:
 
@@ -198,14 +206,14 @@ Select your operating system:
 
 .. _compass-install:
 
+Install Compass
+---------------
+
 .. tabs-platforms::
    :hidden:
 
    .. tab::
       :tabid: macos
-
-      Install Compass
-      ---------------
 
       1. Once you have downloaded |compass-short|, double-click on
          the ``.dmg`` file to open the disk image within the macOS
@@ -238,9 +246,6 @@ Select your operating system:
 
    .. tab::
       :tabid: windows
-
-      Install Compass
-      ---------------
 
       1. Double-click the installer file.
 
