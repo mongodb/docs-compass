@@ -68,25 +68,26 @@ Example
 -------
 
 Below are examples of prompts to help you understand results when 
-using Natural Language Querying. For more examples and best practices, see
-:ref:`natural-language-best-practices`.
+using Natural Language Querying. For more examples and best practices, 
+see :ref:`natural-language-best-practices`.
+
+The follow examples use the 
+:ref:`sample_mflix.movies namespace <sample-mflix>` from the Atlas 
+sample datasets.
 
 .. list-table::
    :header-rows: 1
    :widths: 20 50 30
 
-   * - Namespace
-     - Prompt
+   * - Prompt
      - Response
 
-   * - sample_mflix.movies
-     - ``Which movies have a "PG" rating?``
+   * - ``Which movies have a "PG" rating?``
      - .. code-block:: json
           
           {"rated": "PG"}
 
-   * - sample_mflix.movies
-     - ``Which movies include a writer of "David Mamet"?``
+   * - ``Which movies include a writer of "David Mamet"?``
      - .. code-block:: json
           
           {"writers": "David Mamet"}
