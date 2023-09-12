@@ -14,7 +14,7 @@ Prompt your First Natural Language Query
 You can use MongoDB Compass to generate filter documents by using the 
 natural language querying feature. Natural language querying can be used
 to generate filter documents automatically based on prompts you provide 
-to the MongoDB AI engine. Natural language querying is useful as a 
+to the MongoDB AI engine. Natural language querying is useful as an 
 initial starting point and can help write MongoDB queries. 
 
 For full details on Natural Language Querying, see 
@@ -50,7 +50,7 @@ Steps
       data set, a natural language prompt could be:
       ``Which movies were released in 2000?``.
 
-   .. step:: Press enter.
+   .. step:: Press enter or click :guilabel:`Generate`.
 
       A filter document is populated in the :guilabel:`Filter` bar.
 
@@ -67,20 +67,35 @@ Steps
 Example
 -------
 
-Below are examples of prompts to help you better understand results when 
+Below are examples of prompts to help you understand results when 
 using Natural Language Querying. For more examples and best practices, see
 :ref:`natural-language-best-practices`.
 
+.. list-table::
+   :header-rows: 1
+   :widths: 20 50 30
 
-Simple Find
-~~~~~~~~~~~
+   * - Namespace
+     - Prompt
+     - Response
 
-Placeholder 1.
+   * - sample_mflix.movies
+     - ``Which movies have a "PG" rating?``
+     - .. code-block:: json
+          
+          {"rated": "PG"}
 
-Array Find
-~~~~~~~~~~
+   * - sample_mflix.movies
+     - ``Which movies include a writer of "David Mamet"?``
+     - .. code-block:: json
+          
+          {"writers": "David Mamet"}
 
-Placeholder 2.
+   * - sample_mflix.movies
+     - ``How many movies start with the letter "G"?``
+     - .. code-block:: json
+          
+          {"title": /^G/i}
 
 Next Steps
 ----------
