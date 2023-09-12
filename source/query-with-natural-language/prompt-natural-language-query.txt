@@ -17,8 +17,6 @@ filter documents based on prompts you provide to the MongoDB AI engine.
 Natural language querying serves as a helpful starting point and assists
 you in writing MongoDB queries.
 
-For more details, see :ref:`query-natural-language`.
-
 About this Task
 ---------------
 
