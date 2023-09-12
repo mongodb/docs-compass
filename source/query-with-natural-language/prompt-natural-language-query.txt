@@ -53,7 +53,7 @@ Steps
 
    .. step:: Press enter or click :guilabel:`Generate`
 
-      A filter document is populated in the :guilabel:`Filter` bar.
+      A filter document populates in the :guilabel:`Filter` bar.
 
    .. step:: Carefully examine the filter document
 
@@ -62,7 +62,7 @@ Steps
 
    .. step:: Click the :guilabel:`Find` button to execute the query
 
-      The results are populated in the documents view.
+      The results populate in the documents view.
 
 Example
 -------
