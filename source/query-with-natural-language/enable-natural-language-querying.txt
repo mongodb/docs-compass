@@ -9,7 +9,7 @@ Enable Natural Language Querying
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 2
+   :depth: 1
 
 You can enable the Compass :guilabel:`AI Query Generator` to help you 
 write MongoDB queries and aggregations. :guilabel:`AI Query Generator`
@@ -37,10 +37,12 @@ Steps
    .. step:: Open settings
       
       Windows / Linux:
+
       #. In the top menu bar, click :guilabel:`Edit`
          *  Alternatively use the keyboard shortcut: ``Ctrl`` + ``,``
 
       macOS:
+
       #. In the top menu bar, click :guilabel:`MongoDB Compass`
          * Alternatively use the keyboard shortcut: ``⌘`` + ``,``
 
