@@ -30,7 +30,7 @@ Steps
 .. procedure:: 
    :style: normal
 
-   .. step:: Click the folder icon.
+   .. step:: Click the folder icon
 
       In the top-left corner of the pipeline builder, click the folder icon to 
       open the drop-down menu of saved pipelines.
@@ -38,7 +38,7 @@ Steps
       .. figure:: /images/compass/saved-pipeline-icon.png
          :alt: Saved Pipeline Icon
          
-   .. step:: Select an aggregation pipeline.
+   .. step:: Select an aggregation pipeline
       
       In the drop-down menu, hover over the pipeline you want to open and 
       click :guilabel:`Open`.  
@@ -46,7 +46,7 @@ Steps
       .. figure:: /images/compass/saved-pipelines.png
          :alt: Saved Pipelines List 
          
-   .. step:: Confirm your selection. 
+   .. step:: Confirm your selection
       
       In the pop-up modal, click :guilabel:`Open Pipeline`.
 
