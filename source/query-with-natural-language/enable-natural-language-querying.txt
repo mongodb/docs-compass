@@ -41,16 +41,16 @@ Steps
          :widths: 30 50 20
 
          * - OS
-         - Description
-         - Keyboard Shortcut
+           - Description
+           - Keyboard Shortcut
 
          * - Windows / Linux
-         - In the top menu bar, click :guilabel:`Edit`
-         - ``Ctrl`` + ``,``
+           - In the top menu bar, click :guilabel:`Edit`
+           - ``Ctrl`` + ``,``
 
          * - macOS
-         - In the top menu bar, click :guilabel:`MongoDB Compass`
-         - ``⌘`` + ``,``
+           - In the top menu bar, click :guilabel:`MongoDB Compass`
+           - ``⌘`` + ``,``
 
    .. step:: Enable the :guilabel:`AI Query Generator` feature
 
