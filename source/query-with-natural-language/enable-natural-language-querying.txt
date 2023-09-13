@@ -11,4 +11,61 @@ Enable Natural Language Querying
    :backlinks: none
    :depth: 2
 
-Enable Natural Language Querying
+You can enable the Compass :guilabel:`AI Query Generator` to help you 
+write MongoDB queries and aggregations. :guilabel:`AI Query Generator`
+can help provide you a starting point for your queries and help you 
+learn how to write MQL statements.
+
+About this Task
+---------------
+
+Do not use this feature with sensitive data.
+
+Before you Begin
+----------------
+
+You must connect to an Atlas deployment to use 
+the :guilabel:`AI Query Generator`. For details on how to get a free
+Atlas account and deploy a free M0 cluster, see :ref:`atlas-getting-started`.
+
+Steps
+-----
+
+.. procedure::
+   :style:  connected
+
+   .. step:: Open settings
+      
+      Windows / Linux:
+      #. In the top menu bar, click :guilabel:`Edit`
+         *  Alternatively use the keyboard shortcut: ``Ctrl`` + ``,``
+
+      macOS:
+      #. In the top menu bar, click :guilabel:`MongoDB Compass`
+         * Alternatively use the keyboard shortcut: ``⌘`` + ``,``
+
+   .. step:: Enable the :guilabel:`AI Query Generator` feature
+
+      #. Select :guilabel:`Settings`
+      #. Select :guilabel:`Feature preview`
+      #. Click the :icon-fa5:`check-square` next to :guilabel:`AI Query Generator`
+
+   .. step:: Connect to your Atlas Account
+
+      #. Click :guilabel:`Log in with Atlas`
+      #. A browser tab displays, complete the OAuth logic procedure.
+         Once completed a :guilabel:`Logged in with Atlas account`
+         message displays in the settings pane. 
+      #. Click :guilabel:`Save`
+
+Next Steps
+----------
+
+:ref:`prompt-natural-language-query`
+
+Learn More
+----------
+
+:ref:`natural-language-limits`
+
+
