@@ -10,6 +10,193 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.39.4
+----------------
+
+*Released September 6, 2023*
+
+Bug Fixes:
+
+- Allows ``[object Object]`` as a valid string value in TypeChecker 
+  (:issue:`COMPASS-7132`).
+- Doesn't treat non-numbers in CSV headers as array indexes 
+  (:issue:`COMPASS-7157`).
+- Limits when custom paste handling is applied and uses clipboard data when 
+  auto-fixing user input (:issue:`COMPASS-7149`).
+- Updates Electron to v24.8.2 to address security vulnerabilities. This updates 
+  specifically addresses CVE-2023-4427 and CWE-119.
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.39.3...v1.39.4>`__
+
+
+|compass| 1.39.3
+----------------
+
+*Released August 28, 2023*
+
+Bug Fix:
+
+- | Fix compatibility issue for saved connections in older versions of |compass|
+  | (:issue:`COMPASS-7141`).
+
+
+|compass| 1.39.2
+----------------
+
+*Released August 22, 2023*
+
+.. note:: 
+
+   .. include:: /includes/fact-legacy-connections.rst
+
+New features: 
+
+- Show insights for unbound arrays (:issue:`COMPASS-6836`).
+- Use modal to highlight legacy connections (:issue:`COMPASS-7072`).
+- Automatically add ``{ }`` to Find queries (:issue:`COMPASS-6530`).
+- Show list of legacy connections. (:issue:`COMPASS-7081`).
+
+Bug Fixes: 
+
+- Fix error that would occur when modifying a filter in the schema tab 
+  (:issue:`COMPASS-6944`).
+- Use correct tab name for indexes & validation (:issue:`COMPASS-7022`).
+- Strip unknown preferences when loading (:issue:`COMPASS-7026`).
+- Split connection storage between processes (:issue:`COMPASS-7078`).
+- Clear drop collections input state if drop collections success 
+  (:issue:`COMPASS-7035`).
+- Allow empty optional string flags (:issue:`COMPASS-7101`).
+
+`Full Changelog available on GitHub 
+<https://github.com/mongodb-js/compass/compare/v1.39.1...v1.39.2>`__
+
+|compass| 1.39.1
+----------------
+
+*Released August 8, 2023*
+
+New Features:
+
+* Updates Electron to v23.3.12 to address security vulnerabilities. The 
+  specific CVEs addressed in this update are CVE-2023-3730, CVE-2023-3732, 
+  and CVE-2023-3728.
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.39.0...v1.39.1>`__
+
+|compass| 1.39.0
+----------------
+
+*Released July 14, 2023*
+
+New features:
+
+- Enable :ref:`proactive performance insights
+  <compass-performance-insights>` by default. Proactive performance
+  insights analyze your queries and suggest ways to improve performance.
+  (:issue:`COMPASS-7000`)
+
+Bug Fixes:
+
+- Fix issue where Compass would create an incorrect index.
+  (:issue:`COMPASS-6981`)
+- Ensure that Compass displays indexes in the correct case.
+  (:issue:`COMPASS-6510`)
+- Cap number of log files to 100. (:issue:`MONGOSH-1449`)
+- Map project to projection before emitting open-explain-plan event
+  (:issue:`COMPASS-6995`)
+- Fix issue with Windows hotkeys. (:issue:`COMPASS-6777`)
+- Handle missing execution stats in raw explain.
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.38.2...v1.39.0>`__
+
+
+|compass| 1.38.2
+----------------
+
+*Released June 30, 2023*
+
+Bug Fix:
+
+- Fix issue with projecting document size. (Reverts
+  :issue:`COMPASS-6837`)
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.38.1...v1.38.2>`__
+
+
+|compass| 1.38.1
+----------------
+
+New Features:
+
+- Auto expand object and array field types on field add (:issue:`COMPASS-6939`).
+- Show unindexed query insight in explain plan modal (:issue:`COMPASS-6933`).
+- Show array length on array fields on documents (:issue:`COMPASS-6938`).
+- Add ctrl + tab and ctrl + shift + tab hotkeys for switching tabs.
+- Enable new explain plan by default.
+- Adds insights for usage of $text and $regex in aggregation builder and
+  collection header (:issue:`COMPASS-6834`).
+- Add cues (:issue:`COMPASS-6614`).
+- Signal for bloated documents during import.
+
+`Full Changelog availble on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.38.0...v1.38.1>`__
+
+|compass| 1.38.0
+----------------
+
+*Released June 21, 2023*
+
+New Features:
+
+- OpenID Connect (OIDC) authentication (:issue:`COMPASS-6803`).
+- Stage wizard, which helps build aggregation pipelines
+  (:issue:`COMPASS-6814`).
+- Add visual tree and update summary for aggregation explain plans
+  (:issue:`COMPASS-6821` and :issue:`COMPASS-6888`).
+- Open a collection in a new tab shortcut.
+- Add performance tab indicator to state that information about certain
+  collections is missing (:issue:`COMPASS-6593`).
+- Add Atlas error message when connection fails because of IP access
+  issue (:issue:`COMPASS-6842`).
+- Show insight when query is unindexed (:issue:`COMPASS-6832`).
+- Show insight when number of collections is too high
+  (:issue:`COMPASS-6835`).
+- Add unindexed aggregation insight (:issue:`COMPASS-6833`).
+- Implement guide cue component in Compass to provide contextual user
+  interface assistance (:issue:`COMPASS-6334`).
+- Add support for hiding and unhiding indexes in the Index tab.
+
+Bug Fixes:
+
+- Add file type filters when exporting data (:issue:`COMPASS-6890`).
+- Rename "Less Options" to "Fewer Options" (:issue:`COMPASS-6774`).
+- Support dark mode for ``TypeEditor`` drop down (:issue:`COMPASS-6893`).
+- Fix execution time for aggregation explain plan
+  (:issue:`COMPASS-6496`).
+- Fix fast XML parser issue (:issue:`COMPASS-6905`).
+- Use ``enableShell`` setting to control the runtime start and stop.
+- Include ``has_sort`` in telemetry.
+- Various jQuery fixes (:issue:`COMPASS-6885`, :issue:`COMPASS-6884`,
+  :issue:`COMPASS-6883`, and :issue:`COMPASS-6882`).
+- Replace ``got`` with ``fetch`` in redirect (:issue:`COMPASS-6881`).
+- Fix redirects (:issue:`COMPASS-6880` and :issue:`COMPASS-6879`).
+- Show 1 as the page number for collections when no entries are present.
+- Select combo box option ``onBlur`` issue (:issue:`COMPASS-6511`).
+- Use ``mongodb-cloud-info`` v2 for IPv6 support in cloud metrics
+  (:issue:`COMPASS-6795`).
+- Fix editor dark mode background selection color
+  (:issue:`COMPASS-6910`).
+- Disable the autoupdater for MSI installs (Windows without Squirrel)
+  (:issue:`COMPASS-6857`).
+- Fix for ``bulkWrite`` when importing data (:issue:`COMPASS-6928`).
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.37.0...v1.38.0>`__
+
 |compass| 1.37.0
 ----------------
 
@@ -1355,7 +1542,7 @@ Bug Fixes:
 
 *Released Dec 7, 2015*
 
-:doc:`MongoDB Compass </index>` 1.0 is now available. It helps users
+MongoDB Compass 1.0 is now available. It helps users
 to visually analyze and understand their MongoDB data.
 
 1.0.1 -- Dec 18, 2015
