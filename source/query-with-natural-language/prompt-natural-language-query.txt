@@ -14,20 +14,22 @@ Prompt your First Natural Language Query
 You can use MongoDB Compass to generate filter documents using the
 natural language querying feature. This feature automatically generates 
 filter documents based on prompts you provide to the MongoDB AI engine. 
-Natural language querying serves as a helpful starting point and assists
-you in writing MongoDB queries.
+Natural language querying serves as a helpful starting point and assists 
+you in learning to write MongoDB queries.
 
 About this Task
 ---------------
 
-.. include:: /includes/fact-natural-language-query.rst
+.. note::
 
-The MongoDB AI engine can return both filter documents and 
-aggregations. If your prompt results in an aggregation, a popup
-appears directing you to the :guilabel:`Aggregations` tab.
+   .. include:: /includes/fact-natural-language-query.rst
 
-This page uses the :ref:`sample_mflix.movies <sample-mflix>` 
-collection from the Atlas sample dataset.
+- The MongoDB AI engine can return both filter documents and 
+  aggregations. If your prompt results in an aggregation, a pop-up menu
+  directs you to the :guilabel:`Aggregations` tab.
+
+- This page uses the :ref:`sample_mflix.movies <sample-mflix>` 
+  collection from the Atlas sample dataset.
 
 Before you Begin
 ----------------
@@ -40,27 +42,26 @@ Steps
 .. procedure::
    :style: connected
 
-   .. step:: Select the :guilabel:`Documents` tab
+   .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
+      
+      #. Select the :guilabel:`Documents` tab
+      #. Click the :guilabel:`Ask AI` button
 
-   .. step:: Click the :guilabel:`Ask AI` button
+      The :guilabel:`Natural Language Query Bar` displays.
 
-      The :guilabel:`Natural Language Query Bar` appears.
+   .. step:: Type a question for your collection
+      
+      Type a natural language prompt for your collection into the query 
+      bar. For example: ``Which movies were released in 2000?``
 
-   .. step:: Type a natural language prompt for your collection
+      #. Press enter or click :guilabel:`Generate`
+      #. A filter document populates in the :guilabel:`Filter` bar.
 
-      Enter a prompt in the :guilabel:`Natural Language Query Bar`.
-      For example: ``Which movies were released in 2000?``.
+   .. step:: Run the query
 
-   .. step:: Press enter or click :guilabel:`Generate`
-
-      A filter document populates in the :guilabel:`Filter` bar.
-
-   .. step:: Carefully examine the filter document
-
-      Before running the query, make sure to thoroughly 
-      review the syntax.
-
-   .. step:: Click the :guilabel:`Find` button to execute the query
+      #. Before running the query, make sure to thoroughly review the 
+         syntax in the :guilabel:`Filter` bar.
+      #. Click the :guilabel:`Find` button to execute the query
 
       The results populate in the documents view.
 

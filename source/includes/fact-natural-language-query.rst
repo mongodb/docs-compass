@@ -5,9 +5,8 @@ third party storage systems or used to train AI models.
 
 This software uses generative artificial intelligence. It is 
 experimental and may give inaccurate results. Your use of this software 
-is subject to our `Terms of Use
-<https://www.mongodb.com/legal/terms-of-use>`_
-, our `Acceptable Use Policy
-<https://www.mongodb.com/legal/acceptable-use-policy>`_
-, and our `Privacy Policy
-<https://www.mongodb.com/legal/privacy-policy>`_. 
+is subject to our:
+
+- `Terms of Use <https://www.mongodb.com/legal/terms-of-use>`_
+- `Acceptable Use Policy <https://www.mongodb.com/legal/acceptable-use-policy>`_
+- `Privacy Policy <https://www.mongodb.com/legal/privacy-policy>`_. 
