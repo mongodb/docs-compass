@@ -61,7 +61,10 @@ Steps
    .. step:: Connect to your Atlas Account
 
       #. Click :guilabel:`Log in with Atlas`
-      #. A web browser displays, complete the login procedure.
+
+         A web browser displays the Atlas login page.
+
+      #. Complete the login procedure.
 
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays in the settings pane. 
