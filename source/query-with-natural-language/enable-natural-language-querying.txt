@@ -11,10 +11,10 @@ Enable Natural Language Querying
    :backlinks: none
    :depth: 1
 
-You can enable the Compass :guilabel:`AI Query Generator` to help you 
-write MongoDB queries and aggregations. :guilabel:`AI Query Generator`
-can help provide you a starting point for your queries and help you 
-learn how to write MQL statements.
+You can enable the Compass :guilabel:`AI Query Generator` to assist you 
+in writing MongoDB queries and aggregations. The 
+:guilabel:`AI Query Generator` can provide you with a starting point 
+for your queries and help you learn how to write MQL statements.
 
 About this Task
 ---------------
