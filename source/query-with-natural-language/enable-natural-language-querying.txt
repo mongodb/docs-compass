@@ -35,16 +35,22 @@ Steps
    :style:  connected
 
    .. step:: Open settings
-      
-      Windows / Linux:
 
-      #. In the top menu bar, click :guilabel:`Edit`
-         *  Alternatively use the keyboard shortcut: ``Ctrl`` + ``,``
+      .. list-table::
+         :header-rows: 1
+         :widths: 30 50 20
 
-      macOS:
+         * - OS
+         - Description
+         - Keyboard Shortcut
 
-      #. In the top menu bar, click :guilabel:`MongoDB Compass`
-         * Alternatively use the keyboard shortcut: ``⌘`` + ``,``
+         * - Windows / Linux
+         - In the top menu bar, click :guilabel:`Edit`
+         - ``Ctrl`` + ``,``
+
+         * - macOS
+         - In the top menu bar, click :guilabel:`MongoDB Compass`
+         - ``⌘`` + ``,``
 
    .. step:: Enable the :guilabel:`AI Query Generator` feature
 
@@ -55,9 +61,11 @@ Steps
    .. step:: Connect to your Atlas Account
 
       #. Click :guilabel:`Log in with Atlas`
-      #. A browser tab displays, complete the OAuth logic procedure.
+      #. A web browser displays, complete the login procedure.
+
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays in the settings pane. 
+
       #. Click :guilabel:`Save`
 
 Next Steps
