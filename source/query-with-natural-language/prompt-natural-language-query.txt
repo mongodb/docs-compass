@@ -74,7 +74,7 @@ see :ref:`natural-language-best-practices`.
 
 .. list-table::
    :header-rows: 1
-   :widths: 50 50
+   :widths: 40 60
 
    * - Prompt
      - Response
