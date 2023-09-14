@@ -44,7 +44,7 @@ Steps
 
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
-      #. Select the :guilabel:`Documents` tab.
+      a. Select the :guilabel:`Documents` tab.
       #. Click the :guilabel:`Ask AI` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
@@ -54,12 +54,12 @@ Steps
       Type a natural language prompt for your collection into the query 
       bar. For example: ``Which movies were released in 2000?``
 
-      #. Press enter or click :guilabel:`Generate`.
+      a. Press enter or click :guilabel:`Generate`.
       #. A filter document populates in the :guilabel:`Filter` bar.
 
    .. step:: Run the query
 
-      #. Before running the query, make sure to thoroughly review the 
+      I. Before running the query, make sure to thoroughly review the 
          syntax in the :guilabel:`Filter` bar.
       #. Click the :guilabel:`Find` button to execute the query.
 
