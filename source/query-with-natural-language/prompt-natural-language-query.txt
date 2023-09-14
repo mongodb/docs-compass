@@ -44,7 +44,7 @@ Steps
 
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
-      a. Select the :guilabel:`Documents` tab.
+      I. Select the :guilabel:`Documents` tab.
       #. Click the :guilabel:`Ask AI` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
@@ -54,7 +54,7 @@ Steps
       Type a natural language prompt for your collection into the query 
       bar. For example: ``Which movies were released in 2000?``
 
-      a. Press enter or click :guilabel:`Generate`.
+      I. Press enter or click :guilabel:`Generate`.
       #. A filter document populates in the :guilabel:`Filter` bar.
 
    .. step:: Run the query
@@ -85,7 +85,7 @@ see :ref:`natural-language-best-practices`.
 
           {"rated": "PG"}
 
-   * - ``Which movies include a writer of "David Mamet"?``
+   * - ``Which movies include "David Mamet" in the writers array field?``
      - .. code-block:: json
           :copyable: false
 
