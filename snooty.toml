@@ -61,7 +61,7 @@ variant = "tip"
 value = """
     The MongoDB Compass natural language querying feature is on a rolling \ 
     release schedule, with additional functionality and improvements planned \
-    for release in the coming months. As a result, some users may \
+    for release by the end of October. As a result, some users may \
     temporarily have functionality that other users do not. \
     """
 

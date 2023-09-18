@@ -11,11 +11,10 @@ Prompt your First Natural Language Query
    :backlinks: none
    :depth: 1
 
-You can use MongoDB Compass to generate filter documents using the
-natural language querying feature. This feature automatically generates 
-filter documents based on prompts you provide to the MongoDB AI engine. 
-Natural language querying serves as a helpful starting point and assists 
-you in learning to write MongoDB queries.
+You can use MongoDB Compass to generate filter queries using natural 
+language. Compass uses AI to generate filter queries based on prompts 
+you provide. Querying with natural language can be a helpful starting 
+point and assist you in learning to write MongoDB queries.
 
 About this Task
 ---------------
@@ -24,9 +23,12 @@ About this Task
 
    .. include:: /includes/fact-natural-language-query.rst
 
-- The MongoDB AI engine can return both filter documents and 
+- You can query with natural language to create both filter queries and 
   aggregations. If your prompt results in an aggregation, a pop-up menu
   directs you to the :guilabel:`Aggregations` tab.
+
+- You can also provide natural language prompts on the 
+  :ref:`aggregations tab <prompt-natural-language-agg>`.
 
 - This page uses the :ref:`sample_mflix.movies <sample-mflix>` 
   collection from the Atlas sample dataset.
@@ -45,32 +47,39 @@ Steps
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
       I. Select the :guilabel:`Documents` tab.
-      #. Click the :guilabel:`Ask AI` button.
+      #. Click the :guilabel:`Generate query` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
 
-   .. step:: Type a question for your collection
+   .. step:: Type a question about your collection
 
       Type a natural language prompt for your collection into the query 
       bar. For example: ``Which movies were released in 2000?``
 
       I. Press enter or click :guilabel:`Generate`.
-      #. A filter document populates in the :guilabel:`Filter` bar.
+      #. A filter query populates in the :guilabel:`Filter` bar.
 
    .. step:: Run the query
 
       I. Before running the query, make sure to thoroughly review the 
-         syntax in the :guilabel:`Filter` bar.
-      #. Click the :guilabel:`Find` button to execute the query.
+         syntax in the :guilabel:`Filter` bar. Ensure the returned 
+         query has the fields and operators that match your desired use case.
+      #. Press enter or click the :guilabel:`Find` button or to execute 
+         the query.
 
       The results populate in the documents view.
+
+      .. include:: /includes/fact-natural-language-feedback.rst
+
+
+
+
 
 Example
 -------
 
 Below are examples of prompts to help you understand expected results 
-when using Natural Language Querying. For more examples and best practices, 
-see :ref:`natural-language-best-practices`.
+when using natural language prompts.
 
 .. list-table::
    :header-rows: 1
@@ -91,11 +100,11 @@ see :ref:`natural-language-best-practices`.
 
           {"writers": "David Mamet"}
 
-   * - ``Which movies start with the letter "G"?``
+   * - ``Which movies have a runtime greater than 90?``
      - .. code-block:: json
           :copyable: false
 
-          {"title": {"$regex": "^G", "$options": "i"}}
+          {"runtime": {$gt: 90}}
 
 Next Steps
 ----------
