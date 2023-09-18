@@ -40,11 +40,11 @@ Steps
            - Keyboard Shortcut
 
          * - Windows / Linux
-           - In the top menu bar, click :guilabel:`Edit`
+           - In the top menu bar, click :guilabel:`Edit`.
            - ``Ctrl`` + ``,``
 
          * - macOS
-           - In the top menu bar, click :guilabel:`MongoDB Compass`
+           - In the top menu bar, click :guilabel:`MongoDB Compass`.
            - ``⌘`` + ``,``
 
    .. step:: Enable the :guilabel:`AI Query Generator` feature
