@@ -16,11 +16,6 @@ in writing MongoDB queries and aggregations. The
 :guilabel:`AI Query Generator` can provide you with a starting point 
 for your queries and help you learn how to write MQL statements.
 
-About this Task
----------------
-
-Do not use this feature with sensitive data.
-
 Before you Begin
 ----------------
 
@@ -54,7 +49,7 @@ Steps
 
    .. step:: Enable the :guilabel:`AI Query Generator` feature
 
-      #. Select :guilabel:`Settings`
+      I. Select :guilabel:`Settings`
       #. Select :guilabel:`Feature preview`
       #. Click the :icon-fa5:`check-square` next to :guilabel:`AI Query Generator`
 
@@ -70,7 +65,11 @@ Steps
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays in the settings pane. 
 
-      #. Click :guilabel:`Save`
+   .. step:: Accept the Data Processing Agreement
+
+       I. Read the :guilabel:`Data Processing Agreement`
+       #. Click :guilabel:`Agree and continue`
+       #. Click :guilabel:`Save`
 
 Next Steps
 ----------
