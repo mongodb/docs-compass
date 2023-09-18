@@ -19,17 +19,16 @@ queries.
 About this Task
 ---------------
 
-You can alternatively enable natural language querying by clicking 
-:guilabel:`Log in to Atlas to enable` button on the 
-:guilabel:`Use natural language to generate queries and pipelines` modal. 
-This modal displays after updating to a version of Compass that 
-supports natural language querying.
+Alternatively, you can click the :guilabel:`Log in to Atlas to enable` button 
+within the :guilabel:`Use natural language to generate queries and 
+pipelines` modal. This modal displays after updating Compass to a 
+version that supports natural language querying.
 
 Before you Begin
 ----------------
 
-You must connect to an Atlas deployment to enable Compass natural 
-language querying. For details on how to get a free Atlas account and 
+To enable Compass natural language querying you must connect to an 
+Atlas deployment to. For details on how to get a free Atlas account and 
 deploy a free M0 cluster, see :ref:`atlas-getting-started`.
 
 Steps
@@ -76,7 +75,7 @@ Steps
 
       The :guilabel:`Data Processing Agreement` displays.
 
-      I. Read the :guilabel:`Data Processing Agreement`
+      #. Read the :guilabel:`Data Processing Agreement`
       #. Click :guilabel:`Agree and continue`
       #. Click :guilabel:`Save`
 
