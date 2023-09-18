@@ -59,8 +59,7 @@ Steps
 
    .. step:: Connect to your Atlas Account
 
-      I. Select :guilabel:`Settings`
-      #. Select :guilabel:`Feature preview`
+      I. Select :guilabel:`Feature preview`
       #. Click :guilabel:`Log in with Atlas`
 
          A web browser displays the
