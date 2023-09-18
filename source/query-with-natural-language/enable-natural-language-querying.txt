@@ -20,9 +20,10 @@ About this Task
 ---------------
 
 You can alternatively enable the :guilabel:`AI Query Generator` 
-when prompted by the use natural language call to action modal. This modal
-displays after updating to the latest version of Compass that supports
-natural language querying.
+by clicking :guilabel:`Log in to Atlas to enable` on the 
+:guilabel:`Use natural language to generate queries and pipelines` modal. 
+This modal displays after updating to the latest version of Compass that 
+supports natural language querying.
 
 Before you Begin
 ----------------
