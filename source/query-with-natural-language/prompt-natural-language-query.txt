@@ -71,10 +71,6 @@ Steps
 
       .. include:: /includes/fact-natural-language-feedback.rst
 
-
-
-
-
 Example
 -------
 
