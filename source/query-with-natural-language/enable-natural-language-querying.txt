@@ -68,7 +68,7 @@ Steps
       #. Complete the login procedure
 
          Once completed a :guilabel:`Logged in with Atlas account`
-         message displays in the :guilabel:`Settings` pane. 
+         message displays. 
 
    .. step:: Enable the :guilabel:`AI Query Generator` feature
 
