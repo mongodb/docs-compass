@@ -32,7 +32,6 @@ You must connect to an Atlas deployment to use
 the :guilabel:`AI Query Generator`. For details on how to get a free
 Atlas account and deploy a free M0 cluster, see :ref:`atlas-getting-started`.
 
-
 Steps
 -----
 
@@ -57,7 +56,7 @@ Steps
            - In the top menu bar, click :guilabel:`MongoDB Compass`.
            - ``⌘`` + ``,``
 
-   .. step:: Connect to your Atlas Account
+   .. step:: Connect to your Atlas account
 
       I. Select :guilabel:`Feature preview`
       #. Click :guilabel:`Log in with Atlas`
