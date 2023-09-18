@@ -74,7 +74,7 @@ Steps
       I. Click the toggle for :guilabel:`Use AI to generate queries with a 
       natural language text input on the query bar`.
 
-         The :guilabel:`Data Processing Agreement` displays.
+      The :guilabel:`Data Processing Agreement` displays.
 
       I. Read the :guilabel:`Data Processing Agreement`
       #. Click :guilabel:`Agree and continue`
