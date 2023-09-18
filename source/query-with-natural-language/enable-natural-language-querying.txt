@@ -29,7 +29,7 @@ Before you Begin
 ----------------
 
 To enable Compass natural language querying you must connect to an 
-Atlas deployment to. For details on how to get a free Atlas account and 
+Atlas deployment. For details on how to get a free Atlas account and 
 deploy a free M0 cluster, see :ref:`atlas-getting-started`.
 
 Steps
@@ -74,7 +74,7 @@ Steps
       I. Click the toggle for :guilabel:`Use AI to generate queries with a 
          natural language text input on the query bar`.
 
-      The :guilabel:`Data Processing Agreement` displays.
+         The :guilabel:`Data Processing Agreement` displays.
 
       #. Read the :guilabel:`Data Processing Agreement`
       #. Click :guilabel:`Agree and continue`
