@@ -16,12 +16,21 @@ in writing MongoDB queries and aggregations. The
 :guilabel:`AI Query Generator` can provide you with a starting point 
 for your queries and help you learn how to write MQL statements.
 
+About this Task
+---------------
+
+You can alternatively enable the :guilabel:`AI Query Generator` 
+when prompted by the use natural language call to action modal. This modal
+displays after updating to the latest version of Compass that supports
+natural language querying.
+
 Before you Begin
 ----------------
 
 You must connect to an Atlas deployment to use 
 the :guilabel:`AI Query Generator`. For details on how to get a free
 Atlas account and deploy a free M0 cluster, see :ref:`atlas-getting-started`.
+
 
 Steps
 -----
@@ -47,29 +56,30 @@ Steps
            - In the top menu bar, click :guilabel:`MongoDB Compass`.
            - ``⌘`` + ``,``
 
-   .. step:: Enable the :guilabel:`AI Query Generator` feature
+   .. step:: Connect to your Atlas Account
 
       I. Select :guilabel:`Settings`
       #. Select :guilabel:`Feature preview`
-      #. Click the :icon-fa5:`check-square` next to :guilabel:`AI Query Generator`
-
-   .. step:: Connect to your Atlas Account
-
       #. Click :guilabel:`Log in with Atlas`
 
          A web browser displays the
          `Atlas login page <https://account.mongodb.com/account/login>`_.
 
-      #. Complete the login procedure.
+      #. Complete the login procedure
 
          Once completed a :guilabel:`Logged in with Atlas account`
-         message displays in the settings pane. 
+         message displays in the :guilabel:`Settings` pane. 
 
-   .. step:: Accept the Data Processing Agreement
+   .. step:: Enable the :guilabel:`AI Query Generator` feature
 
-       I. Read the :guilabel:`Data Processing Agreement`
-       #. Click :guilabel:`Agree and continue`
-       #. Click :guilabel:`Save`
+      I. Click the toggle for :guilabel:`Use AI to generate queries with a 
+      natural language text input on the query bar`.
+
+         The :guilabel:`Data Processing Agreement` displays.
+
+      I. Read the :guilabel:`Data Processing Agreement`
+      #. Click :guilabel:`Agree and continue`
+      #. Click :guilabel:`Save`
 
 Next Steps
 ----------
