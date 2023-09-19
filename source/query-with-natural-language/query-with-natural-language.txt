@@ -22,33 +22,27 @@ Use Cases
 You may want to use Compass natural language querying to:
 
 - Ask plain text questions about your data.
-- Generate an initial query or aggregation pipeline that you 
-  can adapt to meet your data needs.
-- Learn how to write complex queries with multiple 
-  aggregation stages.
+- Create an initial query or aggregation pipeline that you can 
+  modify to suit your requirements.
+- Learn how to write complex queries with multiple aggregation stages.
 
 Behavior
 --------
 
-This section includes information you need to know before using a
-feature. It can be as long or short as appropriate. Some examples of
-technical details include:
+- Compass natural language querying is available starting in version 
+  ``1.40.x``.
 
-- Compass natural language querying is available starting in version 1.x.
+- Natural language querying utilizes `Azure Open AI 
+  <https://azure.microsoft.com/en-us/products/ai-services/openai-service>`__ 
+  as its current provider. Please note that this provider may be subject
+  to change in future releases.
 
-- Compass natural language querying uses Azure Open AI. This provider 
-  is subject to change in future releases.
-
-- Your data is not stored by any 3rd party providers. Field names, 
-  database names, and field types are used by the Azure AI service to 
-  produce queries.
+- Your data is not stored by any third-party providers. The Azure AI 
+  service utilizes field names, database names, and field types to 
+  generate queries.
 
 Get Started
 -----------
-
-Link to the most common task pages related to this concept. Linking to
-all task pages isn't necessary here. The goal of this section is to make
-sure users can easily find common related tasks.
 
 - :ref:`enable-natural-language-querying`
 - :ref:`prompt-natural-language-query`
