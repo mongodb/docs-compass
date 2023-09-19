@@ -37,10 +37,6 @@ Behavior
   as its current provider. Please note that this provider may be subject
   to change in future releases.
 
-- Your data is not stored by any third-party providers. The Azure AI 
-  service utilizes field names, database names, and field types to 
-  generate queries.
-
 Get Started
 -----------
 
