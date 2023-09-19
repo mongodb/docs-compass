@@ -4,7 +4,8 @@ title = "MongoDB Compass"
 intersphinx = [
     "https://www.mongodb.com/docs/manual/objects.inv",
     "https://www.mongodb.com/docs/database-tools/objects.inv",
-    "https://www.mongodb.com/docs/mongodb-shell/objects.inv"
+    "https://www.mongodb.com/docs/mongodb-shell/objects.inv",
+    "https://www.mongodb.com/docs/atlas/objects.inv"
 ]
 
 toc_landing_pages = [
@@ -45,6 +46,23 @@ value = """
     To learn more about the Preview please see the \
     `Queryable Encryption Preview <https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/>`__ \
     blog post.
+    """
+
+[[banners]]
+targets = [
+    "query-with-natural-language/enable-natural-language-querying.txt",
+    "query-with-natural-language/limitations-and-considerations.txt",
+    "query-with-natural-language/natural-language-querying-best-practices.txt",
+    "query-with-natural-language/prompt-natural-language-query.txt",
+    "query-with-natural-language/prompt-natural-language-aggregation.txt",
+    "query-with-natural-language/query-with-natural-language.txt"
+]
+variant = "tip"
+value = """
+    The MongoDB Compass natural language querying feature is on a rolling \ 
+    release schedule, with additional functionality and improvements planned \
+    for release by the end of October. As a result, some users may \
+    temporarily have functionality that other users do not. \
     """
 
 [substitutions]
