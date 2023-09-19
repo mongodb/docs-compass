@@ -47,7 +47,7 @@ Steps
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
       I. Select the :guilabel:`Documents` tab.
-      #. Click the :guilabel:`Generate query` button.
+      #. Click the :guilabel:`Generate` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
 
