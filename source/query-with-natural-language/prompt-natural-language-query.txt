@@ -47,7 +47,7 @@ Steps
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
       I. Select the :guilabel:`Documents` tab.
-      #. Click the :guilabel:`Generate` button.
+      #. Click the :guilabel:`Generate query` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
 
@@ -56,7 +56,7 @@ Steps
       Type a natural language prompt for your collection into the query 
       bar. For example: ``Which movies were released in 2000?``
 
-      I. Press enter or click the :guilabel:`Generate` button.
+      I. Press enter or click the :guilabel:`Generate query` button.
       #. A filter query populates in the :guilabel:`Filter` bar.
 
    .. step:: Run the query
