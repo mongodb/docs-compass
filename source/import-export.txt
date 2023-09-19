@@ -7,11 +7,11 @@ Import and Export Data
 .. default-domain:: mongodb
 
 .. facet::
-   :type: programming_language
+   :name: programming_language
    :values: json
 
 .. facet::
-  :type: genre
+  :name: genre
   :values:: tutorial
 
 .. contents:: On this page

@@ -7,7 +7,7 @@ Download and Install Compass
 .. default-domain:: mongodb
 
 .. facet::
-  :type: genre
+  :name: genre
   :values:: tutorial
 
 .. important:: 
