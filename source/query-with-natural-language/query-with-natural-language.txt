@@ -11,7 +11,67 @@ Query with Natural Language
    :backlinks: none
    :depth: 2
 
-Query with Natural Language
+You can use MongoDB Compass to generate filter queries and aggregations 
+using natural language. Compass uses AI to generate filter queries based 
+on prompts you provide. Querying with natural language can be a helpful 
+starting point and assist you in learning to write MongoDB queries.
+
+Use Cases
+---------
+
+You may want to use Compass natural language querying to:
+
+- Ask plain text questions about your data.
+- Generate an initial query or aggregation pipeline that you 
+  can adapt to meet your data needs.
+- Learn how to write complex queries with multiple 
+  aggregation stages.
+
+Behavior
+--------
+
+This section includes information you need to know before using a
+feature. It can be as long or short as appropriate. Some examples of
+technical details include:
+
+- Compass natural language querying is available starting in version 1.x.
+
+- Compass natural language querying uses Azure Open AI. This provider 
+  is subject to change in future releases.
+
+- Your data is not stored by any 3rd party providers. Field names, 
+  database names, and field types are used by the Azure AI service to 
+  produce queries.
+
+Get Started
+-----------
+
+Link to the most common task pages related to this concept. Linking to
+all task pages isn't necessary here. The goal of this section is to make
+sure users can easily find common related tasks.
+
+- :ref:`enable-natural-language-querying`
+- :ref:`prompt-natural-language-query`
+- :ref:`prompt-natural-language-agg`
+
+Details
+-------
+
+When you query your data using natural language in Compass, the text of 
+your prompts and details about your MongoDB schemas are sent to 
+Microsoft and OpenAI for processing. Your data is not stored on any 
+third party storage systems or used to train AI models. 
+
+This software uses generative artificial intelligence. It is 
+experimental and may give inaccurate results. Your use of this software 
+is subject to MongoDB's:
+
+- `Terms of Use <https://www.mongodb.com/legal/terms-of-use>`_
+- `Acceptable Use Policy <https://www.mongodb.com/legal/acceptable-use-policy>`_
+- `Privacy Policy <https://www.mongodb.com/legal/privacy-policy>`_. 
+
+Learn More
+----------
 
 .. toctree::
    :titlesonly:
