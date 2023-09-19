@@ -56,7 +56,7 @@ Steps
       Type a natural language prompt for your collection into the query 
       bar. For example: ``Which movies were released in 2000?``
 
-      I. Press enter or click :guilabel:`Generate`.
+      I. Press enter or click the :guilabel:`Generate` button.
       #. A filter query populates in the :guilabel:`Filter` bar.
 
    .. step:: Run the query
