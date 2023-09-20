@@ -11,8 +11,8 @@ Prompt your First Natural Language Query
    :backlinks: none
    :depth: 1
 
-You can use MongoDB Compass to generate filter queries using natural 
-language. Compass uses AI to generate filter queries based on prompts 
+You can use MongoDB Compass to generate queries using natural 
+language. Compass uses AI to generate queries based on prompts 
 you provide. Querying with natural language can be a helpful starting 
 point and assist you in learning to write MongoDB queries.
 
@@ -23,7 +23,7 @@ About this Task
 
    .. include:: /includes/fact-natural-language-query.rst
 
-- You can query with natural language to create both filter queries and 
+- You can query with natural language to create both queries and 
   aggregations. If your prompt results in an aggregation, a pop-up menu
   directs you to the :guilabel:`Aggregations` tab.
 

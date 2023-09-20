@@ -55,7 +55,7 @@ Steps
       example: ``How many movies have more than 3 writers 
       in the writers array?``
 
-      I. Press enter or click the :guilabel:`Generate query` button.
+      I. Press enter or click the :guilabel:`Generate` button.
       #. An aggregation pipeline populates in the :guilabel:`Pipeline` 
          bar. You can scroll down to see the syntax of each stage.
 

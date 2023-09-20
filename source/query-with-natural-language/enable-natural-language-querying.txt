@@ -29,8 +29,8 @@ button on the query bar.
 Before you Begin
 ----------------
 
-To enable the generation of queries and aggregations in Compass, you must connect to an 
-Atlas deployment. For details on how to get a free Atlas account and 
+To enable the generation of queries and aggregations in Compass, you must sign into 
+Atlas. For details on how to get a free Atlas account and 
 deploy a free M0 cluster, see :ref:`atlas-getting-started`.
 
 Steps
