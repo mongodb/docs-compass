@@ -11,7 +11,7 @@ Query with Natural Language
    :backlinks: none
    :depth: 2
 
-Query with Natural Language
+Query with Natural Language 
 
 .. toctree::
    :titlesonly:
