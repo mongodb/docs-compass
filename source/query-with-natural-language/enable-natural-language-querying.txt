@@ -12,7 +12,7 @@ Enable Natural Language Querying
    :depth: 1
 
 You can enable Compass natural language querying by toggling the 
-:guilabel:`AI Query Generator` setting. Natural language queries can 
+:guilabel:`Use Generative AI` setting. Natural language queries can 
 be a helpful starting point and assist you in learning to write MongoDB 
 queries.
 
@@ -29,7 +29,7 @@ button on the query bar.
 Before you Begin
 ----------------
 
-To enable Compass natural language querying you must connect to an 
+To enable the generation of queries and aggregations in Compass, you must connect to an 
 Atlas deployment. For details on how to get a free Atlas account and 
 deploy a free M0 cluster, see :ref:`atlas-getting-started`.
 
@@ -70,7 +70,7 @@ Steps
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays. 
 
-   .. step:: Enable the :guilabel:`AI Query Generator` feature
+   .. step:: Enable the :guilabel:`Use Generative AI` feature
 
       I. Click the toggle for :guilabel:`Use AI to generate queries with a 
          natural language text input on the query bar`.
