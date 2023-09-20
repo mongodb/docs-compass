@@ -9,7 +9,7 @@ Prompt your First Natural Language Aggregation
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 2
+   :depth: 1
 
 You can use MongoDB Compass to generate aggregation queries using natural 
 language. Compass uses AI to generate filter aggregations based on prompts 
@@ -86,75 +86,78 @@ or ``sum`` with logical conditions.
 
    * - ``Count the movies that have a release year of 1999 and have 
        countries of "USA"``
-     - .. code-block:: json
-          :copyable: false
+     - 
+      .. code-block:: json
+            :copyable: false
 
-          [
-            {
-               $match: {
-                  year: 1999,
-                  countries: "USA",
+            [
+               {
+                  $match: {
+                     year: 1999,
+                     countries: "USA",
+                  },
                },
-            },
-            {
-               $count: "total_movies",
-            }
-          ]
+               {
+                  $count: "total_movies",
+               }
+            ]
 
    * - ``Which comedy genre movie has the most awards?``
-     - .. code-block:: json
-          :copyable: false
+     - 
+      .. code-block:: json
+            :copyable: false
 
-          [
-            {
-               $match: {
-                  genres: "Comedy"
+            [
+               {
+                  $match: {
+                     genres: "Comedy"
+                  }
+               },
+               {
+                  $sort: {
+                     "awards.wins": -1,
+                     "awards.nominations": -1
+                  }
+               },
+               {
+                  $limit: 1
+               },
+               {
+                  $project: {
+                     _id: 0,
+                     title: 1,
+                     "awards.wins": 1,
+                     "awards.nominations": 1
+                  }
                }
-            },
-            {
-               $sort: {
-                  "awards.wins": -1,
-                  "awards.nominations": -1
-               }
-            },
-            {
-               $limit: 1
-            },
-            {
-               $project: {
-                  _id: 0,
-                  title: 1,
-                  "awards.wins": 1,
-                  "awards.nominations": 1
-               }
-            }
-         ]
+            ]
 
    * - ``How many movies have a tomatoes.viewer.rating greater than 4 
        and a runtime of less than 90?``
-     - .. code-block:: json
-          :copyable: false
+     - 
+      .. code-block:: json
+            :copyable: false
 
-         [
-            {
-               $match: {
-                  "tomatoes.viewer.rating": {
-                  $gt: 4,
-                  },
-                  runtime: {
-                  $lt: 90,
-                  },
-               },
-            },
-            {
-               $group: {
-                  _id: null,
-                  count: {
-                  $sum: 1,
+            [
+               {
+                  $match: {
+                     "tomatoes.viewer.rating": {
+                     $gt: 4,
+                     },
+                     runtime: {
+                     $lt: 90,
+                     },
                   },
                },
-            }
-         ]
+               {
+                  $group: {
+                     _id: null,
+                     count: {
+                     $sum: 1,
+                     },
+                  },
+               }
+            ]
 
 Next Steps
 ----------
