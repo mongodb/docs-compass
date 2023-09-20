@@ -152,7 +152,7 @@ or ``sum`` with logical conditions.
 Next Steps
 ----------
 
-:ref:`prompt-natural-language-agg`
+:ref:`prompt-natural-language-query`
 
 Learn More
 ----------
