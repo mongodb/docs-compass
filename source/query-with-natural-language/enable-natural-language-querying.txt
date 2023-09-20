@@ -72,7 +72,7 @@ Steps
 
    .. step:: Enable the :guilabel:`Use Generative AI` feature
 
-      #. The :guilabel:`Data Processing Agreement` displays
+      I. The :guilabel:`Data Processing Agreement` displays
       #. Read the :guilabel:`Data Processing Agreement`
       #. Click :guilabel:`Agree and continue`
       #. Click :guilabel:`Save`
