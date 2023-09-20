@@ -84,8 +84,7 @@ or ``sum`` with logical conditions.
    * - Prompt
      - Response
 
-   * -  |
-      ``Count the movies that have a release year of 1999 and have countries of "USA"``
+   * - ``Count the movies that have a release year of 1999``
      - 
       .. code-block:: json
             :copyable: false
@@ -93,8 +92,7 @@ or ``sum`` with logical conditions.
             [
                {
                   $match: {
-                     year: 1999,
-                     countries: "USA",
+                     year: 1999
                   },
                },
                {
@@ -102,8 +100,7 @@ or ``sum`` with logical conditions.
                }
             ]
 
-   * - |
-      ``Which comedy genre movie has the most awards?``
+   * - ``Which comedy genre movie has the most awards?``
      - 
       .. code-block:: json
             :copyable: false
@@ -133,30 +130,22 @@ or ``sum`` with logical conditions.
                }
             ]
 
-   * - | 
-      ``How many movies have a tomatoes.viewer.rating greater than 4 and a runtime of less than 90?``
+   * - ``How many movies have a imdb.rating > 4``
      - 
       .. code-block:: json
             :copyable: false
 
-            [
+           [
                {
                   $match: {
-                     "tomatoes.viewer.rating": {
-                     $gt: 4,
-                     },
-                     runtime: {
-                     $lt: 90,
-                     },
-                  },
+                     "imdb.rating": { $gt: 4 }
+                  }
                },
                {
                   $group: {
                      _id: null,
-                     count: {
-                     $sum: 1,
-                     },
-                  },
+                     count: { $sum: 1 }
+                  }
                }
             ]
 
