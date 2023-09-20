@@ -68,11 +68,11 @@ Steps
       .. warning::
 
          Aggregation pipelines can contain operators such as 
-         :pipeline:`$merge` and :pipeline:`$replaceAll` that can 
+         :pipeline:`$merge` and :expression:`$replaceAll` that can 
          modify your collection's data.
 
-      #. Press enter or click the :guilabel:`Run` button to execute 
-         the pipeline.
+      II. Press enter or click the :guilabel:`Run` button to execute 
+          the pipeline.
 
       The results populate in the aggregations view.
 
