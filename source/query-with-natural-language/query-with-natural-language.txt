@@ -11,10 +11,9 @@ Query with Natural Language
    :backlinks: none
    :depth: 2
 
-You can use MongoDB Compass to generate filter queries and aggregations 
-using natural language. Compass uses AI to generate filter queries based 
-on prompts you provide. Querying with natural language can be a helpful 
-starting point and assist you in learning to write MongoDB queries.
+You can use MongoDB Compass to ask natural language questions about your
+data. Compass uses AI to generate filter queries and aggregations based 
+on the prompts you provide.
 
 Use Cases
 ---------
@@ -34,8 +33,8 @@ Behavior
 
 - Natural language querying utilizes `Azure Open AI 
   <https://azure.microsoft.com/en-us/products/ai-services/openai-service>`__ 
-  as its current provider. Please note that this provider may be subject
-  to change in future releases.
+  as its current provider. This provider may be subject to change in 
+  future releases.
 
 Get Started
 -----------
