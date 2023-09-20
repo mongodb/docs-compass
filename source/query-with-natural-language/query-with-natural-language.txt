@@ -18,7 +18,7 @@ on the prompts you provide.
 Use Cases
 ---------
 
-You may want to use Compass natural language querying to:
+You may want to use natural language to query in Compass to:
 
 - Ask plain text questions about your data.
 - Create an initial query or aggregation pipeline that you can 
@@ -35,6 +35,11 @@ Behavior
   <https://azure.microsoft.com/en-us/products/ai-services/openai-service>`__ 
   as its current provider. This provider may be subject to change in 
   the future.
+
+- The MongoDB Compass natural language querying feature is on a rolling 
+  release schedule, with additional functionality and improvements planned 
+  for release by the end of October. As a result, some users may 
+  temporarily have functionality that other users do not. 
 
 Get Started
 -----------

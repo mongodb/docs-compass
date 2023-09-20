@@ -23,8 +23,8 @@ Alternatively, you can enable natural language querying by clicking the
 :guilabel:`Log in to Atlas to enable` button within the 
 :guilabel:`Use natural language to generate queries and pipelines` modal. 
 This modal displays after updating Compass to a version that supports 
-natural language querying and clicking the :guilabel:`Generate` 
-button on the query bar.
+natural language querying (1.4+) and clicking the :guilabel:`Generate Query`
+or :guilabel:`Generate Aggregation` button on the query bar.
 
 Before you Begin
 ----------------

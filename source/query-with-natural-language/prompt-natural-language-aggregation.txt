@@ -64,10 +64,17 @@ Steps
       I. Before running the query, make sure to thoroughly review the 
          syntax of each stage. Ensure the returned pipeline has the 
          fields and stages that match your desired use case.
+      
+      .. warning::
+
+         Aggregation pipelines can contain operators such as 
+         :pipeline:`$merge` and :pipeline:`$replaceAll` that can 
+         modify your collection's data.
+
       #. Press enter or click the :guilabel:`Run` button to execute 
          the pipeline.
 
-      The results populate in the documents view.
+      The results populate in the aggregations view.
 
       .. include:: /includes/fact-natural-language-feedback.rst
 
