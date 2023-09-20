@@ -87,67 +87,67 @@ or ``sum`` with logical conditions.
    * - ``Count the movies that have a release year of 1999``
      - 
       .. code-block:: json
-            :copyable: false
+         :copyable: false
 
-            [
-               {
-                  $match: {
-                     year: 1999
-                  },
+         [
+            {
+               $match: {
+                  year: 1999
                },
-               {
-                  $count: "total_movies",
-               }
-            ]
+            },
+            {
+               $count: "total_movies",
+            }
+         ]
 
    * - ``Which comedy genre movie has the most awards?``
      - 
       .. code-block:: json
-            :copyable: false
+         :copyable: false
 
-            [
-               {
-                  $match: {
-                     genres: "Comedy"
-                  }
-               },
-               {
-                  $sort: {
-                     "awards.wins": -1,
-                     "awards.nominations": -1
-                  }
-               },
-               {
-                  $limit: 1
-               },
-               {
-                  $project: {
-                     _id: 0,
-                     title: 1,
-                     "awards.wins": 1,
-                     "awards.nominations": 1
-                  }
+         [
+            {
+               $match: {
+                  genres: "Comedy"
                }
-            ]
+            },
+            {
+               $sort: {
+                  "awards.wins": -1,
+                  "awards.nominations": -1
+               }
+            },
+            {
+               $limit: 1
+            },
+            {
+               $project: {
+                  _id: 0,
+                  title: 1,
+                  "awards.wins": 1,
+                  "awards.nominations": 1
+               }
+            }
+         ]
 
    * - ``How many movies have a imdb.rating > 4?``
      - 
       .. code-block:: json
-            :copyable: false
+         :copyable: false
 
-           [
-               {
-                  $match: {
-                     "imdb.rating": { $gt: 4 }
-                  }
-               },
-               {
-                  $group: {
-                     _id: null,
-                     count: { $sum: 1 }
-                  }
+         [
+            {
+               $match: {
+                  "imdb.rating": { $gt: 4 }
                }
-            ]
+            },
+            {
+               $group: {
+                  _id: null,
+                  count: { $sum: 1 }
+               }
+            }
+         ]
 
 Next Steps
 ----------
