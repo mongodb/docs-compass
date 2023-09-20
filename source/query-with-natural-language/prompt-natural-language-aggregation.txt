@@ -84,8 +84,8 @@ or ``sum`` with logical conditions.
    * - Prompt
      - Response
 
-   * - Count the movies that have a release year of 1999 and have 
-       countries of "USA"
+   * -  ``Count the movies that have a release year of 1999 and have 
+       countries of "USA"``
      - 
       .. code-block:: json
             :copyable: false
@@ -102,7 +102,7 @@ or ``sum`` with logical conditions.
                }
             ]
 
-   * - Which comedy genre movie has the most awards?
+   * -  ``Which comedy genre movie has the most awards?``
      - 
       .. code-block:: json
             :copyable: false
@@ -132,8 +132,8 @@ or ``sum`` with logical conditions.
                }
             ]
 
-   * - How many movies have a ``tomatoes.viewer.rating`` greater than 4 and 
-       a runtime of less than 90?
+   * -  ``How many movies have a tomatoes.viewer.rating`` greater than 4 and 
+       a runtime of less than 90?``
      - 
       .. code-block:: json
             :copyable: false
