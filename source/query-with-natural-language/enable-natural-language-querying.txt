@@ -9,6 +9,82 @@ Enable Natural Language Querying
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 2
+   :depth: 1
 
-Enable Natural Language Querying
+You can enable Compass natural language querying by toggling the 
+:guilabel:`Use Generative AI` setting. Natural language queries can 
+be a helpful starting point and assist you in learning to write MongoDB 
+queries.
+
+About this Task
+---------------
+
+Alternatively, you can enable natural language querying by clicking the 
+:guilabel:`Log in to Atlas to enable` button within the 
+:guilabel:`Use natural language to generate queries and pipelines` modal. 
+This modal displays after updating Compass to a version that supports 
+natural language querying and clicking the :guilabel:`Generate` 
+button on the query bar.
+
+Before you Begin
+----------------
+
+To enable the generation of queries and aggregations in Compass, you must connect to an 
+Atlas deployment. For details on how to get a free Atlas account and 
+deploy a free M0 cluster, see :ref:`atlas-getting-started`.
+
+Steps
+-----
+
+.. procedure::
+   :style:  connected
+
+   .. step:: Open settings
+
+      .. list-table::
+         :header-rows: 1
+         :widths: 30 50 20
+
+         * - Operating System
+           - Description
+           - Keyboard Shortcut
+
+         * - Windows / Linux
+           - In the top menu bar, click :guilabel:`Edit`.
+           - ``Ctrl`` + ``,``
+
+         * - macOS
+           - In the top menu bar, click :guilabel:`MongoDB Compass`.
+           - ``⌘`` + ``,``
+
+   .. step:: Connect to your Atlas account
+
+      I. Select :guilabel:`Feature preview`
+      #. Click :guilabel:`Log in with Atlas`
+
+         A web browser displays the
+         `Atlas login page <https://account.mongodb.com/account/login>`_.
+
+      #. Complete the login procedure
+
+         Once completed a :guilabel:`Logged in with Atlas account`
+         message displays. 
+
+   .. step:: Enable the :guilabel:`Use Generative AI` feature
+
+      I. The :guilabel:`Data Processing Agreement` displays
+      #. Read the :guilabel:`Data Processing Agreement`
+      #. Click :guilabel:`Agree and continue`
+      #. Click :guilabel:`Save`
+
+Next Steps
+----------
+
+:ref:`prompt-natural-language-query`
+
+Learn More
+----------
+
+:ref:`natural-language-limits`
+
+
