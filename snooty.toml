@@ -59,10 +59,13 @@ targets = [
 ]
 variant = "tip"
 value = """
-    The MongoDB Compass natural language querying feature is on a rolling \ 
-    release schedule, with additional functionality and improvements planned \
-    for release by the end of October. As a result, some users may \
-    temporarily have functionality that other users do not. \
+    The MongoDB Compass natural language querying feature is currently \
+    available as a **Public Preview** offering. The product, its features, \ 
+    and the corresponding documentation may change during the Preview stage.\
+    This feature is on a rolling release schedule, with additional \
+    functionality and improvements planned for release by the end of \
+    October. As a result, some users may temporarily have functionality \
+    that other users do not. \
     """
 
 [substitutions]
