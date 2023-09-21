@@ -24,8 +24,9 @@ About this Task
    .. include:: /includes/fact-natural-language-query.rst
 
 - You can query with natural language to create both queries and 
-  aggregations. If your prompt results in an aggregation, a pop-up menu
-  directs you to the :guilabel:`Aggregations` tab.
+  aggregations. If your prompt results in an aggregation, you will be 
+  automatically redirected to the :guilabel:`Aggregations` tab and 
+  a pop-up displays indicating your prompt requires aggregation stages.
 
 - You can also provide natural language prompts on the 
   :ref:`aggregations tab <prompt-natural-language-agg>`.
