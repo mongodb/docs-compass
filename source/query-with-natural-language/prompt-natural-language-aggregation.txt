@@ -65,11 +65,11 @@ Steps
          syntax of each stage. Ensure the returned pipeline has the 
          fields and stages that match your desired use case.
       
-      .. warning::
+         .. warning::
 
-         Aggregation pipelines can contain operators such as 
-         :pipeline:`$merge` and :expression:`$replaceAll` that can 
-         modify your collection's data.
+            Aggregation pipelines can contain operators such as 
+            :pipeline:`$merge` and :expression:`$replaceAll` that can 
+            modify your collection's data.
 
       II. Press enter or click the :guilabel:`Run` button to execute 
           the pipeline.
