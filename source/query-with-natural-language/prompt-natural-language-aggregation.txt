@@ -43,7 +43,7 @@ Steps
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
       I. Select the :guilabel:`Aggregations` tab.
-      #. Click the :guilabel:`Generate aggregation` button.
+      #. Click the :guilabel:`Generate Aggregation` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
 
@@ -55,7 +55,7 @@ Steps
       example: ``How many movies have more than 3 writers 
       in the writers array?``
 
-      I. Press enter or click the :guilabel:`Generate` button.
+      I. Press enter or click the :guilabel:`Generate Aggregation` button.
       #. An aggregation pipeline populates in the :guilabel:`Pipeline` 
          bar. You can scroll down to see the syntax of each stage.
 
@@ -68,7 +68,7 @@ Steps
          .. warning::
 
             Aggregation pipelines can contain operators such as 
-            :pipeline:`$merge` and :expression:`$replaceAll` that can 
+            :pipeline:`$merge` and :pipeline:`$out` that can 
             modify your collection's data.
 
       II. Press enter or click the :guilabel:`Run` button to execute 
