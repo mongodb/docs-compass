@@ -39,7 +39,7 @@ To set the sort order:
 
    .. example::
 
-      The following ``sort`` document sorts results first by ``year``https://emoji.slack-edge.com/T01C4Q4H3CL/happy_lightbulb/ece686cd1d62e3d5.png
+      The following ``sort`` document sorts results first by ``year``
       in descending order, and within each year, sort by ``name`` in
       ascending order.
 
