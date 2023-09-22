@@ -76,7 +76,7 @@ Steps
 
       The results populate in the aggregations view.
 
-   .. include:: /includes/fact-natural-language-feedback.rst
+.. include:: /includes/fact-natural-language-feedback.rst
 
 Example
 -------
