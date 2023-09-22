@@ -71,7 +71,7 @@ Steps
          A web browser displays the
          `Atlas login page <https://account.mongodb.com/account/login>`_.
 
-      #. Complete the login procedure
+      #. Complete the login procedure.
 
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays. 
