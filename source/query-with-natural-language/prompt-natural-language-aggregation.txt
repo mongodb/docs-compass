@@ -72,11 +72,11 @@ Steps
             modify your collection's data.
 
       b. Press enter or click the :guilabel:`Run` button to execute 
-          the pipeline.
+         the pipeline.
 
       The results populate in the aggregations view.
 
-      c. .. include:: /includes/fact-natural-language-feedback.rst
+   .. include:: /includes/fact-natural-language-feedback.rst
 
 Example
 -------
