@@ -70,9 +70,9 @@ Steps
 
       The results populate in the documents view.
 
-.. tip::
+      .. tip::
 
-   .. include:: /includes/fact-natural-language-feedback.rst
+         .. include:: /includes/fact-natural-language-feedback.rst
 
 Example
 -------
