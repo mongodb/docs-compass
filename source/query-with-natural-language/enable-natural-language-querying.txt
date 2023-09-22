@@ -88,10 +88,3 @@ Next Steps
 ----------
 
 :ref:`prompt-natural-language-query`
-
-Learn More
-----------
-
-:ref:`natural-language-limits`
-
-
