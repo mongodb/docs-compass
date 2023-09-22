@@ -1,8 +1,8 @@
 .. _prompt-natural-language-query:
 
-========================================
-Prompt your First Natural Language Query
-========================================
+===============================
+Prompt a Natural Language Query
+===============================
 
 .. default-domain:: mongodb
 
@@ -47,7 +47,7 @@ Steps
 
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
-      I. Select the :guilabel:`Documents` tab.
+      a. Select the :guilabel:`Documents` tab.
       #. Click the :guilabel:`Generate Query` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
@@ -57,12 +57,12 @@ Steps
       Type a natural language prompt for your collection into the query 
       bar. For example: ``Which movies were released in 2000?``
 
-      I. Press enter or click the :guilabel:`Generate Query` button.
+      a. Press enter or click the :guilabel:`Generate Query` button.
       #. A filter query populates in the :guilabel:`Filter` bar.
 
    .. step:: Run the query
 
-      I. Before running the query, make sure to thoroughly review the 
+      a. Before running the query, make sure to thoroughly review the 
          syntax in the :guilabel:`Filter` bar. Ensure the returned 
          query has the fields and operators that match your desired use case.
       #. Press enter or click the :guilabel:`Find` button or to execute 
@@ -70,7 +70,7 @@ Steps
 
       The results populate in the documents view.
 
-      .. include:: /includes/fact-natural-language-feedback.rst
+      #. .. include:: /includes/fact-natural-language-feedback.rst
 
 Example
 -------

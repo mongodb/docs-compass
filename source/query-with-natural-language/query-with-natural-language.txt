@@ -37,9 +37,8 @@ Behavior
   the future.
 
 - The MongoDB Compass natural language querying feature is on a rolling 
-  release schedule, with additional functionality and improvements planned 
-  for release by the end of October. As a result, some users may 
-  temporarily have functionality that other users do not. 
+  release schedule. As a result, some users may temporarily have functionality
+  that other users do not.
 
 Get Started
 -----------

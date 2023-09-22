@@ -9,4 +9,4 @@ is subject to MongoDB's:
 
 - `Terms of Use <https://www.mongodb.com/legal/terms-of-use>`_
 - `Acceptable Use Policy <https://www.mongodb.com/legal/acceptable-use-policy>`_
-- `Privacy Policy <https://www.mongodb.com/legal/privacy-policy>`_. 
+- `Privacy Policy <https://www.mongodb.com/legal/privacy-policy>`_

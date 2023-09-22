@@ -19,19 +19,26 @@ queries.
 About this Task
 ---------------
 
+To enable natural language querying in Compass, follow the steps below. 
 Alternatively, you can enable natural language querying by clicking the 
 :guilabel:`Log in to Atlas to enable` button within the 
 :guilabel:`Use natural language to generate queries and pipelines` modal. 
-This modal displays after updating Compass to a version that supports 
-natural language querying (1.4+) and clicking the :guilabel:`Generate Query`
-or :guilabel:`Generate Aggregation` button on the query bar.
+You can display this modal on Compass versions 1.4 or later when
+you click the :guilabel:`Generate Query` or 
+:guilabel:`Generate Aggregation` button on the query bar.
 
 Before you Begin
 ----------------
 
-To enable the generation of queries and aggregations in Compass, you must sign into 
-Atlas. For details on how to get a free Atlas account and 
-deploy a free M0 cluster, see :ref:`atlas-getting-started`.
+To enable the generation of queries and aggregations in Compass, 
+you must:
+
+- You must sign into Atlas. For details on how to get a free Atlas 
+  account and deploy a free M0 cluster, see :ref:`atlas-getting-started`.
+
+- You must have Compass version 1.4 or later installed to access 
+  natural language querying. For instructions on downloading and installing
+  the latest version, see :ref:`download-install`.
 
 Steps
 -----
@@ -59,7 +66,7 @@ Steps
 
    .. step:: Connect to your Atlas account
 
-      I. Select :guilabel:`Feature preview`
+      a. Select :guilabel:`Feature preview`
       #. Click :guilabel:`Log in with Atlas`
 
          A web browser displays the
@@ -70,9 +77,9 @@ Steps
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays. 
 
-   .. step:: Enable the :guilabel:`Use Generative AI` feature
+   .. step:: Enable the generative AI feature
 
-      I. The :guilabel:`Data Processing Agreement` displays
+      a. The :guilabel:`Data Processing Agreement` displays
       #. Read the :guilabel:`Data Processing Agreement`
       #. Click :guilabel:`Agree and continue`
       #. Click :guilabel:`Save`

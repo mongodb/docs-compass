@@ -1,8 +1,8 @@
 .. _prompt-natural-language-agg:
 
-==============================================
-Prompt your First Natural Language Aggregation
-==============================================
+=====================================
+Prompt a Natural Language Aggregation
+=====================================
 
 .. default-domain:: mongodb
 
@@ -42,7 +42,7 @@ Steps
 
    .. step:: Navigate to the :guilabel:`Natural Language Query Bar`
       
-      I. Select the :guilabel:`Aggregations` tab.
+      a. Select the :guilabel:`Aggregations` tab.
       #. Click the :guilabel:`Generate Aggregation` button.
 
       The :guilabel:`Natural Language Query Bar` displays.
@@ -55,13 +55,13 @@ Steps
       example: ``How many movies have more than 3 writers 
       in the writers array?``
 
-      I. Press enter or click the :guilabel:`Generate Aggregation` button.
+      a. Press enter or click the :guilabel:`Generate Aggregation` button.
       #. An aggregation pipeline populates in the :guilabel:`Pipeline` 
          bar. You can scroll down to see the syntax of each stage.
 
    .. step:: Run the aggregation
 
-      I. Before running the query, make sure to thoroughly review the 
+      a. Before running the query, make sure to thoroughly review the 
          syntax of each stage. Ensure the returned pipeline has the 
          fields and stages that match your desired use case.
       
@@ -71,12 +71,12 @@ Steps
             :pipeline:`$merge` and :pipeline:`$out` that can 
             modify your collection's data.
 
-      II. Press enter or click the :guilabel:`Run` button to execute 
+      b. Press enter or click the :guilabel:`Run` button to execute 
           the pipeline.
 
       The results populate in the aggregations view.
 
-      .. include:: /includes/fact-natural-language-feedback.rst
+      c. .. include:: /includes/fact-natural-language-feedback.rst
 
 Example
 -------
