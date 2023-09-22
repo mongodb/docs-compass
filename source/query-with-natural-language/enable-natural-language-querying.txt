@@ -33,10 +33,10 @@ Before you Begin
 To enable the generation of queries and aggregations in Compass, 
 you must:
 
-- You must sign into Atlas. For details on how to get a free Atlas 
+- Sign into Atlas. For details on how to get a free Atlas 
   account and deploy a free M0 cluster, see :ref:`atlas-getting-started`.
 
-- You must have Compass version 1.4 or later installed to access 
+- Have Compass version 1.4 or later installed to access 
   natural language querying. For instructions on downloading and installing
   the latest version, see :ref:`download-install`.
 
