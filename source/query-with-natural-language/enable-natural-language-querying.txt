@@ -65,8 +65,8 @@ Steps
 
    .. step:: Connect to your Atlas account
 
-      a. Select :guilabel:`Feature preview`
-      #. Click :guilabel:`Log in with Atlas`
+      a. Select :guilabel:`Feature preview`.
+      #. Click :guilabel:`Log in with Atlas`.
 
          A web browser displays the
          `Atlas login page <https://account.mongodb.com/account/login>`_.
@@ -78,10 +78,10 @@ Steps
 
    .. step:: Enable the generative AI feature
 
-      a. The :guilabel:`Data Processing Agreement` displays
-      #. Read the :guilabel:`Data Processing Agreement`
-      #. Click :guilabel:`Agree and continue`
-      #. Click :guilabel:`Save`
+      a. The :guilabel:`Data Processing Agreement` displays.
+      #. Read the :guilabel:`Data Processing Agreement`.
+      #. Click :guilabel:`Agree and continue`.
+      #. Click :guilabel:`Save`.
 
 Next Steps
 ----------
