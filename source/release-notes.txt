@@ -24,7 +24,7 @@ New Features:
 
 - Upgrade Electron to version 26
 
-- Set up local atlas detection (:issue:`COMPASS-7213`)
+- Set up local Atlas detection (:issue:`COMPASS-7213`)
 
 - Display local Atlas development environments as such
   (:issue:`COMPASS-7156`)
@@ -32,9 +32,9 @@ New Features:
 - Introduce ``$vectorSearch`` aggregation stage to MongoDB 7.1 and 7.0.x
   (:issue:`COMPASS-7064`)
 
-- Enable :atlas:`Atlas search indexes
-  <atlas-search/atlas-search-overview/#fts-indexes>` management
-  (:issue:`COMPASS-7238`)
+- Enable `Atlas search index
+  <https://www.mongodb.com/docs/atlas/atlas-search/atlas-search-overview/#fts-indexes>`__
+  management (:issue:`COMPASS-7238`)
 
 Bug Fixes:
 
