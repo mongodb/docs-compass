@@ -22,7 +22,7 @@ New Features:
   
 - Upgrade Node driver to version 6.0.0 (:issue:`COMPASS-7057`).
 
-- Upgrade Electron to version 26
+- Upgrade Electron to version 26.
 
 - Set up local Atlas detection (:issue:`COMPASS-7213`).
 
