@@ -4,8 +4,7 @@ ref: create-collection
 stepnum: 1
 content: |
   From the :ref:`Indexes <collection-tab>` tab, click the
-  :guilabel:`Create Index` button to bring up the
-  :guilabel:`Create Index` dialog.
+  :guilabel:`Create` button, then click :guilabel:`Index`.
 ---
 title: Optional. Enter the index name.
 level: 4
@@ -26,15 +25,22 @@ content: |
       - To specify an existing document field as an index key, select
         the field from the dropdown list.
 
-      - To specify a field which does not exist in any document as an
+      - To specify a field that does not exist in any document as an
         index key, enter the field name in the input box.
 
       - To create a :manual:`compound index </core/index-compound/>`,
-        click :guilabel:`Add Another Field`.
+        click the plus icon next to the index type dropdown.
 
    b. Use the dropdown to the right of each field name to specify the
-      index type (``ascending``, ``descending``, or
-      :manual:`2dsphere </core/2dsphere/>`).
+      index type. You can specify one of the following types:
+      
+      - Ascending
+      
+      - Descending
+
+      - 2dsphere
+
+      - Text
 
    .. seealso::
 

@@ -78,15 +78,12 @@ For each index, Compass displays the following information:
 Create an Index
 ---------------
 
-To create an index on a collection via Compass, the collection must
-contain documents.
-
 .. include:: /includes/steps/create-index.rst
 
 .. _compass-wildcard-index:
 
-Wildcard Indexes
-~~~~~~~~~~~~~~~~
+Create a Wildcard Index
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. versionadded:: v4.2
 
@@ -115,6 +112,16 @@ input.
 
    |compass-short| shows the type of your new index as
    :guilabel:`Wildcard`.
+
+Create an Atlas Search Index
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Atlas Search indexes let you query data in `Atlas Search
+<https://www.mongodb.com/docs/atlas/atlas-search/>`__. Atlas Search
+indexes enable performant text search queries by mapping search terms to
+the documents that contain those terms.
+
+
 
 .. _hide-index:
 
