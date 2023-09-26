@@ -17,16 +17,17 @@ Release Notes
 
 New Features:
 
-- Upgrade :ref:`embedded MongoDB Shell <embedded-mongodb-shell>` to
-  version 2.0.0. (:issue:`COMPASS-7057`)
+- Upgrade :ref:`embedded MongoDB shell <embedded-mongodb-shell>` to
+  version 2.0.0 (:issue:`COMPASS-7057`)
   
-- Upgrade Node driver to version 6.0.0. (:issue:`COMPASS-7057`)
+- Upgrade Node driver to version 6.0.0 (:issue:`COMPASS-7057`)
 
-- Updates Electron to version 26
+- Upgrade Electron to version 26
 
-- Setup local atlas detection (:issue:`COMPASS-7213`)
+- Set up local atlas detection (:issue:`COMPASS-7213`)
 
-- Display local Atlas dev environments as such (:issue:`COMPASS-7156`)
+- Display local Atlas development environments as such
+  (:issue:`COMPASS-7156`)
 
 - Introduce ``$vectorSearch`` aggregation stage to MongoDB 7.1 and 7.0.x
   (:issue:`COMPASS-7064`)
@@ -44,7 +45,7 @@ Bug Fixes:
 - Don't automatically select regex when detecting regex
   (:issue:`COMPASS-7144`)
 
-`Full Changelog available on GitHub
+`Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.39.4...v1.40.0>`__
 
 |compass| 1.39.4
