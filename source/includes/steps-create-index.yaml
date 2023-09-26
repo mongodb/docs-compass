@@ -1,4 +1,4 @@
-title: Click the :guilabel:`Create Index` button.
+title: Click the :guilabel:`Create Index` button
 level: 4
 ref: create-collection
 stepnum: 1
@@ -6,7 +6,7 @@ content: |
   From the :ref:`Indexes <collection-tab>` tab, click the
   :guilabel:`Create` button, then click :guilabel:`Index`.
 ---
-title: Optional. Enter the index name.
+title: Optional. Enter the index name
 level: 4
 ref: enter-index-name
 stepnum: 2
@@ -14,7 +14,7 @@ content: |
   In the dialog, enter the name of the index to create, or leave blank
   to have MongoDB create a default name for the index.
 ---
-title: Add fields to index.
+title: Add fields to the index
 level: 4
 ref: index-fields
 stepnum: 3
@@ -48,7 +48,7 @@ content: |
       :ref:`compass-wildcard-index`.
 
 ---
-title: Optional. Specify the index options.
+title: Optional. Specify index options
 level: 4
 ref: index-options
 stepnum: 4
