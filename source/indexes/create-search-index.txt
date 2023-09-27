@@ -45,7 +45,7 @@ Example
 -------
 
 The following example search index definition creates a search
-index that excludes the ``director`` and ``imdb.rating`` fields:
+index that excludes the ``directors`` and ``imdb.rating`` fields:
 
 .. code-block:: javascript
 
