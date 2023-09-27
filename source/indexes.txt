@@ -83,8 +83,7 @@ Create an Index
 Create an Atlas Search Index
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To learn how to create an Atlas Search index, see
-:ref:`compass-create-search-index`.
+To create an Atlas Search index, see :ref:`compass-create-search-index`.
 
 .. _compass-wildcard-index:
 
