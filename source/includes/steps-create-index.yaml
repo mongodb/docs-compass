@@ -6,14 +6,6 @@ content: |
   From the :ref:`Indexes <collection-tab>` tab, click the
   :guilabel:`Create` button, then click :guilabel:`Index`.
 ---
-title: Optional. Enter the index name
-level: 4
-ref: enter-index-name
-stepnum: 2
-content: |
-  In the dialog, enter the name of the index to create. If you leave
-  this field blank, MongoDB creates the index with a default name.
----
 title: Add fields to the index
 level: 4
 ref: index-fields
@@ -64,19 +56,18 @@ content: |
        - Description
        - More Information
 
-     * - Build index in the background
-
-       - Ensure that the MongoDB deployment remains available during
-          the index build operation.
-
-       - :manual:`Background Construction </core/index-creation/index.html#background-construction>`
-
      * - Create unique index
 
        - Ensure that the indexed fields do not store duplicate values.
 
        - :manual:`Unique Indexes </core/index-unique>`
 
+     * - Index name
+
+       - Specify a name for the index.
+
+       - :ref:`specify-index-name`
+     
      * - Create a :abbr:`TTL (Time to Live)` index
 
        - Delete documents automatically after a specified number of
