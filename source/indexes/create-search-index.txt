@@ -38,7 +38,7 @@ Steps
       indexes. To learn more about search index definition syntax, see
       :ref:`search-index-definition-create-mongosh`.
 
-   .. step:: Click :guilabel:`Create Search Index`. 
+   .. step:: Click :guilabel:`Create Search Index`
 
 Example
 -------
