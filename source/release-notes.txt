@@ -36,6 +36,9 @@ New Features:
   <https://www.mongodb.com/docs/atlas/atlas-search/atlas-search-overview/#fts-indexes>`__
   management (:issue:`COMPASS-7238`).
 
+- Enable natural language query and pipeline generation (incrementally
+  rolled out to users) (:issue:`COMPASS-6866`).
+
 Bug Fixes:
 
 - Account for changed key order in query (:issue:`COMPASS-7194`).
