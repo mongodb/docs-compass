@@ -1,4 +1,4 @@
-title: Click the :guilabel:`Create Index` button
+title: Open the index creation dialog
 level: 4
 ref: create-collection
 stepnum: 1
@@ -11,8 +11,8 @@ level: 4
 ref: enter-index-name
 stepnum: 2
 content: |
-  In the dialog, enter the name of the index to create, or leave blank
-  to have MongoDB create a default name for the index.
+  In the dialog, enter the name of the index to create. If you leave
+  this field blank, MongoDB creates the index with a default name.
 ---
 title: Add fields to the index
 level: 4

@@ -1,0 +1,68 @@
+.. _compass-create-search-index:
+
+============================
+Create an Atlas Search Index
+============================
+
+You can create Atlas Search indexes in |compass|. Atlas Search indexes
+let you query data in `Atlas Search
+<https://www.mongodb.com/docs/atlas/atlas-search/>`__. Atlas Search
+indexes enable performant text search queries by mapping search terms to
+the documents that contain those terms.
+
+About this Task
+---------------
+
+To create an Atlas Search index, your deployment must be hosted on
+`MongoDB Atlas <https://www.mongodb.com/docs/atlas/>`__ and have a
+cluster tier of M10 or higher.
+
+Steps
+-----
+
+.. procedure::
+   :style: normal
+   
+   .. step:: Open the index creation dialog
+
+      From the :ref:`Indexes <collection-tab>` tab, click the
+      :guilabel:`Create` button, then click :guilabel:`Search Index`.
+
+   .. step:: Enter the index name
+
+      Specify a name for the index.
+
+   .. step:: Specify the search index definition
+
+      |compass-short| provides templates for different kinds of search
+      indexes. To learn more about search index definition syntax, see
+      `Review Atlas Search Index Syntax
+      <https://www.mongodb.com/docs/atlas/atlas-search/index-definitions/>`__.
+
+   .. step:: Click :guiablel:`Create Search Index`. 
+
+Example
+-------
+
+The following example search index definition creates a search
+index that excludes the ``director`` and ``imdb.rating`` fields:
+
+.. code-block:: javascript
+
+   {
+      mappings: { dynamic: true },
+      storedSource: {
+         exclude: [ "directors", "imdb.rating" ]
+      }
+   }
+
+Learn More
+----------
+
+- :ref:`compass-indexes`
+
+- `Define Atlas Search Field Mappings
+  <https://www.mongodb.com/docs/atlas/atlas-search/define-field-mappings/>`__
+
+- `Define Synonym Mappings in Your Atlas Search Index
+  <https://www.mongodb.com/docs/atlas/atlas-search/synonyms/>`__

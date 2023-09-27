@@ -113,16 +113,6 @@ input.
    |compass-short| shows the type of your new index as
    :guilabel:`Wildcard`.
 
-Create an Atlas Search Index
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Atlas Search indexes let you query data in `Atlas Search
-<https://www.mongodb.com/docs/atlas/atlas-search/>`__. Atlas Search
-indexes enable performant text search queries by mapping search terms to
-the documents that contain those terms.
-
-
-
 .. _hide-index:
 
 Hide or Unhide an Index
@@ -168,3 +158,8 @@ Limitations
 
 - The :guilabel:`Indexes` tab is not available if you are connected 
   to a :atlas:`Data Lake </data-lake>`. 
+
+.. toctree::
+   :titlesonly:
+
+   /indexes/create-search-index
