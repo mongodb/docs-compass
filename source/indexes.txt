@@ -80,6 +80,9 @@ Create an Index
 
 .. include:: /includes/steps/create-index.rst
 
+Create an Atlas Search Index
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 To learn how to create an Atlas Search index, see
 :ref:`compass-create-search-index`.
 
