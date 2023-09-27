@@ -36,8 +36,7 @@ Steps
 
       |compass-short| provides templates for different kinds of search
       indexes. To learn more about search index definition syntax, see
-      `Review Atlas Search Index Syntax
-      <https://www.mongodb.com/docs/atlas/atlas-search/index-definitions/>`__.
+      :ref:`search-index-definition-create-mongosh`.
 
    .. step:: Click :guiablel:`Create Search Index`. 
 
