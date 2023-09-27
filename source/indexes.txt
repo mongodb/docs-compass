@@ -80,6 +80,9 @@ Create an Index
 
 .. include:: /includes/steps/create-index.rst
 
+To learn how to create an Atlas Search index, see
+:ref:`compass-create-search-index`.
+
 .. _compass-wildcard-index:
 
 Create a Wildcard Index
