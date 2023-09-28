@@ -18,7 +18,7 @@ Release Notes
 Bug Fixes:
 
 - Hot fixed an issue where users were not able to run Compass after 
-  upgrading to 1.40.0.
+  upgrading to 1.40.0 (:issue:`COMPASS-7270`, :issue:`COMPASS-7269`).
 - Repairs broken preferences by setting default values.
 
 `Full changelog available on GitHub
@@ -33,8 +33,8 @@ New Features
 
 - When using a search index, a new tab prompts you and redirects you to 
   the aggregation tab with the $search operator and the index name populated 
-  :issue:`COMPASS-7168`.
-- Added a drop-down to choose a search index template :issue:`COMPASS-7173`.
+  (:issue:`COMPASS-7168`).
+- Added a drop-down to choose a search index template (:issue:`COMPASS-7173`).
 
 Bug Fixes:
 
