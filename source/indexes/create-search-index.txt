@@ -43,7 +43,7 @@ Steps
    .. step:: Specify the search index definition
 
       |compass-short| provides templates for different kinds of search
-      indexes. To learn more about search index definition syntax, see
+      indexes. To learn more, see
       :ref:`search-index-definition-create-mongosh`.
 
    .. step:: Click :guilabel:`Create Search Index`
