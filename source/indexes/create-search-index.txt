@@ -4,6 +4,14 @@
 Create an Atlas Search Index
 ============================
 
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. versionadded:: 1.40.0
+
 You can create Atlas Search indexes in |compass|. Atlas Search indexes
 let you query data in `Atlas Search
 <https://www.mongodb.com/docs/atlas/atlas-search/>`__. Atlas Search
@@ -25,7 +33,7 @@ Steps
    
    .. step:: Open the index creation dialog
 
-      From the :ref:`Indexes <collection-tab>` tab, click the
+      From the :ref:`Indexes <indexes-tab>` tab, click the
       :guilabel:`Create` button, then click :guilabel:`Search Index`.
 
    .. step:: Enter the index name
@@ -43,8 +51,8 @@ Steps
 Example
 -------
 
-The following example search index definition creates a search
-index that excludes the ``directors`` and ``imdb.rating`` fields:
+The following example definition creates a search index that excludes
+the ``directors`` and ``imdb.rating`` fields:
 
 .. code-block:: javascript
 

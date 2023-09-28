@@ -3,8 +3,8 @@ level: 4
 ref: create-collection
 stepnum: 1
 content: |
-  From the :ref:`Indexes <collection-tab>` tab, click the
-  :guilabel:`Create` button, then click :guilabel:`Index`.
+  From the :ref:`Indexes <indexes-tab>` tab, click the :guilabel:`Create
+  Index` button.
 ---
 title: Add fields to the index
 level: 4
@@ -21,7 +21,7 @@ content: |
         index key, enter the field name in the input box.
 
       - To create a :manual:`compound index </core/index-compound/>`,
-        click the plus icon next to the index type dropdown.
+        click the :icon-fa5:`plus` icon next to the index type dropdown.
 
    b. Use the dropdown to the right of each field name to specify the
       index type. You can specify one of the following types:
