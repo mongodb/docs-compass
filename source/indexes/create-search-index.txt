@@ -40,9 +40,7 @@ Steps
       From the :ref:`Indexes <indexes-tab>` tab, click the
       :guilabel:`Create` button, then click :guilabel:`Search Index`.
 
-   .. step:: Enter the index name
-
-      Specify a name for the index.
+   .. step:: Specify a name for the index
 
    .. step:: Specify the search index definition
 
