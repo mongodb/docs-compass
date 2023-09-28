@@ -67,6 +67,18 @@ the ``directors`` and ``imdb.rating`` fields:
       }
    }
 
+Results
+-------
+
+To view the status of your created index, go to the :guilabel:`Indexes`
+tab and set the toggle at the top-right to :guilabel:`Search Indexes`.
+
+The :guilabel:`Status` column indicates the status of the index. When
+the status is :guilabel:`Ready`, your index is ready to be used.
+
+For more information on search index statuses, see
+:ref:`search-index-status`.
+
 Learn More
 ----------
 
