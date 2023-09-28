@@ -21,9 +21,13 @@ the documents that contain those terms.
 About this Task
 ---------------
 
-To create an Atlas Search index, your deployment must be hosted on
-`MongoDB Atlas <https://www.mongodb.com/docs/atlas/>`__ and have a
-cluster tier of M10 or higher.
+To create an Atlas Search index must meet the following requirements:
+
+- Hosted on `MongoDB Atlas <https://www.mongodb.com/docs/atlas/>`__
+
+- Atlas cluster tier of M10 or higher
+
+- MongoDB version of 7.0 or later
 
 Steps
 -----
