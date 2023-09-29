@@ -21,13 +21,15 @@ the documents that contain those terms.
 About this Task
 ---------------
 
-To create an Atlas Search index must meet the following requirements:
+To create an Atlas Search index, your deployment must be either:
 
-- Hosted on `MongoDB Atlas <https://www.mongodb.com/docs/atlas/>`__
+- Hosted on `MongoDB Atlas <https://www.mongodb.com/docs/atlas/>`__ and
+  have an Atlas cluster tier of M10 or higher.
 
-- Atlas cluster tier of M10 or higher
+- A local deployment that is set up using the `Atlas CLI
+  <https://www.mongodb.com/docs/atlas/cli/stable/atlas-cli-deploy-local/>`__.
 
-- MongoDB version of 7.0 or later
+Additionally, your deployment must run MongoDB version 7.0 or later.
 
 Steps
 -----
@@ -53,16 +55,13 @@ Steps
 Example
 -------
 
-The following example definition creates a search index that excludes
-the ``directors`` and ``imdb.rating`` fields:
+The following example definition creates a search index that indexes all
+fields:
 
 .. code-block:: javascript
 
    {
-      mappings: { dynamic: true },
-      storedSource: {
-         exclude: [ "directors", "imdb.rating" ]
-      }
+      mappings: { dynamic: true }
    }
 
 Results
