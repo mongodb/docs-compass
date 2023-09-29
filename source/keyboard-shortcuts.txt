@@ -171,15 +171,15 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - ``Ctrl`` + ``Shift`` + ``0``
      - ``Cmd`` + ``Shift`` + ``0``
 
-   * - Pipeline text  editor
+   * - Pipeline text editor
      - Comment out code
      - ``Ctrl`` + ``/``
      - ``Cmd`` + ``/``
 
-   * - Pipeline text editor
+   * - All text editor
      - Prettify code
      - ``Ctrl`` + ``Shift`` + ``B``
-     - ``Cmd`` + ``Shift`` + ``B``
+     - ``Ctrl`` + ``Shift`` + ``B``
 
    * - Query bar
      - Submit query
