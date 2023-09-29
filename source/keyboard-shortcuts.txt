@@ -194,17 +194,17 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
    * - Web Shell
      - Deletes the next character
      - ``Ctrl`` + ``D``
-     - ``Cmd`` + ``D``
+     - ``Ctrl`` + ``D``
 
    * - Web Shell
      - Moves the cursor to the end of the line
      - ``Ctrl`` + ``E``
-     - ``Cmd`` + ``E``
+     - ``Ctrl`` + ``E``
 
    * - Web Shell
      - Moves the cursor forward one character
      - ``Ctrl`` + ``F``
-     - ``Cmd`` + ``F``
+     - ``Ctrl`` + ``F``
 
    * - Web Shell
      - Erases one character, similar to hitting backspace
@@ -219,7 +219,7 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
    * - Web Shell
      - Swap the last two characters before the cursor.
      - ``Ctrl`` + ``T``
-     - ``Cmd`` + ``T``
+     - ``Ctrl`` + ``T``
 
    * - Web Shell
      - Changes the line to uppercase.
