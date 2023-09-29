@@ -176,7 +176,7 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - ``Ctrl`` + ``/``
      - ``Cmd`` + ``/``
 
-   * - All text editor
+   * - All text editors
      - Prettify code
      - ``Ctrl`` + ``Shift`` + ``B``
      - ``Ctrl`` + ``Shift`` + ``B``
