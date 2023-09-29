@@ -212,17 +212,17 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - ``Cmd`` + ``H``
 
    * - Web Shell
-     - Clears the screen, similar to the clear command.
+     - Clears the screen, similar to the clear command
      - ``Ctrl`` + ``L``
      - ``Cmd`` + ``L``
 
    * - Web Shell
-     - Swap the last two characters before the cursor.
+     - Swap the last two characters before the cursor
      - ``Ctrl`` + ``T``
      - ``Ctrl`` + ``T``
 
    * - Web Shell
-     - Changes the line to uppercase.
+     - Changes the line to uppercase
      - ``Ctrl`` + ``U``
      - ``Cmd`` + ``U``
 
