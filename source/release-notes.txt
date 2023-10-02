@@ -10,6 +10,18 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.40.3
+----------------
+
+*Released October XX, 2023*
+
+Bug Fixes:
+
+- 
+
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.40.2...v1.40.3>`__
+
 |compass| 1.40.2
 ----------------
 
