@@ -103,8 +103,8 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
 
    * - General
      - Redo
-     - ``Ctrl`` + ``Z``
-     - ``Cmd`` + ``Z``
+     - ``Ctrl`` + ``Shift`` + ``Z``
+     - ``Cmd`` + ``Shift`` + ``Z``
 
    * - General
      - Cut
@@ -220,11 +220,6 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - Swap the last two characters before the cursor
      - ``Ctrl`` + ``T``
      - ``Ctrl`` + ``T``
-
-   * - Web Shell
-     - Changes the line to uppercase
-     - ``Ctrl`` + ``U``
-     - ``Cmd`` + ``U``
 
    * - Web Shell
      - Cycle backwards through command history
