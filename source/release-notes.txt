@@ -17,17 +17,15 @@ Release Notes
 
 New Features:
 
-- After creating a $search during index creation you'll be redirected 
-  to the search indexes list to view the newly created index 
-  (:issue:`COMPASS-7247`).
+- After creating a $search index you are now redirected to the search 
+  indexes list view (:issue:`COMPASS-7247`).
 - Index field names are now autocompleted when defining indexes. (:issue:`COMPASS-7174`).
-- Add annotations in the editor when there are syntax errors in the 
-  search index definition (:issue:`COMPASS-7246`).
+- Syntax errors are now highlighted when defining indexes. (:issue:`COMPASS-7246`).
 - Improved AI feedback experience (:issue:`COMPASS-7211`, :issue:`COMPASS-7251`).
 - Removed ``useNewUrlParser`` and ``useUnifiedTopology`` from export 
   to language options (:issue:`COMPASS-4897`).
-- Use knnVector instead of vectorEmbedding in index template definition 
-  (:issue:`COMPASS-7288`).
+- The knnVector index template definition is now used instead of 
+  vectorEmbedding (:issue:`COMPASS-7288`).
 
 Bug Fixes:
 
