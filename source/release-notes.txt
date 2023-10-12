@@ -17,22 +17,25 @@ Release Notes
 
 New Features:
 
-- Open search indexes table when a search index is created (:issue:`COMPASS-7247`).
-- Fields autocomplete (:issue:`COMPASS-7174`).
-- Add annotations in the editor when there are syntax errors in the search index definition (:issue:`COMPASS-7246`).
-- Improve AI feedback experience (:issue:`COMPASS-7211`, :issue:`COMPASS-7251`).
-- Remove useNewUrlParser and useUnifiedTopology from export to language (:issue:`COMPASS-4897`).
-- Use knnVector instead of vectorEmbedding in index template definition (:issue:`COMPASS-7288`).
+- After creating a $search during index creation you'll be redirected 
+  to the search indexes list to view the newly created index 
+  (:issue:`COMPASS-7247`).
+- Index field names are now autocompleted when defining indexes. (:issue:`COMPASS-7174`).
+- Add annotations in the editor when there are syntax errors in the 
+  search index definition (:issue:`COMPASS-7246`).
+- Improved AI feedback experience (:issue:`COMPASS-7211`, :issue:`COMPASS-7251`).
+- Removed ``useNewUrlParser`` and ``useUnifiedTopology`` from export 
+  to language options (:issue:`COMPASS-4897`).
+- Use knnVector instead of vectorEmbedding in index template definition 
+  (:issue:`COMPASS-7288`).
 
 Bug Fixes:
 
-- Update .rpm and .deb deps and requirements (:issue:`COMPASS-7203`).
-- Disregard env in snippets (:issue:`COMPASS-6976`).
-- Avoid flicker when modal closes (:issue:`COMPASS-7248`).
-- Downgrade to 25.8.4 (:issue:`COMPASS-7291`).
-- Use the electron version, not the app's version (:issue:`COMPASS-7305`).
-- Ignore errors when fetching collStats in adf; always fetch collInfo (:issue:`COMPASS-7307`).
-- Handle invalid bson (:issue:`COMPASS-7316`).
+- Fixed GUI flicker when closing search index modal (:issue:`COMPASS-7248`).
+- Downgraded electron to version 25.8.4 (:issue:`COMPASS-7291`).
+- Corrected an error displaying collections in Atlas Data Federation 
+  through the side bar (:issue:`COMPASS-7307`).
+- Fixed an issue when the insert dialog did not catch invalid bson (:issue:`COMPASS-7316`).
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.40.2...v1.40.3>`__
