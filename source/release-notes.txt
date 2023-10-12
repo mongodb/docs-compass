@@ -19,7 +19,7 @@ New Features:
 
 - After creating a $search index you are now redirected to the search 
   indexes modal (:issue:`COMPASS-7247`).
-- Index field names are now autocompleted when defining indexes. (:issue:`COMPASS-7174`).
+- Field names are now autocompleted when defining indexes. (:issue:`COMPASS-7174`).
 - Syntax errors are now highlighted when defining indexes. (:issue:`COMPASS-7246`).
 - Improved AI feedback experience (:issue:`COMPASS-7211`, :issue:`COMPASS-7251`).
 - Removed ``useNewUrlParser`` and ``useUnifiedTopology`` from export 
