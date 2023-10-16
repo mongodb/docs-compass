@@ -12,7 +12,7 @@ In-Use Encryption Tutorial
    :depth: 1
    :class: singlecol
 
-In-Use Encryption allows you to connect to your deployments using :v6.0:`Queryable 
+In-Use Encryption allows you to connect to your deployments using :v7.0:`Queryable 
 Encryption </core/queryable-encryption/>`. This connection method allows you to 
 encrypt a subset of fields in your collections. 
 
@@ -48,6 +48,9 @@ Once your deployment is connected using In-Use Encryption, create your collectio
 using Queryable Encryption. You can create a new database and collection or you 
 can create a new collection in an existing database.
 
+{+qe+} supports new collections only. You can't enable {+qe+} 
+on existing collections.
+
 Procedure
 ~~~~~~~~~
 
@@ -75,11 +78,11 @@ Procedure
       Here, the encrypted field is the ``base`` field of the ``air_airlines`` 
       data set.  
 
-      For more information, see :v6.0:`Encrypted Fields </core/queryable-encryption/fundamentals/encrypt-and-query/>`.
+      For more information, see :v7.0:`Encrypted Fields </core/queryable-encryption/fundamentals/encrypt-and-query/>`.
 
-   .. step:: (Optional) Specify :v6.0:`KMS Provider </core/queryable-encryption/fundamentals/kms-providers/>`.  
+   .. step:: (Optional) Specify :v7.0:`KMS Provider </core/queryable-encryption/fundamentals/kms-providers/>`.  
 
-   .. step:: (Optional) Specify :v6.0:`Key Encryption Key </core/queryable-encryption/fundamentals/keys-key-vaults/>`.
+   .. step:: (Optional) Specify :v7.0:`Key Encryption Key </core/queryable-encryption/fundamentals/keys-key-vaults/>`.
 
    .. step:: Click :guilabel:`Create Database` or :guilabel:`Create Collection`.
 
