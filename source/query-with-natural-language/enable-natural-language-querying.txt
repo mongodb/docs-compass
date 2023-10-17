@@ -42,8 +42,8 @@ you must:
 
 .. note::
 
-   You can also enable Natural Language Querying with the Compass config 
-   file. For details, see :ref:`config-file`.  
+   You can also enable Natural Language Querying using the configuration 
+   file. For details, see :ref:`config-file`. 
 
 Steps
 -----

@@ -123,7 +123,7 @@ Settings
    * - trackUsageStatistics
      - Allow |compass-short| to send anonymous usage statistics.
 
-   * - :ref:`Enable Generative AI Features <enable-natural-language-querying>`
+   * - :ref:`enableAIFeatures <enable-natural-language-querying>`
      - Allow |compass-short| to use generative AI for natural language querying.
        This feature requires an Atlas login and a deployed Atlas cluster.
 
