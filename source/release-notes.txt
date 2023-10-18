@@ -12,10 +12,11 @@ Release Notes
 
 
 |compass| 1.40.4
+----------------
 
 *Released October 18, 2023*
 
-New features:
+New Feature:
 
 - Integrated search index signals (:issue:`COMPASS-7176`).
 
@@ -85,7 +86,7 @@ Bug Fixes:
 
 *Released September 27, 2023*
 
-New Features
+New Features:
 
 - When using a search index, a new tab prompts you and redirects you to 
   the aggregation tab with the $search operator and the index name populated 
