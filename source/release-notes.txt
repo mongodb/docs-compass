@@ -11,6 +11,8 @@ Release Notes
    :class: twocols
 
 
+.. Style consistency considerations:
+
 |compass| 1.40.4
 ----------------
 
