@@ -1357,7 +1357,7 @@ Bug Fixes:
   - Fixed SRV connections with special characters in the password.
 
   - |compass-short| no longer allows direct connections to
-    :term:`secondarys <secondary>` databases, which would result in hangs on the
+    :term:`secondary` databases, which would result in hangs on the
     loading navigation screen.
 
   - Fixed connections to ``M0``
