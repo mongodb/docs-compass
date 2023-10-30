@@ -12,8 +12,9 @@ In-Use Encryption Tutorial
    :depth: 1
    :class: singlecol
 
-In-Use Encryption allows you to connect to your deployments using :v7.0:`{+qe+} </core/queryable-encryption/>`. This connection method allows you to 
-encrypt a subset of fields in your collections. 
+In-Use Encryption allows you to connect to your deployments using 
+:v7.0:`{+qe+} </core/queryable-encryption/>`. This connection method
+allows you to encrypt a subset of fields in your collections. 
 
 You can also use :manual:`CSFLE </core/csfle/>` to encrypt a subset of fields 
 in your collection. CSFLE encryption is enabled through the schema editor.
