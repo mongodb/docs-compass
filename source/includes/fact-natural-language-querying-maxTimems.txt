@@ -1,0 +1,4 @@
+When using natural language querying, you may want to adjust the 
+time a query can run. To adjust the cumlative time a query can run you can
+adjust the :guilabel:`MAX TIME MS` parameter in Compass. For details, 
+see :ref:`query-bar-max-time-ms`.
