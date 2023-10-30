@@ -12,8 +12,7 @@ In-Use Encryption Tutorial
    :depth: 1
    :class: singlecol
 
-In-Use Encryption allows you to connect to your deployments using :v7.0:`Queryable 
-Encryption </core/queryable-encryption/>`. This connection method allows you to 
+In-Use Encryption allows you to connect to your deployments using :v7.0:`{+qe+} </core/queryable-encryption/>`. This connection method allows you to 
 encrypt a subset of fields in your collections. 
 
 You can also use :manual:`CSFLE </core/csfle/>` to encrypt a subset of fields 
@@ -23,7 +22,7 @@ Overview
 --------
 
 This guide shows you how to connect to your deployment and collections using 
-Queryable Encryption. 
+{+qe+}. 
 
 This guide uses the `air_airlines.json <https://raw.githubusercontent.com/mongodb/docs-assets/compass/air_airlines.json>`__
 data set in the guided examples. The guide covers the process of importing 
@@ -45,7 +44,7 @@ Create Your Encrypted Collection
 --------------------------------
 
 Once your deployment is connected using In-Use Encryption, create your collection 
-using Queryable Encryption. You can create a new database and collection or you 
+using {+qe+}. You can create a new database and collection or you 
 can create a new collection in an existing database.
 
 {+qe+} supports new collections only. You can't enable {+qe+} 
@@ -64,7 +63,7 @@ Procedure
 
    .. step:: Click the :guilabel:`Advanced Collection Options` drop down. 
 
-   .. step:: Check the :guilabel:`Queryable Encryption` box.
+   .. step:: Check the :guilabel:`{+qe+}` box.
 
    .. step:: Specify your :guilabel:`Encrypted Fields`. 
 
@@ -94,7 +93,7 @@ Import Your Data
 
    .. step:: Click on your collection on the left-hand navigation banner.
 
-      The collection has a :guilabel:`Queryable Encryption` badge next to 
+      The collection has a :guilabel:`{+qe+}` badge next to 
       its name to indicate that fields in that collection are encrypted.
 
    .. step:: Click :guilabel:`Add Data`.
