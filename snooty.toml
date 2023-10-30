@@ -33,6 +33,19 @@ download-page = "`downloads page <https://www.mongodb.com/try/download/compass>`
 current-version = "1.40.4"
 atlas = "MongoDB Atlas"
 
+[substitutions]
+atlas = "MongoDB Atlas"
+compass = "MongoDB Compass"
+compass-short = "Compass"
+sql = ":abbr:`SQL (Structured Query Language)`"
+service = "Atlas"
+json = ":abbr:`JSON (Javascript Object Notation)`"
+bson = ":abbr:`BSON (Binary Javascript Object Notation)`"
+checkmark = "√"
+qe = "Queryable Encryption"
+qe-preview = "{+qe+} Public Preview"
+qe-equality-ga = "{+qe+} with equality queries"
+
 [[banners]]
 targets = [
     "connect/in-use-encryption.txt",
@@ -61,16 +74,3 @@ value = """
     available as a **Public Preview** offering. The product, its features, \ 
     and the corresponding documentation may change during the Preview stage.
     """
-
-[substitutions]
-atlas = "MongoDB Atlas"
-compass = "MongoDB Compass"
-compass-short = "Compass"
-sql = ":abbr:`SQL (Structured Query Language)`"
-service = "Atlas"
-json = ":abbr:`JSON (Javascript Object Notation)`"
-bson = ":abbr:`BSON (Binary Javascript Object Notation)`"
-checkmark = "√"
-qe = "Queryable Encryption"
-qe-preview = "{+qe+} Public Preview"
-qe-equality-ga = "{+qe+} with equality queries"
