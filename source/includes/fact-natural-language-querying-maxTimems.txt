@@ -1,5 +1,4 @@
 When using natural language querying, you may need to modify the 
 query's maximum execution time by adjusting the :guilabel:`MAX TIME MS` 
-query bar option. This option can help protect your cluster from excessivly
-long query times on unindexed collections or large aggregation pipelines.
-For details, see :ref:`query-bar-max-time-ms`.
+query bar option. This option can help protect your cluster from 
+excessively long query times. For details, see :ref:`query-bar-max-time-ms`.
