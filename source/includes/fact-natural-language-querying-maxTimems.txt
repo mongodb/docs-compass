@@ -1,4 +1,5 @@
-When you specify a natural language query, you may need to modify the 
-query's maximum execution time by adjusting the :guilabel:`MAX TIME MS` 
-query bar option. This option prevents long-running queries on your 
-cluster. For details, see :ref:`query-bar-max-time-ms`.
+It can be difficult to predict the complexity of the query or pipeline 
+returned by the Compass AI. You may need to adjust the 
+:guilabel:`MAX TIME MS` query bar option to either allow longer query 
+processing time or prevent long-running queries. For details, see 
+:ref:`query-bar-max-time-ms`.
