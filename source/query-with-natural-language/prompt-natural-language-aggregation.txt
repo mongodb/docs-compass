@@ -30,7 +30,7 @@ About this Task
   collection from the Atlas sample dataset.
 
 -  .. include:: /includes/fact-natural-language-querying-maxTimems.txt
-
+   
 Before you Begin
 ----------------
 
