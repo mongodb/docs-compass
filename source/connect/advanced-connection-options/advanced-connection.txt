@@ -22,10 +22,11 @@ for your deployment. These options can be used with the
 About this Task
 ---------------
 
-The ``enableUtf8Validation`` URI option is supported by the ``nodejs`` 
-driver and Compass. This option allows Compass to display collections 
-which have invalid UTF8 data. For details, see
-:ref:`disable UTF-8 Validation<compass-advanced-connection-examples>`.
+The ``enableUtf8Validation`` URI option is supported by the
+:driver:`Node </node>` driver and Compass. This option allows 
+Compass to display collections that have invalid UTF8 data. For details, 
+see 
+:ref:`disabling UTF-8 Validation<compass-advanced-connection-examples>`.
 
 Steps
 -----
