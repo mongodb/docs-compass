@@ -22,7 +22,7 @@ for your deployment. These options can be used with the
 About this Task
 ---------------
 
-The ``enableUtf8Validation`` URI option is supported Compass. This 
+The ``enableUtf8Validation`` URI option is supported by Compass. This 
 option allows Compass to display collections that have invalid UTF8 
 data. For details, see 
 :ref:`disabling UTF-8 Validation<compass-advanced-connection-examples>`.
