@@ -131,3 +131,10 @@ The following connection string disables UTF8 validation:
 .. code-block:: javascript
 
     mongodb://localhost:27017/?enableUtf8Validation=False
+
+.. note::
+
+  You can also disable this option in the 
+  :guilabel:`Advanced Connection Options` by 
+  selecting the key :guilabel:`enableUtf8Validation` and typing 
+  the value ``False``.
