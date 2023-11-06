@@ -25,8 +25,8 @@ About this Task
 The ``enableUtf8Validation`` URI option is only 
 supported by the ``nodejs`` driver and Compass. This option 
 allows Compass to display collections which have invalid UTF8 
-data. To set this parameter you can pass set the ``enableUtf8Validation``
-parameter in the connection string or use the advanced connections 
+data. To set this parameter you can set the ``enableUtf8Validation``
+value in the connection string or use the advanced connections 
 tab in Compass. For details, see
 :ref:`disable UTF-8 Validation<compass-advanced-connection-examples>`.
 
