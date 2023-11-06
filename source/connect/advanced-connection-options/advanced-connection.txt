@@ -106,12 +106,17 @@ Procedure
 
     .. note::
 
-      There are a few connection string parameters which are supported 
-      only by the ``nodejs`` driver. For details on all supported node
-      specific connection string parameters see 
-      `Node Connection Options 
-      <https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/>`__.
+      The ``enableUtf8Validation`` connection string parameter is only 
+      supported by the ``nodejs`` driver and Compass. This option 
+      allows Compass to display collections which have invalid UTF8 
+      data. To set this parameter you can pass set the ``enableUtf8Validation``
+      parameter in the connection string or use the advanced connections 
+      tab in Compass.
 
+      For example:
+
+      ```mongodb://localhost:27017/?enableUtf8Validation=True``
+      
    .. step:: Click Connect.
 
 .. seealso::
