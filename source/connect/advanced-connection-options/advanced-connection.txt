@@ -12,15 +12,25 @@ Advanced Connection Tab
    :depth: 1
    :class: singlecol
 
-
 The :guilabel:`Advanced` connection tab provides additional connection options 
 for your deployment. These options can be used with the 
 :ref:`General <general-connection-tab>`, :ref:`Authentication 
 <authentication-connection-tab>`, :ref:`TLS / SSL <tls-ssl-tab>`, and 
 :ref:`Proxy / SSH Tunnel <ssh-connection>` connection options. 
 
-Procedure
----------
+
+About this Task
+---------------
+
+The ``enableUtf8Validation`` URI option is only 
+supported by the ``nodejs`` driver and Compass. This option 
+allows Compass to display collections which have invalid UTF8 
+data. To set this parameter you can pass set the ``enableUtf8Validation``
+parameter in the connection string or use the advanced connections 
+tab in Compass. For details, see :ref:`compass-advanced-connection-examples`.
+
+Steps
+-----
 
 .. procedure::
    :style: normal
@@ -104,21 +114,20 @@ Procedure
              For more information, see :manual:`Connection String Options 
              </reference/connection-string/#connection-string-options>`.
 
-    .. note::
-
-      The ``enableUtf8Validation`` URI option is only 
-      supported by the ``nodejs`` driver and Compass. This option 
-      allows Compass to display collections which have invalid UTF8 
-      data. To set this parameter you can pass set the ``enableUtf8Validation``
-      parameter in the connection string or use the advanced connections 
-      tab in Compass.
-
-      For example:
-
-      ``mongodb://localhost:27017/?enableUtf8Validation=True``
-      
    .. step:: Click Connect.
 
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`. 
+
+.. _compass-advanced-connection-examples:
+
+Example
+-------
+
+The following code shows an example of a connection string that uses
+utf8 validation:
+
+.. code-block:: javascript
+
+    mongodb://localhost:27017/?enableUtf8Validation=True
