@@ -27,7 +27,8 @@ supported by the ``nodejs`` driver and Compass. This option
 allows Compass to display collections which have invalid UTF8 
 data. To set this parameter you can pass set the ``enableUtf8Validation``
 parameter in the connection string or use the advanced connections 
-tab in Compass. For details, see :ref:`compass-advanced-connection-examples`.
+tab in Compass. For details, see
+:ref:`disable UTF-8 Validation<compass-advanced-connection-examples>`.
 
 Steps
 -----
@@ -125,9 +126,9 @@ Steps
 Example
 -------
 
-The following code shows an example of a connection string that uses
-utf8 validation:
+The following code shows an example of a connection string that disables
+UTF8 validation:
 
 .. code-block:: javascript
 
-    mongodb://localhost:27017/?enableUtf8Validation=True
+    mongodb://localhost:27017/?enableUtf8Validation=False
