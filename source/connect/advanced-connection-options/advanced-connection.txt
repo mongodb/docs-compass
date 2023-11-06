@@ -126,8 +126,7 @@ Steps
 Example
 -------
 
-The following code shows an example of a connection string that disables
-UTF8 validation:
+The following connection string disables UTF8 validation:
 
 .. code-block:: javascript
 
