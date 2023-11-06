@@ -106,7 +106,7 @@ Procedure
 
     .. note::
 
-      The ``enableUtf8Validation`` connection string parameter is only 
+      The ``enableUtf8Validation`` URI option is only 
       supported by the ``nodejs`` driver and Compass. This option 
       allows Compass to display collections which have invalid UTF8 
       data. To set this parameter you can pass set the ``enableUtf8Validation``
@@ -115,7 +115,7 @@ Procedure
 
       For example:
 
-      ```mongodb://localhost:27017/?enableUtf8Validation=True``
+      ``mongodb://localhost:27017/?enableUtf8Validation=True``
       
    .. step:: Click Connect.
 
