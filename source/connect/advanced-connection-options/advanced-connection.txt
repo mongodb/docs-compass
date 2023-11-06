@@ -104,6 +104,14 @@ Procedure
              For more information, see :manual:`Connection String Options 
              </reference/connection-string/#connection-string-options>`.
 
+    .. note::
+
+      There are a few connection string parameters which are supported 
+      only by the ``nodejs`` driver. For details on all supported node
+      specific connection string parameters see 
+      `Node Connection Options 
+      <https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/>`__.
+
    .. step:: Click Connect.
 
 .. seealso::
