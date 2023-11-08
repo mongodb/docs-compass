@@ -18,28 +18,19 @@ for your deployment. These options can be used with the
 <authentication-connection-tab>`, :ref:`TLS / SSL <tls-ssl-tab>`, and 
 :ref:`Proxy / SSH Tunnel <ssh-connection>` connection options. 
 
-
-About this Task
----------------
-
-The ``enableUtf8Validation`` URI option is supported by Compass. This 
-option allows Compass to display collections that have invalid UTF8 
-data. For details, see 
-:ref:`disabling UTF-8 Validation<compass-advanced-connection-examples>`.
-
 Steps
 -----
 
 .. procedure::
    :style: normal
 
-   .. step:: Click :guilabel:`Advanced Connection Options`.
+   .. step:: Click :guilabel:`Advanced Connection Options`
 
       .. figure:: /images/compass/advanced-connection-options.png
          :figwidth: 690px
          :alt: New Advanced Connection Options
 
-   .. step:: Click the :guilabel:`Advanced` tab.
+   .. step:: Click the :guilabel:`Advanced` tab
 
       (Optional) Select a :guilabel:`Read Preference` from the following 
       options:
@@ -114,24 +105,25 @@ Steps
 
    .. step:: Click Connect.
 
+   .. step:: (Optional) Resolve Data Display Issues
+
+      If Compass is having issues displaying data and returning the error
+      message ``Invalid UTF-8 string in BSON document.``, you can set the 
+      ``enableUtf8Validation`` URI option. 
+
+      The following connection string disables UTF8 validation:
+
+      .. code-block:: javascript
+
+          mongodb://localhost:27017/?enableUtf8Validation=false
+
+      .. note::
+
+        You can also disable this option in the 
+        :guilabel:`Advanced Connection Options` by 
+        selecting the key :guilabel:`enableUtf8Validation` and entering 
+        the value ``false``.
+
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`. 
-
-.. _compass-advanced-connection-examples:
-
-Example
--------
-
-The following connection string disables UTF8 validation:
-
-.. code-block:: javascript
-
-    mongodb://localhost:27017/?enableUtf8Validation=false
-
-.. note::
-
-  You can also disable this option in the 
-  :guilabel:`Advanced Connection Options` by 
-  selecting the key :guilabel:`enableUtf8Validation` and entering 
-  the value ``false``.
