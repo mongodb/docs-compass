@@ -375,7 +375,7 @@ Clear the Query
 .. include:: /includes/clear-query.rst
 
 
-Querying Invalid Collections with UTF8 Data
+Querying Collections with Invalid UTF8 Data
 -------------------------------------------
 
 .. include:: /includes/fact-non-utf8-data.rst
