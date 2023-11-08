@@ -376,8 +376,8 @@ Clear the Query
 
 .. _compass-query-invalid-utf8-data:
 
-Querying Collections with Invalid UTF8 Data
--------------------------------------------
+Query Collections with Invalid UTF8 Data
+----------------------------------------
 
 .. include:: /includes/fact-non-utf8-data.rst
 
