@@ -2,8 +2,7 @@ If Compass is having issues displaying data and returning the error
 message: ``Invalid UTF-8 string in BSON document``, you can set the 
 ``enableUtf8Validation`` URI option to ``false``. 
 
-The following connection string disables UTF8 validation with the URI 
-parameter:
+The following URI disables UTF8 validation:
 
 .. code-block:: javascript
 
