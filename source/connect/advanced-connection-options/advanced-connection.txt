@@ -18,19 +18,19 @@ for your deployment. These options can be used with the
 <authentication-connection-tab>`, :ref:`TLS / SSL <tls-ssl-tab>`, and 
 :ref:`Proxy / SSH Tunnel <ssh-connection>` connection options. 
 
-Steps
------
+Procedure
+---------
 
 .. procedure::
    :style: normal
 
-   .. step:: Click :guilabel:`Advanced Connection Options`
+   .. step:: Click :guilabel:`Advanced Connection Options`.
 
       .. figure:: /images/compass/advanced-connection-options.png
          :figwidth: 690px
          :alt: New Advanced Connection Options
 
-   .. step:: Click the :guilabel:`Advanced` tab
+   .. step:: Click the :guilabel:`Advanced` tab.
 
       (Optional) Select a :guilabel:`Read Preference` from the following 
       options:
