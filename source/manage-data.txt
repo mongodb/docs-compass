@@ -53,6 +53,7 @@ Interact with Your Data
    /collections
    /views
    /documents
+   /bulk-operations
    /query/filter
    /query-with-natural-language/query-with-natural-language
    /indexes

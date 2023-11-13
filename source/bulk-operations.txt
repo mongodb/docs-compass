@@ -15,3 +15,10 @@ Compass Bulk Operations
    :class: singlecol
 
 You can perform bulk operations on multiple documents in Compass.
+
+.. toctree::
+   :titlesonly:
+
+   /bulk-operations/bulk-delete
+   /bulk-operations/bulk-updates
+   /bulk-operations/bulk-favorites

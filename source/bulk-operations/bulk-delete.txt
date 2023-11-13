@@ -14,4 +14,4 @@ Compass Bulk Deletes
    :depth: 1
    :class: singlecol
 
-You can perform bulk delete on multiple documents in Compass.
+You can perform bulk delete operation on multiple documents in Compass.
