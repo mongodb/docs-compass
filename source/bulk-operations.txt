@@ -1,0 +1,17 @@
+.. _connect-bulk-operations:
+
+=======================
+Compass Bulk Operations
+=======================
+
+.. facet::
+   :name: genre
+   :values: tutorial
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+You can perform bulk operations on multiple documents in Compass.

@@ -1,0 +1,17 @@
+.. _compass-bulk-delete:
+
+====================
+Compass Bulk Deletes
+====================
+
+.. facet::
+   :name: genre
+   :values: tutorial
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+You can perform bulk delete on multiple documents in Compass.
