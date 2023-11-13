@@ -76,9 +76,12 @@ Once you confirm, Compass deletes the document from the collection.
 Delete Multiple Documents
 -------------------------
 
-You cannot delete multiple documents at once from the |compass-short|
-:abbr:`UI (User Interface)`. As an alternative, you can use the
-:manual:`db.collection.deleteMany()
-</reference/method/db.collection.deleteMany/>` method in the
-:ref:`embedded MongoDB Shell <embedded-mongodb-shell>` to delete
-multiple documents in a single operation.
+You can use the bulk delete operations workflow to delete multiple in
+Compass. For details, see :ref:`compass-bulk-delete`.
+
+.. note::
+
+   You can also use the :manual:`db.collection.deleteMany()
+   </reference/method/db.collection.deleteMany/>` method in the
+   :ref:`embedded MongoDB Shell <embedded-mongodb-shell>` to delete
+   multiple documents in a single operation.
