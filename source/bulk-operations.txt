@@ -1,8 +1,8 @@
-.. _connect-bulk-operations:
+.. _compass-bulk-operations:
 
-=======================
-Compass Bulk Operations
-=======================
+===============
+Bulk Operations
+===============
 
 .. facet::
    :name: genre

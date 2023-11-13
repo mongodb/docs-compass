@@ -1,8 +1,8 @@
 .. _compass-bulk-delete:
 
-====================
-Compass Bulk Deletes
-====================
+============
+Bulk Deletes
+============
 
 .. facet::
    :name: genre

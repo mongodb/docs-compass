@@ -1,8 +1,8 @@
 .. _compass-bulk-update:
 
-====================
-Compass Bulk Updates
-====================
+============
+Bulk Updates
+============
 
 .. facet::
    :name: genre
