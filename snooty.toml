@@ -25,7 +25,8 @@ toc_landing_pages = [
     "/documents", 
     "/schema", 
     "/create-agg-pipeline", 
-    "/collections"
+    "/collections",
+    "/documents/bulk-operations"
 ]
 
 [constants]

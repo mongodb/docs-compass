@@ -11,7 +11,7 @@ Modify Documents
    :backlinks: none
    :depth: 1
    :class: singlecol
-   
+
 You can edit existing documents in your collection.
 
 .. include:: /includes/fact-modify-findOneAndUpdate.rst
@@ -217,8 +217,8 @@ click the :guilabel:`Cancel` button.
 Modify Multiple Documents
 -------------------------
 
-You can use the bulk update operations workflow to update multiple in
-Compass. For details, see :ref:`compass-bulk-update`.
+You can use the bulk update operations workflow to update multiple 
+documents in Compass. For details, see :ref:`compass-bulk-update`.
 
 .. note::
 

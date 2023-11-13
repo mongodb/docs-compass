@@ -82,8 +82,8 @@ Once you confirm, Compass deletes the document from the collection.
 Delete Multiple Documents
 -------------------------
 
-You can use the bulk delete operations workflow to delete multiple in
-Compass. For details, see :ref:`compass-bulk-delete`.
+You can use the bulk delete operations workflow to delete multiple 
+documents in Compass. For details, see :ref:`compass-bulk-delete`.
 
 .. note::
 
