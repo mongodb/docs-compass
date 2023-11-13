@@ -42,3 +42,4 @@ specify query options.
    /documents/modify
    /documents/clone
    /documents/delete
+   /documents/bulk-operations
