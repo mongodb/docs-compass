@@ -19,6 +19,6 @@ You can perform bulk operations on multiple documents in Compass.
 .. toctree::
    :titlesonly:
 
-   /bulk-operations/bulk-delete
-   /bulk-operations/bulk-updates
-   /bulk-operations/bulk-favorites
+   /documents/bulk-operations/bulk-delete
+   /documents/bulk-operations/bulk-updates
+   /documents/bulk-operations/bulk-favorites
