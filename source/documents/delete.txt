@@ -1,8 +1,8 @@
 .. _compass-delete-documents:
 
-=======================
-Delete Single Documents
-=======================
+======================
+Delete Single Document
+======================
 
 .. default-domain:: mongodb
 
