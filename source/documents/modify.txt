@@ -1,8 +1,8 @@
 .. _compass-modify-documents:
 
-================
-Modify Documents
-================
+========================
+Modify a Single Document
+========================
 
 .. default-domain:: mongodb
 

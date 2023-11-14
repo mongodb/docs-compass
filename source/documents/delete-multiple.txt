@@ -1,8 +1,8 @@
 .. _compass-bulk-delete:
 
-============
-Bulk Deletes
-============
+=========================
+Delete Multiple Documents
+=========================
 
 .. facet::
    :name: genre

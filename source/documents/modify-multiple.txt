@@ -1,8 +1,8 @@
 .. _compass-bulk-update:
 
-============
-Bulk Updates
-============
+=========================
+Modify Multiple Documents
+=========================
 
 .. facet::
    :name: genre
