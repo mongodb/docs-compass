@@ -13,17 +13,18 @@ In order to query or export this data, you can disable
 UTF8 validation by setting the ``enableUtf8Validation`` URI option to 
 ``false``. 
 
+.. warning::
+
+   Editing data with ``enableUtf8Validation=false`` can result in 
+   potential loss of data. This approach should be used as a temporary 
+   workaround to query and export data only.
+
 The following URI disables UTF8 validation:
 
 .. code-block:: javascript
 
       mongodb://localhost:27017/?enableUtf8Validation=false
 
-.. warning::
-
-   Editing data with ``enableUtf8Validation=false`` can result in 
-   potential loss of data. This approach should be used as a temporary 
-   workaround only.
 
 .. note::
 
