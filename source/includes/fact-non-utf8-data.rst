@@ -19,6 +19,12 @@ The following URI disables UTF8 validation:
 
       mongodb://localhost:27017/?enableUtf8Validation=false
 
+.. warning::
+
+   Editing data with ``enableUtf8Validation=false`` can result in 
+   potential loss of data. This approach should be used as a temporary 
+   workaround only.
+
 .. note::
 
    You can also disable this option in the 
