@@ -15,7 +15,7 @@ UTF8 validation by setting the ``enableUtf8Validation`` URI option to
 
 .. warning::
 
-   *Editing data* with ``enableUtf8Validation=false`` can result in 
+   **Editing data** with ``enableUtf8Validation=false`` can result in 
    potential loss of data. This approach should be used as a temporary 
    workaround to query or export data only.
 
