@@ -1,22 +1,17 @@
 Compass can have issues displaying collections if documents within
 the collection have invalid UTF8 characters.
 
-- If you query this data, the following error message displays: 
+If you attemp to query or export this data, the following error 
+message displays: 
 
-  .. code-block:: none
+.. code-block:: none
+   :copyable: false
 
-     Invalid UTF-8 string in BSON document. 
+   Invalid UTF-8 string in BSON document. 
 
-- If you attempt to export the collection, the following error message 
-  displays: 
-
-  .. code-block:: none
-
-     An error occurred while loading instance info: Invalid UTF-8 
-     string in BSON document.
-
-You can disable UTF8 validation by setting the ``enableUtf8Validation`` 
-URI option to ``false``. 
+In order to query or export this data, you can disable 
+UTF8 validation by setting the ``enableUtf8Validation`` URI option to 
+``false``. 
 
 The following URI disables UTF8 validation:
 
