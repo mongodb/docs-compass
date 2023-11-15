@@ -3,17 +3,17 @@ the collection have invalid UTF8 characters.
 
 - If you query this data, the following error message displays: 
 
-.. code-block:: none
+  .. code-block:: none
 
-   Invalid UTF-8 string in BSON document. 
+     Invalid UTF-8 string in BSON document. 
 
 - If you attempt to export the collection, the following error message 
   displays: 
 
-.. code-block:: none
+  .. code-block:: none
 
-   An error occurred while loading instance info: Invalid UTF-8 
-   string in BSON document.
+     An error occurred while loading instance info: Invalid UTF-8 
+     string in BSON document.
 
 You can disable UTF8 validation by setting the ``enableUtf8Validation`` 
 URI option to ``false``. 
