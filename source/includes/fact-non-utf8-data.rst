@@ -1,7 +1,7 @@
-Compass can have issues displaying collections if documents within
-the collection have invalid UTF8 characters.
+Compass can have issues displaying collections if documents have 
+invalid UTF8 characters.
 
-If you attemp to query or export this data, the following error 
+If you attempt to query or export this data, the following error 
 message displays: 
 
 .. code-block:: none
