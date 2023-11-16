@@ -29,6 +29,6 @@ The following URI disables UTF8 validation:
 .. note::
 
    You can also disable this option in the 
-   :guilabel:`Advanced Connection Options` by 
+   :ref:`Advanced Connection Options <advanced-connection-tab>` by 
    selecting the key :guilabel:`enableUtf8Validation` and entering 
    the value ``false``.
