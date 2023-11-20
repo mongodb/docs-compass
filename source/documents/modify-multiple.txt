@@ -112,11 +112,11 @@ This syntax:
 The :guilabel:`Preview` section is populated with sample documents
 that are affected by the update syntax.
 
-To view the updates to your documents, click the 
+To preview the updates to the :guilabel:`numReviews` 
+and :guilabel:`meter` fields, click the 
 :icon-fa5:`chevron-right` arrow next to ``tomatoes`` 
 and then click the :icon-fa5:`chevron-right` arrow next to 
-:guilabel:`rating` to preview the updated :guilabel:`numReviews` 
-and :guilabel:`meter` fields.
+:guilabel:`rating`.
 
 Click the :guilabel:`Update Documents` button to update the collection 
 data.
