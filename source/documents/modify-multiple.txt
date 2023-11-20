@@ -37,7 +37,8 @@ Steps
       From the :guilabel:`Documents` tab, click the :guilabel:`Update`
       button.
 
-      The :guilabel:`Update Documents` modal displays:
+      The :guilabel:`Update Documents` modal displays. The following 
+      table summarizes the UI of the modal:
 
       .. list-table::
          :widths: 40 60
