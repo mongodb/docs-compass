@@ -76,17 +76,8 @@ Steps
 Example
 -------
 
-These examples use the ``sample_mflix`` Atlas dataset. 
-
-Click the :guilabel:`Update` button, the :guilabel:`Update Documents` 
-modal displays.
-
-.. code-block:: javascript
-
-   {  
-      $set: { "tomatoes.viewer.rating" : 5 } 
-   }
-
+The following examples use the 
+:ref:`sample_mflix Atlas dataset <sample-data>`. 
 
 The following example updates the ``tomatoes.viewer.numReviews`` and 
 ``tomatoes.viewer.meter`` fields with the Compass 
@@ -98,6 +89,9 @@ have a ``year`` of ``1917``.
 .. code-block:: javascript
 
    {'year' : 1917}
+
+Click the :guilabel:`Update` button, the :guilabel:`Update Documents` 
+modal displays.
 
 In the :guilabel:`Update` text box, paste the following update 
 statement:
