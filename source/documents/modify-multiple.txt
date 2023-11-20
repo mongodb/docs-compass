@@ -82,8 +82,9 @@ Click the :guilabel:`Update` button, the :guilabel:`Update Documents`
 modal displays.
 
 .. code-block:: javascript
+
    {  
-   $set: { "tomatoes.viewer.rating" : 5 } 
+      $set: { "tomatoes.viewer.rating" : 5 } 
    }
 
 The following example updates the ``tomatoes.viewer.numReviews`` and 
