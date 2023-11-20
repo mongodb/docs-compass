@@ -67,12 +67,22 @@ brief description, code block, or screenshot.
 
       This modal displays:
 
-      - Any filter criteria specified on the :guilabel:`Query Bar` is 
-        applied to the :guilabel:`Update Documents` modal.
-      - The update statement, this is the ``$set`` command syntax. This 
-        update applies to the documents and filter criteria specified
-        in the modal.
-      - A preview of documents after the update statement is applied.
+      .. list-table::
+         :header-rows: 1
+
+         * - UI Element
+           - Description
+
+         * - :guilabel:`Filter`
+           - :guilabeAny filter criteria specified on the 
+             :guilabel:`Query Bar` is applied to the 
+             :guilabel:`Update Documents` modal.
+         * - :guilabel:`Update`
+           - The update statement, this is the ``$set`` command syntax. This 
+             update applies to the documents and filter criteria specified
+             in the modal.
+         * - :guilabel:`Preview`
+           - A preview of documents after the update statement is applied.
 
    .. step:: Provide the update syntax 
 
