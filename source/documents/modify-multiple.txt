@@ -78,9 +78,9 @@ Example
 -------
 
 The following examples use the 
-:ref:`sample_mflix Atlas dataset <sample-data>`. 
+:ref:`sample_mflix dataset <sample-data>`. 
 
-The following example updates the ``tomatoes.viewer.numReviews`` and 
+This example updates the ``tomatoes.viewer.numReviews`` and 
 ``tomatoes.viewer.meter`` fields with the Compass 
 :guilabel:`Update Documents` modal.
 
@@ -94,8 +94,7 @@ have a ``year`` of ``1917``.
 Click the :guilabel:`Update` button, the :guilabel:`Update Documents` 
 modal displays.
 
-In the :guilabel:`Update` text box, paste the following update 
-statement:
+In the :guilabel:`Update` text box, paste the following syntax:
 
 .. code-block:: javascript
 
@@ -113,10 +112,10 @@ The :guilabel:`Preview` section is populated with sample documents
 that are affected by the update syntax.
 
 To preview the updates to the :guilabel:`numReviews` 
-and :guilabel:`meter` fields, click the 
-:icon-fa5:`chevron-right` arrow next to ``tomatoes`` 
-and then click the :icon-fa5:`chevron-right` arrow next to 
-:guilabel:`rating`.
+and :guilabel:`meter` fields: 
+
+- Click the :icon-fa5:`chevron-right` arrow next to :guilabel:`tomatoes`. 
+- Click the :icon-fa5:`chevron-right` arrow next to :guilabel:`rating`.
 
 Click the :guilabel:`Update Documents` button to update the collection 
 data.
