@@ -40,5 +40,7 @@ specify query options.
    /documents/view
    /documents/insert
    /documents/modify
+   /documents/modify-multiple
    /documents/clone
    /documents/delete
+   /documents/delete-multiple
