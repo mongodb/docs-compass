@@ -114,8 +114,10 @@ This syntax:
 - Increments the ``tomatoes.viewer.numReviews`` field by ``1``.
 - Sets the ``tomatoes.viewer.meter`` field to ``99``.
 
-The :guilabel:`Preview` text box populates with sample documents.
-To preview the updates to the documents, click the 
+The :guilabel:`Preview` section is populated with sample documents
+that are affected by the update syntax.
+
+To view the updates to your documents, click the 
 :icon-fa5:`chevron-right` arrow next to ``tomatoes`` 
 and then click the :icon-fa5:`chevron-right` arrow next to 
 :guilabel:`rating` to preview the updated :guilabel:`numReviews` 
