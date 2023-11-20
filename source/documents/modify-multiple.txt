@@ -68,13 +68,14 @@ brief description, code block, or screenshot.
       This modal displays:
 
       .. list-table::
+         :widths: 40 60
          :header-rows: 1
 
          * - UI Element
            - Description
 
          * - :guilabel:`Filter`
-           - :guilabeAny filter criteria specified on the 
+           - Any filter criteria specified on the 
              :guilabel:`Query Bar` is applied to the 
              :guilabel:`Update Documents` modal.
          * - :guilabel:`Update`
