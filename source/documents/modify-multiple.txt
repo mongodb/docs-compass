@@ -87,6 +87,7 @@ modal displays.
       $set: { "tomatoes.viewer.rating" : 5 } 
    }
 
+
 The following example updates the ``tomatoes.viewer.numReviews`` and 
 ``tomatoes.viewer.meter`` fields with the Compass 
 :guilabel:`Update Documents` modal.
@@ -108,12 +109,20 @@ statement:
       $set: { "tomatoes.viewer.meter" : 99 } 
    }
 
-The :guilabel:`Preview` text box populates with sample documents.
+This syntax:
 
-Click the :icon-fa5:`chevron-right` arrow next to ``tomatoes`` 
+- Increments the ``tomatoes.viewer.numReviews`` field by ``1``.
+- Sets the ``tomatoes.viewer.meter`` field to ``99``.
+
+The :guilabel:`Preview` text box populates with sample documents.
+To preview the updates to the documents, click the 
+:icon-fa5:`chevron-right` arrow next to ``tomatoes`` 
 and then click the :icon-fa5:`chevron-right` arrow next to 
 :guilabel:`rating` to preview the updated :guilabel:`numReviews` 
 and :guilabel:`meter` fields.
+
+Click the :guilabel:`Update Documents` button to update the collection 
+data.
 
 Learn More
 ----------
