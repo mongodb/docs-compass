@@ -48,15 +48,8 @@ An ordered or unordered list of any prerequisites for the task.
 Steps
 -----
 
-These are the steps to complete the task. 
-
-In some cases, we recomend that you use a stepped content approach. In others, 
-a single statement and copyable command or syntax example.  In most cases, it's helpful 
-to include an example of what a successful result looks like. It could be a 
-brief description, code block, or screenshot. 
-
 .. procedure::
-   :style:  connected
+   :style:  normal
 
    .. step:: Open the Bulk Update Modal
 
@@ -88,14 +81,14 @@ brief description, code block, or screenshot.
       a. In the :guilabel:`Update` text field, provide the update 
          syntax.
 
-      .. note::
+         .. note::
 
-            The number of documents affected by the update displays in 
-            the top of the :guilabel:`Update Documents` modal in 
-            parentheses.
+               The number of documents affected by the update displays in 
+               the top of the :guilabel:`Update Documents` modal in 
+               parentheses.
 
       #. Click :guilabel:`Update Documents`.
-         
+
          Compass applies the :guilabel:`Update` syntax to the documents
          within the filter criteria in the :guilabel:`` expression.
 
