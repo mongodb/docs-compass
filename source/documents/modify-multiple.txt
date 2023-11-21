@@ -22,9 +22,14 @@ to your data before you apply them.
 About this Task
 ---------------
 
-The :guilabel:`Update Documents` bulk update modal is available starting
-in Compass version ``1.5.X``. For instructions on updating or installing
-the latest Compass version, see :ref:`download-install`. 
+- The :guilabel:`Update Documents` bulk update modal is available starting
+  in Compass version ``1.5.X``. For instructions on updating or installing
+  the latest Compass version, see :ref:`download-install`. 
+
+- Any syntax that works with the ``update`` parameter of the
+  :manual:`db.collection.updateMany()` is valid. The 
+  :guilabel:`Update Documents` modal does not support any ``options`` 
+  parameters such as ``upsert``, ``writeConcern`` or ``collation``.
 
 Steps
 -----
@@ -52,11 +57,12 @@ Steps
              :guilabel:`Query Bar` is applied to the 
              :guilabel:`Update Documents` modal.
          * - :guilabel:`Update`
-           - The update statement, this is the ``$set`` command syntax. This 
-             update applies to the documents and filter criteria specified
-             in the modal.
+           - This is the update command syntax that is applied to the 
+             documents specified in the :guilabel:`Filter` criteria. 
+             Any syntax that works with the ``update`` parameter of the
+             :manual:`db.collection.updateMany()` is valid.
          * - :guilabel:`Preview`
-           - A preview of documents after the update statement is applied.
+           - A preview of documents after the update syntax is applied.
 
    .. step:: Provide the update syntax 
 
@@ -117,7 +123,7 @@ and :guilabel:`meter` fields:
 - Click the :icon-fa5:`chevron-right` arrow next to :guilabel:`tomatoes`. 
 - Click the :icon-fa5:`chevron-right` arrow next to :guilabel:`rating`.
 
-Click the :guilabel:`Update Documents` button to update the collection 
+Click the :guilabel:`Update Documents` button to update the collection's
 data.
 
 Learn More
