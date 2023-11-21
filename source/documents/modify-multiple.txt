@@ -120,8 +120,10 @@ that are affected by the update syntax.
 To preview the updates to the :guilabel:`numReviews` 
 and :guilabel:`meter` fields: 
 
-- Click the :icon-fa5:`chevron-right` arrow next to :guilabel:`tomatoes`. 
-- Click the :icon-fa5:`chevron-right` arrow next to :guilabel:`rating`.
+- Click the :icon-fa5:`angle-right` arrow icon next to 
+  :guilabel:`tomatoes`. 
+- Click the :icon-fa5:`angle-right` arrow icon next to 
+  :guilabel:`rating`.
 
 Click the :guilabel:`Update Documents` button to update the collection's
 data.
