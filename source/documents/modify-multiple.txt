@@ -60,7 +60,7 @@ Steps
            - This is the update command syntax that is applied to the 
              documents specified in the :guilabel:`Filter` criteria. 
              Any syntax that works with the ``update`` parameter of the
-             :manual:`db.collection.updateMany()` is valid.
+             :method:`db.collection.updateMany()` is valid.
          * - :guilabel:`Preview`
            - A preview of documents after the update syntax is applied.
 
