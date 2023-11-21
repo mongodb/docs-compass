@@ -69,11 +69,9 @@ Steps
       a. In the :guilabel:`Update` text field, provide the update 
          syntax.
 
-         .. note::
-
-               The number of documents affected by the update displays in 
-               the top of the :guilabel:`Update Documents` modal in 
-               parentheses.
+         The number of documents affected by the update displays in 
+         the top of the :guilabel:`Update Documents` modal in 
+         parentheses.
 
       #. Click :guilabel:`Update Documents`.
 
