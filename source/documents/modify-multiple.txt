@@ -22,7 +22,7 @@ to your data before you apply them.
 About this Task
 ---------------
 
-- The :guilabel:`Update Documents` bulk update modal is available starting
+- The :guilabel:`Update Documents` modal is available starting
   in Compass version ``1.5.X``. For instructions on updating or installing
   the latest Compass version, see :ref:`download-install`. 
 
