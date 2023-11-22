@@ -44,7 +44,7 @@ Steps
    .. step:: Open the Bulk Update Modal
 
       From the :guilabel:`Documents` tab, click the 
-      :guilabel:` :icon-lg:`Edit` Update` button.
+      :icon-lg:`Edit` :guilabel:`Update` button.
 
       The :guilabel:`Update Documents` modal displays. The following 
       table summarizes the UI of the modal:
