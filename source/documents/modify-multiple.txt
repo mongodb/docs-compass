@@ -29,7 +29,7 @@ About this Task
 - Any syntax that works with the ``update`` parameter of the
   :manual:`db.collection.updateMany()` is valid. The 
   :guilabel:`Update Documents` modal does not support any ``options`` 
-  parameters such as ``upsert``, ``writeConcern`` or ``collation``.
+  parameters such as upsert, writeConcern or collation.
 
 Steps
 -----
