@@ -21,7 +21,9 @@
         and :guilabel:`Update` statement display along with the copy, delete,
         and open new modal icons.
 
-        Clicking the open modal icon, opens the bulk update statement 
-        and the filter criteria in the :guilabel:`Update Documents` 
-        modal. For details on bulk update statements in Compass see
-        :ref:`compass-bulk-update`.
+        .. note::
+            
+            Clicking the open modal icon, opens the bulk update statement 
+            and the filter criteria in the :guilabel:`Update Documents` 
+            modal. For details on bulk update statements in Compass see
+            :ref:`compass-bulk-update`.
