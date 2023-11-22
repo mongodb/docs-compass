@@ -14,6 +14,10 @@
 
       Select your favorited queries.
 
+      .. figure:: /images/compass/favorited-query-filter-and-bulk-example.png
+         :figwidth: 600 px
+         :alt: Favorited queries view
+
       - If your favorited query is a query, only a :guilabel:`Filter` 
         statement displays in the :guilabel:`Favorites` list view 
         along with copy and delete icons.
