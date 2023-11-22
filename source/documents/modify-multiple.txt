@@ -27,8 +27,9 @@ About this Task
   the latest Compass version, see :ref:`download-install`. 
 
 - Any syntax that works with the ``update`` parameter of the
-  :method:`db.collection.updateMany()` is valid. The 
-  :guilabel:`Update Documents` modal does not support any ``options`` 
+  :method:`db.collection.updateMany()` is valid. 
+  
+- The :guilabel:`Update Documents` modal does not support any ``options`` 
   parameters such as upsert, writeConcern or collation.
 
 Steps
