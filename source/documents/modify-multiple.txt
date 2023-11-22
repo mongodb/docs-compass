@@ -64,7 +64,7 @@ Steps
          * - :guilabel:`Preview`
            - A preview of documents after the update syntax is applied.
 
-   .. step:: Provide the update syntax 
+   .. step:: Enter the update syntax 
 
       a. In the :guilabel:`Update` text field, provide the update 
          syntax.
@@ -77,6 +77,13 @@ Steps
 
          Compass applies the :guilabel:`Update` syntax to the documents
          within the filter criteria in the :guilabel:`Filter` expression.
+
+         .. note::
+
+            A sample of documents displays under the :guilabel:`Preview` 
+            header. The documents in :guilabel:`Preview` show how the 
+            :guilabel:`Update` syntax affects documents in your 
+            collection.
 
    .. step:: (Optional) Name and save your update syntax
 
