@@ -78,21 +78,21 @@ Steps
          Compass applies the :guilabel:`Update` syntax to the documents
          within the filter criteria in the :guilabel:`Filter` expression.
 
-.. step:: (Optional) Name and save your update syntax
+   .. step:: (Optional) Name and save your update syntax
 
-      You can optionally name and update the update syntax in the 
-      :guilabel:`Update Documents` modal. Saving your syntax allows you 
-      to load and copy the syntax after you close the modal.
+         You can optionally name and save the update syntax in the 
+         :guilabel:`Update Documents` modal. Saving your syntax allows you 
+         to load and copy the syntax after you close the modal.
 
-      a. Click the :guilabel:`Save` button on the bottom-left of the 
-         modal.
-      #. Enter a name for the update syntax in the text field.
-      #. Click the green :guilabel:`Save` button. 
-         A popup toast message displays, indicating the statement was 
-         saved.
-      #. Your update syntax is saved with the recent and saved queries
-         at the collection level. For details, see 
-         :ref:`saved-favorite-query-view`.
+         a. Click the :guilabel:`Save` button on the bottom-left of the 
+            modal.
+         #. Enter a name for the update syntax in the text field.
+         #. Click the green :guilabel:`Save` button. 
+            A popup toast message displays, indicating the statement was 
+            saved.
+         #. Your update syntax is saved with the recent and saved queries
+            at the collection level. For details, see 
+            :ref:`saved-favorite-query-view`.
 
 Example
 -------
