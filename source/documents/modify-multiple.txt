@@ -57,9 +57,9 @@ Steps
              :guilabel:`Query Bar` is applied to the 
              :guilabel:`Update Documents` modal.
          * - :guilabel:`Update`
-           - This is the update command syntax that is applied to the 
-             documents specified in the :guilabel:`Filter` criteria. 
-             Any syntax that works with the ``update`` parameter of the
+           - This is the update syntax that is applied to the 
+             documents specified. Any syntax that works with the 
+             ``update`` parameter of the
              :method:`db.collection.updateMany()` is valid.
          * - :guilabel:`Preview`
            - A preview of documents after the update syntax is applied.
@@ -88,10 +88,8 @@ Steps
          a. Click the :guilabel:`Save` button on the bottom-left of the 
             modal.
          #. Enter a name for the update syntax.
-         #. Click the green :guilabel:`Save` button. 
-
-            A popup toast message displays, indicating the statement was 
-            saved.
+         #. Click the green :guilabel:`Save` button. A popup toast 
+            message displays, indicating the statement was saved.
 
             For details on how to access favorited queries, see 
             :ref:`saved-favorite-query-view`.
