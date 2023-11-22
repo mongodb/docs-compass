@@ -14,8 +14,7 @@
 
       Select your favorited queries.
 
-      .. figure:: /images/compass/favorited-query-filter-and-bulk-example.png
-         :figwidth: 600 px
+      .. image:: /images/compass/favorited-query-filter-and-bulk-example.png
          :alt: Favorited queries view
 
       - If your favorited query is a query, only a :guilabel:`Filter` 
