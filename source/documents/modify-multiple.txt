@@ -77,17 +77,17 @@ Steps
          the top of the :guilabel:`Update Documents` modal in 
          parentheses.
 
-      #. Click :guilabel:`Update Documents`.
-
-         Compass applies the :guilabel:`Update` syntax to the documents
-         within the filter criteria in the :guilabel:`Filter` expression.
-
          .. note::
 
             A sample of documents displays under the :guilabel:`Preview` 
             header. The documents in :guilabel:`Preview` show how the 
             :guilabel:`Update` syntax affects documents in your 
             collection.
+
+      #. Click :guilabel:`Update Documents`.
+
+         Compass applies the :guilabel:`Update` syntax to the documents
+         within the filter criteria in the :guilabel:`Filter` expression.
 
    .. step:: (Optional) Name and save your update syntax
 
