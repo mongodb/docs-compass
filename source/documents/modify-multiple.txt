@@ -109,7 +109,7 @@ have a ``year`` of ``1917``.
 
 .. code-block:: javascript
 
-   {'year' : 1917}
+   { 'year' : 1917 }
 
 Click the :guilabel:`Update` button, the :guilabel:`Update Documents` 
 modal displays.
@@ -128,7 +128,7 @@ This syntax:
 - Increments the ``tomatoes.viewer.numReviews`` field by ``1``.
 - Sets the ``tomatoes.viewer.meter`` field to ``99``.
 
-The :guilabel:`Preview` section is populated with sample documents
+The :guilabel:`Preview` section populates with sample documents
 that are affected by the update syntax.
 
 To preview the updates to the :guilabel:`numReviews` 
@@ -145,4 +145,5 @@ data.
 Learn More
 ----------
 
-:ref:`compass-bulk-delete`
+- :ref:`compass-bulk-delete`
+- :ref:`saved-favorite-query-view`
