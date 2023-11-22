@@ -94,10 +94,6 @@ Steps
          at the collection level. For details, see 
          :ref:`saved-favorite-query-view`.
 
-
-
-.. https://www.mongodb.com/docs/compass/current/query/queries/#using-the-favorites-tab
-
 Example
 -------
 
