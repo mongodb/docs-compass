@@ -16,12 +16,13 @@
 
       - If your favorited query is a query, only a :guilabel:`Filter` 
         statement displays in the :guilabel:`Favorites` list view 
-        along with copy and delete icons.
+        along with copy :icon-lg:`Copy` and delete :icon-lg:`Trash` 
+        icons.
 
       - If your favorited query is a bulk update statement, a :guilabel:`Filter` 
         and :guilabel:`Update` statement display in the 
-        :guilabel:`Favorites` list view along with copy, delete,
-        and open new modal icons.
+        :guilabel:`Favorites` list view along with copy :icon-lg:`Copy`, 
+        delete :icon-lg:`Trash`, and :icon-lg:`OpenNewTab` open in modal icons.
 
         .. note::
             
