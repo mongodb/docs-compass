@@ -80,19 +80,19 @@ Steps
 
    .. step:: (Optional) Name and save your update syntax
 
-         You can optionally name and save the update syntax in the 
-         :guilabel:`Update Documents` modal. Saving your syntax allows you 
+         You can name and save the update syntax in the 
+         :guilabel:`Update Documents` modal. Saving your syntax adds it 
+         to your favorite queries for that collection and allows you 
          to load and copy the syntax after you close the modal.
 
          a. Click the :guilabel:`Save` button on the bottom-left of the 
             modal.
-         #. Enter a name for the update syntax in the text field.
+         #. Enter a name for the update syntax.
          #. Click the green :guilabel:`Save` button. 
             A popup toast message displays, indicating the statement was 
             saved.
-         #. Your update syntax is saved with the recent and saved queries
-            at the collection level. For details, see 
-            :ref:`saved-favorite-query-view`.
+         #. Your update syntax is saved, for details on how to access 
+            favorited queries, see :ref:`saved-favorite-query-view`.
 
 Example
 -------
