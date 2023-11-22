@@ -142,8 +142,8 @@ This syntax:
 The :guilabel:`Preview` section populates with sample documents
 that are affected by the update syntax.
 
-To preview the updates to the :guilabel:`numReviews` 
-and :guilabel:`meter` fields: 
+To view the updates to the :guilabel:`numReviews` 
+and :guilabel:`meter` fields:
 
 - Click the :icon-fa5:`angle-right` arrow icon next to 
   :guilabel:`tomatoes`. 
