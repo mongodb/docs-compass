@@ -92,7 +92,7 @@ Steps
          saved.
       #. Your update syntax is saved with the recent and saved queries
          at the collection level. For details, see 
-         :ref:`saved--favorite-query-view`.
+         :ref:`saved-favorite-query-view`.
 
 
 
