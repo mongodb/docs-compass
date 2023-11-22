@@ -89,10 +89,12 @@ Steps
             modal.
          #. Enter a name for the update syntax.
          #. Click the green :guilabel:`Save` button. 
+
             A popup toast message displays, indicating the statement was 
             saved.
-         #. Your update syntax is saved, for details on how to access 
-            favorited queries, see :ref:`saved-favorite-query-view`.
+
+            For details on how to access favorited queries, see 
+            :ref:`saved-favorite-query-view`.
 
 Example
 -------
