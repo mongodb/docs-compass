@@ -13,9 +13,11 @@ Documents are individual records in a MongoDB :ref:`collection
 
 From the :guilabel:`Documents` tab, you can
 :ref:`view <compass-view-documents>`, :ref:`insert <insert-documents>`,
-:ref:`modify <compass-modify-documents>`, :ref:`compass-bulk-update`
+:ref:`modify <compass-modify-documents>`, 
+:ref:` modify multiple <compass-bulk-update>`
 :ref:`clone <clone-documents>`,
-:ref:`delete <compass-delete-documents>`, and :ref:`compass-bulk-delete` 
+:ref:`delete <compass-delete-documents>`, and 
+:ref:`delete multiple <compass-bulk-delete>` 
 documents in your selected collection or view.
 
 .. note::
