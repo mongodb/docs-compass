@@ -26,7 +26,7 @@ About this Task
   :method:`db.collection.updateMany()` is valid. 
   
 - The :guilabel:`Update Documents` modal does not support any ``options`` 
-  parameters such as upsert, writeConcern or collation.
+  parameters such as upsert, writeConcern, or collation.
 
 Before you Begin
 ----------------
@@ -41,7 +41,7 @@ Steps
 .. procedure::
    :style:  normal
 
-   .. step:: Open the Bulk Update Modal
+   .. step:: Open the bulk update modal
 
       From the :guilabel:`Documents` tab, click the 
       :icon-lg:`Edit` :guilabel:`Update` button.
@@ -62,8 +62,8 @@ Steps
              :guilabel:`Update Documents` modal.
          * - :guilabel:`Update`
            - This is the update syntax that is applied to the 
-             documents specified. Any syntax that works with the 
-             ``update`` parameter of the
+             documents specified in the filter criteria. Any syntax 
+             that works with the ``update`` parameter of the
              :method:`db.collection.updateMany()` is valid.
          * - :guilabel:`Preview`
            - A preview of documents after the update syntax is applied.
