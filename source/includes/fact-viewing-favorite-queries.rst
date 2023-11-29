@@ -12,17 +12,18 @@
 
    .. step:: Click the :guilabel:`Favorites` button in the past queries pane.
 
-      Select your favorited queries.
+      Select your favorited syntax.
 
-      - If your favorited query is a query, only a :guilabel:`Filter` 
+      - If your favorited syntax is a query, only a :guilabel:`Filter` 
         statement displays in the :guilabel:`Favorites` list view 
         along with copy :icon-lg:`Copy` and delete :icon-lg:`Trash` 
         icons.
 
-      - If your favorited query is a bulk update statement, a :guilabel:`Filter` 
-        and :guilabel:`Update` statement display in the 
-        :guilabel:`Favorites` list view along with copy :icon-lg:`Copy`, 
-        delete :icon-lg:`Trash`, and :icon-lg:`OpenNewTab` open in modal icons.
+      - If your favorited syntax is a bulk update statement, a 
+        :guilabel:`Filter` and :guilabel:`Update` statement display in 
+        the :guilabel:`Favorites` list view along with copy 
+        :icon-lg:`Copy`, delete :icon-lg:`Trash`, and 
+        :icon-lg:`OpenNewTab` open in modal icons.
 
         .. note::
             
