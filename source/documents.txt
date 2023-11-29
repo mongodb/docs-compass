@@ -31,8 +31,10 @@ specify query options.
    - :doc:`/documents/view`
    - :doc:`/documents/insert`
    - :doc:`/documents/modify`
+   - :ref:`compass-bulk-update`
    - :doc:`/documents/clone`
    - :doc:`/documents/delete`
+   - :ref:`compass-bulk-delete`
 
 .. toctree::
    :titlesonly:
