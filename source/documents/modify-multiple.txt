@@ -22,7 +22,7 @@ to your data before you apply them.
 About this Task
 ---------------
 
-- You can use any syntax that works with the ``update`` parameter of the
+- You can use any syntax that works with the ``update`` parameter of
   :method:`db.collection.updateMany()`. 
   
 - The :guilabel:`Update Documents` modal does not support any ``options`` 
