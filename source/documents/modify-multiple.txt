@@ -124,7 +124,7 @@ have a ``year`` of ``1917``.
 
    { 'year' : 1917 }
 
-Click the :guilabel:`Update` button, the :guilabel:`Update Documents` 
+Click the :icon-lg:`Edit` :guilabel:`Update` button, the :guilabel:`Update Documents` 
 modal displays.
 
 In the :guilabel:`Update` text box, paste the following syntax:
@@ -138,7 +138,8 @@ In the :guilabel:`Update` text box, paste the following syntax:
 
 This syntax:
 
-- Increments the ``tomatoes.viewer.numReviews`` field by ``1``.
+- :manual:`Increments </reference/operator/update/inc>` the 
+  ``tomatoes.viewer.numReviews`` field by ``1``.
 - Sets the ``tomatoes.viewer.meter`` field to ``99``.
 
 The :guilabel:`Preview` section populates with sample documents
