@@ -58,7 +58,7 @@ Steps
 
          * - :guilabel:`Filter`
            - Any filter criteria specified on the 
-             :guilabel:`Query Bar` is applied to the 
+             :guilabel:`Query Bar` applies to the 
              :guilabel:`Update Documents` modal.
          * - :guilabel:`Update`
            - This is the update syntax that is applied to the 
@@ -66,7 +66,7 @@ Steps
              that works with the ``update`` parameter of the
              :method:`db.collection.updateMany()` is valid.
          * - :guilabel:`Preview`
-           - A preview of documents after the update syntax is applied.
+           - A preview of documents with the update syntax applied.
 
    .. step:: Enter the update syntax 
 
@@ -95,7 +95,7 @@ Steps
          modal.
       #. Enter a name for the update syntax.
       #. Click the green :guilabel:`Save` button. A popup toast 
-         message displays, indicating the statement was saved.
+         message displays, indicating the statement saved.
 
          For details on how to access your favorite queries, see 
          :ref:`saved-favorite-query-view`.
@@ -144,7 +144,7 @@ This syntax:
   ``tomatoes.viewer.meter`` field to ``99``.
 
 The :guilabel:`Preview` section populates with sample documents
-that are affected by the update syntax.
+affected by the update syntax.
 
 To view the updates to the :guilabel:`numReviews` 
 and :guilabel:`meter` fields:
