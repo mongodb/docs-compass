@@ -140,7 +140,8 @@ This syntax:
 
 - :manual:`Increments </reference/operator/update/inc>` the 
   ``tomatoes.viewer.numReviews`` field by ``1``.
-- Sets the ``tomatoes.viewer.meter`` field to ``99``.
+- :manual:`Sets </reference/operator/update/set>` the 
+  ``tomatoes.viewer.meter`` field to ``99``.
 
 The :guilabel:`Preview` section populates with sample documents
 that are affected by the update syntax.
