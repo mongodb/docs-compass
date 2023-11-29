@@ -110,7 +110,7 @@ Steps
 Example
 -------
 
-The following examples use the 
+The following example uses the 
 :ref:`sample_mflix dataset <sample-data>`. 
 
 This example updates the ``tomatoes.viewer.numReviews`` and 
