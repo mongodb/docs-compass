@@ -81,7 +81,7 @@ Steps
 
             A sample of documents displays under the :guilabel:`Preview` 
             header. The documents in :guilabel:`Preview` show how the 
-            :guilabel:`Update` syntax affects documents in your 
+            :guilabel:`Update` syntax affect documents in your 
             collection.
 
    .. step:: (Optional) Name and save your update syntax
