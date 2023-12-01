@@ -43,10 +43,9 @@ Steps
 
    .. step:: Open the bulk update modal
 
-      From the :guilabel:`Documents` tab, click the 
-      :icon-lg:`Edit` :guilabel:`Update` button.
-
-      The :guilabel:`Update Documents` modal displays. The following 
+      From the :guilabel:`Documents` tab, click the :icon-lg:`Edit` 
+      :guilabel:`Update` button to display the 
+      :guilabel:`Update Documents` modal. The following 
       table summarizes the UI of the modal:
 
       .. list-table::
@@ -86,17 +85,15 @@ Steps
 
       You can name and save the update syntax in the 
       :guilabel:`Update Documents` modal. Saving your syntax adds it 
-      to your favorite queries for that collection and allows you 
-      to load and copy the syntax after you close the modal.
+      to your :ref:`favorite queries <saved-favorite-query-view>` for 
+      that collection and allows you to load and copy the syntax after 
+      you close the modal.
 
       a. Click the :guilabel:`Save` button on the bottom left of the 
          modal.
       #. Enter a name for the update syntax.
       #. Click the green :guilabel:`Save` button. A pop-up toast 
          message displays, indicating the statement saved.
-
-         For details on how to access your favorite queries, see 
-         :ref:`saved-favorite-query-view`.
 
    .. step:: Update your documents
 
