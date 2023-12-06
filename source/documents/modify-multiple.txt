@@ -83,7 +83,7 @@ Steps
       In the :guilabel:`Update` text field, provide the update 
       syntax.
 
-      The number of documents affected by the update displays in 
+      The number of documents affected by the update displays at 
       the top of the :guilabel:`Update Documents` modal.
 
       .. note::
@@ -108,7 +108,7 @@ Steps
 
       Click :guilabel:`Update Documents`.
 
-      Compass applies the :guilabel:`Update` syntax to the documents
+      Compass applies the :guilabel:`Update` to the documents
       within the :guilabel:`Filter` expression.
 
 Example
