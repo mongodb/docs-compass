@@ -41,6 +41,14 @@ Steps
 .. procedure::
    :style:  normal
 
+   .. step:: Apply a query filter
+
+      From the :guilabel:`Documents` tab, input a query into the 
+      :guilabel:`Query bar`. The filter criteria of the query specified 
+      applies to the documents in the :guilabel:`Bulk Update` modal. If 
+      you need to apply an update to all documents in a collection, 
+      skip to step two.
+
    .. step:: Open the bulk update modal
 
       From the :guilabel:`Documents` tab, click the :icon-lg:`Edit` 
@@ -59,6 +67,9 @@ Steps
            - Any filter criteria specified on the 
              :guilabel:`Query Bar` applies to the 
              :guilabel:`Update Documents` modal.
+             To update the filter query, exit the 
+             :guilabel:`Update Documents` modal and modify the 
+             query in the :guilabel:`Query Bar`.
          * - :guilabel:`Update`
            - The update syntax that is applied to the 
              documents specified in the filter criteria. You can use 
@@ -73,15 +84,14 @@ Steps
       syntax.
 
       The number of documents affected by the update displays in 
-      the top of the :guilabel:`Update Documents` modal in 
-      parentheses.
+      the top of the :guilabel:`Update Documents` modal.
 
       .. note::
 
          The documents under the :guilabel:`Preview` header show how the 
          :guilabel:`Update` syntax affects documents in your collection.
 
-   .. step:: (Optional) Name and save your update syntax
+   .. step:: (Optional) Name and save your :guilabel:`Update`
 
       You can name and save the update query in the 
       :guilabel:`Update Documents` modal. Saving your query adds it 
@@ -92,8 +102,7 @@ Steps
       a. Click the :guilabel:`Save` button on the bottom left of the 
          modal.
       #. Enter a name for the update syntax.
-      #. Click the green :guilabel:`Save` button. A pop-up toast 
-         message displays, indicating the statement saved.
+      #. Click the green :guilabel:`Save` button.
 
    .. step:: Update your documents
 
