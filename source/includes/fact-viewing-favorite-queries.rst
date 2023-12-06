@@ -21,7 +21,7 @@
 
         .. note::
             
-            Clicking a favorited query card in the 
+            Clicking a favorited query in the 
             :guilabel:`Favorites` list view populates your 
             :guilabel:`Query Bar` with that query.
 
