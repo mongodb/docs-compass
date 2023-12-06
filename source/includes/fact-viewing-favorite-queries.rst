@@ -33,7 +33,7 @@
 
         .. note::
 
-            Clicking the :icon-lg:`OpenNewTab` icon, opens the bulk 
+            Clicking the :icon-lg:`OpenNewTab` icon opens the bulk 
             update statement and the filter criteria in the 
             :guilabel:`Update Documents` modal. For details on bulk 
             update statements in Compass, see 
