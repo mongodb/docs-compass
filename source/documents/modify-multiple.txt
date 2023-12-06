@@ -83,10 +83,10 @@ Steps
 
    .. step:: (Optional) Name and save your update syntax
 
-      You can name and save the update syntax in the 
-      :guilabel:`Update Documents` modal. Saving your syntax adds it 
+      You can name and save the update query in the 
+      :guilabel:`Update Documents` modal. Saving your query adds it 
       to your :ref:`favorite queries <saved-favorite-query-view>` for 
-      that collection and allows you to load and copy the syntax after 
+      that collection and allows you to load and copy the query after 
       you close the modal.
 
       a. Click the :guilabel:`Save` button on the bottom left of the 
@@ -139,7 +139,7 @@ This syntax:
   ``tomatoes.viewer.meter`` field to ``99``.
 
 The :guilabel:`Preview` section populates with sample documents
-affected by the update syntax.
+affected by the update query.
 
 To view the updates to the :guilabel:`numReviews` 
 and :guilabel:`meter` fields:
