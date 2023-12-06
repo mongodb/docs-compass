@@ -109,7 +109,7 @@ Steps
       Click :guilabel:`Update Documents`.
 
       Compass applies the :guilabel:`Update` syntax to the documents
-      within the filter criteria in the :guilabel:`Filter` expression.
+      within the :guilabel:`Filter` expression.
 
 Example
 -------
