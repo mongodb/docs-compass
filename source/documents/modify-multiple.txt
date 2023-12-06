@@ -47,14 +47,14 @@ Steps
       :guilabel:`Query bar`. The filter criteria of the query specified 
       applies to the documents in the :guilabel:`Bulk Update` modal. If 
       you need to apply an update to all documents in a collection, 
-      skip to step two.
+      leave the :guilabel:`Query bar` blank.
 
    .. step:: Open the bulk update modal
 
-      From the :guilabel:`Documents` tab, click the :icon-lg:`Edit` 
+      On the :guilabel:`Documents` tab, click the :icon-lg:`Edit` 
       :guilabel:`Update` button to display the 
       :guilabel:`Update Documents` modal. The following 
-      table summarizes the UI of the modal:
+      table summarizes the :abbr:`UI (User Interface)` of the modal:
 
       .. list-table::
          :widths: 40 60
