@@ -1,22 +1,18 @@
-Compass can have issues displaying collections if documents have 
-invalid UTF8 characters.
-
-If you attempt to query or export this data, the following error 
-message displays: 
+If you attempt to query or export data with invalid UTF8 characters
+the following error message displays: 
 
 .. code-block:: none
    :copyable: false
 
    Invalid UTF-8 string in BSON document. 
 
-In order to query or export this data, you can disable 
-UTF8 validation by setting the ``enableUtf8Validation`` URI option to 
-``false``. 
+To query or export this data, disable UTF8 validation by setting 
+the ``enableUtf8Validation`` URI option to ``false``. 
 
 .. warning::
 
    **Editing data** with ``enableUtf8Validation=false`` can result in 
-   potential loss of data. This approach is a temporary workaround to 
+   loss of data. This approach is a temporary workaround to 
    query or export data only.
 
 The following URI disables UTF8 validation:
