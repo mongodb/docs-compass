@@ -83,9 +83,7 @@ Steps
       supported driver language using the :guilabel:`Export` button on 
       the :guilabel:`Delete Documents` modal. 
 
-      .. note::
-
-         .. include:: /includes/fact-supported-language-exports.rst
+      .. include:: /includes/fact-supported-language-exports.rst
 
       a. On the :guilabel:`Delete Documents` modal, click 
          :guilabel:`Export`. The 
