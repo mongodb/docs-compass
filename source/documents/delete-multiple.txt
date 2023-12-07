@@ -105,7 +105,8 @@ Steps
 
    .. step:: Delete your documents
 
-      a. Click :guilabel:`Delete Documents`.
+      a. On the :guilabel:`Delete Documents` modal, click 
+         :guilabel:`Delete Documents`.
       #. Click the red :guilabel:`Delete Documents` button to confirm
          the operation.
 
@@ -134,10 +135,11 @@ Click the :icon-lg:`Trash` :guilabel:`Delete` button, the
 The :guilabel:`Preview` section populates with sample documents
 affected by the delete operation.
 
-Click the :guilabel:`Delete Documents` button to delete the document's
-from the collection.
+Click the :guilabel:`Delete Documents` button, a confirmation modal 
+displays asking you to confirm the delete operation.
 
-Click the red :guilabel:`Delete Documents` button to confirm the operation.
+Click the red :guilabel:`Delete Documents` button to confirm the 
+operation.
 
 Learn More
 ----------
