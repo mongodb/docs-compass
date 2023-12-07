@@ -14,9 +14,6 @@ Delete Multiple Documents
    :depth: 1
    :class: singlecol
 
-You can perform bulk delete operation on multiple documents in Compass.
-
-
 You can perform bulk delete operations on multiple documents in Compass
 by using the :guilabel:`Delete Documents` modal. Performing delete with
 the :guilabel:`Delete Documents` modal helps you visualize deletes 
