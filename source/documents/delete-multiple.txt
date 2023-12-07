@@ -79,7 +79,7 @@ Steps
 
    .. step:: (Optional) Export the :guilabel:`Delete`
 
-      You can export and convert the :guilabel:`Delete` query to a 
+      You can export the :guilabel:`Delete` query to a 
       supported driver language using the :guilabel:`Export` button on 
       the :guilabel:`Delete Documents` modal. 
 
@@ -89,10 +89,10 @@ Steps
          the delete syntax populated under :guilabel:`My Delete Query`.
 
       #. Select a programming language by clicking the drop-down under 
-         :guilabel:`Exported Delete Query`. The converted delete syntax
-         displays under the :guilabel:`Exported Delete Query` header.
-         You can convert your delete syntax to:
-         C#, Go, Java, Node, PHP, Python, Ruby, Rust.
+         :guilabel:`Exported Delete Query`. You can convert your delete 
+         syntax to: C#, Go, Java, Node, PHP, Python, Ruby, Rust. The 
+         converted delete syntax displays under the 
+         :guilabel:`Exported Delete Query` header.
 
       #. (Optional) Include import statements 
          Click the :guilabel:`Include Import Statements` checkbox to 
