@@ -118,52 +118,28 @@ Example
 The following example uses the 
 :ref:`sample_mflix dataset <sample-data>`. 
 
-This example updates the ``tomatoes.viewer.numReviews`` and 
-``tomatoes.viewer.meter`` fields with the Compass 
-:guilabel:`Update Documents` modal.
+This example deletes two documents from the ``movies`` collection using 
+the :guilabel:`Delete Documents` modal.
 
 Apply a filter in the :guilabel:`Query Bar` to filter movies which
-have a ``year`` of ``1917``.
+have a ``year`` of ``1919``.
 
 .. code-block:: javascript
 
-   { 'year' : 1917 }
+   { 'year' : 1919 }
 
-Click the :icon-lg:`Edit` :guilabel:`Update` button, the :guilabel:`Update Documents` 
-modal displays.
-
-In the :guilabel:`Update` text box, paste the following syntax:
-
-.. code-block:: javascript
-
-   { 
-      $inc: { "tomatoes.viewer.numReviews" : 1}, 
-      $set: { "tomatoes.viewer.meter" : 99 } 
-   }
-
-This syntax:
-
-- :manual:`Increments </reference/operator/update/inc>` the 
-  ``tomatoes.viewer.numReviews`` field by ``1``.
-- :manual:`Sets </reference/operator/update/set>` the 
-  ``tomatoes.viewer.meter`` field to ``99``.
+Click the :icon-lg:`Trash` :guilabel:`Delete` button, the 
+:guilabel:`Delete Documents` modal displays.
 
 The :guilabel:`Preview` section populates with sample documents
-affected by the update query.
+affected by the delete operation.
 
-To view the updates to the :guilabel:`numReviews` 
-and :guilabel:`meter` fields:
+Click the :guilabel:`Delete Documents` button to delete the document's
+from the collection.
 
-- Click the :icon-fa5:`angle-right` arrow icon next to 
-  :guilabel:`tomatoes`. 
-- Click the :icon-fa5:`angle-right` arrow icon next to 
-  :guilabel:`viewer`.
-
-Click the :guilabel:`Update Documents` button to update the collection's
-data.
+Click the red :guilabel:`Delete Documents` button to confirm the operation.
 
 Learn More
 ----------
 
-- :ref:`compass-bulk-delete`
-- :ref:`saved-favorite-query-view`
+- :ref:`compass-bulk-update`
