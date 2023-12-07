@@ -76,7 +76,7 @@ Steps
            - Prompts the :guilabel:`Export Delete Query To Language`
              modal. The :guilabel:`Export Delete Query To Language` 
              modal allows you to convert the delete query
-             to a supported :driver:`driver </>` language.
+             to a supported driver language.
          * - :guilabel:`Preview`
            - A preview of the documents that will be deletion.
 
@@ -85,6 +85,10 @@ Steps
       You can export and convert the :guilabel:`Delete` query to a 
       supported driver language using the :guilabel:`Export` button on 
       the :guilabel:`Delete Documents` modal. 
+
+      .. note::
+
+         .. include:: /includes/fact-collections-screen.rst
 
       a. On the :guilabel:`Delete Documents` modal, click 
          :guilabel:`Export`. The 
