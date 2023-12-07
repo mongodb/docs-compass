@@ -83,8 +83,6 @@ Steps
       supported driver language using the :guilabel:`Export` button on 
       the :guilabel:`Delete Documents` modal. 
 
-      .. include:: /includes/fact-supported-language-exports.rst
-
       a. On the :guilabel:`Delete Documents` modal, click 
          :guilabel:`Export`. The 
          :guilabel:`Export Delete Query To Language` modal displays with
@@ -98,6 +96,8 @@ Steps
          Click the :guilabel:`Include Import Statements` checkbox to 
          include the required import statements for the selected 
          programming language.
+
+         .. include:: /includes/fact-supported-language-exports.rst
 
       #. Click the :icon-lg:`Copy` icon to copy the converted syntax.
 
