@@ -17,24 +17,23 @@ Delete Multiple Documents
 You can perform bulk delete operation on multiple documents in Compass.
 
 
-You can perform bulk update operations on multiple documents in Compass
-by using the :guilabel:`Update Documents` modal. Performing updates with
-the :guilabel:`Update Documents` modal helps you visualize updates 
+You can perform bulk delete operations on multiple documents in Compass
+by using the :guilabel:`Delete Documents` modal. Performing delete with
+the :guilabel:`Delete Documents` modal helps you visualize deletes 
 to your data before you apply them.
 
 About this Task
 ---------------
 
-- You can use any syntax that works with the ``update`` parameter of
-  :method:`db.collection.updateMany()`. 
-  
-- The :guilabel:`Update Documents` modal does not support any ``options`` 
-  parameters such as upsert, writeConcern, or collation.
+- Deleting documents is a permanent action and cannot not be undone. 
+  Validate documents in the :guilabel:`Preview` of the 
+  :guilabel:`Delete Documents` modal before confirming the 
+  delete operation.
 
 Before you Begin
 ----------------
 
-The :guilabel:`Update Documents` modal is available starting
+The :guilabel:`Delete Documents` modal is available starting
 in Compass version ``1.5.X``. For instructions on updating or installing
 the latest Compass version, see :ref:`download-install`. 
 
@@ -48,15 +47,15 @@ Steps
 
       From the :guilabel:`Documents` tab, input a query into the 
       :guilabel:`Query bar`. The filter criteria of the query specified 
-      applies to the documents in the :guilabel:`Bulk Update` modal. If 
-      you need to apply an update to all documents in a collection, 
+      applies to the documents in the :guilabel:`Delete Documents` 
+      modal. If you need to delete all documents in a collection, 
       leave the :guilabel:`Query bar` blank.
 
-   .. step:: Open the bulk update modal
+   .. step:: Open the delete documents modal
 
-      On the :guilabel:`Documents` tab, click the :icon-lg:`Edit` 
-      :guilabel:`Update` button to display the 
-      :guilabel:`Update Documents` modal. The following 
+      On the :guilabel:`Documents` tab, click the :icon-lg:`Trash` 
+      :guilabel:`Delete` button to display the 
+      :guilabel:`Delete Documents` modal. The following 
       table summarizes the :abbr:`UI (User Interface)` of the modal:
 
       .. list-table::
@@ -66,52 +65,52 @@ Steps
          * - UI Element
            - Description
 
-         * - :guilabel:`Filter`
+         * - :guilabel:`Query`
            - Any filter criteria specified on the 
              :guilabel:`Query Bar` applies to the 
-             :guilabel:`Update Documents` modal.
-             To update the filter query, exit the 
-             :guilabel:`Update Documents` modal and modify the 
+             :guilabel:`Delete Documents` modal.
+             To update the :guilabel:`Query`, exit the 
+             :guilabel:`Delete Documents` modal and modify the 
              query in the :guilabel:`Query Bar`.
-         * - :guilabel:`Update`
-           - The update syntax that is applied to the 
-             documents specified in the filter criteria. You can use 
-             any syntax that works with the ``update`` parameter of the
-             :method:`db.collection.updateMany()`.
+         * - :guilabel:`Export`
+           - Prompts the :guilabel:`Export Delete Query To Language`
+             modal. The :guilabel:`Export Delete Query To Language` 
+             modal allows you to convert the delete query
+             to a supported :driver:`driver </>` language.
          * - :guilabel:`Preview`
-           - A preview of documents with the update syntax applied.
+           - A preview of the documents that will be deletion.
 
-   .. step:: Enter the update syntax 
+   .. step:: (Optional) Export the :guilabel:`Delete`
 
-      In the :guilabel:`Update` text field, provide the update 
-      syntax.
+      You can export and convert the :guilabel:`Delete` query to a 
+      supported driver language using the :guilabel:`Export` button on 
+      the :guilabel:`Delete Documents` modal. 
 
-      The number of documents affected by the update displays at 
-      the top of the :guilabel:`Update Documents` modal.
+      a. On the :guilabel:`Delete Documents` modal, click 
+         :guilabel:`Export`. The 
+         :guilabel:`Export Delete Query To Language` modal displays with
+         the delete syntax populated under :guilabel:`My Delete Query`.
 
-      .. note::
+      #. Select a programming language by clicking the drop-down under 
+         :guilabel:`Exported Delete Query`. The converted delete syntax
+         displays under the :guilabel:`Exported Delete Query` header.
 
-         The documents under the :guilabel:`Preview` header show how the 
-         :guilabel:`Update` syntax affects documents in your collection.
+      #. (Optional) Include import statements 
+         Click the :guilabel:`Include Import Statements` checkbox to 
+         include the required import statements for the selected 
+         programming language.
 
-   .. step:: (Optional) Name and save your :guilabel:`Update`
+      #. Click the :icon-lg:`Copy` icon to copy the converted syntax.
 
-      You can name and save the update query in the 
-      :guilabel:`Update Documents` modal. Saving your query adds it 
-      to your :ref:`favorite queries <saved-favorite-query-view>` for 
-      that collection and allows you to load and copy the query after 
-      you close the modal.
+      #. Click the :guilabel:`Close` button.
 
-      a. Click the :guilabel:`Save` button on the bottom left of the 
-         modal.
-      #. Enter a name for the update syntax.
-      #. Click the green :guilabel:`Save` button.
+   .. step:: Delete your documents
 
-   .. step:: Update your documents
+      a. Click :guilabel:`Delete Documents`.
+      #. Click the red :guilabel:`Delete Documents` button to confirm
+         the operation.
 
-      Click :guilabel:`Update Documents`.
-
-      Compass applies the :guilabel:`Update` to the documents
+      Compass applies the :guilabel:`Delete` to the documents
       within the :guilabel:`Filter` expression.
 
 Example
