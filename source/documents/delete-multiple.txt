@@ -85,7 +85,7 @@ Steps
 
       .. note::
 
-         .. include:: /includes/fact-collections-screen.rst
+         .. include:: /includes/fact-supported-language-exports.rst
 
       a. On the :guilabel:`Delete Documents` modal, click 
          :guilabel:`Export`. The 
