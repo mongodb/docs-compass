@@ -25,10 +25,10 @@ to your data before you apply them.
 About this Task
 ---------------
 
-- Deleting documents is a permanent action and cannot not be undone. 
-  Validate documents in the :guilabel:`Preview` of the 
-  :guilabel:`Delete Documents` modal before confirming the 
-  delete operation.
+Deleting documents is a permanent action and cannot not be undone. 
+Validate documents in the :guilabel:`Preview` of the 
+:guilabel:`Delete Documents` modal before confirming the 
+delete operation.
 
 Before you Begin
 ----------------
