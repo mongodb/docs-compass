@@ -45,7 +45,7 @@ Steps
       :guilabel:`Query Bar` to filter deleted documents. To delete 
       all documents in the collection, leave the :guilabel:`Query Bar` blank.
 
-   .. step:: Open the delete documents modal
+   .. step:: Open the :guilabel:`Delete Documents` modal
 
       On the :guilabel:`Documents` tab, click the :icon-lg:`Trash` 
       :guilabel:`Delete` button to display the 
