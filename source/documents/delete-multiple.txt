@@ -128,7 +128,7 @@ The :guilabel:`Preview` pane shows the documents
 included in the delete operation.
 
 Click :guilabel:`Delete Documents`. A confirmation modal 
-appears.
+displays.
 
 Click the red :guilabel:`Delete Documents` button to confirm the 
 operation.
