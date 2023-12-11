@@ -89,10 +89,9 @@ Steps
          to C#, Go, Java, Node, PHP, Python, Ruby, or Rust. The field below
          displays the converted syntax.
 
-      #. (Optional) Include import statements 
-         Click the :guilabel:`Include Import Statements` checkbox to 
-         include the required import statements for the selected 
-         programming language.
+      #. (Optional) Click the :guilabel:`Include Import Statements` 
+         checkbox to include the required import statements for 
+         the selected programming language.
 
       #. Click the :icon-lg:`Copy` icon to copy the converted syntax.
 
