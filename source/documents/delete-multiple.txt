@@ -15,9 +15,8 @@ Delete Multiple Documents
    :class: singlecol
 
 You can perform bulk delete operations on multiple documents in Compass
-by using the :guilabel:`Delete Documents` modal. Performing delete with
-the :guilabel:`Delete Documents` modal helps you visualize deletes 
-to your data before you apply them.
+by using the :guilabel:`Delete Documents` modal. This helps you visualize 
+deletes before applying them.
 
 About this Task
 ---------------
@@ -43,10 +42,8 @@ Steps
    .. step:: Apply a query filter
 
       From the :guilabel:`Documents` tab, input a query into the 
-      :guilabel:`Query bar`. The filter criteria of the query specified 
-      applies to the documents in the :guilabel:`Delete Documents` 
-      modal. If you need to delete all documents in a collection, 
-      leave the :guilabel:`Query bar` blank.
+      :guilabel:`Query Bar` to filter deleted documents. To delete 
+      all documents in the collection, leave the :guilabel:`Query Bar` blank.
 
    .. step:: Open the delete documents modal
 
@@ -70,12 +67,11 @@ Steps
              :guilabel:`Delete Documents` modal and modify the 
              query in the :guilabel:`Query Bar`.
          * - :guilabel:`Export`
-           - Prompts the :guilabel:`Export Delete Query To Language`
-             modal. The :guilabel:`Export Delete Query To Language` 
-             modal allows you to convert the delete query
-             to a supported driver language.
+           - Opens the :guilabel:`Export Delete Query To Language`
+             modal, where you can convert the query to a supported 
+             driver language.
          * - :guilabel:`Preview`
-           - A preview of the documents that will be deletion.
+           - A preview of the documents that will be deleted.
 
    .. step:: (Optional) Export the :guilabel:`Delete`
 
@@ -88,11 +84,10 @@ Steps
          :guilabel:`Export Delete Query To Language` modal displays with
          the delete syntax populated under :guilabel:`My Delete Query`.
 
-      #. Select a programming language by clicking the drop-down under 
-         :guilabel:`Exported Delete Query`. You can convert your delete 
-         syntax to: C#, Go, Java, Node, PHP, Python, Ruby, and Rust. The 
-         converted delete syntax displays under the 
-         :guilabel:`Exported Delete Query` header.
+      #. Select a programming language from the drop-down under 
+         :guilabel:`Exported Delete Query`. You can convert the command
+         to C#, Go, Java, Node, PHP, Python, Ruby, or Rust. The field below
+         displays the converted syntax.
 
       #. (Optional) Include import statements 
          Click the :guilabel:`Include Import Statements` checkbox to 
@@ -101,7 +96,7 @@ Steps
 
       #. Click the :icon-lg:`Copy` icon to copy the converted syntax.
 
-      #. Click the :guilabel:`Close` button.
+      #. Click :guilabel:`Close`.
 
    .. step:: Delete your documents
 
@@ -110,20 +105,17 @@ Steps
       #. Click the red :guilabel:`Delete Documents` button to confirm
          the operation.
 
-      Compass applies the :guilabel:`Delete` to the documents
-      within the :guilabel:`Filter` expression.
+      Compass deletes the documents that match the filter
+      expression.
 
 Example
 -------
 
-The following example uses the 
-:ref:`sample_mflix dataset <sample-data>`. 
+The following example deletes two documents from 
+the ``movies`` collection in the :ref:`sample_mflix dataset <sample-data>`. 
 
-This example deletes two documents from the ``movies`` collection using 
-the :guilabel:`Delete Documents` modal.
-
-Apply a filter in the :guilabel:`Query Bar` to filter movies which
-have a ``year`` of ``1919``.
+In the :guilabel:`Query Bar`, enter a filter for movies
+with a ``year`` of ``1919``.
 
 .. code-block:: javascript
 
@@ -132,11 +124,11 @@ have a ``year`` of ``1919``.
 Click the :icon-lg:`Trash` :guilabel:`Delete` button, the 
 :guilabel:`Delete Documents` modal displays.
 
-The :guilabel:`Preview` section populates with sample documents
-affected by the delete operation.
+The :guilabel:`Preview` pane shows the documents
+included in the delete operation.
 
-Click the :guilabel:`Delete Documents` button, a confirmation modal 
-displays asking you to confirm the delete operation.
+Click :guilabel:`Delete Documents`. A confirmation modal 
+appears.
 
 Click the red :guilabel:`Delete Documents` button to confirm the 
 operation.
