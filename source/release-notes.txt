@@ -13,7 +13,7 @@ Release Notes
 |compass| 1.41.0
 ----------------
 
-*Upcoming* 
+*Released December 18, 2023*
 
 New Features:
 
