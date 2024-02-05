@@ -115,13 +115,14 @@ Settings
 
        If ``protectConnectionStringsForNewConnections`` is ``true``,
        the default state of the :guilabel:`Edit connection string`
-       option is off for new connections.
+       option in the :guilabel:`General` connection tab is off for new
+       connections.
 
        .. note:: 
 
-          ``protectConnectionStringsForNewConnections`` does not prevent
-          users from manually toggling the :guilabel:`Edit connection
-          string` on or off. 
+          Configuring the ``protectConnectionStringsForNewConnections``
+          setting does not prevent users from manually toggling the
+          :guilabel:`Edit connection string` option on or off. 
 
    * - :ref:`readOnly <compass-read-only>`
      - Prevent users from performing write operations to your MongoDB deployment 
