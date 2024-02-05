@@ -18,8 +18,8 @@ Release Notes
 
 New Features
 
-- Compass now supports :ref:`compass-bulk-update` and 
-  :ref:`compass-bulk-delete`
+- Compass now supports :ref:`Bulk Update <compass-bulk-update>` and 
+  :ref:`Bulk Delete<compass-bulk-delete>`
   operations (:issue:`COMPASS-7329`, :issue:`COMPASS-7330`).
 
 Bug Fixes
