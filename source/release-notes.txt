@@ -24,18 +24,15 @@ New Features
 
 Bug Fixes
 
-- Fix namespace stats that refresh after document update.
-- Clear bulk update and bulk write states and abort in flight bulk 
-  update previews when changing the collection.
-- Fix table card autosizing (:issue:`COMPASS-7548`).
-- You can now open a new collection tab when an existing 
-  collection tab is already open (:issue:`COMPASS-7556`).
+- Fixed namespace stats that refresh after document updates.
+- Fixed table card autosizing (:issue:`COMPASS-7548`).
+- Fixed an issue when opening a new collection tab when an existing 
+  collection tab with the same name was already open 
+  (:issue:`COMPASS-7556`).
 - Fixed an issue when switching tabs would reset vertical scrolling 
   to the top position (:issue:`COMPASS-7370`).
-- Invalid dates resulting in blank page 
+- Fixed an issue when invalid dates resulted in a blank page 
   (:issue:`COMPASS-7515`).
-- Make sure that the initial state of the store is set 
-  right away instead of through ``setState`` calls.
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.41.0...v1.42.0>`__
