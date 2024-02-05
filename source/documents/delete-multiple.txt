@@ -30,7 +30,7 @@ Before you Begin
 ----------------
 
 The :guilabel:`Delete Documents` modal is available starting
-in Compass version ``1.5.X``. For instructions on updating or installing
+in Compass version ``1.42.0`. For instructions on updating or installing
 the latest Compass version, see :ref:`download-install`. 
 
 Steps

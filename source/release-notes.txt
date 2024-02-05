@@ -14,6 +14,36 @@ Release Notes
 |compass| 1.40.4
 ----------------
 
+*Released January 31, 2024*
+
+New Features
+
+- feat(crud): Compass now supports 
+  :ref:`bulk update <compass-bulk-update>` and 
+  :ref:`bulk delete<compass-bulk-delete>`
+  operations (:issue:`COMPASS-7329`:, :issue:`COMPASS-7330`).
+
+Bug Fixes
+
+- fix(instance): fix namespace stats refresh after document update.
+- fix(crud): clear bulk update/write states and abort in flight bulk 
+  update previews when changing the collection.
+- fix(indexes): fix table card autosizing (:issue:`COMPASS-7548`).
+- fix(workspaces): open workspace in the same tab when tab type is the 
+  same (:issue:`COMPASS-7556`).
+- fix(compass-crud): persist and restore documents list scroll top 
+  position (:issue:`COMPASS-7370`).
+- fix(export,query-bar): invalid dates resulting in blank page 
+  (:issue:`COMPASS-7515`).
+- fix(crud): make sure that the initial state of the store is set 
+  right away instead of through ``setState`` calls.
+
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.41.0...v1.42.0>`__
+
+|compass| 1.40.4
+----------------
+
 *Released October 18, 2023*
 
 New Feature:
