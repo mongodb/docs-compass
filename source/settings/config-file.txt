@@ -109,15 +109,19 @@ Settings
      - .. include:: /includes/fact-protect-connection-strings.rst 
 
    * - protectConnectionStringsForNewConnections
-     - Specifies whether the :guilabel:`Edit connection string` option
-       in the :guilabel:`General` connection tab is automatically on or off for new
-       connections.
+     - Hides credentials in your connection string for new connections. 
 
        *Default:* false
 
-       If ``protectConnectionStringsForNewConnections`` is true, the
-       default state of the :guilabel:`Edit connection string` option is
-       off for new connections. 
+       If ``protectConnectionStringsForNewConnections`` is ``true``,
+       the default state of the :guilabel:`Edit connection string`
+       option is off for new connections.
+
+       .. note:: 
+
+          ``protectConnectionStringsForNewConnections`` does not prevent
+          users from manually toggling the :guilabel:`Edit connection
+          string` on or off. 
 
    * - :ref:`readOnly <compass-read-only>`
      - Prevent users from performing write operations to your MongoDB deployment 
