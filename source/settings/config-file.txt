@@ -116,7 +116,7 @@ Settings
        *Default:* false
 
        If ``protectConnectionStringsForNewConnections`` is true, the
-       default state of the guilabel:`Edit connection string` option is
+       default state of the :guilabel:`Edit connection string` option is
        off for new connections. 
 
    * - :ref:`readOnly <compass-read-only>`
