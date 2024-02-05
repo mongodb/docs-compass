@@ -11,7 +11,7 @@ Release Notes
    :class: twocols
 
 
-|compass| 1.40.4
+|compass| 1.42.0
 ----------------
 
 *Released January 31, 2024*
