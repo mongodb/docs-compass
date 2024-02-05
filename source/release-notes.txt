@@ -31,7 +31,7 @@ Bug Fixes
   (:issue:`COMPASS-7556`).
 - Fixed an issue when switching tabs would reset vertical scrolling 
   to the top position (:issue:`COMPASS-7370`).
-- Fixed an issue when invalid dates resulted in a blank page 
+- Fixed an issue when invalid dates resulted in a blank export page 
   (:issue:`COMPASS-7515`).
 
 `Full changelog available on GitHub
