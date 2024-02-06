@@ -121,8 +121,8 @@ Settings
        .. note:: 
 
           Configuring the ``protectConnectionStringsForNewConnections``
-          setting does not prevent users from manually toggling the
-          :guilabel:`Edit connection string` option on or off. 
+          setting doesn't prevent users from manually enabling the
+          :guilabel:`Edit connection string` option. 
 
    * - :ref:`readOnly <compass-read-only>`
      - Prevent users from performing write operations to your MongoDB deployment 
