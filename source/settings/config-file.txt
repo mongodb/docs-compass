@@ -117,8 +117,6 @@ Settings
        option but doesn't prevent users from manually enabling the
        option with the :guilabel:`Edit connection string` toggle. 
 
-       *Default:* false
-
    * - :ref:`readOnly <compass-read-only>`
      - Prevent users from performing write operations to your MongoDB deployment 
        through |compass-short|.
