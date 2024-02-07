@@ -112,9 +112,10 @@ Settings
      - Sets connection strings for new connections as read-only. Passwords
        in new connection strings display as ``*****``.
      
-       If ``protectConnctionStrings`` is enabled, |compass-short| disables the
-       :guilabel:`Edit connection string` option but does not prevent
-       users from manually enabling the option.
+       If ``protectConnctionStringsForNewConnections`` is enabled,
+       |compass-short| disables the :guilabel:`Edit connection string`
+       option but doesn't prevent users from manually enabling the
+       option.
 
        *Default:* false
 
