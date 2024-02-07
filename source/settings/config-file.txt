@@ -115,10 +115,6 @@ Settings
 
        *Default:* false
 
-       Configuring the ``protectConnectionStringsForNewConnections``
-       setting doesn't prevent users from manually enabling the
-       :guilabel:`Edit connection string` option. 
-
        .. note:: 
 
           Configuring the ``protectConnectionStringsForNewConnections``
