@@ -115,7 +115,7 @@ Settings
        If ``protectConnctionStringsForNewConnections`` is enabled,
        |compass-short| disables the :guilabel:`Edit connection string`
        option but doesn't prevent users from manually enabling the
-       option.
+       option with the :guilabel:`Edit connection string`toggle. 
 
        *Default:* false
 
