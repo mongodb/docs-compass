@@ -109,17 +109,14 @@ Settings
      - .. include:: /includes/fact-protect-connection-strings.rst 
 
    * - protectConnectionStringsForNewConnections
-     - Sets connection strings for new connections as read-only and
-       disables the :guilabel:`Edit connection string` option. Passwords
-       in connection strings display as ``*****``.
+     - Sets connection strings for new connections as read-only. Passwords
+       in new connection strings display as ``*****``.
+     
+       If ``protectConnctionStrings`` is enabled, |compass-short| disables the
+       :guilabel:`Edit connection string` option but does not prevent
+       users from manually enabling the option.
 
        *Default:* false
-
-       .. note:: 
-
-          Configuring the ``protectConnectionStringsForNewConnections``
-          setting doesn't prevent users from manually enabling the
-          :guilabel:`Edit connection string` option. 
 
    * - :ref:`readOnly <compass-read-only>`
      - Prevent users from performing write operations to your MongoDB deployment 
