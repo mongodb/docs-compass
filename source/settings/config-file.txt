@@ -109,14 +109,15 @@ Settings
      - .. include:: /includes/fact-protect-connection-strings.rst 
 
    * - protectConnectionStringsForNewConnections
-     - Hides credentials in your connection string for new connections. 
+     - Sets connection strings for new connections as read-only and
+       disables the :guilabel:`Edit connection string` option. Passwords
+       in connection strings display as ``*****``.
 
        *Default:* false
 
-       If ``protectConnectionStringsForNewConnections`` is ``true``,
-       the default state of the :guilabel:`Edit connection string`
-       option in the :guilabel:`General` connection tab is off for new
-       connections.
+       Configuring the ``protectConnectionStringsForNewConnections``
+       setting doesn't prevent users from manually enabling the
+       :guilabel:`Edit connection string` option. 
 
        .. note:: 
 

@@ -1,2 +1,3 @@
-Hide credentials in your connection string. Passwords in connection 
-strings are displayed as ``*****``
+Sets all connection strings as read-only and hides the :guilabel:`Edit
+connection string` toggle in the :guilabel:`General` connection tab.
+Passwords in connection strings display as ``*****``.
