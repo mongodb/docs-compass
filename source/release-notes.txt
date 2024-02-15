@@ -25,7 +25,7 @@ New Features
 Bug Fixes
 
 - Improved validation of command line arguments :issue:`COMPASS-7260`.
-- Fixed a display issue which would hide update and delete labels on 
+- Fixed a display issue that would hide update and delete labels on 
   narrow windows.
 
 `Full changelog available on GitHub
