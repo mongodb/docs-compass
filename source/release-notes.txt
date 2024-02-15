@@ -18,13 +18,13 @@ Release Notes
 New Features
 
 - Added vector search index creation to the create search indexes 
-  modal :issue:`COMPASS-7302`.
+  modal (:issue:`COMPASS-7302`).
 - Vector search type indexes now display in the search index table 
-  :issue:`COMPASS-7509`.
+  (:issue:`COMPASS-7509`).
 
 Bug Fixes
 
-- Improved validation of command line arguments :issue:`COMPASS-7260`.
+- Improved validation of command line arguments (:issue:`COMPASS-7260`).
 - Fixed a display issue that made update and delete labels hidden on 
   narrow windows.
 
