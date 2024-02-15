@@ -17,7 +17,7 @@ Release Notes
 
 New Features
 
-- Added vector search index creation to create search indexes 
+- Added vector search index creation to the create search indexes 
   modal :issue:`COMPASS-7302`.
 - Vector search type indexes now display in the search index table 
   :issue:`COMPASS-7509`.
