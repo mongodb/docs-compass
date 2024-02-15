@@ -1,0 +1,46 @@
+.. _run-atlas-search-query:
+
+========================
+Run Atlas Search Queries
+========================
+
+.. default-domain:: mongodb
+
+For data on the Atlas cluster, if you :ref:`created the Atlas Search index
+<compass-create-search-index>`, you can run Atlas Search
+:pipeline:`$search` and :pipeline:`$searchMeta` queries against the
+indexed data from |compass|. If you have an existing Atlas Vector Search 
+index on your data in Atlas, you can run :pipeline:`$vectorSearch`
+queries against the indexed data from |compass|. 
+
+Procedure
+---------
+
+.. procedure:: 
+   :style: normal
+
+   .. step:: From the :guilabel:`Indexes` tab, click :guilabel:`Search Indexes`.
+   
+   .. step:: Hover over the index you want to use in your query.
+
+   .. step:: Click the :guilabel:`Aggregate` button.
+
+      |compass| switches to the :guilabel:`Aggregations` tab where you 
+      can run your query. By default, |compass| selects the 
+      :pipeline:`$search` stage for your query. You can select the 
+      :pipeline:`$searchMeta` stage to use in your query. If you are using 
+      a ``vectorSearch`` type index in your query, you can only use the 
+      :pipeline:`$vectorSearch` stage in your query. 
+
+      .. note:: 
+
+         The Atlas Search :pipeline:`$search` and :pipeline:`$searchMeta` and 
+         the Atlas Vector Search :pipeline:`$vectorSearch` pipeline stages must 
+         be the first stage in your aggregation pipeline.
+
+Learn More 
+----------
+
+- :atlas:`Atlas Search Pipeline Stages </atlas-search/query-syntax/>`
+
+- :atlas:`Atlas Vector Search Pipeline Stage </atlas-vector-search/vector-search-stage/>`
