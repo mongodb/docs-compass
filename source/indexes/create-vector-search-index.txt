@@ -83,17 +83,17 @@ Steps
                 * - Function
                   - Description
 
-                * - euclidean
+                * - ``euclidean``
                   - A function that measures the distance between ends of vectors. This allows 
                     you to measure similarity based on varying dimensions. 
 
-                * - cosine
+                * - ``cosine``
                   - A function that measures similarity based on the angle between vectors. This 
                     allows you to measure similarity that isn't scaled by magnitude. You can't use 
                     zero magnitude vectors with cosine. To measure cosine similarity, we recommend 
                     that you normalize your vectors and use dotProduct instead.
 
-                * - dotProduct
+                * - ``dotProduct``
                   -  A function that measures similar to cosine, but takes into account the 
                      magnitude of the vector. This allows you to efficiently measure similarity 
                      based on both angle and magnitude. To use dotProduct, you must normalize 
