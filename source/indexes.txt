@@ -168,3 +168,4 @@ Limitations
    :titlesonly:
 
    /indexes/create-search-index
+   /indexes/create-vector-search-index
