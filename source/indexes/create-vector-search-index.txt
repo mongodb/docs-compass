@@ -12,7 +12,8 @@ Create an Atlas Vector Search Index
 
 .. versionadded:: 1.42.1
 
-You can create Atlas Vector Search indexes using |compass|. These indexes 
+You can create :atlas:`Atlas Vector Search indexes 
+</atlas-vector-search/vector-search-overview/>` using |compass|. These indexes 
 enable you to index vector data *and* other data types, which facilitates 
 semantic searches on the indexed fields. Atlas Vector Search indexes support 
 indexing vector data by identifying the most similar vectors. The index 
@@ -92,10 +93,8 @@ Steps
                   - A function that measures similarity based on the angle between vectors. This 
                     function allows you to measure similarity that isn't scaled by magnitude. 
                     
-                    .. note::
-                    
-                       You can't use zero magnitude vectors with cosine. To measure cosine similarity, 
-                       we recommend that you normalize your vectors and use dotProduct instead.
+                    You can't use zero magnitude vectors with cosine. To measure cosine similarity, 
+                    we recommend that you normalize your vectors and use dotProduct instead.
 
                 * - ``dotProduct``
                   -  A function that measures similarly to cosine, but takes into account the 
