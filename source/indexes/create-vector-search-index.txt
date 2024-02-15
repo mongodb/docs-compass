@@ -90,9 +90,12 @@ Steps
 
                 * - ``cosine``
                   - A function that measures similarity based on the angle between vectors. This 
-                    function allows you to measure similarity that isn't scaled by magnitude. You can't use 
-                    zero magnitude vectors with cosine. To measure cosine similarity, we recommend 
-                    that you normalize your vectors and use dotProduct instead.
+                    function allows you to measure similarity that isn't scaled by magnitude. 
+                    
+                    .. note::
+                    
+                       You can't use zero magnitude vectors with cosine. To measure cosine similarity, 
+                       we recommend that you normalize your vectors and use dotProduct instead.
 
                 * - ``dotProduct``
                   -  A function that measures similarly to cosine, but takes into account the 
