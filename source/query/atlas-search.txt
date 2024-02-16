@@ -6,37 +6,51 @@ Run Atlas Search Queries
 
 .. default-domain:: mongodb
 
-For data on the Atlas cluster, if you :ref:`created the Atlas Search index
-<compass-create-search-index>`, you can run Atlas Search
-:pipeline:`$search` and :pipeline:`$searchMeta` queries against the
-indexed data from |compass|. If you have an existing Atlas Vector Search 
-index on your data in Atlas, you can run :pipeline:`$vectorSearch`
-queries against the indexed data from |compass|. 
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
-Procedure
----------
+You can run Atlas Search :pipeline:`$search` and :pipeline:`$searchMeta`
+queries from |compass| if you :ref:`created the Atlas Search index
+<compass-create-search-index>` for data on the Atlas cluster. You can
+also run :pipeline:`$vectorSearch` queries from |compass| if you have an
+existing Atlas Vector search index on your data in Atlas. 
+
+Steps
+-----
 
 .. procedure:: 
    :style: normal
 
-   .. step:: From the :guilabel:`Indexes` tab, click :guilabel:`Search Indexes`.
-   
-   .. step:: Hover over the index you want to use in your query.
+   .. step:: Find the index you want to use in your query
+      
+      a. From the :guilabel:`Indexes` tab, click :guilabel:`Search Indexes`.
+      #. Hover over the index you want to use in your query.
 
-   .. step:: Click the :guilabel:`Aggregate` button.
+   .. step:: Run the query
+      
+      a. Click the :guilabel:`Aggregate` button.
 
-      |compass| switches to the :guilabel:`Aggregations` tab where you 
-      can run your query. By default, |compass| selects the 
-      :pipeline:`$search` stage for your query. You can select the 
-      :pipeline:`$searchMeta` stage to use in your query. If you are using 
-      a ``vectorSearch`` type index in your query, you can only use the 
-      :pipeline:`$vectorSearch` stage in your query. 
+         |compass| switches to the :guilabel:`Aggregations` tab where you 
+         can run your query. 
+        
+      #. Construct your query.
+         
+         By default, |compass| selects the :pipeline:`$search` stage for
+         your query. You can select the  :pipeline:`$searchMeta` stage
+         to use in your query. If you are using a ``vectorSearch`` type
+         index in your query, you can only use the
+         :pipeline:`$vectorSearch` stage in your query.  
 
-      .. note:: 
+         .. note:: 
 
-         The Atlas Search :pipeline:`$search` and :pipeline:`$searchMeta` and 
-         the Atlas Vector Search :pipeline:`$vectorSearch` pipeline stages must 
-         be the first stage in your aggregation pipeline.
+            The Atlas Search :pipeline:`$search` and :pipeline:`$searchMeta` and 
+            the Atlas Vector Search :pipeline:`$vectorSearch` pipeline stages must 
+            be the first stage in your aggregation pipeline.
+
+      #. Click :guilabel:`Run` to run your query.
 
 Learn More 
 ----------

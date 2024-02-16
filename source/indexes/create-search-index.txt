@@ -7,7 +7,7 @@ Create and Manage an Atlas Search Index
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 1
+   :depth: 2
    :class: singlecol
 
 .. versionadded:: 1.40.0
@@ -31,11 +31,11 @@ To create an Atlas Search index, your deployment must be either:
 
 Additionally, your deployment must run MongoDB version 7.0 or later.
 
-Create an Index 
-----------------
+Procedures 
+----------
 
-Procedure 
-~~~~~~~~~
+Create an Index 
+~~~~~~~~~~~~~~~
 
 .. procedure::
    :style: normal
@@ -56,7 +56,7 @@ Procedure
    .. step:: Click :guilabel:`Create Search Index`
 
 Example
-~~~~~~~
+```````
 
 The following example definition creates a search index that indexes all
 fields:
@@ -68,7 +68,7 @@ fields:
    }
 
 Results
-~~~~~~~
+```````
 
 To view the status of your created index, go to the :guilabel:`Indexes`
 tab and set the toggle at the top-right to :guilabel:`Search Indexes`.
@@ -80,7 +80,7 @@ For more information on search index statuses, see
 :ref:`search-index-status`.
 
 Edit an Index 
--------------
+~~~~~~~~~~~~~
 
 .. procedure:: 
    :style: normal
@@ -94,7 +94,7 @@ Edit an Index
    .. step:: Make the changes and click :guilabel:`Save`.
 
 Delete an Index 
----------------
+~~~~~~~~~~~~~~~
 
 .. procedure:: 
    :style: normal
