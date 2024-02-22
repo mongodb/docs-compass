@@ -1,0 +1,44 @@
+.. _compass-ai-data-usage:
+
+=============================
+AI and Data Usage Information
+==============================
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+Querying with natural language in Compass is powered by generative AI, 
+and may give inaccurate responses. Please see our `Generative AI FAQ 
+<https://dochub.mongodb.org/core/faq-ai-features>`__ 
+for more information about AI in MongoDB products.
+
+Third Party Providers
+---------------------
+
+This feature currently uses the `Azure OpenAI Service
+<https://azure.microsoft.com/en-us/products/ai-services/openai-service>`__ 
+hosted by Microsoft. 
+
+How Your Data is Used
+---------------------
+
+When you query with natural language in Compass, the schema of the 
+collection you are querying including collection name, field names, 
+and types. 
+
+The information that is sent is not shared with any other third 
+parties or stored by the AI provider. We do not send database 
+connection strings, credentials, or raw data from your databases. 
+
+Disable Natural Language Querying
+---------------------------------
+
+Natural language querying in Compass is available if you have 
+enabled the Compass :guilabel:`Use Generative AI` setting and logged 
+into Atlas. If you no longer want to use the feature, you can ignore it 
+and no data will be sent to generative AI models. If you would like to 
+prevent usage of this feature entirely, you can turn it off in 
+Compass :ref:`global configuration file <config-file>`.
