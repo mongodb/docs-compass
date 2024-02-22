@@ -2,7 +2,7 @@
 
 =============================
 AI and Data Usage Information
-==============================
+=============================
 
 .. contents:: On this page
    :local:
