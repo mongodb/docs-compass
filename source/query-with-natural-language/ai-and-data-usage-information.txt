@@ -7,7 +7,7 @@ AI and Data Usage Information
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 2
+   :depth: 1
    :class: singlecol
 
 Querying with natural language in Compass is powered by generative AI, 
