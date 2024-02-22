@@ -8,7 +8,6 @@ AI and Data Usage Information
    :local:
    :backlinks: none
    :depth: 1
-   :class: singlecol
 
 Querying with natural language in Compass is powered by generative AI, 
 and may give inaccurate responses. Please see our `Generative AI FAQ 
