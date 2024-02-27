@@ -66,7 +66,7 @@ is subject to MongoDB's:
 .. toctree::
    :titlesonly:
    
-   /query-with-natural-language/ai-and-data-usage-information
    /query-with-natural-language/enable-natural-language-querying
    /query-with-natural-language/prompt-natural-language-query
    /query-with-natural-language/prompt-natural-language-aggregation
+   /query-with-natural-language/ai-and-data-usage-information
