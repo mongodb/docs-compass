@@ -17,7 +17,7 @@ for more information about Gen AI in MongoDB products.
 Third Party Providers
 ---------------------
 
-This feature currently uses the `Azure OpenAI Service
+Querying with natural language in Compass currently uses the `Azure OpenAI Service
 <https://azure.microsoft.com/en-us/products/ai-services/openai-service>`__ 
 hosted by Microsoft.  This is subject to change in the future. 
 
