@@ -30,7 +30,7 @@ About this Task
 
 - Previews of the documents affected by bulk update operations are 
   only available if your database is configured to support transactions.
-  For details on enabling transactions see :ref:`transactions`. 
+  For details, see :ref:`transactions`. 
 
 Before you Begin
 ----------------
