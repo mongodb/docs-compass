@@ -47,9 +47,19 @@ dialog.
    :figwidth: 600px
    :alt: Privacy settings
 
-|compass| does not install any updates without your explicit permission.
-Instead, |compass-short| prompts you to upgrade when a new version is
-available.
+If you enable auto updates and have not downgraded |compass|,
+|compass-short| automatically updates when MongoDB releases new versions
+and does not require your confirmation. After your machine finishes the
+update, |compass-short| will show a toast suggesting that you restart
+the application to apply the update. |compass-short| does not apply the
+version update until you restart the application. 
+
+If you enable auto updates and have downgraded |compass| (you installed
+|compass| and then manually installed an earlier version),
+|compass-short| does not automatically update when MongoDB releases a
+new version. If a newer version is availible, |compass-short| will ask
+you for confirmation through a notification. You are able to dismiss the
+notification and refrain from updating. 
 
 .. _keychain-access:
 
