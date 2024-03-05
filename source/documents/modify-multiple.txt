@@ -29,7 +29,7 @@ About this Task
   parameters such as upsert, writeConcern, or collation.
 
 - Previews of the documents affected by bulk update operations are 
-  only available if your database is configured to support transactions.
+  only visible if your database is configured to support transactions.
   For details, see :ref:`transactions`. 
 
 Before you Begin
