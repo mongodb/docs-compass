@@ -48,12 +48,12 @@ dialog.
    :alt: Privacy settings
 
 If you enable auto updates and have not downgraded |compass|,
-|compass-short| automatically updates the application four hours after
-MongoDB releases new versions. The update does not require your explicit
+|compass-short| automatically updates the application when MongoDB
+releases new versions. The update does not require your explicit
 confirmation. After your machine finishes the update, |compass-short|
-shows a toast suggesting that you restart the application to apply the
-update. |compass-short| does not apply the version update until you
-restart the application. 
+shows a notification suggesting that you restart the application to
+apply the update. |compass-short| does not apply the version update
+until you restart the application. 
 
 If you enable auto updates and have downgraded |compass| (you installed
 |compass| and then manually installed an earlier version),
@@ -63,7 +63,7 @@ to confirm that you want to install the update through a notification.
 You can dismiss the notification and refrain from updating. 
 
 If a new update is available and you want to update |compass-short|
-prior to the four hour delay, you can click :guilabel:`Check for
+prior to the automatic update, you can click :guilabel:`Check for
 updates` in the :guilabel:`MongoDB Compass` system menu. 
 
 .. figure:: /images/compass/check_for_updates.png
