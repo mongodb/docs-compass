@@ -63,7 +63,7 @@ to confirm that you want to install the update through a notification.
 You can dismiss the notification and refrain from updating. 
 
 If a new update is available and you want to update |compass-short|
-prior to the automatic update, you can click :guilabel:`Check for
+before the automatic update, you can click :guilabel:`Check for
 updates` in the :guilabel:`MongoDB Compass` system menu. 
 
 .. figure:: /images/compass/check_for_updates.png
