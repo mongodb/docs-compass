@@ -62,7 +62,7 @@ available, |compass-short| asks you to confirm that you want to install
 the update through a notification. You can dismiss the notification to
 avoid updating. 
 
-To update|compass-short| before the next automatic update, click
+To update |compass-short| before the next automatic update, click
 :guilabel:`Check for updates` in the :guilabel:`MongoDB Compass` system
 menu:
 
