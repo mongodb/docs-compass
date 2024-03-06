@@ -49,8 +49,8 @@ dialog.
 
 If you enable auto updates and have not downgraded |compass|,
 |compass-short| automatically updates when MongoDB releases new
-versions. The update does not require your confirmation. After your
-machine finishes the update, |compass-short| will show a toast
+versions. The update does not require your explicit confirmation. After
+your machine finishes the update, |compass-short| shows a toast
 suggesting that you restart the application to apply the update.
 |compass-short| does not apply the version update until you restart the
 application. 
@@ -60,7 +60,7 @@ If you enable auto updates and have downgraded |compass| (you installed
 |compass-short| does not automatically update when MongoDB releases a
 new version. If a newer version is available, |compass-short| asks you
 to confirm that you want to install the update through a notification.
-You are able to dismiss the notification and refrain from updating. 
+You can dismiss the notification and refrain from updating. 
 
 .. _keychain-access:
 
