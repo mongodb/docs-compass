@@ -62,21 +62,21 @@ new version. If a newer version is available, |compass-short| asks you
 to confirm that you want to install the update through a notification.
 You can dismiss the notification and refrain from updating. 
 
-If a new update is availible and you want to update |compass-short|
+If a new update is available and you want to update |compass-short|
 prior to the four hour delay, you can click the :guilabel:`Check for
-updates...` menu item in the :guilabel:`MongoDB Compass` system menu. 
+updates` menu item in the :guilabel:`MongoDB Compass` system menu. 
 
 .. figure:: /images/compass/check_for_updates.png
   :scale: 60%
   :alt: Check for updates location under the MongoDB Compass system menu
 
-If you click on the :guilabel:`Check for updates...` menu option and an update is
-availible, |compass-short| shows a notification that asks if you want to
+If you click on the :guilabel:`Check for updates` menu option and an update is
+availAble, |compass-short| shows a notification that asks if you want to
 install and restart the application immediately. 
 
-If an update is in progress, the |compass-short| disables the
-:guilabel:`Check for updates...` menu option and shows that an update
-installation is in progress. 
+If an update is in progress, |compass-short| disables the
+:guilabel:`Check for updates` menu option and shows that your machine is
+installing an update. 
 
 .. _keychain-access:
 
