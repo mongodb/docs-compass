@@ -47,7 +47,7 @@ dialog.
    :figwidth: 600px
    :alt: Privacy settings
 
-If you enable auto updates and have not downgraded |compass|,
+If you enable auto updates and did not downgrade |compass|,
 |compass-short| automatically updates the application when MongoDB
 releases new versions. The update does not require your explicit
 confirmation. After your machine finishes the update, |compass-short|
@@ -55,12 +55,12 @@ shows a notification suggesting that you restart the application to
 apply the update. |compass-short| does not apply the version update
 until you restart the application. 
 
-If you enable auto updates and have downgraded |compass| (you installed
-|compass| and then manually installed an earlier version),
-|compass-short| does not automatically update when MongoDB releases a
-new version. If a newer version is available, |compass-short| asks you
-to confirm that you want to install the update through a notification.
-You can dismiss the notification to avoid updating. 
+If you enable auto updates and downgraded |compass| by manually
+installing an earlier version, |compass-short| does not automatically
+update when MongoDB releases a new version. If a newer version is
+available, |compass-short| asks you to confirm that you want to install
+the update through a notification. You can dismiss the notification to
+avoid updating. 
 
 To update|compass-short| before the next automatic update, click
 :guilabel:`Check for updates` in the :guilabel:`MongoDB Compass` system
