@@ -48,12 +48,12 @@ dialog.
    :alt: Privacy settings
 
 If you enable auto updates and have not downgraded |compass|,
-|compass-short| automatically updates when MongoDB releases new
-versions. The update does not require your explicit confirmation. After
-your machine finishes the update, |compass-short| shows a toast
-suggesting that you restart the application to apply the update.
-|compass-short| does not apply the version update until you restart the
-application. 
+|compass-short| automatically updates the application four hours after
+MongoDB releases new versions. The update does not require your explicit
+confirmation. After your machine finishes the update, |compass-short|
+shows a toast suggesting that you restart the application to apply the
+update. |compass-short| does not apply the version update until you
+restart the application. 
 
 If you enable auto updates and have downgraded |compass| (you installed
 |compass| and then manually installed an earlier version),
@@ -61,6 +61,22 @@ If you enable auto updates and have downgraded |compass| (you installed
 new version. If a newer version is available, |compass-short| asks you
 to confirm that you want to install the update through a notification.
 You can dismiss the notification and refrain from updating. 
+
+If a new update is availible and you want to update |compass-short|
+prior to the four hour delay, you can click the :guilabel:`Check for
+updates...` menu item in the :guilabel:`MongoDB Compass` system menu. 
+
+.. figure:: source/images/compass/check_for_updates.png
+  :scale: 60%
+  :alt: Check for updates location under the MongoDB Compass system menu
+
+If you click on the :guilabel:`Check for updates...` menu option and an update is
+availible, |compass-short| shows a notification that asks if you want to
+install and restart the application immediately. 
+
+If an update is in progress, the |compass-short| disables the
+:guilabel:`Check for updates...` menu option and shows that an update
+installation is in progress. 
 
 .. _keychain-access:
 
