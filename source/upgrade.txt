@@ -60,21 +60,20 @@ If you enable auto updates and have downgraded |compass| (you installed
 |compass-short| does not automatically update when MongoDB releases a
 new version. If a newer version is available, |compass-short| asks you
 to confirm that you want to install the update through a notification.
-You can dismiss the notification and refrain from updating. 
+You can dismiss the notification to avoid updating. 
 
-If a new update is available and you want to update |compass-short|
-before the automatic update, you can click :guilabel:`Check for
-updates` in the :guilabel:`MongoDB Compass` system menu. 
+To update|compass-short| before the next automatic update, click
+:guilabel:`Check for updates` in the :guilabel:`MongoDB Compass` system
+menu:
 
 .. figure:: /images/compass/check_for_updates.png
   :scale: 60%
   :alt: Check for updates location under the MongoDB Compass system menu
 
-If you click on :guilabel:`Check for updates` and an update is
-available, |compass-short| shows a notification that asks if you want to
-install and restart the application immediately. 
+If an update is available, |compass-short| shows a notification that
+asks if you want to install and restart the application immediately. 
 
-If an update is in progress, |compass-short| disables the
+While an update is in progress, |compass-short| disables the
 :guilabel:`Check for updates` menu option and shows that your machine is
 installing an update. 
 
