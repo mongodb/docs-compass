@@ -25,15 +25,15 @@ How Your Data is Used
 ---------------------
 
 When you query with natural language in Compass, the following 
-information is sent to MongoDB’s backend and/or the third party 
+information is sent to MongoDB's backend and/or the third party 
 AI provider: 
 
-The schema of the collection you are querying 
-(including collection name, field names, and types). 
+- The schema of the collection you are querying 
+  (including collection name, field names, and types). 
 
-The information that is sent will not be shared with any other third 
-parties or stored by the AI provider. We do not send database 
-connection strings, credentials, or rows/documents from your databases. 
+- The information that is sent will not be shared with any other third 
+  parties or stored by the AI provider. We do not send database 
+  connection strings, credentials, or rows/documents from your databases. 
 
 Disable Natural Language Querying
 ---------------------------------
