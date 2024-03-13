@@ -31,9 +31,9 @@ AI provider:
 - The schema of the collection you are querying 
   (including collection name, field names, and types). 
 
-- The information that is sent will not be shared with any other third 
-  parties or stored by the AI provider. We do not send database 
-  connection strings, credentials, or rows/documents from your databases. 
+The information that is sent will not be shared with any other third 
+parties or stored by the AI provider. We do not send database 
+connection strings, credentials, or rows/documents from your databases. 
 
 Disable Natural Language Querying
 ---------------------------------
