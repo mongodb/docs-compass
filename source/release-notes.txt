@@ -19,8 +19,6 @@ New Features
 
 - Install updates without confirmation in the background by default
   (:issue:`COMPASS-7616`)
-- Disable search indexes via preferences (:issue:`COMPASS-7595`)
-- Show performance advisor banner (:issue:`COMPASS-7596`)
 - Enable rename collection feature flag (:issue:`COMPASS-7699`)
 - Bump OIDC dependencies to latest versions 
 - Bump ``mongosh``, driver, and bson to latest versions
