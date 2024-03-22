@@ -20,7 +20,6 @@ New Features
 - Install updates without confirmation in the background by default
   (:issue:`COMPASS-7616`)
 - Disable search indexes via preferences (:issue:`COMPASS-7595`)
-- Setup provider to share current connection info (:issue:`COMPASS-7701`)
 - Show performance advisor banner (:issue:`COMPASS-7596`)
 - Enable rename collection feature flag (:issue:`COMPASS-7699`)
 - Bump OIDC dependencies to latest versions 
