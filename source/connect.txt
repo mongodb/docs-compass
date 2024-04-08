@@ -54,8 +54,6 @@ Considerations
 
 - .. include:: /includes/fact-legacy-connections.rst
 
-- .. include:: /includes/multiple-connections.rst
-
 Connect
 -------
 
@@ -67,6 +65,10 @@ You can connect your deployments by either:
   Advanced connection options allow you to specify authentication, 
   TLS/SSL, and SSH connection options. To learn more, see 
   :ref:`<advanced-connection-options>`.
+
+.. note::
+
+   include:: /includes/multiple-connections.rst
 
 Provide your Connection String
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
