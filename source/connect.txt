@@ -68,7 +68,7 @@ You can connect your deployments by either:
 
 .. note::
 
-   include:: /includes/multiple-connections.rst
+   .. include:: /includes/multiple-connections.rst
 
 Provide your Connection String
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
