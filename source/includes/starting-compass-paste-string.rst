@@ -3,7 +3,7 @@
 
    .. step:: Open the New Connection window.
 
-      In the bottom panel of the sidebar, click the  :icon-lg:`Plus`
+      In the bottom panel of the sidebar, click the :icon-lg:`Plus`
       button to open the New Connection window. 
    
    .. step:: Paste your connection string. 
