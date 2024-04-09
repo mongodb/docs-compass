@@ -16,7 +16,7 @@ MongoDB instances to which Compass is connected.
 .. note::
 
    Starting in version 1.44, you can connect to multiple MongoDB
-   instances at once through Compass. When you active multiple
+   instances at once through Compass. When you activate multiple
    connections, Compass displays each active connection in a separate
    tab. 
 
