@@ -16,7 +16,9 @@ MongoDB instances to which Compass is connected.
 .. note::
 
    Starting in version 1.44, you can connect to multiple MongoDB
-   instances at once through Compass. 
+   instances at once through Compass. When you active multiple
+   connections, Compass displays each active connection in a separate
+   tab. 
 
 The Compass Home screen includes the following information:
 
@@ -30,7 +32,7 @@ The Compass Home screen includes the following information:
 - :doc:`Performance statistics </performance>`, including memory
   usage, operation counts, and slowest operations.
 
-- A list of all your saved and favorite connections.
+- A list of your saved and favorite connections.
 
 Once connected to a MongoDB instance, you can reach the Compass
 Home screen by clicking the cluster name in the upper left
@@ -68,10 +70,9 @@ Connections Sidebar
 The top section of the sidebar shows the active MongoDB instances to which
 Compass is connected. 
 
-The bottom section of the sidebar contains a list of all your saved and
-favorite connections. The menu shows both active and inactive
-connections. To activate a connection, click on the name of the
-connection.
+The bottom section of the sidebar lists your saved and favorite
+connections. The menu shows both active and inactive connections. To
+activate a connection, click the name of the connection.
 
 .. toctree::
    :titlesonly:
