@@ -1,6 +1,11 @@
 .. procedure:: 
    :style: normal 
 
+   .. step:: Open the New Connection window.
+
+      In the bottom panel of the sidebar, click the :icon-lg:`Plus`
+      button to open the New Connection window. 
+   
    .. step:: Paste your connection string. 
 
       If you have the connection string for your deployment available, you can 
