@@ -367,11 +367,11 @@ The query returns the following document:
 Match by Nested Field
 ~~~~~~~~~~~~~~~~~~~~~
 
-The following example performs the following operations:
+This example performs the following operations:
 
 - Adds a document with ``first`` and ``last`` subfields nested in the
-  ``name`` field. 
-- Finds the document with the ``last`` subfield of "Washington".
+  ``name`` field
+- Finds the document with the ``last`` subfield of "Washington"
 
 Add the following document to your collection:
 
