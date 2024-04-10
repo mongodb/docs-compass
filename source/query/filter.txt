@@ -364,6 +364,35 @@ The query returns the following document:
       "dateCreated": { "$date": "2003-03-26" }
    }
 
+Match by Nested Field
+~~~~~~~~~~~~~~~~~~~~~
+
+The following example does the following actions:
+
+- Adds a document with ``first`` and ``last`` subfields nested in the
+  ``name`` field. 
+- Finds the document with the ``last`` subfield of "Washington".
+
+Add the following document to your collection:
+
+.. code-block:: shell
+
+   {
+      "name": { "first": "Kayden", "last": "Washington" },
+      "email": "kayden_washington@fake-mail.com",
+      "version": 2,
+      "scores": [ 92, 87, 98 ],
+      "dateCreated": { "$date": "2003-11-22" }
+   }
+
+The following query filter uses the :query:`$eq` operator to find all
+documents with the ``name.last`` subfield of "Washington":
+
+.. code-block:: shell
+
+   {"name.last": { $eq: "Washington"} }
+
+
 For more query examples, see 
 :manual:`Query Documents </tutorial/query-documents/>` 
 in the MongoDB manual.
