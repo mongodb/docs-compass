@@ -17,10 +17,10 @@ Release Notes
 
 New Features
 
-- Updates atlas login screen flow (:issue:`COMPASS-7755`)
+- Updates Atlas login screen flow (:issue:`COMPASS-7755`)
 - Handles collection subtab from link (:issue:`COMPASS-7731`)
 - Z-indexed stacked components (:issue:`COMPASS-7732`)
-- Removes collapsing/expanding the sidebar (:issue:`COMPASS-7812`)
+- Removes the ability to collapse the sidebar (:issue:`COMPASS-7812`)
 - Updates the “Use Generative AI” settings flow (:issue:`COMPASS-7756`)
 
 Bug Fixes
