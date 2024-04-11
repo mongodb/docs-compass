@@ -397,6 +397,7 @@ The query returns the following document:
 
 .. code-block:: JSON
    :copyable: false
+   :emphasize-lines: 6
 
    {
       "_id": { "$oid": "5e349915cebae490877d561d" },
