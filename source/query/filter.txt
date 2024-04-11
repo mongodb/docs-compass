@@ -75,6 +75,9 @@ sample data into your MongoDB deployment, perform the following steps:
          {
             "name": "Andrea Le",
             "email": "andrea_le@fake-mail.com",
+            "school": {
+               "name": "Northwestern"
+            },
             "version": 5,
             "scores": [ 85, 95, 75 ],
             "dateCreated": { "$date": "2003-03-26" }
@@ -134,6 +137,9 @@ The query returns the following document:
       "_id": { "$oid": "5e349915cebae490877d561d" },
       "name": "Andrea Le",
       "email": "andrea_le@fake-mail.com",
+      "school": {
+         "name": "Northwestern"
+      },
       "version": 5,
       "scores": [ 85, 95, 75 ],
       "dateCreated": { "$date": "2003-03-26" }
@@ -183,6 +189,9 @@ The query returns the following documents:
          "_id": { "$oid": "5e349915cebae490877d561d" },
          "name": "Andrea Le",
          "email": "andrea_le@fake-mail.com",
+         "school": {
+            "name": "Northwestern"
+         },
          "version": 5,
          "scores": [ 85, 95, 75 ],
          "dateCreated": { "$date": "2003-03-26" }
@@ -295,6 +304,9 @@ The query returns the following documents:
          "_id": { "$oid": "5e349915cebae490877d561d" },
          "name": "Andrea Le",
          "email": "andrea_le@fake-mail.com",
+         "school": {
+            "name": "Northwestern"
+         },
          "version": 5,
          "scores": [ 85, 95, 75 ],
          "dateCreated": { "$date": "2003-03-26" }
@@ -329,6 +341,9 @@ in the ``scores`` array is ``85``:
       "_id": { "$oid": "5e349915cebae490877d561d" },
       "name": "Andrea Le",
       "email": "andrea_le@fake-mail.com",
+      "school": {
+         "name": "Northwestern"
+      },
       "version": 5,
       "scores": [ 85, 95, 75 ],
       "dateCreated": { "$date": "2003-03-26" }
@@ -359,38 +374,42 @@ The query returns the following document:
       "_id": { "$oid": "5e349915cebae490877d561d" },
       "name": "Andrea Le",
       "email": "andrea_le@fake-mail.com",
+      "school": {
+         "name": "Northwestern"
+      },
       "version": 5,
       "scores": [ 85, 95, 75 ],
       "dateCreated": { "$date": "2003-03-26" }
    }
 
-Match by Nested Field
-~~~~~~~~~~~~~~~~~~~~~
+Match by Embedded Field
+~~~~~~~~~~~~~~~~~~~~~~~
 
-This example performs the following operations:
-
-- Adds a document with ``first`` and ``last`` subfields nested in the
-  ``name`` field
-- Finds the document with the ``last`` subfield of "Washington"
-
-Add the following document to your collection:
+The following query filter finds the
+document with the ``school.name`` subfield of "Northwestern":
 
 .. code-block:: shell
+
+   { "school.name": "Northwestern" }
+
+
+The query returns the following document:
+
+.. code-block:: JSON
+   :copyable: false
+   :emphasize-lines: 4
 
    {
-      "name": { "first": "Kayden", "last": "Washington" },
-      "email": "kayden_washington@fake-mail.com",
-      "version": 2,
-      "scores": [ 92, 87, 98 ],
-      "dateCreated": { "$date": "2003-11-22" }
+      "_id": { "$oid": "5e349915cebae490877d561d" },
+      "name": "Andrea Le",
+      "email": "andrea_le@fake-mail.com",
+      "school": {
+         "name": "Northwestern"
+      },
+      "version": 5,
+      "scores": [ 85, 95, 75 ],
+      "dateCreated": { "$date": "2003-03-26" }
    }
-
-The following query filter uses the :query:`$eq` operator to find all
-documents with the ``name.last`` subfield of "Washington":
-
-.. code-block:: shell
-
-   { "name.last": { $eq: "Washington" } }
 
 
 For more query examples, see 
