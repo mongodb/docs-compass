@@ -43,10 +43,11 @@ Databases Tab
 
 The :guilabel:`Databases` tab of the Home screen shows a list of all the
 databases on the current connection, with each one's storage size,
-number of collections, and number of indexes. The label of each tab is
-the MongoDB instance that the database is on. For more information about
-the :guilabel:`Databases` tab and instructions on viewing a database,
-see :doc:`Databases </databases>`.
+number of collections, and number of indexes. When you open a database,
+MongoDB opens a new tab and labels it with the name of the MongoDB
+instance that contains that database. For more information about the
+:guilabel:`Databases` tab and instructions on viewing a database, see
+:doc:`Databases </databases>`.
 
 .. _performance-tab-home:
 
