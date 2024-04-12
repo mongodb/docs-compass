@@ -11,7 +11,16 @@ Compass Home
    :class: singlecol
 
 The Compass Home screen provides details regarding the
-MongoDB instance to which Compass is connected, including:
+MongoDB instances to which Compass is connected. 
+
+.. note::
+
+   Starting in version 1.44, you can connect to multiple MongoDB
+   instances at once through Compass. When you activate multiple
+   connections, Compass displays each active connection in a separate
+   tab. 
+
+The Compass Home screen includes the following information:
 
 - The connection name if the connection is a favorite connection,
   or "My Cluster" otherwise.
@@ -23,6 +32,8 @@ MongoDB instance to which Compass is connected, including:
 - :doc:`Performance statistics </performance>`, including memory
   usage, operation counts, and slowest operations.
 
+- A list of your saved and favorite connections.
+
 Once connected to a MongoDB instance, you can reach the Compass
 Home screen by clicking the cluster name in the upper left
 corner.
@@ -30,11 +41,13 @@ corner.
 Databases Tab
 -------------
 
-The :guilabel:`Databases` tab of the Home screen shows a list of all
-the databases on the current connection, with each one's storage size,
-number of collections, and number of indexes. For more information
-about the :guilabel:`Databases` tab and instructions on viewing
-a database, see :doc:`Databases </databases>`.
+The :guilabel:`Databases` tab of the Home screen shows a list of all the
+databases on the current connection, with each one's storage size,
+number of collections, and number of indexes. When you open a database,
+MongoDB opens a new tab and labels it with the name of the MongoDB
+instance that contains that database. For more information about the
+:guilabel:`Databases` tab and instructions on viewing a database, see
+:doc:`Databases </databases>`.
 
 .. _performance-tab-home:
 
@@ -51,6 +64,17 @@ performance statistics and graphs, showing insights such as:
 
 For more information about the :guilabel:`Performance` tab, see
 :doc:`Performance </performance>`.
+
+
+Connections Sidebar
+-------------------
+
+The top section of the sidebar shows the active MongoDB instances to which
+Compass is connected. 
+
+The bottom section of the sidebar lists your saved and favorite
+connections. The menu shows both active and inactive connections. To
+activate a connection, click the name of the connection.
 
 .. toctree::
    :titlesonly:
