@@ -162,8 +162,6 @@ You can configure the following settings on the |compass| interface:
      - Artificial Intelligence
      - Enables :ref:`natural language querying <query-natural-language>` and allows 
        the use of AI features in Compass which make requests to 3rd party services.
-       
-
 
 Learn More
 ----------
