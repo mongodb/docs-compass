@@ -28,8 +28,14 @@ When you query with natural language in Compass, the following
 information is sent to MongoDB’s backend and/or the third party 
 AI provider: 
 
-The schema of the collection you are querying 
-(including collection name, field names, and types). 
+- The full text of your natural language prompt.
+- The full text of the AI-generated query.
+- The schema of the collection you are querying 
+  (including collection name, field names, and types). 
+- Sample field values. This is an optional setting to improve the 
+  quality of recommendations. You can manage this through Compasss 
+  settings <ToDO Link to Setting Ref> and it will be off by 
+  default. 
 
 The information that is sent will not be shared with any other third 
 parties or stored by the AI provider. We do not send database 
