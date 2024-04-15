@@ -76,7 +76,7 @@ Steps
 
       a. Select :guilabel:`Artificial Intelligence`.
       #. Click the :guilabel:`Enable AI Features` checkbox.
-      #. Click :guilabel:`Save`
+      #. Click :guilabel:`Save`.
 
    .. step:: Connect to your Atlas account
 
