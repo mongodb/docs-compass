@@ -81,7 +81,6 @@ Steps
    .. step:: Connect to your Atlas account
 
       a. Select :guilabel:`Artificial Intelligence`.
-      #. Click the :guilabel:`Enable AI Features` checkbox.
       #. Click :guilabel:`Log in with Atlas`.
 
          A web browser displays the
