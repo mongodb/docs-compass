@@ -158,7 +158,7 @@ You can configure the following settings on the |compass| interface:
      - Remain logged in when using the :manual:`MONGODB-OIDC </core/security-oidc/>` 
        authentication mechanism. 
 
-   * - Enables AI Features
+   * - Enable AI Features
      - Artificial Intelligence
      - Enables :ref:`natural language querying <query-natural-language>`.
 
