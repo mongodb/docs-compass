@@ -22,7 +22,7 @@ Limitations
 -----------
 
 - The :guilabel:`Performance` tab is not available if you are connected
-  an :atlas:`Atlas Data Lake </data-lake>`.
+  to an :atlas:`Atlas Data Lake </data-lake>`.
 
 - |compass| cannot retrieve performance data for collections that use
   :ref:`Queryable Encryption <qe-manual-feature-qe>`.
@@ -98,14 +98,13 @@ The :guilabel:`Performance` tab displays various stats:
 Stop Slow Operations
 --------------------
 
+You can stop slow operations from the :guilabel:`Performance Tab`.
+
 .. important:: Required Permissions
 
    On deployments that require :manual:`authentication
-   </core/authentication/>`, to stop operations not owned by the user,
-   the user must have access that includes the :authaction:`killop`
-   privilege action.
-
-You can stop slow operations from the :guilabel:`Performance Tab`.
+   </core/authentication/>`, to stop operations that you don't have own,
+   you must have the :authaction:`killop` privilege action.
 
 .. procedure::
    :style: normal
