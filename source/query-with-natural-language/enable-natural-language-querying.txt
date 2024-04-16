@@ -39,7 +39,6 @@ you must:
 - Install |compass-short| version 1.40.0 or later. For instructions on 
   downloading and installing the latest version, see :ref:`download-install`.
 
-
 .. note::
 
    You can also enable Natural Language Querying using the configuration 
@@ -49,7 +48,7 @@ Steps
 -----
 
 .. procedure::
-   :style:  connected
+   :style: connected
 
    .. step:: Open settings
 
@@ -69,7 +68,7 @@ Steps
            - In the top menu bar, click :guilabel:`MongoDB Compass`.
            - ``⌘`` + ``,``
 
-   .. step:: (Optional) Enable AI Features
+   .. step:: Enable the AI Features Setting
 
       You only need to enabled AI features if it is your first time 
       using natural language querying.
@@ -79,6 +78,8 @@ Steps
       #. Click :guilabel:`Save`.
 
    .. step:: Connect to your Atlas account
+
+      Open the settings menu again.
 
       a. Select :guilabel:`Artificial Intelligence`.
       #. Click :guilabel:`Log in with Atlas`.
