@@ -92,7 +92,7 @@ Steps
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays. 
 
-   .. step:: Enable the generative AI feature
+   .. step:: Read and Accept the Data Processing Agreement
 
       a. The :guilabel:`Data Processing Agreement` displays.
       #. Read the :guilabel:`Data Processing Agreement`.
