@@ -21,7 +21,7 @@ To access the real-time server performance view:
 Limitations
 -----------
 
-- The :guilabel:`Performance` tab is not available if you are connected
+- The :guilabel:`Performance` view is not available if you are connected
   to an :atlas:`Atlas Data Lake </data-lake>`.
 
 - |compass| cannot retrieve performance data for collections that use
