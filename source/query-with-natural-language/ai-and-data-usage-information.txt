@@ -25,7 +25,7 @@ How Your Data is Used
 ---------------------
 
 When you query with natural language in Compass, the following 
-information is sent to MongoDB’s backend and/or the third party 
+information is sent to MongoDB's backend and/or the third party 
 AI provider: 
 
 - The full text of your natural language prompt.
@@ -33,7 +33,7 @@ AI provider:
 - The schema of the collection you are querying 
   (including collection name, field names, and types). 
 - Sample field values. This is an optional setting to improve the 
-  quality of recommendations. You can manage this through Compasss 
+  quality of recommendations. You can manage this through Compass 
   settings <ToDO Link to Setting Ref> and it will be off by 
   default. 
 
