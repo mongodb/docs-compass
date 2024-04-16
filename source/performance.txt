@@ -103,8 +103,8 @@ You can stop slow operations from the :guilabel:`Performance Tab`.
 .. important:: Required Permissions
 
    On deployments that require :manual:`authentication
-   </core/authentication/>`, to stop operations that you don't have own,
-   you must have the :authaction:`killop` privilege action.
+   </core/authentication/>`, to stop operations that you don't own, you
+   must have the :authaction:`killop` privilege action.
 
 .. procedure::
    :style: normal
