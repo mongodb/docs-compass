@@ -96,6 +96,10 @@ value in the :guilabel:`Settings` panel.
      - Enable :ref:`automatic updates <enable-automatic-updates>`. Use 
        ``--no-autoUpdates`` to disable automatic updates. 
 
+   * - .. option:: --browserCommandForOIDCAuth
+     - Specify a shell command to start the browser for OIDC authentication 
+       when connecting to the server or logging into your Atlas Cloud account.
+
    * - .. option:: --enableFeedbackPanel
      - Enable the feedback panel. Use ``--no-enableFeedbackPanel`` to disable 
        automatic updates. 
@@ -105,9 +109,22 @@ value in the :guilabel:`Settings` panel.
        
        To learn more, see :ref:`compass-enable-dev-tools`.
 
+   * - .. option:: --enableExplainPlan
+     - Enables access to the explain plan during CRUD and aggregation operations.
+
+   * - .. option:: --enableGenAIFeatures
+     - Allow Compass to use generative AI for natural language querying. This 
+       feature requires an Atlas login and a deployed Atlas cluster.
+
+   * - .. option:: --enableImportExport
+     - Enables |compass-short| to import and export data to and from collections.
+
    * - .. option:: --enableMaps
      - Allow |compass| to make requests to a 3rd party mapping service. Use 
        ``--no-enableMaps`` to disable mapping requests.
+
+   * - .. option:: --enableOIDC
+     - Enables OIDC authentication.
 
    * - .. option:: --enableShell
      - Enable or disable the embedded MongoDB Shell on |compass-short|.
@@ -138,10 +155,18 @@ value in the :guilabel:`Settings` panel.
 
        To learn more, see :ref:`compass-configure-network-traffic`.
 
+   * - .. option:: --persistOIDCTokens
+     - Remain logged in when using the MongoDB OIDC authentication mechanism for 
+       MongoDB server connections. Access tokens are encrypted and stored using 
+       the system keychain.
+
    * - .. option:: --protectConnectionStrings
      - .. include:: /includes/fact-protect-connection-strings.rst  
    
        To learn more, see :ref:`compass-protect-connection-strings`.
+
+   * - .. option:: --protectConnectionStringsForNewConnections
+     - Disables the ability to edit the connection string for new connections.
 
    * - .. option:: --readOnly
      - Prevent users from performing write operations to your MongoDB deployment 
@@ -154,6 +179,11 @@ value in the :guilabel:`Settings` panel.
        connection form.
 
        To learn more, see :ref:`compass-kerberos-password`.
+
+   * - .. option:: --showOIDCDeviceAuthFlow
+     - Enable device authorization flow for OIDC authentication on MongoDB server. 
+       This enables a less secure authentication flow that can be used as a fallback 
+       when browser-based authentication is unavailable.
 
    * - .. option:: --theme
      - Specify the |compass| UI theme. The supported themes are ``DARK``,
