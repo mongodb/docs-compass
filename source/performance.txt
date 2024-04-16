@@ -1,8 +1,8 @@
 .. _performance-tab:
 
-===========
-Performance
-===========
+==========================
+View Real-Time Performance
+==========================
 
 .. default-domain:: mongodb
 
