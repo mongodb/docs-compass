@@ -163,6 +163,13 @@ You can configure the following settings on the |compass| interface:
      - Enables :ref:`natural language querying <query-natural-language>` and allows 
        the use of AI features in Compass which make requests to 3rd party services.
 
+   * - Enable Sending Sample Field Values with Query and Aggregation Generation Requests
+     - Artificial Intelligence
+     - Enables field sampling used with natural language querying. 
+       This setting can improve responses from natural language 
+       querying prompts.
+
+
 Learn More
 ----------
 
