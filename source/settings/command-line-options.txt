@@ -57,11 +57,6 @@ configuration file.
    * - .. option:: --exportConnections
      - :ref:`Export <compass-export-connections-cli>` favorite connections.
 
-   * - .. option:: --file <file>
-     - Specify a file containing a :ref:`list of connections 
-       <compass-export-connections-cli>`. These connections are automatically 
-       available once |compass| starts.
-
    * - .. option:: --help 
      - Show |compass| options.
 
@@ -74,6 +69,13 @@ configuration file.
 
        Specify a passphrase to decrypt the :ref:`imported favorite
        connections <compass-import-connections-cli-encrypted>` file. 
+
+   * - .. option:: --showExampleConfig
+     - Provides an example |compass-short| configuration file. 
+
+   * - .. option:: --trustedConnectionString
+     - Suppresses warnings about disallowed connection string properties and allows 
+       automatic connection.
 
    * - .. option:: --version
      - Show |compass| version.
@@ -100,6 +102,27 @@ value in the :guilabel:`Settings` panel.
      - Specify a shell command to start the browser for OIDC authentication 
        when connecting to the server or logging into your Atlas Cloud account.
 
+   * - .. option:: --enableAggregationBuilderExtraOptions
+     - Enable extra aggregation builder options. You can :ref:`set-maxtime-ms-agg` 
+       and :ref:`pipeline-custom-collation`. Use ``--no-enableAggregationBuilderExtraOptions``
+       to disable extra aggregation builder options.
+
+   * - .. option:: --enableAggregationBuilderRunPipeline
+     - Enable the ability to run an aggregation pipeline. Use 
+       ``--no-enableAggregationBuilderRunPipeline`` to disable ability to run an 
+       aggregation pipeline.
+
+   * - .. option:: --enableAtlasSearchIndexes
+     - Enable Atlas Search indexes.
+      
+       To learn more, see :ref:`compass-create-search-index`. 
+
+   * - .. option:: --enableBulkDeleteOperation
+     - Enable ability to delete more than one document in a collection at a time.
+
+   * - .. option:: --enableBulkUpdateOperations
+     - Enable ability to update more than one document in a collection at a time.
+
    * - .. option:: --enableFeedbackPanel
      - Enable the feedback panel. Use ``--no-enableFeedbackPanel`` to disable 
        automatic updates. 
@@ -109,6 +132,9 @@ value in the :guilabel:`Settings` panel.
        
        To learn more, see :ref:`compass-enable-dev-tools`.
 
+   * - .. option:: --enableDebugUseCsfleSchemaMap
+     - Enable CSFLE Schema map debugging.
+
    * - .. option:: --enableExplainPlan
      - Enables access to the explain plan during CRUD and aggregation operations.
 
@@ -116,25 +142,48 @@ value in the :guilabel:`Settings` panel.
      - Allow Compass to use generative AI for natural language querying. This 
        feature requires an Atlas login and a deployed Atlas cluster.
 
+   * - .. option:: --enableHackoladeBanner
+     - Enable the Hackolade Studio banner when looking at your :guilabel:`Schema` in 
+       |compass-short|. Use ``--no-enableHackoladeBanner`` to disable 
+       the Hackolade Studio banner.
+
    * - .. option:: --enableImportExport
      - Enables |compass-short| to import and export data to and from collections.
+     
+       To learn more, see :ref:`compass-import-export`.
 
    * - .. option:: --enableMaps
      - Allow |compass| to make requests to a 3rd party mapping service. Use 
        ``--no-enableMaps`` to disable mapping requests.
 
+   * - .. option:: --enableNewMultipleConnectionSystem
+     - Enables support for multiple connections on a single |compass-short| window.
+
    * - .. option:: --enableOIDC
      - Enables OIDC authentication.
+      
+       To learn more, see :manual:`OpenID Connect Authentication </core/security-oidc/>`.
+
+   * - .. option:: --enableRenameCollectionModal
+     - Enables ability to rename a collection. 
 
    * - .. option:: --enableShell
      - Enable or disable the embedded MongoDB Shell on |compass-short|.
 
        To learn more, see :ref:`disable-shell`.
 
+   * - .. option:: --file <file>
+     - Specify a file containing a :ref:`list of connections 
+       <compass-export-connections-cli>`. These connections are automatically 
+       available once |compass| starts.
+
    * - .. option:: --forceConnectionOptions
      - .. include:: /includes/fact-force-connection-options.rst
        
        To learn more, see :ref:`compass-force-connection-options`.
+
+   * - .. option:: --ignoreAdditionalCommandLineFlags
+     - Allows additional command line flags. 
 
    * - .. option:: --installURLHandlers
      - Register |compass-short| as a handler for mongodb:// and mongodb+srv:// 
@@ -155,6 +204,15 @@ value in the :guilabel:`Settings` panel.
 
        To learn more, see :ref:`compass-configure-network-traffic`.
 
+   * - .. option:: --newExplainPlan
+     - Enables access to the explain plan from the query bar.
+
+   * - .. option:: --password
+     - Specifies a password for authentication to Compass and the MongoDB 
+       deployment provided in the connection string. 
+
+       Use in conjunction with :option:`--username`. 
+
    * - .. option:: --persistOIDCTokens
      - Remain logged in when using the MongoDB OIDC authentication mechanism for 
        MongoDB server connections. Access tokens are encrypted and stored using 
@@ -166,13 +224,25 @@ value in the :guilabel:`Settings` panel.
        To learn more, see :ref:`compass-protect-connection-strings`.
 
    * - .. option:: --protectConnectionStringsForNewConnections
-     - Disables the ability to edit the connection string for new connections.
+     - Sets connection strings for new connections as read-only by
+       default. Passwords in new connection strings display as
+       ``*****``.
+
+       If ``protectConnctionStringsForNewConnections`` is enabled,
+       |compass-short| disables the :guilabel:`Edit connection string`
+       option but doesn't prevent users from manually enabling the 
+       option with the :guilabel:`Edit connection string` toggle. 
 
    * - .. option:: --readOnly
      - Prevent users from performing write operations to your MongoDB deployment 
        through |compass-short|.
 
        To learn more, see :ref:`compass-read-only`.
+
+   * - .. option:: --showInsights
+     - Enables performance insights for your schemas and queries. 
+
+       To learn more, see :ref:`compass-performance-insights`.
 
    * - .. option:: --showKerberosPasswordField
      - Show or hide the Kerberos password field on the |compass-short| 
@@ -192,6 +262,12 @@ value in the :guilabel:`Settings` panel.
    * - .. option:: --trackUsageStatistics
      - Enable sending usage statistics. Use ``--no-trackUsageStatistics``
        to disable sending usage statistics.
+
+   * - .. option:: --username
+     - Specifies a username for authentication to Compass and the MongoDB 
+       deployment provided in the connection string 
+
+       Use in conjuction with :option:`--password`.
 
 .. include:: /includes/fact-configuration-options-executable.rst
 
