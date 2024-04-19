@@ -47,5 +47,5 @@ Disable Natural Language Querying
   enabled the :ref:`Compass Use Generative AI setting 
   <enable-natural-language-querying>` and logged into Atlas. 
 - If you no longer want to use the feature, you can uncheck the 
-  :guilabel:`Enable AI Features`check box in the 
+  :guilabel:`Enable AI Features` check box in the 
   :guilabel:`Artificial Intelligence` settings.
