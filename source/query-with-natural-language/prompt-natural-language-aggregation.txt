@@ -71,8 +71,6 @@ Steps
 
             .. include:: /includes/fact-agg-pipeline-merge-out-confirm.rst
 
-
-
       b. Press enter or click the :guilabel:`Run` button to execute 
          the pipeline.
 
