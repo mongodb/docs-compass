@@ -31,10 +31,11 @@ AI provider:
 - The full text of your natural language prompt.
 - The full text of the AI-generated query.
 - The schema of the collection you are querying 
-  (including collection name, field names, and types). 
+  including collection name, field names, and types. 
 - Sample field values. This is an optional setting to improve the 
   quality of recommendations. You can manage this through 
-  :ref:`Compass settings <compass-settings-reference>`, this setting 
+  ``Enable Sending Sample Field Values`` setting in 
+  :ref:`Compass settings <compass-settings-reference>`. This setting 
   is off by default. 
 
 The information that is sent will not be shared with any other third 
@@ -47,6 +48,6 @@ Disable Natural Language Querying
 - Natural language querying in Compass is available if you have 
   enabled the :ref:`Compass Use Generative AI setting 
   <enable-natural-language-querying>` and logged into Atlas. 
-- If you no longer want to use the feature, you can uncheck the 
-  :guilabel:`Enable AI Features` check box in the 
+- If you no longer want to use the feature, uncheck the 
+  :guilabel:`Enable AI Features` in the 
   :guilabel:`Artificial Intelligence` settings.
