@@ -98,7 +98,7 @@ Steps
       Compass, see:
 
       - :ref:`compass-ai-data-usage`
-      - `https://www.mongodb.com/docs/generative-ai-faq/`__
+      - `FAQ For MongoDB Generative AI Features <https://www.mongodb.com/docs/generative-ai-faq/>`__
 
 Next Steps
 ----------
