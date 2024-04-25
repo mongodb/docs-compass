@@ -91,13 +91,14 @@ Steps
 
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays. 
+      
+   .. step:: (Optional) Read MongoDB GenAI FAQs
 
-   .. step:: Read and Accept the Data Processing Agreement
+      For more information regarding generative AI usage with MongoDB
+      Compass, see:
 
-      a. The :guilabel:`Data Processing Agreement` displays.
-      #. Read the :guilabel:`Data Processing Agreement`.
-      #. Click :guilabel:`Agree and continue`.
-      #. Click :guilabel:`Save`.
+      - :ref:`compass-ai-data-usage`
+      - `https://www.mongodb.com/docs/generative-ai-faq/`__
 
 Next Steps
 ----------

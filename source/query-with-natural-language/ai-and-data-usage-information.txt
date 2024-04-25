@@ -29,7 +29,6 @@ information is sent to MongoDB's backend and/or the third party
 AI provider: 
 
 - The full text of your natural language prompt.
-- The full text of the AI-generated query.
 - The schema of the collection you are querying 
   including collection name, field names, and types. 
 - Sample field values. This is an optional setting to improve the 
@@ -50,4 +49,6 @@ Disable Natural Language Querying
   <enable-natural-language-querying>` and logged into Atlas. 
 - If you no longer want to use the feature, uncheck the 
   :guilabel:`Enable AI Features` in the 
-  :guilabel:`Artificial Intelligence` settings.
+  :guilabel:`Artificial Intelligence` settings. 
+- To prevent usage of this feature entirely, you can disable it in the 
+  :ref:`global configuration file <config-file>`.
