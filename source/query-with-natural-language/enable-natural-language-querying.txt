@@ -84,6 +84,7 @@ Steps
 
          Once completed a :guilabel:`Logged in with Atlas account`
          message displays. 
+      #. Click :guilabel:`Save`.
       
    .. step:: (Optional) Read MongoDB GenAI FAQs
 
