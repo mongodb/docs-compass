@@ -30,7 +30,7 @@ AI provider:
 
 - The full text of your natural language prompt.
 - The schema of the collection you are querying 
-  including collection name, field names, and types. 
+  including database name, collection name, field names, and types. 
 - Sample field values. This is an optional setting to improve the 
   quality of recommendations. You can manage this through 
   ``Enable Sending Sample Field Values`` setting in 
