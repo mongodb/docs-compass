@@ -68,20 +68,13 @@ Steps
            - In the top menu bar, click :guilabel:`MongoDB Compass`.
            - ``⌘`` + ``,``
 
-   .. step:: Enable the AI Features Setting
+   .. step:: Enable the AI Features Setting and Login to Atlas
 
       You only need to enabled AI features if it is your first time 
       using natural language querying.
 
       a. Select :guilabel:`Artificial Intelligence`.
       #. Click the :guilabel:`Enable AI Features` check box.
-      #. Click :guilabel:`Save`.
-
-   .. step:: Connect to your Atlas account
-
-      Open the settings menu again.
-
-      a. Select :guilabel:`Artificial Intelligence`.
       #. Click :guilabel:`Log in with Atlas`.
 
          A web browser displays the
