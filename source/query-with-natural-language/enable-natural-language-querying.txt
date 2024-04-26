@@ -82,7 +82,9 @@ Steps
 
       #. Complete the login procedure.
 
-         Once completed a :guilabel:`Logged in with Atlas account`
+         Once completed a 
+         :guilabel:`You can create queries and aggregations with 
+         generative AI.`
          message displays. 
       #. Click :guilabel:`Save`.
       
