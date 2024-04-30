@@ -217,7 +217,7 @@ value in the :guilabel:`Settings` panel.
      - Specifies a username for authentication to Compass and the MongoDB 
        deployment provided in the connection string 
 
-       Use in conjuction with :option:`--password`.
+       Optionally, use in conjuction with :option:`--password`.
 
 .. include:: /includes/fact-configuration-options-executable.rst
 
