@@ -165,7 +165,7 @@ value in the :guilabel:`Settings` panel.
 
    * - .. option:: --persistOIDCTokens
      - Remain logged in when using the MongoDB OIDC authentication mechanism for 
-       MongoDB server connections. Access tokens are encrypted and stored using 
+       MongoDB server connections. Session tokens are encrypted and stored using 
        the system keychain.
 
    * - .. option:: --protectConnectionStrings
