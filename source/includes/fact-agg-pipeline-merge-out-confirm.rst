@@ -1,7 +1,6 @@
-Aggregation pipelines can contain operators such as 
-:pipeline:`$merge` and :pipeline:`$out` that can 
-modify your collection's data. 
+Some aggregation operators, like :pipeline:`$merge` and 
+:pipeline:`$out`, can modify your collection's data.
 
-If an aggregation pipeline contains these 
-operators, you are prompted for confirmation before the 
-pipeline can be executed.
+If your aggregation pipeline contains operators that can modify 
+your collection's data, you are prompted for confirmation before 
+the pipeline is executed.
