@@ -84,7 +84,7 @@ Steps
 
          After you log in successfully, a 
          :guilabel:`You can create queries and aggregations with 
-         generative AI.`
+         generative AI`
          message displays. 
       #. Click :guilabel:`Save`.
       
