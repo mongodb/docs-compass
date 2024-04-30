@@ -40,7 +40,7 @@ Disable Natural Language Querying
 ---------------------------------
 
 - Natural language querying in Compass is available if you have 
-  enabled the :ref:`Compass Use Generative AI setting 
+  enabled the :ref:`Generative AI setting 
   <enable-natural-language-querying>` and logged into Atlas. 
 - If you no longer want to use the feature, uncheck the 
   :guilabel:`Enable AI Features` in the 
