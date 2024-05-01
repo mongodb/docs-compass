@@ -76,10 +76,10 @@ configuration file.
    * - .. option:: --trustedConnectionString
      - Suppresses warnings about disallowed connection string properties and allows 
        automatic connection. Compass inspects the connection string passed in the 
-       command line, and verifies whether it contains parameters that you may 
-       not want to have set and can result in a security risk. 
+       command line, and verifies whether it contains parameters that can result 
+       in a security risk. 
        
-       Only set this option if a known trusted connection string is being passed to 
+       Only set this option if you pass a known trusted connection string to 
        |compass-short|.
 
    * - .. option:: --version
@@ -104,8 +104,8 @@ value in the :guilabel:`Settings` panel.
        ``--no-autoUpdates`` to disable automatic updates. 
 
    * - .. option:: --browserCommandForOIDCAuth
-     - Specify a shell command to start the browser for OIDC authentication 
-       when connecting to the server or logging into your Atlas Cloud account.
+     - Specifies a shell command to start the browser for OIDC authentication 
+       when you connect to the server or log into your Atlas Cloud account.
 
    * - .. option:: --enableFeedbackPanel
      - Enable the feedback panel. Use ``--no-enableFeedbackPanel`` to disable 
@@ -126,8 +126,8 @@ value in the :guilabel:`Settings` panel.
        To learn more, see :ref:`disable-shell`.
 
    * - .. option:: --file <file>
-     - Specify a file containing a :ref:`list of connections 
-       <compass-export-connections-cli>`. These connections are automatically 
+     - Specifies a file containing a :ref:`list of connections 
+       <compass-export-connections-cli>` that are automatically 
        available once |compass| starts.
 
    * - .. option:: --forceConnectionOptions
@@ -164,9 +164,9 @@ value in the :guilabel:`Settings` panel.
        Use in conjunction with :option:`--username`. 
 
    * - .. option:: --persistOIDCTokens
-     - Remain logged in when using the MongoDB OIDC authentication mechanism for 
-       MongoDB server connections. Session tokens are encrypted and stored using 
-       the system keychain.
+     - Allows you to remain logged in when using the MongoDB OIDC authentication
+       mechanism for MongoDB server connections. Session tokens are encrypted and 
+       stored using the system keychain.
 
    * - .. option:: --protectConnectionStrings
      - .. include:: /includes/fact-protect-connection-strings.rst  
@@ -201,7 +201,7 @@ value in the :guilabel:`Settings` panel.
        To learn more, see :ref:`compass-kerberos-password`.
 
    * - .. option:: --showOIDCDeviceAuthFlow
-     - Enable device authorization flow for OIDC authentication on MongoDB server. 
+     - Enables device authorization flow for OIDC authentication on MongoDB server. 
        This enables a less secure authentication flow that can be used as a fallback 
        when browser-based authentication is unavailable.
 
