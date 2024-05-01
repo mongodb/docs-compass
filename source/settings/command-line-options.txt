@@ -178,7 +178,7 @@ value in the :guilabel:`Settings` panel.
        default. Passwords in new connection strings display as
        ``*****``.
 
-       If ``protectConnctionStringsForNewConnections`` is enabled,
+       If ``protectConnectionStringsForNewConnections`` is enabled,
        |compass-short| disables the :guilabel:`Edit connection string`
        option but doesn't prevent users from manually enabling the 
        option with the :guilabel:`Edit connection string` toggle. 
