@@ -29,7 +29,7 @@ New Features
 Bug Fixes
 
 - Ensures that the confirmation modal always asks for confirmation input (:issue:`COMPASS-7613`)
-- Bumps Electron to 29 (:issue:`COMPASS-7868`)
+- Bumps Electron to 29 and removes support for RHEL7 (:issue:`COMPASS-7868`)
 - Parses AI response correctly (:issue:`COMPASS-7780`)
 - Fixes CPU hikes because of bad useEffect dependency
 
