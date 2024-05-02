@@ -34,7 +34,7 @@ Bug Fixes
 - Fixes CPU hikes because of bad useEffect dependency
 
 `Full changelog available on GitHub
-<https://github.com/mongodb-js/compass/compare/v1.43.0...v1.43.1>`__
+<https://github.com/mongodb-js/compass/compare/v1.42.5...v1.43.0>`__
 
 
 |compass| 1.42.5
