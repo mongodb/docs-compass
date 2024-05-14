@@ -119,10 +119,6 @@ bar.
 To vote for issues, click :guilabel:`Vote` for the issues you would
 like to see added.
 
-.. figure:: /images/compass/feature-request-vote.png
-   :figwidth: 650px
-   :alt: Vote on existing features
-
 Other Feedback
 --------------
 
