@@ -43,7 +43,7 @@ ref: import-options
 content: |
   Under :guilabel:`Options`, configure the import options for your use 
   case.
-
+  
   If you are importing a CSV file, you may select how your data 
   is delimited.
 
