@@ -158,6 +158,14 @@ You can configure the following settings on the |compass| interface:
      - Enables :ref:`natural language querying <query-natural-language>` and allows 
        the use of AI features in Compass which make requests to 3rd party services.
 
+   * - Enable Sending Sample Field Values with Query and Aggregation Generation Requests
+     - Artificial Intelligence
+     - Enables sharing of field values with the MongoDB AI provider 
+       from a set of sample documents. This setting can improve 
+       responses from natural language querying prompts.
+
+
+
 Learn More
 ----------
 
