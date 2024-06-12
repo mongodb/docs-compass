@@ -10,6 +10,33 @@ Release Notes
    :depth: 1
    :class: twocols
 
+
+|compass| 1.43.1
+----------------
+
+*Released Jun 12, 2024*
+
+New Features
+
+- feat(editor, query-bar): add disabled state for code mirror editor, use while generative ai fetching COMPASS-7902
+- feat(compass): update close window hotkey to be cmd+shift+w to avoid conflict with close tab cmd+w COMPASS-7301
+- feat(settings): enable sample documents setting COMPASS-7931
+- feat(generative-ai): update generative ai input to be resizable text area COMPASS-7940
+
+Bug Fixes
+
+- fix(auto-updates): only show toast when user updates
+- fix(connection-form): fix base64 regular expression COMPASS-7541
+- fix(compass): update toasts copy and button style
+- fix(components): overflow-wrap error messages
+- fix(databases-collections): fixes the visible "Create collection" button despite Compass being in readonly mode
+- fix: remove hackolade COMPASS-7974
+- fix(compass-sidebar): ensure connection gets saved as favorite from old sidebar COMPASS-7980
+- fix(index card explain plan): long index names COMPASS-7016
+
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.43.0...v1.43.1>`__
+
 |compass| 1.43.0
 ----------------
 
@@ -35,8 +62,6 @@ Bug Fixes
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.42.5...v1.43.0>`__
-
-*Upcoming*
 
 New Features
 
