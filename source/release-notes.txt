@@ -18,8 +18,8 @@ Release Notes
 
 New Features:
 
-- Added a disabled state for code mirror editor, used while Generative 
-  AI fetching :issue:`COMPASS-7902`.
+- Added a disabled state Generative AI query bar, used while Generative 
+  AI is fetching results :issue:`COMPASS-7902`.
 - Updated the close window hotkey to be ``cmd`` + ``shift`` + ``w`` to 
   avoid conflict with close tab ``cmd`` + ``w`` :issue:`COMPASS-7301`.
 - Added a setting for enabled sample documents. This setting improves 
