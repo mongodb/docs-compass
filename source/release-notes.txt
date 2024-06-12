@@ -16,23 +16,28 @@ Release Notes
 
 *Released Jun 12, 2024*
 
-New Features
+New Features:
 
-- feat(editor, query-bar): add disabled state for code mirror editor, use while generative ai fetching COMPASS-7902
-- feat(compass): update close window hotkey to be cmd+shift+w to avoid conflict with close tab cmd+w COMPASS-7301
-- feat(settings): enable sample documents setting COMPASS-7931
-- feat(generative-ai): update generative ai input to be resizable text area COMPASS-7940
+- Added a disabled state for code mirror editor, used while Generative 
+  AI fetching :issue:`COMPASS-7902`.
+- Updated the close window hotkey to be ``cmd`` + ``shift`` + ``w`` to 
+  avoid conflict with close tab ``cmd`` + ``w`` :issue:`COMPASS-7301`.
+- Added a setting for enabled sample documents. This setting improves 
+  Generative AI queries :issue:`COMPASS-7931`.
+- Updated Generative AI input to be resizable text area 
+  :issue:`COMPASS-7940`.
 
-Bug Fixes
+Bug Fixes:
 
-- fix(auto-updates): only show toast when user updates
-- fix(connection-form): fix base64 regular expression COMPASS-7541
-- fix(compass): update toasts copy and button style
-- fix(components): overflow-wrap error messages
-- fix(databases-collections): fixes the visible "Create collection" button despite Compass being in readonly mode
-- fix: remove hackolade COMPASS-7974
-- fix(compass-sidebar): ensure connection gets saved as favorite from old sidebar COMPASS-7980
-- fix(index card explain plan): long index names COMPASS-7016
+- Fixed an issue with base64 regular expression :issue:`COMPASS-7541`.
+- Fixed a display issue with the ``Create collection`` button when 
+  using Compass in readonly mode.
+- Removed the Hackolade banner from the schema tab 
+  :issue:`COMPASS-7974`.
+- Fixed an issue when a connection gets saved as favorite from old 
+  sidebar :issue:`COMPASS-7980`.
+- Fixed a display issue for long index names :issue:`COMPASS-7016`.
+- Various user interface message and verbiage improvements.
 
 `Full changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.43.0...v1.43.1>`__
