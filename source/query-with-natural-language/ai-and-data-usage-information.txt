@@ -31,10 +31,9 @@ AI provider:
 - The full text of your natural language prompt.
 - The schema of the collection you are querying, 
   including database name, collection name, field names, and types. 
-- Sample field values. This is an optional setting to improve the 
-  quality of recommendations. You can manage this through the
-  ``Enable sending sample field values with query and aggregation 
-  generation requests`` setting in 
+- Enable sending sample field values. This is an optional setting to 
+  improve the quality of recommendations. You can manage this through the
+  ``Enable sending sample field values`` setting in 
   :ref:`Compass settings <compass-settings-reference>`. This setting 
   is off by default.
 
