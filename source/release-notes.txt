@@ -18,8 +18,8 @@ Release Notes
 
 New Features:
 
-- Added a disabled state Generative AI query bar, used while Generative 
-  AI is fetching results :issue:`COMPASS-7902`.
+- Added a disabled state to the Generative AI query bar. This state 
+  displays while Generative AI is fetching results :issue:`COMPASS-7902`.
 - Updated the close window hotkey to be :kbd:`cmd` + :kbd:`shift` + 
   :kbd:`w` to avoid conflict with close tab :kbd:`cmd` + :kbd:`w` 
   :issue:`COMPASS-7301`.
