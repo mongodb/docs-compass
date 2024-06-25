@@ -98,7 +98,7 @@ Verify Packages with GPG
 
       For example, if you are running
       ``mongodb-compass-{+current-version+}-darwin-arm64``, download
-      ``mongodb-compass-{+current-version+}-darwin-arm64.sig``
+      ``mongodb-compass-{+current-version+}-darwin-arm64.zip.sig``
 
       .. note:: 
          
@@ -111,7 +111,7 @@ Verify Packages with GPG
 
       .. code-block:: sh
 
-         gpg --verify <path_to_signature_file> <path_to_compass_executable>
+         gpg --verify <path_to_signature_file> <path_to_compass_archive>
 
       If the package is properly signed by MongoDB, the command returns
       this response:
