@@ -19,11 +19,21 @@ Release Notes
 
 New Features:
 
-- Combine array fields into one in the import CSV preview (:issue:`COMPASS-6766`).
+- Expand options when applied from query history with options
+- Add popover on empty content generated (:issue:`COMPASS-7837`).
+- Add confirmation dialog when quitting compass (:issue:`COMPASS-6435`).
 
 Bug Fixes:
 
-- Differentiate between new Date() and Date() (:issue:`COMPASS-6755`).
+- Regex and number long query history fix (:issue:`COMPASS-7215`,
+  :issue:`COMPASS-7008`).
+- Keep listeners for insert document validity on document view (:issue:`COMPASS-3246`).
+- Hide inaccurate collection stats for timeseries (:issue:`COMPASS-6712`).
+- Small issue with sidebar tabbing
+- Remove 'Preview' label from OIDC (:issue:`COMPASS-7666`).
+- Use system ca certs in atlas reqs and OIDC (:issue:`COMPASS-7950`).
+- Hide edit view button in readonly mode (:issue:`COMPASS-7688`).
+- Update line numbers to not be selectable (:issue:`COMPASS-7941`).
 
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.43.1...v1.43.2>`__
