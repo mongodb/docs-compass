@@ -1,0 +1,9 @@
+[assets.output_paths]
+repository_path = "source/test-docurl"
+
+[[assets.sources.repository]]
+repo = "10gen/cloud-docs"
+
+[[assets.sources.repository.targets]]
+source = "source/schema/"
+output = "schema"
