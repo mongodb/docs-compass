@@ -11,17 +11,18 @@ Release Notes
    :class: twocols
 
 
-
 |compass| 1.43.2
 ----------------
 
-*Released May 25, 2023*
+*Released June 25, 2024*
 
 New Features:
 
-- Adds pop over on empty content (:issue:`COMPASS-7837`).
-- Adds confirmation dialog when quitting Compass (:issue:`COMPASS-6435`).
-- Expands options when applied from query history.
+- Shows a tool tip when a query or aggregation is generated without
+  content (:issue:`COMPASS-7837`).
+- Adds confirmation dialog when quitting Compass
+  (:issue:`COMPASS-6435`).
+- Expands options when applied from a query history that has options.
 
 Bug Fixes:
 
