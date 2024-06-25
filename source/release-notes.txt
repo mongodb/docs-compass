@@ -20,8 +20,7 @@ New Features:
 
 - Shows tool tip when a query or aggregation is generated without
   content (:issue:`COMPASS-7837`).
-- Confirmation dialog when quitting Compass
-  (:issue:`COMPASS-6435`).
+- Confirmation dialog when quitting Compass (:issue:`COMPASS-6435`).
 - Expands options when applied from a query history that has options.
 
 Bug Fixes:
