@@ -19,21 +19,24 @@ Release Notes
 
 New Features:
 
-- Add popover on empty content generated (:issue:`COMPASS-7837`).
-- Add confirmation dialog when quitting compass (:issue:`COMPASS-6435`).
-- Expand options when applied from query history with options.
+- Adds pop over on empty content (:issue:`COMPASS-7837`).
+- Adds confirmation dialog when quitting Compass (:issue:`COMPASS-6435`).
+- Expands options when applied from query history.
 
 Bug Fixes:
 
-- Regex and number long query history fix (:issue:`COMPASS-7215`,
-  :issue:`COMPASS-7008`).
-- Keep listeners for insert document validity on document view (:issue:`COMPASS-3246`).
-- Hide inaccurate collection stats for timeseries (:issue:`COMPASS-6712`).
-- Remove 'Preview' label from OIDC (:issue:`COMPASS-7666`).
-- Use system ca certs in atlas reqs and OIDC (:issue:`COMPASS-7950`).
-- Hide edit view button in readonly mode (:issue:`COMPASS-7688`).
-- Update line numbers to not be selectable (:issue:`COMPASS-7941`).
-- Small issue with sidebar tabbing.
+- Regular expression and number query history fix
+  (:issue:`COMPASS-7215`, :issue:`COMPASS-7008`).
+- Keeps listeners for insert document validity on document view
+  (:issue:`COMPASS-3246`).
+- Hides inaccurate collection statistics for timeseries
+  (:issue:`COMPASS-6712`).
+- Removes 'Preview' label from OIDC (:issue:`COMPASS-7666`).
+- Uses system ca certificates in Atlas requests and OIDC
+  (:issue:`COMPASS-7950`).
+- Hides edit view button in read only mode (:issue:`COMPASS-7688`).
+- Updates line numbers to be unselectable (:issue:`COMPASS-7941`).
+- Sidebar tab fix.
 
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.43.1...v1.43.2>`__
