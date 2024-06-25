@@ -267,5 +267,5 @@ To download and install |compass|, select your operating system:
    :titlesonly:
 
    /upgrade
-   /verify-signatures
+   /install/verify-signatures
    /editions
