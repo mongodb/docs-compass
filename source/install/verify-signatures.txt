@@ -97,8 +97,8 @@ Verify Packages with GPG
       version and variant.
 
       For example, if you are running
-      ``mongodb-compass-{+version+}-darwin-arm64``, download
-      ``mongodb-compass-{+version+}-darwin-arm64.sig``
+      ``mongodb-compass-{+current-version+}-darwin-arm64``, download
+      ``mongodb-compass-{+current-version+}-darwin-arm64.sig``
 
       .. note:: 
          
