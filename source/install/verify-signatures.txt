@@ -7,137 +7,30 @@ Verify Integrity of Compass Packages
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 2
+   :depth: 1
    :class: singlecol
 
 .. facet::
    :name: genre
    :values: tutorial
 
-The MongoDB release team digitally signs |compass| packages to certify
-that packages are a valid and unaltered MongoDB release. Before you
-install |compass|, you can validate the package.
+.. include:: /includes/verify-signatures-intro.rst
 
-Before you Begin
-----------------
+To learn how to verify |compass| packages, see the corresponding page
+for your verification method:
 
-If you don't have |compass| installed, download the |compass| binary
-from the `Download Center
-<https://www.mongodb.com/try/download/compass?jmp=docs>`__.
+- :ref:`verify-signatures-disk-image`
 
-Steps
------
+- :ref:`verify-signatures-gpg`
 
-To verify |compass| packages, you can use one of these methods:
+- :ref:`verify-signatures-rpm`
 
-- :ref:`Disk Image Verification <verify-signatures-macos-disk-image>`
+- :ref:`verify-signatures-windows`
 
-- :ref:`GPG <verify-signatures-macos-gpg>`
+.. toctree::
+   :titlesonly:
 
-.. _verify-signatures-macos-disk-image:
-
-Verify Packages with Disk Image Verification
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Run the following command:
-
-.. code-block:: sh
-
-   codesign -dv --verbose=4 <path_to_compass_executable>
-
-If the package is properly signed by MongoDB, the output includes the
-following information:
-
-.. code-block:: sh
-   :copyable: false
-
-   Authority=Developer ID Application: MongoDB, Inc. (4XWMY46275)
-   Authority=Developer ID Certification Authority
-   Authority=Apple Root CA
-
-.. _verify-signatures-macos-gpg:
-
-Verify Packages with GPG
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. procedure::
-   :style: normal
-
-   .. step:: Import the |compass| public key
-
-      .. code-block:: sh
-
-         curl https://pgp.mongodb.com/compass.asc | gpg --import
-
-      If the key imports successfully, the command returns the
-      following output:
-
-      .. code-block:: sh
-         :copyable: false
-
-         gpg: key CEED0419D361CB16: public key "MongoDB Compass Signing Key <compass@mongodb.com>" imported
-         gpg: Total number processed: 1
-         gpg:               imported: 1
-
-      If you have previously imported the key, the command returns the
-      following output:
-
-      .. code-block:: sh
-         :copyable: false
-
-         gpg: key A8130EC3F9F5F923: "MongoDB Compass Signing Key <compass@mongodb.com>" not changed
-         gpg: Total number processed: 1
-         gpg:             	      unchanged: 1
-
-   .. step:: Download the |compass| public signature
-
-      To download the |compass| public signature, go to the `Compass
-      Releases <https://github.com/mongodb-js/compass/releases>`__ page
-      on GitHub and download the corresponding ``.sig`` file for your
-      version and variant.
-
-      For example, if you are running
-      ``mongodb-compass-{+current-version+}-darwin-arm64``, download
-      ``mongodb-compass-{+current-version+}-darwin-arm64.zip.sig``
-
-      .. note:: 
-         
-         Make sure that you select the correct version in the GitHub
-         releases page when you download the signature.
-
-   .. step:: Verify the package
-
-      Run the following command:
-
-      .. code-block:: sh
-
-         gpg --verify <path_to_signature_file> <path_to_compass_archive>
-
-      If the package is properly signed by MongoDB, the command returns
-      this response:
-      
-      .. code-block:: sh
-         :copyable: false
-
-         gpg: Signature made Mon Jan 22 10:22:53 2024 CET
-         gpg:                using RSA key AB1B92FFBE0D3740425DAD16A8130EC3F9F5F923
-         gpg: Good signature from "MongoDB Compass Signing Key <compass@mongodb.com>" [unknown]
-         
-      If the package is signed properly but the key is not in trusted
-      list, the command returns the following additional information:
-
-      .. code-block:: sh
-         :copyable: false
-
-         gpg: WARNING: This key is not certified with a trusted signature!
-         gpg:          There is no indication that the signature belongs to the owner.
-         
-      If the package is not signed properly, the command returns an
-      error message:
-
-      .. code-block:: sh
-         :copyable: false
-
-         gpg: Signature made Mon Jan 22 10:22:53 2024 CET
-         gpg:                using RSA key AB1B92FFBE0D3740425DAD16A8130EC3F9F5F923
-         gpg: BAD signature from "MongoDB Compass Signing Key <compass@mongodb.com>" [unknown]
+   /install/verify-signatures/disk-images
+   /install/verify-signatures/gpg
+   /install/verify-signatures/rpm
+   /install/verify-signatures/windows
