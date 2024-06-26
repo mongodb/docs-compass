@@ -19,13 +19,13 @@ Verify Integrity of Compass Packages
 To learn how to verify |compass| packages, see the corresponding page
 for your verification method:
 
-- :ref:`verify-signatures-disk-image`
+- :ref:`compass-verify-signatures-disk-image`
 
-- :ref:`verify-signatures-gpg`
+- :ref:`compass-verify-signatures-gpg`
 
-- :ref:`verify-signatures-rpm`
+- :ref:`compass-verify-signatures-rpm`
 
-- :ref:`verify-signatures-windows`
+- :ref:`compass-verify-signatures-windows`
 
 .. toctree::
    :titlesonly:
