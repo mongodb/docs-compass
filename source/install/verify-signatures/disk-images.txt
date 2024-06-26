@@ -1,4 +1,4 @@
-.. _verify-signatures-disk-image:
+.. _compass-verify-signatures-disk-image:
 
 ============================================
 Verify Packages with Disk Image Verification
