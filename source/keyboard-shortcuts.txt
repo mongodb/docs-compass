@@ -51,7 +51,7 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - ``Ctrl`` + ``N``
      - ``Cmd`` + ``N``
 
-   * - General
+   * - Menu
      - Close current window
      - ``Ctrl`` + ``Shift`` + ``W``
      - ``Cmd`` + ``Shift`` + ``W``
