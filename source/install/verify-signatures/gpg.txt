@@ -46,8 +46,8 @@ Steps
       on GitHub and download the corresponding ``.sig`` file for your
       version and variant.
 
-      For example, if you are running
-      ``mongodb-compass-{+current-version+}-darwin-x64, download
+      For example, if you downloaded
+      ``mongodb-compass-{+current-version+}-darwin-x64.zip``, download
       ``mongodb-compass-{+current-version+}-darwin-x64.zip.sig``
 
       .. note:: 
