@@ -16,8 +16,7 @@ Verify Packages with Disk Image Verification
 
 .. include:: /includes/verify-signatures-intro.rst
 
-This page describes how to use disk image verification to verify
-``.dmg`` packages on macOS.
+This page describes how to verify ``.dmg`` packages on macOS.
 
 Before you Begin
 ----------------
