@@ -71,7 +71,7 @@ Steps
 
          gpg: Signature made Mon Jan 22 10:22:53 2024 CET
          gpg:                using RSA key AB1B92FFBE0D3740425DAD16A8130EC3F9F5F923
-         gpg: Good signature from "Mongosh Release Signing Key <packaging@mongodb.com>" [unknown]
+         gpg: Good signature from "MongoDB Compass Signing Key <compass@mongodb.com>" [unknown]
          
       If the package is properly signed but you do not trust the signing
       key in your local ``trustdb``, ``gpg`` returns this message:
@@ -90,4 +90,4 @@ Steps
 
          gpg: Signature made Mon Jan 22 10:22:53 2024 CET
          gpg:                using RSA key AB1B92FFBE0D3740425DAD16A8130EC3F9F5F923
-         gpg: BAD signature from "Mongosh Release Signing Key <packaging@mongodb.com>" [unknown]
+         gpg: BAD signature from "MongoDB Compass Signing Key <compass@mongodb.com>" [unknown]
