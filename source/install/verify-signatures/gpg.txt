@@ -16,7 +16,7 @@ Verify Packages with GPG
 
 .. include:: /includes/verify-signatures-intro.rst
 
-This page describes how to use GPG to verify Linux and macOS packages.
+This page describes how to use GPG to verify packages.
 
 Before you Begin
 ----------------
