@@ -9,7 +9,8 @@ intersphinx = [
 ]
 
 toc_landing_pages = [
-    "/install", 
+    "/install",
+    "/install/verify-signatures",  
     "/connect",
     "/settings",
     "/settings/config-file",
