@@ -1,8 +1,8 @@
 .. _compass-verify-signatures-gpg:
 
-==========================================
-Verify Packages with GPG (Linux and macOS)
-==========================================
+========================
+Verify Packages with GPG
+========================
 
 .. contents:: On this page
    :local:
