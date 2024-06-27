@@ -31,8 +31,6 @@ Steps
 
    .. step:: Import the |compass| public key
 
-      Run this command:
-
       .. code-block:: sh
 
          curl https://pgp.mongodb.com/compass.asc | gpg --import
@@ -46,9 +44,11 @@ Steps
       on GitHub and download the corresponding ``.sig`` file for your
       version and variant.
 
-      For example, if you downloaded
-      ``mongodb-compass-{+current-version+}-darwin-x64.zip``, download
+      For example, if you downloaded the
+      ``mongodb-compass-{+current-version+}-darwin-x64.zip`` archive,
+      download the
       ``mongodb-compass-{+current-version+}-darwin-x64.zip.sig``
+      signature.
 
       .. note:: 
          
@@ -57,14 +57,11 @@ Steps
 
    .. step:: Verify the package
 
-      Run this command:
-
       .. code-block:: sh
 
          gpg --verify <path_to_signature_file> <path_to_compass_archive>
 
-      If the package is properly signed by MongoDB, the command returns
-      this response:
+      If the package is signed by MongoDB, the command returns:
       
       .. code-block:: sh
          :copyable: false
@@ -73,8 +70,8 @@ Steps
          gpg:                using RSA key AB1B92FFBE0D3740425DAD16A8130EC3F9F5F923
          gpg: Good signature from "MongoDB Compass Signing Key <compass@mongodb.com>" [unknown]
          
-      If the package is properly signed but you do not trust the signing
-      key in your local ``trustdb``, ``gpg`` returns this message:
+      If the package is signed but the signing key is not added to your
+      local ``trustdb``, the command returns:
 
       .. code-block:: sh
          :copyable: false

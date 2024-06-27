@@ -39,14 +39,13 @@ methods:
 Verify Packages with PowerShell
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To verify Windows packages with PowerShell, run this command:
+To verify Windows packages with PowerShell, run:
 
 .. code-block:: sh
 
    powershell Get-AuthenticodeSignature -FilePath <path_to_compass_exe_or_msi>
    
-If the file is properly signed, the command returns the following
-output:
+If the file is signed, the command returns:
 
 .. code-block:: sh
    :copyable: false

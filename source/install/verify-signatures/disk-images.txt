@@ -26,14 +26,14 @@ Before you Begin
 Steps
 -----
 
-To verify the |compass| package, run this command:
+To verify the |compass| package, run:
 
 .. code-block:: sh
 
    codesign -dv --verbose=4 <path_to_compass_executable>
 
-If the package is properly signed by MongoDB, the output includes the
-following information:
+If the package is signed by MongoDB, the output includes the following
+information:
 
 .. code-block:: sh
    :copyable: false

@@ -32,8 +32,6 @@ Steps
 
    .. step:: Import the |compass| public key in gpg and rpm
 
-      Run these commands:
-
       .. code-block:: sh
 
          curl https://pgp.mongodb.com/compass.asc | gpg --import
@@ -44,13 +42,11 @@ Steps
 
    .. step:: Verify the rpm file
 
-      Run this command:
-
       .. code-block:: sh
 
          rpm --checksig <path_to_compass_rpm_file>
 
-      If the file is properly signed, the command returns this output:
+      If the file is signed, the command returns:
 
       .. code-block:: sh
          :copyable: false
