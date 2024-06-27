@@ -177,10 +177,10 @@ To download and install |compass|, select your operating system:
                If your Linux distribution does not support ``apt``,
                run the following lines to install |compass|:
 
-                  .. code-block:: shell
+               .. code-block:: shell
 
-                     sudo dpkg -i mongodb-compass_{+current-version+}_amd64.deb
-                     sudo apt-get install -f # This installs required compass dependencies
+                  sudo dpkg -i mongodb-compass_{+current-version+}_amd64.deb
+                  sudo apt-get install -f # This installs required compass dependencies
 
             #. Start |compass|.
 
