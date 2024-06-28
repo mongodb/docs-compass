@@ -2,7 +2,7 @@
 Keyboard Shortcuts
 ==================
 
-.. default-domain:: mongodb
+.. |placeholder| replace:: `
 
 .. contents:: On this page
    :local:
@@ -188,8 +188,8 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
 
    * - Web Shell
      - Toggle shell
-     - :kbd:`Ctrl` + :kbd:``
-     - :kbd:`Ctrl` + :kbd:``
+     - :kbd:`Ctrl` + :kbd:`|placeholder|` + `````
+     - :kbd:`Ctrl` + :kbd:`|placeholder|` + `````
 
    * - Web Shell
      - Deletes the next character
