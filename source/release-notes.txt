@@ -24,7 +24,7 @@ Bug Fixes:
 
 - Aggregations use ``maxTimeMS`` default on preview documents
   (:issue:`COMPASS-7798`).
-- Ensures autoconnect information is provided in connection hooks
+- Fixes a regression that prevented autoconnect from working properly
   (:issue:`COMPASS-8044`).
 
 `Full Changelog available on GitHub
