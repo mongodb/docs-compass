@@ -27,11 +27,6 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - ``F1``
 
    * - Menu
-     - Quit application
-     - ``Ctrl`` + ``Q``
-     - ``Cmd`` + ``Q``
-
-   * - Menu
      - Show settings
      - ``Ctrl`` + ``,``
      - ``Cmd`` + ``,``
@@ -130,6 +125,11 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
      - Find
      - ``Ctrl`` + ``F``
      - ``Cmd`` + ``F``
+
+   * - General
+     - Quit application \ toggle quit confirmation dialog
+     - ``Ctrl`` + ``Q``
+     - ``Cmd`` + ``Q``
 
    * - Workspace
      - Navigate to next tab
