@@ -112,8 +112,8 @@ You can configure the following settings on the |compass| interface:
      - Toggle whether a confirmation dialog is shown when quitting Compass.
        You can also toggle this setting with the keyboard shortcut 
        :kbd:`ctrl` + :kbd:`Q` on Windows or :kbd:`cmd` + :kbd:`Q` on MacOS.
-       To avoid seeing the dialog on when quitting Compass, check the  
-       `Do not ask again` checkbox.
+       To avoid seeing the dialog when quitting Compass, check the  
+       ``Do not ask again`` checkbox.
 
    * - Sync with OS
      - Theme 
