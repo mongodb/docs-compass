@@ -114,7 +114,7 @@ You can configure the following settings on the |compass| interface:
        disables this setting.
 
        You can also toggle the quit dialog with the keyboard shortcut:
-       :kbd:`ctrl` + :kbd:`Q` on Windows or :kbd:`cmd` + :kbd:`Q` on MacOS.
+       :kbd:`ctrl` + :kbd:`Q` on Windows or :kbd:`cmd` + :kbd:`Q` on Mac.
 
    * - Sync with OS
      - Theme 
