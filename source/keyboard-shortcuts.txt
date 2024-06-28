@@ -189,7 +189,7 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
    * - Web Shell
      - Toggle shell
      - :kbd:`Ctrl` + :kbd:`ˋ`
-     - :kbd:`Ctrl` +  :kbd:`̀`
+     - :kbd:`Ctrl` + :kbd:`ˋ`
 
    * - Web Shell
      - Deletes the next character
