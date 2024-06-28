@@ -118,8 +118,8 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
 
    * - General
      - Paste
-     - :kbd:`Ctrl + V`
-     - :kbd:`Cmd + V`
+     - :kbd:`Ctrl` + :kbd:`V`
+     - :kbd:`Cmd` + :kbd:`V`
 
    * - General
      - Select all
