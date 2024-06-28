@@ -23,210 +23,210 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
 
    * - Menu
      - Online help
-     -:kdb:`F1`
-     -:kdb:`F1`
+     -:kbd:`F1`
+     -:kbd:`F1`
 
    * - Menu
      - Quit application
-     -:kdb:`Ctrl` +:kdb:`Q`
-     -:kdb:`Cmd` +:kdb:`Q`
+     -:kbd:`Ctrl` +:kbd:`Q`
+     -:kbd:`Cmd` +:kbd:`Q`
 
    * - Menu
      - Show settings
-     -:kdb:`Ctrl` +:kdb:`,`
-     -:kdb:`Cmd` +:kdb:`,`
+     -:kbd:`Ctrl` +:kbd:`,`
+     -:kbd:`Cmd` +:kbd:`,`
 
    * - Menu
      - Hide window
-     -:kdb:`Ctrl` +:kdb:`H`
-     -:kdb:`Cmd` +:kdb:`H`
+     -:kbd:`Ctrl` +:kbd:`H`
+     -:kbd:`Cmd` +:kbd:`H`
 
    * - Menu
      - Hide other windows
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`H`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`H`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`H`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`H`
 
    * - Menu
      - Open a new Compass window
-     -:kdb:`Ctrl` +:kdb:`N`
-     -:kdb:`Cmd` +:kdb:`N`
+     -:kbd:`Ctrl` +:kbd:`N`
+     -:kbd:`Cmd` +:kbd:`N`
 
    * - Menu
      - Share schema as JSON
-     -:kdb:`Alt` +:kdb:`Ctrl` +:kdb:`S`
-     -:kdb:`Alt` +:kdb:`Cmd` +:kdb:`S`
+     -:kbd:`Alt` +:kbd:`Ctrl` +:kbd:`S`
+     -:kbd:`Alt` +:kbd:`Cmd` +:kbd:`S`
 
    * - Menu
      - Reload screen
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`R`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`R`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`R`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`R`
 
    * - Menu
      - Reload data
-     -:kdb:`Ctrl` +:kdb:`R`
-     -:kdb:`Cmd` +:kdb:`R`
+     -:kbd:`Ctrl` +:kbd:`R`
+     -:kbd:`Cmd` +:kbd:`R`
 
    * - Menu
      - Toggle sidebar
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`D`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`D`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`D`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`D`
 
    * - Menu
      - Actual size
-     -:kdb:`Ctrl` +:kdb:`0`
-     -:kdb:`Cmd` +:kdb:`0`
+     -:kbd:`Ctrl` +:kbd:`0`
+     -:kbd:`Cmd` +:kbd:`0`
 
    * - Menu
      - Zoom in
-     -:kdb:`Ctrl` +:kdb:`=`
-     -:kdb:`Cmd` +:kdb:`=`
+     -:kbd:`Ctrl` +:kbd:`=`
+     -:kbd:`Cmd` +:kbd:`=`
 
    * - Menu
      - Zoom out
-     -:kdb:`Ctrl` +:kdb:`-`
-     -:kdb:`Cmd` +:kdb:`-`
+     -:kbd:`Ctrl` +:kbd:`-`
+     -:kbd:`Cmd` +:kbd:`-`
 
    * - Menu
      - Toggle DevTools
-     -:kdb:`Alt` +:kdb:`Ctrl` +:kdb:`I`
-     -:kdb:`Alt` +:kdb:`Cmd` +:kdb:`I`
+     -:kbd:`Alt` +:kbd:`Ctrl` +:kbd:`I`
+     -:kbd:`Alt` +:kbd:`Cmd` +:kbd:`I`
 
    * - Menu
      - Minimize
-     -:kdb:`Ctrl` +:kdb:`M`
-     -:kdb:`Cmd` +:kdb:`M`
+     -:kbd:`Ctrl` +:kbd:`M`
+     -:kbd:`Cmd` +:kbd:`M`
 
    * - General
      - Undo
-     -:kdb:`Ctrl` +:kdb:`Z`
-     -:kdb:`Cmd` +:kdb:`Z`
+     -:kbd:`Ctrl` +:kbd:`Z`
+     -:kbd:`Cmd` +:kbd:`Z`
 
    * - General
      - Redo
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`Z`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`Z`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`Z`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`Z`
 
    * - General
      - Cut
-     -:kdb:`Ctrl` +:kdb:`X`
-     -:kdb:`Cmd` +:kdb:`X`
+     -:kbd:`Ctrl` +:kbd:`X`
+     -:kbd:`Cmd` +:kbd:`X`
 
    * - General
      - Copy
-     -:kdb:`Ctrl` +:kdb:`C`
-     -:kdb:`Cmd` +:kdb:`C`
+     -:kbd:`Ctrl` +:kbd:`C`
+     -:kbd:`Cmd` +:kbd:`C`
 
    * - General
      - Paste
-     -:kdb:`Ctrl + V`
-     -:kdb:`Cmd + V`
+     -:kbd:`Ctrl + V`
+     -:kbd:`Cmd + V`
 
    * - General
      - Select all
-     -:kdb:`Ctrl` +:kdb:`A`
-     -:kdb:`Cmd` +:kdb:`A`
+     -:kbd:`Ctrl` +:kbd:`A`
+     -:kbd:`Cmd` +:kbd:`A`
 
    * - General
      - Find
-     -:kdb:`Ctrl` +:kdb:`F`
-     -:kdb:`Cmd` +:kdb:`F`
+     -:kbd:`Ctrl` +:kbd:`F`
+     -:kbd:`Cmd` +:kbd:`F`
 
    * - Workspace
      - Navigate to next tab
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`]`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`]`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`]`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`]`
 
    * - Workspace
      - Navigate to previous tab
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`[`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`[`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`[`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`[`
 
    * - Workspace
      - Close current tab
-     -:kdb:`Ctrl` + :kdb:`Shift` +:kdb:`W`
-     -:kdb:`Cmd` + :kdb:`Shift` +:kdb:`W`
+     -:kbd:`Ctrl` + :kbd:`Shift` +:kbd:`W`
+     -:kbd:`Cmd` + :kbd:`Shift` +:kbd:`W`
 
    * - Workspace
      - Open new tab
-     -:kdb:`Ctrl` +:kdb:`T`
-     -:kdb:`Cmd` +:kdb:`T`
+     -:kbd:`Ctrl` +:kbd:`T`
+     -:kbd:`Cmd` +:kbd:`T`
 
    * - Aggregation Focus Mode
      - Add a new stage after current one
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`B`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`B`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`B`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`B`
 
    * - Aggregation Focus Mode
      - Add a new stage before current one
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`A`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`A`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`A`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`A`
 
    * - Aggregation Focus Mode
      - Navigate to next stage
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`9`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`9`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`9`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`9`
 
    * - Aggregation Focus Mode
      - Navigate to previous stage
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`0`
-     -:kdb:`Cmd` +:kdb:`Shift` +:kdb:`0`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`0`
+     -:kbd:`Cmd` +:kbd:`Shift` +:kbd:`0`
 
    * - Pipeline text editor
      - Comment out code
-     -:kdb:`Ctrl` +:kdb:`/`
-     -:kdb:`Cmd` +:kdb:`/`
+     -:kbd:`Ctrl` +:kbd:`/`
+     -:kbd:`Cmd` +:kbd:`/`
 
    * - All text editors
      - Prettify code
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`B`
-     -:kdb:`Ctrl` +:kdb:`Shift` +:kdb:`B`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`B`
+     -:kbd:`Ctrl` +:kbd:`Shift` +:kbd:`B`
 
    * - Query bar
      - Submit query
-     -:kdb:`Enter (from the query bar)`
-     -:kdb:`Enter (from the query bar)`
+     -:kbd:`Enter (from the query bar)`
+     -:kbd:`Enter (from the query bar)`
 
    * - Web Shell
      - Toggle shell
-     -:kdb:`Ctrl` +:kdb:``
-     -:kdb:`Ctrl` +:kdb:``
+     -:kbd:`Ctrl` +:kbd:``
+     -:kbd:`Ctrl` +:kbd:``
 
    * - Web Shell
      - Deletes the next character
-     -:kdb:`Ctrl` +:kdb:`D`
-     -:kdb:`Ctrl` +:kdb:`D`
+     -:kbd:`Ctrl` +:kbd:`D`
+     -:kbd:`Ctrl` +:kbd:`D`
 
    * - Web Shell
      - Moves the cursor to the end of the line
-     -:kdb:`Ctrl` +:kdb:`E`
-     -:kdb:`Ctrl` +:kdb:`E`
+     -:kbd:`Ctrl` +:kbd:`E`
+     -:kbd:`Ctrl` +:kbd:`E`
 
    * - Web Shell
      - Moves the cursor forward one character
-     -:kdb:`Ctrl` +:kdb:`F`
-     -:kdb:`Ctrl` +:kdb:`F`
+     -:kbd:`Ctrl` +:kbd:`F`
+     -:kbd:`Ctrl` +:kbd:`F`
 
    * - Web Shell
      - Erases one character, similar to hitting backspace
-     -:kdb:`Ctrl` +:kdb:`H`
-     -:kdb:`Cmd` +:kdb:`H`
+     -:kbd:`Ctrl` +:kbd:`H`
+     -:kbd:`Cmd` +:kbd:`H`
 
    * - Web Shell
      - Clears the screen, similar to the clear command
-     -:kdb:`Ctrl` +:kdb:`L`
-     -:kdb:`Cmd` +:kdb:`L`
+     -:kbd:`Ctrl` +:kbd:`L`
+     -:kbd:`Cmd` +:kbd:`L`
 
    * - Web Shell
      - Swap the last two characters before the cursor
-     -:kdb:`Ctrl` +:kdb:`T`
-     -:kdb:`Ctrl` +:kdb:`T`
+     -:kbd:`Ctrl` +:kbd:`T`
+     -:kbd:`Ctrl` +:kbd:`T`
 
    * - Web Shell
      - Cycle backwards through command history
-     -:kdb:`↑`
-     -:kdb:`↑`
+     -:kbd:`↑`
+     -:kbd:`↑`
 
    * - Web Shell
      - Cycle forwards through command history
-     -:kdb:`↓`
-     -:kdb:`↓`
+     -:kbd:`↓`
+     -:kbd:`↓`
