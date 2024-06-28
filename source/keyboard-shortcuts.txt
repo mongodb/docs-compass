@@ -2,7 +2,7 @@
 Keyboard Shortcuts
 ==================
 
-.. |placeholder| replace:: `
+.. |placeholder| replace:: ``
 
 .. contents:: On this page
    :local:
