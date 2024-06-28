@@ -2,7 +2,7 @@
 Keyboard Shortcuts
 ==================
 
-|x| replace:: sorting returned documents
+|x| replace:: :kbd:`x`
 
 .. contents:: On this page
    :local:
@@ -189,7 +189,7 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
    * - Web Shell
      - Toggle shell
      - :kbd:`Ctrl` + `````
-     - :kbd:`Ctrl` + :kbd:`|x|`
+     - :kbd:`Ctrl` + |x|
 
    * - Web Shell
      - Deletes the next character
