@@ -2,7 +2,7 @@
 Keyboard Shortcuts
 ==================
 
-|x| replace:: ``x``
+.. |x| replace:: ``x``
 
 .. contents:: On this page
    :local:
