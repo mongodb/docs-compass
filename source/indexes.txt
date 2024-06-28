@@ -158,6 +158,7 @@ index.
       |compass-short| removes the :guilabel:`Hidden` badge from the 
       :guilabel:`Properties` column.
 
+
 .. _drop-index:
 
 Drop an Index
