@@ -2,8 +2,6 @@
 Keyboard Shortcuts
 ==================
 
-.. |placeholder| replace:: ``
-
 .. contents:: On this page
    :local:
    :backlinks: none
@@ -188,8 +186,8 @@ Keyboard shortcuts enable you to easily navigate |compass-short|.
 
    * - Web Shell
      - Toggle shell
-     - :kbd:`Ctrl` + :kbd:`|placeholder|` + `````
-     - :kbd:`Ctrl` + :kbd:`|placeholder|` + `````
+     - :kbd:`Ctrl` + `````
+     - :kbd:`Ctrl` + :kbd:`````
 
    * - Web Shell
      - Deletes the next character
