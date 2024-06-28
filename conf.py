@@ -61,7 +61,7 @@ rst_epilog = '\n'.join([
     '.. |hardlink| replace:: http://docs.mongodb.com/compass/',
     '.. |compass| replace:: MongoDB Compass',
     '.. |compass-short| replace:: Compass',
-    '.. |tickmark| replace:: :kbd:`unicode:: U+0060`',
+    '.. |tickmark| replace:: :kbd:`X`',
     '.. |checkmark| replace:: :icon:`check-circle`',
     '.. |2fa| replace:: :abbr:`2FA (Two Factor Authentication)`',
     '.. |api| replace:: :abbr:`API (Application Programming Interface)`',
