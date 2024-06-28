@@ -179,8 +179,7 @@ Limitations
   
   .. tip::
 
-     For clusters running an earlier version of MongoDB or 
-     :ref:`shared tier clusters <shared-tier-cluster>`, 
+     For clusters running an earlier version of MongoDB, 
      you can manage your Atlas Search indexes using the Atlas UI, the 
      :ref:`Atlas CLI <atlas-cli>`, or the 
      :ref:`Atlas Administration API <atlas-admin-api>`. 
