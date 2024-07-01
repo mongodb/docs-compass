@@ -18,7 +18,7 @@ Release Notes
 Bug Fixes:
 
 - Prevents application from hanging when selecting ranges too quickly on the 
-  "Schema" tab (:issue:`COMPASS-8048`).
+  :ref:`Schema <schema-tab>` tab (:issue:`COMPASS-8048`).
 - Updates Electron to `version 29.4.2 
   <https://releases.electronjs.org/release/v29.4.2>`__, which includes various 
   security fixes.
