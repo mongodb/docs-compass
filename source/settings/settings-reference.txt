@@ -113,7 +113,7 @@ You can configure the following settings on the |compass| interface:
        You can also check the ``Do not ask again`` checkbox on the quit 
        dialog to disable this setting.
 
-       You can also toggle the quit dialog with the keyboard shortcut:
+       The quit dialog is also shown when quitting with the keyboard shortcut:
        :kbd:`ctrl` + :kbd:`Q` on Windows or :kbd:`cmd` + :kbd:`Q` on Mac.
 
    * - Sync with OS
