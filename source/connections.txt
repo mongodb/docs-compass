@@ -1,0 +1,66 @@
+.. _connections-tab:
+
+===========
+Connections
+===========
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+A connection is a MongoDB deployment that you can engage with through MongoDB
+Compass. You can have multiple connections in your Compass window. 
+
+Connections Sidebar
+-------------------
+
+The :guilabel:`Connections` sidebar on the left of the Compass window
+contains the following:
+
+- The  :guilabel:`Active Connections` menu
+- The :guilabel:`Connections` menu
+- a :icon-lg:`Plus` button to add new connections
+
+Active Connections Menu
+~~~~~~~~~~~~~~~~~~~~~~~
+
+When you activate a connection, the connection name appears in the
+:guilabel:`Active Connections` menu at the top of the
+:guilabel:`Connections` sidebar.
+
+If you click the :icon-fa5:`ellipsis-h` button on the right of the
+connection name, a menu with the following items opens:
+
+- View performance metrics
+- Show connection info
+- Copy connection string
+- Favorite 
+- Disconnect
+
+If the connection is already a Favorite connection, the option to Unfavorite
+appears in the menu. 
+
+To see databases and collections within the active connection, click the
+:icon-fa5:`arrow-down` on the left of the connection name. 
+
+Connections Menu
+~~~~~~~~~~~~~~~~
+
+The :guilabel:`Connections` menu contains all favorite and saved
+connections that you previously used in Compass. You can see both active
+and inactive connections in this menu. The :guilabel:`Connections` menu
+lists Favorite connections in alphabetical order first. 
+
+To activate a connection, click the name of the connection in the
+:guilabel:`Connections` menu. 
+
+To add a new connection to Compass, click the :icon-lg:`Plus` button to
+open the :guilabel:`New Connection` window. For more information, see
+:ref:`connect-run-compass`. 
+
+
+
