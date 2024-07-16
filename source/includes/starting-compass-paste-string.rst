@@ -1,7 +1,7 @@
 .. procedure:: 
    :style: normal 
 
-   .. step:: Open the :gui-label:`New Connection` window.
+   .. step:: Open the :guilabel:`New Connection` window.
 
       .. include:: /includes/open-new-connection.txt 
    
