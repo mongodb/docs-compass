@@ -32,9 +32,9 @@
       
    .. step:: Name your connection (Optional).
 
-      Use the name field in the :gui-label:`New Connection`` to enter a
-      name for your connection. If you do not specify a name, Compass
-      uses the cluster's hostname as the the connection name. 
+      Use the name field to enter a name for your connection. If you do
+      not specify a name, Compass uses the cluster's hostname as the the
+      connection name. 
 
    .. step:: Choose a color for your connection (Optional).
 
