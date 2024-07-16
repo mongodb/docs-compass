@@ -13,7 +13,11 @@ Connections
    :class: singlecol
 
 A connection is a MongoDB deployment that you can interact with through MongoDB
-Compass. You can have multiple connections in your Compass window. 
+Compass. 
+
+.. note::
+
+   .. include:: /includes/multiple-connections.rst
 
 Connections Sidebar
 -------------------
