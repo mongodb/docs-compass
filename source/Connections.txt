@@ -53,7 +53,7 @@ want to work with in the :guilabel:`Active Connections` menu.
 Connections Menu
 ~~~~~~~~~~~~~~~~
 
-The :guilabel:`Connections` menu contains all favorite and saved
+The :guilabel:`Connections` menu contains all Favorite and saved
 connections that you previously used in Compass. You can see both active
 and inactive connections in this menu. The :guilabel:`Connections` menu
 lists Favorite connections in alphabetical order first. 
