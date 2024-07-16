@@ -49,7 +49,6 @@ Interact with Your Data
 .. toctree::
    :titlesonly:
 
-   /connections
    /databases
    /collections
    /views
