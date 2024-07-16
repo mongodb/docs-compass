@@ -3,7 +3,7 @@
 
    .. step:: Open the :guilabel:`New Connection` window.
 
-      .. include:: /includes/open-new-connection.txt 
+      .. include:: /includes/open-new-connection.rst
    
    .. step:: Paste your connection string. 
 
