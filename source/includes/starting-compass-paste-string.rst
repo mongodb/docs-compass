@@ -1,10 +1,9 @@
 .. procedure:: 
    :style: normal 
 
-   .. step:: Open the New Connection window.
+   .. step:: Open the :gui-label:`New Connection`` window.
 
-      In the bottom panel of the sidebar, click the :icon-lg:`Plus`
-      button to open the New Connection window. 
+      .. include:: /includes/open-new-connection.txt 
    
    .. step:: Paste your connection string. 
 
@@ -28,7 +27,20 @@
       .. include:: /includes/fact-hide-connection-string-password.rst
             
       To learn how to format the connection string for a deployment that is not 
-      hosted on |service|, see :manual:`Connection String URI Format </reference/connection-string>`.
+      hosted on |service|, see :manual:`Connection String URI Format
+      </reference/connection-string>`.
+      
+   .. step:: Name your connection (Optional).
+
+      Use the name field in the :gui-label:`New Connection`` to enter a
+      name for your connection. If you do not specify a name, Compass
+      uses the cluster's hostname as the the connection name. 
+
+   .. step:: Choose a color to label connection (Optional).
+
+      Use the color drop down menu to select a label color for your
+      connection. When you activate a connection, the label color is the
+      background color of tabs that reference your connection. 
 
    .. step:: Connect to your cluster.
 

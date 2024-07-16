@@ -23,6 +23,10 @@ Procedure
 .. procedure::
    :style: normal
 
+   .. step:: Open the  :gui-label:`New Connection window`.
+
+      .. include:: /includes/open-new-connection.txt
+
    .. step:: Click :guilabel:`Advanced Connection Options`.
 
       .. figure:: /images/compass/advanced-connection-options.png

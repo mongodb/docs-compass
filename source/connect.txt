@@ -73,6 +73,8 @@ You can connect your deployments by either:
 Provide your Connection String
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+
 When you provide a connection string, |compass-short| supports
 most :manual:`Connection String Options
 </reference/connection-string/#connection-string-options>`
