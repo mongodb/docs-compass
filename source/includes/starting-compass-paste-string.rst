@@ -1,7 +1,7 @@
 .. procedure:: 
    :style: normal 
 
-   .. step:: Open the :gui-label:`New Connection`` window.
+   .. step:: Open the :gui-label:`New Connection` window.
 
       .. include:: /includes/open-new-connection.txt 
    
@@ -36,7 +36,7 @@
       name for your connection. If you do not specify a name, Compass
       uses the cluster's hostname as the the connection name. 
 
-   .. step:: Choose a color to label connection (Optional).
+   .. step:: Choose a color for your connection (Optional).
 
       Use the color drop down menu to select a label color for your
       connection. When you activate a connection, the label color is the
