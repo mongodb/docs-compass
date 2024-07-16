@@ -75,7 +75,7 @@ Provide your Connection String
 
 To connect to Compass with your connecton string, click the
 :icon-lg:`Plus` button on the bottom panel of the
-:gui-label:`Connections Sidebar`, to open the :gui-label:`New Connection
+:guilabel:`Connections Sidebar`, to open the :guilabel:`New Connection
 window`. 
 
 When you provide a connection string, |compass-short| supports
