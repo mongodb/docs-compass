@@ -12,7 +12,7 @@ Connections
    :depth: 1
    :class: singlecol
 
-A connection is a MongoDB deployment that you can engage with through MongoDB
+A connection is a MongoDB deployment that you can interact with through MongoDB
 Compass. You can have multiple connections in your Compass window. 
 
 Connections Sidebar
@@ -32,7 +32,7 @@ When you activate a connection, the connection name appears in the
 :guilabel:`Active Connections` menu at the top of the
 :guilabel:`Connections` sidebar.
 
-If you click the :icon-fa5:`ellipsis-h` button on the right of the
+If you click the :icon-fa5:`ellipsis-h` button on the right of a
 connection name, a menu with the following items opens:
 
 - View performance metrics
@@ -45,7 +45,10 @@ If the connection is already a Favorite connection, the option to Unfavorite
 appears in the menu. 
 
 To see databases and collections within the active connection, click the
-:icon-fa5:`arrow-down` on the left of the connection name. 
+:icon-fa5:`caret-down` on the left of the connection name. 
+
+To switch between active clusters, click on the name of the cluster you
+want to work with in the :guilabel:`Active Connections` menu. 
 
 Connections Menu
 ~~~~~~~~~~~~~~~~
@@ -62,5 +65,14 @@ To add a new connection to Compass, click the :icon-lg:`Plus` button to
 open the :guilabel:`New Connection` window. For more information, see
 :ref:`connect-run-compass`. 
 
+To remove a connection, hover over the name of the connection in the 
+:guilabel:`Connections` menu. Then, click on the :icon-fa5:`ellipsis-h` to
+open a menu and select the "Remove" option. This menu also contains the
+following options:
+
+- Edit connection
+- Copy connection string
+- Favorite (or Unfavorite)
+- Duplicate
 
 
