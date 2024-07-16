@@ -52,7 +52,7 @@ connection name, a menu with the following items opens:
 - Disconnect
 
 If the connection is already a favorite connection, the
-option to Unfavorite appears in the menu. 
+option to unfavorite appears in the menu. 
 
 To see databases and collections within the active connection, click the
 :icon-fa5:`caret-down` on the left of the connection name. 
