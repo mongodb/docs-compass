@@ -23,7 +23,7 @@ Connections Sidebar
 -------------------
 
 The :guilabel:`Connections` sidebar on the left of the Compass window
-contains the following options:
+contains the following sections:
 
 - :guilabel:`Active Connections` menu
 - :guilabel:`Connections` menu
@@ -33,6 +33,11 @@ Active Connections Menu
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 To interact with a MongoDB deployment, you must activate the connection.
+If the connection you want to activate is in the :guilabel:`Connections`
+menu, click the connection name. Otherwise, use the :icon-lg:`Plus` icon
+to connect to a new deployment. For more information, see
+:ref:`connect-run-compass`. 
+
 When you activate a connection, the connection name appears in the
 :guilabel:`Active Connections` menu at the top of
 :guilabel:`Connections` sidebar.
