@@ -30,13 +30,13 @@
       hosted on |service|, see :manual:`Connection String URI Format
       </reference/connection-string>`.
       
-   .. step:: Optional. Name your connection.
+   .. step:: (Optional). Name your connection.
 
       Use the name field to enter a name for your connection. If you do
       not specify a name, Compass uses the cluster's hostname as the the
       connection name. 
 
-   .. step:: Optional. Choose a color for your connection.
+   .. step:: (Optional). Choose a color for your connection.
 
       Use the color drop-down menu to select a label color for your
       connection. When you activate a connection, the label color is the
