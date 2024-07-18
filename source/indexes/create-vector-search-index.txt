@@ -71,7 +71,7 @@ Steps
          * - ``numDimensions``
            - int 
            - The number of vector dimensions, which Atlas Search enforces at index- and 
-             query-time. This value can't be greater than 2048.
+             query-time. This value can't be greater than 4096.
         
          * - ``similarity``
            - string
