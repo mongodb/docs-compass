@@ -33,18 +33,18 @@
    .. step:: (Optional). Name your connection.
 
       Use the name field to enter a name for your connection. If you do
-      not specify a name, Compass uses the cluster's hostname as the the
+      not specify a name, Compass uses the cluster's hostname as the
       connection name. 
 
    .. step:: (Optional). Choose a color for your connection.
 
       Use the color drop-down menu to select a label color for your
-      connection. When you activate a connection, the label color is the
-      background color of tabs that reference your connection. 
+      connection. When you connect to a connection, the label color is
+      the background color of tabs that reference your connection.
 
    .. step:: Connect to your cluster.
 
-      Click :guilabel:`Connect` or :guilabel:`Save & Connect` to navigate to the 
+      Click :guilabel:`Save` or :guilabel:`Save & Connect` to navigate to the 
       |compass-short| :doc:`Home Page </instance>`. 
       
       The :guilabel:`Save & Connect` button prompts you to save your connection 
