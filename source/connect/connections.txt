@@ -19,8 +19,6 @@ you can interact with through MongoDB Compass.
 
    .. include:: /includes/multiple-connections.rst
 
-Connections Sidebar
--------------------
 
 The :guilabel:`Connections` sidebar on the left of the Compass window
 contains the following options:
@@ -30,7 +28,7 @@ contains the following options:
 - :icon-lg:`Plus` icon to add new connections
 
 Active Connections Menu
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 To interact with a MongoDB deployment, you must activate the connection.
 When you activate a connection, the connection name appears in the
@@ -56,7 +54,7 @@ To switch between active clusters, click on the name of the cluster you
 want to work with in the :guilabel:`Active Connections` menu. 
 
 Connections Menu
-~~~~~~~~~~~~~~~~
+----------------
 
 The :guilabel:`Connections` menu contains all :ref:`favorite
 <favorite-connections>` and saved connections that you previously used
