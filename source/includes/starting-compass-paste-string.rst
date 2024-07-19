@@ -1,7 +1,7 @@
 .. procedure:: 
    :style: normal 
 
-   .. step:: Open the :guilabel:`New Connection` window.
+   .. step:: Open the :guilabel:`New Connection` modal.
 
       .. include:: /includes/open-new-connection.rst
    
