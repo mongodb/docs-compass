@@ -1,4 +1,4 @@
-.. _connections-tab:
+.. _connections-sidebar:
 
 ===================
 Connections Sidebar
@@ -20,7 +20,7 @@ you can interact with through MongoDB Compass.
    .. include:: /includes/multiple-connections.rst
 
 
-The :guilabel:`Connections` sidebar on the left of the Compass window
+The :guilabel:`Connections Sidebar` on the left of the Compass window
 contains the following options:
 
 - :guilabel:`Active Connections` menu
@@ -30,10 +30,9 @@ contains the following options:
 Active Connections Menu
 -----------------------
 
-To interact with a MongoDB deployment, you must activate the connection.
-When you activate a connection, the connection name appears in the
-:guilabel:`Active Connections` menu at the top of
-:guilabel:`Connections` sidebar.
+When you connect to a MongoDB deployment, the connection name appears in
+the :guilabel:`Active Connections` menu at the top of
+:guilabel:`Connections Sidebar`.
 
 If you click the :icon-fa5:`ellipsis-h` button on the right of a
 connection name, a menu with the following items opens:
@@ -45,7 +44,7 @@ connection name, a menu with the following items opens:
 - Disconnect
 
 If the connection is already a favorite connection, the
-option to Unfavorite appears in the menu. 
+option to unfavorite appears in the menu. 
 
 To see databases and collections within the active connection, click the
 :icon-fa5:`caret-down` on the left of the connection name. 
@@ -62,16 +61,16 @@ in Compass. You can see both active and inactive connections in this
 menu. The :guilabel:`Connections` menu lists favorite connections in
 alphabetical order first. 
 
-To activate a connection, click the name of the connection in the
-:guilabel:`Connections` menu. Once you activate the connection, the name
-of the connection apepars in the :guilabel:`Active Connections` menu.
+To connect to a deployment, click the name of the connection in the
+:guilabel:`Connections` menu. Once you connect, the name
+of the connection appears in the :guilabel:`Active Connections` menu.
 
 To add a new connection to Compass, click the :icon-lg:`Plus` button to
-open the :guilabel:`New Connection` window. For more information, see
+open the :guilabel:`New Connection` modal. For more information, see
 :ref:`connect-run-compass`. 
 
 To remove a connection, hover over the name of the connection in the 
-:guilabel:`Connections` menu. Then, click on the :icon-fa5:`ellipsis-h` to
+:guilabel:`Connections` menu. Then, click on thfe :icon-fa5:`ellipsis-h` to
 open a menu and select the :guilabel:`Remove` option. This menu also contains the
 following options:
 
