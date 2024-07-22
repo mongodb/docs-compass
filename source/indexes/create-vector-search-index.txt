@@ -64,6 +64,12 @@ Steps
            - Type
            - Description
 
+         * - ``type``
+           - string
+           - Human-readable label that identifies the type of index. Value must 
+             be ``vector`` to perform vector search against the indexed fields. If 
+             omitted, defaults to ``search``, which only supports full-text search.
+
          * - ``path``
            - string
            - The field name to index.
@@ -72,7 +78,7 @@ Steps
            - int 
            - The number of vector dimensions, which Atlas Search enforces at index- and 
              query-time. This value can't be greater than 4096.
-        
+
          * - ``similarity``
            - string
            - The vector similarity function used to search for the top K-nearest neighbors.
