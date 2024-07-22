@@ -57,7 +57,11 @@ Considerations
 Connect
 -------
 
-You can connect your deployments by either:
+If your connection name is already in the :guilabel:`Connections
+Sidebar` of your Compass window, click on the connection name to
+connect. 
+
+Otherwise, you can connect your deployments by either:
 
 - Providing your connection string.
 
