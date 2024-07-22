@@ -70,7 +70,7 @@ open the :guilabel:`New Connection` modal. For more information, see
 :ref:`connect-run-compass`. 
 
 To remove a connection, hover over the name of the connection in the 
-:guilabel:`Connections` menu. Then, click on thfe :icon-fa5:`ellipsis-h` to
+:guilabel:`Connections` menu. Then, click on the :icon-fa5:`ellipsis-h` to
 open a menu and select the :guilabel:`Remove` option. This menu also contains the
 following options:
 
