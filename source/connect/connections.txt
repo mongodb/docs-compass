@@ -28,33 +28,42 @@ contains the following options:
 - Search bar to search connections
 - List of favorite and saved connections
 
-
 Connections List
 ----------------
 
-The :guilabel:`Connections` list in the sidebar contains all your
+The :guilabel:`Connections` list in the sidebar contains your
 :ref:`favorite <favorite-connections>` and saved connections. Favorite
 connections have a :icon-fa5:`star` next to the connection name.  The
 :guilabel:`Connections` list displays favorite connections in alphabetical
 order first. 
 
-To connect to a deployment, click the name of the connection in the
-:guilabel:`Connections` menu. Once you connect, Compass shows a green
-dot next to the connection name. If a connection error occurs, Compass
-shows a red triangle next to the connection name. 
+Connect to MongoDB
+------------------
 
-To add a new connection to Compass, click the :icon-lg:`Plus` button to
-open the :guilabel:`New Connection` modal. For more information, see
+To connect to a saved or favorite deployment, click the name of the
+connection in the :guilabel:`Connections` list. Once you connect,
+Compass shows a green dot next to the connection name. If a connection
+error occurs, Compass shows a red triangle next to the connection name. 
+
+To add a new connection to Compass, click the :icon-lg:`Plus` button at
+the top of the :guilabel:`Connections Sidebar` to open the
+:guilabel:`New Connection` modal. For more information, see
 :ref:`connect-run-compass`. 
 
-To remove a connection, hover over the name of the connection in the 
-:guilabel:`Connections` menu. Then, click on the :icon-fa5:`ellipsis-h` to
-open a menu and select the :guilabel:`Remove` option. This menu also contains the
-following options:
+Connection Options
+------------------
 
-- Edit connection
+To see connection options, hover over the name of the connection in the 
+:guilabel:`Connections` list. Then, click on the :icon-fa5:`ellipsis-h` to
+open a menu with the following items:
+
+- Open MongoDB shell
+- View performance metrics
+- Show connection information
+- Refresh databases
+- Disconnect
 - Copy connection string
 - Favorite (or Unfavorite)
 - Duplicate
-
+- Remove
 
