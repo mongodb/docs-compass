@@ -26,7 +26,7 @@ contains the following options:
 - :icon-lg:`Plus` icon to add new connections
 - :icon-fa5:`ellipsis-h` icon to import and export data
 - Search bar to search connections
-- List of favorite and saved connections
+- guilabel:`Connections` list
 
 Connections List
 ----------------
