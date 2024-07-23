@@ -1,8 +1,8 @@
-title: Open the the :guilabel:`Create Database` dialog.
+title: Open the :guilabel:`Create Database` dialog.
 level: 4
 ref: create-database
 content: |
-    From the :ref:`Databases <database-tab>` tab, click the
+    In the :guilabel:`Connections Sidebar`, click the
     :icon-lg:`Plus` icon to the right of the connection name to bring up the
     :guilabel:`Create Database` dialog.
 
