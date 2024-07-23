@@ -20,50 +20,28 @@ you can interact with through MongoDB Compass.
    .. include:: /includes/multiple-connections.rst
 
 
-The :guilabel:`Connections Sidebar` on the left of the Compass window
+The :guilabel:`Connections` sidebar on the left of the Compass window
 contains the following options:
 
-- :guilabel:`Active Connections` menu
-- :guilabel:`Connections` menu
 - :icon-lg:`Plus` icon to add new connections
+- :icon-fa5:`ellipsis-h` icon to import and export data
+- Search bar to search connections
+- List of favorite and saved connections
 
-Active Connections Menu
------------------------
 
-When you connect to a MongoDB deployment, the connection name appears in
-the :guilabel:`Active Connections` menu at the top of
-:guilabel:`Connections Sidebar`.
-
-If you click the :icon-fa5:`ellipsis-h` button on the right of a
-connection name, a menu with the following items opens:
-
-- View performance metrics
-- Show connection info
-- Copy connection string
-- Favorite 
-- Disconnect
-
-If the connection is already a favorite connection, the
-option to unfavorite appears in the menu. 
-
-To see databases and collections within the active connection, click the
-:icon-fa5:`caret-down` on the left of the connection name. 
-
-To switch between active clusters, click on the name of the cluster you
-want to work with in the :guilabel:`Active Connections` menu. 
-
-Connections Menu
+Connections List
 ----------------
 
-The :guilabel:`Connections` menu contains all :ref:`favorite
-<favorite-connections>` and saved connections that you previously used
-in Compass. You can see both active and inactive connections in this
-menu. The :guilabel:`Connections` menu lists favorite connections in
-alphabetical order first. 
+The :guilabel:`Connections` list in the sidebar contains all your
+:ref:`favorite <favorite-connections>` and saved connections. Favorite
+connections have a :icon-fa5:`star` next to the connection name.  The
+:guilabel:`Connections` list displays favorite connections in alphabetical
+order first. 
 
 To connect to a deployment, click the name of the connection in the
-:guilabel:`Connections` menu. Once you connect, the name
-of the connection appears in the :guilabel:`Active Connections` menu.
+:guilabel:`Connections` menu. Once you connect, Compass shows a green
+dot next to the connection name. If a connection error occurs, Compass
+shows a red triangle next to the connection name. 
 
 To add a new connection to Compass, click the :icon-lg:`Plus` button to
 open the :guilabel:`New Connection` modal. For more information, see
