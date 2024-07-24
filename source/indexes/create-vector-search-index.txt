@@ -67,7 +67,7 @@ Steps
          * - ``type``
            - string
            - Human-readable label that identifies the type of index. The value must 
-             be ``vector`` to perform vector search against the indexed fields. If 
+             be ``vector`` to perform a vector search against the indexed fields. If 
              omitted, it defaults to ``search``, which only supports full-text search.
 
          * - ``path``
