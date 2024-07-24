@@ -1,8 +1,8 @@
-.. _connections-sidebar:
+.. _compass-sidebar:
 
-===================
-Connections Sidebar
-===================
+===============
+Compass Sidebar
+===============
 
 .. default-domain:: mongodb
 
@@ -12,18 +12,16 @@ Connections Sidebar
    :depth: 1
    :class: singlecol
 
-The :guilabel:`Connections Sidebar` shows MongoDB deployments that
-you can interact with through MongoDB Compass. 
-
 .. note::
 
    .. include:: /includes/multiple-connections.rst
 
 
-The :guilabel:`Connections` sidebar on the left of the Compass window
+The Compass sidebar on the left of the Compass window
 contains the following options:
 
 - :icon-lg:`Plus` icon to add new connections
+- :icon-lg:`Shell` icon to open the MongoDB Shell
 - :icon-fa5:`ellipsis-h` icon to import and export data
 - Search bar to search connections
 - guilabel:`Connections` list
@@ -42,8 +40,13 @@ Connect to MongoDB
 
 To connect to a saved or favorite deployment, click the name of the
 connection in the :guilabel:`Connections` list. Once you connect,
-Compass shows a green dot next to the connection name. If a connection
-error occurs, Compass shows a red triangle next to the connection name. 
+Compass shows a success toast and displays a green dot next to the
+connection name. 
+
+If a connection error occurs, Compass shows a toast with error
+information and displays a red triangle next to the connection name. To
+see additional error information, click :guilabel:`Review` in the error
+toast. 
 
 To add a new connection to Compass, click the :icon-lg:`Plus` button at
 the top of the :guilabel:`Connections Sidebar` to open the
@@ -61,7 +64,6 @@ To see connection options, hover over the name of the connection in the
 :guilabel:`Connections` list. Then, click on the :icon-fa5:`ellipsis-h`
 icon to open a menu with the following items:
 
-- Open MongoDB shell
 - View performance metrics
 - Show connection information
 - Refresh databases
