@@ -24,7 +24,7 @@ contains the following options:
 - :icon-lg:`Shell` icon to open the MongoDB Shell
 - :icon-fa5:`ellipsis-h` icon to import and export data
 - Search bar to search connections
-- guilabel:`Connections` list
+- :guilabel:`Connections` list
 
 Connections List
 ----------------
