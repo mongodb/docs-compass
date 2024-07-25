@@ -21,7 +21,6 @@ The Compass sidebar on the left of the Compass window
 contains the following options:
 
 - :icon-lg:`Plus` icon to add new connections
-- :icon-lg:`Shell` icon to open the MongoDB Shell
 - :icon-fa5:`ellipsis-h` icon to import and export data
 - Search bar to search connections
 - :guilabel:`Connections` list
@@ -72,4 +71,7 @@ icon to open a menu with the following items:
 - Favorite (or Unfavorite)
 - Duplicate
 - Remove
+
+To open the MongoDB Shell, click the :icon-lg:`Shell` icon on the right
+of the connection name. 
 
