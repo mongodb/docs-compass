@@ -1,0 +1,77 @@
+.. _compass-sidebar:
+
+===============
+Compass Sidebar
+===============
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. note::
+
+   .. include:: /includes/multiple-connections.rst
+
+
+The Compass sidebar on the left of the Compass window
+contains the following options:
+
+- :icon-lg:`Plus` icon to add new connections
+- :icon-fa5:`ellipsis-h` icon to import and export data
+- Search bar to search connections
+- :guilabel:`Connections` list
+
+Connections List
+----------------
+
+The :guilabel:`Connections` list in the sidebar contains your
+:ref:`favorite <favorite-connections>` and saved connections. Favorite
+connections have a :icon-fa5:`star` next to the connection name.  The
+:guilabel:`Connections` list displays favorite connections in alphabetical
+order first. 
+
+Connect to MongoDB
+------------------
+
+To connect to a saved or favorite deployment, click the name of the
+connection in the :guilabel:`Connections` list. Once you connect,
+Compass shows a success toast and displays a green dot next to the
+connection name. 
+
+If a connection error occurs, Compass shows a toast with error
+information and displays a red triangle next to the connection name. To
+see additional error information, click :guilabel:`Review` in the error
+toast. 
+
+To add a new connection to Compass, click the :icon-lg:`Plus` button at
+the top of the :guilabel:`Connections Sidebar` to open the
+:guilabel:`New Connection` modal. For more information, see
+:ref:`connect-run-compass`. 
+
+To switch between connections, click the name of the connection you want
+to interact with to open the :guilabel:`Databases` tab. For more
+information on interacting with your databases, see :ref:`database-tab`. 
+
+Connection Options
+------------------
+
+To see connection options, hover over the name of the connection in the
+:guilabel:`Connections` list. Then, click on the :icon-fa5:`ellipsis-h`
+icon to open a menu with the following items:
+
+- View performance metrics
+- Show connection information
+- Refresh databases
+- Disconnect
+- Copy connection string
+- Favorite (or Unfavorite)
+- Duplicate
+- Remove
+
+To open the MongoDB Shell, click the :icon-lg:`Shell` icon on the right
+of the connection name. 
+
