@@ -10,7 +10,6 @@ Release Notes
    :depth: 1
    :class: twocols
 
-
 |compass| 1.43.5
 ----------------
 
