@@ -18,9 +18,8 @@ Release Notes
 
 New Features:
 
-  - A warning toast message now displays when Compass cannot access credential storage. 
-    (:issue:`COMPASS-7819`)
-
+  - A warning toast message now displays when Compass cannot access credential storage (:issue:`COMPASS-7819`). 
+    
 Bug Fixes:
 
   - Fixed a bug when closing the :guilabel:`Performance` telemetry screen would cause a crash (:issue:`COMPASS-8056`).
