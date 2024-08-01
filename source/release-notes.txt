@@ -25,8 +25,8 @@ Bug Fixes:
 - Fixed a bug when closing the :guilabel:`Performance` telemetry screen 
   caused a crash (:issue:`COMPASS-8056`).
 - Fixed a bug when sidebar search displayed only database names when both 
-  database and other object names 
-  matched the search criteria (:issue:`COMPASS-8026`).
+  database and other object names matched the search 
+  criteria (:issue:`COMPASS-8026`).
 - Fixed a bug that prevented adding nested fields on object-type 
   fields (:issue:`COMPASS-7929`).
 - Fixed a bug that caused EJSON data types to export incorrectly when 
