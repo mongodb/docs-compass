@@ -36,7 +36,6 @@ Bug Fixes:
 `Full Changelog available on GitHub
 <https://github.com/mongodb-js/compass/compare/v1.43.4...v1.43.5>`__
 
-
 |compass| 1.43.4
 ----------------
 
