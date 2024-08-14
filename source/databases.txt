@@ -23,6 +23,10 @@ The :guilabel:`Databases` tab lists the existing databases for your
 MongoDB deployment. To access the :guilabel:`Databases` tab, click the
 deployment name in the Compass sidebar.
 
+.. figure:: /images/compass/databases-view.png
+   :figwidth: 690px
+   :alt: Databases View
+
 From this view, you can click a database name in the sidebar to view its
 :doc:`collections </collections>`. Alternatively, you can view
 database collections by clicking the desired database in the left-hand navigation.

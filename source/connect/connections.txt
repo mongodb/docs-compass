@@ -25,6 +25,10 @@ contains the following options:
 - Search bar to search connections
 - :guilabel:`Connections` list
 
+.. figure:: /images/compass/connections-sidebar.png
+   :figwidth: 750px
+   :alt: Connections Sidebar
+
 Connections List
 ----------------
 
