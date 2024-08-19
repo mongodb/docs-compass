@@ -22,7 +22,7 @@ MongoDB instances to which Compass is connected.
 
 The Compass Home screen includes the following sections:
 
-- :ref:`Connections Sidebar <connections-sidebar>
+- :ref:`Connections Sidebar <connections-sidebar>`
 
 - Your :ref:`saved queries and aggregation pipelines <view-favorite-queries>`. 
 
