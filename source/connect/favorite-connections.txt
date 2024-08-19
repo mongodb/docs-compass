@@ -23,9 +23,8 @@ specifications.
 Save a Favorite Connection
 --------------------------
 
-You can save a favorite connection from the initial
-:ref:`connect screen <connect-run-compass>`, or after you have
-successfully connected to a MongoDB deployment.
+You can save a favorite connection from the :guilabel:`New Connection
+Modal` or after you have successfully connected to a MongoDB deployment.
 
 Save from Connect Screen
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,15 +36,10 @@ Save after Connecting to a Deployment
 
 .. include:: /includes/steps/favorite-connection-save-deployment.rst
 
-Edit a Favorite Connection
---------------------------
-
-.. include:: /includes/steps/favorite-connection-edit.rst
-
-Delete a Favorite Connection
+Unfavorite a Favorite Connection
 ----------------------------
 
-.. include:: /includes/steps/favorite-connection-delete.rst
+.. include:: /includes/steps/favorite-connection-unfavorite.rst
 
 Considerations
 --------------
