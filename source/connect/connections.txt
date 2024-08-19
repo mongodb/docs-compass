@@ -1,8 +1,8 @@
-.. _compass-sidebar:
+.. _connections-sidebar:
 
-===============
-Compass Sidebar
-===============
+===================
+Connections Sidebar
+===================
 
 .. default-domain:: mongodb
 
@@ -17,12 +17,12 @@ Compass Sidebar
    .. include:: /includes/multiple-connections.rst
 
 
-The Compass sidebar on the left of the Compass window
+The :guilabel:`Connections Sidebar` on the left of the Compass window
 contains the following options:
 
 - :icon-lg:`Plus` icon to add new connections
-- :icon-fa5:`ellipsis-h` icon to import and export data
-- Search bar to search connections
+- :icon-fa5:`ellipsis-h` icon to import and export connections
+- Search bar to search active connections
 - :guilabel:`Connections` list
 
 .. figure:: /images/compass/connections-sidebar.png
@@ -34,9 +34,8 @@ Connections List
 
 The :guilabel:`Connections` list in the sidebar contains your
 :ref:`favorite <favorite-connections>` and saved connections. Favorite
-connections have a :icon-fa5:`star` next to the connection name.  The
-:guilabel:`Connections` list displays favorite connections in alphabetical
-order first. 
+connections have a :icon-fa5:`star` next to the connection name and
+always appear at the top of the connections list.
 
 Connect to MongoDB
 ------------------
@@ -57,8 +56,11 @@ the top of the :guilabel:`Connections Sidebar` to open the
 :ref:`connect-run-compass`. 
 
 To switch between connections, click the name of the connection you want
-to interact with to open the :guilabel:`Databases` tab. For more
-information on interacting with your databases, see :ref:`database-tab`. 
+to interact with to open the :guilabel:`Databases` tab. When you open a
+database, MongoDB opens a new tab and labels it with the name of the
+MongoDB instance that contains that database. For more information about
+the :guilabel:`Databases` tab and instructions on viewing a database,
+see :doc:`Databases </databases>`.
 
 Connection Options
 ------------------
@@ -67,7 +69,7 @@ To see connection options, hover over the name of the connection in the
 :guilabel:`Connections` list. Then, click on the :icon-fa5:`ellipsis-h`
 icon to open a menu with the following items:
 
-- View performance metrics
+- View :ref:`performance metrics <performance-tab>`
 - Show connection information
 - Refresh databases
 - Disconnect

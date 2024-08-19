@@ -42,14 +42,15 @@
       connection. When you connect to a connection, the label color is
       the background color of tabs that reference your connection.
 
+   .. step:: (Optional). Favorite your connection. 
+
+      If you want to save the connection as a favorite, check the
+      :guilabel:`Favorite this connection` option in the modal.
+
    .. step:: Connect to your cluster.
 
       Click :guilabel:`Save` or :guilabel:`Save & Connect` to navigate to the 
       |compass-short| :doc:`Home Page </instance>`. 
-      
-      The :guilabel:`Save & Connect` button prompts you to save your connection 
-      string as a :ref:`Favorite Connection <favorite-connections>` and then 
-      navigates to the home page. 
 
       .. important:: Required Access
         
