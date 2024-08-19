@@ -36,11 +36,6 @@ Save after Connecting to a Deployment
 
 .. include:: /includes/steps/favorite-connection-save-deployment.rst
 
-Unfavorite a Favorite Connection
-----------------------------
-
-.. include:: /includes/steps/favorite-connection-unfavorite.rst
-
 Considerations
 --------------
 
