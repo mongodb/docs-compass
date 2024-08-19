@@ -26,8 +26,8 @@ Save a Favorite Connection
 You can save a favorite connection from the :guilabel:`New Connection
 Modal` or after you have successfully connected to a MongoDB deployment.
 
-Save from Connect Screen
-~~~~~~~~~~~~~~~~~~~~~~~~
+Save from New Connection Modal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. include:: /includes/steps/favorite-connection-save.rst
 
