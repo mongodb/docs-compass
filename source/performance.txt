@@ -16,8 +16,9 @@ Performance Tab
 ---------------
 
 To access the real-time server performance view, click the
-cluster name in the upper left corner and select the
-:guilabel:`Performance` tab.
+:icon-fa5:`ellipsis-h` next to the connection name in the
+:guilabel:`Connections Sidebar` and select the :guilabel:`Performance`
+menu option.
 
 .. figure:: /images/compass/performance-view.png
   :figwidth: 700px
