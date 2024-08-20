@@ -33,12 +33,9 @@ Sidebar`.
 Connections Sidebar
 -------------------
 
-The top section of the sidebar shows the active MongoDB instances to which
-Compass is connected. 
-
-The bottom section of the sidebar lists your saved and favorite
-connections. The menu shows both active and inactive connections. To
-activate a connection, click the name of the connection. 
+The :guilabel:`Connections Sidebar` on the left of the Compass window
+contains a list of your favorite and saved connections. Active
+connections have a green dot next to their name. 
 
 For more information on interacting with your connections, see
 :ref:`connections-sidebar`. 
