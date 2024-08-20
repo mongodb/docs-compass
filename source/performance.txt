@@ -20,10 +20,6 @@ To access the real-time server performance view, click the
 :guilabel:`Connections Sidebar` and select the :guilabel:`Performance`
 menu option.
 
-.. figure:: /images/compass/performance-view.png
-  :figwidth: 700px
-  :alt: Example of cluster performance view
-
 Server Stats
 ------------
 
