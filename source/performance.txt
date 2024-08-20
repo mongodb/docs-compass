@@ -1,3 +1,5 @@
+.. _compass-performance:
+
 ===========
 Performance
 ===========
@@ -16,12 +18,9 @@ Performance Tab
 ---------------
 
 To access the real-time server performance view, click the
-cluster name in the upper left corner and select the
-:guilabel:`Performance` tab.
-
-.. figure:: /images/compass/performance-view.png
-  :figwidth: 700px
-  :alt: Example of cluster performance view
+:icon-fa5:`ellipsis-h` next to the connection name in the
+:guilabel:`Connections Sidebar` and select the :guilabel:`Performance`
+menu option.
 
 Server Stats
 ------------
@@ -124,3 +123,8 @@ Limitation
 
 The :guilabel:`Performance` tab is not available if you are connected
 to a :atlas:`Data Lake </data-lake>`.
+
+.. toctree::
+   :titlesonly:
+
+   /manage-data/performance-insights

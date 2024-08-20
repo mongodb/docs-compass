@@ -76,7 +76,3 @@ The bottom section of the sidebar lists your saved and favorite
 connections. The menu shows both active and inactive connections. To
 activate a connection, click the name of the connection.
 
-.. toctree::
-   :titlesonly:
-
-   /performance
