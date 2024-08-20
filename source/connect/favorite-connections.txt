@@ -24,7 +24,7 @@ Save a Favorite Connection
 --------------------------
 
 You can save a favorite connection from the :guilabel:`New Connection
-Modal` or after you have successfully connected to a MongoDB deployment.
+Modal` or after you successfully connect to a MongoDB deployment.
 
 Save from New Connection Modal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
