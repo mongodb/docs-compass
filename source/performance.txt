@@ -1,8 +1,9 @@
 .. _compass-performance:
+.. _performance-tab:
 
-===========
-Performance
-===========
+==========================
+View Real-Time Performance
+==========================
 
 .. default-domain:: mongodb
 
@@ -11,16 +12,23 @@ Performance
    :backlinks: none
    :depth: 1
    :class: singlecol
-
-.. _performance-tab:
-
-Performance Tab
----------------
-
+   
 To access the real-time server performance view, click the
 :icon-fa5:`ellipsis-h` next to the connection name in the
 :guilabel:`Connections Sidebar` and select the :guilabel:`Performance`
 menu option.
+
+Limitations
+-----------
+
+- The :guilabel:`Performance` view is not available if you are connected
+  to an :atlas:`Atlas Data Lake </data-lake>`.
+
+- |compass| cannot retrieve performance data for collections that use
+  :ref:`Queryable Encryption <qe-manual-feature-qe>`.
+
+- |compass| shows limited performance data when connected to a
+  :binary:`mongos`.
 
 Server Stats
 ------------
@@ -82,27 +90,26 @@ The :guilabel:`Performance` tab displays various stats:
        operations correspond to a given moment in the charts; i.e. as
        you move over the charts, the corresponding slowest operations
        are displayed in the table. To view the details of a slow
-       operation or :ref:`kill the operation <kill-long-ops>`, click on
+       operation or :ref:`stop the operation <kill-long-ops>`, click on
        the operation.
 
 .. _kill-long-ops:
 
-Kill Slow Operations
+Stop Slow Operations
 --------------------
+
+You can stop slow operations from the :guilabel:`Performance Tab`.
 
 .. important:: Required Permissions
 
-   On deployments which require
-   :manual:`authentication </core/authentication/>`, to kill operations
-   not owned by the user, the user must have access that includes the
-   :authaction:`killop` privilege action.
-
-You can kill slow operations from the :guilabel:`Performance Tab`.
+   On deployments that require :manual:`authentication
+   </core/authentication/>`, to stop operations that you don't own, you
+   must have the :authaction:`killop` privilege action.
 
 .. procedure::
    :style: normal
 
-   .. step:: Click the query you would like to kill in the :guilabel:`Slowest Operations` section.
+   .. step:: Click the query you want to stop in the :guilabel:`Slowest Operations` section.
 
    .. step:: In the :guilabel:`Operation Details` view, click :guilabel:`Kill Op`.
 

@@ -9,7 +9,8 @@ intersphinx = [
 ]
 
 toc_landing_pages = [
-    "/install", 
+    "/install",
+    "/install/verify-signatures",  
     "/connect",
     "/settings",
     "/settings/config-file",
@@ -31,7 +32,7 @@ toc_landing_pages = [
 
 [constants]
 download-page = "`downloads page <https://www.mongodb.com/try/download/compass>`__"
-current-version = "1.40.4"
+current-version = "1.43.5"
 atlas = "MongoDB Atlas"
 qe = "Queryable Encryption"
 qe-preview = "{+qe+} Public Preview"
@@ -50,20 +51,6 @@ value = """
     later. The {+qe-preview+}, released in version 6.0, is no longer supported. \
     Data encrypted using the Public Preview is incompatible with the feature release. \
     For more information, see :ref:`7.0-compatibility`.
-    """
-
-[[banners]]
-targets = [
-    "query-with-natural-language/enable-natural-language-querying.txt",
-    "query-with-natural-language/prompt-natural-language-query.txt",
-    "query-with-natural-language/prompt-natural-language-aggregation.txt",
-    "query-with-natural-language/query-with-natural-language.txt"
-]
-variant = "tip"
-value = """
-    The MongoDB Compass natural language querying feature is currently \
-    available as a **Public Preview** offering. The product, its features, \ 
-    and the corresponding documentation may change during the Preview stage.
     """
 
 [substitutions]

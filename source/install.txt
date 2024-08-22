@@ -37,7 +37,7 @@ To download and install |compass|, select your operating system:
          |compass-short| requires:
 
          - 64-bit version of macOS 10.12 or later.
-         - MongoDB 4.2 or later.
+         - MongoDB 4.4 or later.
 
          |compass-short| supports x64 and ARM64 architectures.
 
@@ -54,7 +54,7 @@ To download and install |compass|, select your operating system:
          |compass-short| requires:
 
          - 64-bit version of Microsoft Windows 10 or later.
-         - MongoDB 4.2 or later.
+         - MongoDB 4.4 or later.
          - `Microsoft .NET Framework version 4.5 or later <https://www.microsoft.com/en-us/download/details.aspx?id=30653>`__.
          
            The |compass-short| installer prompts you to install the
@@ -94,8 +94,8 @@ To download and install |compass|, select your operating system:
 
                |compass-short| requires:
 
-               - 64-bit version of Ubuntu 14.04 or later.
-               - MongoDB 4.2 or later.
+               - 64-bit version of Ubuntu 20.04 or later.
+               - MongoDB 4.4 or later.
 
             .. tab:: .rpm
                :tabid: rhel
@@ -105,8 +105,8 @@ To download and install |compass|, select your operating system:
 
                |compass-short| requires:
 
-               - 64-bit version of RHEL 7+ or later.
-               - MongoDB 4.2 or later.
+               - 64-bit version of RHEL 8+ or later.
+               - MongoDB 4.4 or later.
 
 .. tabs-platforms::
    :hidden:
@@ -161,20 +161,29 @@ To download and install |compass|, select your operating system:
          .. tab:: Debian
             :tabid: debian
 
-            1. Download |compass|
+            1. Download |compass|.
 
                .. code-block:: shell
 
                   wget https://downloads.mongodb.com/compass/mongodb-compass_{+current-version+}_amd64.deb
                
 
-            #. Install |compass|
+            #. Install |compass|.
+
+               .. code-block:: shell
+
+                  sudo apt install ./mongodb-compass_{+current-version+}_amd64.deb
+
+               If your Linux distribution does not support using ``apt`` for
+               installing local ``.deb`` files, run the following lines
+               to install |compass|:
 
                .. code-block:: shell
 
                   sudo dpkg -i mongodb-compass_{+current-version+}_amd64.deb
+                  sudo apt-get install -f # This installs required compass dependencies
 
-            #. Start |compass|
+            #. Start |compass|.
 
                .. code-block:: sh
 
@@ -183,20 +192,20 @@ To download and install |compass|, select your operating system:
          .. tab:: RHEL
             :tabid: rhel
 
-            1. Download |compass|
+            1. Download |compass|.
 
                .. code-block:: shell
 
                   wget https://downloads.mongodb.com/compass/mongodb-compass-{+current-version+}.x86_64.rpm
                
 
-            #. Install |compass|
+            #. Install |compass|.
 
                .. code-block:: shell
 
                   sudo yum install mongodb-compass-{+current-version+}.x86_64.rpm
 
-            #. Start |compass|
+            #. Start |compass|.
 
                .. code-block:: sh
 
@@ -267,4 +276,5 @@ To download and install |compass|, select your operating system:
    :titlesonly:
 
    /upgrade
+   /install/verify-signatures
    /editions

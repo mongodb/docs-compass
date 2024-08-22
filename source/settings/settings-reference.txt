@@ -27,7 +27,7 @@ To find the |compass-short| :guilabel:`Settings` panel, open the
 :guilabel:`MongoDB Compass` system menu and select :guilabel:`Settings`.
 
 .. figure:: /images/compass/settings-panel-location.png
-  :scale: 60%
+  :scale: 40%
   :alt: Settings panel location under the MongoDB Compass system menu
 
 You can also open the the |compass-short| :guilabel:`Settings` panel
@@ -107,6 +107,16 @@ You can configure the following settings on the |compass| interface:
        enabled. You cannot toggle this option on Linux. You can toggle this 
        setting only on Windows or macOS.
 
+   * - Show Quit Confirmation Dialog
+     - General
+     - Specify whether a confirmation dialog shows when quitting Compass.
+       You can also check the ``Do not ask again`` checkbox on the quit 
+       dialog to disable this setting.
+
+       The quit dialog is also shown when quitting with the keyboard 
+       shortcut::kbd:`ctrl` + :kbd:`Q` on Windows 
+       or :kbd:`cmd` + :kbd:`Q` on Mac.
+
    * - Sync with OS
      - Theme 
      - Automatically switch between light and dark themes based on your OS 
@@ -137,11 +147,6 @@ You can configure the following settings on the |compass| interface:
      - Allow our Product team to occasionally reach out for feedback about 
        |compass-short|.
 
-   * - Enable AI Features
-     - Privacy
-     - Allows the use of AI features in Compass which make requests 
-       to 3rd party services.
-
    * - Browser command to use for OIDC Authentication
      - OIDC
      - Specify the browser that |compass-short| redirects you to when authenticating 
@@ -158,10 +163,17 @@ You can configure the following settings on the |compass| interface:
      - Remain logged in when using the :manual:`MONGODB-OIDC </core/security-oidc/>` 
        authentication mechanism. 
 
-   * - Use Generative AI
-     - Feature Preview
-     - Enables :ref:`natural language querying <query-natural-language>`.
+   * - Enable AI Features
+     - Artificial Intelligence
+     - Enables :ref:`natural language querying <query-natural-language>` and allows 
+       the use of AI features in Compass which make requests to 3rd party services.
 
+   * - Enable sending sample field values
+     - Artificial Intelligence
+     - Enables sharing of sample field values with the MongoDB AI 
+       provider. This setting can improve responses from 
+       :ref:`natural language querying <query-natural-language>` 
+       prompts.
 
 Learn More
 ----------

@@ -10,10 +10,193 @@ Release Notes
    :depth: 1
    :class: twocols
 
+|compass| 1.43.5
+----------------
+
+*Released July 31, 2024*
+
+New Features:
+
+- A warning toast message now displays when Compass cannot access credential 
+  storage (:issue:`COMPASS-7819`). 
+  
+Bug Fixes:
+
+- Fixed a bug when closing the :guilabel:`Performance` telemetry screen 
+  caused a crash (:issue:`COMPASS-8056`).
+- Fixed a bug when sidebar search displayed only database names when both 
+  database and other object names matched the search 
+  criteria (:issue:`COMPASS-8026`).
+- Fixed a bug that prevented adding nested fields on object-type 
+  fields (:issue:`COMPASS-7929`).
+- Fixed a bug that caused EJSON data types to export incorrectly when 
+  export to JSON (:issue:`COMPASS-8099`).
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.43.4...v1.43.5>`__
+
+|compass| 1.43.4
+----------------
+
+*Released July 1, 2024*
+
+Bug Fixes:
+
+- Prevents application from hanging when selecting ranges too quickly on the 
+  :ref:`Schema <schema-tab>` tab (:issue:`COMPASS-8048`).
+- Updates Electron to `version 29.4.2 
+  <https://releases.electronjs.org/release/v29.4.2>`__, which includes various 
+  security fixes.
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.43.3...v1.43.4>`__
+
+
+|compass| 1.43.3
+----------------
+
+*Released June 27, 2024*
+
+New Features:
+
+- Prevents modified tabs from being closed by accident
+  (:issue:`COMPASS-5022`).
+
+Bug Fixes:
+
+- Aggregations use ``maxTimeMS`` default on preview documents
+  (:issue:`COMPASS-7798`).
+- Fixes a regression that prevented autoconnect from working properly
+  (:issue:`COMPASS-8044`).
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.43.2...v1.43.3>`__
+
+|compass| 1.43.2
+----------------
+
+*Released June 25, 2024*
+
+New Features:
+
+- Shows tool tip when a query or aggregation is generated without
+  content (:issue:`COMPASS-7837`).
+- Adds a confirmation dialog when quitting Compass
+  (:issue:`COMPASS-6435`).
+- Expands options when applied from a query history that has options.
+
+Bug Fixes:
+
+- Regular expression and number query history fix
+  (:issue:`COMPASS-7215`, :issue:`COMPASS-7008`).
+- Keeps listeners for insert document validity on document view
+  (:issue:`COMPASS-3246`).
+- Hides inaccurate collection statistics for timeseries
+  (:issue:`COMPASS-6712`).
+- Removes 'Preview' label from OIDC (:issue:`COMPASS-7666`).
+- Uses system ca certificates in Atlas requests and OIDC
+  (:issue:`COMPASS-7950`).
+- Hides edit view button in read only mode (:issue:`COMPASS-7688`).
+- Updates line numbers to be unselectable (:issue:`COMPASS-7941`).
+- Sidebar tab fix.
+
+`Full Changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.43.1...v1.43.2>`__
+
+|compass| 1.43.1
+----------------
+
+*Released June 12, 2024*
+
+New Features:
+
+- Added a disabled state to the Generative AI query bar. This state 
+  displays while Generative AI is fetching results :issue:`COMPASS-7902`.
+- Updated the close window hotkey to be :kbd:`cmd` + :kbd:`shift` + 
+  :kbd:`w` to avoid conflict with close tab :kbd:`cmd` + :kbd:`w` 
+  :issue:`COMPASS-7301`.
+- Added a setting for enabling sample documents. This setting improves 
+  Generative AI queries :issue:`COMPASS-7931`.
+- Updated Generative AI input to be resizable text area 
+  :issue:`COMPASS-7940`.
+
+Bug Fixes:
+
+- Fixed an issue with base64 regular expressions :issue:`COMPASS-7541`.
+- Fixed a display issue with the ``Create collection`` button when 
+  using Compass in readonly mode.
+- Removed the Hackolade banner from the schema tab 
+  :issue:`COMPASS-7974`.
+- Fixed an issue when a connection gets saved as favorite from the old 
+  sidebar :issue:`COMPASS-7980`.
+- Fixed a display issue for long index names :issue:`COMPASS-7016`.
+- Various user interface message and verbiage improvements.
+
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.43.0...v1.43.1>`__
+
+|compass| 1.43.0
+----------------
+
+*Released May 02, 2024*
+
+New Features
+
+- Allows users to specify hints (:issue:`COMPASS-7829`)
+- Shows an error message when connecting to Stream Processing (:issue:`COMPASS-7809`)
+- Warns users when generated aggregation contains a write operation (:issue:`COMPASS-7298`)
+- Adds support to notify users for an update on Linux/MSI (:issue:`COMPASS-7686`)
+- Adds gradient while a generate request is in progress (:issue:`COMPASS-7836`)
+- Includes the error count in the import toast (:issue:`COMPASS-7826`)
+- Removes the GenAI "Preview" badge (:issue:`COMPASS-7890`)
+- Disables the query bar controls while GenAI is running (:issue:`COMPASS-7839`)
+
+Bug Fixes
+
+- Ensures that the confirmation modal always asks for confirmation input (:issue:`COMPASS-7613`)
+- Bumps Electron to 29 and removes support for RHEL7 (:issue:`COMPASS-7868`)
+- Parses AI response correctly (:issue:`COMPASS-7780`)
+- Fixes CPU hikes because of bad useEffect dependency
+
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.42.5...v1.43.0>`__
+
+New Features
+
+- Queries generated by Natural Language Querying have improved 
+  quality and accuracy.
+
+|compass| 1.42.5
+----------------
+
+*Released April 08, 2024*
+
+New Features
+
+- Updates Atlas login screen flow (:issue:`COMPASS-7755`)
+- Handles collection subtab from link (:issue:`COMPASS-7731`)
+- Z-indexed stacked components (:issue:`COMPASS-7732`)
+- Removes the ability to collapse the sidebar (:issue:`COMPASS-7812`)
+- Updates the “Use Generative AI” settings flow (:issue:`COMPASS-7756`)
+
+Bug Fixes
+
+- Show the in-progress index in the list again (:issue:`COMPASS-7789`)
+- Do not throw when rendering invalid dates (:issue:`COMPASS-7749`)
+- Can't sign out if not signed in yet (:issue:`COMPASS-7787`)
+- Click current op for details scoping error (:issue:`COMPASS-7805`)
+
+`Full changelog available on GitHub
+<https://github.com/mongodb-js/compass/compare/v1.42.3...v1.42.5>`__
+
+.. note::
+
+  |compass| version 1.42.4 was not released.
+
 |compass| 1.42.3
 ----------------
 
-*Released March, 20 2024*
+*Released March 20, 2024*
 
 New Features
 
@@ -37,7 +220,7 @@ Bug Fixes
 |compass| 1.42.2
 ----------------
 
-*Released March, 01 2024*
+*Released March 01, 2024*
 
 New Features
 
@@ -1591,7 +1774,15 @@ Bug Fixes:
 - Added |compass| :guilabel:`Readonly Edition` which limits certain
   :ref:`CRUD operations <crud>` within your organization.
 
-  .. include:: /includes/fact-readonly-nonpermitted-actions.rst
+  The following actions are **not** permitted in Compass Readonly Edition: 
+  
+  - Create and drop databases
+  - Create and drop collections
+  - Create, delete, edit, and clone documents
+  - Create and drop indexes
+  - Create, delete, and edit document validation rules
+
+  All other functionality remains the same as in standard |compass|.
 
 - Added support for :doc:`connecting to Compass </connect>` using an
   :abbr:`SRV record (Service record)`. In the connect dialog, if
