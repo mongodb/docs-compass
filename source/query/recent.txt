@@ -52,7 +52,6 @@ query autocomplete menu. The autocomplete menu displays your most recent
 :icon-lg:`ClockWithArrow` and favorite :icon-lg:`Favorite` queries.  
 
 .. figure:: /images/compass/query-autocomplete.png
-   :figwidth: 500px
    :alt: Compass query autocomplete menu
 
 .. seealso::
