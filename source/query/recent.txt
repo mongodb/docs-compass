@@ -7,8 +7,18 @@ View Recent Queries
 
 .. default-domain:: mongodb
 
-You can view up to 20 of the most recent queries for that collection.
-Click a query in the list to populate the query bar with that query.
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Recent Queries Menu
+-------------------
+
+You can view up to 20 of the most recent queries for a collection in the 
+recent queries menu. Click a query in the list to populate the query bar with 
+that query.
 
 .. figure:: /images/compass/query-history-select.png
    :figwidth: 500px
@@ -32,6 +42,18 @@ You can also hover over a query and perform the following actions:
 
    * - :icon-fa5:`trash-alt`
      - Remove the query from the :guilabel:`Recent` list.
+
+
+Query Autocompletion 
+--------------------
+
+If the query bar is empty, you can click the filter bar to open the 
+query autocomplete menu. The autocomplete menu displays your most recent 
+:icon-lg:`ClockWithArrow` and favorite :icon-lg:`Favorite` queries.  
+
+.. figure:: /images/compass/query-autocomplete.png
+   :figwidth: 500px
+   :alt: Compass query autocomplete menu
 
 .. seealso::
 
