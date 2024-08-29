@@ -1354,7 +1354,7 @@ New Features:
 - Improved |compass| startup time.
 
 - Adds support for `MongoDB 5.1 features
-  <https://www.mongodb.com/docs/rapid/release-notes/5.1/>`__.
+  <https://www.mongodb.com/docs/rapid/release-notes/6.0/>`__.
 
 - Improved reliability for connections.
 
