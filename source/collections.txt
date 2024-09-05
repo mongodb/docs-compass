@@ -155,5 +155,5 @@ Limitations
    Capped Collections </collections/capped-collection>
    Collections with Collation </collections/collation-collection>
    Clustered Collections </collections/clustered-collection>
-   Encryped Collections </collections/encrypted-collection>
+   Encrypted Collections </collections/encrypted-collection>
    Time Series Collections </collections/time-series-collection>
