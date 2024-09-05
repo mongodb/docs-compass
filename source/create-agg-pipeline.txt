@@ -382,7 +382,7 @@ Learn More
    Export to Specific Language </agg-pipeline-builder/export-pipeline-to-language>
    Create a View </agg-pipeline-builder/create-a-view>
    Count Results </agg-pipeline-builder/count-pipeline-results>
-   Specify Collation </agg-pipeline-builder/pipeline-custom-collation>
+   Specify Pipeine Collation </agg-pipeline-builder/pipeline-custom-collation>
    Set Max Time MS </agg-pipeline-builder/maxtime-ms-pipeline>
    Export Results </agg-pipeline-builder/export-pipeline-results>
    Builder Settings </agg-pipeline-builder/aggregation-pipeline-builder-settings>

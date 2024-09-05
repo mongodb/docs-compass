@@ -70,6 +70,6 @@ Learn more
    Show Kerberos Password </settings/show-kerberos-password>
    Hide Credentials </settings/protect-connection-strings>
    Block Write Operations </settings/read-only>
-   Specify Read Preference & Tags/settings/specify-read-preference-tags
+   Specify Read Preference & Tags </settings/specify-read-preference-tags>
    Toggle Chrome DevTools </settings/enable-dev-tools>
 
