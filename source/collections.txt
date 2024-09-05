@@ -152,8 +152,8 @@ Limitations
 .. toctree::
    :titlesonly:
 
-   /collections/capped-collection
-   /collections/collation-collection
-   /collections/clustered-collection
-   /collections/encrypted-collection
-   /collections/time-series-collection
+   Create Capped Collections </collections/capped-collection>
+   Create Collections with Collation </collections/collation-collection>
+   Create Clustered Collections </collections/clustered-collection>
+   Create Encryped Collections </collections/encrypted-collection>
+   Create Time Series Collections </collections/time-series-collection>
