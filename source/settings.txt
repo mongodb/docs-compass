@@ -66,10 +66,10 @@ Learn more
    Interface Settings </settings/settings-reference>
    Command Line Options </settings/command-line-options>
    Configuration File Settings </settings/config-file>
-   Restrict Outgoing Connections </settings/restrict-outgoing-connections>
+   Block Outgoing Connections </settings/restrict-outgoing-connections>
    Show Kerberos Password </settings/show-kerberos-password>
    Hide Credentials </settings/protect-connection-strings>
-   Restrict Write Operations </settings/read-only>
+   Block Write Operations </settings/read-only>
    Specify Read Preference & Tags/settings/specify-read-preference-tags
    Toggle Chrome DevTools </settings/enable-dev-tools>
 

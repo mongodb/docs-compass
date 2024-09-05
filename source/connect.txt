@@ -118,7 +118,7 @@ For details, see :ref:`comp-command-line-connect`.
    :titlesonly:
 
    Connections Sidebar </connect/connections>
-   Connect with the Command Line </connect/connect-from-the-command-line>
+   Use the Command Line </connect/connect-from-the-command-line>
    Advanced Options </connect/advanced-connection-options>
    Favorite Connections </connect/favorite-connections>
    Required Access </connect/required-access>

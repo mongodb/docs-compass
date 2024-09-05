@@ -488,11 +488,11 @@ How Does the Compass Query Compare to MongoDB and SQL Queries?
 
    Set Returned Fields </query/project>
    Sort Returned Documents </query/sort>
-   Adjust Maximum Query Time </query/maxtimems>
+   Adjust Maximum Time </query/maxtimems>
    Specify Collation </query/collation>
-   Skip Through Documents </query/skip>
-   Limit Returned Documents </query/limit>
+   Skip Documents </query/skip>
+   Limit Results </query/limit>
    View Query Performance </query-plan>
-   Export to Specific Language </export-query-to-language>
+   Export to Language </export-query-to-language>
    Run Atlas Search Queries </query/atlas-search>
    Manage Saved Queries </query/queries>
