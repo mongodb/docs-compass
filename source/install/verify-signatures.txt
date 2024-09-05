@@ -32,5 +32,5 @@ for your verification method:
 
    Use Disk Image Verification </install/verify-signatures/disk-images>
    Use GPG </install/verify-signatures/gpg>
-   Verify RPM Packages (RHEL) </install/verify-signatures/rpm>
+   Verify RPM Packages </install/verify-signatures/rpm>
    Verify Windows Packages </install/verify-signatures/windows>

@@ -162,7 +162,7 @@ Expand your knowledge of MongoDB by using Compass with other MongoDB products.
    Connect </connect>
    Customize </settings>
    Home Screen </instance>
-   Interct with Your Data </manage-data>
+   Interact with Your Data </manage-data>
    Import & Export Data </import-export>
    Embedded MongoDB Shell </embedded-shell>
    Create an Aggregation Pipeline </create-agg-pipeline>
