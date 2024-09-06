@@ -493,6 +493,6 @@ How Does the Compass Query Compare to MongoDB and SQL Queries?
    Skip Documents </query/skip>
    Limit Results </query/limit>
    View Query Performance </query-plan>
-   Export to Language </export-query-to-language>
+   Export to a Language </export-query-to-language>
    Run Atlas Search Queries </query/atlas-search>
    Manage Saved Queries </query/queries>

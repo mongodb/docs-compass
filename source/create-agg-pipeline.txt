@@ -376,10 +376,10 @@ Learn More
 .. toctree::
    :titlesonly:
    
-   Save Pipeline </agg-pipeline-builder/save-agg-pipeline>
-   Open Pipeline </agg-pipeline-builder/open-saved-pipeline>
+   Save A Pipeline </agg-pipeline-builder/save-agg-pipeline>
+   Open A Pipeline </agg-pipeline-builder/open-saved-pipeline>
    View Explain Plans </agg-pipeline-builder/view-pipeline-explain-plan>
-   Export to Specific Language </agg-pipeline-builder/export-pipeline-to-language>
+   Export to a Language </agg-pipeline-builder/export-pipeline-to-language>
    Create a View </agg-pipeline-builder/create-a-view>
    Count Results </agg-pipeline-builder/count-pipeline-results>
    Specify Collation </agg-pipeline-builder/pipeline-custom-collation>
