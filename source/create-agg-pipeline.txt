@@ -376,8 +376,8 @@ Learn More
 .. toctree::
    :titlesonly:
    
-   Save A Pipeline </agg-pipeline-builder/save-agg-pipeline>
-   Open A Pipeline </agg-pipeline-builder/open-saved-pipeline>
+   Save a Pipeline </agg-pipeline-builder/save-agg-pipeline>
+   Open a Pipeline </agg-pipeline-builder/open-saved-pipeline>
    View Explain Plans </agg-pipeline-builder/view-pipeline-explain-plan>
    Export to a Language </agg-pipeline-builder/export-pipeline-to-language>
    Create a View </agg-pipeline-builder/create-a-view>
