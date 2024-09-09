@@ -7,7 +7,7 @@ documentation builds on the work of the `MongoDB
 Manual <http://docs.mongodb.org/manual/>`_.
 
 If you already have `giza <https://pypi.python.org/pypi/giza/>`_
-installed, you can download and build this documentation locally with
+installed, you can download and build this documentation locally withtest 
 the following command::
 
      git clone git://github.com/mongodb/docs-compass
