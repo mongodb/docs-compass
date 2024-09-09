@@ -50,7 +50,7 @@ query autocomplete menu and view up to 50 of your most recent queries. To scroll
 through your most recent queries, you can use the :kbd:`↑` and :kbd:`↓` arrow 
 keys. If a query is highlighted on the menu, it displays a pop-up panel that 
 shows the filter, project, and sort stages of the query. To select a query from 
-the autocomplete menu, press :kbd:`Enter` or click the query. 
+the autocomplete menu, press :kbd:`Enter`, press :kbd:`Tab`, or click the query. 
 
 If you start typing into the filter bar, the autocomplete menu filters results 
 to only display recent queries that include the specified string. If you start 
