@@ -63,10 +63,8 @@ Procedure
            - The ``Off`` option initiates a connection :guilabel:`without` 
              TLS / SSL. 
 
-             .. note::
-
-                It is recommended that users enable TLS / SSL to avoid security 
-                vulnerabilities. 
+             It is recommended that users enable TLS / SSL to avoid security 
+             vulnerabilities. 
 
       .. _additional-tls:
 
