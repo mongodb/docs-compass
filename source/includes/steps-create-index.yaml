@@ -80,7 +80,7 @@ content: |
        - Index only the documents which match the specified filter
          expression.
 
-         For Example: 
+         For example: 
 
           The following partial filter expression only indexes
           documents where the ``timezone`` field exists:
@@ -99,7 +99,7 @@ content: |
          |compass-short| to use all fields in the document (excluding
          ``_id``).
 
-         For Example: 
+         For example: 
 
           Consider the following wildcard projection document:
 
