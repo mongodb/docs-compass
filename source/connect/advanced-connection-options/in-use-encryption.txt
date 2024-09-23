@@ -87,7 +87,7 @@ ecrypted data.
 .. _aws-compass-encryption:
 
 AWS
-~~~
+***
 
 You can use :v6.0:`AWS </core/queryable-encryption/fundamentals/kms-providers/#amazon-web-services-kms>` 
 to manage your keys.
@@ -133,7 +133,7 @@ Specify the following fields:
 .. _gcp-compass-encryption:
 
 GCP
-~~~
+***
 
 You can use :v6.0:`Google Cloud Services </core/queryable-encryption/fundamentals/kms-providers/#google-cloud-platform-kms>` to manage your keys.
 
@@ -179,7 +179,7 @@ Specify the following fields:
 .. _azure-compass-encryption:
 
 Azure
-~~~~~
+*****
 
 You can use :v6.0:`Azure Key Vault </core/queryable-encryption/fundamentals/kms-providers/#azure-key-vault>` 
 to manage your keys.
@@ -229,7 +229,7 @@ Specify the following fields:
 .. _kmip-compass-encryption:
 
 KMIP
-~~~~
+****
 
 You can use :v6.0:`KMIP </core/queryable-encryption/fundamentals/kms-providers/#kmip>` 
 to manage your keys. 
@@ -263,6 +263,7 @@ to manage your keys.
        you must provide the password.
 
 (Optional) Specify an EncryptedFieldsMap:
+=========================================
 
 Add an optional client-side EncryptedFieldsMap for enhanced security.
 For more information, see :v6.0:`Fields for Encryption </core/queryable-encryption/fundamentals/encrypt-and-query/#std-label-qe-fundamentals-encrypt-query>`.
