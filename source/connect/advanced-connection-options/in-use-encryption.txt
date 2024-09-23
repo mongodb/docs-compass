@@ -61,6 +61,11 @@ Procedure
           
           - :ref:`KMIP <kmip-compass-encryption>`
 
+   .. step::  Click Connect.
+
+   KMS Provider Links
+   ******************
+
           .. _local-kms:
 
           Local KMS
@@ -262,5 +267,3 @@ Procedure
            Add an optional client-side EncryptedFieldsMap for enhanced security.
 
            For more information, see :v6.0:`Fields for Encryption </core/queryable-encryption/fundamentals/encrypt-and-query/#std-label-qe-fundamentals-encrypt-query>`.
-
-   .. step::  Click Connect.
