@@ -263,7 +263,7 @@ to manage your keys.
        you must provide the password.
 
 (Optional) Specify an EncryptedFieldsMap:
-=========================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Add an optional client-side EncryptedFieldsMap for enhanced security.
 For more information, see :v6.0:`Fields for Encryption </core/queryable-encryption/fundamentals/encrypt-and-query/#std-label-qe-fundamentals-encrypt-query>`.
