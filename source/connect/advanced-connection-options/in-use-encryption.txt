@@ -63,8 +63,8 @@ Procedure
 
    .. step::  Click Connect.
 
-KMS Provider Links
-******************
+KMS Providers
+*************
 
 .. _local-kms:
 
@@ -262,8 +262,8 @@ to manage your keys.
      - If the *Client Private Key* is protected with a password, 
        you must provide the password.
 
-(Optional) Specify an EncryptedFieldsMap:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(Optional) ``Specify an EncryptedFieldsMap``:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Add an optional client-side EncryptedFieldsMap for enhanced security.
+Add an optional client-side ``EncryptedFieldsMap`` for enhanced security.
 For more information, see :v6.0:`Fields for Encryption </core/queryable-encryption/fundamentals/encrypt-and-query/#std-label-qe-fundamentals-encrypt-query>`.
