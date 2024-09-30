@@ -82,10 +82,10 @@ content: |
 
          For example: 
 
-          The following partial filter expression only indexes
-          documents where the ``timezone`` field exists:
+         The following partial filter expression only indexes
+         documents where the ``timezone`` field exists:
 
-          .. code-block:: js
+         .. code-block:: js
 
              { "timezone": { "$exists": true } } 
      
