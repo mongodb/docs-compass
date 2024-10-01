@@ -110,8 +110,8 @@ content: |
               "product_attributes.resistance" : 1
             }
 
-          If your index field name is ``$**``, your index only
-          includes the values of the fields in that projection.
+         If your index field name is ``$**``, your index only
+         includes the values of the fields in that projection.
 
        - :ref:`compass-wildcard-index`
 
