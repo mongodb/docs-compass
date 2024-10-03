@@ -24,7 +24,8 @@ To open the embedded :binary:`mongosh`,you can either:
 
 - Click :guilabel:`>_` on the right of your deployment name in the
   :guilabel:`Connections Sidebar`. 
-- Click :guilabel:`>_Open MongoDB shell` in any connection window.
+- Click :guilabel:`>_Open MongoDB shell` in the top right of any tab
+  connected to a MongoDB deployment.
 
 Use the Embedded MongoDB Shell
 ------------------------------
