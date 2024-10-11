@@ -35,8 +35,6 @@ Table View
 Use the :guilabel:`View` buttons to select which view you would like
 to see for the examples on the rest of the page:
 
-|
-
 .. tabs::
 
    .. tab:: List View
