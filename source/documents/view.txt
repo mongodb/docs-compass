@@ -175,7 +175,7 @@ Encrypted Fields
       .. include:: /includes/fact-fle-description.rst
 
       .. figure:: /images/compass/encrypted-fields-list.png
-         :figwidth: 696px
+         :figwidth: 300px
          :alt: Encrypted field in list view
 
       .. include:: /includes/fact-qe-description.rst
