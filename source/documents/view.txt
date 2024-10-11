@@ -32,8 +32,8 @@ Table View
   shown in the table columns. With this view, you can more easily
   see which documents contain specific field values.
 
-Use the :guilabel:`View` buttons to select which view you would like
-to see for the examples on the rest of the page:
+Use the :guilabel:`View` buttons to select which view is shown in the
+following examples:
 
 .. tabs::
 
