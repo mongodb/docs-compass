@@ -33,7 +33,7 @@ Table View
   see which documents contain specific field values.
 
 Use the :guilabel:`View` buttons to select which view you would like
-to use for the examples on the rest of the page:
+to see for the examples on the rest of the page:
 
 |
 
