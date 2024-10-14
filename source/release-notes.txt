@@ -20,9 +20,8 @@ New Features:
 - Add polling for regular indexes (:issue:`COMPASS-8214`)
 - Allow editing name, color, and favorite checkbox of connected 
   connections (:issue:`COMPASS-8160`)
-- Display banner on the connection form when 
-  :guilabel:`Protect Connection String Secrets` is enabled 
-  (:issue:`COMPASS-8264`)
+- When :guilabel:`Protect Connection String Secrets` is enabled,
+  display banner on the connection form (:issue:`COMPASS-8264`)
 - Add a :guilabel:`Save & Connect` button (:issue:`COMPASS-8360`)
 
 Bug Fixes:
