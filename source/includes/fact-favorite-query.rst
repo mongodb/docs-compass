@@ -4,7 +4,7 @@
    .. step:: Open query history
 
       Click the :guilabel:`History` button on the query bar in the
-      :guilabel:`Documents` tab. 
+      :guilabel:`Documents` pane. 
 
       .. figure:: /images/compass/query-history-view.png
          :figwidth: 720 px
