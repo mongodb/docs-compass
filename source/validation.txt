@@ -51,7 +51,7 @@ To specify JSON Schema validation, use the
 :manual:`$jsonSchema </reference/operator/query/jsonSchema>`
 operator.
 
-.. code-block:: json
+.. code-block:: javascript
 
    {
       $jsonSchema: {
@@ -76,42 +76,42 @@ example:
 
 Consider the following example validation:
 
-.. code-block:: json
+.. code-block:: javascript
 
    {
-      "$jsonSchema": {
-         "bsonType": "object",
-         "required": [ "address", "borough", "name" ],
-         "properties": {
-            "address": {
-               "bsonType": "object",
-               "properties": {
-                  "coord": {
-                     "bsonType": "array",
-                     "items": [
+      $jsonSchema: {
+         bsonType: "object",
+         required: [ "address", "borough", "name" ],
+         properties: {
+            address: {
+               bsonType: "object",
+               properties: {
+                  coord: {
+                     bsonType: "array",
+                     items: [
                         {
-                           "bsonType": "double",
-                           "minimum": -180,
-                           "maximum": 180,
-                           "exclusiveMaximum": false,
-                           "description": "must be a number in [ -180, 180 ]"
+                           bsonType: "double",
+                           minimum: -180,
+                           maximum: 180,
+                           exclusiveMaximum: false,
+                           description: "must be a number in [ -180, 180 ]"
                         },
                         {
-                           "bsonType": "double",
-                           "minimum": -90,
-                           "maximum": 90,
-                           "exclusiveMaximum": false,
-                           "description": "must be a number in [ -90, 90 ]"
+                           bsonType: "double",
+                           minimum: -90,
+                           maximum: 90,
+                           exclusiveMaximum: false,
+                           description: "must be a number in [ -90, 90 ]"
                         }
                      ]
                   }
                },
-               "description": "must be an object"
+               description: "must be an object"
             },
-            "borough": {
-               "bsonType": "string",
-               "enum": [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ],
-               "description": "must be one of the enum strings"
+            borough: {
+               bsonType: "string",
+               enum: [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ],
+               description: "must be one of the enum strings"
             }
          }
       }
@@ -146,15 +146,15 @@ You can also specify validation using
 exception of the following query operators: :query:`$near`,
 :query:`$nearSphere`, :query:`$text`, and :query:`$where`.
 
-.. code-block:: json
+.. code-block:: javascript
 
    { 
       $or: [
-         { "name": { $type: "string" } },
-         { "borough": {
-               "bsonType": "string",
-               "enum": [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ],
-               "description": "must be one of the enum strings"
+         { name: { $type: "string" } },
+         { borough: {
+               bsonType: "string",
+               enum: [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ],
+               description: "must be one of the enum strings"
          } }
       ]
    }
