@@ -55,12 +55,12 @@ operator.
 
    {
       $jsonSchema: {
-         required: ['customer'], // the customer field is required
+         required: ['name', 'borough'], // the name and borough fields are required
          properties: {
-         purchaseMethod: {
-            enum: ['In Store','Online'],
-            description: "can only be either 'In Store' or 'Online'" 
-         }
+            cuisine: {
+               bsonType: "string",
+               description: "must be a string"
+            }
          }
       }
    }
@@ -72,7 +72,7 @@ example:
 - The ``required`` array defines required fields in your document.
 
 - The ``properties`` object defines rules for specific document
-   fields.
+  fields.
 
 Consider the following example validation:
 
@@ -81,28 +81,28 @@ Consider the following example validation:
    {
       $jsonSchema: {
          bsonType: "object",
-         required: [ "name", "year", "major", "gpa", "address.city", "address.street" ],
+         required: [ "address", "borough", "address.coord", "address.coord0", "address.coord.1", "name"],
          properties: {
-            name: {
-               bsonType: "string",
-               description: "must be a string"
+            address: {
+               bsonType: "object",
+               description: "must be an object"
             },
-            year: {
-               bsonType: "int",
-               minimum: 2017,
-               maximum: 3017,
+            address.coord.0: {
+               minimum: -180,
+               maximum: 180,
                exclusiveMaximum: false,
-               description: "must be an integer in [ 2017, 3017 ]"
+               description: "must be an number in [ -180, 180 ]"
             },
-            major: {
-               bsonType: "string",
-               enum: [ "Math", "English", "Computer Science", "History", null ],
-               description: "can only be one of the enum values"
+            address.coord.1: {
+               minimum: -90,
+               maximum: 90,
+               exclusiveMaximum: false,
+               description: "must be an number in [ -90, 90 ]"
             },
-            gpa: {
-               bsonType: [ "double" ],
-               minimum: 0,
-               description: "must be a double"
+            borough: {
+               bsonType: [ "string" ],
+               enum: [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ]
+               description: "must be one of the enum strings"
             }
          }
       }
@@ -114,18 +114,12 @@ This validation specifies:
   :manual:`required </reference/operator/query/jsonSchema/#available-keywords>`
   fields.
 
-- The :manual:`bsonType </reference/operator/query/jsonSchema/#available-keywords>` for
-  all fields.
-
 - The :manual:`minimum </reference/operator/query/jsonSchema/#available-keywords>`
   and :manual:`maximum </reference/operator/query/jsonSchema/#available-keywords>`
-  values for the ``year`` field.
+  values for the ``address.coord.0`` and ``address.coord.1`` fields.
 
-- The acceptable values for the  ``major`` field, using
+- The acceptable values for the  ``borough`` field, using
   :manual:`enum </reference/operator/query/jsonSchema/#available-keywords>`.
-
-- The :manual:`minimum </reference/operator/query/jsonSchema/#available-keywords>`
-  value for the ``gpa`` field.
 
 For all available ``$jsonSchema`` keywords, refer to the
 :manual:`$jsonSchema </reference/operator/query/jsonSchema>` page in
