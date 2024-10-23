@@ -79,34 +79,44 @@ Consider the following example validation:
 .. code-block:: json
 
    {
-      $jsonSchema: {
-         bsonType: "object",
-         required: [ "address", "borough", "address.coord", "address.coord0", "address.coord.1", "name"],
-         properties: {
-            address: {
-               bsonType: "object",
-               description: "must be an object"
+      "$jsonSchema": {
+         "bsonType": "object",
+         "required": [ "address", "borough", "name" ],
+         "properties": {
+            "address": {
+               "bsonType": "object",
+               "properties": {
+                  "coord": {
+                     "bsonType": "array",
+                     "items": [
+                        {
+                           "bsonType": "double",
+                           "minimum": -180,
+                           "maximum": 180,
+                           "exclusiveMaximum": false,
+                           "description": "must be a number in [ -180, 180 ]"
+                        },
+                        {
+                           "bsonType": "double",
+                           "minimum": -90,
+                           "maximum": 90,
+                           "exclusiveMaximum": false,
+                           "description": "must be a number in [ -90, 90 ]"
+                        }
+                     ]
+                  }
+               },
+               "description": "must be an object"
             },
-            address.coord.0: {
-               minimum: -180,
-               maximum: 180,
-               exclusiveMaximum: false,
-               description: "must be an number in [ -180, 180 ]"
-            },
-            address.coord.1: {
-               minimum: -90,
-               maximum: 90,
-               exclusiveMaximum: false,
-               description: "must be an number in [ -90, 90 ]"
-            },
-            borough: {
-               bsonType: [ "string" ],
-               enum: [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ]
-               description: "must be one of the enum strings"
+            "borough": {
+               "bsonType": "string",
+               "enum": [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ],
+               "description": "must be one of the enum strings"
             }
          }
       }
    }
+
 
 This validation specifies:
 
@@ -114,9 +124,12 @@ This validation specifies:
   :manual:`required </reference/operator/query/jsonSchema/#available-keywords>`
   fields.
 
+- The :manual:`bsonType </reference/operator/query/jsonSchema/#available-keywords>` for
+  all required fields.
+
 - The :manual:`minimum </reference/operator/query/jsonSchema/#available-keywords>`
   and :manual:`maximum </reference/operator/query/jsonSchema/#available-keywords>`
-  values for the ``address.coord.0`` and ``address.coord.1`` fields.
+  values in the ``address.coord`` array.
 
 - The acceptable values for the  ``borough`` field, using
   :manual:`enum </reference/operator/query/jsonSchema/#available-keywords>`.
