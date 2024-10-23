@@ -150,21 +150,20 @@ exception of the following query operators: :query:`$near`,
 
    { 
       $or: [
-         { phone: { $type: "string" } },
-         { email: { $regex: /@mongodb\.com$/ } },
-         { status: { $in: [ "Unknown", "Incomplete" ] } }
+         { name: { $type: "string" } },
+         {"borough": {
+               "bsonType": "string",
+               "enum": [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ],
+               "description": "must be one of the enum strings"
+         } }
       ]
    }
 
 Using this validation, *one* of the following must be true:
 
-- The ``phone`` field must be BSON type string,
+- The ``name`` field must be BSON type string.
+- The ``borough`` field must be one of the enum strings.
 
-- The ``email`` field must match the
-  :manual:`regex </reference/operator/query/regex/>`
-  ``/@mongodb\.com$/``, or
-
-- The ``status`` field must be either ``Unknown`` or ``Incomplete``.
 
 .. _validation-actions-levels:
 
