@@ -150,8 +150,8 @@ exception of the following query operators: :query:`$near`,
 
    { 
       $or: [
-         { name: { $type: "string" } },
-         {"borough": {
+         { "name": { $type: "string" } },
+         { "borough": {
                "bsonType": "string",
                "enum": [ "Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island" ],
                "description": "must be one of the enum strings"
