@@ -25,8 +25,6 @@ have different fields. A collection is the equivalent of a
 table in a relational database system. A collection exists within a
 single :ref:`database <database-tab>`
 
-.. _collections-screen-collections:
-
 Collections Screen
 ------------------
 
@@ -78,8 +76,6 @@ Drop a Collection
 -----------------
 
 .. include:: /includes/steps/delete-collection.rst
-
-.. _collection-details:
 
 Collection Details
 ------------------
