@@ -1819,7 +1819,7 @@ Bug Fixes:
 
 - Added :manual:`collation </reference/collation>` support to the following features:
 
-  - :ref:`create-collection`
+  - :ref:`compass-create-collection`
   - :ref:`create-database`
   - :ref:`create-index`
   - :ref:`compass-query-bar`
@@ -2017,7 +2017,7 @@ Bug Fixes:
 - Added ability to :ref:`create <create-database>` and :ref:`drop
   <drop-database>` databases.
 
-- Added ability to :ref:`create <create-collection>` and :ref:`drop
+- Added ability to :ref:`create <compass-create-collection>` and :ref:`drop
   <drop-collection>` collections.
 
 - Added ability to :ref:`create indexes <create-index>`.

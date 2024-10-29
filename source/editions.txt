@@ -17,7 +17,7 @@ suit your needs.
      - Compass Isolated
 
    * - Interact with :ref:`documents <compass-documents>`,
-       :ref:`collections <collection-tab>`, and
+       :ref:`collections <compass-collection-tab>`, and
        :ref:`databases <database-tab>` with full CRUD functionality
      - |checkmark|
      - 

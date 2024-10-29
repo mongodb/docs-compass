@@ -1,4 +1,4 @@
-.. _count-pipeline-results:
+.. _compass-count-pipeline-results:
 
 ================================
 Count Pipeline Results Documents

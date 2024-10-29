@@ -9,7 +9,7 @@ Interact with Your Data
 :ref:`database-tab`
   Learn how to create and manage databases in your deployment.
 
-:ref:`collection-tab`
+:ref:`compass-collection-tab`
   Learn how to manage collections in your databases.
 
 :ref:`compass-views`

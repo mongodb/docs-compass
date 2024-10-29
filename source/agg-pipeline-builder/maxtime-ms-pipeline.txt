@@ -1,4 +1,4 @@
-.. _set-maxtime-ms-agg:
+.. _compass-set-maxtime-ms-agg:
 
 =======================================
 Set Max Time MS for Aggregation Queries

@@ -1,4 +1,4 @@
-.. _collection-tab:
+.. _compass-collection-tab:
 
 ===========
 Collections
@@ -61,7 +61,7 @@ information for each collection in the selected database:
   collection. Hover over a :guilabel:`Collation` banner to view
   the properties for that collection.
 
-.. _create-collection:
+.. _compass-create-collection:
 
 Create a Collection
 -------------------

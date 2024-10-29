@@ -12,7 +12,7 @@ Databases
    :depth: 1
    :class: singlecol
 
-A database is a container for :ref:`collections <collection-tab>`.
+A database is a container for :ref:`collections <compass-collection-tab>`.
 Each database gets its own set of files on the host file system.
 A single MongoDB server typically has multiple databases.
 
@@ -28,8 +28,8 @@ deployment name in the :guilabel:`Connections Sidebar`.
    :alt: Databases View
 
 From this view, you can click a database name in the sidebar to view its
-:ref:`collections <collection-tab>`. Alternatively, you can view
-database collections by clicking the desired database in the left-hand navigation.
+collections. Alternatively, you can view database collections by clicking the 
+desired database in the left-hand navigation.
 
 You can also :ref:`create <create-database>` or
 :ref:`drop databases <drop-database>` from this view.

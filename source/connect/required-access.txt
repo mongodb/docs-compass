@@ -43,7 +43,7 @@ privileges:
      - :authrole:`dbAdmin`
 
    * - :guilabel:`Collection`
-     - :ref:`create-collection`
+     - :ref:`compass-create-collection`
      - :authaction:`createCollection`
      - :authrole:`readWrite`
 
