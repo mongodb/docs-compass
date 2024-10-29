@@ -56,7 +56,7 @@ To create a view from your pipeline results:
 
 1. Create an aggregation pipeline in the pipeline builder. For detailed
    instructions on using the pipeline builder, see
-   :ref:`create-agg-pipeline`.
+   :ref:`compass-create-agg-pipeline`.
 
 #. Click the arrow next to the :guilabel:`Save` button at the top
    of the pipeline builder.
@@ -132,7 +132,7 @@ To modify the source of a view:
 
 #. Modify the pipeline as desired. For detailed
    instructions on using the pipeline builder, see
-   :ref:`create-agg-pipeline`.
+   :ref:`compass-create-agg-pipeline`.
 
 #. Click :guilabel:`Update View` at the top of the pipeline builder.
 

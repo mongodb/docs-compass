@@ -37,7 +37,7 @@ To learn more about indexes, see :manual:`Indexes </indexes>`.
    of considerations for indexes, see
    :ref:`Operational Considerations for Indexes <data-model-indexes>`.
 
-.. _indexes-tab:
+.. _compass-indexes-tab:
 
 Indexes Tab
 -----------
@@ -73,7 +73,7 @@ For each index, Compass displays the following information:
      - Any special properties (such as uniqueness, partial) of the
        index.
 
-.. _create-index:
+.. _compass-create-index:
 
 Create an Index
 ---------------
@@ -157,7 +157,7 @@ index.
       :guilabel:`Properties` column.
 
 
-.. _drop-index:
+.. _compass-drop-index:
 
 Drop an Index
 -------------

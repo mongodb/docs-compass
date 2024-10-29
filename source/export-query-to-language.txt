@@ -46,7 +46,7 @@ Procedure
    include driver syntax, the copyable code reflects
    :ref:`project <query-bar-project>`, :ref:`sort <query-bar-sort>`, 
    :ref:`maxtimems <query-bar-max-time-ms>`, 
-   :ref:`collation <query-bar-collation>`, :ref:`skip <query-bar-skip>` 
+   :ref:`collation <compass-query-bar-collation>`, :ref:`skip <query-bar-skip>` 
    and :ref:`limit <query-bar-limit>` options.
 
 #. Click :icon-fa5:`copy` at the top-right of the formatted

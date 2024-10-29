@@ -20,7 +20,7 @@ Before You Begin
 
 If you don't already have a saved pipeline, you must first: 
 
-- :ref:`Create an aggregation pipeline <create-agg-pipeline>`.
+- :ref:`Create an aggregation pipeline <compass-create-agg-pipeline>`.
 
 - :ref:`Save your aggregation pipeline <compass-save-agg-pipeline>`.
 

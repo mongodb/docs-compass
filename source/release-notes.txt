@@ -490,7 +490,7 @@ New Features:
   - For more details, see :ref:`<compass-indexes>` and 
     :ref:`<compass-create-search-index>`.
 - Improved AI feedback experience. For more information on
-  Generative AI natural language queries in Compass, see :ref:`query-natural-language`.
+  Generative AI natural language queries in Compass, see :ref:`compass-query-natural-language`.
   (:issue:`COMPASS-7211`, :issue:`COMPASS-7251`).
 - Removed ``useNewUrlParser`` and ``useUnifiedTopology`` from export 
   to language options (:issue:`COMPASS-4897`).
@@ -1521,7 +1521,7 @@ New Features:
 
 - Allows functions in the query bar and aggregations.
 
-- When navigating to the :ref:`Databases <database-tab>` view,
+- When navigating to the :ref:`Databases <compass-database-tab>` view,
   |compass-short| now clears a previously selected collection
   from the left navigation.
 
@@ -1699,7 +1699,7 @@ Bug Fixes:
   now insert multiple documents at once.
 
 - Added support for querying UUIDs via the 
-  :ref:`Documents <documents-tab>` query bar or in the
+  :ref:`Documents <compass-documents-tab>` query bar or in the
   :ref:`Aggregation Pipeline Builder <compass-agg-builder>`.
 
 - Added support for the following aggregation pipeline operators:
@@ -1820,8 +1820,8 @@ Bug Fixes:
 - Added :manual:`collation </reference/collation>` support to the following features:
 
   - :ref:`compass-create-collection`
-  - :ref:`create-database`
-  - :ref:`create-index`
+  - :ref:`compass-create-database`
+  - :ref:`compass-create-index`
   - :ref:`compass-query-bar`
   - :ref:`compass-agg-builder`
 
@@ -2014,13 +2014,13 @@ Bug Fixes:
 
 *Released Nov 29, 2016*
 
-- Added ability to :ref:`create <create-database>` and :ref:`drop
-  <drop-database>` databases.
+- Added ability to :ref:`create <compass-create-database>` and :ref:`drop
+  <compass-drop-database>` databases.
 
 - Added ability to :ref:`create <compass-create-collection>` and :ref:`drop
-  <drop-collection>` collections.
+  <compass-drop-collection>` collections.
 
-- Added ability to :ref:`create indexes <create-index>`.
+- Added ability to :ref:`create indexes <compass-create-index>`.
 
 - Added support for :ref:`document validation <validation>`.
 

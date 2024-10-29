@@ -18,7 +18,7 @@ title: Specify a filter in the :guilabel:`query bar`.
 level: 4
 ref: export-specify-filter
 content: |
-  Specify a :ref:`filter <query-bar-filter>` in the 
+  Specify a :ref:`filter <compass-query-bar-filter>` in the 
   :ref:`query bar <compass-query-bar>` to export only the documents 
   which match the filter.
 ---

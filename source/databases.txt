@@ -1,4 +1,4 @@
-.. _database-tab:
+.. _compass-database-tab:
 
 =========
 Databases
@@ -31,17 +31,17 @@ From this view, you can click a database name in the sidebar to view its
 collections. Alternatively, you can view database collections by clicking the 
 desired database in the left-hand navigation.
 
-You can also :ref:`create <create-database>` or
-:ref:`drop databases <drop-database>` from this view.
+You can also :ref:`create <compass-create-database>` or
+:ref:`drop databases <compass-drop-database>` from this view.
 
-.. _create-database:
+.. _compass-create-database:
 
 Create a Database
 -----------------
 
 .. include:: /includes/steps/create-database.rst
 
-.. _drop-database:
+.. _compass-drop-database:
 
 Drop a Database
 ---------------

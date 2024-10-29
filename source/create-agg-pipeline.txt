@@ -1,5 +1,5 @@
 .. _compass-agg-builder:
-.. _create-agg-pipeline:
+.. _compass-create-agg-pipeline:
 
 ==============================
 Create an Aggregation Pipeline

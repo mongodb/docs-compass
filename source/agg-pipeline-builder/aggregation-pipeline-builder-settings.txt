@@ -49,7 +49,7 @@ the upper right of the pipeline builder to open the :guilabel:`Settings` panel.
 Learn More 
 ----------
 
-- :ref:`create-agg-pipeline`
+- :ref:`compass-create-agg-pipeline`
 
 - :ref:`compass-pipeline-custom-collation`
 

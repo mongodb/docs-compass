@@ -1,4 +1,4 @@
-.. _clustered-collection:
+.. _compass-clustered-collection:
 
 =============================
 Create a Clustered Collection

@@ -6,7 +6,7 @@ Interact with Your Data
 
 .. include:: /includes/atlas-sample-data-note.rst
 
-:ref:`database-tab`
+:ref:`compass-database-tab`
   Learn how to create and manage databases in your deployment.
 
 :ref:`compass-collection-tab`
@@ -20,7 +20,7 @@ Interact with Your Data
 :ref:`compass-documents`
   Learn how to manage documents in your collections.
 
-:ref:`query-bar-filter`
+:ref:`compass-query-bar-filter`
   Learn how to query your data to return data that matches a specified
   criteria.
 
