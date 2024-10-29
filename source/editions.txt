@@ -18,7 +18,7 @@ suit your needs.
 
    * - Interact with :ref:`documents <compass-documents>`,
        :ref:`collections <compass-collection-tab>`, and
-       :ref:`databases <database-tab>` with full CRUD functionality
+       :ref:`databases <compass-database-tab>` with full CRUD functionality
      - |checkmark|
      - 
      - |checkmark|

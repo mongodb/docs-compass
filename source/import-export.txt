@@ -198,7 +198,7 @@ Procedure
          .. step:: Navigate to your target collection.
 
             You can either select the collection from the
-            :guilable:`Collections` tab or click the collection 
+            :guilabel:`Collections` tab or click the collection 
             in the left-hand pane. 
 
          .. step:: Create an aggregation pipeline and run for results. 
