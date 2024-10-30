@@ -23,7 +23,7 @@ A collection is a grouping of MongoDB
 :ref:`documents <compass-documents>`. Documents within a collection can
 have different fields. A collection is the equivalent of a
 table in a relational database system. A collection exists within a
-single :ref:`database <compass-database-tab>`
+single :ref:`database <compass-database-tab>`.
 
 Collections Screen
 ------------------
