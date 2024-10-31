@@ -33,22 +33,22 @@ privileges:
      - :authrole:`clusterMonitor`
 
    * - :guilabel:`Database`
-     - :ref:`create-database`
+     - :ref:`compass-create-database`
      - :authaction:`createCollection`
      - :authrole:`readWrite`
 
    * - :guilabel:`Database`
-     - :ref:`drop-database`
+     - :ref:`compass-drop-database`
      - :authaction:`dropDatabase`
      - :authrole:`dbAdmin`
 
    * - :guilabel:`Collection`
-     - :ref:`create-collection`
+     - :ref:`compass-create-collection`
      - :authaction:`createCollection`
      - :authrole:`readWrite`
 
    * - :guilabel:`Collection`
-     - :ref:`drop-collection`
+     - :ref:`compass-drop-collection`
      - :authaction:`dropCollection`
      - :authrole:`readWrite`
 
