@@ -64,4 +64,4 @@ Learn More
 
 - :ref:`compass-interface-settings`
 
-- :ref:`query-bar-max-time-ms`
+- :ref:`compass-query-bar-max-time-ms`

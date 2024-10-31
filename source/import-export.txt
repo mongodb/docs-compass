@@ -156,7 +156,7 @@ Behavior
 
 - You can use a query filter to export only the documents that match the filter.
 
-- You can use the :ref:`Project <query-bar-project>` field in the query bar to 
+- You can use the :ref:`Project <compass-query-bar-project>` field in the query bar to 
   specify the fields to return or export. 
 
 Procedure

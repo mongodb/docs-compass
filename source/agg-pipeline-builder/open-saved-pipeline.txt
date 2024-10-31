@@ -57,11 +57,11 @@ Steps
    after you connect to your cluster.
 
    To learn more, see 
-   :ref:`viewing saved aggregations <saved-query-view>` for details.
+   :ref:`viewing saved aggregations <compass-saved-query-view>` for details.
 
 Learn More
 ----------
 
 - :ref:`compass-save-agg-pipeline`
 
-- :ref:`saved-query-view`
+- :ref:`compass-saved-query-view`
