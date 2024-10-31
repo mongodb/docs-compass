@@ -16,7 +16,7 @@ Release Notes
 *Released October 31, 2024*
 
 - Increase the character size restriction for query and
-  aggregation genai :issue:`COMPASS-8369`)
+  aggregation genai (:issue:`COMPASS-8369`)
 - Do not lock users out of Compass when using authenticated
   proxies (:issue:`COMPASS-8382`)
 - Bump electron to 32.2.1 (:issue:`COMPASS-8399`)
