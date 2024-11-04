@@ -25,7 +25,7 @@ documents in your selected collection or view.
    For query result sets larger than 20 documents, Compass shows 
    paginated results. By default, pages display 20 documents at a time.
 
-From the :ref:`query bar <query-bar>`, you can specify a query to
+From the :ref:`query bar <compass-query-bar>`, you can specify a query to
 filter the displayed documents. Click :guilabel:`Options` to
 specify query options.
 

@@ -27,18 +27,18 @@ Interact with Your Data
 :ref:`compass-indexes`
   Learn how to create indexes to improve query performance.
 
-:ref:`schema-tab`
+:ref:`compass-schema-tab`
   Learn how to analyze your data schema and shape of the fields in a
   particular collection.
 
 :ref:`compass-performance`
   Learn how to view and analyze deployment performance.
 
-:ref:`validation`
+:ref:`compass-validation`
   Learn how to ensure that all documents in a collection
   follow a defined set of rules.
 
-:ref:`sampling`
+:ref:`compass-sampling`
   Learn how |compass-short| samples documents to provide 
   insights about a collection.
 

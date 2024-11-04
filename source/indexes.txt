@@ -19,7 +19,7 @@ ordered by the value of the field.
 
 To improve query performance, build indexes on fields that appear often 
 in queries and for all operations that 
-:ref:`sort by a field <query-bar-sort>`.
+:ref:`sort by a field <compass-query-bar-sort>`.
 
 - Queries on an indexed field can use the index to limit the number of 
   documents that must be scanned to find matching documents.

@@ -102,13 +102,13 @@ view:
 
 - :ref:`compass-agg-builder`
 
-- :ref:`Schema Analysis <schema-tab>`
+- :ref:`Schema Analysis <compass-schema-tab>`
 
 - :ref:`explain-plans`
 
 - :ref:`compass-indexes`
 
-- :ref:`validation`
+- :ref:`compass-validation`
 
 .. note:: Data Lake Limitations
 

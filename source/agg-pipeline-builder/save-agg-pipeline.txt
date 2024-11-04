@@ -15,7 +15,7 @@ Save a Pipeline
 You can save your aggregation pipelines to find and use them again later. If 
 you load a saved pipeline, you can make edits to the pipeline stages without 
 changing the original saved pipeline. You can also create a :ref:`view 
-<view-details>` from your pipeline results.
+<compass-view-details>` from your pipeline results.
 
 Steps
 -----
@@ -29,4 +29,4 @@ Learn More
 
 - :ref:`compass-create-a-view`
 
-- :ref:`saved-queries-agg`
+- :ref:`compass-saved-queries-agg`

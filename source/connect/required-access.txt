@@ -53,7 +53,7 @@ privileges:
      - :authrole:`readWrite`
 
    * - :guilabel:`Schema`
-     - :ref:`Query/View a Schema <schema-tab>`
+     - :ref:`Query/View a Schema <compass-schema-tab>`
      - :authaction:`find`
      - :authrole:`read`
 
@@ -87,12 +87,12 @@ privileges:
      - :authrole:`read`
 
    * - :guilabel:`Validation`
-     - :ref:`View rules <validation>`
+     - :ref:`View rules <compass-validation>`
      - :authaction:`listCollections`
      - :authrole:`read`
 
    * - :guilabel:`Validation`
-     - :ref:`Update rules <update-validation>`
+     - :ref:`Update rules <compass-update-validation>`
      - :authaction:`collMod`
      - :authrole:`dbAdmin`
 

@@ -45,7 +45,7 @@ suit your needs.
      - |checkmark|
      - |checkmark|
 
-   * - :ref:`Schema Analysis <schema-tab>`
+   * - :ref:`Schema Analysis <compass-schema-tab>`
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -55,7 +55,7 @@ suit your needs.
      - |checkmark|
      - |checkmark|
 
-   * - Create, delete and edit :ref:`document validation <validation>`
+   * - Create, delete and edit :ref:`document validation <compass-validation>`
        rules
      - |checkmark|
      - 

@@ -166,7 +166,7 @@ Bug Fixes:
 Bug Fixes:
 
 - Prevents application from hanging when selecting ranges too quickly on the 
-  :ref:`Schema <schema-tab>` tab (:issue:`COMPASS-8048`).
+  :ref:`Schema <compass-schema-tab>` tab (:issue:`COMPASS-8048`).
 - Updates Electron to `version 29.4.2 
   <https://releases.electronjs.org/release/v29.4.2>`__, which includes various 
   security fixes.
@@ -1554,7 +1554,7 @@ New Features:
 - Data is now refreshed when :guilabel:`Find` is clicked in the query
   bar.
 
-- Improvements to :ref:`schema analysis <schema-tab>` to prevent
+- Improvements to :ref:`schema analysis <compass-schema-tab>` to prevent
   timeouts with large datasets.
 
 Bug Fixes:
@@ -1730,7 +1730,7 @@ Bug Fixes:
 
 - Added support for:
 
-  - :ref:`Views <view-details>`. You can create
+  - :ref:`Views <compass-view-details>`. You can create
     views based on results from an
     :ref:`aggregation pipeline <compass-agg-builder>`.
 
@@ -1739,7 +1739,7 @@ Bug Fixes:
   - Killing long-running operations from the
     :ref:`Performance Tab <kill-long-ops>`.
   
-  - :ref:`Adjusting the maximum timeout <query-bar-max-time-ms>` for
+  - :ref:`Adjusting the maximum timeout <compass-query-bar-max-time-ms>` for
     queries executed in the Query Bar.
 
 - New settings available in the
@@ -1771,7 +1771,7 @@ Bug Fixes:
 
 - Added support for Ubuntu 18.10 and other recent Linux distributions.
 
-- New :ref:`Schema Validation <validation>` experience.
+- New :ref:`Schema Validation <compass-validation>` experience.
 
   - Added support for
     :manual:`JSON schema validation </core/schema-validation/#json-schema>`.
@@ -1935,11 +1935,11 @@ Bug Fixes:
 
   - x509 Authentication
 
-  - :ref:`Schema Analysis <schema-tab>`
+  - :ref:`Schema Analysis <compass-schema-tab>`
 
   - :ref:`Real Time Server Stats <compass-performance>`
 
-  - :ref:`Document Validation <validation>`
+  - :ref:`Document Validation <compass-validation>`
 
 |compass| 1.9
 -------------
@@ -1951,9 +1951,9 @@ Bug Fixes:
 - Query History
    Compass automatically stores up to 20 most recent queries for each
    collection. From the past queries view for a collection, you can
-   view the :ref:`recent <recent-queries>` queries as well as the
-   queries saved as :ref:`favorites <favorite-queries>` . For more
-   information, see :ref:`past-query-view`.
+   view the :ref:`recent <compass-recent-queries>` queries as well as the
+   queries saved as :ref:`favorites <compass-favorite-queries>` . For more
+   information, see :ref:`compass-past-query-view`.
 
 - Deployment Awareness
    When a user connects to a :ref:`MongoDB instance <compass-home-screen>`,
@@ -2022,7 +2022,7 @@ Bug Fixes:
 
 - Added ability to :ref:`create indexes <compass-create-index>`.
 
-- Added support for :ref:`document validation <validation>`.
+- Added support for :ref:`document validation <compass-validation>`.
 
 - Improved security when connecting to Atlas. During Connection setup,
   |compass| supports the use of System Certificate Authority for
