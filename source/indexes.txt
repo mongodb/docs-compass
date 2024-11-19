@@ -81,6 +81,8 @@ Create an Index
 
 .. include:: /includes/steps/create-index.rst
 
+.. BEGIN-COMPASS-ONLY
+
 Create an Atlas Search Index
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -94,6 +96,8 @@ Create an Atlas Vector Search Index
 Atlas Vector Search indexes enable you to index vector data *and* other data 
 types, which facilitates semantic searches on the indexed fields. For more
 information, see :ref:`compass-create-vector-search`. 
+
+.. END-COMPASS-ONLY
 
 .. _compass-wildcard-index:
 
@@ -185,8 +189,12 @@ Limitations
      :ref:`Atlas CLI <atlas-cli>`, or the 
      :ref:`Atlas Administration API <atlas-admin-api>`. 
 
+.. BEGIN-COMPASS-ONLY
+
 .. toctree::
    :titlesonly:
 
    Atlas Search Index </indexes/create-search-index>
    Atlas Vector Search Index </indexes/create-vector-search-index>
+
+.. END-COMPASS-ONLY

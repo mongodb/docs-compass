@@ -448,10 +448,14 @@ Clear the Query
 
 .. include:: /includes/clear-query.rst
 
+.. BEGIN-COMPASS-ONLY
+
 Query Collections with Invalid UTF8 Data
 ----------------------------------------
 
 .. include:: /includes/fact-non-utf8-data.rst
+
+.. END-COMPASS-ONLY
 
 How Does the Compass Query Compare to MongoDB and SQL Queries?
 --------------------------------------------------------------

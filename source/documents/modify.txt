@@ -213,9 +213,11 @@ Modify Multiple Documents
 You can use the bulk update operations workflow to update multiple 
 documents in Compass. For details, see :ref:`compass-bulk-update`.
 
+.. BEGIN-COMPASS-ONLY
 .. note::
 
    You can also use the :manual:`db.collection.updateMany()
    </reference/method/db.collection.updateMany/>` method in the
    :ref:`embedded MongoDB Shell <embedded-mongodb-shell>` to update
    multiple documents in a single operation.
+.. END-COMPASS-ONLY

@@ -100,13 +100,17 @@ view:
 
 - :ref:`compass-documents`
 
+.. BEGIN-COMPASS-ONLY
+
 - :ref:`compass-import-export` to and from the collection
+
+.. END-COMPASS-ONLY
 
 - :ref:`compass-agg-builder`
 
 - :ref:`Schema Analysis <compass-schema-tab>`
 
-- :ref:`explain-plans`
+- :ref:`compass-explain-plans`
 
 - :ref:`compass-indexes`
 
