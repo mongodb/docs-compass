@@ -99,7 +99,7 @@ Steps
          The documents under the :guilabel:`Preview` header show how the 
          :guilabel:`Update` syntax affects documents in your collection.
 
-.. BEGIN-COMPASS-ONLY
+   .. BEGIN-COMPASS-ONLY
 
    .. step:: (Optional) Name and save your :guilabel:`Update`
 
@@ -114,7 +114,7 @@ Steps
       #. Enter a name for the update syntax.
       #. Click the green :guilabel:`Save` button.
 
-.. END-COMPASS-ONLY
+   .. END-COMPASS-ONLY
 
    .. step:: Update your documents
 
