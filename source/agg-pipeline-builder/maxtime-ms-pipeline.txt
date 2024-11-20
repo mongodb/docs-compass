@@ -61,11 +61,14 @@ Steps
 
 Learn More 
 ----------
+.. BEGIN-COMPASS-ONLY
 
 - :ref:`cli-options`
 
 - :ref:`config-file-options`
 
 - :ref:`compass-interface-settings`
+
+.. END-COMPASS-ONLY
 
 - :ref:`compass-query-bar-max-time-ms`

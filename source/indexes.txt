@@ -104,8 +104,6 @@ information, see :ref:`compass-create-vector-search`.
 Create a Wildcard Index
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: v4.2
-
 You can create :manual:`wildcard indexes </core/index-wildcard/>` to
 support queries against unknown or arbitrary fields. To create a
 wildcard index in |compass-short|, manually type the wildcard index
@@ -170,6 +168,8 @@ Drop an Index
 
 .. include:: /includes/steps/drop-index.rst
 
+.. BEGIN-COMPASS-ONLY
+
 Limitations
 -----------
 
@@ -188,8 +188,6 @@ Limitations
      you can manage your Atlas Search indexes using the Atlas UI, the 
      :ref:`Atlas CLI <atlas-cli>`, or the 
      :ref:`Atlas Administration API <atlas-admin-api>`. 
-
-.. BEGIN-COMPASS-ONLY
 
 .. toctree::
    :titlesonly:

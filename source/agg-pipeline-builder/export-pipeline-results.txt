@@ -59,10 +59,6 @@ Steps
 Learn More 
 ----------
 
-.. BEGIN-COMPASS-ONLY
-
 - :ref:`export-data-collection`
-
-.. END-COMPASS-ONLY
 
 - :ref:`compass-export-pipeline`
