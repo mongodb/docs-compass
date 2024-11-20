@@ -1,0 +1,49 @@
+.. _compass-telemetry:
+
+===========================
+Configure Telemetry Options
+===========================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+|compass-short| collects anonymous aggregated usage data to improve
+MongoDB products. |compass-short| collects this information by default,
+but you can disable this data collection at any time.
+
+What Kind of Data |compass-short| Tracks
+----------------------------------------
+
+|compass-short| tracks the following data:
+
+- The type of MongoDB deployment |compass-short| is connected to. For
+  example, Enterprise Edition, Community Edition, or Atlas Data Lake.
+
+- User actions performed in |compass-short|, such as creating
+  collections and indexes. |compass-short| only tracks the general
+  action performed, and does not track field values or namespaces.
+
+- Errors.
+
+|compass-short| *does not* track:
+
+- IP addresses, hostnames, usernames, or credentials.
+
+- Queries run in |compass-short|.
+
+- Data stored in your MongoDB deployment.
+
+- Personal identifiable information.
+
+For more information, see `MongoDB's Privacy Policy
+<https://www.mongodb.com/legal/privacy-policy?tck=docs_mongosh>`__.
+
+Toggle Telemetry Collection
+---------------------------
+
+To modify whether |compass-short| collections telemetry data, 
