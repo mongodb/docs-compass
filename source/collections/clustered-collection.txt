@@ -69,6 +69,6 @@ Next Steps
 
 - :ref:`Manage Documents <compass-documents>`
 
-- :ref:`Query Your Data<compass-query-bar>`
+- :ref:`Query Your Data <compass-query-bar>`
 
 - :ref:`Analyze Your Data Scheme <compass-schema-tab>`
