@@ -30,7 +30,7 @@ About this Task
 
 - Previews of the documents affected by bulk update operations are 
   only visible if your database is configured to support transactions.
-  For details, see :manual:`Transactions </core/transactions/>`. 
+  For details, see :ref:`transactions`. 
 
 .. BEGIN-COMPASS-ONLY
 
