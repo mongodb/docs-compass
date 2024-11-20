@@ -16,8 +16,8 @@ Configure Telemetry Options
 MongoDB products. |compass-short| collects this information by default,
 but you can disable this data collection at any time.
 
-What Kind of Data |compass-short| Tracks
-----------------------------------------
+About this Task
+---------------
 
 |compass-short| tracks the following data:
 
@@ -43,7 +43,88 @@ What Kind of Data |compass-short| Tracks
 For more information, see `MongoDB's Privacy Policy
 <https://www.mongodb.com/legal/privacy-policy?tck=docs_mongosh>`__.
 
-Toggle Telemetry Collection
----------------------------
+.. tip::
 
-To modify whether |compass-short| collections telemetry data, 
+   |compass-short| Isolated Edition automatically disables telemetry.
+   For more information on different |compass-short| editions, see
+   :ref:`compass-feature-table`.
+
+Steps
+-----
+
+You can toggle telemetry in either: 
+
+- The |compass-short| :ref:`Settings panel <compass-settings-reference>`
+
+- A :ref:`command line option <cli-options>`
+
+- A :ref:`configuration file <config-file>`
+
+|compass-short| Settings Panel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. procedure:: 
+   :style: normal
+   
+   .. step:: In the |compass-short| top menu bar, click :guilabel:`MongoDB Compass`
+
+      .. figure:: /images/compass/settings-panel-location.png
+         :scale: 40% 
+         :alt: Settings panel location under the MongoDB Compass system menu
+
+   .. step:: In the :guilabel:`MongoDB Compass` menu, click :guilabel:`Settings`
+
+      |compass-short| opens a dialog box where you can configure your
+      |compass| settings.
+
+      .. tip::
+
+         Alternatively, you can use keyboard shortcuts to open the 
+         :guilabel:`Settings` panel: 
+         
+         - Windows / Linux: ``Ctrl`` + ``,``
+         
+         - Mac: ``⌘`` + ``,``
+
+   .. step:: In the :guilabel:`Settings`` window, select :guilabel:`Privacy`
+   
+   .. step:: Toggle :guilabel:`Enable Usage Statistics`.
+
+   .. step:: Click :guilabel:`Save`.
+
+Command Line
+~~~~~~~~~~~~
+
+To disable telemetry from the command line, start |compass-short| with
+the ``--no-trackUsageStatistics`` option.
+
+.. code-block:: sh
+
+   <path-to-Compass-executable> --no-trackUsageStatistics
+
+.. note::
+
+  The name and filepath of the |compass-short| executable depend on your
+  operating system. For more information, see
+  :ref:`compass-executable-location`.
+
+Configuration File
+~~~~~~~~~~~~~~~~~~
+
+To disable telemetry from the |compass-short| configuration file, set
+``trackUsageStatistics`` to ``false``.
+
+EJSON
+`````
+
+.. code-block:: json
+
+   { "trackUsageStatistics": false }
+
+YAML
+````
+
+.. code-block:: yaml
+
+   trackUsageStatistics: false
+  
