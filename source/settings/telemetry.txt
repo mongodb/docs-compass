@@ -58,26 +58,25 @@ You can toggle telemetry in either:
 
 - The |compass-short| :ref:`Settings panel <compass-settings-reference>`
 
-- A :ref:`command line option <cli-options>`
+- :ref:`Command line options <cli-options>`
 
-- A :ref:`configuration file <config-file>`
+- :ref:`Configuration file options <config-file>`
 
-|compass-short| Settings Panel
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Settings Panel
+~~~~~~~~~~~~~~
 
 .. procedure:: 
    :style: normal
    
-   .. step:: In the |compass-short| top menu bar, click :guilabel:`MongoDB Compass`
-
-      .. figure:: /images/compass/settings-panel-location.png
-         :scale: 40% 
-         :alt: Settings panel location under the MongoDB Compass system menu
-
-   .. step:: Click :guilabel:`Settings`
-
-      |compass-short| opens a window where you can configure your
-      settings.
+   .. step:: Open the Settings window
+      
+      a. In the |compass-short| top menu bar, click :guilabel:`MongoDB Compass`
+      
+      b. Click :guilabel:`Settings`
+      
+         .. figure:: /images/compass/settings-panel-location.png
+            :scale: 40% 
+            :alt: Settings panel location under the MongoDB Compass system menu
 
       .. tip::
 
