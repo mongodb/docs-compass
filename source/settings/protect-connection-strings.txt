@@ -49,34 +49,30 @@ You can set the ``protectConnectionStrings`` option in either:
 .. procedure:: 
    :style: normal
    
-   .. step:: In the |compass-short| top menu bar, click :guilabel:`MongoDB Compass`
+   .. step:: In the |compass-short| top menu bar, click :guilabel:`MongoDB Compass`. 
 
       .. figure:: /images/compass/settings-panel-location.png
          :scale: 40% 
          :alt: Settings panel location under the MongoDB Compass system menu
+      
+      Alternatively, you can use keyboard shortcuts to open the 
+      :guilabel:`Settings` panel: 
+      
+      - Windows / Linux: ``Ctrl`` + ``,``
+      
+      - Mac: ``⌘`` + ``,``
 
-   .. step:: In the :guilabel:`MongoDB Compass` menu, click :guilabel:`Settings`
+   .. step:: In the :guilabel:`MongoDB Compass` menu, click :guilabel:`Settings`.
 
-      |compass-short| opens a dialog box where you can configure your
-      |compass| settings.
+      |compass-short| opens a dialog box where you can configure your |compass| 
+      settings.
 
-      .. tip::
-
-         Alternatively, you can use keyboard shortcuts to open the 
-         :guilabel:`Settings` panel: 
-         
-         - Windows / Linux: ``Ctrl`` + ``,``
-         
-         - Mac: ``⌘`` + ``,``
-
-   .. step:: In the :guilabel:`Settings`` window, select :guilabel:`Privacy`
-   
-   .. step:: Toggle :guilabel:`Enable Usage Statistics`.
+   .. step:: Toggle :guilabel:`Protect Connection String Secrets`.
 
    .. step:: Click :guilabel:`Save`.
 
-Command Line
-~~~~~~~~~~~~
+Command Line Example
+~~~~~~~~~~~~~~~~~~~~
 
 The following command starts |compass-short| from the command line and sets
 the ``--protectConnectionStrings`` option:
