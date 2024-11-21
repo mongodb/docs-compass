@@ -72,10 +72,10 @@ You can toggle telemetry in either:
          :scale: 40% 
          :alt: Settings panel location under the MongoDB Compass system menu
 
-   .. step:: In the :guilabel:`MongoDB Compass` menu, click :guilabel:`Settings`
+   .. step:: Click :guilabel:`Settings`
 
-      |compass-short| opens a dialog box where you can configure your
-      |compass| settings.
+      |compass-short| opens a window where you can configure your
+      settings.
 
       .. tip::
 
@@ -86,11 +86,11 @@ You can toggle telemetry in either:
          
          - Mac: ``⌘`` + ``,``
 
-   .. step:: In the :guilabel:`Settings`` window, select :guilabel:`Privacy`
+   .. step:: In the :guilabel:`Settings` window, click :guilabel:`Privacy`
    
-   .. step:: Toggle :guilabel:`Enable Usage Statistics`.
+   .. step:: Toggle :guilabel:`Enable Usage Statistics`
 
-   .. step:: Click :guilabel:`Save`.
+   .. step:: Click :guilabel:`Save`
 
 Command Line
 ~~~~~~~~~~~~
