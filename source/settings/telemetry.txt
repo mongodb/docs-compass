@@ -4,7 +4,9 @@
 Configure Telemetry Options
 ===========================
 
-.. default-domain:: mongodb
+.. facet::
+   :name: genre
+   :values: tutorial
 
 .. contents:: On this page
    :local:
@@ -14,7 +16,7 @@ Configure Telemetry Options
 
 |compass-short| collects anonymous aggregated usage data to improve
 MongoDB products. |compass-short| collects this information by default,
-but you can disable this data collection at any time.
+but you can disable this data collection.
 
 About this Task
 ---------------
