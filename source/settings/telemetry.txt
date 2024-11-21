@@ -65,7 +65,7 @@ You can toggle telemetry in either:
 Settings Panel
 ~~~~~~~~~~~~~~
 
-To disable telemetry from the |compass-short| settings:
+To toggle telemetry from the |compass-short| settings:
 
 .. procedure:: 
    :style: normal
