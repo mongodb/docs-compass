@@ -128,4 +128,3 @@ YAML
 .. code-block:: yaml
 
    trackUsageStatistics: false
-  
