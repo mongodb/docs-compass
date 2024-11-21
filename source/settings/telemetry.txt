@@ -27,17 +27,20 @@ About this Task
   For example, Enterprise Edition, Community Edition, or Atlas Data
   Lake.
 
+- Hostnames of the deployments that you connect |compass-short| to.
+
 - Actions that you perform in |compass-short|, such as creating
   collections and indexes. Telemetry only tracks the general action
   performed, and does not track field values or namespaces.
+
+- Anonymized queries run in |compass-short|. These queries are stored
+  such that they cannot be associated to individual users.
 
 - Errors.
 
 |compass-short| *does not* track:
 
-- IP addresses, hostnames, usernames, or credentials
-
-- Queries run in |compass-short|
+- IP addresses, usernames, or credentials
 
 - Data stored in your MongoDB deployment
 
