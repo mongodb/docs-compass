@@ -21,26 +21,27 @@ but you can disable this data collection.
 About this Task
 ---------------
 
-|compass-short| tracks the following data:
+|compass-short| telemetry tracks the following data:
 
-- The type of MongoDB deployment |compass-short| is connected to. For
-  example, Enterprise Edition, Community Edition, or Atlas Data Lake.
+- The type of MongoDB deployment that you connect |compass-short| to.
+  For example, Enterprise Edition, Community Edition, or Atlas Data
+  Lake.
 
-- User actions performed in |compass-short|, such as creating
-  collections and indexes. |compass-short| only tracks the general
-  action performed, and does not track field values or namespaces.
+- Actions that you perform in |compass-short|, such as creating
+  collections and indexes. Telemetry only tracks the general action
+  performed, and does not track field values or namespaces.
 
 - Errors.
 
 |compass-short| *does not* track:
 
-- IP addresses, hostnames, usernames, or credentials.
+- IP addresses, hostnames, usernames, or credentials
 
-- Queries run in |compass-short|.
+- Queries run in |compass-short|
 
-- Data stored in your MongoDB deployment.
+- Data stored in your MongoDB deployment
 
-- Personal identifiable information.
+- Personal identifiable information
 
 For more information, see `MongoDB's Privacy Policy
 <https://www.mongodb.com/legal/privacy-policy?tck=docs_mongosh>`__.
@@ -56,21 +57,22 @@ Steps
 
 You can toggle telemetry in either: 
 
-- The |compass-short| :ref:`Settings panel <compass-settings-reference>`
+- The |compass-short| :ref:`Settings window
+  <compass-settings-reference>`
 
 - :ref:`Command line options <cli-options>`
 
 - :ref:`Configuration file options <config-file>`
 
-Settings Panel
-~~~~~~~~~~~~~~
+Settings Window
+~~~~~~~~~~~~~~~
 
 To toggle telemetry from the |compass-short| settings:
 
 .. procedure:: 
    :style: normal
    
-   .. step:: Open the Settings window
+   .. step:: Open the Settings window.
       
       a. In the |compass-short| top menu bar, click :guilabel:`MongoDB Compass`
       
@@ -78,22 +80,22 @@ To toggle telemetry from the |compass-short| settings:
       
          .. figure:: /images/compass/settings-panel-location.png
             :scale: 40% 
-            :alt: Settings panel location under the MongoDB Compass system menu
+            :alt: Settings window location under the MongoDB Compass system menu
 
       .. tip::
 
-         Alternatively, you can use keyboard shortcuts to open the 
-         :guilabel:`Settings` panel: 
+         Alternatively, you can use keyboard shortcuts to open the
+         :guilabel:`Settings` window: 
          
          - Windows / Linux: ``Ctrl`` + ``,``
          
          - Mac: ``⌘`` + ``,``
 
-   .. step:: In the :guilabel:`Settings` window, click :guilabel:`Privacy`
+   .. step:: In the left pane of the :guilabel:`Settings` window, click :guilabel:`Privacy`.
    
-   .. step:: Toggle :guilabel:`Enable Usage Statistics`
+   .. step:: Toggle :guilabel:`Enable Usage Statistics`.
 
-   .. step:: Click :guilabel:`Save`
+   .. step:: Click :guilabel:`Save`.
 
 Command Line
 ~~~~~~~~~~~~
