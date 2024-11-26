@@ -58,7 +58,7 @@ Connect
 -------
 
 If your connection name is already in the :guilabel:`Connections
-Sidebar` of your |compass-short| window, click on the connection name to
+Sidebar` of your Compass window, click on the connection name to
 connect. 
 
 Otherwise, you can connect your deployments by either:
@@ -103,8 +103,8 @@ Use Advanced Connection Options
 
 For details, see :ref:`advanced-connection-options`.
 
-Connect to |compass-short| from the Command Line
-------------------------------------------------
+Connect to Compass from the Command Line
+----------------------------------------
 
 .. include:: /includes/intro-command-line-connection.rst
 

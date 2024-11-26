@@ -60,7 +60,7 @@ This example exports saved |compass-short| connections to a file with
 the path ``/tmp/compass-connections/favorites-encrypted.json``. The exported file
 is encrypted with the passphrase ``abc123``.
 
-Run the following command in the folder containing your |compass|
+Run the following command in the folder containing your MongoDB Compass
 executable:
 
 .. code-block:: sh
@@ -167,7 +167,7 @@ Example
 This example exports saved |compass-short| connections to a file with
 the path ``/tmp/compass-connections/favorites.json``.
 
-Run the following command in the folder containing your |compass|
+Run the following command in the folder containing your MongoDB Compass
 executable:
 
 .. code-block:: sh

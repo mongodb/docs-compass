@@ -1,8 +1,8 @@
 .. _verify-signatures-compass:
 
-============================================
-Verify Integrity of |compass-short| Packages
-============================================
+====================================
+Verify Integrity of Compass Packages
+====================================
 
 .. contents:: On this page
    :local:
