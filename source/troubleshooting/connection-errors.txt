@@ -190,7 +190,7 @@ top-level Compass dropdown menu and selecting
 :guilabel:`About MongoDB Compass`.
 
 To perform write operations, you must download a different edition
-of MongoDB. For more information on the differences between
+of MongoDB Compass. For more information on the differences between
 Compass editions, see
 :ref:`Capabilities of Compass Editions <compass-feature-table>`.
 
