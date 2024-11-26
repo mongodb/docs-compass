@@ -1,8 +1,8 @@
 .. _compass-connection-errors:
 
-=========================
-Compass Connection Errors
-=========================
+=================================
+|compass-short| Connection Errors
+=================================
 
 .. default-domain:: mongodb
 
@@ -18,7 +18,7 @@ The sections on this page list common errors seen when connecting to
 MongoDB Not Running on the Provided Host and Port
 -------------------------------------------------
 
-Your connection failed when Compass attempted to connect to your
+Your connection failed when |compass-short| attempted to connect to your
 database on the specified host and port.
 
 Likely Causes
@@ -181,17 +181,17 @@ replica set name using the following procedure:
 
 .. include:: /includes/fact-get-replica-set-name-steps.rst
 
-Check Your Compass Edition
-``````````````````````````
+Check Your |compass-short| Edition
+``````````````````````````````````
 
 You cannot perform write operations in :guilabel:`Compass Readonly`
-edition. You can check your Compass edition by opening the
-top-level Compass dropdown menu and selecting
+edition. You can check your |compass-short| edition by opening the
+top-level |compass-short| dropdown menu and selecting
 :guilabel:`About MongoDB Compass`.
 
 To perform write operations, you must download a different edition
-of MongoDB Compass. For more information on the differences between
-Compass editions, see
+of |compass|. For more information on the differences between
+|compass-short| editions, see
 :ref:`Capabilities of Compass Editions <compass-feature-table>`.
 
 Connection to Cluster Shard Closed
@@ -271,8 +271,8 @@ replica set name using the following procedure:
 
 .. include:: /includes/fact-get-replica-set-name-steps.rst
 
-Allow Compass to Connect to the Secondary
-`````````````````````````````````````````
+Allow |compass-short| to Connect to the Secondary
+`````````````````````````````````````````````````
 Another approach to resolving this error is to allow |compass-short| to
 connect to a secondary cluster member. Change your
 :guilabel:`Read Preference` to either :guilabel:`Primary Preferred` or
@@ -339,8 +339,8 @@ Solutions
 - Verify that your selected authentication mechanism is supported by
   your MongoDB database.
 
-Check the Compass Logs
-----------------------
+Check the |compass-short| Logs
+------------------------------
 
 The |compass-short| logs can provide additional information on
 connection errors. You may find more detailed error messages to help

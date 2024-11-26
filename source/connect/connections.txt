@@ -17,7 +17,7 @@ Connections Sidebar
    .. include:: /includes/multiple-connections.rst
 
 
-The :guilabel:`Connections Sidebar` on the left of the Compass window
+The :guilabel:`Connections Sidebar` on the left of the |compass-short| window
 contains the following options:
 
 - :icon-lg:`Plus` icon to add new connections
@@ -42,15 +42,15 @@ Connect to MongoDB
 
 To connect to a saved or favorite deployment, click the name of the
 connection in the :guilabel:`Connections` list. Once you connect,
-Compass shows a success toast and displays a green dot next to the
+|compass-short| shows a success toast and displays a green dot next to the
 connection name. 
 
-If a connection error occurs, Compass shows a toast with error
+If a connection error occurs, |compass-short| shows a toast with error
 information and displays a red triangle next to the connection name. To
 see additional error information, click :guilabel:`Review` in the error
 toast. 
 
-To add a new connection to Compass, click the :icon-lg:`Plus` button at
+To add a new connection to |compass-short|, click the :icon-lg:`Plus` button at
 the top of the :guilabel:`Connections Sidebar` to open the
 :guilabel:`New Connection` modal. For more information, see
 :ref:`connect-run-compass`. 

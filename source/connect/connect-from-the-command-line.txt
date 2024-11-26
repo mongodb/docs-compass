@@ -1,8 +1,8 @@
 .. _comp-command-line-connect:
 
-===================================
-Start Compass from the Command Line
-===================================
+===========================================
+Start |compass-short| from the Command Line
+===========================================
 
 .. default-domain:: mongodb
 
@@ -27,8 +27,8 @@ the command line.
 
 .. _compass-executable-location:
 
-Compass Executable Location
----------------------------
+|compass-short| Executable Location
+-----------------------------------
 
 .. include:: /includes/compass-executable.rst 
 
@@ -51,7 +51,7 @@ the configuration file. The format is:
 
 .. note:: 
 
-   If the username and password arguments are not provided, Compass uses
+   If the username and password arguments are not provided, |compass-short| uses
    the credentials in the connection string.
 
 
@@ -71,7 +71,7 @@ Username and Password Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This example uses the ``username`` and ``password`` parameters to 
-authenticate Compass to the MongoDB deployment provided in the 
+authenticate |compass-short| to the MongoDB deployment provided in the 
 connection string:
 
 .. code-block:: shell
@@ -106,7 +106,7 @@ The components of the command invocation are:
 
 To create the connection configuration file, follow the steps to
 :ref:`export the connection details <compass-export-connections-cli>`
-from your Compass instance. The export process creates a file that
+from your |compass-short| instance. The export process creates a file that
 includes all of your favorite connections.
 
 .. important::

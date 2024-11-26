@@ -18,7 +18,7 @@ privileges:
    :header-rows: 1
    :widths: 25 30 25 20
 
-   * - Compass View
+   * - |compass-short| View
      - Capability
      - Privilege(s)
      - MongoDB Built-In Role

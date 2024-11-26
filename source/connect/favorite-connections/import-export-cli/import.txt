@@ -62,7 +62,7 @@ a file with the path
 ``/tmp/compass-connections/favorites-encrypted.json`` that is encrypted
 with the passphrase ``abc123``.
 
-Run the following command in the folder containing your MongoDB Compass
+Run the following command in the folder containing your |compass|
 executable:
 
 .. code-block:: sh
@@ -86,7 +86,7 @@ After you run the import command, you will see this output:
 
    Importing connections from "/tmp/compass-connections/favorites-encrypted.json" (with passphrase)
    
-MongoDB Compass starts and you will see the imported connections under
+|compass| starts and you will see the imported connections under
 :guilabel:`Saved Connections` on the Connect screen.
 
 Errors
@@ -141,7 +141,7 @@ Example
 The following example imports saved |compass-short| connections from
 a file with the path ``/tmp/compass-connections/favorites.json``.
 
-Run the following command in the folder containing your MongoDB Compass
+Run the following command in the folder containing your |compass|
 executable:
 
 .. code-block:: sh
@@ -163,5 +163,5 @@ After you run the import command, you will see this output:
 
    Importing connections from "/tmp/compass-connections/favorites.json" (without passphrase)
    
-MongoDB Compass starts and you will see the imported connections under
+|compass| starts and you will see the imported connections under
 :guilabel:`Saved Connections` on the Connect screen.

@@ -33,7 +33,7 @@ clicking the collection in the left-side navigation.
 
 .. note::
 
-   Compass is not a tool for backing up data. For information on backup
+   |compass-short| is not a tool for backing up data. For information on backup
    solutions, see :ref:`backup-methods`. 
 
 .. _import-data:
@@ -133,7 +133,7 @@ during import, the progress bar turns red and an error message
 appears in the dialog. To see all errors, click :guilabel:`View Log`. 
 
 After successful import, the dialog closes and
-Compass displays the collection page containing the newly imported
+|compass-short| displays the collection page containing the newly imported
 documents.
 
 .. _export-data-collection:

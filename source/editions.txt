@@ -12,9 +12,9 @@ suit your needs.
    :widths: 40 15 15 15
 
    * -
-     - Compass
-     - Compass Readonly
-     - Compass Isolated
+     - |compass-short|
+     - |compass-short| Readonly
+     - |compass-short| Isolated
 
    * - Interact with :ref:`documents <compass-documents>`,
        :ref:`collections <compass-collection-tab>`, and

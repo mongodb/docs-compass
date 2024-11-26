@@ -14,8 +14,8 @@ FAQ
 
 .. _compass-faq-isolated:
 
-What is the Compass Isolated Edition?
--------------------------------------
+What is the |compass-short| Isolated Edition?
+---------------------------------------------
 
 .. include:: /includes/fact-isolated-edition-firewall.rst
 
@@ -31,8 +31,8 @@ database to avoid scanning the entire collection.
 
 .. _compass-faq-confidential-data:
 
-How does Compass handle confidential data?
-------------------------------------------
+How does |compass-short| handle confidential data?
+--------------------------------------------------
 
 |compass| stores and retrieves sensitive data such as passwords
 using a credentials API specific to the operating system running
@@ -55,8 +55,8 @@ how Keytar operates and the specific APIs it accesses, refer to the
 
 .. _compass-faq-logs:
 
-Does Compass Maintain Logs?
----------------------------
+Does |compass-short| Maintain Logs?
+-----------------------------------
 
 As part of normal operation, |compass| maintains a running log of
 events. |compass-short| logs provide a history of operations and can
@@ -73,17 +73,17 @@ Why am I seeing a warning about a non-genuine MongoDB server?
 What happens to long running queries?
 -------------------------------------
 
-As a precaution, Compass aborts long running queries to prevent
+As a precaution, |compass-short| aborts long running queries to prevent
 excessive querying on your database.
 
 Slow Sampling
 ~~~~~~~~~~~~~
 
-All queries that Compass sends to your MongoDB instance have a timeout
+All queries that |compass-short| sends to your MongoDB instance have a timeout
 flag set which automatically aborts a request if it takes longer than
 the specified timeout. This timeout is currently set to 10 seconds. If
-:ref:`sampling <compass-sampling>` on the database takes longer, Compass will 
-notify you about the timeout and give you the options of (a) retrying 
+:ref:`sampling <compass-sampling>` on the database takes longer, |compass-short| 
+will notify you about the timeout and give you the options of (a) retrying 
 with a longer timeout (60 seconds) or (b) running a different query.
 
 .. note::
@@ -101,7 +101,7 @@ Slow Schema Analysis
 
 If the database returns documents faster than the specified timeout (10
 or 60 seconds), but the schema analysis of the documents takes longer
-than expected (due to complex, large documents), Compass gives you the
+than expected (due to complex, large documents), |compass-short| gives you the
 option to abort the analysis step and show the partial results.
 
 Why are some features of |compass| not working?
@@ -121,7 +121,7 @@ external services to enable features such as:
 To fix this issue, configure your system firewall to allow incoming
 connections for |compass|. Ensure ports ``80`` and ``443`` are open
 between |compass| and the host for the MongoDB deployment to which
-Compass connects.
+|compass-short| connects.
 
 .. include:: /includes/fact-isolated-edition-firewall.rst
 
