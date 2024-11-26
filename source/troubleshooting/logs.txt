@@ -1,8 +1,8 @@
 .. _compass-logs:
 
-=============================
-Retrieve |compass-short| Logs
-=============================
+=====================
+Retrieve Compass Logs
+=====================
 
 .. default-domain:: mongodb
 
@@ -20,8 +20,8 @@ help diagnose errors.
 
    |compass| redacts credentials from the logs.
 
-View |compass-short| Logs
--------------------------
+View Compass Logs
+-----------------
 
 .. procedure::
    :style: normal
@@ -42,8 +42,8 @@ View |compass-short| Logs
 
       - Extract the log file and view it as a text file.
 
-|compass-short| Log Location
-----------------------------
+Compass Log Location
+--------------------
 
 |compass-short| maintains one log file per session, compressed into a
 gzip archive file. The corresponding session ID is included in the log
