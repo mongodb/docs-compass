@@ -74,8 +74,9 @@ Settings
        aggregation generation requests. These values can improve
        the results from the AI.
 
-       When the ``enableGenAIFeatures`` setting is not set to
-       ``false``, this setting implicitly sets it to ``true``.
+       This setting implicitly sets the ``enableGenAIFeatures``
+       setting to ``true``. If you don't want this setting
+       enabled, set ``enableGenAIFeatures`` to ``false``.
 
    * - :ref:`enableDevTools <compass-enable-dev-tools>`
      - Enable Chrome DevTools in |compass-short|.
