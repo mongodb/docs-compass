@@ -99,7 +99,7 @@ documents in List, JSON, or Table view:
 
       .. include:: /includes/fact-modify-findOneAndUpdate.rst
 
-      .. include:: /includes/fact-modify-prevent-overwrites.rst
+      .. include:: /includes/shared/fact-modify-prevent-overwrites.rst
 
       Save Changes
       ~~~~~~~~~~~~
@@ -144,7 +144,7 @@ documents in List, JSON, or Table view:
 
       .. include:: /includes/fact-modify-findOneAndReplace.rst
 
-      .. include:: /includes/fact-modify-prevent-overwrites.rst
+      .. include:: /includes/shared/fact-modify-prevent-overwrites.rst
 
    .. tab:: Table View
       :tabid: table-view
@@ -160,7 +160,7 @@ documents in List, JSON, or Table view:
 
       .. include:: /includes/fact-modify-findOneAndUpdate.rst
       
-      .. include:: /includes/fact-modify-prevent-overwrites.rst
+      .. include:: /includes/shared/fact-modify-prevent-overwrites.rst
 
       Delete Fields
       ~~~~~~~~~~~~~
