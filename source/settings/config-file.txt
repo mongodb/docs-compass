@@ -75,9 +75,7 @@ Settings
        the results from the AI.
 
        If ``true``, this setting implicitly sets the
-       ``enableGenAIFeatures`` setting to ``true``. If you don't
-       want this setting enabled, you must explicitly set
-       ``enableGenAIFeatures`` to ``false``.
+       ``enableGenAIFeatures`` setting to ``true``. 
 
    * - :ref:`enableDevTools <compass-enable-dev-tools>`
      - Enable Chrome DevTools in |compass-short|.
