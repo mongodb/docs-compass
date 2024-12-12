@@ -109,8 +109,8 @@ For fields that contain multiple data types,
 |compass-short| displays a percentage breakdown of
 the various data types across documents. In the example below,
 the chart shows the contents of a field called ``phone_no`` in which
-80% of documents are of type ``string``, and the remaining 20% are of
-type ``number``.
+20% of documents are of type ``int32``, and the remaining 80% are of
+type ``string``.
 
 .. figure:: /images/compass/field-percentage-breakdown.png
    :figwidth: 330px
