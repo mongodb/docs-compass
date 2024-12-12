@@ -35,13 +35,16 @@ Steps
 
 .. procedure:: 
    :style: normal
-   
+
    .. step:: Find the index you want to use in your query
 
       From the :guilabel:`Indexes` tab, click :guilabel:`Search Indexes`. 
-      Hover over the search index you want to use in your query. Click the 
-      :guilabel:`Aggregate` button that appears to open the aggregation 
-      pipeline builder.
+      Hover over the search index you want to use in your query. 
+      
+   .. step:: Open the aggregation pipeline builder
+      
+      Click the :guilabel:`Aggregate` button that appears when you hover over 
+      your search index.
          
    .. step:: Construct your query
       
