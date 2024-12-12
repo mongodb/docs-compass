@@ -12,10 +12,11 @@ Run Atlas Search Queries
    :depth: 1
    :class: singlecol
 
-If you have an existing Atlas Search Index for data on your Atlas cluster, you 
-can run :pipeline:`$search` and :pipeline:`$searchMeta` queries. If you have an 
-existing Atlas Vector search index on your data in Atlas, you can also run 
-:pipeline:`$vectorSearch` queries. 
+Atlas Search queries take the form of an :ref:`aggregation pipeline stage 
+<compass-agg-builder>`. If you have an existing Atlas Search Index for data on 
+your Atlas cluster, you can run :pipeline:`$search` and :pipeline:`$searchMeta` 
+queries. If you have an  existing Atlas Vector search index on your data in 
+Atlas, you can also run :pipeline:`$vectorSearch` queries. 
 
 Before You Begin 
 ----------------
