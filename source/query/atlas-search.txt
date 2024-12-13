@@ -12,7 +12,7 @@ Run Atlas Search Queries
    :depth: 1
    :class: singlecol
 
-Atlas Search queries take the form of an :ref:`aggregation pipeline stage 
+Atlas Search queries are run as an :ref:`aggregation pipeline stage 
 <compass-agg-builder>`. If you have an existing Atlas Search Index for data on 
 your Atlas cluster, you can run :pipeline:`$search` and :pipeline:`$searchMeta` 
 queries. If you have an  existing Atlas Vector search index on your data in 
@@ -26,9 +26,12 @@ Create an :ref:`Atlas Search index <compass-create-search-index>` or an
 
 .. note:: 
    
-   You can manage Atlas Search indexes in the |compass-short| UI if your 
-   deployment is local, has an Atlas cluster tier of M10 or larger, and runs 
-   MongoDB 7.0 or later. 
+   Atlas Search index management in the |compass-short| UI is available only 
+   for: 
+   
+   - Atlas local deployments.
+   - M10+ clusters.
+   - Deployments running MongoDB 7.0 or later. 
 
 Steps
 -----
@@ -54,9 +57,8 @@ Steps
 
       .. note:: 
 
-         The Atlas Search ``$search`` and ``$searchMeta`` and 
-         the Atlas Vector Search ``$vectorSearch`` pipeline stages must 
-         be the first stage in your aggregation pipeline.
+         If you use the ``$search``, ``$searchMeta``, or ``$vectorSearch`` 
+         stage, it must be the first stage in your aggregation pipeline.
 
    .. step:: Run your query
 
