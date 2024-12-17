@@ -125,8 +125,8 @@ value in the :guilabel:`Settings` panel.
        aggregation generation requests. These values can improve
        the results from the AI.
 
-       If set, this option implicitly sets the
-       :option:`--enableGenAIFeatures` option.
+       If ``true``, this option implicitly sets the
+       :option:`--enableGenAIFeatures` option to ``true``.
 
    * - .. option:: --enableMaps
      - Allow |compass| to make requests to a 3rd party mapping service. Use 
