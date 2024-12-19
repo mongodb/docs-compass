@@ -18,7 +18,7 @@ Release Notes
 Bug Fixes:
 
 - Disables UTF8 validation when retrieving Compass metadata 
-  (:issue:`COMPASS08517`)
+  (:issue:`COMPASS-8517`)
 
 `Full Changelog available on Github
 <https://github.com/mongodb-js/compass/compare/v1.44.7...v1.45.0>`__
