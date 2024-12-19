@@ -30,7 +30,6 @@ Create an :ref:`Atlas Search index <compass-create-search-index>` or an
    for: 
    
    - Atlas local deployments.
-   - M10+ clusters.
    - Deployments running MongoDB 7.0 or later. 
 
 Steps
