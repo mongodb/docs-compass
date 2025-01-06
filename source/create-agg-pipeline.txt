@@ -56,6 +56,15 @@ collection.
    to perform :atlas:`full-text search</atlas-search/atlas-search-overview>` 
    on Atlas collections.
 
+Required Roles 
+--------------
+
+To create an execute aggregation pipelines for an Atlas cluster, you must have 
+the :authrole:`Project Data Access Read Only` role or higher.
+
+To utilize the :pipeline:`$out` stage in your pipeline, you must
+have the :authrole:`Project Data Access Read/Write` role.
+
 Steps
 -----
 
