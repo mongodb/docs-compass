@@ -74,6 +74,17 @@ For each index, |compass-short| displays the following information:
      - Any special properties (such as uniqueness, partial) of the
        index.
 
+Required Roles 
+--------------
+
+To :ref:`create <compass-create-index>`,
+:ref:`drop <compass-drop-an-index>`, or :ref:`hide <compass-hide-an-index>` 
+indexes, you must have access provided by at least one of the following roles:
+
+- :authrole:`Project Owner` or :authrole:`Organization Owner`
+- :authrole:`Project Data Access Admin`
+
+
 .. _compass-create-index:
 
 Create an Index
@@ -125,6 +136,8 @@ input.
 
    |compass-short| shows the type of your new index as
    :guilabel:`Wildcard`.
+
+.. _compass-hide-an-index:
 
 Hide or Unhide an Index
 -----------------------

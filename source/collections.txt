@@ -62,6 +62,35 @@ information for each collection in the selected database:
   collection. Hover over a :guilabel:`Collation` banner to view
   the properties for that collection.
 
+Required Roles
+--------------
+
+The following table describes the roles required to perform
+various actions to a database on an Atlas cluster:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 40
+
+   * - Action
+     - Required Roles
+
+   * - Create Collections
+     - One of the following roles:
+       
+       - :authrole:`Project Owner` or :authrole:`Organization Owner`
+       - :authrole:`Project Data Access Admin`
+       - :authrole:`Project Data Access Read/Write`
+
+   * - View Collections
+     - At least the :authrole:`Project Data Access Read Only` role.
+
+   * - Drop Collections
+     - One of the following roles:
+
+       - :authrole:`Project Owner`
+       - :authrole:`Project Data Access Admin`
+
 .. _compass-create-collection:
 .. _compass-create-a-collection:
 

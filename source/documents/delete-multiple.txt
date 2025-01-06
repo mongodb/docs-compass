@@ -37,6 +37,16 @@ the latest |compass-short| version, see :ref:`download-install`.
 
 .. END-COMPASS-ONLY
 
+Required Roles 
+--------------
+
+To delete multiple documents, you must have access granted through one of the 
+following roles:
+
+- :authrole:`Project Owner` or :authrole:`Organization Owner`
+- :authrole:`Project Data Access Admin`
+- :authrole:`Project Data Access Read/Write`
+
 Steps
 -----
 

@@ -18,6 +18,16 @@ You can edit existing documents in your collection.
 
 .. include:: /includes/shared/fact-modify-findOneAndReplace.rst
 
+Required Roles 
+--------------
+
+To edit documents on an Atlas cluster, you must have access granted through one
+of the following roles:
+
+- :authrole:`Project Owner` or :authrole:`Organization Owner`
+- :authrole:`Project Data Access Admin`
+- :authrole:`Project Data Access Read/Write`
+
 .. BEGIN-COMPASS-ONLY
 
 Limitations

@@ -21,6 +21,16 @@ Delete Single Document
 
 .. END-COMPASS-ONLY
 
+Required Roles 
+--------------
+
+To delete documents on an Atlas cluster, you must have access granted through 
+one of the following roles:
+
+- :authrole:`Project Owner` or :authrole:`Organization Owner`
+- :authrole:`Project Data Access Admin`
+- :authrole:`Project Data Access Read/Write`
+
 Select the appropriate tab based on whether you are viewing your
 documents in List, JSON, or Table view:
 

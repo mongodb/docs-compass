@@ -35,6 +35,35 @@ desired database in the left-hand navigation.
 You can also :ref:`create <compass-create-database>` or
 :ref:`drop databases <compass-drop-database>` from this view.
 
+Required Roles
+--------------
+
+The following table describes the roles required to perform various actions to 
+a database on an Atlas cluster:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 40
+
+   * - Action
+     - Required Roles
+
+   * - Create Databases
+     - One of the following roles:
+       
+       - :authrole:`Project Owner` or :authrole:`Organization Owner`
+       - :authrole:`Project Data Access Admin`
+       - :authrole:`Project Data Access Read/Write`
+
+   * - View Databases
+     - At least the :authrole:`Project Data Access Read Only` role.
+
+   * - Drop Databases
+     - One of the following roles:
+
+       - :authrole:`Project Owner`
+       - :authrole:`Project Data Access Admin`
+
 .. _compass-create-database:
 .. _compass-create-a-db:
 
