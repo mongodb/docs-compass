@@ -46,8 +46,8 @@ the latest |compass-short| version, see :ref:`download-install`.
 Required Roles 
 --------------
 
-To edit multiple documents, you must have access granted through one of the 
-following roles:
+To edit multiple documents on an Atlas cluster, you must have privileges granted 
+through one of the following roles:
 
 - :authrole:`Project Owner` or :authrole:`Organization Owner`
 - :authrole:`Project Data Access Admin`

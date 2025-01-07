@@ -66,7 +66,7 @@ Required Roles
 --------------
 
 The following table describes the roles required to perform
-various actions to a database on an Atlas cluster:
+various actions on an Atlas cluster database:
 
 .. list-table::
    :header-rows: 1

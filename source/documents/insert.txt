@@ -36,8 +36,8 @@ Field-by-Field Editor
 Required Roles 
 --------------
 
-To insert documents on an Atlas cluster, you must have access granted through 
-one of the following roles:
+To insert documents on an Atlas cluster, you must have privileges granted 
+through one of the following roles:
 
 - :authrole:`Project Owner` or :authrole:`Organization Owner`
 - :authrole:`Project Data Access Admin`

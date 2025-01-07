@@ -59,11 +59,11 @@ collection.
 Required Roles 
 --------------
 
-To create and execute aggregation pipelines for an Atlas cluster, you must have 
-the :authrole:`Project Data Access Read Only` role or higher.
+To create and execute aggregation pipelines for an Atlas cluster, you must at 
+least have the :authrole:`Project Data Access Read Only` role.
 
-To utilize the :pipeline:`$out` stage in your pipeline, you must
-have the :authrole:`Project Data Access Read/Write` role.
+To use the :pipeline:`$out` stage in your pipeline, you must have the 
+:authrole:`Project Data Access Read/Write` role.
 
 Steps
 -----

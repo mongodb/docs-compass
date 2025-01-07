@@ -21,8 +21,8 @@ You can edit existing documents in your collection.
 Required Roles 
 --------------
 
-To edit documents on an Atlas cluster, you must have access granted through one
-of the following roles:
+To edit documents on an Atlas cluster, you must have privileges granted through 
+one of the following roles:
 
 - :authrole:`Project Owner` or :authrole:`Organization Owner`
 - :authrole:`Project Data Access Admin`
