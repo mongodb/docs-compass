@@ -266,8 +266,8 @@ Procedure
 
       - (Optional) AWS Session Token
 
-      The following screenshot shows the :guilabel:`New Connection`
-      modal configured for username and password authentication with
+      The following screenshot shows the :guilabel:`Authentication`
+      tab configured for username and password authentication with
       SCRAM-SHA-256. 
 
       .. figure:: /images/authentication/authentication-configuration.png

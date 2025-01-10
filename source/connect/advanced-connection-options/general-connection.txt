@@ -99,8 +99,8 @@ Procedure
             of a replica set, your write operations fail because it is not the 
             primary member.
 
-      The following screenshot shows the :guilabel:`New
-      Connection` modal configured for an Atlas cluster. 
+      The following screenshot shows the :guilabel:`General` tab
+      configured for an Atlas cluster. 
 
       .. figure:: /images/authentication/new-atlas-connection.png
          :alt: Screenshot of Compass configured to connect to an example Atlas cluster
