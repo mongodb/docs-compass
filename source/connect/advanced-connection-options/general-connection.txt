@@ -107,7 +107,6 @@ Procedure
       Connection` modal configured for an Atlas cluster. 
 
       .. figure:: /images/authentication/new-atlas-connection.png
-         :figwidth: 662px
          :alt: Screenshot of Compass configured to connect to an example Atlas cluster
 
 .. seealso::

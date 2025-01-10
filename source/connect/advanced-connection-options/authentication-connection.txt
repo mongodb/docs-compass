@@ -274,7 +274,7 @@ Procedure
       configured for username and password authentication with
       SCRAM-SHA-256. 
 
-      .. figure:: /images/authentication/new-atlas-connection.png
+      .. figure:: /images/authentication/authentication-configuration.png
          :figwidth: 662px
          :alt: Screenshot of Compass configured to authenticate with username and password
 
