@@ -266,17 +266,17 @@ Procedure
 
       - (Optional) AWS Session Token
 
-   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
-
-   .. step:: Click Connect.
-
-      The following screenshot shows the :guilabel:`Authentication` tab
-      configured for username and password authentication with
+      The following screenshot shows the :guilabel:`New Connection`
+      modal configured for username and password authentication with
       SCRAM-SHA-256. 
 
       .. figure:: /images/authentication/authentication-configuration.png
          :figwidth: 662px
          :alt: Screenshot of Compass configured to authenticate with username and password
+
+   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
+
+   .. step:: Click Connect.
 
 
 .. seealso::

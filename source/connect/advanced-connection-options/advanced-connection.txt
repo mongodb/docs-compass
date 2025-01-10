@@ -78,8 +78,8 @@ Procedure
                read preference option. 
              - Any specified tag sets. 
 
-      For example, the following screenshot shows the :guilabel:`New
-      Connection` modal configured with the read preference of :guilabel:`Secondary
+      The following screenshot shows the :guilabel:`New Connection`
+      modal configured with the read preference of :guilabel:`Secondary
       Preferred`. 
 
       .. figure:: /images/authentication/secondary-preferred.png

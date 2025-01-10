@@ -105,18 +105,19 @@ Procedure
       .. warning:: 
 
          Enabling ``tlsInsecure``, ``tlsAllowInvalidHostnames``, and 
-         ``tlsAllowInvalidCertificates`` may cause a security vulnerabilty. 
-
-   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
-
-   .. step:: Click Connect.
-
+         ``tlsAllowInvalidCertificates`` may cause a security
+         vulnerabilty. 
+         
       For example, the following screenshot shows the :guilabel:`New
       Connection` modal configured for a cluster with TLS/SSL enabled.  
 
       .. figure:: /images/authentication/tls-ssl-configuration.png
          :figwidth: 662px
          :alt: Screenshot of Compass configured to connect to an example cluster with TLS/SSL
+
+   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
+
+   .. step:: Click Connect.
 
 .. seealso::
 

@@ -99,15 +99,15 @@ Procedure
             of a replica set, your write operations fail because it is not the 
             primary member.
 
-   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
-
-   .. step:: Click Connect.
-
-      For example, the following screenshot shows the :guilabel:`New
+      The following screenshot shows the :guilabel:`New
       Connection` modal configured for an Atlas cluster. 
 
       .. figure:: /images/authentication/new-atlas-connection.png
          :alt: Screenshot of Compass configured to connect to an example Atlas cluster
+
+   .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
+
+   .. step:: Click Connect.
 
 .. seealso::
 
