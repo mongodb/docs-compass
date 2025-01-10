@@ -270,6 +270,15 @@ Procedure
 
    .. step:: Click Connect.
 
+      The following screenshot shows the :guilabel:`Authentication` tab
+      configured for username and password authentication with
+      SCRAM-SHA-256. 
+
+      .. figure:: /images/authentication/new-atlas-connection.png
+         :figwidth: 662px
+         :alt: Screenshot of Compass configured to authenticate with username and password
+
+
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`.

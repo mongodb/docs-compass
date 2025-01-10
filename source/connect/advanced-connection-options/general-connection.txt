@@ -52,7 +52,20 @@ Procedure
             * - mongodb
               - :manual:`Standard Connection String Format </reference/connection-string/>`. 
                 The standard format of the MongoDB connection URI is used to 
-                connect to a MongoDB deployment by specifying its hosts directly.
+                connect to a MongoDB deployment by specifying its hosts
+                directly.
+                
+                Use this option to connect to standalone, replica set,
+                or a sharded cluster
+
+                .. note::
+
+                   If you use the Standard Connection String Format to
+                   connect to an `Atlas
+                   <https://www.mongodb.com/cloud/atlas>`__ deployment,
+                   you must turn on TLS/SSL in the
+                   :guilabel:`TLS/SSL` tab of the :guilabel:`New
+                   Connection` modal. 
 
             * - mongodb+srv 
               - :manual:`DNS Seed List Connection Format 
@@ -89,6 +102,13 @@ Procedure
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
    .. step:: Click Connect.
+
+      For example, the following screenshot shows the :guilabel:`New
+      Connection` modal configured for an Atlas cluster. 
+
+      .. figure:: /images/authentication/new-atlas-connection.png
+         :figwidth: 662px
+         :alt: Screenshot of Compass configured to connect to an example Atlas cluster
 
 .. seealso::
 

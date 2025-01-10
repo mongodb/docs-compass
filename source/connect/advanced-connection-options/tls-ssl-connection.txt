@@ -111,6 +111,13 @@ Procedure
 
    .. step:: Click Connect.
 
+      For example, the following screenshot shows the :guilabel:`New
+      Connection` modal configured for a cluster with TLS/SSL enabled.  
+
+      .. figure:: /images/authentication/tls-ssl-configuration.png
+         :figwidth: 662px
+         :alt: Screenshot of Compass configured to connect to an example cluster with TLS/SSL
+
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`.
