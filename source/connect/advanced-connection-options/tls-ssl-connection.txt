@@ -108,7 +108,7 @@ Procedure
          ``tlsAllowInvalidCertificates`` may cause a security
          vulnerabilty. 
          
-      For example, the following screenshot shows the :guilabel:`TLS /
+      The following screenshot shows the :guilabel:`TLS /
       SSL` tab configured for a cluster with TLS/SSL enabled.  
 
       .. figure:: /images/authentication/tls-ssl-configuration.png
