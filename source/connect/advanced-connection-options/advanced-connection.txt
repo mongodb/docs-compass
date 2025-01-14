@@ -117,11 +117,10 @@ Procedure
 Example
 -------
 
-The following screenshot shows the :guilabel:`Advanced`
-tab configured with the read preference of :guilabel:`Secondary
-Preferred`. The :guilabel:`Secondary
-Preferred` read pereference helps avoid queries overloading the primary
-node. 
+The following screenshot shows the :guilabel:`Advanced` tab configured
+with the read preference of :guilabel:`Secondary Preferred`. The
+:guilabel:`Secondary Preferred` read preference prevents queries from
+overloading the primary node. 
 
 .. figure:: /images/authentication/secondary-preferred.png
    :figwidth: 662px

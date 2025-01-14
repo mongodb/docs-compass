@@ -277,14 +277,13 @@ Procedure
 Example
 -------
 
-The following screenshot shows the :guilabel:`Authentication`
-tab configured for username and password authentication with
-SCRAM-SHA-256. 
+The following screenshot shows the :guilabel:`Authentication` tab
+configured for username and password authentication with
+:manual:`SCRAM-SHA-256 </core/security-scram/>`.
 
 .. figure:: /images/authentication/authentication-configuration.png
    :figwidth: 662px
-   :alt: Screenshot of Compass configured to authenticate with username
-   and password
+   :alt: Screenshot of Compass configured to authenticate with username and password
    
 Alternatively, the following screenshot shows the
 :guilabel:`Authentication` tab configured for :manual:`LDAP
