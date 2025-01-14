@@ -78,14 +78,6 @@ Procedure
                read preference option. 
              - Any specified tag sets. 
 
-      The following screenshot shows the :guilabel:`Advanced`
-      tab configured with the read preference of :guilabel:`Secondary
-      Preferred`. 
-
-      .. figure:: /images/authentication/secondary-preferred.png
-         :figwidth: 662px
-         :alt: Screenshot of Compass configured to connect with read preference of secondary preferred
-
       .. seealso::
       
          - :manual:`Read Preferrence </core/read-preference/#read-preference>`.
@@ -121,3 +113,16 @@ Procedure
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`. 
+
+Example
+-------
+
+The following screenshot shows the :guilabel:`Advanced`
+tab configured with the read preference of :guilabel:`Secondary
+Preferred`. The :guilabel:`Secondary
+Preferred` read pereference helps avoid queries overloading the primary
+node. 
+
+.. figure:: /images/authentication/secondary-preferred.png
+   :figwidth: 662px
+   :alt: Screenshot of Compass configured to connect with read preference of secondary preferred

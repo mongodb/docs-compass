@@ -107,13 +107,6 @@ Procedure
          Enabling ``tlsInsecure``, ``tlsAllowInvalidHostnames``, and 
          ``tlsAllowInvalidCertificates`` may cause a security
          vulnerabilty. 
-         
-      The following screenshot shows the :guilabel:`TLS /
-      SSL` tab configured for a cluster with TLS/SSL enabled.  
-
-      .. figure:: /images/authentication/tls-ssl-configuration.png
-         :figwidth: 662px
-         :alt: Screenshot of Compass configured to connect to an example cluster with TLS/SSL
 
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
@@ -122,3 +115,13 @@ Procedure
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`.
+
+Example
+-------
+
+The following screenshot shows the :guilabel:`TLS /
+SSL` tab configured for a cluster with TLS/SSL enabled.  
+
+.. figure:: /images/authentication/tls-ssl-configuration.png
+   :figwidth: 662px
+   :alt: Screenshot of Compass configured to connect to an example cluster with TLS/SSL

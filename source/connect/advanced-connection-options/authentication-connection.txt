@@ -266,19 +266,30 @@ Procedure
 
       - (Optional) AWS Session Token
 
-      The following screenshot shows the :guilabel:`Authentication`
-      tab configured for username and password authentication with
-      SCRAM-SHA-256. 
-
-      .. figure:: /images/authentication/authentication-configuration.png
-         :figwidth: 662px
-         :alt: Screenshot of Compass configured to authenticate with username and password
-
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
    .. step:: Click Connect.
 
-
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`.
+
+Example
+-------
+
+The following screenshot shows the :guilabel:`Authentication`
+tab configured for username and password authentication with
+SCRAM-SHA-256. 
+
+.. figure:: /images/authentication/authentication-configuration.png
+   :figwidth: 662px
+   :alt: Screenshot of Compass configured to authenticate with username
+   and password
+   
+Alternatively, the following screenshot shows the
+:guilabel:`Authentication` tab configured for :manual:`LDAP
+</core/security-ldap-external/>` authentication.  
+
+.. figure:: /images/authentication/ldap-configuration.png
+   :figwidth: 662px
+   :alt: Screenshot of Compass configured to authenticate with LDAP

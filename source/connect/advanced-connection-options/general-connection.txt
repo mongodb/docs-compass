@@ -60,7 +60,7 @@ Procedure
 
                 .. note::
 
-                   If you use the Standard Connection String Format to
+                   If you use the standard connection string format to
                    connect to an `Atlas
                    <https://www.mongodb.com/cloud/atlas>`__ deployment,
                    you must turn on TLS/SSL in the
@@ -99,12 +99,6 @@ Procedure
             of a replica set, your write operations fail because it is not the 
             primary member.
 
-      The following screenshot shows the :guilabel:`General` tab
-      configured for an Atlas cluster. 
-
-      .. figure:: /images/authentication/new-atlas-connection.png
-         :alt: Screenshot of Compass configured to connect to an example Atlas cluster
-
    .. step:: (Optional) For advanced connection configuration options, click the :ref:`Advanced <advanced-connection-tab>` tab.
 
    .. step:: Click Connect.
@@ -112,3 +106,12 @@ Procedure
 .. seealso::
 
    To disconnect from your deployment, see :ref:`<disconnect-tab>`. 
+
+Example
+-------
+
+The following screenshot shows the :guilabel:`General` tab
+configured for an Atlas cluster. 
+
+.. figure:: /images/authentication/new-atlas-connection.png
+   :alt: Screenshot of Compass configured to connect to an example Atlas cluster
