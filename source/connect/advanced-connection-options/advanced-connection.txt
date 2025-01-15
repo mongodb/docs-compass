@@ -117,8 +117,8 @@ Procedure
 Example
 -------
 
-The following screenshot shows the :guilabel:`Advanced` tab configured
-with the read preference of :guilabel:`Secondary Preferred`. The
+The following example specifies a connection with a read preference of
+:guilabel:`Secondary Preferred` in the :guilabel:`Advanced` tab. The
 :guilabel:`Secondary Preferred` read preference prevents queries from
 overloading the primary node. 
 

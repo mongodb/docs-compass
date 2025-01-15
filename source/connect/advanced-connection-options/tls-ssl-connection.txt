@@ -119,8 +119,8 @@ Procedure
 Example
 -------
 
-The following screenshot shows the :guilabel:`TLS / SSL` tab configured
-for a cluster with TLS/SSL enabled. 
+The following example specifies a connection with TLS/SSL enabled in the
+:guilabel:`TLS / SSL` tab.
 
 .. figure:: /images/authentication/tls-ssl-configuration.png
    :figwidth: 662px

@@ -110,10 +110,11 @@ Procedure
 Example
 -------
 
-The following screenshot shows the :guilabel:`General` tab configured
-for an Atlas cluster with :manual:`SCRAM-SHA-256
-</core/security-scram/>`. Since the connection uses the ``mongodb+srv``
-connection string scheme, the connection automatically enables TLS/SSL. 
+The following example specifies a connection with :manual:`SCRAM-SHA-256
+</core/security-scram/>` in the :guilabel:`General` tab . Since the
+connection uses the ``mongodb+srv`` connection string scheme, the
+connection automatically enables TLS/SSL. 
 
 .. figure:: /images/authentication/new-atlas-connection.png
+   :figwidth: 662px
    :alt: Screenshot of Compass configured to connect to an example Atlas cluster
