@@ -111,7 +111,7 @@ Example
 -------
 
 The following example specifies a connection with :manual:`SCRAM-SHA-256
-</core/security-scram/>` in the :guilabel:`General` tab . Since the
+</core/security-scram/>` in the :guilabel:`General` tab. Since the
 connection uses the ``mongodb+srv`` connection string scheme, the
 connection automatically enables TLS/SSL. 
 

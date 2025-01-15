@@ -280,7 +280,7 @@ Examples
 Username and Password Authentication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The following screenshot specifies a connection with username and
+The following example specifies a connection with username and
 password authentication with :manual:`SCRAM-SHA-256
 </core/security-scram/>` in the :guilabel:`Authentication` tab.
 
@@ -291,9 +291,9 @@ password authentication with :manual:`SCRAM-SHA-256
 LDAP Authentication
 ~~~~~~~~~~~~~~~~~~~
 
-Alternatively, the following screenshot shows the
-:guilabel:`Authentication` tab configured for :manual:`LDAP
-</core/security-ldap-external/>` authentication.  
+Alternatively, the following example specifies a connection with
+:manual:`LDAP </core/security-ldap-external/>` authentication in the
+:guilabel:`Authentication` tab.  
 
 .. figure:: /images/authentication/ldap-configuration.png
    :figwidth: 662px
