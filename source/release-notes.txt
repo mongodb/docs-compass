@@ -10,8 +10,10 @@ Release Notes
    :depth: 1
    :class: twocols
 
-|compass| 1.45.0
+|compass| 1.45.1
 ----------------
+
+*Released January 15, 2024*
 
 New Features:
 
@@ -37,8 +39,6 @@ Bug Fixes:
 
 `Full Changelog available on Github
 <https://github.com/mongodb-js/compass/compare/v1.45.0...v1.45.1>`__
-
-*Released January 15, 2024*
 
 |compass| 1.45.0
 ----------------
