@@ -15,11 +15,6 @@ Release Notes
 
 *Released January 15, 2024*
 
-New Features:
-
-- Adds welcome page (:issue:`COMPASS-8657`)
-- Adds onFailToLoadConnections callback (:issue:`COMPASS-8657`)
-
 Bug Fixes:
 
 - Send a nonce in oidc request by default (:issue:`COMPASS-8588`)
@@ -35,7 +30,6 @@ Bug Fixes:
 - Don't derive enableGenAIFeatures from org, allow disabling it 
   (:issue:`COMPASS-8680`)
 - Adjusts status marker position (:issue:`CLOUDP-289203`)
-- Adds tracking for compass-provider (:issue:`COMPASS-8658`)
 
 `Full Changelog available on Github
 <https://github.com/mongodb-js/compass/compare/v1.45.0...v1.45.1>`__
