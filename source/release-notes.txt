@@ -21,7 +21,8 @@ Bug Fixes:
 - Don't cut off list view value editor tooltips (:issue:`COMPASS-8581`)
 - Fixes element key editor tooltip and revert not updating validity 
   (:issue:`COMPASS-8586`)
-- Don't fallback to zero if the count cannot be determined
+- Don't fallback to zero if the count cannot be determined 
+  (:issue:`COMPASS-8841`)
 - Updates top chart write lock percentage of load visual 
   (:issue:`COMPASS-8604`)
 - Don't lose the isOperationInProgress state when the user switches 
