@@ -19,3 +19,4 @@ raw: docs/compass/ -> ${base}/current/
 
 # Repetitive file paths
 [*]: docs/compass/${version}/query-with-natural-language/query-with-natural-language/ -> ${base}/${version}/query-with-natural-language/
+
