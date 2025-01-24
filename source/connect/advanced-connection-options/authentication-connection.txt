@@ -54,6 +54,7 @@ Procedure
       Username / Password 
       ~~~~~~~~~~~~~~~~~~~
 
+      
       Provide the following information:
 
       - Username
@@ -237,6 +238,13 @@ Procedure
       LDAP
       ~~~~
 
+      .. note::
+
+         See the :ref:`Examples
+         <authentication-username-password-example>` section on this
+         page for an example of the authentication tab configured for
+         username and password authentication. 
+
       Select :guilabel:`LDAP` if the deployment uses :manual:`LDAP 
       </core/security-ldap-external/>` as its authentication mechanism. 
 
@@ -277,6 +285,8 @@ Procedure
 Examples
 --------
 
+.. _authentication-username-password-example:
+
 Username and Password Authentication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -288,6 +298,8 @@ password authentication with :manual:`SCRAM-SHA-256
    :figwidth: 662px
    :alt: Screenshot of Compass configured to authenticate with username and password
    
+.. _authentication-ldap-example:
+
 LDAP Authentication
 ~~~~~~~~~~~~~~~~~~~
 

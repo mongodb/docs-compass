@@ -120,8 +120,12 @@ Example
 -------
 
 The following example specifies a connection with TLS/SSL enabled in the
-:guilabel:`TLS / SSL` tab.
+:guilabel:`TLS / SSL` tab. This connection uses :manual:`X.509
+</core/security-x.509/>` authentication which requires a client
+certificate. 
 
 .. figure:: /images/authentication/tls-ssl-configuration.png
    :figwidth: 662px
    :alt: Screenshot of Compass configured to connect to an example cluster with TLS/SSL
+
+1
