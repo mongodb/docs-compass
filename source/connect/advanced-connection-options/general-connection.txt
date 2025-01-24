@@ -73,6 +73,10 @@ Procedure
                 The ``+srv`` indicates to |compass| that the hostname that follows 
                 corresponds to a DNS SRV record.
 
+              .. note::
+
+                  The mongodb+srv automatically enables TLS/SSL.
+
       b) Enter a Hostname.
 
          In the :guilabel:`Host` field, enter the hosts or hostname of the server 
@@ -112,8 +116,8 @@ Example
 
 The following example specifies a connection with :manual:`SCRAM-SHA-256
 </core/security-scram/>` in the :guilabel:`General` tab. Since the
-connection uses the ``mongodb+srv`` connection string scheme, the
-connection automatically enables TLS/SSL. 
+connection uses the ``mongodb`` connection string scheme to connect to
+an Atlas cluster, the connection also enables TLS/SSL. 
 
 .. figure:: /images/authentication/new-atlas-connection.png
    :figwidth: 662px
