@@ -16,6 +16,12 @@ The :guilabel:`TLS / SSL` tab allows you to connect deployments with TLS / SSL.
 For more information on :guilabel:`TLS / SSL`, see :manual:`TLS Options 
 </reference/connection-string/#tls-options>`
 
+.. note::
+
+   If you connect to an Atlas cluster with the :manual:`standard
+   connection string format </reference/connection-string/>`, you must
+   enable TLS/SSL. 
+
 Procedure
 ---------
 
