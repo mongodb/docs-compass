@@ -131,7 +131,7 @@ Settings
        with. For more information, see :ref:`ssh-connection`.
 
        You must pass either a URL or a DevtoolsProxyOptions object as JSON
-       for the proxy setting. You can also set the proxy setting to an empty
+       for the Proxy setting. You can also set the Proxy setting to an empty
        string. 
 
    * - :ref:`readOnly <compass-read-only>`
