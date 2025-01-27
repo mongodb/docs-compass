@@ -126,6 +126,14 @@ Settings
        option but doesn't prevent users from manually enabling the
        option with the :guilabel:`Edit connection string` toggle. 
 
+   * - proxy
+     - Allows you to enforce or define a Proxy to connect to your deployment 
+       with. For more information, see :ref:`ssh-connection`.
+
+       You must pass either a URL or a DevtoolsProxyOptions object as JSON
+       for the proxy setting. You can also set the proxy setting to an empty
+       string. 
+
    * - :ref:`readOnly <compass-read-only>`
      - Prevent users from performing write operations to your MongoDB deployment 
        through |compass-short|.
