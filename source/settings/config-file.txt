@@ -136,8 +136,8 @@ Settings
        .. code-block::
           
           {
-            proxy: string;
-            noProxyHosts: string;
+            "proxy": "string",
+            "noProxyHosts": "string"
           }
        
        If you set ``proxy`` to an empty string, no 
