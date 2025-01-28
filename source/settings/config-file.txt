@@ -127,12 +127,12 @@ Settings
        option with the :guilabel:`Edit connection string` toggle. 
 
    * - proxy
-     - Allows you to enforce or define a Proxy to connect to your deployment 
+     - Allows you to enforce or define a ``proxy`` to connect to your deployment 
        with. For more information on connecting to your deployment with a
-       proxy, see :ref:`ssh-connection`.
+       ``proxy``, see :ref:`ssh-connection`.
 
        You must pass either a URL or a ``DevtoolsProxyOptions`` object as JSON
-       for the Proxy setting. A ``DevtoolsProxyOptions`` object takes the following
+       for the ``proxy`` setting. A ``DevtoolsProxyOptions`` object takes the following
        format: 
 
        .. code-block::
@@ -140,13 +140,6 @@ Settings
           {
             proxy: string;
             noProxyHosts: string;
-            useEnvironmentVariableProxies: boolean;
-            sshOptions: {
-              identityKeyFile: string;
-              identityKeyPassphrase: string;
-            };
-            ca: ConnectionOptions['ca'];
-            env: Record<string, string | undefined>;
           }
        
        If you set ``proxy`` to an empty string, no 
