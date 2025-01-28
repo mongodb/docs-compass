@@ -131,9 +131,7 @@ Settings
        with. For more information on connecting to your deployment with a
        proxy, see :ref:`ssh-connection`.
 
-       You must pass either a URL or a ``DevtoolsProxyOptions`` object as JSON
-       for the ``proxy`` setting. A ``DevtoolsProxyOptions`` object takes the following
-       format: 
+       You must pass either a URL or pass the following format: 
 
        .. code-block::
           
