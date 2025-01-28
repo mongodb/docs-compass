@@ -131,9 +131,24 @@ Settings
        with. For more information on connecting to your deployment with a
        proxy, see :ref:`ssh-connection`.
 
-       You must pass either a URL or a DevtoolsProxyOptions object as JSON
-       for the Proxy setting. You can also set the Proxy setting to an empty
-       string. 
+       You must pass either a URL or a ``DevtoolsProxyOptions`` object as JSON
+       for the Proxy setting. A ``DevtoolsProxyOptions`` object takes the following
+       format: 
+
+       .. code-block::
+          
+          {
+            proxy?: string;
+            noProxyHosts?: string;
+            useEnvironmentVariableProxies?: boolean;
+            sshOptions?: {
+              identityKeyFile?: string;
+              identityKeyPassphrase?: string;
+            };
+          }
+       
+       If you set ``proxy`` to an empty string, no 
+       proxy will be used.
 
    * - :ref:`readOnly <compass-read-only>`
      - Prevent users from performing write operations to your MongoDB deployment 
