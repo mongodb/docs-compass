@@ -138,13 +138,15 @@ Settings
        .. code-block::
           
           {
-            proxy?: string;
-            noProxyHosts?: string;
-            useEnvironmentVariableProxies?: boolean;
-            sshOptions?: {
-              identityKeyFile?: string;
-              identityKeyPassphrase?: string;
+            proxy: string;
+            noProxyHosts: string;
+            useEnvironmentVariableProxies: boolean;
+            sshOptions: {
+              identityKeyFile: string;
+              identityKeyPassphrase: string;
             };
+            ca: ConnectionOptions['ca'];
+            env: Record<string, string | undefined>;
           }
        
        If you set ``proxy`` to an empty string, no 
