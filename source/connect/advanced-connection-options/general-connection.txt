@@ -73,9 +73,9 @@ Procedure
                 The ``+srv`` indicates to |compass| that the hostname that follows 
                 corresponds to a DNS SRV record.
 
-              .. note::
+                .. note::
 
-                  The mongodb+srv automatically enables TLS/SSL.
+                   The mongodb+srv automatically enables TLS/SSL.
 
       b) Enter a Hostname.
 
