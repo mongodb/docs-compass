@@ -75,7 +75,7 @@ Procedure
 
                 .. note::
 
-                   The mongodb+srv automatically enables TLS/SSL.
+                   The ``+srv`` automatically enables TLS/SSL.
 
       b) Enter a Hostname.
 
