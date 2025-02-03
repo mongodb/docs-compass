@@ -59,6 +59,9 @@ Steps
 
          If you use the ``$search``, ``$searchMeta``, or ``$vectorSearch`` 
          stage, it must be the first stage in your aggregation pipeline.
+         If you want to combine vector and full-text search in the same 
+         pipeline, you can perform a hybrid search. For more information, 
+         see :ref:`as_hybrid-search`.
 
    .. step:: Run your query
 
