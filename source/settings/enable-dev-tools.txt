@@ -51,9 +51,7 @@ You can set the ``enableDevTools`` option in either:
 .. procedure:: 
    :style: normal
 
-   .. step:: 
-
-      .. include:: /includes/fact-navigate-to-settings.rst
+   .. include:: /includes/fact-navigate-to-settings.rst
 
    .. step:: Toggle :guilabel:`Enable DevTools`.
 
