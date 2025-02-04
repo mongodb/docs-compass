@@ -23,24 +23,13 @@ interface.
 Settings Panel Location
 -----------------------
 
-To open the |compass| Settings Panel, click the gear icon at the upper left of the 
-|compass-short| home screen.
-
-.. figure:: /images/compass/settings-gear-icon.png
-   :alt: Settings gear icon location on MongoDB Compass UI
+.. include:: includes/fact-navigate-to-settings.rst
 
 You can also open the the |compass-short| :guilabel:`Settings` panel
 when connected to your cluster by doing the following: 
 
 1. Click the :icon-fa5:`ellipsis-h` next to your cluster name.
 2. Select :guilabel:`Compass Settings` from the dropdown.
-
-Alternatively, you can use keyboard shortcuts to open the :guilabel:`Settings` 
-panel: 
-
-- Windows / Linux: ``Ctrl`` + ``,``
-
-- Mac: ``⌘`` + ``,``
 
 Settings
 --------

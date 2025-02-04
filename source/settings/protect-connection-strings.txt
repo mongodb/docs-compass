@@ -49,20 +49,7 @@ You can set the ``protectConnectionStrings`` option in either:
 .. procedure:: 
    :style: normal
    
-   .. step:: To open the |compass| Settings Panel, click the gear icon at the upper left of the |compass-short| home screen.
-
-      .. figure:: /images/compass/settings-gear-icon.png
-         :alt: Settings gear icon location on MongoDB Compass UI
-
-      Alternatively, you can use keyboard shortcuts to open the 
-      :guilabel:`Settings` panel: 
-
-      - Windows / Linux: ``Ctrl`` + ``,``
-
-      - Mac: ``⌘`` + ``,``
-
-      |compass-short| opens a dialog box where you can configure your |compass| 
-      settings.
+   .. step:: .. include:: includes/fact-navigate-to-settings.rst
 
    .. step:: Toggle :guilabel:`Protect Connection String Secrets`.
 
