@@ -51,21 +51,9 @@ You can set the ``enableDevTools`` option in either:
 .. procedure:: 
    :style: normal
 
-   .. step:: To open the |compass| Settings Panel, click the gear icon on the left 
-             column of the |compass-short| home screen.
+   .. step:: 
 
-      .. figure:: /images/compass/settings-gear-icon.png
-         :alt: Settings gear icon location on MongoDB Compass UI
-
-      Alternatively, you can use keyboard shortcuts to open the 
-      :guilabel:`Settings` panel: 
-
-      - Windows / Linux: ``Ctrl`` + ``,``
-
-      - Mac: ``⌘`` + ``,``
-
-      |compass-short| opens a dialog box where you can configure your |compass| 
-      settings.
+      .. include:: /includes/fact-navigate-to-settings.rst
 
    .. step:: Toggle :guilabel:`Enable DevTools`.
 
