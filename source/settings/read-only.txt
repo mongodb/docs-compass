@@ -44,7 +44,9 @@ You can enable the ``readOnly`` option in either:
 .. procedure:: 
    :style: normal
    
-   .. step:: .. include:: includes/fact-navigate-to-settings.rst
+   .. step:: 
+   
+      .. include:: includes/fact-navigate-to-settings.rst
 
    .. step:: Toggle :guilabel:`Set Read-Only Mode`.
 

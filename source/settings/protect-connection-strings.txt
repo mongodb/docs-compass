@@ -49,7 +49,9 @@ You can set the ``protectConnectionStrings`` option in either:
 .. procedure:: 
    :style: normal
    
-   .. step:: .. include:: includes/fact-navigate-to-settings.rst
+   .. step:: 
+   
+      .. include:: includes/fact-navigate-to-settings.rst
 
    .. step:: Toggle :guilabel:`Protect Connection String Secrets`.
 
