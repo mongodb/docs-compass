@@ -75,9 +75,7 @@ To toggle telemetry from the |compass-short| settings:
 .. procedure:: 
    :style: normal
    
-   .. step:: 
-   
-      .. include:: includes/fact-navigate-to-settings.rst
+   .. step:: .. include:: includes/fact-navigate-to-settings.rst
 
    .. step:: In the left pane of the :guilabel:`Settings` window, click :guilabel:`Privacy`.
    
