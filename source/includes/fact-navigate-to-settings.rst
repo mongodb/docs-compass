@@ -10,3 +10,6 @@ panel:
 - Windows / Linux: ``Ctrl`` + ``,``
 
 - Mac: ``⌘`` + ``,``
+
+|compass-short| opens a dialog box where you can configure your |compass| 
+settings.
