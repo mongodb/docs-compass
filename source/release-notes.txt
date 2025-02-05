@@ -13,11 +13,11 @@ Release Notes
 |compass| 1.45.2
 ----------------
 
-*January 28, 2025*
+*Released January 28, 2025*
 
 New Features:
 
-- Adds a button that expands all nested fields for all currently visible documents
+- Adds a button that expands nested fields for all currently visible documents
   (:issue:`COMPASS-8233`)
 - Remove option to create capped collections (:issue:`COMPASS-8292`)
 
