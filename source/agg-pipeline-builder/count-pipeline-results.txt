@@ -35,7 +35,7 @@ Steps
 .. procedure:: 
    :style: normal
 
-   .. step:: Click the count results button
+   .. step:: Click the :guilabel:`count results` button
 
       After you run your pipeline, click :guilabel:`count results`, which 
       appears under the :guilabel:`Run` button. The :guilabel:`count results` 
@@ -46,7 +46,7 @@ Steps
 
    .. step:: (Optional) Click the refresh icon 
 
-      If you edit your pipeline, you must press the :icon-fa4:`refresh` button 
+      If you edit your pipeline, press the :icon-fa4:`refresh` button 
       to update your document count.  
 
 Learn More 
