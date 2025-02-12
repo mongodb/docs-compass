@@ -41,7 +41,7 @@ Steps
 .. procedure:: 
    :style: normal
 
-   .. step:: Click the :guilabel:`Explain` button
+   .. step:: Click :guilabel:`Explain`
 
       In the top right of the aggregation pipeline builder, click the 
       :guilabel:`Explain` button to open the :guilabel:`Explain Plan` modal.

@@ -22,8 +22,7 @@ Limitations
   collection using Queryable Encryption.
 
 - :guilabel:`Custom collation` is the only :guilabel:`Advanced Collection Option` 
-  that can be used alongside Queryable Encryption. 
-
+  that you can use with {+qe+}. 
 
 Procedure
 ---------

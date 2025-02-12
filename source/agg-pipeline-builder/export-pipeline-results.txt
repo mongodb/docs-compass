@@ -27,7 +27,7 @@ Steps
 .. procedure::
    :style: normal
 
-   .. step:: Click the :guilabel:`Export` button
+   .. step:: Click :guilabel:`Export`
 
       In the top right of the aggregation pipeline builder, click the 
       :guilabel:`Export` button to open the modal.

@@ -22,7 +22,7 @@ The following restrictions and limitations apply when creating a time series
 collection:
 
 - :guilabel:`Custom collation` is the only :guilabel:`Advanced Collection Option` 
-  that can be used alongside your time series collation.  
+  that you can use with your time series collection.  
 
 - See :manual:`Time Series Collection Limitations </core/timeseries/timeseries-limitations/>` 
   for all time series collection limitations.
