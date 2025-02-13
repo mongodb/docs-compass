@@ -26,7 +26,7 @@ New Features:
 Bug Fixes:
 
 - Retain current query when new query is applied (:issue:`COMPASS-8262`)
-- Sign the Windows ``setup.exe`` (:issue:`COMPASS-8945`, :issue:`COMPASS-8950`)
+- Sign the Windows setup ``.exe`` (:issue:`COMPASS-8945`, :issue:`COMPASS-8950`)
 
 `Full Changelog available on Github
 <https://github.com/mongodb-js/compass/compare/v1.45.2...v1.45.3>`__
