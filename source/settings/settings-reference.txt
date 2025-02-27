@@ -81,7 +81,7 @@ You can configure the following settings on the |compass| interface:
 
    * - Default Sort for Query Bar
      - General
-     - Defines how queries executed from the query bar sort results
+     - Defines how Compass sorts documents
 
        To learn more, see :ref:`compass-sort-query-bar`. 
 
