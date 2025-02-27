@@ -18,8 +18,8 @@ the sort order of the returned documents.
 
 .. note::
 
-   If you specify a sort order in the query bar, the specified sort order
-   overrides any :ref:`default sort order <compass-sort-query-bar>` you set
+   If you specify a sort order in the Query Bar, the specified sort order
+   overrides the :ref:`default sort order <compass-sort-query-bar>` you set
    in :guilabel:`Settings`. 
 
 .. BEGIN-COMPASS-ONLY
