@@ -23,7 +23,7 @@ You can specify a default sort order for documents shown in Compass through the
 About This Task
 ---------------
 
-You can choose 1 of the following default sort options:
+You can choose one of the following default sort options:
 
 .. list-table::
    :header-rows: 1
@@ -62,5 +62,5 @@ Procedure
 
    If you do not specify a default sort order, Compass uses the MongoDB server
    default sort order of ``$natural: 1``, unless otherwise specified in the
-   :guilabel:`Query Bar`. 
+   Query Bar.
 
