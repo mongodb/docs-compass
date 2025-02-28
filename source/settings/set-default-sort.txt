@@ -4,8 +4,6 @@
 Set Default Sort Order
 ======================
 
-.. default-domain:: mongodb
-
 .. contents:: On this page
    :local:
    :backlinks: none
@@ -27,12 +25,13 @@ You can choose one of the following default sort options:
 
 .. list-table::
    :header-rows: 1
+   :stub-columns: 1
    :widths: 20 80
 
    * - Sort Key
      - Description
 
-   * - $natural: 1 
+   * - $natural: 1
      - Sort in the natural order of documents
 
    * - $natural: -1
