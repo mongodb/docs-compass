@@ -13,6 +13,23 @@ Release Notes
 |compass| 1.45.4
 ----------------
 
+New Features:
+
+-  Connect in new window via connect split-button (:issue:`COMPASS-8473`)
+
+Bug Fixes:
+
+- Update maps from map tile API v2 to raster tile API v3 (:issue:`COMPASS-8981`)
+
+- Prevent losing changes in validation editor (:issue:`COMPASS-9003`)
+
+- Document preview overflow styles (:issue:`COMPASS-8997`)
+
+- Hang when the shell output reaches maxOutputLines
+  (:issue:`COMPASS-7567` and :issue:`MONGOSH-2021`)
+
+- Update driver and patch ``package-lock.json`` hoisting for ``mongosh`` packages
+
 `Full Changelog available on Github
 <https://github.com/mongodb-js/compass/compare/v1.45.3...v1.45.4>`__
 
