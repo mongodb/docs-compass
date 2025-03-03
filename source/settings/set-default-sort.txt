@@ -18,6 +18,9 @@ You can specify a default sort order for documents shown in Compass through the
    If you specify a sort order through a query in the Query Bar, the sort order
    that you specify in the query overrides the default sort order.
 
+If you :ref:`save a query <compass-saved-queries-agg>,` Compass does not save
+the default sort order as part of the saved query.  
+
 About This Task
 ---------------
 
