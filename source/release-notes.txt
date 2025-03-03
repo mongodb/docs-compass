@@ -15,7 +15,7 @@ Release Notes
 
 New Features:
 
--  Connect in new window via connect split-button (:issue:`COMPASS-8473`)
+-  Connect in new window with connect split-button (:issue:`COMPASS-8473`)
 
 Bug Fixes:
 
