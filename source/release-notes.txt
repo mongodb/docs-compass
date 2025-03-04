@@ -19,7 +19,7 @@ New Features:
 
 Bug Fixes:
 
-- Update maps from map tile API v2 to raster tile API v3 (:issue:`COMPASS-8981`)
+- Update maps from map tile API v2 to Raster Tile API v3 (:issue:`COMPASS-8981`)
 
 - Prevent losing changes in validation editor (:issue:`COMPASS-9003`)
 
