@@ -13,6 +13,8 @@ Release Notes
 |compass| 1.45.4
 ----------------
 
+*Released March 8, 2025*
+
 New Features:
 
 - Connect in new window with connect split-button (:issue:`COMPASS-8473`)
