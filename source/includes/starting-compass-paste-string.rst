@@ -49,14 +49,13 @@
 
    .. step:: Connect to your cluster.
 
-      Click :guilabel:`Save`, :guilabel:`Connect`, or :guilabel:`Save & Connect` to navigate to the 
-      |compass-short| :ref:`Home Page <compass-home-screen>`. 
-
+      Click :guilabel:`Save`, :guilabel:`Connect`, or :guilabel:`Save & Connect` 
+      to navigate to the |compass-short| :ref:`Home Page <compass-home-screen>`. 
       The :guilabel:`Save` button saves your connection and closes the modal without
       yet connecting to your cluster. The :guilabel:`Connect` button allows you to 
       connect to your cluster without saving your connection string or credentials. 
 
-      The :guilabel:`Save & Connect` button both saves your information and connection-string
+      The default :guilabel:`Save & Connect` button both saves your information and connects
       you to your cluster. 
 
       .. important:: Required Access
