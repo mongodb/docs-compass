@@ -37,6 +37,18 @@ The :guilabel:`Connections` list in the sidebar contains your
 connections have a :icon-fa5:`star` next to the connection name and
 always appear at the top of the connections list.
 
+Filter Connections List
+^^^^^^^^^^^^^^^^^^^^^^^
+
+You can filter the :guilabel:`Connections` list to only display your
+currently active connections by clicking the filter icon to the right
+of the active connections search bar and toggling 
+"Show only active connections" on:
+
+.. figure:: /images/compass/filter-connections.png
+   :figwidth: 750px
+   :alt: Filtered Connections Sidebar
+
 Connect to MongoDB
 ------------------
 
