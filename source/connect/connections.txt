@@ -21,7 +21,7 @@ The :guilabel:`Connections Sidebar` on the left of the Compass window
 contains the following options:
 
 - :icon-lg:`Plus` icon to add new connections
-- :icon-fa5:`ellipsis-h` icon to import and export connections
+- :icon-fa5:`ellipsis-v` icon to import and export connections
 - Search bar to search active connections
 - :guilabel:`Connections` list
 
@@ -88,7 +88,7 @@ Connection Options
 ------------------
 
 To see connection options, hover over the name of the connection in the
-:guilabel:`Connections` list. Then, click on the :icon-fa5:`ellipsis-v`
+:guilabel:`Connections` list. Then, click on the :icon-fa5:`ellipsis-h`
 icon to open a menu with the following items:
 
 - View :ref:`performance metrics <performance-tab>`
