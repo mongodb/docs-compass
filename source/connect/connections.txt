@@ -25,7 +25,7 @@ contains the following options:
 - Search bar to search active connections
 - :guilabel:`Connections` list
 
-.. figure:: /images/compass/connections-sidebar.png
+.. figure:: /images/compass/connection-sidebar.png
    :figwidth: 750px
    :alt: Connections Sidebar
 
