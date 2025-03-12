@@ -116,7 +116,7 @@ To specify connection options in your connection string, use the following forma
 
 .. code-block::
 
-   mongodb-compass "mongodb://username:password@hostname:port/database?ssl=true&replicaSet=myReplicaSet"
+   mongodb-compass 'mongodb://username:password@hostname:port/database?ssl=true&replicaSet=myReplicaSet'
 
 For more inline connection string options, see :ref:`connections-connection-options`.
 
@@ -145,17 +145,18 @@ For more command line argument connection options, see :ref:`comp-command-line-c
 Connection String Examples
 --------------------------
 
-The following examples highlight some commonly misunderstand advanced connection
+The following examples highlight some commonly misunderstood advanced connection
 string options, particularly when connecting to Compass. For information on 
 all connection string options, see :ref:`connections-connection-options`.  
 
 TLS Options
 ~~~~~~~~~~~
 
-The following connection string enables TLS using the ``tls`` URI option. When
-specifying TLS/SSL certificates in your connection string, you must specify the ``tlsCAFile``
-as the path to the Certificate Authority file, URL-encoded, and the ``tlsCertificateKeyFile``
-as the path to the combined server certificate and private key file, URL-encoded.
+The following connection string enables TLS using the ``tls`` URI option. 
+``tlsCertificateKeyFile`` specifies the path to the client certificate and 
+private key. Specifying the ``tlsCertificateKeyFile`` in your connection string
+is optional, unless the server requires client certificates, or if 
+you are using X.509 authentication.
 
 .. code-block:: 
 
@@ -193,7 +194,7 @@ to indicate that the authentication database is ``$external``.
 
 .. code-block:: 
 
-   mongodb://myDatabaseUser:D1fficultP%40ssw0rd@db3.example.com/?authMechanism=GSSAPI&authSource=$external
+   mongodb://myDatabaseUser@db3.example.com/?authMechanism=GSSAPI&authSource=$external
 
 Read/Write Preferences
 ~~~~~~~~~~~~~~~~~~~~~~
