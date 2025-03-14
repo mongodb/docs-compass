@@ -118,7 +118,7 @@ To specify connection options in your connection string, use the following forma
 
    mongodb-compass 'mongodb://username:password@hostname:port/database?ssl=true&replicaSet=myReplicaSet'
 
-For more inline connection string options, see :ref:`connections-connection-options`.
+For more connection string options, see :ref:`connections-connection-options`.
 
 To specify connection options as command line arguments, use the following format:
 
@@ -145,9 +145,8 @@ For more command line argument connection options, see :ref:`comp-command-line-c
 Connection String Examples
 --------------------------
 
-The following examples highlight some commonly misunderstood advanced connection
-string options, particularly when connecting to Compass. For information on 
-all connection string options, see :ref:`connections-connection-options`.  
+The following examples highlight some advanced connection string options.
+For information on all connection string options, see :ref:`connections-connection-options`.  
 
 TLS Options
 ~~~~~~~~~~~
@@ -202,14 +201,14 @@ Read/Write Preferences
 To enable read/write preferences in your connection string, you can use the 
 ``readPreference`` option for read preferences and the ``w`` option for write concerns.
 
-The following connection string sets both read and write preferences:
+The following connection string sets both read and write preferences. 
+``readPreference=secondary`` specifies that read operations should be directed to secondary 
+members of the replica set, and ``w=majority`` ensures that write operations are 
+acknowledged by the majority of the replica set members.
 
 .. code-block::
 
    mongodb://myDatabaseUser:D1fficultP%40ssw0rd@db4.example.com/database?readPreference=secondary&w=majority
-
-In the preceding example, ``readPreference=secondary`` specifies that read operations should be directed to secondary members of the replica set
-using, and ``w=majority`` ensures that write operations are acknowledged by the majority of the replica set members.
 
 Analytic Nodes
 ~~~~~~~~~~~~~~
