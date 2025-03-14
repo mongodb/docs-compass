@@ -171,13 +171,13 @@ using the :urioption:`authMechanism` connection string option:
 
 .. code-block:: 
 
-   mongodb://myDatabaseUser:D1fficultP%40ssw0rd@db1.example.com/?authMechanism=MONGODB-X509&tls=true&tlsCertificateKeyFile=%2Fpath%2Fto%2Fclient_certificate.pem
+   mongodb://myDatabaseUser:D1fficultP%40ssw0rd@db1.example.com/?authMechanism=MONGODB-X509&tls=true&tlsCertificateKeyFile=/path/to/client_certificate.pem
 
 LDAP
 ~~~~
 
 The following example specifies LDAP authentication. It sets :urioption:`authMechanism` to ``plain`` 
-to specify the use of the LDAP authentication mechanism, and sets ``authSource`` to ``$external``
+to specify the use of the LDAP authentication mechanism and sets ``authSource`` to ``$external``
 to indicate that the authentication database is ``$external``.
 
 .. code-block:: 
@@ -188,7 +188,7 @@ Kerberos
 ~~~~~~~~
 
 The following example specifies Kerberos authentication. It sets :urioption:`authMechanism` to
-``GSSAPI`` to use the Kerberos authentication mechanism, and sets ``authSource`` to ``$external``
+``GSSAPI`` to use the Kerberos authentication mechanism and sets ``authSource`` to ``$external``
 to indicate that the authentication database is ``$external``.
 
 .. code-block:: 
@@ -203,7 +203,7 @@ To enable read/write preferences in your connection string, you can use the
 
 The following connection string sets both read and write preferences. 
 ``readPreference=secondary`` specifies that read operations should be directed to secondary 
-members of the replica set, and ``w=majority`` ensures that write operations are 
+members of the replica set and ``w=majority`` ensures that write operations are 
 acknowledged by the majority of the replica set members.
 
 .. code-block::
@@ -213,10 +213,12 @@ acknowledged by the majority of the replica set members.
 Analytic Nodes
 ~~~~~~~~~~~~~~
 
-To specify an ``analytics`` node type in your connection string, set your ``readPreference`` to
-``secondary`` to specify that the read operations should be directed to secondary nodes, then
-set ``readPreferenceTags`` to ``nodeType:ANALYTICS`` to ensure that the read operations 
-are directed specifically to the analytic nodes. 
+To specify an ``analytics`` node type in your connection string: 
+
+- Set your ``readPreference`` to ``secondary`` to specify that the read operations 
+  should be directed to secondary nodes.
+- Set ``readPreferenceTags`` to ``nodeType:ANALYTICS`` to ensure that the read operations 
+  are directed specifically to the analytic nodes. 
 
 The following connection string demonstrates how to specify an ``analytics`` node type in your
 connection string: 
