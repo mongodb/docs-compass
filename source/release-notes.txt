@@ -13,7 +13,7 @@ Release Notes
 |compass| 1.45.4
 ----------------
 
-*Released March 8, 2025*
+*Released March 10, 2025*
 
 New Features:
 
