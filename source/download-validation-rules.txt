@@ -1,0 +1,46 @@
+.. _compass-download-validation-rules:
+
+=========================
+Download Validation Rules
+=========================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. include:: /includes/validation-task-intro.rst
+
+Steps
+-----
+
+.. procedure:: 
+   :style: normal
+
+   .. step:: Save the JSON validation rules
+
+      To save the validationr rules, hover over the JSON validation 
+      schema code and `ctrl`+`click`.
+
+      .. figure:: /images/compass/add-rules.png
+         :figwidth: 720px
+         :alt: Save rules
+
+   .. step:: Save the file
+
+      Save the file to the desired location on your filesystem.
+
+      .. figure:: /images/compass/download-modal.png
+         :figwidth: 400px
+         :alt: Download modal
+
+Learn More
+~~~~~~~~~~
+
+- :ref:`<compass-validation>`
+- :ref:`<compass-generate-validation-rules>`
+- :ref:`<compass-add-validation-rules>`
+- :ref:`<compass-edit-validation-rules>`
