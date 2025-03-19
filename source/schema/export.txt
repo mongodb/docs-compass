@@ -29,7 +29,7 @@ Once your schema has been analyzed, export your schema.
 1. Click :guilabel:`Export Schema`.
 
    .. figure:: /images/compass/export-schema-button.png
-      :alt: Image showing Export Schema button`
+      :alt: Image showing Export Schema button
 
    The :guilabel:`Export Schema` button appears in the top-left corner
    of the viewport.
@@ -37,9 +37,8 @@ Once your schema has been analyzed, export your schema.
 #. In the **Export JSON Schema** modal, select the format to export to.
 
    .. figure:: /images/compass/export-modal.png
-      :alt: Image showing Collection dropdown
-      :figwidth: 500px
-      :width: 400px
+      :alt: Export JSON Schema modal
+      :figwidth: 550px
 
    You can export your schema to the following formats:
 
@@ -58,6 +57,8 @@ Standard Format Schema Object Properties
 
 .. include:: /includes/schema-export-format-standard.rst
 
+.. include:: /includes/addl-json-fields.rst
+
 .. _export-format-mongodb:
 
 MongoDB Format Schema Object Properties
@@ -65,12 +66,16 @@ MongoDB Format Schema Object Properties
 
 .. include:: /includes/schema-export-format-mongodb.rst
 
+.. include:: /includes/addl-json-fields.rst
+
 .. _export-format-expanded:
 
 Expanded Format Schema Object Properties
 ----------------------------------------
 
 .. include:: /includes/schema-export-format-expanded.rst
+
+.. include:: /includes/addl-json-fields.rst
 
 Example Schema
 --------------
@@ -127,7 +132,7 @@ The example above outputs the following schema:
       :tabid: standard-export-format
    
       .. include:: /includes/export-output-standard.rst
-      
+ 
    .. tab:: MongoDB Export Format
       :tabid: mongodb-export-format
 

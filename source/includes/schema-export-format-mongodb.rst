@@ -18,17 +18,8 @@ MongoDB format schema objects contain the following fields:
 
    * - ``properties``
      - document
-     - Properties for each field, such as ``bsonType`` and 
-       ``description``.
- 
-   * - ``properties.<field>.bsonType``
-     - string
-     - The |bson| data type of the ``<field>``.
+     - Properties for each field, such as ``bsonType``.
 
-   * - ``properties.<field>.description``
-     - string
-     - Human-readable description of the ``<field>``. 
-
-   * - ``properties.<field>.items.bsonType``
+   * - ``items``
      - document
-     - Type of elements in array fields. 
+     - Metadata about elements in array fields.

@@ -10,30 +10,23 @@ Standard format schema objects contain the following fields:
 
    * - ``type``
      - string or array
-     - |bson| type of this data type. For details, see the `official JSON 
+     - JSON type of this data type. For details, see the `official JSON 
        docs <https://json-schema.org/draft/2020-12/json-schema-validation#name-type>`_.
 
    * - ``required``
-     - string or array
+     - array of strings
      - Fields that must appear in the schema. For details, see the 
        `official JSON docs <https://json-schema.org/draft/2020-12/json-schema-validation#name-required>`_.
 
    * - ``properties``
      - document
-     - Properties for each field, such as ``type`` and ``description``.
-       For details, see the `official JSON docs 
+     - Properties for each field. Each subdocument may contain fields 
+       like ``type``. For details, see the `official JSON docs 
        <https://json-schema.org/draft/2020-12/json-schema-core#section-10.3.2.1>`_.
  
-   * - ``properties.<field>.type``
-     - string
-     - The data type of the ``<field>``.
-
-   * - ``properties.<field>.description``
-     - string
-     - Human-readable description of the ``<field>``. 
-
-   * - ``properties.<field>.items``
+   * - ``items``
      - document
-     - Types of elements in array fields. For details, see the `official
+     - Metadata about elements in array fields. Each subdocument may contain
+       fields like ``type``. For details, see the `official
        JSON docs <https://json-schema.org/draft/2020-12/json-schema-core#section-10.3.1.2>`_.
 

@@ -20,20 +20,20 @@ Expanded format schema objects contain the following fields:
      - document
      - Document containing metadata about the field.
 
-   * - ``x-metadata.hasDuplicates``
+   * - ``hasDuplicates``
      - boolean
-     - ``true`` if a single value of this data type appears multiple 
-       times in the corresponding field. Otherwise ``false``.
+     - ``true`` if a single value appears multiple times in this
+       field. Otherwise ``false``.
 
-   * - ``x-metadata.probability``
+   * - ``probability``
      - float
-     - Probability that the value of the corresponding field is this 
-       data type in a random document.
+     - Probability that the field exists in a random document.
 
-   * - ``x-metadata.count``
+   * - ``count``
      - integer
-     -  Number of documents sampled from the collection.
+     - Number of documents from the sample that have this field.
 
    * - ``x-sampleValues``
      - array
-     - Sample values as Expanded JSON.
+     - Sample values as Expanded JSON. Sample values are limited to
+       the first 100 characters.
