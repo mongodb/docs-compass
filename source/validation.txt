@@ -179,7 +179,6 @@ Get Started
 - :ref:`<compass-generate-validation-rules>`
 - :ref:`<compass-add-validation-rules>`
 - :ref:`<compass-edit-validation-rules>`
-- :ref:`<compass-download-validation-rules>`
 
 Limitations
 -----------
