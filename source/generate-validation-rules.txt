@@ -28,6 +28,12 @@ Steps
          :figwidth: 720px
          :alt: Validation view
 
+   .. step: Inspect the rules
+
+      These rules will be enforced on updates and inserts to your 
+      collection. Make sure to carefully review the generated rules 
+      before applying them.
+
    .. step:: Apply rules
 
       To apply the validation rules, click :guilabel:`Apply`. To go back,

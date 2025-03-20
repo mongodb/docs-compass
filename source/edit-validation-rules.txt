@@ -31,7 +31,8 @@ Steps
    .. step:: Make your edits
 
       To edit the schema validation rules, click in the code block
-      that the validation rules appear in.
+      that the validation rules appear in. Confirm your schema appears
+      as expected.
 
    .. step:: Apply rules
 
