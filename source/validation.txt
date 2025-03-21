@@ -186,6 +186,10 @@ Limitations
 The :guilabel:`Validation` tab is not available if you are connected to
 :atlas:`Atlas Data Federation </data-federation>`.
 
+Compass cannot export a schema that has more than 1000 distinct fields. 
+If you try to export a schema with more than 1000 distinct fields,      
+Compass returns an error.  
+
 .. BEGIN-COMPASS-ONLY
 
 In :guilabel:`MongoDB Compass Readonly Edition`, you can
