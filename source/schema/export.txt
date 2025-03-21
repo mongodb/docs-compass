@@ -77,6 +77,13 @@ Expanded Format Schema Object Properties
 
 .. include:: /includes/addl-json-fields.rst
 
+Limitations
+-----------
+
+Compass cannot export a schema that has more than 1000 distinct fields.
+If you try to export a schema with more than 1000 distinct fields, 
+Compass returns an error.
+
 Example Schema
 --------------
 
@@ -144,3 +151,4 @@ The example above outputs the following schema:
       Sample values are limited to the first 100 characters.
 
       .. include:: /includes/export-output-expanded.rst
+
