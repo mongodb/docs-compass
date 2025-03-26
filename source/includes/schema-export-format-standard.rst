@@ -26,7 +26,7 @@ Standard format schema objects contain the following fields:
  
    * - ``items``
      - document
-     - Metadata about elements in array fields. Each subdocument may contain
-       fields like ``type``. For details, see the `official
+     - Metadata about elements in array fields. Metadata appears as
+       embedded subschemas. For details, see the `official
        JSON docs <https://json-schema.org/draft/2020-12/json-schema-core#section-10.3.1.2>`_.
 

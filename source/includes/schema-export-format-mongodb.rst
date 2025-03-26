@@ -18,8 +18,10 @@ MongoDB format schema objects contain the following fields:
 
    * - ``properties``
      - document
-     - Properties for each field, such as ``bsonType``.
+     - Properties for each field. Keys are property names and values are
+       subschemas. 
 
    * - ``items``
      - document
-     - Metadata about elements in array fields.
+     - Metadata about elements in array fields. Metadata appears as
+       embedded subschemas. 
