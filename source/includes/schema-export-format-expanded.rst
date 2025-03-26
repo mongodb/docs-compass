@@ -1,4 +1,5 @@
-Expanded format schema objects contain the following fields:
+Expanded format schema objects contain these fields in addition to the 
+Standard Schema fields:
 
 .. list-table::
    :header-rows: 1
@@ -7,10 +8,6 @@ Expanded format schema objects contain the following fields:
    * - Property
      - Data type
      - Description
-
-   * - ``type``
-     - string
-     - Data type of the field.
 
    * - ``x-bsonType``
      - string or array

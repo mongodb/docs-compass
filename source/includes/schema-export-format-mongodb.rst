@@ -9,11 +9,11 @@ MongoDB format schema objects contain the following fields:
      - Description
 
    * - ``bsonType``
-     - string 
+     - string or array of strings
      - |bson| type of this field.
 
    * - ``required``
-     - string or array
+     - string or array of strings
      - Fields that must appear in the schema. 
 
    * - ``properties``

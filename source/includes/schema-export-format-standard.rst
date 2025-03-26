@@ -19,9 +19,9 @@ Standard format schema objects contain the following fields:
        `official JSON docs <https://json-schema.org/draft/2020-12/json-schema-validation#name-required>`_.
 
    * - ``properties``
-     - document
-     - Properties for each field. Each subdocument may contain fields 
-       like ``type``. For details, see the `official JSON docs 
+     - object
+     - Properties for each field. Keys are property names and values are
+       subschemas. For details, see the `official JSON docs 
        <https://json-schema.org/draft/2020-12/json-schema-core#section-10.3.2.1>`_.
  
    * - ``items``
