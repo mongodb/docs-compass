@@ -34,8 +34,8 @@ Validation Rules
 ----------------
 
 The validation editor supports :ref:`JSON Schema validation
-<json-schema-validation>`, and :ref:validation with query
-expressions using :ref:`<query-operator-validation>`.
+<json-schema-validation>`, and validation with query expressions using
+:ref:`<query-operator-validation>`.
 
 .. _json-schema-validation:
 
