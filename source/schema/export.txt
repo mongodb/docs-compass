@@ -13,42 +13,54 @@ Export Your Schema
 You can export your schema after analyzing it. This is useful for 
 sharing your schema and comparing schemas across collections.
 
+Before you Begin
+----------------
+
 If you have not already done so, analyze your schema:
 
-1. Select your desired collection and click the :guilabel:`Schema` tab.
+.. procedure::
+   :style: normal
 
-#. Click :guilabel:`Analyze Schema`.
+   .. step:: Select your desired collection and click the :guilabel:`Schema` tab.
 
-.. note::
-   When |compass-short| analyzes your schema, it samples a random 
-   subset of documents from your collection. To learn more about 
-   sampling, see :ref:`Sampling <compass-sampling>`.
+   .. step:: Click :guilabel:`Analyze Schema`.
 
-Once your schema has been analyzed, export your schema. 
+      When |compass-short| analyzes your schema, it samples a random 
+      subset of documents from your collection. To learn more about 
+      sampling, see :ref:`Sampling <compass-sampling>`.
 
-1. Click :guilabel:`Export Schema`.
+Once your schema has been analyzed, use the following procedure to
+export your schema. 
 
-   .. figure:: /images/compass/export-schema-button.png
-      :alt: Image showing Export Schema button
+Steps
+-----
 
-   The :guilabel:`Export Schema` button appears in the top-left corner
-   of the viewport.
+.. procedure::
+   :style: normal
 
-#. In the **Export JSON Schema** modal, select the format to export to.
+   .. step:: Click :guilabel:`Export Schema`.
 
-   .. figure:: /images/compass/export-modal.png
-      :alt: Export JSON Schema modal
-      :figwidth: 550px
+      .. figure:: /images/compass/export-schema-button.png
+         :alt: Image showing Export Schema button
 
-   You can export your schema to the following formats:
+      The :guilabel:`Export Schema` button appears in the top-left corner
+      of the viewport.
 
-   - :ref:`Standard <export-format-standard>` format.
-   - :ref:`MongoDB <export-format-mongodb>` format.
-   - :ref:`Expanded <export-format-expanded>` format.
+   .. step:: In the **Export JSON Schema** modal, select the format to export to.
 
-#. Save your schema.
+      .. figure:: /images/compass/export-modal.png
+         :alt: Export JSON Schema modal
+         :figwidth: 550px
 
-   Select the location on your filesystem to save your schema to.
+      You can export your schema to the following formats:
+
+      - :ref:`Standard <export-format-standard>` format
+      - :ref:`MongoDB <export-format-mongodb>` format
+      - :ref:`Expanded <export-format-expanded>` format
+
+   .. step:: Save your schema.
+
+      Select the location on your filesystem to save your schema to.
 
 .. _export-format-standard:
 
@@ -80,9 +92,9 @@ Expanded Format Schema Object Properties
 Limitations
 -----------
 
-Compass cannot export a schema that has more than 1000 distinct fields.
-If you try to export a schema with more than 1000 distinct fields, 
-Compass returns an error.
+|compass-short| cannot export a schema that has more than 1000 distinct 
+fields. If you try to export a schema with more than 1000 distinct 
+fields, |compass-short| returns an error.
 
 Example Schema
 --------------
@@ -118,18 +130,25 @@ with a ``title`` field and unique information about that movie:
 You can import the above example to |compass| to experiment with schema 
 outputs. To import the example collection into |compass|:
 
-1. :guilabel:`Copy` the JSON documents above.
+.. procedure::
+   :style: normal
+   
+   .. step:: :guilabel:`Copy` the JSON documents above.
 
-#. In |compass|, select a collection or create a new collection to 
-   import the copied documents to. The :guilabel:`Documents` tab 
-   displays.
+   .. step:: Select a collection. 
 
-#. Click :guilabel:`Add Data`.
+      In |compass|, select a collection or create a new collection to 
+      import the copied documents to. The :guilabel:`Documents` tab 
+      displays.
 
-#. Select :guilabel:`Insert Document` from the dropdown.
+   .. step:: Click :guilabel:`Add Data`.
 
-#. In the JSON view of the dialog, paste the copied documents and click 
-   :guilabel:`Insert`.
+   .. step:: Select :guilabel:`Insert Document` from the dropdown.
+
+   .. step:: Paste the documents.
+
+      In the JSON view of the dialog, paste the copied documents and click 
+      :guilabel:`Insert`.
 
 The example above outputs the following schema:
 
