@@ -51,7 +51,7 @@ supports various keywords to specify validation rules. For example:
 - The ``properties`` object defines rules for specific document
   fields.
 
-To generate a JSON schema for your collection, see 
+To generate a JSON schema by analyzing existing sample data, see 
 :ref:`<compass-generate-validation-rules>`.
 
 Example
@@ -186,8 +186,8 @@ Limitations
 The :guilabel:`Validation` tab is not available if you are connected to
 :atlas:`Atlas Data Federation </data-federation>`.
 
-Compass cannot export a schema that has more than 1000 distinct fields. 
-If you try to export a schema with more than 1000 distinct fields,      
+Compass cannot validate a schema that has more than 1000 distinct fields. 
+If you try to validate a schema with more than 1000 distinct fields,      
 Compass returns an error.  
 
 .. BEGIN-COMPASS-ONLY
