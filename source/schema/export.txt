@@ -21,9 +21,13 @@ If you have not already done so, analyze your schema:
 .. procedure::
    :style: normal
 
-   .. step:: Select your desired collection and click the :guilabel:`Schema` tab.
+   .. step:: Select the collection.
 
-   .. step:: Click :guilabel:`Analyze Schema`.
+      Select your desired collection and click the :guilabel:`Schema` tab.
+
+   .. step:: Analyze the schema.
+
+      Click :guilabel:`Analyze Schema`.
 
       When |compass-short| analyzes your schema, it samples a random 
       subset of documents from your collection. To learn more about 
@@ -46,7 +50,10 @@ Steps
       The :guilabel:`Export Schema` button appears in the top-left corner
       of the viewport.
 
-   .. step:: In the **Export JSON Schema** modal, select the format to export to.
+   .. step:: Select the export format.
+
+      In the :guilabel:`Export JSON Schema` modal, select the format to 
+      export to.
 
       .. figure:: /images/compass/export-modal.png
          :alt: Export JSON Schema modal
@@ -101,7 +108,9 @@ Example Schema
 
 The following example uses a collection of 3 documents, each 
 with a ``title`` field and unique information about that movie:
-    
+
+.. _compass-example-schema-to-copy:
+
 .. code-block:: json
    :linenos:
    :copyable: true
@@ -133,7 +142,9 @@ outputs. To import the example collection into |compass|:
 .. procedure::
    :style: normal
    
-   .. step:: :guilabel:`Copy` the JSON documents above.
+   .. step:: Copy the JSON documents to your clipboard.
+
+      Copy the above :ref:`JSON documents <compass-example-schema-to-copy>`.
 
    .. step:: Select a collection. 
 
