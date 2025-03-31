@@ -42,10 +42,9 @@ The validation editor supports :ref:`JSON Schema validation
 JSON Schema Validation
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The validation editor supports :manual:`JSON Schema validation
-</core/schema-validation/#json-schema>`. The 
-:manual:`$jsonSchema </reference/operator/query/jsonSchema>` operator 
-supports various keywords to specify validation rules. For example:
+The :manual:`$jsonSchema </reference/operator/query/jsonSchema>` 
+operator supports various keywords to specify validation rules. For 
+example:
 
 - The ``required`` array defines required fields in your document.
 - The ``properties`` object defines rules for specific document
@@ -186,9 +185,9 @@ Limitations
 The :guilabel:`Validation` tab is not available if you are connected to
 :atlas:`Atlas Data Federation </data-federation>`.
 
-Compass cannot validate a schema that has more than 1000 distinct fields. 
-If you try to validate a schema with more than 1000 distinct fields,      
-Compass returns an error.  
+|compass-short| cannot validate a schema that has more than 1000 
+distinct fields. If you try to validate a schema with more than 1000 
+distinct fields, |compass-short| returns an error.
 
 .. BEGIN-COMPASS-ONLY
 
