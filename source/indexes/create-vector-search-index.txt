@@ -53,9 +53,10 @@ Steps
 
    .. step:: Provide the Atlas Vector Search Index configurations
 
-      You must initially provide the following default vector search index 
-      configurations. You can modify the configurations later. To learn more, 
-      see :ref:`avs-types-vector-search-options`.
+      You must provide all required fields for your vector search index 
+      configuration. You can modify the configurations later. 
+      For more information on required fields in vector search 
+      index configurations, see :ref:`avs-types-vector-search-options`.
 
    .. step:: Click :guilabel:`Create Search Index`
 
