@@ -55,8 +55,8 @@ Steps
 
       You must provide all required fields for your vector search index 
       configuration. You can modify the configurations later. 
-      For more information on required fields in vector search 
-      index configurations, see :ref:`avs-types-vector-search-options`.
+      For more information on required fields in vector search index 
+      configurations, see :ref:`avs-types-vector-search-options`.
 
    .. step:: Click :guilabel:`Create Search Index`
 
