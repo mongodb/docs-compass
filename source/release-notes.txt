@@ -25,7 +25,7 @@ New Features:
 Bug Fixes:
 
 - Account for pagination in expanded table view (:issue:`COMPASS-9161`)
-- No 0 count for ``bulkDelete`` count (:issue:`COMPASS-8603`)
+- No 0 default for ``bulkDelete`` count (:issue:`COMPASS-8603`)
 - Fix tooltip triggers in indexes plugin (:issue:`COMPASS-8449`)
 - Fix the shortcuts on Windows to be the app name, not executable name (:issue:`COMPASS-8367`)
 
