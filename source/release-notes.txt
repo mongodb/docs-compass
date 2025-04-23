@@ -16,7 +16,7 @@ Release Notes
 |compass| 1.46.1
 ----------------
 
-.. *RELEASE DATE*
+*Released April 23, 2025*
 
 New Features:
 
