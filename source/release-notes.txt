@@ -33,7 +33,7 @@ Bug Fixes:
   isolated mode (:issue:`COMPASS-8166`)
 
 `Full Changelog available on Github
-<https://github.com/mongodb-js/compass/compare/v1.46.1...v1.46.2>`__
+<https://github.com/mongodb-js/compass/compare/v1.46.1...v1.46.2-beta.2>`__
 
 |compass| 1.46.1
 ----------------
