@@ -29,8 +29,7 @@ New Features:
 
 Bug Fixes:
 
-- Disable spellcheck before creating the window to prevent network traffic in
-  isolated mode (:issue:`COMPASS-8166`)
+- Disable spellcheck to prevent network traffic in isolated mode (:issue:`COMPASS-8166`)
 
 `Full Changelog available on Github
 <https://github.com/mongodb-js/compass/compare/v1.46.1...v1.46.2>`__
